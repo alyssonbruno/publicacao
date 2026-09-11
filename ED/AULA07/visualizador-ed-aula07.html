@@ -102,8 +102,10 @@
     background: var(--papel); border: 1px solid var(--linha); border-radius: 16px;
     padding: 20px 16px 16px; box-shadow: var(--sombra);
   }
-  .barras { display: flex; align-items: flex-end; justify-content: center; gap: clamp(5px, 2vw, 12px); height: 190px; }
-  .col { flex: 1 1 0; max-width: 62px; display: flex; flex-direction: column; align-items: center; gap: 7px; }
+  .barras { display: flex; align-items: stretch; justify-content: center;
+            gap: clamp(5px, 2vw, 12px); height: 190px; }
+  .col { flex: 1 1 0; max-width: 62px; display: flex; flex-direction: column;
+         align-items: center; justify-content: flex-end; gap: 7px; height: 100%; }
   .barra {
     width: 100%; border-radius: 6px 6px 3px 3px;
     background: var(--linha); border: 2px solid transparent;
@@ -198,6 +200,81 @@
     border-top: 1px solid var(--linha); padding-top: 16px;
     font-size: .84rem; color: var(--tinta-fraca);
   }
+
+  /* =========================================================
+     Tela da sala: a partir de telas largas o código vai para o lado
+     do desenho, para a barra e a linha que está executando ficarem
+     visíveis ao mesmo tempo — e tudo cabe sem rolar, para os controles
+     ficarem à mão durante a aula. No celular nada disso vale.
+     ========================================================= */
+  @media (min-width: 940px) {
+    body { padding-block: 14px 20px; }
+
+    .folha {
+      max-width: 1340px;
+      display: grid;
+      align-content: start;
+      column-gap: 28px;
+      row-gap: 12px;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      grid-template-areas:
+        "cabecalho cabecalho"
+        "abas      tcodigo"
+        "palco     codigo"
+        "controles codigo"
+        "legenda   ncodigo"
+        ".         tentradas"
+        ".         entradas"
+        ".         dica"
+        "rodape    rodape";
+    }
+    .folha > header           { grid-area: cabecalho; }
+    .folha > .abas            { grid-area: abas; }
+    .folha > .palco           { grid-area: palco; }
+    .folha > .bloco-controles { grid-area: controles; }
+    .folha > .legenda         { grid-area: legenda; align-self: start; }
+    .folha > .t-codigo        { grid-area: tcodigo; align-self: end; }
+    .folha > .codigo          { grid-area: codigo; }
+    .folha > .nota-codigo     { grid-area: ncodigo; align-self: start; }
+    .folha > .t-entradas      { grid-area: tentradas; align-self: end; }
+    .folha > .entradas        { grid-area: entradas; }
+    .folha > #dica-preset     { grid-area: dica; align-self: start; }
+    .folha > footer           { grid-area: rodape; }
+
+    h2 { margin: 0; }
+
+    /* cabeçalho enxuto: na sala o tempo de tela é do desenho */
+    h1 { font-size: 2.1rem; }
+    .subtitulo { font-size: .95rem; margin-top: 4px; max-width: none; }
+
+    /* o desenho é o herói, mas limitado pela altura da tela */
+    .barras { height: min(300px, 24vh); }
+    .col { max-width: 104px; }
+    .valor { font-size: 1.25rem; }
+    .narracao { font-size: 1.3rem; min-height: 2.4em; margin-top: 14px; }
+    .placar dd { font-size: 1.6rem; }
+    .controles button { min-height: 58px; font-size: 1.05rem; }
+    .legenda { font-size: .95rem; }
+
+    /* o bloco de código ocupa a altura da coluna e cabe sem rolagem lateral */
+    .codigo { display: flex; align-items: flex-start; padding: 18px 0; }
+    .codigo pre { font-size: .9rem; line-height: 1.75; }
+  }
+
+  /* Projetor e TV da sala: mais um degrau de tamanho. */
+  @media (min-width: 1400px) {
+    .folha { max-width: 1560px; }
+    h1 { font-size: 2.6rem; }
+    .barras { height: min(420px, 32vh); }
+    .col { max-width: 128px; }
+    .valor { font-size: 1.5rem; }
+    .narracao { font-size: 1.55rem; }
+    .placar dt { font-size: .76rem; }
+    .placar dd { font-size: 2rem; }
+    .codigo pre { font-size: 1.02rem; }
+    .abas button { font-size: 1.1rem; min-height: 56px; }
+  }
+
 </style>
 
 <div class="folha">
@@ -224,7 +301,7 @@
     </dl>
   </section>
 
-  <div>
+  <div class="bloco-controles">
     <div class="controles">
       <button id="anterior" type="button">◀</button>
       <button id="proximo" type="button">Próximo passo</button>
@@ -244,11 +321,11 @@
     <span><i class="chave" style="background:var(--linha)"></i> ainda fora de ordem</span>
   </div>
 
-  <h2>O código que está rodando</h2>
+  <h2 class="t-codigo">O código que está rodando</h2>
   <div class="codigo"><pre id="codigo"></pre></div>
-  <p class="nota">É o mesmo código da apresentação da aula. O arquivo pronto para colar no JDoodle está em <code>AULA07/src/OrdenacaoDemo.java</code>.</p>
+  <p class="nota nota-codigo">É o mesmo código da apresentação da aula. O arquivo pronto para colar no JDoodle está em <code>AULA07/src/OrdenacaoDemo.java</code>.</p>
 
-  <h2>Experimente com outro vetor</h2>
+  <h2 class="t-entradas">Experimente com outro vetor</h2>
   <div class="entradas" id="entradas">
     <button type="button" data-preset="aula"     aria-pressed="true">Vetor da aula</button>
     <button type="button" data-preset="ordenado" aria-pressed="false">Já ordenado</button>
@@ -567,7 +644,10 @@
     for (i = 0; i < p.v.length; i++) {
       var c = elBarras.children[i];
       c.setAttribute("data-estado", p.estados[i] || "");
-      c.firstChild.style.height = (28 + (p.v[i] / maior) * 122) + "px";
+      // proporção da altura do palco, descontando o rótulo e o espaço abaixo da barra,
+      // para o desenho crescer junto com a tela na apresentação
+      var fatia = 0.18 + (p.v[i] / maior) * 0.82;
+      c.firstChild.style.height = "calc((100% - 34px) * " + fatia.toFixed(4) + ")";
       c.lastChild.textContent = p.v[i];
     }
 
