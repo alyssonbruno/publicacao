@@ -1,0 +1,662 @@
+<title>Ordenação Passo a Passo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;700&display=swap">
+
+<style>
+  :root {
+    --laranja:   #e67e22;
+    --laranja-f: #b8601a;
+    --azul:      #2563eb;
+    --tijolo:    #c0392b;
+    --sobre-laranja: #ffffff;
+
+    --fundo:      #faf7f3;
+    --papel:      #ffffff;
+    --tinta:      #211c17;
+    --tinta-fraca:#6b6055;
+    --linha:      #e3dbd1;
+    --codigo-bg:  #2b241d;
+    --codigo-tx:  #efe6da;
+    --codigo-cmt: #a8998a;
+    --marca:      rgba(230, 126, 34, 0.22);
+    --sombra:     0 1px 2px rgba(33, 28, 23, .06), 0 6px 18px rgba(33, 28, 23, .07);
+
+    --display: "Bricolage Grotesque", "Trebuchet MS", sans-serif;
+    --corpo:   "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+    --mono:    "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fundo:      #17140f;
+      --papel:      #221d17;
+      --tinta:      #f2ece3;
+      --tinta-fraca:#a89a89;
+      --linha:      #3a322a;
+      --codigo-bg:  #100e0b;
+      --codigo-tx:  #efe6da;
+      --codigo-cmt: #8d8073;
+      --laranja:    #f2903a;
+      --laranja-f:  #ffb06b;
+      --azul:       #6b9bff;
+      --tijolo:     #e2674f;
+      --marca:      rgba(242, 144, 58, 0.26);
+      --sobre-laranja: #17140f;
+      --sombra:     0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --fundo:      #17140f;
+    --papel:      #221d17;
+    --tinta:      #f2ece3;
+    --tinta-fraca:#a89a89;
+    --linha:      #3a322a;
+    --codigo-bg:  #100e0b;
+    --codigo-tx:  #efe6da;
+    --codigo-cmt: #8d8073;
+    --laranja:    #f2903a;
+    --laranja-f:  #ffb06b;
+    --azul:       #6b9bff;
+    --tijolo:     #e2674f;
+    --marca:      rgba(242, 144, 58, 0.26);
+    --sobre-laranja: #17140f;
+    --sombra:     0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+  }
+
+  body {
+    background: var(--fundo);
+    color: var(--tinta);
+    font-family: var(--corpo);
+    font-size: 17px;
+    line-height: 1.55;
+    padding-inline: 18px;
+    padding-block: 28px 56px;
+  }
+  .folha { max-width: 620px; margin-inline: auto; display: flex; flex-direction: column; gap: 22px; }
+
+  /* ---------- cabeçalho ---------- */
+  .eyebrow {
+    font-family: var(--mono); font-size: .72rem; font-weight: 700;
+    letter-spacing: .16em; text-transform: uppercase; color: var(--laranja-f);
+  }
+  h1 {
+    font-family: var(--display); font-weight: 800; font-size: clamp(1.9rem, 8vw, 2.6rem);
+    line-height: 1.05; margin: 6px 0 0; text-wrap: balance; letter-spacing: -.015em;
+  }
+  .subtitulo { color: var(--tinta-fraca); margin: 10px 0 0; max-width: 46ch; }
+
+  /* ---------- seletor de algoritmo ---------- */
+  .abas { display: flex; gap: 6px; background: var(--papel); border: 1px solid var(--linha);
+          border-radius: 12px; padding: 5px; box-shadow: var(--sombra); }
+  .abas button {
+    flex: 1; min-height: 48px; border: 0; border-radius: 8px; cursor: pointer;
+    background: transparent; color: var(--tinta-fraca);
+    font-family: var(--display); font-weight: 600; font-size: .95rem; letter-spacing: -.01em;
+  }
+  .abas button[aria-selected="true"] { background: var(--laranja); color: var(--sobre-laranja); }
+  .abas button:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+
+  /* ---------- palco do vetor ---------- */
+  .palco {
+    background: var(--papel); border: 1px solid var(--linha); border-radius: 16px;
+    padding: 20px 16px 16px; box-shadow: var(--sombra);
+  }
+  .barras { display: flex; align-items: flex-end; justify-content: center; gap: clamp(5px, 2vw, 12px); height: 190px; }
+  .col { flex: 1 1 0; max-width: 62px; display: flex; flex-direction: column; align-items: center; gap: 7px; }
+  .barra {
+    width: 100%; border-radius: 6px 6px 3px 3px;
+    background: var(--linha); border: 2px solid transparent;
+    transition: height .18s ease, background-color .18s ease, border-color .18s ease;
+  }
+  .valor {
+    font-family: var(--mono); font-variant-numeric: tabular-nums;
+    font-size: clamp(.85rem, 3.6vw, 1.05rem); font-weight: 700; color: var(--tinta-fraca);
+  }
+  .col[data-estado="ordenado"] .barra   { background: var(--laranja); }
+  .col[data-estado="ordenado"] .valor   { color: var(--laranja-f); }
+  .col[data-estado="comparando"] .barra { background: var(--azul); }
+  .col[data-estado="comparando"] .valor { color: var(--azul); }
+  .col[data-estado="movendo"] .barra    { background: var(--tijolo); }
+  .col[data-estado="movendo"] .valor    { color: var(--tijolo); }
+  .col[data-estado="chave"] .barra      { background: var(--papel); border-color: var(--tijolo); border-style: dashed; }
+  .col[data-estado="chave"] .valor      { color: var(--tijolo); }
+
+  @media (prefers-reduced-motion: reduce) { .barra { transition: none; } }
+
+  /* ---------- narração ---------- */
+  .narracao {
+    font-family: var(--display); font-weight: 600; font-size: 1.12rem; line-height: 1.35;
+    margin: 16px 0 0; min-height: 3.1em; text-wrap: pretty;
+  }
+  .narracao b { color: var(--laranja-f); }
+  .narracao .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+  /* ---------- contadores ---------- */
+  .placar { display: flex; gap: 10px; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--linha); }
+  .placar div { flex: 1; }
+  .placar dt {
+    font-family: var(--mono); font-size: .66rem; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--tinta-fraca);
+  }
+  .placar dd {
+    margin: 2px 0 0; font-family: var(--mono); font-weight: 700;
+    font-size: 1.3rem; font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- controles ---------- */
+  .controles { display: flex; gap: 8px; }
+  .controles button {
+    min-height: 54px; border-radius: 12px; cursor: pointer; border: 1px solid var(--linha);
+    background: var(--papel); color: var(--tinta); box-shadow: var(--sombra);
+    font-family: var(--display); font-weight: 600; font-size: 1rem;
+  }
+  .controles button:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+  .controles button:disabled { opacity: .4; cursor: default; }
+  #proximo { flex: 2; background: var(--laranja); border-color: var(--laranja); color: var(--sobre-laranja); }
+  #anterior, #tocar, #reiniciar { flex: 1; }
+
+  .progresso { display: block; height: 5px; border-radius: 3px; background: var(--linha); overflow: hidden; }
+  .progresso i { display: block; height: 100%; background: var(--laranja); transition: width .18s ease; }
+  .passo-conta {
+    font-family: var(--mono); font-size: .75rem; color: var(--tinta-fraca);
+    text-align: center; margin-top: 7px; font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- legenda ---------- */
+  .legenda { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: .85rem; color: var(--tinta-fraca); }
+  .legenda span { display: inline-flex; align-items: center; gap: 7px; }
+  .chave { width: 14px; height: 14px; border-radius: 4px; flex: none; }
+
+  /* ---------- código ---------- */
+  .codigo {
+    background: var(--codigo-bg); border-radius: 14px; padding: 16px 0;
+    overflow-x: auto; box-shadow: var(--sombra);
+  }
+  .codigo pre { margin: 0; font-family: var(--mono); font-size: .82rem; line-height: 1.7; }
+  .codigo .ln { display: block; padding: 0 18px; color: var(--codigo-tx); white-space: pre; }
+  .codigo .ln.cmt { color: var(--codigo-cmt); }
+  .codigo .ln.ativa { background: var(--marca); box-shadow: inset 3px 0 0 var(--laranja); }
+
+  /* ---------- entradas ---------- */
+  .entradas { display: flex; flex-wrap: wrap; gap: 8px; }
+  .entradas button {
+    min-height: 44px; padding: 0 14px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--linha); background: var(--papel); color: var(--tinta-fraca);
+    font-family: var(--corpo); font-size: .9rem;
+  }
+  .entradas button[aria-pressed="true"] { border-color: var(--laranja); color: var(--laranja-f); font-weight: 600; }
+  .entradas button:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+
+  h2 {
+    font-family: var(--display); font-weight: 600; font-size: 1.05rem;
+    margin: 0 0 -8px; letter-spacing: -.01em;
+  }
+  .nota { font-size: .9rem; color: var(--tinta-fraca); margin: 0; }
+  .nota code { font-family: var(--mono); font-size: .85em; }
+  footer {
+    border-top: 1px solid var(--linha); padding-top: 16px;
+    font-size: .84rem; color: var(--tinta-fraca);
+  }
+</style>
+
+<div class="folha">
+
+  <header>
+    <p class="eyebrow">Estrutura de Dados · Aula 07</p>
+    <h1>Ordenação passo a passo</h1>
+    <p class="subtitulo">Toque em <b>Próximo passo</b> e acompanhe: a barra que muda de cor é o que o Java está fazendo naquela linha.</p>
+  </header>
+
+  <div class="abas" role="tablist" aria-label="Algoritmo">
+    <button role="tab" id="aba-bubble"    aria-selected="true"  data-alg="bubble">Bubble</button>
+    <button role="tab" id="aba-selection" aria-selected="false" data-alg="selection">Selection</button>
+    <button role="tab" id="aba-insertion" aria-selected="false" data-alg="insertion">Insertion</button>
+  </div>
+
+  <section class="palco" aria-live="polite">
+    <div class="barras" id="barras"></div>
+    <p class="narracao" id="narracao"></p>
+    <dl class="placar">
+      <div><dt>Comparações</dt><dd id="c-comparacoes">0</dd></div>
+      <div><dt id="rotulo-trocas">Trocas</dt><dd id="c-trocas">0</dd></div>
+      <div><dt>Passagem</dt><dd id="c-passagem">1</dd></div>
+    </dl>
+  </section>
+
+  <div>
+    <div class="controles">
+      <button id="anterior" type="button">◀</button>
+      <button id="proximo" type="button">Próximo passo</button>
+      <button id="tocar" type="button">▶ Tocar</button>
+      <button id="reiniciar" type="button">↺</button>
+    </div>
+    <div style="margin-top:12px">
+      <span class="progresso"><i id="barra-progresso" style="width:0%"></i></span>
+      <p class="passo-conta" id="passo-conta">passo 1 de 1</p>
+    </div>
+  </div>
+
+  <div class="legenda">
+    <span><i class="chave" style="background:var(--azul)"></i> comparando</span>
+    <span><i class="chave" style="background:var(--tijolo)"></i> trocando ou deslocando</span>
+    <span><i class="chave" style="background:var(--laranja)"></i> já no lugar certo</span>
+    <span><i class="chave" style="background:var(--linha)"></i> ainda fora de ordem</span>
+  </div>
+
+  <h2>O código que está rodando</h2>
+  <div class="codigo"><pre id="codigo"></pre></div>
+  <p class="nota">É o mesmo código da apresentação da aula. O arquivo pronto para colar no JDoodle está em <code>AULA07/src/OrdenacaoDemo.java</code>.</p>
+
+  <h2>Experimente com outro vetor</h2>
+  <div class="entradas" id="entradas">
+    <button type="button" data-preset="aula"     aria-pressed="true">Vetor da aula</button>
+    <button type="button" data-preset="ordenado" aria-pressed="false">Já ordenado</button>
+    <button type="button" data-preset="inverso"  aria-pressed="false">Ao contrário</button>
+    <button type="button" data-preset="sorteio"  aria-pressed="false">Sortear</button>
+  </div>
+  <p class="nota" id="dica-preset"></p>
+
+  <footer>
+    Estrutura de Dados — 3º período do Bacharelado em Sistemas de Informação — UNITINS<br>
+    Prof. Me. Alysson Martins Bruno
+  </footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ---------------------------------------------------------------
+     O código exibido. `cmt: true` pinta a linha como comentário.
+     O índice de cada linha é o que os passos usam em `linha`.
+  --------------------------------------------------------------- */
+  var CODIGO = {
+    bubble: [
+      { t: "public static void bubbleSort(int[] v) {" },
+      { t: "    int n = v.length;" },
+      { t: "    for (int i = 0; i < n - 1; i++) {" },
+      { t: "        // os últimos i elementos já estão na posição correta", cmt: true },
+      { t: "        for (int j = 0; j < n - 1 - i; j++) {" },
+      { t: "            if (v[j] > v[j + 1]) {" },
+      { t: "                int tmp = v[j];" },
+      { t: "                v[j]     = v[j + 1];" },
+      { t: "                v[j + 1] = tmp;" },
+      { t: "            }" },
+      { t: "        }" },
+      { t: "    }" },
+      { t: "}" }
+    ],
+    selection: [
+      { t: "public static void selectionSort(int[] v) {" },
+      { t: "    int n = v.length;" },
+      { t: "    for (int i = 0; i < n - 1; i++) {" },
+      { t: "        // encontra o menor no trecho v[i..n-1]", cmt: true },
+      { t: "        int minIdx = i;" },
+      { t: "        for (int j = i + 1; j < n; j++) {" },
+      { t: "            if (v[j] < v[minIdx]) minIdx = j;" },
+      { t: "        }" },
+      { t: "        if (minIdx != i) {" },
+      { t: "            int tmp = v[i]; v[i] = v[minIdx]; v[minIdx] = tmp;" },
+      { t: "        }" },
+      { t: "    }" },
+      { t: "}" }
+    ],
+    insertion: [
+      { t: "public static void insertionSort(int[] v) {" },
+      { t: "    int n = v.length;" },
+      { t: "    for (int i = 1; i < n; i++) {" },
+      { t: "        int chave = v[i]; // elemento a inserir" },
+      { t: "        int j = i - 1;" },
+      { t: "        // desloca elementos maiores que chave para a direita", cmt: true },
+      { t: "        while (j >= 0 && v[j] > chave) {" },
+      { t: "            v[j + 1] = v[j];" },
+      { t: "            j--;" },
+      { t: "        }" },
+      { t: "        v[j + 1] = chave;" },
+      { t: "    }" },
+      { t: "}" }
+    ]
+  };
+
+  var ROTULO_MOVIMENTO = { bubble: "Trocas", selection: "Trocas", insertion: "Deslocamentos" };
+
+  /* --------------------------------------------------------------- */
+
+  function n(x) { return '<span class="num">' + x + "</span>"; }
+
+  function passo(v, estados, linha, texto, comparacoes, movimentos, passagem) {
+    return {
+      v: v.slice(), estados: estados.slice(), linha: linha, texto: texto,
+      comparacoes: comparacoes, movimentos: movimentos, passagem: passagem
+    };
+  }
+
+  function vazios(tam) {
+    var e = [], i;
+    for (i = 0; i < tam; i++) { e.push(""); }
+    return e;
+  }
+
+  /* --------------------------- Bubble --------------------------- */
+  function passosBubble(entrada) {
+    var v = entrada.slice(), tam = v.length, passos = [], comp = 0, mov = 0, i, j, est, tmp;
+
+    passos.push(passo(v, vazios(tam), 1,
+      "O vetor chegou assim. O Bubble Sort compara <b>vizinho com vizinho</b>, do começo ao fim.",
+      comp, mov, 1));
+
+    for (i = 0; i < tam - 1; i++) {
+      for (j = 0; j < tam - 1 - i; j++) {
+        comp++;
+        est = vazios(tam);
+        for (var k = tam - i; k < tam; k++) { est[k] = "ordenado"; }
+        est[j] = "comparando"; est[j + 1] = "comparando";
+        passos.push(passo(v, est, 5,
+          n(v[j]) + " é maior que " + n(v[j + 1]) + "?",
+          comp, mov, i + 1));
+
+        if (v[j] > v[j + 1]) {
+          mov++;
+          tmp = v[j]; v[j] = v[j + 1]; v[j + 1] = tmp;
+          est = vazios(tam);
+          for (var k2 = tam - i; k2 < tam; k2++) { est[k2] = "ordenado"; }
+          est[j] = "movendo"; est[j + 1] = "movendo";
+          passos.push(passo(v, est, 7,
+            "<b>Sim.</b> Então os dois trocam de lugar.",
+            comp, mov, i + 1));
+        } else {
+          est = vazios(tam);
+          for (var k3 = tam - i; k3 < tam; k3++) { est[k3] = "ordenado"; }
+          est[j] = "comparando"; est[j + 1] = "comparando";
+          passos.push(passo(v, est, 10,
+            "<b>Não.</b> Já estão na ordem certa — segue para o próximo par.",
+            comp, mov, i + 1));
+        }
+      }
+
+      est = vazios(tam);
+      for (var k4 = tam - 1 - i; k4 < tam; k4++) { est[k4] = "ordenado"; }
+      passos.push(passo(v, est, 11,
+        "Fim da passagem " + n(i + 1) + ": o maior do trecho <b>borbulhou até o fim</b> e não sai mais de lá.",
+        comp, mov, i + 1));
+    }
+
+    est = []; for (var k5 = 0; k5 < tam; k5++) { est.push("ordenado"); }
+    passos.push(passo(v, est, 12,
+      "Pronto: vetor ordenado com " + n(comp) + " comparações e " + n(mov) + " trocas.",
+      comp, mov, tam - 1));
+    return passos;
+  }
+
+  /* -------------------------- Selection -------------------------- */
+  function passosSelection(entrada) {
+    var v = entrada.slice(), tam = v.length, passos = [], comp = 0, mov = 0, i, j, est, minIdx, tmp;
+
+    function base(ate) {
+      var e = vazios(tam), k;
+      for (k = 0; k < ate; k++) { e[k] = "ordenado"; }
+      return e;
+    }
+
+    passos.push(passo(v, vazios(tam), 1,
+      "O Selection Sort procura o <b>menor</b> do trecho que ainda falta e o traz para a frente.",
+      comp, mov, 1));
+
+    for (i = 0; i < tam - 1; i++) {
+      minIdx = i;
+      est = base(i); est[minIdx] = "chave";
+      passos.push(passo(v, est, 4,
+        "Começa a passagem " + n(i + 1) + ". Por enquanto o menor é " + n(v[minIdx]) + ".",
+        comp, mov, i + 1));
+
+      for (j = i + 1; j < tam; j++) {
+        comp++;
+        est = base(i); est[minIdx] = "chave"; est[j] = "comparando";
+        passos.push(passo(v, est, 6,
+          n(v[j]) + " é menor que " + n(v[minIdx]) + "?",
+          comp, mov, i + 1));
+
+        if (v[j] < v[minIdx]) {
+          minIdx = j;
+          est = base(i); est[minIdx] = "chave";
+          passos.push(passo(v, est, 6,
+            "<b>Sim.</b> O menor agora é " + n(v[minIdx]) + ".",
+            comp, mov, i + 1));
+        }
+      }
+
+      if (minIdx !== i) {
+        mov++;
+        tmp = v[i]; v[i] = v[minIdx]; v[minIdx] = tmp;
+        est = base(i); est[i] = "movendo"; est[minIdx] = "movendo";
+        passos.push(passo(v, est, 9,
+          "Uma <b>única troca</b> põe " + n(v[i]) + " no lugar certo.",
+          comp, mov, i + 1));
+      } else {
+        est = base(i); est[i] = "movendo";
+        passos.push(passo(v, est, 8,
+          n(v[i]) + " já era o menor: <b>nenhuma troca</b> nesta passagem.",
+          comp, mov, i + 1));
+      }
+
+      passos.push(passo(v, base(i + 1), 11,
+        "Fim da passagem " + n(i + 1) + ". A parte laranja não muda mais.",
+        comp, mov, i + 1));
+    }
+
+    est = []; for (var k = 0; k < tam; k++) { est.push("ordenado"); }
+    passos.push(passo(v, est, 12,
+      "Pronto: " + n(comp) + " comparações, mas só " + n(mov) + " trocas — essa é a marca do Selection Sort.",
+      comp, mov, tam - 1));
+    return passos;
+  }
+
+  /* -------------------------- Insertion -------------------------- */
+  function passosInsertion(entrada) {
+    var v = entrada.slice(), tam = v.length, passos = [], comp = 0, mov = 0, i, j, est, chave;
+
+    function base(ate) {
+      var e = vazios(tam), k;
+      for (k = 0; k < ate; k++) { e[k] = "ordenado"; }
+      return e;
+    }
+
+    est = base(1);
+    passos.push(passo(v, est, 2,
+      "O Insertion Sort trata o vetor como <b>cartas na mão</b>: o começo já está em ordem e cada carta nova entra no lugar certo.",
+      comp, mov, 1));
+
+    for (i = 1; i < tam; i++) {
+      chave = v[i];
+      est = base(i); est[i] = "chave";
+      passos.push(passo(v, est, 3,
+        "A carta da vez é " + n(chave) + ". Onde ela entra?",
+        comp, mov, i));
+
+      j = i - 1;
+      while (j >= 0 && v[j] > chave) {
+        comp++;
+        est = base(i); est[j] = "comparando"; est[i] = "chave";
+        passos.push(passo(v, est, 6,
+          n(v[j]) + " é maior que " + n(chave) + "? <b>Sim</b> — então abre espaço.",
+          comp, mov, i));
+
+        mov++;
+        v[j + 1] = v[j];
+        est = base(i); est[j + 1] = "movendo";
+        passos.push(passo(v, est, 7,
+          n(v[j]) + " desliza uma casa para a direita.",
+          comp, mov, i));
+        j--;
+      }
+
+      if (j >= 0) {
+        comp++;
+        est = base(i); est[j] = "comparando";
+        passos.push(passo(v, est, 6,
+          n(v[j]) + " é maior que " + n(chave) + "? <b>Não</b> — achou o lugar.",
+          comp, mov, i));
+      }
+
+      v[j + 1] = chave;
+      est = base(i + 1); est[j + 1] = "movendo";
+      passos.push(passo(v, est, 10,
+        n(chave) + " entra na posição " + n(j + 1) + ". O começo do vetor continua em ordem.",
+        comp, mov, i));
+    }
+
+    est = []; for (var k = 0; k < tam; k++) { est.push("ordenado"); }
+    passos.push(passo(v, est, 11,
+      "Pronto: " + n(comp) + " comparações e " + n(mov) + " deslocamentos.",
+      comp, mov, tam - 1));
+    return passos;
+  }
+
+  var GERADORES = { bubble: passosBubble, selection: passosSelection, insertion: passosInsertion };
+
+  var PRESETS = {
+    aula:     { v: [5, 3, 4, 1, 2], dica: "É o vetor usado nos slides e no texto-base da aula." },
+    ordenado: { v: [1, 2, 3, 4, 5], dica: "Melhor caso. Repare como o Insertion Sort quase não trabalha — e como o Selection Sort compara tudo do mesmo jeito." },
+    inverso:  { v: [5, 4, 3, 2, 1], dica: "Pior caso. Conte as trocas do Bubble e compare com as do Selection." },
+    sorteio:  { v: null,            dica: "Vetor sorteado. Rode os três algoritmos com ele e compare os contadores." }
+  };
+
+  /* --------------------------- estado --------------------------- */
+  var alg = "bubble", preset = "aula", entrada = PRESETS.aula.v.slice();
+  var passos = [], indice = 0, tocando = null;
+
+  var elBarras   = document.getElementById("barras");
+  var elNarracao = document.getElementById("narracao");
+  var elCodigo   = document.getElementById("codigo");
+  var elConta    = document.getElementById("passo-conta");
+  var elProg     = document.getElementById("barra-progresso");
+  var elDica     = document.getElementById("dica-preset");
+  var btProximo  = document.getElementById("proximo");
+  var btAnterior = document.getElementById("anterior");
+  var btTocar    = document.getElementById("tocar");
+
+  function sortear() {
+    var v = [], i;
+    for (i = 0; i < 6; i++) { v.push(1 + Math.floor(Math.random() * 9)); }
+    return v;
+  }
+
+  function desenharCodigo() {
+    var linhas = CODIGO[alg], html = "", i;
+    for (i = 0; i < linhas.length; i++) {
+      html += '<span class="ln' + (linhas[i].cmt ? " cmt" : "") + '" data-ln="' + i + '">'
+            + linhas[i].t.replace(/&/g, "&amp;").replace(/</g, "&lt;") + "</span>";
+    }
+    elCodigo.innerHTML = html;
+  }
+
+  function desenhar() {
+    var p = passos[indice], maior = 1, i;
+    for (i = 0; i < p.v.length; i++) { if (p.v[i] > maior) { maior = p.v[i]; } }
+
+    if (elBarras.children.length !== p.v.length) {
+      elBarras.innerHTML = "";
+      for (i = 0; i < p.v.length; i++) {
+        var col = document.createElement("div");
+        col.className = "col";
+        col.innerHTML = '<div class="barra"></div><div class="valor"></div>';
+        elBarras.appendChild(col);
+      }
+    }
+    for (i = 0; i < p.v.length; i++) {
+      var c = elBarras.children[i];
+      c.setAttribute("data-estado", p.estados[i] || "");
+      c.firstChild.style.height = (28 + (p.v[i] / maior) * 122) + "px";
+      c.lastChild.textContent = p.v[i];
+    }
+
+    elNarracao.innerHTML = p.texto;
+    document.getElementById("c-comparacoes").textContent = p.comparacoes;
+    document.getElementById("c-trocas").textContent = p.movimentos;
+    document.getElementById("c-passagem").textContent = p.passagem;
+    document.getElementById("rotulo-trocas").textContent = ROTULO_MOVIMENTO[alg];
+
+    var ativa = elCodigo.querySelector(".ativa");
+    if (ativa) { ativa.classList.remove("ativa"); }
+    var nova = elCodigo.querySelector('[data-ln="' + p.linha + '"]');
+    if (nova) { nova.classList.add("ativa"); }
+
+    elConta.textContent = "passo " + (indice + 1) + " de " + passos.length;
+    elProg.style.width = (passos.length < 2 ? 100 : (indice / (passos.length - 1)) * 100) + "%";
+    btAnterior.disabled = indice === 0;
+    btProximo.disabled = indice === passos.length - 1;
+    if (indice === passos.length - 1) { parar(); }
+  }
+
+  function recomecar() {
+    passos = GERADORES[alg](entrada);
+    indice = 0;
+    desenharCodigo();
+    desenhar();
+  }
+
+  function parar() {
+    if (tocando) { clearInterval(tocando); tocando = null; }
+    btTocar.textContent = "▶ Tocar";
+  }
+
+  /* --------------------------- eventos --------------------------- */
+  btProximo.addEventListener("click", function () {
+    if (indice < passos.length - 1) { indice++; desenhar(); }
+  });
+  btAnterior.addEventListener("click", function () {
+    parar();
+    if (indice > 0) { indice--; desenhar(); }
+  });
+  document.getElementById("reiniciar").addEventListener("click", function () {
+    parar(); indice = 0; desenhar();
+  });
+  btTocar.addEventListener("click", function () {
+    if (tocando) { parar(); return; }
+    if (indice === passos.length - 1) { indice = 0; desenhar(); }
+    btTocar.textContent = "⏸ Pausar";
+    tocando = setInterval(function () {
+      if (indice < passos.length - 1) { indice++; desenhar(); } else { parar(); }
+    }, 900);
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll(".abas button"), function (b) {
+    b.addEventListener("click", function () {
+      parar();
+      alg = b.getAttribute("data-alg");
+      Array.prototype.forEach.call(document.querySelectorAll(".abas button"), function (o) {
+        o.setAttribute("aria-selected", String(o === b));
+      });
+      try { localStorage.setItem("ed-aula07-alg", alg); } catch (e) { /* sem armazenamento */ }
+      recomecar();
+    });
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll("#entradas button"), function (b) {
+    b.addEventListener("click", function () {
+      parar();
+      preset = b.getAttribute("data-preset");
+      entrada = preset === "sorteio" ? sortear() : PRESETS[preset].v.slice();
+      Array.prototype.forEach.call(document.querySelectorAll("#entradas button"), function (o) {
+        o.setAttribute("aria-pressed", String(o === b));
+      });
+      elDica.textContent = PRESETS[preset].dica;
+      recomecar();
+    });
+  });
+
+  try {
+    var salvo = localStorage.getItem("ed-aula07-alg");
+    if (salvo && GERADORES[salvo]) {
+      alg = salvo;
+      Array.prototype.forEach.call(document.querySelectorAll(".abas button"), function (o) {
+        o.setAttribute("aria-selected", String(o.getAttribute("data-alg") === alg));
+      });
+    }
+  } catch (e) { /* sem armazenamento */ }
+
+  elDica.textContent = PRESETS.aula.dica;
+  recomecar();
+})();
+</script>
