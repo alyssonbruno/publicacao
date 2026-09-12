@@ -1,0 +1,82 @@
+---
+# =============================================================
+# Banco de Dados II - UNITINS | Prof. Alysson Bruno
+# Aula 03 - Laboratório 01
+# Arquivo: compose.yaml
+#
+# Uso:
+#   podman compose up -d
+#   podman compose down
+#   podman compose down -v   (remove também os volumes/dados)
+#
+# Conexão ao banco (psql, DBeaver, JDBC):
+#   Host:     localhost
+#   Porta:    5432
+#   Usuário:  aluno
+#   Senha:    aluno
+#   Banco:    empresa
+#
+# pgAdmin (navegador): http://localhost:8181
+#   E-mail:   aluno@bd2.unitins.br
+#   Senha:    aluno
+#   O servidor "BD2 - Lab 01 (empresa)" já vem cadastrado (servers.json).
+#   Basta clicar nele e informar a senha do banco: aluno
+#   (marque "Save Password" para não digitar novamente).
+# =============================================================
+
+services:
+  postgres:
+    image: postgres:17
+    container_name: bd2-lab01
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_USER: aluno
+      POSTGRES_PASSWORD: aluno
+      POSTGRES_DB: empresa
+      TZ: America/Araguaina
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/01-init.sql
+      - ./dados.sql:/docker-entrypoint-initdb.d/02-dados.sql
+      - pgdata:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aluno -d empresa"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # pgAdmin - interface web para gerenciar o PostgreSQL
+  pgadmin:
+    image: elestio/pgadmin:latest
+    container_name: bd2-lab01-pgadmin
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+    environment:
+      PGADMIN_DEFAULT_EMAIL: aluno@bd2.unitins.br
+      PGADMIN_DEFAULT_PASSWORD: aluno
+      # O pgAdmin exige 6 caracteres na senha por padrão; reduzimos o mínimo
+      # para permitir a senha "aluno" usada em sala.
+      PGADMIN_CONFIG_PASSWORD_LENGTH_MIN: "1"
+      # Evita a tela extra de "master password" a cada login.
+      PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED: "False"
+      TZ: America/Araguaina
+
+    ports:
+      - "8181:80"
+
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+      # Servidor "BD2 - Lab 01" já cadastrado no primeiro login
+      - ./servers.json:/pgadmin4/servers.json:ro
+
+volumes:
+  pgdata:
+  pgadmin_data:

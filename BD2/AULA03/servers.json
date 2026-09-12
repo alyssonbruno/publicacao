@@ -1,0 +1,14 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "BD2 - Lab 01 (empresa)",
+      "Group": "Banco de Dados II",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "empresa",
+      "Username": "aluno",
+      "SSLMode": "prefer",
+      "Comment": "Aula 03 - Laboratorio 01. Senha do usuario aluno: aluno"
+    }
+  }
+}
