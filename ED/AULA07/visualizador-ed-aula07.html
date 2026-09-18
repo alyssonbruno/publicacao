@@ -146,6 +146,44 @@
     font-size: 1.3rem; font-variant-numeric: tabular-nums;
   }
 
+  /* ---------- variáveis do passo ---------- */
+  .vars {
+    background: var(--papel); border: 1px solid var(--linha); border-radius: 16px;
+    padding: 14px 16px; box-shadow: var(--sombra);
+  }
+  .vars h3 {
+    font-family: var(--mono); font-size: .66rem; font-weight: 700; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--tinta-fraca); margin: 0 0 10px;
+  }
+  .vars-lista { display: flex; flex-wrap: wrap; gap: 8px; }
+  .var {
+    display: inline-flex; align-items: baseline; gap: 7px;
+    border: 1px solid var(--linha); border-radius: 999px; padding: 5px 13px;
+    font-family: var(--mono); font-size: .92rem; font-variant-numeric: tabular-nums;
+    transition: background-color .18s ease, border-color .18s ease;
+  }
+  .var b     { font-weight: 400; color: var(--tinta-fraca); }
+  .var i     { font-style: normal; font-weight: 700; }
+  .var[data-mudou="true"] { border-color: var(--laranja); background: var(--marca); }
+  .var[data-mudou="true"] b,
+  .var[data-mudou="true"] i { color: var(--laranja-f); }
+  /* fora do bloco onde foi declarada, a variável ainda não existe */
+  .var[data-indef="true"]   { opacity: .45; }
+
+  .expr {
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 9px;
+    margin: 12px 0 0; padding-top: 11px; border-top: 1px dashed var(--linha);
+    font-family: var(--mono); font-size: .88rem;
+  }
+  .expr[hidden] { display: none; }
+  .expr code { color: var(--tinta); }
+  .expr s    { color: var(--tinta-fraca); text-decoration: none; }
+  .expr em   { font-style: normal; font-weight: 700; }
+  .expr em.sim { color: var(--laranja-f); }
+  .expr em.nao { color: var(--tijolo); }
+
+  @media (prefers-reduced-motion: reduce) { .var { transition: none; } }
+
   /* ---------- controles ---------- */
   .controles { display: flex; gap: 8px; }
   .controles button {
@@ -221,7 +259,7 @@
         "cabecalho cabecalho"
         "abas      tcodigo"
         "palco     codigo"
-        "controles codigo"
+        "controles vars"
         "legenda   ncodigo"
         ".         tentradas"
         ".         entradas"
@@ -231,6 +269,7 @@
     .folha > header           { grid-area: cabecalho; }
     .folha > .abas            { grid-area: abas; }
     .folha > .palco           { grid-area: palco; }
+    .folha > .vars            { grid-area: vars; }
     .folha > .bloco-controles { grid-area: controles; }
     .folha > .legenda         { grid-area: legenda; align-self: start; }
     .folha > .t-codigo        { grid-area: tcodigo; align-self: end; }
@@ -255,6 +294,10 @@
     .placar dd { font-size: 1.6rem; }
     .controles button { min-height: 58px; font-size: 1.05rem; }
     .legenda { font-size: .95rem; }
+    .var { font-size: 1.05rem; padding: 6px 15px; }
+    .expr { font-size: 1rem; margin-top: 9px; padding-top: 9px; }
+    .vars { padding: 12px 16px; }
+    .vars h3 { margin-bottom: 8px; }
 
     /* o bloco de código ocupa a altura da coluna e cabe sem rolagem lateral */
     .codigo { display: flex; align-items: flex-start; padding: 18px 0; }
@@ -273,6 +316,8 @@
     .placar dd { font-size: 2rem; }
     .codigo pre { font-size: 1.02rem; }
     .abas button { font-size: 1.1rem; min-height: 56px; }
+    .var { font-size: 1.2rem; }
+    .expr { font-size: 1.1rem; }
   }
 
 </style>
@@ -282,7 +327,7 @@
   <header>
     <p class="eyebrow">Estrutura de Dados · Aula 07</p>
     <h1>Ordenação passo a passo</h1>
-    <p class="subtitulo">Toque em <b>Próximo passo</b> e acompanhe: a barra que muda de cor é o que o Java está fazendo naquela linha.</p>
+    <p class="subtitulo">Toque em <b>Próximo passo</b> e acompanhe as três coisas ao mesmo tempo: a barra que muda de cor, a linha que está executando e o valor de cada variável.</p>
   </header>
 
   <div class="abas" role="tablist" aria-label="Algoritmo">
@@ -299,6 +344,12 @@
       <div><dt id="rotulo-trocas">Trocas</dt><dd id="c-trocas">0</dd></div>
       <div><dt>Passagem</dt><dd id="c-passagem">1</dd></div>
     </dl>
+  </section>
+
+  <section class="vars" aria-live="polite">
+    <h3>Variáveis neste passo</h3>
+    <div class="vars-lista" id="vars-lista"></div>
+    <p class="expr" id="expr" hidden></p>
   </section>
 
   <div class="bloco-controles">
@@ -323,7 +374,10 @@
 
   <h2 class="t-codigo">O código que está rodando</h2>
   <div class="codigo"><pre id="codigo"></pre></div>
-  <p class="nota nota-codigo">É o mesmo código da apresentação da aula. O arquivo pronto para colar no JDoodle está em <code>AULA07/src/OrdenacaoDemo.java</code>.</p>
+  <p class="nota nota-codigo">É o mesmo código da apresentação da aula. Cada passo acende a linha que o Java
+  está executando — inclusive o cabeçalho e o <code>i++</code> dos laços, que é onde a conta de comparações nasce.
+  O arquivo pronto para colar no JDoodle vai anexado à aula no Classroom e está em
+  <a href="https://raw.githubusercontent.com/alyssonbruno/publicacao/main/ED/AULA07/OrdenacaoDemo.java">OrdenacaoDemo.java</a>.</p>
 
   <h2 class="t-entradas">Experimente com outro vetor</h2>
   <div class="entradas" id="entradas">
@@ -402,10 +456,26 @@
 
   function n(x) { return '<span class="num">' + x + "</span>"; }
 
-  function passo(v, estados, linha, texto, comparacoes, movimentos, passagem) {
+  /* Ordem em que as variáveis de cada algoritmo aparecem no painel.
+     Uma variável fora do bloco em que foi declarada aparece apagada, com "—":
+     é assim que o Java enxerga, e vale a pena o aluno reparar. */
+  var VARIAVEIS = {
+    bubble:    ["n", "i", "j", "tmp"],
+    selection: ["n", "i", "j", "minIdx", "tmp"],
+    insertion: ["n", "i", "j", "chave"]
+  };
+
+  /* Uma condição do código com os valores já substituídos, para o aluno ler
+     "j < n - 1 - i" e "0 < 4" lado a lado e ver de onde veio o desvio. */
+  function cond(texto, valores, ok) {
+    return { texto: texto, valores: valores, ok: !!ok };
+  }
+
+  function passo(c) {
     return {
-      v: v.slice(), estados: estados.slice(), linha: linha, texto: texto,
-      comparacoes: comparacoes, movimentos: movimentos, passagem: passagem
+      v: c.v.slice(), estados: c.estados.slice(), linha: c.linha, texto: c.texto,
+      comparacoes: c.comp, movimentos: c.mov, passagem: c.passagem,
+      vars: c.vars || {}, destaque: c.destaque || "", expr: c.expr || null
     };
   }
 
@@ -417,176 +487,288 @@
 
   /* --------------------------- Bubble --------------------------- */
   function passosBubble(entrada) {
-    var v = entrada.slice(), tam = v.length, passos = [], comp = 0, mov = 0, i, j, est, tmp;
+    var v = entrada.slice(), tam = v.length, passos = [], comp = 0, mov = 0;
+    var i = 0, j, tmp, est, testeI, testeJ, maior;
 
-    passos.push(passo(v, vazios(tam), 1,
-      "O vetor chegou assim. O Bubble Sort compara <b>vizinho com vizinho</b>, do começo ao fim.",
-      comp, mov, 1));
+    function base(ordenadosAPartirDe) {
+      var e = vazios(tam), k;
+      for (k = ordenadosAPartirDe; k < tam; k++) { e[k] = "ordenado"; }
+      return e;
+    }
+    function vs(extra) {
+      var o = { n: tam, i: null, j: null, tmp: null }, k;
+      for (k in extra) { if (Object.prototype.hasOwnProperty.call(extra, k)) { o[k] = extra[k]; } }
+      return o;
+    }
+    function pas() { return Math.max(1, Math.min(i + 1, tam - 1)); }
 
-    for (i = 0; i < tam - 1; i++) {
-      for (j = 0; j < tam - 1 - i; j++) {
+    passos.push(passo({ v: v, estados: vazios(tam), linha: 1, comp: comp, mov: mov, passagem: 1,
+      vars: vs({}), destaque: "n",
+      texto: "O vetor chegou assim. <b>n</b> guarda o tamanho: " + n(tam) + "." }));
+
+    while (true) {
+      testeI = i < tam - 1;
+      passos.push(passo({ v: v, estados: base(tam - i), linha: 2, comp: comp, mov: mov, passagem: pas(),
+        vars: vs({ i: i }), destaque: "i",
+        expr: cond("i < n - 1", i + " < " + (tam - 1), testeI),
+        texto: i === 0
+          ? "Laço de fora começa: <b>i = 0</b>."
+          : (testeI
+              ? "<b>i++</b> fez <b>i</b> virar " + n(i) + ". A condição ainda vale, então tem mais uma passagem."
+              : "<b>i++</b> fez <b>i</b> virar " + n(i) + ". A condição <b>falhou</b> — o laço de fora acabou.") }));
+      if (!testeI) { break; }
+
+      j = 0;
+      while (true) {
+        testeJ = j < tam - 1 - i;
+        est = base(tam - i);
+        if (testeJ) { est[j] = "comparando"; est[j + 1] = "comparando"; }
+        passos.push(passo({ v: v, estados: est, linha: 4, comp: comp, mov: mov, passagem: pas(),
+          vars: vs({ i: i, j: j }), destaque: "j",
+          expr: cond("j < n - 1 - i", j + " < " + (tam - 1 - i), testeJ),
+          texto: j === 0
+            ? "Laço de dentro começa: <b>j = 0</b>. Ele vai até " + n(tam - 2 - i) + ", porque os " + n(i) + " últimos já estão no lugar."
+            : (testeJ
+                ? "<b>j++</b> fez <b>j</b> virar " + n(j) + ". Segue comparando."
+                : "<b>j++</b> fez <b>j</b> virar " + n(j) + ". A condição <b>falhou</b> — fim desta passagem.") }));
+        if (!testeJ) { break; }
+
         comp++;
-        est = vazios(tam);
-        for (var k = tam - i; k < tam; k++) { est[k] = "ordenado"; }
-        est[j] = "comparando"; est[j + 1] = "comparando";
-        passos.push(passo(v, est, 5,
-          n(v[j]) + " é maior que " + n(v[j + 1]) + "?",
-          comp, mov, i + 1));
+        maior = v[j] > v[j + 1];
+        est = base(tam - i); est[j] = "comparando"; est[j + 1] = "comparando";
+        passos.push(passo({ v: v, estados: est, linha: 5, comp: comp, mov: mov, passagem: pas(),
+          vars: vs({ i: i, j: j }),
+          expr: cond("v[j] > v[j + 1]", v[j] + " > " + v[j + 1], maior),
+          texto: "Compara o par: " + n(v[j]) + " é maior que " + n(v[j + 1]) + "?" }));
 
-        if (v[j] > v[j + 1]) {
+        if (maior) {
+          tmp = v[j];
+          est = base(tam - i); est[j] = "movendo"; est[j + 1] = "comparando";
+          passos.push(passo({ v: v, estados: est, linha: 6, comp: comp, mov: mov, passagem: pas(),
+            vars: vs({ i: i, j: j, tmp: tmp }), destaque: "tmp",
+            texto: "<b>Sim.</b> <b>tmp</b> guarda " + n(tmp) + ", senão o valor se perde na troca." }));
+
           mov++;
-          tmp = v[j]; v[j] = v[j + 1]; v[j + 1] = tmp;
-          est = vazios(tam);
-          for (var k2 = tam - i; k2 < tam; k2++) { est[k2] = "ordenado"; }
-          est[j] = "movendo"; est[j + 1] = "movendo";
-          passos.push(passo(v, est, 7,
-            "<b>Sim.</b> Então os dois trocam de lugar.",
-            comp, mov, i + 1));
+          v[j] = v[j + 1]; v[j + 1] = tmp;
+          est = base(tam - i); est[j] = "movendo"; est[j + 1] = "movendo";
+          passos.push(passo({ v: v, estados: est, linha: 8, comp: comp, mov: mov, passagem: pas(),
+            vars: vs({ i: i, j: j, tmp: tmp }),
+            texto: "Os dois trocam de lugar." }));
         } else {
-          est = vazios(tam);
-          for (var k3 = tam - i; k3 < tam; k3++) { est[k3] = "ordenado"; }
-          est[j] = "comparando"; est[j + 1] = "comparando";
-          passos.push(passo(v, est, 10,
-            "<b>Não.</b> Já estão na ordem certa — segue para o próximo par.",
-            comp, mov, i + 1));
+          est = base(tam - i); est[j] = "comparando"; est[j + 1] = "comparando";
+          passos.push(passo({ v: v, estados: est, linha: 9, comp: comp, mov: mov, passagem: pas(),
+            vars: vs({ i: i, j: j }),
+            texto: "<b>Não.</b> O <code>if</code> foi pulado e <b>tmp</b> nem chega a existir." }));
         }
+        j++;
       }
 
-      est = vazios(tam);
-      for (var k4 = tam - 1 - i; k4 < tam; k4++) { est[k4] = "ordenado"; }
-      passos.push(passo(v, est, 11,
-        "Fim da passagem " + n(i + 1) + ": o maior do trecho <b>borbulhou até o fim</b> e não sai mais de lá.",
-        comp, mov, i + 1));
+      passos.push(passo({ v: v, estados: base(tam - 1 - i), linha: 10, comp: comp, mov: mov, passagem: pas(),
+        vars: vs({ i: i, j: j }),
+        texto: "Fim da passagem " + n(i + 1) + ": o maior do trecho <b>borbulhou até o fim</b> e não sai mais de lá." }));
+      i++;
     }
 
-    est = []; for (var k5 = 0; k5 < tam; k5++) { est.push("ordenado"); }
-    passos.push(passo(v, est, 12,
-      "Pronto: vetor ordenado com " + n(comp) + " comparações e " + n(mov) + " trocas.",
-      comp, mov, tam - 1));
+    passos.push(passo({ v: v, estados: base(0), linha: 12, comp: comp, mov: mov, passagem: Math.max(1, tam - 1),
+      vars: vs({ i: i }),
+      texto: "Pronto: vetor ordenado com " + n(comp) + " comparações e " + n(mov) + " trocas." }));
     return passos;
   }
 
   /* -------------------------- Selection -------------------------- */
   function passosSelection(entrada) {
-    var v = entrada.slice(), tam = v.length, passos = [], comp = 0, mov = 0, i, j, est, minIdx, tmp;
+    var v = entrada.slice(), tam = v.length, passos = [], comp = 0, mov = 0;
+    var i = 0, j, minIdx, tmp, est, testeI, testeJ, menor, precisaTrocar;
 
     function base(ate) {
       var e = vazios(tam), k;
       for (k = 0; k < ate; k++) { e[k] = "ordenado"; }
       return e;
     }
+    function vs(extra) {
+      var o = { n: tam, i: null, j: null, minIdx: null, tmp: null }, k;
+      for (k in extra) { if (Object.prototype.hasOwnProperty.call(extra, k)) { o[k] = extra[k]; } }
+      return o;
+    }
+    function pas() { return Math.max(1, Math.min(i + 1, tam - 1)); }
 
-    passos.push(passo(v, vazios(tam), 1,
-      "O Selection Sort procura o <b>menor</b> do trecho que ainda falta e o traz para a frente.",
-      comp, mov, 1));
+    passos.push(passo({ v: v, estados: vazios(tam), linha: 1, comp: comp, mov: mov, passagem: 1,
+      vars: vs({}), destaque: "n",
+      texto: "O Selection Sort procura o <b>menor</b> do trecho que falta e o traz para a frente. <b>n</b> é " + n(tam) + "." }));
 
-    for (i = 0; i < tam - 1; i++) {
+    while (true) {
+      testeI = i < tam - 1;
+      passos.push(passo({ v: v, estados: base(i), linha: 2, comp: comp, mov: mov, passagem: pas(),
+        vars: vs({ i: i }), destaque: "i",
+        expr: cond("i < n - 1", i + " < " + (tam - 1), testeI),
+        texto: i === 0
+          ? "Laço de fora começa: <b>i = 0</b>. É a posição que será preenchida nesta passagem."
+          : (testeI
+              ? "<b>i++</b> fez <b>i</b> virar " + n(i) + ": a próxima posição a preencher."
+              : "<b>i++</b> fez <b>i</b> virar " + n(i) + ". A condição <b>falhou</b> — o último elemento já está no lugar por eliminação.") }));
+      if (!testeI) { break; }
+
       minIdx = i;
       est = base(i); est[minIdx] = "chave";
-      passos.push(passo(v, est, 4,
-        "Começa a passagem " + n(i + 1) + ". Por enquanto o menor é " + n(v[minIdx]) + ".",
-        comp, mov, i + 1));
+      passos.push(passo({ v: v, estados: est, linha: 4, comp: comp, mov: mov, passagem: pas(),
+        vars: vs({ i: i, minIdx: minIdx }), destaque: "minIdx",
+        texto: "<b>minIdx</b> começa valendo <b>i</b>: por enquanto o menor candidato é " + n(v[minIdx]) + "." }));
 
-      for (j = i + 1; j < tam; j++) {
+      j = i + 1;
+      while (true) {
+        testeJ = j < tam;
+        est = base(i); est[minIdx] = "chave";
+        if (testeJ) { est[j] = "comparando"; }
+        passos.push(passo({ v: v, estados: est, linha: 5, comp: comp, mov: mov, passagem: pas(),
+          vars: vs({ i: i, j: j, minIdx: minIdx }), destaque: "j",
+          expr: cond("j < n", j + " < " + tam, testeJ),
+          texto: j === i + 1
+            ? "Laço de dentro começa em <b>j = i + 1</b> = " + n(j) + ": varre só o que ainda não foi ordenado."
+            : (testeJ
+                ? "<b>j++</b> fez <b>j</b> virar " + n(j) + "."
+                : "<b>j++</b> fez <b>j</b> virar " + n(j) + ". A condição <b>falhou</b> — a varredura terminou.") }));
+        if (!testeJ) { break; }
+
         comp++;
+        menor = v[j] < v[minIdx];
         est = base(i); est[minIdx] = "chave"; est[j] = "comparando";
-        passos.push(passo(v, est, 6,
-          n(v[j]) + " é menor que " + n(v[minIdx]) + "?",
-          comp, mov, i + 1));
+        passos.push(passo({ v: v, estados: est, linha: 6, comp: comp, mov: mov, passagem: pas(),
+          vars: vs({ i: i, j: j, minIdx: minIdx }),
+          expr: cond("v[j] < v[minIdx]", v[j] + " < " + v[minIdx], menor),
+          texto: n(v[j]) + " é menor que " + n(v[minIdx]) + "?" }));
 
-        if (v[j] < v[minIdx]) {
+        if (menor) {
           minIdx = j;
           est = base(i); est[minIdx] = "chave";
-          passos.push(passo(v, est, 6,
-            "<b>Sim.</b> O menor agora é " + n(v[minIdx]) + ".",
-            comp, mov, i + 1));
+          passos.push(passo({ v: v, estados: est, linha: 6, comp: comp, mov: mov, passagem: pas(),
+            vars: vs({ i: i, j: j, minIdx: minIdx }), destaque: "minIdx",
+            texto: "<b>Sim.</b> <b>minIdx</b> passa a ser " + n(minIdx) + " — o menor agora é " + n(v[minIdx]) + "." }));
         }
+        j++;
       }
 
-      if (minIdx !== i) {
+      precisaTrocar = minIdx !== i;
+      est = base(i); est[minIdx] = "chave";
+      passos.push(passo({ v: v, estados: est, linha: 8, comp: comp, mov: mov, passagem: pas(),
+        vars: vs({ i: i, j: j, minIdx: minIdx }),
+        expr: cond("minIdx != i", minIdx + " != " + i, precisaTrocar),
+        texto: precisaTrocar
+          ? "O menor não estava na posição " + n(i) + ". Vale a troca."
+          : n(v[i]) + " já era o menor: <b>nenhuma troca</b> nesta passagem." }));
+
+      if (precisaTrocar) {
+        tmp = v[i];
         mov++;
-        tmp = v[i]; v[i] = v[minIdx]; v[minIdx] = tmp;
+        v[i] = v[minIdx]; v[minIdx] = tmp;
         est = base(i); est[i] = "movendo"; est[minIdx] = "movendo";
-        passos.push(passo(v, est, 9,
-          "Uma <b>única troca</b> põe " + n(v[i]) + " no lugar certo.",
-          comp, mov, i + 1));
-      } else {
-        est = base(i); est[i] = "movendo";
-        passos.push(passo(v, est, 8,
-          n(v[i]) + " já era o menor: <b>nenhuma troca</b> nesta passagem.",
-          comp, mov, i + 1));
+        passos.push(passo({ v: v, estados: est, linha: 9, comp: comp, mov: mov, passagem: pas(),
+          vars: vs({ i: i, j: j, minIdx: minIdx, tmp: tmp }), destaque: "tmp",
+          texto: "Uma <b>única troca</b> põe " + n(v[i]) + " no lugar certo." }));
       }
 
-      passos.push(passo(v, base(i + 1), 11,
-        "Fim da passagem " + n(i + 1) + ". A parte laranja não muda mais.",
-        comp, mov, i + 1));
+      passos.push(passo({ v: v, estados: base(i + 1), linha: 11, comp: comp, mov: mov, passagem: pas(),
+        vars: vs({ i: i, j: j, minIdx: minIdx }),
+        texto: "Fim da passagem " + n(i + 1) + ". A parte laranja não muda mais." }));
+      i++;
     }
 
-    est = []; for (var k = 0; k < tam; k++) { est.push("ordenado"); }
-    passos.push(passo(v, est, 12,
-      "Pronto: " + n(comp) + " comparações, mas só " + n(mov) + " trocas — essa é a marca do Selection Sort.",
-      comp, mov, tam - 1));
+    passos.push(passo({ v: v, estados: base(tam), linha: 12, comp: comp, mov: mov, passagem: Math.max(1, tam - 1),
+      vars: vs({ i: i }),
+      texto: "Pronto: " + n(comp) + " comparações, mas só " + n(mov) + " trocas — essa é a marca do Selection Sort." }));
     return passos;
   }
 
   /* -------------------------- Insertion -------------------------- */
   function passosInsertion(entrada) {
-    var v = entrada.slice(), tam = v.length, passos = [], comp = 0, mov = 0, i, j, est, chave;
+    var v = entrada.slice(), tam = v.length, passos = [], comp = 0, mov = 0;
+    var i = 1, j, chave, est, testeI, dentro, temEsquerda;
 
     function base(ate) {
       var e = vazios(tam), k;
       for (k = 0; k < ate; k++) { e[k] = "ordenado"; }
       return e;
     }
+    function vs(extra) {
+      var o = { n: tam, i: null, j: null, chave: null }, k;
+      for (k in extra) { if (Object.prototype.hasOwnProperty.call(extra, k)) { o[k] = extra[k]; } }
+      return o;
+    }
+    function pas() { return Math.max(1, Math.min(i, tam - 1)); }
 
-    est = base(1);
-    passos.push(passo(v, est, 2,
-      "O Insertion Sort trata o vetor como <b>cartas na mão</b>: o começo já está em ordem e cada carta nova entra no lugar certo.",
-      comp, mov, 1));
+    passos.push(passo({ v: v, estados: base(1), linha: 1, comp: comp, mov: mov, passagem: 1,
+      vars: vs({}), destaque: "n",
+      texto: "O Insertion Sort trata o vetor como <b>cartas na mão</b>: o começo já está em ordem e cada carta nova entra no lugar certo." }));
 
-    for (i = 1; i < tam; i++) {
+    while (true) {
+      testeI = i < tam;
+      est = base(i > tam ? tam : i);
+      if (testeI) { est[i] = "chave"; }
+      passos.push(passo({ v: v, estados: est, linha: 2, comp: comp, mov: mov, passagem: pas(),
+        vars: vs({ i: i }), destaque: "i",
+        expr: cond("i < n", i + " < " + tam, testeI),
+        texto: i === 1
+          ? "Laço começa em <b>i = 1</b>, e não em 0: uma carta sozinha já está ordenada."
+          : (testeI
+              ? "<b>i++</b> fez <b>i</b> virar " + n(i) + ": a próxima carta a inserir."
+              : "<b>i++</b> fez <b>i</b> virar " + n(i) + ". A condição <b>falhou</b> — acabaram as cartas.") }));
+      if (!testeI) { break; }
+
       chave = v[i];
       est = base(i); est[i] = "chave";
-      passos.push(passo(v, est, 3,
-        "A carta da vez é " + n(chave) + ". Onde ela entra?",
-        comp, mov, i));
+      passos.push(passo({ v: v, estados: est, linha: 3, comp: comp, mov: mov, passagem: pas(),
+        vars: vs({ i: i, chave: chave }), destaque: "chave",
+        texto: "<b>chave</b> guarda " + n(chave) + ". A posição " + n(i) + " pode ser sobrescrita sem medo agora." }));
 
       j = i - 1;
-      while (j >= 0 && v[j] > chave) {
-        comp++;
-        est = base(i); est[j] = "comparando"; est[i] = "chave";
-        passos.push(passo(v, est, 6,
-          n(v[j]) + " é maior que " + n(chave) + "? <b>Sim</b> — então abre espaço.",
-          comp, mov, i));
+      est = base(i); est[i] = "chave"; est[j] = "comparando";
+      passos.push(passo({ v: v, estados: est, linha: 4, comp: comp, mov: mov, passagem: pas(),
+        vars: vs({ i: i, j: j, chave: chave }), destaque: "j",
+        texto: "<b>j</b> começa em <b>i - 1</b> = " + n(j) + " e vai andar <b>para trás</b>." }));
+
+      while (true) {
+        temEsquerda = j >= 0;
+        dentro = temEsquerda && v[j] > chave;
+        if (temEsquerda) { comp++; }
+        est = base(i); est[i] = "chave";
+        if (temEsquerda) { est[j] = "comparando"; }
+        passos.push(passo({ v: v, estados: est, linha: 6, comp: comp, mov: mov, passagem: pas(),
+          vars: vs({ i: i, j: j, chave: chave }),
+          expr: cond("j >= 0 && v[j] > chave",
+                     temEsquerda ? (j + " >= 0 && " + v[j] + " > " + chave) : (j + " >= 0"),
+                     dentro),
+          texto: !temEsquerda
+            ? "<b>j</b> passou do começo do vetor: a chave vai para a primeira posição. A segunda parte do <code>&&</code> nem é avaliada."
+            : (dentro
+                ? n(v[j]) + " é maior que " + n(chave) + " — precisa abrir espaço."
+                : n(v[j]) + " não é maior que " + n(chave) + " — achou o lugar.") }));
+        if (!dentro) { break; }
 
         mov++;
         v[j + 1] = v[j];
         est = base(i); est[j + 1] = "movendo";
-        passos.push(passo(v, est, 7,
-          n(v[j]) + " desliza uma casa para a direita.",
-          comp, mov, i));
-        j--;
-      }
+        passos.push(passo({ v: v, estados: est, linha: 7, comp: comp, mov: mov, passagem: pas(),
+          vars: vs({ i: i, j: j, chave: chave }),
+          texto: n(v[j]) + " desliza uma casa para a direita. A cópia sobrescreve a posição " + n(j + 1) + "." }));
 
-      if (j >= 0) {
-        comp++;
-        est = base(i); est[j] = "comparando";
-        passos.push(passo(v, est, 6,
-          n(v[j]) + " é maior que " + n(chave) + "? <b>Não</b> — achou o lugar.",
-          comp, mov, i));
+        j--;
+        est = base(i);
+        if (j >= 0) { est[j] = "comparando"; }
+        passos.push(passo({ v: v, estados: est, linha: 8, comp: comp, mov: mov, passagem: pas(),
+          vars: vs({ i: i, j: j, chave: chave }), destaque: "j",
+          texto: "<b>j--</b> fez <b>j</b> virar " + n(j) + ": olha uma casa mais à esquerda." }));
       }
 
       v[j + 1] = chave;
       est = base(i + 1); est[j + 1] = "movendo";
-      passos.push(passo(v, est, 10,
-        n(chave) + " entra na posição " + n(j + 1) + ". O começo do vetor continua em ordem.",
-        comp, mov, i));
+      passos.push(passo({ v: v, estados: est, linha: 10, comp: comp, mov: mov, passagem: pas(),
+        vars: vs({ i: i, j: j, chave: chave }),
+        texto: "<b>chave</b> entra na posição <b>j + 1</b> = " + n(j + 1) + ". O começo do vetor continua em ordem." }));
+      i++;
     }
 
-    est = []; for (var k = 0; k < tam; k++) { est.push("ordenado"); }
-    passos.push(passo(v, est, 11,
-      "Pronto: " + n(comp) + " comparações e " + n(mov) + " deslocamentos.",
-      comp, mov, tam - 1));
+    passos.push(passo({ v: v, estados: base(tam), linha: 12, comp: comp, mov: mov, passagem: Math.max(1, tam - 1),
+      vars: vs({ i: i }),
+      texto: "Pronto: " + n(comp) + " comparações e " + n(mov) + " deslocamentos." }));
     return passos;
   }
 
@@ -609,6 +791,8 @@
   var elConta    = document.getElementById("passo-conta");
   var elProg     = document.getElementById("barra-progresso");
   var elDica     = document.getElementById("dica-preset");
+  var elVars     = document.getElementById("vars-lista");
+  var elExpr     = document.getElementById("expr");
   var btProximo  = document.getElementById("proximo");
   var btAnterior = document.getElementById("anterior");
   var btTocar    = document.getElementById("tocar");
@@ -617,6 +801,37 @@
     var v = [], i;
     for (i = 0; i < 6; i++) { v.push(1 + Math.floor(Math.random() * 9)); }
     return v;
+  }
+
+  function escapar(t) {
+    return String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  /* O painel mostra as variáveis do algoritmo atual na ordem em que aparecem no
+     código. A que mudou neste passo fica destacada; a que ainda não existe (ou
+     já saiu do bloco onde foi declarada) aparece apagada, com "—". */
+  function desenharVars(p) {
+    var nomes = VARIAVEIS[alg], html = "", k, valor, existe, i;
+    for (i = 0; i < nomes.length; i++) {
+      k = nomes[i];
+      valor = p.vars[k];
+      existe = valor !== null && valor !== undefined;
+      html += '<span class="var" data-mudou="' + (p.destaque === k)
+            + '" data-indef="' + (!existe) + '">'
+            + "<b>" + k + "</b><i>" + (existe ? valor : "—") + "</i></span>";
+    }
+    elVars.innerHTML = html;
+
+    if (p.expr) {
+      elExpr.hidden = false;
+      elExpr.innerHTML = "<code>" + escapar(p.expr.texto) + "</code>"
+        + "<s>→</s><code>" + escapar(p.expr.valores) + "</code>"
+        + '<s>→</s><em class="' + (p.expr.ok ? "sim" : "nao") + '">'
+        + (p.expr.ok ? "verdadeiro" : "falso") + "</em>";
+    } else {
+      elExpr.hidden = true;
+      elExpr.innerHTML = "";
+    }
   }
 
   function desenharCodigo() {
@@ -652,6 +867,7 @@
     }
 
     elNarracao.innerHTML = p.texto;
+    desenharVars(p);
     document.getElementById("c-comparacoes").textContent = p.comparacoes;
     document.getElementById("c-trocas").textContent = p.movimentos;
     document.getElementById("c-passagem").textContent = p.passagem;
