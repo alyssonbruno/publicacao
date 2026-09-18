@@ -18,7 +18,7 @@ pede digitação: basta executar.
 
 | Arquivo | O que demonstra |
 |---|---|
-| `OrdenacaoDemo.java` | Os três algoritmos quadráticos medidos lado a lado, com n = 100, 1.000, 5.000 e 10.000. É o exemplo da seção 6.2 do texto-base. |
+| `OrdenacaoDemo.java` | Os três algoritmos quadráticos medidos lado a lado, com n = 1.000, 2.000, 4.000 e 8.000 — tamanhos que dobram, para conferir se o tempo quadruplica. É o exemplo da seção 7.2 do texto-base. |
 | `OrdenaProdutos.java` | Ordenação de objetos com `Comparator`: por preço, com desempate por nome, e depois por estoque decrescente. |
 | `BubbleSortListaApp.java` | Bubble Sort sobre uma **lista encadeada**, e não sobre um vetor. A lista é impressa a cada passagem completa. |
 
@@ -33,8 +33,11 @@ sem instalar nada. Use-a antes do JDoodle: primeiro entender o movimento, depois
 
 ## Desafios
 
-- **`OrdenacaoDemo`** — acrescente `50_000` ao vetor `tamanhos` e veja quanto tempo o
-  Bubble Sort passa a gastar. Compare com o Insertion Sort.
+- **`OrdenacaoDemo`** — acrescente `16_000` ao vetor `tamanhos` e confira se a coluna
+  `Bubble/anterior` continua perto de 4x. Compare com o Insertion Sort.
+- **`OrdenacaoDemo`** — apague o laço de aquecimento do início do `main` e rode de novo:
+  a coluna `Bubble/anterior` deixa de mostrar o 4x. É a JVM ainda interpretando o código
+  nas primeiras medições.
 - **`OrdenacaoDemo`** — troque a semente `42L` por outro número: a ordem relativa entre os
   três algoritmos muda?
 - **`OrdenaProdutos`** — inverta o critério de preço com `.reversed()` e confira o que

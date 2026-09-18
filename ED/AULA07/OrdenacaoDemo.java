@@ -11,11 +11,23 @@ import java.util.Random;
  *
  * <p>O que observar na saída:</p>
  * <ol>
- *   <li>a tabela mostra o tempo de cada algoritmo para n = 100, 1.000, 5.000 e 10.000;</li>
- *   <li>ao multiplicar n por 10, o tempo cresce muito mais que 10 vezes — é a marca do O(n²);</li>
+ *   <li>a tabela mostra o tempo de cada algoritmo para n = 1.000, 2.000, 4.000 e
+ *       8.000 — tamanhos que <b>dobram</b> de uma linha para a outra;</li>
+ *   <li>a última coluna divide o tempo do Bubble Sort pelo da linha anterior:
+ *       o valor fica perto de <b>4x</b>, que é a marca do O(n²) — dobrar a
+ *       entrada quadruplica o trabalho;</li>
  *   <li>os três recebem exatamente o mesmo vetor de entrada (mesma semente);</li>
- *   <li>o Insertion Sort costuma ser o mais rápido dos três nesse teste.</li>
+ *   <li>o Insertion Sort é o mais rápido dos três neste teste, e o Bubble Sort
+ *       o mais lento — os três são O(n²), mas com constantes bem diferentes;</li>
+ *   <li>antes de medir, o programa executa um laço de aquecimento: a JVM só
+ *       traduz o código para linguagem de máquina depois de rodá-lo algumas
+ *       vezes, e sem isso as primeiras linhas sairiam distorcidas.</li>
  * </ol>
+ *
+ * <p>Os tempos em milissegundos mudam de máquina para máquina e entre duas
+ * execuções seguidas; o que se repete é a <b>proporção</b> entre as linhas.
+ * Na última linha o valor às vezes passa de 4x, porque o vetor já não cabe
+ * inteiro na memória rápida do processador.</p>
  *
  * @author Prof. Alysson M. Bruno
  * @version 1.0
@@ -73,12 +85,24 @@ public class OrdenacaoDemo {
     }
 
     public static void main(String[] args) {
-        int[] tamanhos = {100, 1_000, 5_000, 10_000};
+        // Aquecimento. A JVM só traduz o código para linguagem de máquina depois
+        // de executá-lo algumas vezes. Sem este laço, as primeiras medições saem
+        // infladas e a tabela não mostra o crescimento quadrático.
+        for (int i = 0; i < 5; i++) {
+            var aquece = gerarAleatorio(3_000, 7L);
+            bubbleSort(aquece.clone());
+            selectionSort(aquece.clone());
+            insertionSort(aquece.clone());
+        }
 
-        System.out.printf("%-8s %-15s %-15s %-15s%n",
-            "n", "Bubble (µs)", "Selection (µs)", "Insertion (µs)");
-        System.out.println("-".repeat(55));
+        // Tamanhos que DOBRAM: é o que permite conferir se o tempo quadruplica.
+        int[] tamanhos = {1_000, 2_000, 4_000, 8_000};
 
+        System.out.printf("%-8s %-14s %-14s %-14s %s%n",
+            "n", "Bubble (ms)", "Selection (ms)", "Insertion (ms)", "Bubble/anterior");
+        System.out.println("-".repeat(72));
+
+        double anterior = 0;
         for (int n : tamanhos) {
             // Clonar para garantir mesma entrada
             var base = gerarAleatorio(n, 42L);
@@ -86,12 +110,14 @@ public class OrdenacaoDemo {
             var s = base.clone();
             var ins = base.clone();
 
-            long tb  = medir(b,   () -> bubbleSort(b));
-            long ts  = medir(s,   () -> selectionSort(s));
-            long ti  = medir(ins, () -> insertionSort(ins));
+            double tb  = medir(b,   () -> bubbleSort(b))     / 1_000_000.0;
+            double ts  = medir(s,   () -> selectionSort(s))  / 1_000_000.0;
+            double ti  = medir(ins, () -> insertionSort(ins)) / 1_000_000.0;
 
-            System.out.printf("%-8d %-15.1f %-15.1f %-15.1f%n",
-                n, tb/1_000.0, ts/1_000.0, ti/1_000.0);
+            System.out.printf("%-8d %-14.2f %-14.2f %-14.2f %s%n",
+                n, tb, ts, ti,
+                anterior == 0 ? "-" : String.format("%.1fx", tb / anterior));
+            anterior = tb;
         }
     }
 }
