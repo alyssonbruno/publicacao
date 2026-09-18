@@ -1,0 +1,30 @@
+# Banco de Dados I — Aula 07
+# Alternativa local ao site: sobe o mesmo MySQL usado na Aula 06.
+#   podman compose up -d      (ou: docker compose up -d)
+#   podman compose ps
+#   podman compose logs -f mysql
+#   podman compose down       (mantém o volume e, portanto, os dados)
+#
+# Para entrar no cliente:
+#   podman exec -it mysql-bd1 mysql -u root -p
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: mysql-bd1
+    environment:
+      MYSQL_ROOT_PASSWORD: minhasenha
+      MYSQL_DATABASE: bd1
+      MYSQL_USER: aluno
+      MYSQL_PASSWORD: senha123
+    ports:
+      - "3306:3306"
+    volumes:
+      - dados-mysql:/var/lib/mysql
+    networks:
+      - rede-bd1
+
+volumes:
+  dados-mysql:
+
+networks:
+  rede-bd1:
