@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Hands-on SQL — Revisão ENADE: Banco de Dados</title>
+<style>
+  :root {
+    --fundo: #f7f8fa; --papel: #ffffff; --texto: #1b1d23; --suave: #5a6270;
+    --borda: #d7dce4; --realce: #1f5fa8; --realce-texto: #ffffff;
+    --codigo-fundo: #1b1d23; --codigo-texto: #f2f4f8; --aviso: #8a4b00; --aviso-fundo: #fff4e5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fundo: #14161b; --papel: #1b1d23; --texto: #f2f4f8; --suave: #aeb6c2;
+      --borda: #333842; --realce: #7fb4ee; --realce-texto: #14161b;
+      --codigo-fundo: #0f1115; --codigo-texto: #f2f4f8; --aviso: #ffd166; --aviso-fundo: #2a2415;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0 16px 48px; background: var(--fundo); color: var(--texto);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.55; font-size: 16px;
+  }
+  main { max-width: 900px; margin: 0 auto; }
+  header { padding: 24px 0 8px; }
+  h1 { font-size: 1.4rem; margin: 0 0 6px; line-height: 1.25; }
+  .sub { color: var(--suave); margin: 0 0 4px; font-size: .95rem; }
+  h2 { font-size: 1.05rem; margin: 28px 0 10px; }
+  .passos { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 0 0 14px; list-style: none; }
+  .passos button {
+    font: inherit; font-size: .9rem; padding: 8px 12px; border-radius: 999px;
+    border: 1px solid var(--borda); background: var(--papel); color: var(--texto); cursor: pointer;
+  }
+  .passos button[aria-pressed="true"] { background: var(--realce); color: var(--realce-texto); border-color: var(--realce); font-weight: 600; }
+  .passos button:focus-visible, .acoes button:focus-visible, a:focus-visible { outline: 3px solid var(--realce); outline-offset: 2px; }
+  .cartao { background: var(--papel); border: 1px solid var(--borda); border-radius: 12px; padding: 14px 16px; margin-bottom: 16px; }
+  .cartao p { margin: 0 0 8px; }
+  .cartao p:last-child { margin-bottom: 0; }
+  .dica { color: var(--suave); font-size: .92rem; }
+  pre {
+    background: var(--codigo-fundo); color: var(--codigo-texto); padding: 14px; border-radius: 10px;
+    overflow-x: auto; font-size: .82rem; line-height: 1.45; margin: 0 0 12px;
+  }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  .acoes { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+  .acoes button, .acoes a {
+    font: inherit; font-size: .92rem; padding: 10px 14px; border-radius: 8px; cursor: pointer;
+    border: 1px solid var(--realce); background: var(--realce); color: var(--realce-texto);
+    text-decoration: none; display: inline-block; font-weight: 600;
+  }
+  .acoes .secundario { background: var(--papel); color: var(--texto); border-color: var(--borda); font-weight: 400; }
+  .estado { font-size: .9rem; color: var(--suave); min-height: 1.4em; margin: 0 0 12px; }
+  textarea {
+    width: 100%; min-height: 76px; font: inherit; font-size: .95rem; padding: 10px;
+    border-radius: 8px; border: 1px solid var(--borda); background: var(--papel); color: var(--texto); resize: vertical;
+  }
+  label { display: block; font-weight: 600; margin-bottom: 6px; font-size: .95rem; }
+  .moldura { border: 1px solid var(--borda); border-radius: 12px; overflow: hidden; background: var(--papel); }
+  iframe { width: 100%; height: 520px; border: 0; display: block; }
+  @media (max-width: 640px) { iframe { height: 420px; } }
+  .aviso { background: var(--aviso-fundo); border: 1px solid var(--aviso); color: var(--texto); border-radius: 10px; padding: 12px 14px; font-size: .92rem; }
+  .aviso strong { color: var(--aviso); }
+  footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--borda); color: var(--suave); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Hands-on SQL — Revisão ENADE: Banco de Dados</h1>
+    <p class="sub">As tabelas da questão 23 do ENADE 2021 (motorista, carro e reservas), prontas para rodar no navegador do celular.</p>
+    <p class="sub">Escolha um passo, mande para o editor e rode. <strong>Antes de rodar, escreva o resultado que você espera</strong> — a diferença entre o esperado e o que sai é o conteúdo que falta revisar.</p>
+  </header>
+
+  <h2>1. Escolha o passo</h2>
+  <ul class="passos" id="passos"></ul>
+
+  <div class="cartao">
+    <p id="resumo"></p>
+    <p class="dica" id="dica"></p>
+  </div>
+
+  <h2>2. O script deste passo</h2>
+  <pre><code id="sql"></code></pre>
+  <div class="acoes">
+    <button type="button" id="enviar">Mandar para o editor</button>
+    <button type="button" id="rodar">Mandar e rodar</button>
+    <button type="button" class="secundario" id="copiar">Copiar</button>
+    <a class="secundario" href="https://onecompiler.com/mysql" target="_blank" rel="noopener">Abrir o OneCompiler em outra aba</a>
+  </div>
+  <p class="estado" id="estado" role="status" aria-live="polite"></p>
+
+  <div class="cartao">
+    <label for="expectativa">Antes de rodar: que resultado você espera?</label>
+    <textarea id="expectativa" placeholder="Ex.: três nomes — José, Antônio e Marilda."></textarea>
+    <p class="dica">Este campo é só seu: nada é enviado nem salvo.</p>
+  </div>
+
+  <h2>3. O editor</h2>
+  <div class="moldura">
+    <iframe id="oc" title="Editor MySQL do OneCompiler" src="about:blank" loading="lazy"></iframe>
+  </div>
+  <p class="estado">O editor abre o MySQL do OneCompiler. Não é preciso criar conta.</p>
+
+  <div class="aviso">
+    <p><strong>Se o editor não carregar</strong> (rede da faculdade que bloqueia, celular antigo, conexão fraca): toque em <em>Copiar</em>, abra <a href="https://onecompiler.com/mysql" target="_blank" rel="noopener">onecompiler.com/mysql</a> e cole o script. O resultado é o mesmo.</p>
+  </div>
+
+  <noscript>
+    <div class="aviso"><p><strong>O JavaScript está desligado.</strong> Copie o script acima à mão e cole em <a href="https://onecompiler.com/mysql">onecompiler.com/mysql</a>.</p></div>
+  </noscript>
+
+  <footer>
+    Oficina de revisão para o ENADE 2026 — Bacharelado em Sistemas de Informação, UNITINS.<br>
+    Prof. Me. Alysson Martins Bruno. Dados da questão 23 do ENADE 2021 (Sistemas de Informação).
+  </footer>
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  var BASE = [
+    "-- Tabelas da questão 23 do ENADE 2021 (Sistemas de Informação).",
+    "DROP TABLE IF EXISTS reservas;",
+    "DROP TABLE IF EXISTS motorista;",
+    "DROP TABLE IF EXISTS carro;",
+    "",
+    "CREATE TABLE motorista (idmoto INT PRIMARY KEY, nome VARCHAR(30), telefone VARCHAR(12), idade INT);",
+    "CREATE TABLE carro (idcarro INT PRIMARY KEY, nomecarro VARCHAR(20), cor VARCHAR(10));",
+    "CREATE TABLE reservas (idmoto INT, idcarro INT, dia DATE,",
+    "   PRIMARY KEY (idmoto, idcarro, dia),",
+    "   FOREIGN KEY (idmoto) REFERENCES motorista(idmoto),",
+    "   FOREIGN KEY (idcarro) REFERENCES carro(idcarro));",
+    "",
+    "INSERT INTO motorista VALUES (22,'José','8888-0000',45),(29,'Maria','9999-0000',33),",
+    " (31,'Antônio',NULL,35),(32,'Carlos','3333-9999',16),(58,'Josefina','3333-0000',60),(64,'Marilda','3333-1111',26);",
+    "INSERT INTO carro VALUES (101,'Ônix','Vermelho'),(102,'Gol','Vermelho'),(103,'Civic','Verde'),(104,'Pálio','Azul');",
+    "INSERT INTO reservas VALUES (22,101,'2020-08-07'),(22,102,'2020-08-07'),(22,103,'2020-08-09'),",
+    " (22,104,'2020-08-10'),(31,102,'2020-08-10'),(31,103,'2020-08-11'),(64,101,'2020-08-13');"
+  ].join("\n");
+
+  var PASSOS = [
+    {
+      id: "tabelas",
+      rotulo: "0 · As tabelas",
+      resumo: "Cria as três tabelas e mostra o conteúdo de cada uma.",
+      dica: "Leia os dados antes de consultar: quais carros são vermelhos? quem reservou cada um? É essa leitura que a prova cobra.",
+      sql: "\n\nSELECT * FROM motorista;\nSELECT * FROM carro;\nSELECT * FROM reservas;"
+    },
+    {
+      id: "q23",
+      rotulo: "1 · A consulta da prova",
+      resumo: "Questão 23 do ENADE 2021: os motoristas que reservaram carros vermelhos.",
+      dica: "Leia de dentro para fora: carros vermelhos → reservas desses carros → motoristas dessas reservas. Gabarito oficial: B.",
+      sql: "\n\n-- (1) resposta da prova: quem reservou carro vermelho\nSELECT m.nome FROM motorista m\nWHERE m.idmoto IN (SELECT r.idmoto FROM reservas r\n                   WHERE r.idcarro IN (SELECT c.idcarro FROM carro c WHERE c.cor = 'Vermelho'));"
+    },
+    {
+      id: "notin",
+      rotulo: "2 · Troque IN por NOT IN",
+      resumo: "A mesma consulta, com NOT IN no nível do meio.",
+      dica: "É assim que o distrator é montado. Quem aparece agora, e por quê? Um NOT IN inverte o significado só daquele nível.",
+      sql: "\n\n-- (2) o IN do meio virou NOT IN: o que muda?\nSELECT m.nome FROM motorista m\nWHERE m.idmoto IN (SELECT r.idmoto FROM reservas r\n                   WHERE r.idcarro NOT IN (SELECT c.idcarro FROM carro c WHERE c.cor = 'Vermelho'));"
+    },
+    {
+      id: "nunca",
+      rotulo: "3 · Quem nunca reservou",
+      resumo: "LEFT JOIN com IS NULL: as linhas da esquerda que não têm par.",
+      dica: "Compare com NOT IN e com NOT EXISTS: as três formas respondem à mesma pergunta.",
+      sql: "\n\n-- (3) quem nunca reservou (LEFT JOIN + IS NULL)\nSELECT m.nome FROM motorista m LEFT JOIN reservas r ON r.idmoto = m.idmoto WHERE r.idmoto IS NULL;"
+    },
+    {
+      id: "contagem",
+      rotulo: "4 · Reservas por motorista",
+      resumo: "Agregação com LEFT JOIN: inclusive quem tem zero.",
+      dica: "Troque o LEFT JOIN por INNER JOIN e veja quem some do relatório. É o erro da questão 6 da lista.",
+      sql: "\n\n-- (4) quantas reservas por motorista, inclusive zero\nSELECT m.nome, COUNT(r.idcarro) AS reservas\nFROM motorista m LEFT JOIN reservas r ON r.idmoto = m.idmoto\nGROUP BY m.nome HAVING COUNT(r.idcarro) >= 0 ORDER BY reservas DESC;"
+    },
+    {
+      id: "nulos",
+      rotulo: "5 · COUNT(*) x COUNT(coluna)",
+      resumo: "Um motorista tem telefone NULL. As duas contagens dão o mesmo número?",
+      dica: "COUNT(*) conta linhas; COUNT(telefone) ignora os NULL daquela coluna.",
+      sql: "\n\n-- (5) COUNT(*) x COUNT(telefone)\nSELECT COUNT(*), COUNT(telefone) FROM motorista;"
+    },
+    {
+      id: "completo",
+      rotulo: "Script completo",
+      resumo: "Tudo de uma vez, como está na seção 8 do texto-base.",
+      dica: "Serve para quem prefere rodar o bloco inteiro e ir comentando as consultas uma a uma.",
+      sql: [
+        "",
+        "",
+        "-- (1) resposta da prova: quem reservou carro vermelho",
+        "SELECT m.nome FROM motorista m",
+        "WHERE m.idmoto IN (SELECT r.idmoto FROM reservas r",
+        "                   WHERE r.idcarro IN (SELECT c.idcarro FROM carro c WHERE c.cor = 'Vermelho'));",
+        "",
+        "-- (2) troque o IN do meio por NOT IN e veja quem aparece",
+        "-- (3) quem nunca reservou (LEFT JOIN + IS NULL)",
+        "SELECT m.nome FROM motorista m LEFT JOIN reservas r ON r.idmoto = m.idmoto WHERE r.idmoto IS NULL;",
+        "",
+        "-- (4) quantas reservas por motorista, inclusive zero",
+        "SELECT m.nome, COUNT(r.idcarro) AS reservas",
+        "FROM motorista m LEFT JOIN reservas r ON r.idmoto = m.idmoto",
+        "GROUP BY m.nome HAVING COUNT(r.idcarro) >= 0 ORDER BY reservas DESC;",
+        "",
+        "-- (5) COUNT(*) x COUNT(telefone)",
+        "SELECT COUNT(*), COUNT(telefone) FROM motorista;"
+      ].join("\n")
+    }
+  ];
+
+  var escuro = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  var URL_EMBED = "https://onecompiler.com/embed/mysql?listenToEvents=true&hideNew=true&hideNewFileOption=true&hideLanguageSelection=true&hideTitle=true&theme=" + (escuro ? "dark" : "light");
+
+  var frame = document.getElementById("oc");
+  var elSql = document.getElementById("sql");
+  var elResumo = document.getElementById("resumo");
+  var elDica = document.getElementById("dica");
+  var elEstado = document.getElementById("estado");
+  var elPassos = document.getElementById("passos");
+  var atual = PASSOS[0];
+  var pronto = false;
+
+  function sqlDe(passo) { return BASE + passo.sql; }
+
+  function avisar(texto) { elEstado.textContent = texto; }
+
+  function mostrar(passo) {
+    atual = passo;
+    elSql.textContent = sqlDe(passo);
+    elResumo.textContent = passo.resumo;
+    elDica.textContent = passo.dica;
+    Array.prototype.forEach.call(elPassos.querySelectorAll("button"), function (b) {
+      b.setAttribute("aria-pressed", String(b.dataset.id === passo.id));
+    });
+    avisar("");
+  }
+
+  function enviar(rodar) {
+    if (!frame.contentWindow) { avisar("O editor ainda não abriu. Use Copiar e cole no OneCompiler."); return; }
+    try {
+      frame.contentWindow.postMessage({
+        eventType: "populateCode",
+        language: "mysql",
+        files: [{ name: "main.sql", content: sqlDe(atual) }]
+      }, "*");
+      if (rodar) {
+        window.setTimeout(function () {
+          frame.contentWindow.postMessage({ eventType: "triggerRun" }, "*");
+        }, 700);
+      }
+      avisar(rodar
+        ? "Script enviado e execução pedida. Se o editor continuar vazio, use Copiar e cole lá."
+        : "Script enviado ao editor. Se ele continuar vazio, use Copiar e cole lá.");
+    } catch (e) {
+      avisar("Não consegui falar com o editor. Use Copiar e cole no OneCompiler.");
+    }
+  }
+
+  PASSOS.forEach(function (passo) {
+    var li = document.createElement("li");
+    var b = document.createElement("button");
+    b.type = "button";
+    b.textContent = passo.rotulo;
+    b.dataset.id = passo.id;
+    b.setAttribute("aria-pressed", "false");
+    b.addEventListener("click", function () {
+      mostrar(passo);
+      if (pronto) { enviar(false); }
+    });
+    li.appendChild(b);
+    elPassos.appendChild(li);
+  });
+
+  document.getElementById("enviar").addEventListener("click", function () { enviar(false); });
+  document.getElementById("rodar").addEventListener("click", function () { enviar(true); });
+
+  document.getElementById("copiar").addEventListener("click", function () {
+    var texto = sqlDe(atual);
+    function porSelecao() {
+      var area = document.createElement("textarea");
+      area.value = texto;
+      area.setAttribute("readonly", "");
+      area.style.position = "fixed";
+      area.style.opacity = "0";
+      document.body.appendChild(area);
+      area.select();
+      try { document.execCommand("copy"); avisar("Script copiado."); }
+      catch (e) { avisar("Não consegui copiar sozinho: selecione o script acima e copie à mão."); }
+      document.body.removeChild(area);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(texto).then(function () { avisar("Script copiado."); }, porSelecao);
+    } else {
+      porSelecao();
+    }
+  });
+
+  frame.addEventListener("load", function () {
+    if (frame.src === "about:blank") { return; }
+    pronto = true;
+    window.setTimeout(function () { enviar(false); }, 900);
+  });
+
+  mostrar(PASSOS[0]);
+  frame.src = URL_EMBED;
+})();
+</script>
+</body>
+</html>
