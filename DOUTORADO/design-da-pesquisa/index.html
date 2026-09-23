@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design da Pesquisa</title>
+<meta name="description" content="Leitura e explicação do quadro da aula sobre design da pesquisa: problema, bases jurídica, social e teórica, e o exercício sobre racismo e violência estatal.">
+<script>
+  /* Aplica o tema salvo antes de desenhar a página, para não piscar. */
+  try {
+    var temaSalvo = localStorage.getItem("design-pesquisa-tema");
+    if (temaSalvo === "dark" || temaSalvo === "light") {
+      document.documentElement.setAttribute("data-theme", temaSalvo);
+    }
+  } catch (e) { /* sem armazenamento: segue o tema do sistema */ }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;700&display=swap">
+<style>
+  :root {
+    --fundo:       #f7f5f0;
+    --papel:       #ffffff;
+    --tinta:       #1f1d1a;
+    --tinta-fraca: #625c53;
+    --linha:       #e2ddd3;
+    --grafite:     #3b3833;
+    --azul:        #1d5fd1;
+    --azul-suave:  #e7effc;
+    --vinho:       #8e2c3f;
+    --vinho-suave: #f7e9ec;
+    --verde:       #2f7a4f;
+    --verde-suave: #e6f3ea;
+    --ocre:        #a4670f;
+    --ocre-suave:  #fbf0dc;
+    --codigo-bg:   #26231f;
+    --codigo-tx:   #ece6db;
+    --sombra:      0 1px 2px rgba(31,29,26,.06), 0 8px 24px rgba(31,29,26,.07);
+
+    --display: "Fraunces", Georgia, serif;
+    --corpo:   "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+    --mono:    "JetBrains Mono", Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --fundo:       #151412;
+      --papel:       #1f1d1a;
+      --tinta:       #f0ebe2;
+      --tinta-fraca: #a59d90;
+      --linha:       #37332d;
+      --grafite:     #d6d0c5;
+      --azul:        #7aa6ff;
+      --azul-suave:  #1a2740;
+      --vinho:       #e58497;
+      --vinho-suave: #3a1f26;
+      --verde:       #6fcb95;
+      --verde-suave: #18301f;
+      --ocre:        #f0b458;
+      --ocre-suave:  #36290f;
+      --codigo-bg:   #0f0e0c;
+      --codigo-tx:   #ece6db;
+      --sombra:      0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --fundo:       #151412;
+    --papel:       #1f1d1a;
+    --tinta:       #f0ebe2;
+    --tinta-fraca: #a59d90;
+    --linha:       #37332d;
+    --grafite:     #d6d0c5;
+    --azul:        #7aa6ff;
+    --azul-suave:  #1a2740;
+    --vinho:       #e58497;
+    --vinho-suave: #3a1f26;
+    --verde:       #6fcb95;
+    --verde-suave: #18301f;
+    --ocre:        #f0b458;
+    --ocre-suave:  #36290f;
+    --codigo-bg:   #0f0e0c;
+    --codigo-tx:   #ece6db;
+    --sombra:      0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--fundo);
+    color: var(--tinta);
+    font-family: var(--corpo);
+    font-size: 1.075rem;
+    line-height: 1.65;
+  }
+  .pagina { max-width: 880px; margin: 0 auto; padding: 0 16px 72px; }
+
+  header.topo {
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 12px; padding: 18px 0; border-bottom: 1px solid var(--linha);
+    font-size: .9rem; color: var(--tinta-fraca);
+  }
+  .tema-btn {
+    font: inherit; font-weight: 600; cursor: pointer;
+    background: var(--papel); color: var(--tinta);
+    border: 1px solid var(--linha); border-radius: 999px; padding: 6px 14px;
+  }
+  .tema-btn:focus-visible { outline: 2px solid var(--azul); outline-offset: 2px; }
+
+  .abertura { padding: 48px 0 24px; }
+  .sobretitulo {
+    font-family: var(--mono); font-size: .8rem; letter-spacing: .08em;
+    text-transform: uppercase; color: var(--vinho); margin: 0 0 10px;
+  }
+  h1 {
+    font-family: var(--display); font-weight: 800;
+    font-size: clamp(2.2rem, 6vw, 3.4rem); line-height: 1.05;
+    margin: 0 0 18px; letter-spacing: -.01em;
+  }
+  .lead { font-size: 1.2rem; color: var(--tinta-fraca); max-width: 62ch; margin: 0; }
+
+  h2 {
+    font-family: var(--display); font-weight: 800; font-size: 1.85rem;
+    line-height: 1.15; margin: 56px 0 8px;
+  }
+  h2 .num {
+    font-family: var(--mono); font-size: .95rem; color: var(--vinho);
+    display: block; margin-bottom: 4px; letter-spacing: .06em;
+  }
+  h3 { font-family: var(--display); font-weight: 600; font-size: 1.25rem; margin: 32px 0 8px; }
+  p, li { max-width: 70ch; }
+  strong { font-weight: 700; }
+
+  nav.sumario {
+    background: var(--papel); border: 1px solid var(--linha); border-radius: 14px;
+    padding: 18px 22px; margin: 28px 0 0; box-shadow: var(--sombra);
+  }
+  nav.sumario p { margin: 0 0 6px; font-weight: 700; }
+  nav.sumario ol { margin: 0; padding-left: 1.3em; }
+  nav.sumario a { color: var(--azul); text-decoration: none; }
+  nav.sumario a:hover { text-decoration: underline; }
+
+  figure { margin: 24px 0; }
+  figure img {
+    width: 100%; height: auto; display: block; border-radius: 12px;
+    border: 1px solid var(--linha); box-shadow: var(--sombra);
+  }
+  figcaption { font-size: .9rem; color: var(--tinta-fraca); margin-top: 8px; }
+
+  pre.transcricao {
+    background: var(--codigo-bg); color: var(--codigo-tx);
+    font-family: var(--mono); font-size: .86rem; line-height: 1.55;
+    padding: 18px 20px; border-radius: 12px; overflow-x: auto; margin: 16px 0;
+  }
+  pre .az { color: #8fb4ff; }
+
+  /* Diagrama do problema de pesquisa */
+  .fluxo {
+    display: grid; grid-template-columns: minmax(0,1fr) auto minmax(0,1.4fr);
+    gap: 14px; align-items: center; margin: 24px 0;
+  }
+  .no {
+    background: var(--papel); border: 1px solid var(--linha); border-radius: 12px;
+    padding: 14px 16px; box-shadow: var(--sombra);
+  }
+  .no.centro { border: 2px solid var(--vinho); text-align: center; font-weight: 700; font-size: 1.1rem; }
+  .no small { display: block; font-weight: 400; color: var(--tinta-fraca); font-size: .88rem; }
+  .seta { font-size: 1.6rem; color: var(--tinta-fraca); text-align: center; }
+  .saidas { display: grid; gap: 8px; }
+  .saidas .no { padding: 10px 14px; }
+  .saidas .destaque { border-left: 4px solid var(--ocre); }
+
+  /* Cartões das três bases */
+  .bases { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 14px; margin: 20px 0; }
+  .base {
+    border-radius: 14px; padding: 18px; border: 1px solid var(--linha);
+    background: var(--papel); box-shadow: var(--sombra); display: flex; flex-direction: column;
+  }
+  .base .eixo { font-family: var(--mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--tinta-fraca); }
+  .base .nome { font-family: var(--display); font-weight: 800; font-size: 1.2rem; margin: 2px 0 10px; }
+  .base .vira { font-size: .9rem; color: var(--tinta-fraca); }
+  .base .rotulo {
+    display: inline-block; margin: 4px 0 10px; padding: 3px 10px; border-radius: 999px;
+    font-weight: 700; font-size: .92rem; width: fit-content;
+  }
+  .base p { margin: 0; font-size: .96rem; }
+  .base.juridica .rotulo { background: var(--azul-suave); color: var(--azul); }
+  .base.social   .rotulo { background: var(--verde-suave); color: var(--verde); }
+  .base.teorica  .rotulo { background: var(--ocre-suave); color: var(--ocre); }
+  .base.juridica { border-top: 4px solid var(--azul); }
+  .base.social   { border-top: 4px solid var(--verde); }
+  .base.teorica  { border-top: 4px solid var(--ocre); }
+
+  .nota {
+    border-left: 4px solid var(--vinho); background: var(--vinho-suave);
+    padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 20px 0;
+  }
+  .nota p { margin: 0; }
+
+  /* Exercício */
+  .ficha { background: var(--papel); border: 1px solid var(--linha); border-radius: 14px; box-shadow: var(--sombra); overflow: hidden; margin: 20px 0; }
+  .ficha dl { margin: 0; display: grid; grid-template-columns: minmax(120px, 190px) minmax(0,1fr); }
+  .ficha dt, .ficha dd { margin: 0; padding: 14px 18px; border-bottom: 1px solid var(--linha); }
+  .ficha dt { font-weight: 700; background: color-mix(in srgb, var(--fundo) 60%, var(--papel)); }
+  .ficha dl > :nth-last-child(-n+2) { border-bottom: 0; }
+  .ficha ul { margin: 6px 0 0; padding-left: 1.2em; }
+  .ficha li { margin: 3px 0; }
+
+  .convergencia {
+    display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 10px; margin: 20px 0 0;
+  }
+  .convergencia .no { text-align: center; font-weight: 600; }
+  .convergencia .no small { margin-top: 2px; }
+  .foco {
+    margin: 12px auto 0; text-align: center; max-width: 520px;
+    background: var(--vinho); color: #fff; border-radius: 14px; padding: 16px 20px;
+    font-family: var(--display); font-weight: 800; font-size: 1.3rem; position: relative;
+  }
+  :root[data-theme="dark"] .foco { color: #1f1d1a; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .foco { color: #1f1d1a; } }
+  .foco small { display: block; font-family: var(--corpo); font-weight: 400; font-size: .95rem; opacity: .9; }
+  .setas-baixo { display: grid; grid-template-columns: repeat(3, 1fr); text-align: center; color: var(--tinta-fraca); font-size: 1.4rem; line-height: 1; margin-top: 6px; }
+
+  /* Roteiro */
+  ol.roteiro { counter-reset: passo; list-style: none; padding: 0; margin: 20px 0; }
+  ol.roteiro li {
+    counter-increment: passo; position: relative; padding: 12px 16px 12px 58px; margin: 8px 0;
+    background: var(--papel); border: 1px solid var(--linha); border-radius: 12px; max-width: none;
+  }
+  ol.roteiro li::before {
+    content: counter(passo); position: absolute; left: 14px; top: 11px;
+    width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center;
+    background: var(--grafite); color: var(--papel); font-weight: 700; font-size: .9rem;
+  }
+  ol.roteiro .tag { font-family: var(--mono); font-size: .75rem; padding: 1px 7px; border-radius: 6px; margin-left: 6px; white-space: nowrap; }
+  .tag.j { background: var(--azul-suave); color: var(--azul); }
+  .tag.s { background: var(--verde-suave); color: var(--verde); }
+  .tag.t { background: var(--ocre-suave); color: var(--ocre); }
+
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: .97rem; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--linha); vertical-align: top; }
+  th { font-weight: 700; }
+  .tabela-rolagem { overflow-x: auto; }
+
+  footer { margin-top: 64px; padding-top: 18px; border-top: 1px solid var(--linha); font-size: .9rem; color: var(--tinta-fraca); }
+
+  @media (max-width: 680px) {
+    .fluxo { grid-template-columns: minmax(0,1fr); }
+    .fluxo .seta { transform: rotate(90deg); }
+    .bases, .convergencia { grid-template-columns: minmax(0,1fr); }
+    .setas-baixo { display: none; }
+    .ficha dl { grid-template-columns: minmax(0,1fr); }
+    .ficha dt { border-bottom: 0; padding-bottom: 4px; }
+    .ficha dd { padding-top: 4px; }
+  }
+  @media print {
+    .tema-btn { display: none; }
+    body { background: #fff; }
+  }
+</style>
+</head>
+<body>
+<div class="pagina">
+
+  <header class="topo">
+    <span>Doutorado · Prestação Jurisdicional e Direitos Humanos</span>
+    <button class="tema-btn" type="button" id="tema-btn" aria-label="Alternar tema claro/escuro">Tema</button>
+  </header>
+
+  <section class="abertura">
+    <p class="sobretitulo">Leitura do quadro da aula</p>
+    <h1>Design da Pesquisa</h1>
+    <p class="lead">O que o professor escreveu no quadro, transcrito e explicado para quem não esteve na aula. À esquerda do quadro está o modelo geral de um projeto de pesquisa. À direita, um exercício que aplica esse modelo ao tema do racismo.</p>
+
+    <nav class="sumario" aria-label="Sumário">
+      <p>Nesta página</p>
+      <ol>
+        <li><a href="#quadro">O quadro original</a></li>
+        <li><a href="#design">O modelo: design da pesquisa</a></li>
+        <li><a href="#bases">As três bases do programa</a></li>
+        <li><a href="#exercicio">O exercício: racismo e violência estatal</a></li>
+        <li><a href="#roteiro">Roteiro para montar o seu projeto</a></li>
+        <li><a href="#leitura">Observações sobre a leitura</a></li>
+      </ol>
+    </nav>
+  </section>
+
+  <section id="quadro">
+    <h2><span class="num">01</span>O quadro original</h2>
+    <figure>
+      <img src="quadro.jpg" alt="Foto do quadro branco: à esquerda, 'Design da Pesquisa', com o problema de pesquisa ligado a objetivo, metodologia, procedimentos, produto e impacto, e os eixos Prestação Jurisdicional, Direitos Humanos e Interdisciplinaridade. À direita, 'Exercício' com tema Racismo, título Violência Estatal, base teórica Criminologia Crítica, base jurídica e instrumentos de direitos humanos." width="1600" height="986" loading="lazy">
+      <figcaption>Foto do quadro. As anotações em azul parecem ter sido feitas depois, para ligar cada eixo do programa a um tipo de base.</figcaption>
+    </figure>
+  </section>
+
+  <section id="design">
+    <h2><span class="num">02</span>O modelo: design da pesquisa</h2>
+
+    <h3>Transcrição (lado esquerdo)</h3>
+<pre class="transcricao">DESIGN DA PESQUISA
+
+PROBLEMA DE PESQUISA ──→ Objetivo
+                     ──→ Metodologia
+                     ──→ Procedimentos metodológicos / Produto / Impacto
+                                                                └─ Mensuração
+<span class="az">   ↳ Contexto, Justificativa, Relevância   (Tocantins)
+   ↳ Base jurídica institucional</span>
+
+PRESTAÇÃO JURISDICIONAL
+DIREITOS HUMANOS <span class="az">──→ Base social</span>
+INTERDISCIPLINARIDADE
+<span class="az">   ↳ Base teórica</span></pre>
+
+    <h3>Tudo parte do problema de pesquisa</h3>
+    <p>O problema de pesquisa é o centro do projeto. Todo o resto sai dele ou serve para sustentá-lo.</p>
+
+    <div class="fluxo" role="img" aria-label="Diagrama: o problema de pesquisa leva a objetivo, metodologia, procedimentos metodológicos e produto e impacto com mensuração">
+      <div class="no centro">Problema de pesquisa<small>a pergunta que o projeto responde</small></div>
+      <div class="seta" aria-hidden="true">→</div>
+      <div class="saidas">
+        <div class="no"><strong>Objetivo</strong> <small>o que se pretende alcançar</small></div>
+        <div class="no"><strong>Metodologia</strong> <small>o caminho de investigação</small></div>
+        <div class="no"><strong>Procedimentos metodológicos</strong> <small>as técnicas concretas: coleta, análise, fontes</small></div>
+        <div class="no destaque"><strong>Produto / Impacto → Mensuração</strong> <small>o que a pesquisa entrega e como o impacto será medido</small></div>
+      </div>
+    </div>
+
+    <div class="nota">
+      <p><strong>Ponto que o professor destacou:</strong> ele sublinhou “impacto” e escreveu “mensuração” embaixo. Não basta afirmar que a pesquisa terá impacto. É preciso dizer <strong>como ele será medido</strong>, com indicadores. Essa exigência é típica de programas interdisciplinares e profissionais, que pedem um produto técnico aplicável.</p>
+    </div>
+
+    <h3>O problema precisa estar ancorado</h3>
+    <ul>
+      <li><strong>Contexto, justificativa e relevância.</strong> O professor anotou <strong>Tocantins</strong> ao lado: a pesquisa deve se situar na realidade regional e mostrar por que importa ali.</li>
+      <li><strong>Base jurídica institucional.</strong> As normas e os atos das instituições que dão suporte ao problema.</li>
+    </ul>
+  </section>
+
+  <section id="bases">
+    <h2><span class="num">03</span>As três bases do programa</h2>
+    <p>As setas azuis ligam cada eixo do programa a um tipo de base. O projeto precisa articular <strong>as três ao mesmo tempo</strong>.</p>
+
+    <div class="bases">
+      <article class="base juridica">
+        <span class="eixo">Eixo</span>
+        <span class="nome">Prestação Jurisdicional</span>
+        <span class="vira">exige uma</span>
+        <span class="rotulo">Base jurídica institucional</span>
+        <p>Normas, atos e documentos do Judiciário e das instituições: Constituição, tratados, resoluções do CNJ, atos dos tribunais.</p>
+      </article>
+      <article class="base social">
+        <span class="eixo">Eixo</span>
+        <span class="nome">Direitos Humanos</span>
+        <span class="vira">exige uma</span>
+        <span class="rotulo">Base social</span>
+        <p>A realidade social do problema: os sujeitos afetados, as vulnerabilidades, as políticas públicas de direitos humanos.</p>
+      </article>
+      <article class="base teorica">
+        <span class="eixo">Eixo</span>
+        <span class="nome">Interdisciplinaridade</span>
+        <span class="vira">exige uma</span>
+        <span class="rotulo">Base teórica</span>
+        <p>Um referencial teórico que faça dialogar áreas diferentes, como Direito, Sociologia, Criminologia e Ciência Política.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="exercicio">
+    <h2><span class="num">04</span>O exercício: racismo e violência estatal</h2>
+
+    <h3>Transcrição (lado direito)</h3>
+<pre class="transcricao">EXERCÍCIO
+Tema: Racismo
+Título: Violência estatal
+Base teórica: Criminologia Crítica
+Base jurídica: Documentos, tratados internacionais
+                    ↓
+               institucionais, CF
+
+Direitos Humanos:
+   PNDH-3 / estadual
+   PNEDH / estadual
+   ODS
+   Fundamentos
+
+(seta saindo de “Base teórica” →)
+TRÊS DIFERENTES FUNDAMENTOS
+p/ APLICAÇÃO:
+FOCO: INTERSECCIONALIDADE</pre>
+
+    <h3>O modelo aplicado</h3>
+    <div class="ficha">
+      <dl>
+        <dt>Tema</dt>
+        <dd><strong>Racismo</strong>, o recorte amplo.</dd>
+
+        <dt>Título</dt>
+        <dd><strong>Violência estatal</strong>, o recorte específico dentro do tema.</dd>
+
+        <dt>Base teórica</dt>
+        <dd><strong>Criminologia Crítica</strong>. Exemplos de autores: Alessandro Baratta, Eugenio Raúl Zaffaroni, Vera Malaguti Batista, Ana Luiza Flauzina.</dd>
+
+        <dt>Base jurídica</dt>
+        <dd>Organizada em camadas:
+          <ul>
+            <li><strong>Documentos e tratados internacionais</strong>, como a Convenção Internacional sobre a Eliminação de Todas as Formas de Discriminação Racial, a Convenção Interamericana contra o Racismo e a Convenção Americana sobre Direitos Humanos;</li>
+            <li><strong>Documentos institucionais</strong>, como resoluções do CNJ e atos dos tribunais;</li>
+            <li><strong>Constituição Federal</strong>.</li>
+          </ul>
+        </dd>
+
+        <dt>Direitos Humanos</dt>
+        <dd>A base social e de políticas públicas:
+          <ul>
+            <li><strong>PNDH-3</strong> (Programa Nacional de Direitos Humanos, Decreto 7.037/2009) e o <strong>plano estadual</strong> equivalente;</li>
+            <li><strong>PNEDH</strong> (Plano Nacional de Educação em Direitos Humanos) e o <strong>plano estadual</strong>;</li>
+            <li><strong>ODS</strong> da Agenda 2030. Neste tema, principalmente o ODS 10 (redução das desigualdades) e o ODS 16 (paz, justiça e instituições eficazes);</li>
+            <li>os <strong>fundamentos</strong>, isto é, os princípios que sustentam esses instrumentos.</li>
+          </ul>
+        </dd>
+      </dl>
+    </div>
+
+    <h3>A conclusão do quadro: três fundamentos, um foco</h3>
+    <p>A seta que sai da base teórica leva à ideia central do exercício. A pesquisa trabalha com <strong>três fundamentos diferentes</strong>, e eles precisam <strong>convergir na aplicação</strong>. O que os une é uma categoria de análise, que neste exemplo é a <strong>interseccionalidade</strong>.</p>
+
+    <div role="img" aria-label="Diagrama: fundamento teórico, jurídico e de direitos humanos convergem para o foco na interseccionalidade">
+      <div class="convergencia">
+        <div class="no">Fundamento teórico<small>Criminologia Crítica</small></div>
+        <div class="no">Fundamento jurídico<small>Tratados, CF, atos institucionais</small></div>
+        <div class="no">Fundamento de DH<small>PNDH-3, PNEDH, ODS</small></div>
+      </div>
+      <div class="setas-baixo" aria-hidden="true"><span>↘</span><span>↓</span><span>↙</span></div>
+      <div class="foco">Foco: interseccionalidade<small>raça × gênero × classe × território</small></div>
+    </div>
+
+    <p>Interseccionalidade é o conceito formulado por Kimberlé Crenshaw e desenvolvido no Brasil por autoras como Lélia Gonzalez e Carla Akotirene. Aplicado ao exercício, significa analisar a violência estatal onde raça se cruza com gênero, classe e território, e não olhar para cada uma dessas dimensões separadamente.</p>
+  </section>
+
+  <section id="roteiro">
+    <h2><span class="num">05</span>Roteiro para montar o seu projeto</h2>
+    <p>Juntando os dois lados do quadro, o professor espera que cada um consiga preencher esta estrutura para o próprio tema:</p>
+
+    <ol class="roteiro">
+      <li><strong>Tema</strong>: o recorte amplo.</li>
+      <li><strong>Título</strong>: o recorte específico.</li>
+      <li><strong>Problema de pesquisa</strong>: a pergunta central.</li>
+      <li><strong>Contexto, justificativa e relevância</strong>, com o vínculo ao Tocantins.</li>
+      <li><strong>Base teórica</strong><span class="tag t">interdisciplinaridade</span></li>
+      <li><strong>Base jurídica</strong>: internacional, Constituição e institucional<span class="tag j">prestação jurisdicional</span></li>
+      <li><strong>Base social e de direitos humanos</strong>: PNDH-3, PNEDH, planos estaduais, ODS<span class="tag s">direitos humanos</span></li>
+      <li><strong>Foco ou categoria de análise</strong> que integra as três bases.</li>
+      <li><strong>Objetivo, metodologia e procedimentos metodológicos</strong>.</li>
+      <li><strong>Produto e impacto</strong>, com a <strong>forma de mensuração</strong>.</li>
+    </ol>
+
+    <h3>Checagem rápida</h3>
+    <div class="tabela-rolagem">
+      <table>
+        <thead><tr><th>Pergunta</th><th>Onde isso aparece no projeto</th></tr></thead>
+        <tbody>
+          <tr><td>O problema está situado no Tocantins?</td><td>Contexto e justificativa</td></tr>
+          <tr><td>Há normas e instituições que sustentam o problema?</td><td>Base jurídica institucional</td></tr>
+          <tr><td>Quem são os sujeitos afetados e quais políticas de DH se aplicam?</td><td>Base social</td></tr>
+          <tr><td>A teoria faz dialogar mais de uma área?</td><td>Base teórica</td></tr>
+          <tr><td>Existe uma categoria que une as três bases?</td><td>Foco de análise</td></tr>
+          <tr><td>O impacto tem indicador?</td><td>Produto, impacto e mensuração</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="leitura">
+    <h2><span class="num">06</span>Observações sobre a leitura</h2>
+    <ul>
+      <li>“Tocantins” está escrito pequeno, em azul, logo abaixo de “contexto”. A leitura é provável.</li>
+      <li>“Mensuração” está embaixo de “impacto”. A leitura também é provável.</li>
+      <li>O restante do quadro está legível. Os exemplos de autores, tratados e ODS <strong>não estão no quadro</strong>: foram acrescentados aqui como referência para o estudo.</li>
+    </ul>
+  </section>
+
+  <footer>
+    Material de estudo do doutorado, preparado a partir da foto do quadro da aula.
+  </footer>
+</div>
+
+<script>
+  (function () {
+    var raiz = document.documentElement;
+    var botao = document.getElementById("tema-btn");
+    function temaAtual() {
+      var t = raiz.getAttribute("data-theme");
+      if (t) return t;
+      return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+    function rotular() { botao.textContent = temaAtual() === "dark" ? "Tema claro" : "Tema escuro"; }
+    botao.addEventListener("click", function () {
+      var novo = temaAtual() === "dark" ? "light" : "dark";
+      raiz.setAttribute("data-theme", novo);
+      try { localStorage.setItem("design-pesquisa-tema", novo); } catch (e) {}
+      rotular();
+    });
+    rotular();
+  })();
+</script>
+</body>
+</html>
