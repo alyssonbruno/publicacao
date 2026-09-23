@@ -1,0 +1,105 @@
+---
+# =============================================================
+# Banco de Dados II - UNITINS | Prof. Alysson Martins Bruno
+# Aula 07 - Transações, ACID e confirmação em duas fases (2PC)
+# Arquivo: compose.yaml
+#
+# Sobe dois contêineres:
+#   bd2-aula07-pg       PostgreSQL 17 (servidor do banco)
+#   bd2-aula07-pgadmin  pgAdmin 4 (interface web)
+#
+# Uso (no diretório deste arquivo):
+#   podman compose up -d      sobe os dois
+#   podman compose ps         confere se estão no ar
+#   podman compose down       desliga (os dados continuam no volume)
+#   podman compose down -v    desliga e APAGA os dados
+#
+# Conexão ao banco (psql, DBeaver, JDBC):
+#   Host:     localhost
+#   Porta:    5432
+#   Usuário:  aluno
+#   Senha:    aluno
+#   Bancos:   banco, agencia_palmas, agencia_gurupi
+#
+#   Pelo terminal, sem instalar nada:
+#   podman exec -it bd2-aula07-pg psql -U aluno -d banco
+#
+# pgAdmin (navegador): http://localhost:8181
+#   E-mail:   aluno@bd2.unitins.br
+#   Senha:    aluno
+#   O servidor "BD2 - Aula 07 (banco)" já vem cadastrado (servers.json).
+#   Ao abri-lo, informe a senha do banco: aluno.
+#
+# Para voltar ao ponto de partida do laboratório a qualquer momento:
+#   podman exec -i bd2-aula07-pg psql -U aluno -d banco < preparar.sql
+#
+# As senhas são apenas didáticas. Nunca as reutilize em sistemas reais.
+# =============================================================
+
+services:
+  postgres:
+    image: docker.io/library/postgres:17
+    container_name: bd2-aula07-pg
+
+    # A confirmação em duas fases (PREPARE TRANSACTION) vem DESLIGADA
+    # no PostgreSQL: o padrão de max_prepared_transactions é 0. Aqui
+    # liberamos até 10 transações preparadas ao mesmo tempo.
+    command: ["postgres", "-c", "max_prepared_transactions=10"]
+
+    environment:
+      POSTGRES_USER: aluno
+      POSTGRES_PASSWORD: aluno
+      POSTGRES_DB: banco
+      TZ: America/Araguaina
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      # Cria os bancos e as tabelas na primeira vez que o servidor sobe.
+      - ./preparar.sql:/docker-entrypoint-initdb.d/01-preparar.sql:ro,z
+      # Os dados ficam num volume: sobrevivem a desligar e religar.
+      - pgdata:/var/lib/postgresql/data
+
+    # O `-h localhost` importa: na primeira subida o PostgreSQL roda um
+    # servidor provisório, só por socket, enquanto executa o preparar.sql.
+    # Pela rede, ele só responde quando o servidor definitivo está no ar.
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h localhost -U aluno -d banco"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  pgadmin:
+    image: docker.io/elestio/pgadmin:latest
+    container_name: bd2-aula07-pgadmin
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+    environment:
+      PGADMIN_DEFAULT_EMAIL: aluno@bd2.unitins.br
+      PGADMIN_DEFAULT_PASSWORD: aluno
+      # O pgAdmin exige 6 caracteres na senha por padrão; reduzimos o
+      # mínimo para permitir a senha didática "aluno".
+      PGADMIN_CONFIG_PASSWORD_LENGTH_MIN: "1"
+      # Evita a tela extra de "master password" a cada login.
+      PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED: "False"
+      # Escuta em IPv4. O padrão é o IPv6 (::), e em máquinas sem IPv6
+      # o pgAdmin fica no ar sem nunca abrir a porta.
+      PGADMIN_LISTEN_ADDRESS: 0.0.0.0
+      TZ: America/Araguaina
+
+    ports:
+      - "8181:80"
+
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+      # Servidor "BD2 - Aula 07 (banco)" já cadastrado no primeiro login.
+      - ./servers.json:/pgadmin4/servers.json:ro,z
+
+volumes:
+  pgdata:
+    name: bd2-aula07-pgdata
+  pgadmin_data:
+    name: bd2-aula07-pgadmin-data

@@ -1,0 +1,14 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "BD2 - Aula 07 (banco)",
+      "Group": "Banco de Dados II",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "banco",
+      "Username": "aluno",
+      "SSLMode": "prefer",
+      "Comment": "Aula 07 - Transacoes e 2PC. Senha do usuario aluno: aluno"
+    }
+  }
+}
