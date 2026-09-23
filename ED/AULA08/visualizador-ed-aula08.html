@@ -1,0 +1,1132 @@
+<title>Merge e Quick Passo a Passo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;700&display=swap">
+
+<style>
+  :root {
+    --laranja:   #e67e22;
+    --laranja-f: #b8601a;
+    --azul:      #2563eb;
+    --tijolo:    #c0392b;
+    --sobre-laranja: #ffffff;
+
+    --fundo:      #faf7f3;
+    --papel:      #ffffff;
+    --tinta:      #211c17;
+    --tinta-fraca:#6b6055;
+    --linha:      #e3dbd1;
+    --codigo-bg:  #2b241d;
+    --codigo-tx:  #efe6da;
+    --codigo-cmt: #a8998a;
+    --marca:      rgba(230, 126, 34, 0.22);
+    --sombra:     0 1px 2px rgba(33, 28, 23, .06), 0 6px 18px rgba(33, 28, 23, .07);
+
+    --display: "Bricolage Grotesque", "Trebuchet MS", sans-serif;
+    --corpo:   "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+    --mono:    "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fundo:      #17140f;
+      --papel:      #221d17;
+      --tinta:      #f2ece3;
+      --tinta-fraca:#a89a89;
+      --linha:      #3a322a;
+      --codigo-bg:  #100e0b;
+      --codigo-tx:  #efe6da;
+      --codigo-cmt: #8d8073;
+      --laranja:    #f2903a;
+      --laranja-f:  #ffb06b;
+      --azul:       #6b9bff;
+      --tijolo:     #e2674f;
+      --marca:      rgba(242, 144, 58, 0.26);
+      --sobre-laranja: #17140f;
+      --sombra:     0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --fundo:      #17140f;
+    --papel:      #221d17;
+    --tinta:      #f2ece3;
+    --tinta-fraca:#a89a89;
+    --linha:      #3a322a;
+    --codigo-bg:  #100e0b;
+    --codigo-tx:  #efe6da;
+    --codigo-cmt: #8d8073;
+    --laranja:    #f2903a;
+    --laranja-f:  #ffb06b;
+    --azul:       #6b9bff;
+    --tijolo:     #e2674f;
+    --marca:      rgba(242, 144, 58, 0.26);
+    --sobre-laranja: #17140f;
+    --sombra:     0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+  }
+
+  body {
+    background: var(--fundo);
+    color: var(--tinta);
+    font-family: var(--corpo);
+    font-size: 17px;
+    line-height: 1.55;
+    padding-inline: 18px;
+    padding-block: 28px 56px;
+  }
+  .folha { max-width: 620px; margin-inline: auto; display: flex; flex-direction: column; gap: 22px; }
+
+  /* ---------- cabeçalho ---------- */
+  .eyebrow {
+    font-family: var(--mono); font-size: .72rem; font-weight: 700;
+    letter-spacing: .16em; text-transform: uppercase; color: var(--laranja-f);
+  }
+  h1 {
+    font-family: var(--display); font-weight: 800; font-size: clamp(1.9rem, 8vw, 2.6rem);
+    line-height: 1.05; margin: 6px 0 0; text-wrap: balance; letter-spacing: -.015em;
+  }
+  .subtitulo { color: var(--tinta-fraca); margin: 10px 0 0; max-width: 46ch; }
+
+  /* ---------- seletor de algoritmo ---------- */
+  .abas { display: flex; gap: 6px; background: var(--papel); border: 1px solid var(--linha);
+          border-radius: 12px; padding: 5px; box-shadow: var(--sombra); }
+  .abas button {
+    flex: 1; min-height: 48px; border: 0; border-radius: 8px; cursor: pointer;
+    background: transparent; color: var(--tinta-fraca);
+    font-family: var(--display); font-weight: 600; font-size: .95rem; letter-spacing: -.01em;
+  }
+  .abas button[aria-selected="true"] { background: var(--laranja); color: var(--sobre-laranja); }
+  .abas button:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+
+  /* ---------- palco do vetor ---------- */
+  .palco {
+    background: var(--papel); border: 1px solid var(--linha); border-radius: 16px;
+    padding: 20px 16px 16px; box-shadow: var(--sombra);
+  }
+  .barras { display: flex; align-items: stretch; justify-content: center;
+            gap: clamp(5px, 2vw, 12px); height: 190px; }
+  .col { flex: 1 1 0; max-width: 62px; display: flex; flex-direction: column;
+         align-items: center; justify-content: flex-end; gap: 7px; height: 100%; }
+  .barra {
+    width: 100%; border-radius: 6px 6px 3px 3px;
+    background: var(--linha); border: 2px solid transparent;
+    transition: height .18s ease, background-color .18s ease, border-color .18s ease;
+  }
+  .valor {
+    font-family: var(--mono); font-variant-numeric: tabular-nums;
+    font-size: clamp(.85rem, 3.6vw, 1.05rem); font-weight: 700; color: var(--tinta-fraca);
+  }
+  .col[data-estado="ordenado"] .barra   { background: var(--laranja); }
+  .col[data-estado="ordenado"] .valor   { color: var(--laranja-f); }
+  .col[data-estado="comparando"] .barra { background: var(--azul); }
+  .col[data-estado="comparando"] .valor { color: var(--azul); }
+  .col[data-estado="movendo"] .barra    { background: var(--tijolo); }
+  .col[data-estado="movendo"] .valor    { color: var(--tijolo); }
+  .col[data-estado="chave"] .barra      { background: var(--papel); border-color: var(--tijolo); border-style: dashed; }
+  .col[data-estado="chave"] .valor      { color: var(--tijolo); }
+
+  @media (prefers-reduced-motion: reduce) { .barra { transition: none; } }
+
+  /* ---------- narração ---------- */
+  .narracao {
+    font-family: var(--display); font-weight: 600; font-size: 1.12rem; line-height: 1.35;
+    margin: 16px 0 0; min-height: 3.1em; text-wrap: pretty;
+  }
+  .narracao b { color: var(--laranja-f); }
+  .narracao .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+  /* ---------- contadores ---------- */
+  .placar { display: flex; gap: 10px; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--linha); }
+  .placar div { flex: 1; }
+  .placar dt {
+    font-family: var(--mono); font-size: .66rem; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--tinta-fraca);
+  }
+  .placar dd {
+    margin: 2px 0 0; font-family: var(--mono); font-weight: 700;
+    font-size: 1.3rem; font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- variáveis do passo ---------- */
+  .vars {
+    background: var(--papel); border: 1px solid var(--linha); border-radius: 16px;
+    padding: 14px 16px; box-shadow: var(--sombra);
+  }
+  .vars h3 {
+    font-family: var(--mono); font-size: .66rem; font-weight: 700; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--tinta-fraca); margin: 0 0 10px;
+  }
+  .vars-lista { display: flex; flex-wrap: wrap; gap: 8px; }
+  .var {
+    display: inline-flex; align-items: baseline; gap: 7px;
+    border: 1px solid var(--linha); border-radius: 999px; padding: 5px 13px;
+    font-family: var(--mono); font-size: .92rem; font-variant-numeric: tabular-nums;
+    transition: background-color .18s ease, border-color .18s ease;
+  }
+  .var b     { font-weight: 400; color: var(--tinta-fraca); }
+  .var i     { font-style: normal; font-weight: 700; }
+  .var[data-mudou="true"] { border-color: var(--laranja); background: var(--marca); }
+  .var[data-mudou="true"] b,
+  .var[data-mudou="true"] i { color: var(--laranja-f); }
+  /* fora do bloco onde foi declarada, a variável ainda não existe */
+  .var[data-indef="true"]   { opacity: .45; }
+
+  .expr {
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 9px;
+    margin: 12px 0 0; padding-top: 11px; border-top: 1px dashed var(--linha);
+    font-family: var(--mono); font-size: .88rem;
+  }
+  .expr[hidden] { display: none; }
+  .expr code { color: var(--tinta); }
+  .expr s    { color: var(--tinta-fraca); text-decoration: none; }
+  .expr em   { font-style: normal; font-weight: 700; }
+  .expr em.sim { color: var(--laranja-f); }
+  .expr em.nao { color: var(--tijolo); }
+
+  @media (prefers-reduced-motion: reduce) { .var { transition: none; } }
+
+  /* ---------- controles ---------- */
+  .controles { display: flex; gap: 8px; }
+  .controles button {
+    min-height: 54px; border-radius: 12px; cursor: pointer; border: 1px solid var(--linha);
+    background: var(--papel); color: var(--tinta); box-shadow: var(--sombra);
+    font-family: var(--display); font-weight: 600; font-size: 1rem;
+  }
+  .controles button:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+  .controles button:disabled { opacity: .4; cursor: default; }
+  #proximo { flex: 2; background: var(--laranja); border-color: var(--laranja); color: var(--sobre-laranja); }
+  #anterior, #tocar, #reiniciar { flex: 1; }
+
+  .progresso { display: block; height: 5px; border-radius: 3px; background: var(--linha); overflow: hidden; }
+  .progresso i { display: block; height: 100%; background: var(--laranja); transition: width .18s ease; }
+  .passo-conta {
+    font-family: var(--mono); font-size: .75rem; color: var(--tinta-fraca);
+    text-align: center; margin-top: 7px; font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- legenda ---------- */
+  .legenda { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: .85rem; color: var(--tinta-fraca); }
+  .legenda span { display: inline-flex; align-items: center; gap: 7px; }
+  .chave { width: 14px; height: 14px; border-radius: 4px; flex: none; }
+
+  /* ---------- código ---------- */
+  .codigo {
+    background: var(--codigo-bg); border-radius: 14px; padding: 16px 0;
+    overflow-x: auto; box-shadow: var(--sombra);
+  }
+  .codigo pre { margin: 0; font-family: var(--mono); font-size: .82rem; line-height: 1.7; }
+  .codigo .ln { display: block; padding: 0 18px; color: var(--codigo-tx); white-space: pre; }
+  .codigo .ln.cmt { color: var(--codigo-cmt); }
+  .codigo .ln.ativa { background: var(--marca); box-shadow: inset 3px 0 0 var(--laranja); }
+
+  /* ---------- entradas ---------- */
+  .entradas { display: flex; flex-wrap: wrap; gap: 8px; }
+  .entradas button {
+    min-height: 44px; padding: 0 14px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--linha); background: var(--papel); color: var(--tinta-fraca);
+    font-family: var(--corpo); font-size: .9rem;
+  }
+  .entradas button[aria-pressed="true"] { border-color: var(--laranja); color: var(--laranja-f); font-weight: 600; }
+  .entradas button:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+
+  h2 {
+    font-family: var(--display); font-weight: 600; font-size: 1.05rem;
+    margin: 0 0 -8px; letter-spacing: -.01em;
+  }
+  .nota { font-size: .9rem; color: var(--tinta-fraca); margin: 0; }
+  .nota code { font-family: var(--mono); font-size: .85em; }
+  footer {
+    border-top: 1px solid var(--linha); padding-top: 16px;
+    font-size: .84rem; color: var(--tinta-fraca);
+  }
+
+  /* ---------- acréscimos da Aula 08: recursão ---------- */
+  /* No celular as duas colunas não existem: os blocos entram na coluna única
+     na ordem abaixo — desenho, botões, variáveis e pilha, código, vetores. */
+  .coluna { display: contents; }
+  .abas { order: 1; } .palco { order: 2; } .bloco-controles { order: 3; } .vars { order: 4; }
+  .legenda { order: 5; } .t-codigo { order: 6; } .codigo { order: 7; } .nota-codigo { order: 8; }
+  .t-entradas { order: 9; } .entradas { order: 10; } #dica-preset { order: 11; } footer { order: 12; }
+
+  :root { --trecho: color-mix(in srgb, var(--laranja) 42%, var(--papel));
+          --zona:   color-mix(in srgb, var(--azul) 32%, var(--papel)); }
+
+  .barras { height: 210px; }
+  .col { gap: 3px; transition: opacity .18s ease; }
+  .col[data-fora="true"] { opacity: .28; }
+  .idx { font-family: var(--mono); font-size: .68rem; color: var(--tinta-fraca); line-height: 1; }
+  .ptr { font-family: var(--mono); font-size: .8rem; font-weight: 700; color: var(--azul);
+         min-height: 1.1em; line-height: 1.1; white-space: nowrap; }
+  .valor sup, .caixa sup, .narracao sup { font-size: .62em; margin-left: 1px; }
+  .col[data-estado="trecho"] .barra  { background: var(--trecho); }
+  .col[data-estado="trecho"] .valor  { color: var(--laranja-f); }
+  .col[data-estado="zona"] .barra    { background: var(--zona); }
+  .col[data-estado="velho"] .barra   { background: transparent; border-color: var(--linha); border-style: dashed; }
+  .col[data-estado="velho"] .valor   { opacity: .55; }
+
+  /* vetores auxiliares L e R do merge */
+  .aux { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 14px; padding-top: 12px;
+         border-top: 1px dashed var(--linha); }
+  .aux-linha { display: flex; align-items: flex-start; gap: 6px; }
+  .aux-linha > b { font-family: var(--mono); font-size: .95rem; padding-top: 7px; min-width: 1.2em; }
+  .aux-cx { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+  .caixa { min-width: 36px; height: 36px; padding: 0 5px; border-radius: 7px; display: grid; place-items: center;
+           font-family: var(--mono); font-weight: 700; font-variant-numeric: tabular-nums;
+           border: 2px solid var(--linha); background: var(--papel); color: var(--tinta); }
+  .caixa[data-estado="atual"] { border-color: var(--azul); color: var(--azul); }
+  .caixa[data-estado="usado"] { opacity: .35; text-decoration: line-through; }
+  .aux-ptr { font-family: var(--mono); font-size: .75rem; font-weight: 700; color: var(--azul); min-height: 1em; line-height: 1; }
+  .aux-vazio { font-family: var(--mono); font-size: .85rem; color: var(--tinta-fraca); padding-top: 8px; }
+
+  /* pilha de chamadas */
+  .pilha { margin-top: 12px; padding-top: 11px; border-top: 1px dashed var(--linha); }
+  .pilha h3 { margin-bottom: 8px; }
+  .pilha ol { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+  .pilha li { font-family: var(--mono); font-size: .86rem; padding: 4px 11px; border-radius: 7px;
+              border: 1px solid var(--linha); color: var(--tinta-fraca); white-space: nowrap;
+              overflow: hidden; text-overflow: ellipsis; }
+  .pilha li:first-child { border-color: var(--laranja); background: var(--marca); color: var(--laranja-f); font-weight: 700; }
+  .pilha li.main { border-style: dashed; }
+
+  .codigo .cm { color: var(--codigo-cmt); }
+
+  /* =========================================================
+     Tela da sala: o código e o estado da recursão vão para o lado
+     do desenho. Os botões (abas, controles e vetores) ficam todos
+     na coluna da esquerda, que cabe sem rolar em 1366×768.
+     No celular nada disso vale.
+     ========================================================= */
+  @media (min-width: 940px) {
+    body { padding-block: 12px 20px; }
+
+    .folha {
+      max-width: 1340px;
+      display: grid;
+      align-items: start;
+      column-gap: 28px;
+      row-gap: 10px;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+    .folha > header { grid-column: 1 / -1; }
+    .folha > footer { grid-column: 1 / -1; }
+    /* cada coluna cresce sozinha: o código não empurra o palco, e vice-versa */
+    .coluna { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+    .coluna > * { order: 0; }
+    .t-entradas { display: none; }
+
+    h2 { margin: 0; }
+    h1 { font-size: 1.7rem; margin-top: 2px; }
+    /* na sala o professor explica; o tempo de tela é do desenho */
+    .subtitulo { display: none; }
+
+    .palco { padding: 14px 16px 12px; }
+    .barras { height: min(230px, 22vh); }
+    .col { max-width: 96px; }
+    .valor { font-size: 1.2rem; }
+    .narracao { font-size: 1.2rem; min-height: 2.4em; margin-top: 10px; }
+    .placar { margin-top: 10px; padding-top: 10px; }
+    .placar dd { font-size: 1.45rem; }
+    .aux { margin-top: 10px; padding-top: 10px; }
+    .controles button { min-height: 50px; font-size: 1.05rem; }
+    .legenda { font-size: .92rem; }
+    .var { font-size: 1rem; padding: 5px 14px; }
+    .expr { font-size: .98rem; margin-top: 9px; padding-top: 9px; }
+    .vars { padding: 12px 16px; }
+    .vars h3 { margin-bottom: 8px; }
+
+    .codigo { padding: 12px 0; }
+    .codigo pre { font-size: .8rem; line-height: 1.42; }
+
+    /* a pilha deitada: de main (esquerda) até o topo (direita), para caber na tela */
+    .pilha ol { flex-direction: row-reverse; flex-wrap: wrap; justify-content: flex-end; gap: 6px; }
+    .pilha li { padding: 3px 10px; }
+    .pilha h3 { margin-bottom: 6px; }
+  }
+
+  /* Projetor e TV da sala: mais um degrau de tamanho. */
+  @media (min-width: 1400px) {
+    .folha { max-width: 1560px; }
+    h1 { font-size: 2.4rem; }
+    .barras { height: min(340px, 26vh); }
+    .col { max-width: 120px; }
+    .valor { font-size: 1.45rem; }
+    .narracao { font-size: 1.45rem; }
+    .placar dt { font-size: .76rem; }
+    .placar dd { font-size: 1.9rem; }
+    .codigo pre { font-size: .92rem; }
+    .abas button { font-size: 1.1rem; min-height: 56px; }
+    .var { font-size: 1.15rem; }
+    .expr { font-size: 1.08rem; }
+    .caixa { min-width: 44px; height: 44px; font-size: 1.15rem; }
+    .pilha li { font-size: 1rem; }
+  }
+</style>
+
+<div class="folha">
+
+  <header>
+    <p class="eyebrow">Estrutura de Dados · Aula 08</p>
+    <h1>Merge Sort e Quick Sort passo a passo</h1>
+    <p class="subtitulo">Toque em <b>Próximo passo</b> e acompanhe ao mesmo tempo: o trecho do vetor que está sendo trabalhado, a linha que está executando, as variáveis e a <b>pilha de chamadas</b> da recursão.</p>
+  </header>
+
+  <div class="coluna esq">
+  <div class="abas" role="tablist" aria-label="Algoritmo">
+    <button role="tab" id="aba-merge" aria-selected="true"  data-alg="merge">Merge Sort</button>
+    <button role="tab" id="aba-quick" aria-selected="false" data-alg="quick">Quick Sort</button>
+  </div>
+
+  <section class="palco" aria-live="polite">
+    <div class="barras" id="barras"></div>
+    <div class="aux" id="aux" hidden></div>
+    <p class="narracao" id="narracao"></p>
+    <dl class="placar">
+      <div><dt>Comparações</dt><dd id="c-comparacoes">0</dd></div>
+      <div><dt id="rotulo-mov">Cópias</dt><dd id="c-mov">0</dd></div>
+      <div><dt>Na pilha</dt><dd id="c-pilha">0</dd></div>
+    </dl>
+  </section>
+
+  <div class="bloco-controles">
+    <div class="controles">
+      <button id="anterior" type="button" aria-label="Passo anterior">◀</button>
+      <button id="proximo" type="button">Próximo passo</button>
+      <button id="tocar" type="button">▶ Tocar</button>
+      <button id="reiniciar" type="button" aria-label="Recomeçar">↺</button>
+    </div>
+    <div style="margin-top:10px">
+      <span class="progresso"><i id="barra-progresso" style="width:0%"></i></span>
+      <p class="passo-conta" id="passo-conta">passo 1 de 1</p>
+    </div>
+  </div>
+
+  <h2 class="t-entradas">Experimente com outro vetor</h2>
+  <div class="entradas" id="entradas">
+    <button type="button" data-preset="aula"      aria-pressed="true">Vetor da aula</button>
+    <button type="button" data-preset="ordenado"  aria-pressed="false">Já ordenado</button>
+    <button type="button" data-preset="inverso"   aria-pressed="false">Ao contrário</button>
+    <button type="button" data-preset="repetidos" aria-pressed="false">Com repetidos</button>
+    <button type="button" data-preset="sorteio"   aria-pressed="false">Sortear</button>
+  </div>
+  <p class="nota" id="dica-preset"></p>
+
+  <div class="legenda" id="legenda"></div>
+  </div>
+
+  <div class="coluna dir">
+  <h2 class="t-codigo">O código que está rodando</h2>
+  <div class="codigo"><pre id="codigo"></pre></div>
+
+  <section class="vars" aria-live="polite">
+    <h3>Variáveis de quem está executando agora</h3>
+    <div class="vars-lista" id="vars-lista"></div>
+    <p class="expr" id="expr" hidden></p>
+    <div class="pilha">
+      <h3>Pilha de chamadas — quem está executando é o topo, destacado</h3>
+      <ol id="pilha"></ol>
+    </div>
+  </section>
+
+  <p class="nota nota-codigo">É o mesmo código da apresentação e do texto-base da aula. Cada passo acende a linha
+  que o Java está executando. Repare que, numa chamada recursiva, a execução <b>salta</b> para o começo do
+  método e só volta depois que a chamada terminar — é a pilha de chamadas que guarda o lugar de volta.
+  O arquivo pronto para colar no JDoodle vai anexado à aula no Classroom e está em
+  <a href="https://raw.githubusercontent.com/alyssonbruno/publicacao/main/ED/AULA08/OrdenacaoApp.java">OrdenacaoApp.java</a>.</p>
+  </div>
+
+  <footer>
+    Estrutura de Dados — 3º período do Bacharelado em Sistemas de Informação — UNITINS<br>
+    Prof. Me. Alysson Martins Bruno
+  </footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ---------------------------------------------------------------
+     O código exibido: o mesmo do texto-base, sem a declaração da classe.
+     O índice de cada linha é o que os passos usam em `linha`.
+     O trecho depois de "//" é pintado como comentário.
+  --------------------------------------------------------------- */
+  var CODIGO = {
+    merge: [
+      "public static void mergeSort(int[] v, int esq, int dir) {",
+      "    if (esq >= dir) return;          // 0 ou 1 elemento",
+      "    int meio = (esq + dir) / 2;",
+      "    mergeSort(v, esq, meio);         // metade esquerda",
+      "    mergeSort(v, meio + 1, dir);     // metade direita",
+      "    merge(v, esq, meio, dir);        // intercala as duas",
+      "}",
+      "",
+      "static void merge(int[] v, int esq, int meio, int dir) {",
+      "    int[] L = Arrays.copyOfRange(v, esq, meio + 1);",
+      "    int[] R = Arrays.copyOfRange(v, meio + 1, dir + 1);",
+      "    int i = 0, j = 0, k = esq;",
+      "    while (i < L.length && j < R.length) {",
+      "        if (L[i] <= R[j]) v[k++] = L[i++];  // \"<=\": estável",
+      "        else              v[k++] = R[j++];",
+      "    }",
+      "    while (i < L.length) v[k++] = L[i++];   // sobras de L",
+      "    while (j < R.length) v[k++] = R[j++];   // sobras de R",
+      "}"
+    ],
+    quick: [
+      "public static void quickSort(int[] v, int esq, int dir) {",
+      "    if (esq >= dir) return;              // 0 ou 1 elemento",
+      "    int p = particionar(v, esq, dir);    // pivô vai para p",
+      "    quickSort(v, esq, p - 1);            // ordena os menores",
+      "    quickSort(v, p + 1, dir);            // ordena os maiores",
+      "}",
+      "",
+      "static int particionar(int[] v, int esq, int dir) {",
+      "    int pivo = v[dir];",
+      "    int i = esq - 1;                     // fim da zona dos pequenos",
+      "    for (int j = esq; j < dir; j++) {",
+      "        if (v[j] <= pivo) {",
+      "            i++;",
+      "            trocar(v, i, j);             // v[j] entra na zona",
+      "        }",
+      "    }",
+      "    trocar(v, i + 1, dir);               // pivô entre as zonas",
+      "    return i + 1;",
+      "}"
+    ]
+  };
+
+  /* Variáveis mostradas no painel, na ordem do código. Cada método tem as suas:
+     quem não pertence ao método do topo da pilha aparece apagado, com "—". */
+  var VARIAVEIS = {
+    merge: ["esq", "meio", "dir", "i", "j", "k"],
+    quick: ["esq", "dir", "p", "pivo", "i", "j"]
+  };
+  var ROTULO_MOV = { merge: "Cópias para v", quick: "Trocas" };
+
+  var LEGENDAS = {
+    merge: [
+      ["var(--azul)", "comparando (em L e R)"],
+      ["var(--tijolo)", "acabou de ser escrito em v"],
+      ["var(--trecho)", "trecho já intercalado"],
+      ["var(--laranja)", "vetor inteiro em ordem"],
+      ["transparent;border:2px dashed var(--linha)", "valor antigo, já salvo em L ou R"]
+    ],
+    quick: [
+      ["var(--papel);border:2px dashed var(--tijolo)", "pivô"],
+      ["var(--azul)", "comparando com o pivô (j)"],
+      ["var(--zona)", "zona dos pequenos (≤ pivô)"],
+      ["var(--tijolo)", "trocando"],
+      ["var(--laranja)", "no lugar definitivo"]
+    ]
+  };
+
+  /* --------------------------------------------------------------- */
+
+  function rotulo(e) { return e.v + (e.t ? "<sup>" + e.t + "</sup>" : ""); }
+  function n(x) { return '<span class="num">' + x + "</span>"; }
+  function el(e) { return n(rotulo(e)); }
+  function lista(arr) {
+    var partes = [], k;
+    for (k = 0; k < arr.length; k++) { partes.push(rotulo(arr[k])); }
+    return n("[" + partes.join(", ") + "]");
+  }
+  function cond(texto, valores, ok) { return { texto: texto, valores: valores, ok: !!ok }; }
+  function copiar(o) {
+    var r = {}, k;
+    for (k in o) { if (Object.prototype.hasOwnProperty.call(o, k)) { r[k] = o[k]; } }
+    return r;
+  }
+
+  /* Rótulos a, b, c… para valores repetidos: é o que deixa ver a estabilidade. */
+  function etiquetar(valores) {
+    var conta = {}, visto = {}, out = [], k, x;
+    for (k = 0; k < valores.length; k++) { conta[valores[k]] = (conta[valores[k]] || 0) + 1; }
+    for (k = 0; k < valores.length; k++) {
+      x = valores[k];
+      visto[x] = (visto[x] || 0) + 1;
+      out.push({ v: x, t: conta[x] > 1 ? "abcdefgh".charAt(visto[x] - 1) : "" });
+    }
+    return out;
+  }
+
+  /* Ao fim, confere se os repetidos saíram na mesma ordem em que entraram. */
+  function vereditoEstabilidade(v) {
+    var ultimo = {}, invertidos = [], temRepetido = false, k, e;
+    for (k = 0; k < v.length; k++) {
+      e = v[k];
+      if (!e.t) { continue; }
+      temRepetido = true;
+      if (ultimo[e.v] && ultimo[e.v] > e.t && invertidos.indexOf(e.v) < 0) { invertidos.push(e.v); }
+      ultimo[e.v] = e.t;
+    }
+    if (!temRepetido) { return ""; }
+    if (invertidos.length === 0) {
+      return " Os repetidos saíram <b>na mesma ordem em que entraram</b> (a antes de b): o resultado foi estável.";
+    }
+    var frases = [], q;
+    for (q = 0; q < invertidos.length; q++) {
+      frases.push("o " + n(invertidos[q] + "<sup>b</sup>") + " terminou <b>antes</b> do " + n(invertidos[q] + "<sup>a</sup>"));
+    }
+    return " Repare nos repetidos: " + frases.join("; ") + ". Eles trocaram de ordem — é a instabilidade do Quick Sort.";
+  }
+
+  /* Uma máquina de passos comum aos dois algoritmos: guarda o vetor, os contadores
+     e a pilha de chamadas, e tira uma "foto" a cada passo. */
+  function Maquina(entrada) {
+    this.v = entrada.slice();
+    this.passos = [];
+    this.comp = 0;
+    this.mov = 0;
+    this.frames = [];
+  }
+  Maquina.prototype.chamar = function (rot, vars, esq, dir) {
+    this.frames.push({ rot: rot, vars: vars, esq: esq, dir: dir });
+  };
+  Maquina.prototype.voltar = function () { this.frames.pop(); };
+  Maquina.prototype.topo = function () { return this.frames[this.frames.length - 1]; };
+  Maquina.prototype.foto = function (o) {
+    var t = this.topo(), pilha = [], k;
+    for (k = this.frames.length - 1; k >= 0; k--) { pilha.push(this.frames[k].rot); }
+    this.passos.push({
+      v: this.v.slice(), estados: o.estados, linha: o.linha, texto: o.texto,
+      comparacoes: this.comp, movimentos: this.mov, pilha: pilha,
+      vars: t ? copiar(t.vars) : {}, destaque: o.destaque || "", expr: o.expr || null,
+      faixa: o.faixa === undefined ? (t ? [t.esq, t.dir] : null) : o.faixa,
+      ptr: o.ptr || {}, aux: o.aux || null
+    });
+  };
+
+  /* --------------------------- Merge Sort --------------------------- */
+  function passosMerge(entrada) {
+    var m = new Maquina(entrada), tam = entrada.length;
+    var pronto = [], cx = null, k;
+    for (k = 0; k < tam; k++) { pronto.push(false); }
+
+    /* cx = contexto da intercalação em curso (ou null fora dela) */
+    function estados(extra, tudoPronto) {
+      var e = [], q;
+      for (q = 0; q < tam; q++) {
+        if (tudoPronto) { e.push("ordenado"); continue; }
+        if (cx && q >= cx.esq && q <= cx.dir) { e.push(q < cx.k ? "trecho" : "velho"); continue; }
+        e.push(pronto[q] ? "trecho" : "");
+      }
+      if (extra) { for (q in extra) { if (Object.prototype.hasOwnProperty.call(extra, q)) { e[q] = extra[q]; } } }
+      return e;
+    }
+    function aux() {
+      if (!cx || !cx.L) { return null; }
+      return { L: cx.L.slice(), R: cx.R ? cx.R.slice() : null, i: cx.i, j: cx.j };
+    }
+    function ptrK() { var p = {}; if (cx && cx.k !== null && cx.k <= cx.dir) { p[cx.k] = "k"; } return p; }
+
+    m.chamar("main", {}, 0, tam - 1);
+    m.topo().main = true;
+
+    function mergeSort(esq, dir) {
+      var meio, base;
+      m.chamar("mergeSort(v, " + esq + ", " + dir + ")", { esq: esq, dir: dir }, esq, dir);
+      m.foto({ linha: 0, estados: estados(), destaque: "esq",
+        texto: esq === 0 && dir === tam - 1
+          ? "Primeira chamada: <b>mergeSort</b> recebe o vetor inteiro, de " + n(esq) + " a " + n(dir) + "."
+          : "Nova chamada: agora o trecho é de " + n(esq) + " a " + n(dir) + ". O resto do vetor fica apagado: não é problema desta chamada." });
+
+      base = esq >= dir;
+      m.foto({ linha: 1, estados: estados(),
+        expr: cond("esq >= dir", esq + " >= " + dir, base),
+        texto: base
+          ? (esq === dir
+              ? "Um elemento só (" + el(m.v[esq]) + "): <b>já está ordenado</b>. É o caso base — a chamada volta sem fazer nada."
+              : "Trecho vazio: caso base, a chamada volta na hora.")
+          : "O trecho tem mais de um elemento. Ainda não é o caso base." });
+      if (base) { m.voltar(); return; }
+
+      meio = Math.floor((esq + dir) / 2);
+      m.topo().vars.meio = meio;
+      m.foto({ linha: 2, estados: estados(), destaque: "meio",
+        texto: "<b>meio</b> = (" + esq + " + " + dir + ") / 2 = " + n(meio) + ". Dividir é só isso: <b>nenhum valor é comparado</b> na descida." });
+
+      m.foto({ linha: 3, estados: estados(),
+        texto: "Chama <b>mergeSort</b> para a metade esquerda, de " + n(esq) + " a " + n(meio) + ". Esta chamada <b>fica esperando</b> na pilha até a outra voltar." });
+      mergeSort(esq, meio);
+
+      m.foto({ linha: 4, estados: estados(),
+        texto: "Voltou: a metade esquerda está ordenada. Agora a direita, de " + n(meio + 1) + " a " + n(dir) + "." });
+      mergeSort(meio + 1, dir);
+
+      m.foto({ linha: 5, estados: estados(),
+        texto: "As duas metades estão ordenadas. Falta <b>intercalá-las</b>: chama <b>merge</b>." });
+      merge(esq, meio, dir);
+
+      m.foto({ linha: 6, estados: estados(null, esq === 0 && dir === tam - 1),
+        texto: esq === 0 && dir === tam - 1
+          ? "A primeira chamada terminou: o vetor inteiro está em ordem."
+          : "<b>mergeSort(v, " + esq + ", " + dir + ")</b> terminou: o trecho " + lista(m.v.slice(esq, dir + 1)) + " está ordenado. A chamada sai da pilha." });
+      m.voltar();
+    }
+
+    function merge(esq, meio, dir) {
+      var vars = { esq: esq, meio: meio, dir: dir, i: null, j: null, k: null }, testa, escolheL;
+      m.chamar("merge(v, " + esq + ", " + meio + ", " + dir + ")", vars, esq, dir);
+      m.foto({ linha: 8, estados: estados(),
+        texto: "Dentro de <b>merge</b>: intercalar " + lista(m.v.slice(esq, meio + 1)) + " com " + lista(m.v.slice(meio + 1, dir + 1)) + ". Cada método tem as <b>suas</b> variáveis." });
+
+      cx = { esq: esq, dir: dir, k: esq, L: m.v.slice(esq, meio + 1), R: null, i: null, j: null };
+      m.foto({ linha: 9, estados: estados(null), aux: aux(),
+        texto: "<b>L</b> guarda uma cópia da metade esquerda. A cópia é necessária: o merge vai escrever por cima de <b>v</b>." });
+      cx.R = m.v.slice(meio + 1, dir + 1);
+      m.foto({ linha: 10, estados: estados(null), aux: aux(),
+        texto: "<b>R</b> guarda a metade direita. Os valores em <b>v</b> ficam tracejados: já estão salvos e podem ser sobrescritos." });
+
+      cx.i = 0; cx.j = 0; vars.i = 0; vars.j = 0; vars.k = esq;
+      m.foto({ linha: 11, estados: estados(), aux: aux(), ptr: ptrK(), destaque: "k",
+        texto: "<b>i</b> aponta para o começo de L, <b>j</b> para o começo de R, e <b>k</b> para a casa de <b>v</b> que será preenchida." });
+
+      while (true) {
+        testa = cx.i < cx.L.length && cx.j < cx.R.length;
+        m.foto({ linha: 12, estados: estados(), aux: aux(), ptr: ptrK(),
+          expr: cond("i < L.length && j < R.length", cx.i + " < " + cx.L.length + " && " + cx.j + " < " + cx.R.length, testa),
+          texto: testa ? "As duas cópias ainda têm elementos: compara as frentes."
+                       : (cx.i >= cx.L.length ? "<b>L acabou.</b> Não há mais o que comparar." : "<b>R acabou.</b> Não há mais o que comparar.") });
+        if (!testa) { break; }
+
+        m.comp++;
+        escolheL = cx.L[cx.i].v <= cx.R[cx.j].v;
+        m.foto({ linha: 13, estados: estados(), aux: aux(), ptr: ptrK(),
+          expr: cond("L[i] <= R[j]", rotuloTexto(cx.L[cx.i]) + " <= " + rotuloTexto(cx.R[cx.j]), escolheL),
+          texto: "Quem vem primeiro: " + el(cx.L[cx.i]) + " (de L) ou " + el(cx.R[cx.j]) + " (de R)?" +
+                 (cx.L[cx.i].v === cx.R[cx.j].v ? " <b>Empate!</b> O <code>&lt;=</code> escolhe o de L, que estava antes no vetor." : "") });
+
+        m.mov++;
+        if (escolheL) {
+          m.v[cx.k] = cx.L[cx.i];
+          cx.k++; cx.i++; vars.i = cx.i; vars.k = cx.k;
+          m.foto({ linha: 13, estados: estados(mapa(cx.k - 1, "movendo")), aux: aux(), ptr: ptrK(), destaque: "i",
+            texto: el(m.v[cx.k - 1]) + " vai para v[" + (cx.k - 1) + "]. <b>i</b> e <b>k</b> andam uma casa." });
+        } else {
+          m.v[cx.k] = cx.R[cx.j];
+          cx.k++; cx.j++; vars.j = cx.j; vars.k = cx.k;
+          m.foto({ linha: 14, estados: estados(mapa(cx.k - 1, "movendo")), aux: aux(), ptr: ptrK(), destaque: "j",
+            texto: el(m.v[cx.k - 1]) + " é menor e vai para v[" + (cx.k - 1) + "]. <b>j</b> e <b>k</b> andam uma casa." });
+        }
+      }
+
+      sobras("L", 16);
+      sobras("R", 17);
+
+      for (var q = esq; q <= dir; q++) { pronto[q] = true; }
+      cx = null;
+      m.foto({ linha: 18, estados: estados(), faixa: [esq, dir],
+        texto: "Intercalação pronta: " + lista(m.v.slice(esq, dir + 1)) + ". Foram " + n(dir - esq + 1) + " elementos postos em ordem, cada um uma vez só." });
+      m.voltar();
+
+      function sobras(nome, linha) {
+        var arr = nome === "L" ? cx.L : cx.R, campo = nome === "L" ? "i" : "j", ok;
+        while (true) {
+          ok = cx[campo] < arr.length;
+          m.foto({ linha: linha, estados: estados(), aux: aux(), ptr: ptrK(),
+            expr: cond(campo + " < " + nome + ".length", cx[campo] + " < " + arr.length, ok),
+            texto: ok ? "Sobrou " + el(arr[cx[campo]]) + " em " + nome + ". Já está em ordem: é só copiar."
+                      : "Nada sobrou em " + nome + "." });
+          if (!ok) { return; }
+          m.mov++;
+          m.v[cx.k] = arr[cx[campo]];
+          cx.k++; cx[campo]++; vars[campo] = cx[campo]; vars.k = cx.k;
+          m.foto({ linha: linha, estados: estados(mapa(cx.k - 1, "movendo")), aux: aux(), ptr: ptrK(), destaque: campo,
+            texto: el(m.v[cx.k - 1]) + " copiado para v[" + (cx.k - 1) + "] sem comparar nada." });
+        }
+      }
+    }
+
+    mergeSort(0, tam - 1);
+    m.foto({ linha: 6, estados: estados(null, true), faixa: null,
+      texto: "Pronto: " + n(m.comp) + " comparações e " + n(m.mov) + " cópias. Com " + n(tam) + " elementos, a pilha nunca passou de " + n(profundidadeMax(m)) + " chamadas de mergeSort." + vereditoEstabilidade(m.v) });
+    return m.passos;
+  }
+
+  function rotuloTexto(e) { return e.v + (e.t ? e.t : ""); }
+  function mapa(pos, est) { var o = {}; o[pos] = est; return o; }
+  function profundidadeMax(m) {
+    var maior = 0, k, c, j;
+    for (k = 0; k < m.passos.length; k++) {
+      c = 0;
+      for (j = 0; j < m.passos[k].pilha.length; j++) { if (m.passos[k].pilha[j].indexOf("mergeSort") === 0) { c++; } }
+      if (c > maior) { maior = c; }
+    }
+    return maior;
+  }
+
+  /* --------------------------- Quick Sort --------------------------- */
+  function passosQuick(entrada) {
+    var m = new Maquina(entrada), tam = entrada.length;
+    var fixo = [], px = null, k;
+    for (k = 0; k < tam; k++) { fixo.push(false); }
+
+    /* px = contexto da partição em curso (ou null fora dela) */
+    function estados(extra) {
+      var e = [], q;
+      for (q = 0; q < tam; q++) {
+        if (fixo[q]) { e.push("ordenado"); continue; }
+        if (px && q === px.dir) { e.push("chave"); continue; }
+        if (px && q >= px.esq && q <= px.i) { e.push("zona"); continue; }
+        e.push("");
+      }
+      if (extra) { for (q in extra) { if (Object.prototype.hasOwnProperty.call(extra, q)) { e[q] = extra[q]; } } }
+      return e;
+    }
+    function ptrs(comJ) {
+      var p = {};
+      if (!px) { return p; }
+      if (px.i >= px.esq) { p[px.i] = "i"; }
+      if (comJ && px.j !== null && px.j < px.dir) { p[px.j] = (p[px.j] ? p[px.j] + " " : "") + "j"; }
+      return p;
+    }
+
+    m.chamar("main", {}, 0, tam - 1);
+
+    function quickSort(esq, dir) {
+      var base, p;
+      m.chamar("quickSort(v, " + esq + ", " + dir + ")", { esq: esq, dir: dir, p: null }, esq, dir);
+      m.foto({ linha: 0, estados: estados(), destaque: "esq",
+        texto: esq === 0 && dir === tam - 1
+          ? "Primeira chamada: <b>quickSort</b> recebe o vetor inteiro, de " + n(esq) + " a " + n(dir) + "."
+          : "Nova chamada: agora o trecho é de " + n(esq) + " a " + n(dir) + "." });
+
+      base = esq >= dir;
+      m.foto({ linha: 1, estados: estados(),
+        expr: cond("esq >= dir", esq + " >= " + dir, base),
+        texto: base
+          ? (esq === dir
+              ? "Um elemento só: caso base. E ele já está no lugar definitivo — todos os menores estão à esquerda, todos os maiores à direita."
+              : "Trecho vazio: caso base, a chamada volta na hora.")
+          : "Mais de um elemento: é preciso particionar." });
+      if (base) {
+        if (esq === dir) {
+          fixo[esq] = true;
+          m.foto({ linha: 1, estados: estados(),
+            texto: el(m.v[esq]) + " fica laranja: está no seu lugar. A chamada sai da pilha." });
+        }
+        m.voltar();
+        return;
+      }
+
+      m.foto({ linha: 2, estados: estados(),
+        texto: "Chama <b>particionar</b>. É aqui que o trabalho pesado acontece — <b>na ida</b>, antes das chamadas recursivas." });
+      p = particionar(esq, dir);
+      m.topo().vars.p = p;
+      m.foto({ linha: 2, estados: estados(), destaque: "p",
+        texto: "<b>particionar</b> devolveu <b>p</b> = " + n(p) + ". O pivô " + el(m.v[p]) + " está no lugar definitivo e <b>não se move mais</b>." });
+
+      m.foto({ linha: 3, estados: estados(),
+        texto: p - 1 >= esq
+          ? "Ordena os menores, de " + n(esq) + " a " + n(p - 1) + ". Esta chamada fica esperando na pilha."
+          : "Não há ninguém menor que o pivô neste trecho: a chamada para os menores recebe um trecho vazio." });
+      quickSort(esq, p - 1);
+
+      m.foto({ linha: 4, estados: estados(),
+        texto: p + 1 <= dir
+          ? "Voltou. Agora os maiores, de " + n(p + 1) + " a " + n(dir) + "."
+          : "Voltou. Não há ninguém maior que o pivô: a chamada para os maiores recebe um trecho vazio." });
+      quickSort(p + 1, dir);
+
+      m.foto({ linha: 5, estados: estados(),
+        texto: "<b>quickSort(v, " + esq + ", " + dir + ")</b> terminou. Na volta <b>não há nada a fazer</b>: não existe etapa de combinar." });
+      m.voltar();
+    }
+
+    function particionar(esq, dir) {
+      var vars = { esq: esq, dir: dir, p: null, pivo: null, i: null, j: null }, testa, menor, tmp;
+      m.chamar("particionar(v, " + esq + ", " + dir + ")", vars, esq, dir);
+      m.foto({ linha: 7, estados: estados(),
+        texto: "Dentro de <b>particionar</b>, com o trecho " + lista(m.v.slice(esq, dir + 1)) + "." });
+
+      px = { esq: esq, dir: dir, i: esq - 1, j: null };
+      vars.pivo = rotuloTexto(m.v[dir]);
+      m.foto({ linha: 8, estados: estados(), destaque: "pivo",
+        texto: "O <b>pivô</b> é o último do trecho: " + el(m.v[dir]) + ". Menores ou iguais vão para a esquerda dele; maiores, para a direita." });
+
+      vars.i = esq - 1;
+      m.foto({ linha: 9, estados: estados(), destaque: "i",
+        texto: "<b>i</b> = " + n(esq - 1) + ", uma casa <b>antes</b> do trecho: a zona dos pequenos começa vazia." });
+
+      px.j = esq; vars.j = esq;
+      while (true) {
+        testa = px.j < dir;
+        m.foto({ linha: 10, estados: estados(testa ? mapa(px.j, "comparando") : null), ptr: ptrs(true), destaque: "j",
+          expr: cond("j < dir", px.j + " < " + dir, testa),
+          texto: px.j === esq
+            ? "<b>j</b> começa em " + n(esq) + " e vai examinar cada elemento até antes do pivô."
+            : (testa ? "<b>j++</b>: próximo elemento." : "<b>j</b> chegou ao pivô: todos foram examinados.") });
+        if (!testa) { break; }
+
+        m.comp++;
+        menor = m.v[px.j].v <= m.v[dir].v;
+        m.foto({ linha: 11, estados: estados(mapa(px.j, "comparando")), ptr: ptrs(true),
+          expr: cond("v[j] <= pivo", rotuloTexto(m.v[px.j]) + " <= " + rotuloTexto(m.v[dir]), menor),
+          texto: el(m.v[px.j]) + " é menor ou igual ao pivô " + el(m.v[dir]) + "?" + (menor ? "" : " <b>Não</b>: fica onde está, do lado dos grandes.") });
+
+        if (menor) {
+          px.i++; vars.i = px.i;
+          m.foto({ linha: 12, estados: estados(mapa(px.j, "comparando")), ptr: ptrs(true), destaque: "i",
+            texto: "<b>Sim.</b> A zona dos pequenos cresce uma casa: <b>i</b> = " + n(px.i) + "." });
+          m.mov++;
+          tmp = m.v[px.i]; m.v[px.i] = m.v[px.j]; m.v[px.j] = tmp;
+          var ex = {}; ex[px.i] = "movendo"; ex[px.j] = "movendo";
+          m.foto({ linha: 13, estados: estados(ex), ptr: ptrs(true),
+            texto: px.i === px.j
+              ? "<b>i</b> e <b>j</b> apontam para a mesma casa: a troca não muda nada, mas " + el(m.v[px.i]) + " agora conta como da zona dos pequenos."
+              : el(m.v[px.i]) + " troca de lugar com " + el(m.v[px.j]) + " e entra na zona dos pequenos." });
+        }
+        px.j++; vars.j = px.j;
+      }
+
+      m.mov++;
+      tmp = m.v[px.i + 1]; m.v[px.i + 1] = m.v[dir]; m.v[dir] = tmp;
+      var pos = px.i + 1, ex2 = {};
+      ex2[pos] = "movendo"; if (pos !== dir) { ex2[dir] = "movendo"; }
+      px = { esq: esq, dir: -1, i: pos - 1, j: null };
+      m.foto({ linha: 16, estados: estados(ex2), ptr: mapa(pos, "i+1"),
+        texto: pos === dir
+          ? "O pivô já estava na casa <b>i + 1</b> = " + n(pos) + ": ninguém era maior que ele."
+          : "O pivô troca com a primeira casa depois da zona, <b>i + 1</b> = " + n(pos) + ". Fica <b>entre os pequenos e os grandes</b>." });
+
+      fixo[pos] = true;
+      px = null;
+      m.foto({ linha: 17, estados: estados(), ptr: mapa(pos, "p"),
+        texto: "Devolve " + n(pos) + ". O pivô " + el(m.v[pos]) + " fica laranja: é o seu lugar definitivo." });
+      m.voltar();
+      return pos;
+    }
+
+    quickSort(0, tam - 1);
+    m.foto({ linha: 5, estados: estados(), faixa: null,
+      texto: "Pronto: " + n(m.comp) + " comparações e " + n(m.mov) + " trocas." + vereditoEstabilidade(m.v) });
+    return m.passos;
+  }
+
+  var GERADORES = { merge: passosMerge, quick: passosQuick };
+
+  var PRESETS = {
+    aula:      { v: [6, 3, 8, 1, 7, 2, 5, 4], dica: "É o vetor dos slides e do texto-base. Merge Sort: 17 comparações. Quick Sort: 13 — o pivô 4 cai bem no meio." },
+    ordenado:  { v: [1, 2, 3, 4, 5, 6, 7, 8], dica: "O pior caso do Quick Sort: o pivô é sempre o maior, e cada partição só tira um elemento. Compare a pilha e as comparações com as do Merge Sort, que não muda de comportamento." },
+    inverso:   { v: [8, 7, 6, 5, 4, 3, 2, 1], dica: "Também ruim para o Quick Sort com o último como pivô. O Merge Sort continua em n log n." },
+    repetidos: { v: [3, 1, 3, 2, 1],          dica: "Valores repetidos, marcados com a e b. Rode os dois algoritmos e veja no fim quem manteve o a antes do b: é a estabilidade." },
+    sorteio:   { v: null,                     dica: "Vetor sorteado. Rode os dois algoritmos com ele e compare os contadores." }
+  };
+
+  /* --------------------------- estado --------------------------- */
+  var alg = "merge", preset = "aula", entrada = etiquetar(PRESETS.aula.v);
+  var passos = [], indice = 0, tocando = null;
+
+  var elBarras   = document.getElementById("barras");
+  var elAux      = document.getElementById("aux");
+  var elNarracao = document.getElementById("narracao");
+  var elCodigo   = document.getElementById("codigo");
+  var elConta    = document.getElementById("passo-conta");
+  var elProg     = document.getElementById("barra-progresso");
+  var elDica     = document.getElementById("dica-preset");
+  var elVars     = document.getElementById("vars-lista");
+  var elExpr     = document.getElementById("expr");
+  var elPilha    = document.getElementById("pilha");
+  var elLegenda  = document.getElementById("legenda");
+  var btProximo  = document.getElementById("proximo");
+  var btAnterior = document.getElementById("anterior");
+  var btTocar    = document.getElementById("tocar");
+
+  function sortear() {
+    var v = [], i;
+    for (i = 0; i < 8; i++) { v.push(1 + Math.floor(Math.random() * 9)); }
+    return v;
+  }
+
+  function escapar(t) {
+    return String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  function desenharVars(p) {
+    var nomes = VARIAVEIS[alg], html = "", k, valor, existe, i;
+    for (i = 0; i < nomes.length; i++) {
+      k = nomes[i];
+      valor = p.vars[k];
+      existe = valor !== null && valor !== undefined;
+      html += '<span class="var" data-mudou="' + (p.destaque === k)
+            + '" data-indef="' + (!existe) + '">'
+            + "<b>" + k + "</b><i>" + (existe ? valor : "—") + "</i></span>";
+    }
+    elVars.innerHTML = html;
+
+    if (p.expr) {
+      elExpr.hidden = false;
+      elExpr.innerHTML = "<code>" + escapar(p.expr.texto) + "</code>"
+        + "<s>→</s><code>" + escapar(p.expr.valores) + "</code>"
+        + '<s>→</s><em class="' + (p.expr.ok ? "sim" : "nao") + '">'
+        + (p.expr.ok ? "verdadeiro" : "falso") + "</em>";
+    } else {
+      elExpr.hidden = true;
+      elExpr.innerHTML = "";
+    }
+
+    html = "";
+    for (i = 0; i < p.pilha.length; i++) {
+      html += "<li" + (p.pilha[i] === "main" ? ' class="main"' : "") + ">" + escapar(p.pilha[i]) + "</li>";
+    }
+    elPilha.innerHTML = html;
+  }
+
+  function desenharAux(p) {
+    if (!p.aux) { elAux.hidden = true; elAux.innerHTML = ""; return; }
+    function linha(nome, arr, pos, ptr) {
+      var h = '<div class="aux-linha"><b>' + nome + "</b>", k, est;
+      if (!arr) { return h + '<span class="aux-vazio">ainda não copiado</span></div>'; }
+      for (k = 0; k < arr.length; k++) {
+        est = pos === null ? "" : (k < pos ? "usado" : (k === pos ? "atual" : ""));
+        h += '<span class="aux-cx"><span class="caixa" data-estado="' + est + '">' + rotulo(arr[k]) + "</span>"
+           + '<span class="aux-ptr">' + (pos !== null && k === pos ? ptr : "") + "</span></span>";
+      }
+      if (pos !== null && pos >= arr.length) { h += '<span class="aux-vazio">acabou</span>'; }
+      return h + "</div>";
+    }
+    elAux.hidden = false;
+    elAux.innerHTML = linha("L", p.aux.L, p.aux.i, "i") + linha("R", p.aux.R, p.aux.j, "j");
+  }
+
+  function desenharCodigo() {
+    var linhas = CODIGO[alg], html = "", i, t, c, corte;
+    for (i = 0; i < linhas.length; i++) {
+      t = linhas[i];
+      corte = t.indexOf("//");
+      c = corte < 0 ? escapar(t) : escapar(t.slice(0, corte)) + '<span class="cm">' + escapar(t.slice(corte)) + "</span>";
+      html += '<span class="ln" data-ln="' + i + '">' + (c || " ") + "</span>";
+    }
+    elCodigo.innerHTML = html;
+  }
+
+  function desenharLegenda() {
+    var html = "", l = LEGENDAS[alg], i;
+    for (i = 0; i < l.length; i++) {
+      html += '<span><i class="chave" style="background:' + l[i][0] + '"></i> ' + l[i][1] + "</span>";
+    }
+    elLegenda.innerHTML = html;
+  }
+
+  function desenhar() {
+    var p = passos[indice], maior = 1, i, c, fatia, fora;
+    for (i = 0; i < p.v.length; i++) { if (p.v[i].v > maior) { maior = p.v[i].v; } }
+
+    if (elBarras.children.length !== p.v.length) {
+      elBarras.innerHTML = "";
+      for (i = 0; i < p.v.length; i++) {
+        c = document.createElement("div");
+        c.className = "col";
+        c.innerHTML = '<div class="barra"></div><div class="valor"></div><div class="idx"></div><div class="ptr"></div>';
+        elBarras.appendChild(c);
+      }
+    }
+    for (i = 0; i < p.v.length; i++) {
+      c = elBarras.children[i];
+      fora = p.faixa ? (i < p.faixa[0] || i > p.faixa[1]) : false;
+      c.setAttribute("data-estado", p.estados[i] || "");
+      c.setAttribute("data-fora", String(fora));
+      // proporção da altura do palco, descontando os rótulos abaixo da barra,
+      // para o desenho crescer junto com a tela na apresentação
+      fatia = 0.18 + (p.v[i].v / maior) * 0.82;
+      c.children[0].style.height = "calc((100% - 62px) * " + fatia.toFixed(4) + ")";
+      c.children[1].innerHTML = rotulo(p.v[i]);
+      c.children[2].textContent = i;
+      c.children[3].textContent = p.ptr[i] || "";
+    }
+
+    desenharAux(p);
+    elNarracao.innerHTML = p.texto;
+    desenharVars(p);
+    document.getElementById("c-comparacoes").textContent = p.comparacoes;
+    document.getElementById("c-mov").textContent = p.movimentos;
+    document.getElementById("c-pilha").textContent = Math.max(0, p.pilha.length - 1);
+    document.getElementById("rotulo-mov").textContent = ROTULO_MOV[alg];
+
+    var ativa = elCodigo.querySelector(".ativa");
+    if (ativa) { ativa.classList.remove("ativa"); }
+    var nova = elCodigo.querySelector('[data-ln="' + p.linha + '"]');
+    if (nova) { nova.classList.add("ativa"); }
+
+    elConta.textContent = "passo " + (indice + 1) + " de " + passos.length;
+    elProg.style.width = (passos.length < 2 ? 100 : (indice / (passos.length - 1)) * 100) + "%";
+    btAnterior.disabled = indice === 0;
+    btProximo.disabled = indice === passos.length - 1;
+    if (indice === passos.length - 1) { parar(); }
+  }
+
+  function recomecar() {
+    passos = GERADORES[alg](entrada);
+    indice = 0;
+    desenharCodigo();
+    desenharLegenda();
+    desenhar();
+  }
+
+  function parar() {
+    if (tocando) { clearInterval(tocando); tocando = null; }
+    btTocar.textContent = "▶ Tocar";
+  }
+
+  /* --------------------------- eventos --------------------------- */
+  btProximo.addEventListener("click", function () {
+    if (indice < passos.length - 1) { indice++; desenhar(); }
+  });
+  btAnterior.addEventListener("click", function () {
+    parar();
+    if (indice > 0) { indice--; desenhar(); }
+  });
+  document.getElementById("reiniciar").addEventListener("click", function () {
+    parar(); indice = 0; desenhar();
+  });
+  btTocar.addEventListener("click", function () {
+    if (tocando) { parar(); return; }
+    if (indice === passos.length - 1) { indice = 0; desenhar(); }
+    btTocar.textContent = "⏸ Pausar";
+    tocando = setInterval(function () {
+      if (indice < passos.length - 1) { indice++; desenhar(); } else { parar(); }
+    }, 800);
+  });
+  document.addEventListener("keydown", function (ev) {
+    if (ev.target && /^(INPUT|TEXTAREA|SELECT)$/.test(ev.target.tagName)) { return; }
+    if (ev.key === "ArrowRight") { btProximo.click(); }
+    else if (ev.key === "ArrowLeft") { btAnterior.click(); }
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll(".abas button"), function (b) {
+    b.addEventListener("click", function () {
+      parar();
+      alg = b.getAttribute("data-alg");
+      Array.prototype.forEach.call(document.querySelectorAll(".abas button"), function (o) {
+        o.setAttribute("aria-selected", String(o === b));
+      });
+      try { localStorage.setItem("ed-aula08-alg", alg); } catch (e) { /* sem armazenamento */ }
+      recomecar();
+    });
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll("#entradas button"), function (b) {
+    b.addEventListener("click", function () {
+      parar();
+      preset = b.getAttribute("data-preset");
+      entrada = etiquetar(preset === "sorteio" ? sortear() : PRESETS[preset].v);
+      Array.prototype.forEach.call(document.querySelectorAll("#entradas button"), function (o) {
+        o.setAttribute("aria-pressed", String(o === b));
+      });
+      elDica.textContent = PRESETS[preset].dica;
+      recomecar();
+    });
+  });
+
+  try {
+    var salvo = localStorage.getItem("ed-aula08-alg");
+    if (salvo && GERADORES[salvo]) {
+      alg = salvo;
+      Array.prototype.forEach.call(document.querySelectorAll(".abas button"), function (o) {
+        o.setAttribute("aria-selected", String(o.getAttribute("data-alg") === alg));
+      });
+    }
+  } catch (e) { /* sem armazenamento */ }
+
+  elDica.textContent = PRESETS.aula.dica;
+  recomecar();
+})();
+</script>

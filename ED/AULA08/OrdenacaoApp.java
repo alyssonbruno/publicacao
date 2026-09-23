@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * Aula 8 — Hands-on: MERGE SORT e QUICK SORT no mesmo vetor.
+ * Aula 8 — MERGE SORT e QUICK SORT testados em seis vetores.
  *
  * <p>Como usar no JDoodle (https://www.jdoodle.com/online-java-compiler-ide):
  * escolha a linguagem <b>Java</b> e o <b>JDK 25</b>, apague o exemplo da tela,
@@ -10,103 +10,97 @@ import java.util.Arrays;
  *
  * <p>O que observar na saída:</p>
  * <ol>
- *   <li>os dois algoritmos recebem uma cópia do mesmo vetor original;</li>
- *   <li>os dois chegam ao mesmo resultado por caminhos diferentes;</li>
- *   <li>o Merge Sort divide sempre ao meio e depois mescla;</li>
- *   <li>o Quick Sort escolhe um pivô e separa menores e maiores.</li>
+ *   <li>o primeiro vetor é o da aula, [6, 3, 8, 1, 7, 2, 5, 4], o mesmo dos slides
+ *       e do visualizador;</li>
+ *   <li>cada algoritmo recebe a sua própria cópia do vetor original, que por isso
+ *       aparece intacto na linha "original";</li>
+ *   <li>os dois chegam ao mesmo resultado nos seis casos, inclusive nos casos de
+ *       borda: vetor com repetidos, com um elemento só e vazio;</li>
+ *   <li>o vetor vazio não quebra nada: a chamada é mergeSort(v, 0, -1) e o caso
+ *       base (esq >= dir) devolve na hora.</li>
  * </ol>
  *
  * @author Prof. Alysson M. Bruno
- * @version 1.0
+ * @version 2.0
  */
 public class OrdenacaoApp {
-    public static void main(String[] args) {
-        int[] original = {64, 34, 25, 12, 22, 11, 90};
 
-        // Merge Sort
-        int[] m = Arrays.copyOf(original, original.length);
+    static void testar(String nome, int[] original) {
+        int[] m = original.clone();              // cada algoritmo recebe a sua cópia
+        int[] q = original.clone();
         Ordenacao.mergeSort(m, 0, m.length - 1);
-        System.out.println("Merge Sort : " + Arrays.toString(m));
-
-        // Quick Sort
-        int[] q = Arrays.copyOf(original, original.length);
         Ordenacao.quickSort(q, 0, q.length - 1);
-        System.out.println("Quick Sort : " + Arrays.toString(q));
+        System.out.println(nome);
+        System.out.println("  original   : " + Arrays.toString(original));
+        System.out.println("  Merge Sort : " + Arrays.toString(m));
+        System.out.println("  Quick Sort : " + Arrays.toString(q));
+    }
+
+    public static void main(String[] args) {
+        testar("Vetor da aula",   new int[] {6, 3, 8, 1, 7, 2, 5, 4});
+        testar("Já ordenado",     new int[] {1, 2, 3, 4, 5});
+        testar("Ao contrário",    new int[] {5, 4, 3, 2, 1});
+        testar("Com repetidos",   new int[] {3, 1, 3, 2, 1});
+        testar("Um elemento",     new int[] {42});
+        testar("Vazio",           new int[] {});
     }
 }
 
 class Ordenacao {
 
     /**
-     * Ordena o subarray arr[esq..dir] usando Merge Sort.
-     * Chamada inicial: mergeSort(arr, 0, arr.length - 1)
+     * Ordena o trecho v[esq..dir] com Merge Sort.
+     * Para ordenar o vetor inteiro: mergeSort(v, 0, v.length - 1)
      */
-    public static void mergeSort(int[] arr, int esq, int dir) {
-        // caso base: subarray de 0 ou 1 elemento já está ordenado
-        if (esq >= dir) return;
-
+    public static void mergeSort(int[] v, int esq, int dir) {
+        if (esq >= dir) return;          // 0 ou 1 elemento
         int meio = (esq + dir) / 2;
-        mergeSort(arr, esq, meio);           // ordena a metade esquerda
-        mergeSort(arr, meio + 1, dir);       // ordena a metade direita
-        merge(arr, esq, meio, dir);          // mescla as duas metades ordenadas
+        mergeSort(v, esq, meio);         // metade esquerda
+        mergeSort(v, meio + 1, dir);     // metade direita
+        merge(v, esq, meio, dir);        // intercala as duas
     }
 
-    /**
-     * Mescla os subarrays arr[esq..meio] e arr[meio+1..dir], ambos já ordenados.
-     */
-    private static void merge(int[] arr, int esq, int meio, int dir) {
-        // Passo 1: cria cópias temporárias das duas metades
-        int n1 = meio - esq + 1;
-        int n2 = dir - meio;
-        int[] L = new int[n1];
-        int[] R = new int[n2];
-
-        for (int i = 0; i < n1; i++) L[i] = arr[esq + i];
-        for (int j = 0; j < n2; j++) R[j] = arr[meio + 1 + j];
-
-        // Passo 2: intercala os elementos em ordem crescente
+    /** Intercala v[esq..meio] e v[meio+1..dir], já ordenados. */
+    static void merge(int[] v, int esq, int meio, int dir) {
+        int[] L = Arrays.copyOfRange(v, esq, meio + 1);
+        int[] R = Arrays.copyOfRange(v, meio + 1, dir + 1);
         int i = 0, j = 0, k = esq;
-        while (i < n1 && j < n2) {
-            // L[i] <= R[j] garante estabilidade (iguais mantêm ordem original)
-            if (L[i] <= R[j]) arr[k++] = L[i++];
-            else               arr[k++] = R[j++];
+        while (i < L.length && j < R.length) {
+            if (L[i] <= R[j]) v[k++] = L[i++];  // "<=": estável
+            else              v[k++] = R[j++];
         }
-
-        // Passo 3: copia elementos restantes (somente uma das metades terá sobra)
-        while (i < n1) arr[k++] = L[i++];
-        while (j < n2) arr[k++] = R[j++];
+        while (i < L.length) v[k++] = L[i++];   // sobras de L
+        while (j < R.length) v[k++] = R[j++];   // sobras de R
     }
 
     /**
-     * Ordena o subarray arr[esq..dir] usando Quick Sort.
-     * Chamada inicial: quickSort(arr, 0, arr.length - 1)
+     * Ordena o trecho v[esq..dir] com Quick Sort.
+     * Para ordenar o vetor inteiro: quickSort(v, 0, v.length - 1)
      */
-    public static void quickSort(int[] arr, int esq, int dir) {
-        // caso base: subarray de 0 ou 1 elemento já está ordenado
-        if (esq >= dir) return;
-
-        int p = partition(arr, esq, dir);     // posição definitiva do pivô
-        quickSort(arr, esq, p - 1);           // ordena elementos à esquerda do pivô
-        quickSort(arr, p + 1, dir);           // ordena elementos à direita do pivô
+    public static void quickSort(int[] v, int esq, int dir) {
+        if (esq >= dir) return;              // 0 ou 1 elemento
+        int p = particionar(v, esq, dir);    // pivô vai para p
+        quickSort(v, esq, p - 1);            // ordena os menores
+        quickSort(v, p + 1, dir);            // ordena os maiores
     }
 
-    /**
-     * Partição de Lomuto: escolhe arr[dir] como pivô.
-     * Retorna a posição definitiva do pivô.
-     */
-    private static int partition(int[] arr, int esq, int dir) {
-        int pivot = arr[dir];   // pivô é o último elemento
-        int i = esq - 1;        // i aponta para o último "elemento pequeno" encontrado
-
+    /** Partição de Lomuto: o último elemento é o pivô. */
+    static int particionar(int[] v, int esq, int dir) {
+        int pivo = v[dir];
+        int i = esq - 1;                     // fim da zona dos pequenos
         for (int j = esq; j < dir; j++) {
-            if (arr[j] <= pivot) {
+            if (v[j] <= pivo) {
                 i++;
-                // troca arr[i] e arr[j] — move elemento pequeno para a esquerda
-                int tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp;
+                trocar(v, i, j);             // v[j] entra na zona
             }
         }
-        // coloca o pivô na posição correta: entre os menores e os maiores
-        int tmp = arr[i + 1]; arr[i + 1] = arr[dir]; arr[dir] = tmp;
+        trocar(v, i + 1, dir);               // pivô entre as zonas
         return i + 1;
+    }
+
+    static void trocar(int[] v, int a, int b) {
+        int tmp = v[a];
+        v[a] = v[b];
+        v[b] = tmp;
     }
 }

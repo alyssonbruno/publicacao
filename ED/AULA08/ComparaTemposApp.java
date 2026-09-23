@@ -2,136 +2,153 @@ import java.util.Arrays;
 import java.util.Random;
 
 /**
- * Aula 8 — Hands-on: MERGE × QUICK — medindo o tempo.
+ * Aula 8 — MERGE × QUICK: a previsão do Big-O no relógio.
  *
  * <p>Como usar no JDoodle (https://www.jdoodle.com/online-java-compiler-ide):
  * escolha a linguagem <b>Java</b> e o <b>JDK 25</b>, apague o exemplo da tela,
  * cole este arquivo inteiro e clique em <b>Execute</b>.
- * Não é preciso digitar nada: o programa roda sozinho.</p>
+ * Não é preciso digitar nada: o programa roda sozinho, em poucos segundos.</p>
  *
- * <p>O que observar na saída:</p>
+ * <p>O que observar na saída (os milissegundos mudam de máquina para máquina;
+ * olhe as colunas de razão):</p>
  * <ol>
- *   <li>com 100.000 números aleatórios, os dois terminam em frações de segundo;</li>
- *   <li>com o vetor JÁ ORDENADO, o Quick Sort desta versão cai no pior caso, O(n²);</li>
- *   <li>o Merge Sort não muda de comportamento com a entrada ordenada;</li>
- *   <li>é por isso que a escolha do pivô importa tanto no Quick Sort.</li>
+ *   <li>PARTE 1, números sorteados: quando n dobra, os dois tempos ficam perto
+ *       do dobro (entre 1,6x e 2,6x) — é o O(n log n). Na Aula 07, o Bubble Sort
+ *       quadruplicava;</li>
+ *   <li>na PARTE 1 o Quick Sort gasta menos que o Merge Sort: mesmo crescimento,
+ *       constante menor, porque ele não copia o vetor;</li>
+ *   <li>PARTE 2, vetor já ordenado: o Quick Sort quadruplica a cada linha (4,0x) —
+ *       com o último elemento como pivô, esse é o pior caso dele, O(n²);</li>
+ *   <li>na PARTE 2 o Merge Sort continua rápido: ele não tem pior caso.</li>
  * </ol>
  *
+ * <p>Desafio: troque o 3_000 do segundo laço por 6_000, depois 12_000, e
+ * descubra em que tamanho aparece o StackOverflowError.</p>
+ *
  * @author Prof. Alysson M. Bruno
- * @version 1.0
+ * @version 2.0
  */
 public class ComparaTemposApp {
+
+    // n números sorteados. A semente fixa (42) faz o sorteio sair sempre igual.
+    static int[] aleatorio(int n) {
+        return new Random(42).ints(n, 0, n * 10).toArray();
+    }
+
+    // 0, 1, 2, ..., n - 1: já em ordem.
+    static int[] crescente(int n) {
+        int[] v = new int[n];
+        for (int i = 0; i < n; i++) v[i] = i;
+        return v;
+    }
+
+    // Tempo para ordenar uma cópia do vetor, em milissegundos. Repete cinco vezes
+    // e fica com o menor tempo, o menos atrapalhado pelo resto da máquina.
+    static double medir(int[] dados, boolean merge) {
+        long melhor = Long.MAX_VALUE;
+        for (int r = 0; r < 5; r++) {
+            int[] v = dados.clone();
+            long inicio = System.nanoTime();
+            if (merge) Ordenacao.mergeSort(v, 0, v.length - 1);
+            else       Ordenacao.quickSort(v, 0, v.length - 1);
+            melhor = Math.min(melhor, System.nanoTime() - inicio);
+        }
+        return melhor / 1_000_000.0;
+    }
+
+    static String razao(double agora, double antes) {
+        return antes == 0 ? "-" : String.format("%.1fx", agora / antes);
+    }
+
     public static void main(String[] args) {
-        // --- Teste com dados aleatórios ---
-        int n = 100_000;
-        Random rng = new Random(42);
-        int[] base = new int[n];
-        for (int i = 0; i < n; i++) base[i] = rng.nextInt(1_000_000);
+        // Aquecimento da JVM, como na Aula 07: sem ele, as primeiras linhas saem infladas.
+        for (int r = 0; r < 20; r++) {
+            medir(aleatorio(20_000), true);
+            medir(aleatorio(20_000), false);
+            medir(crescente(500), false);
+        }
 
-        int[] m = Arrays.copyOf(base, n);
-        long ini = System.nanoTime();
-        Ordenacao.mergeSort(m, 0, m.length - 1);
-        System.out.printf("Merge Sort  (n=%,d, aleatório): %,10d ns%n", n, System.nanoTime() - ini);
+        System.out.println("PARTE 1 - números sorteados (n dobra a cada linha)");
+        System.out.printf("%-9s %-11s %-11s %-15s %-15s%n",
+                "n", "Merge (ms)", "Quick (ms)", "Merge/anterior", "Quick/anterior");
+        double mAnt = 0, qAnt = 0;
+        for (int n = 100_000; n <= 800_000; n *= 2) {
+            int[] dados = aleatorio(n);
+            double m = medir(dados, true), q = medir(dados, false);
+            System.out.printf("%-9d %-11.2f %-11.2f %-15s %-15s%n",
+                    n, m, q, razao(m, mAnt), razao(q, qAnt));
+            mAnt = m;
+            qAnt = q;
+        }
 
-        int[] q = Arrays.copyOf(base, n);
-        ini = System.nanoTime();
-        Ordenacao.quickSort(q, 0, q.length - 1);
-        System.out.printf("Quick Sort  (n=%,d, aleatório): %,10d ns%n", n, System.nanoTime() - ini);
-
-        // --- Teste com array já ordenado (pior caso do Quick Sort) ---
-        // No pior caso o Quick Sort desce um nível de recursão por elemento.
-        // O texto-base usa 10.000; aqui são 3.000, porque a pilha de chamadas
-        // do JDoodle é menor que a de um computador e estoura (StackOverflowError)
-        // antes de terminar. Aumente aos poucos e veja até onde a pilha aguenta.
-        int[] ordenado = new int[3_000];
-        for (int i = 0; i < ordenado.length; i++) ordenado[i] = i;
-
-        int[] qOrd = Arrays.copyOf(ordenado, ordenado.length);
-        ini = System.nanoTime();
-        Ordenacao.quickSort(qOrd, 0, qOrd.length - 1);
-        System.out.printf("Quick Sort  (n=%,d, ordenado): %,10d ns%n",
-                           ordenado.length, System.nanoTime() - ini);
-
-        int[] mOrd = Arrays.copyOf(ordenado, ordenado.length);
-        ini = System.nanoTime();
-        Ordenacao.mergeSort(mOrd, 0, mOrd.length - 1);
-        System.out.printf("Merge Sort  (n=%,d, ordenado): %,10d ns%n",
-                           ordenado.length, System.nanoTime() - ini);
+        System.out.println();
+        System.out.println("PARTE 2 - vetor JÁ ORDENADO (pior caso do Quick Sort)");
+        System.out.printf("%-9s %-11s %-11s %-15s%n", "n", "Merge (ms)", "Quick (ms)", "Quick/anterior");
+        qAnt = 0;
+        for (int n = 750; n <= 3_000; n *= 2) {
+            int[] dados = crescente(n);
+            double m = medir(dados, true), q = medir(dados, false);
+            System.out.printf("%-9d %-11.3f %-11.3f %-15s%n", n, m, q, razao(q, qAnt));
+            qAnt = q;
+        }
     }
 }
 
 class Ordenacao {
 
     /**
-     * Ordena o subarray arr[esq..dir] usando Merge Sort.
-     * Chamada inicial: mergeSort(arr, 0, arr.length - 1)
+     * Ordena o trecho v[esq..dir] com Merge Sort.
+     * Para ordenar o vetor inteiro: mergeSort(v, 0, v.length - 1)
      */
-    public static void mergeSort(int[] arr, int esq, int dir) {
-        // caso base: subarray de 0 ou 1 elemento já está ordenado
-        if (esq >= dir) return;
-
+    public static void mergeSort(int[] v, int esq, int dir) {
+        if (esq >= dir) return;          // 0 ou 1 elemento
         int meio = (esq + dir) / 2;
-        mergeSort(arr, esq, meio);           // ordena a metade esquerda
-        mergeSort(arr, meio + 1, dir);       // ordena a metade direita
-        merge(arr, esq, meio, dir);          // mescla as duas metades ordenadas
+        mergeSort(v, esq, meio);         // metade esquerda
+        mergeSort(v, meio + 1, dir);     // metade direita
+        merge(v, esq, meio, dir);        // intercala as duas
     }
 
-    /**
-     * Mescla os subarrays arr[esq..meio] e arr[meio+1..dir], ambos já ordenados.
-     */
-    private static void merge(int[] arr, int esq, int meio, int dir) {
-        // Passo 1: cria cópias temporárias das duas metades
-        int n1 = meio - esq + 1;
-        int n2 = dir - meio;
-        int[] L = new int[n1];
-        int[] R = new int[n2];
-
-        for (int i = 0; i < n1; i++) L[i] = arr[esq + i];
-        for (int j = 0; j < n2; j++) R[j] = arr[meio + 1 + j];
-
-        // Passo 2: intercala os elementos em ordem crescente
+    /** Intercala v[esq..meio] e v[meio+1..dir], já ordenados. */
+    static void merge(int[] v, int esq, int meio, int dir) {
+        int[] L = Arrays.copyOfRange(v, esq, meio + 1);
+        int[] R = Arrays.copyOfRange(v, meio + 1, dir + 1);
         int i = 0, j = 0, k = esq;
-        while (i < n1 && j < n2) {
-            // L[i] <= R[j] garante estabilidade (iguais mantêm ordem original)
-            if (L[i] <= R[j]) arr[k++] = L[i++];
-            else               arr[k++] = R[j++];
+        while (i < L.length && j < R.length) {
+            if (L[i] <= R[j]) v[k++] = L[i++];  // "<=": estável
+            else              v[k++] = R[j++];
         }
-
-        // Passo 3: copia elementos restantes (somente uma das metades terá sobra)
-        while (i < n1) arr[k++] = L[i++];
-        while (j < n2) arr[k++] = R[j++];
+        while (i < L.length) v[k++] = L[i++];   // sobras de L
+        while (j < R.length) v[k++] = R[j++];   // sobras de R
     }
 
     /**
-     * Ordena o subarray arr[esq..dir] usando Quick Sort.
-     * Chamada inicial: quickSort(arr, 0, arr.length - 1)
+     * Ordena o trecho v[esq..dir] com Quick Sort.
+     * Para ordenar o vetor inteiro: quickSort(v, 0, v.length - 1)
      */
-    public static void quickSort(int[] arr, int esq, int dir) {
-        // caso base: subarray de 0 ou 1 elemento já está ordenado
-        if (esq >= dir) return;
-
-        int p = partition(arr, esq, dir);     // posição definitiva do pivô
-        quickSort(arr, esq, p - 1);           // ordena elementos à esquerda do pivô
-        quickSort(arr, p + 1, dir);           // ordena elementos à direita do pivô
+    public static void quickSort(int[] v, int esq, int dir) {
+        if (esq >= dir) return;              // 0 ou 1 elemento
+        int p = particionar(v, esq, dir);    // pivô vai para p
+        quickSort(v, esq, p - 1);            // ordena os menores
+        quickSort(v, p + 1, dir);            // ordena os maiores
     }
 
-    /**
-     * Partição de Lomuto: escolhe arr[dir] como pivô.
-     * Retorna a posição definitiva do pivô.
-     */
-    private static int partition(int[] arr, int esq, int dir) {
-        int pivot = arr[dir];   // pivô é o último elemento
-        int i = esq - 1;        // i aponta para o último "elemento pequeno" encontrado
-
+    /** Partição de Lomuto: o último elemento é o pivô. */
+    static int particionar(int[] v, int esq, int dir) {
+        int pivo = v[dir];
+        int i = esq - 1;                     // fim da zona dos pequenos
         for (int j = esq; j < dir; j++) {
-            if (arr[j] <= pivot) {
+            if (v[j] <= pivo) {
                 i++;
-                // troca arr[i] e arr[j] — move elemento pequeno para a esquerda
-                int tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp;
+                trocar(v, i, j);             // v[j] entra na zona
             }
         }
-        // coloca o pivô na posição correta: entre os menores e os maiores
-        int tmp = arr[i + 1]; arr[i + 1] = arr[dir]; arr[dir] = tmp;
+        trocar(v, i + 1, dir);               // pivô entre as zonas
         return i + 1;
+    }
+
+    static void trocar(int[] v, int a, int b) {
+        int tmp = v[a];
+        v[a] = v[b];
+        v[b] = tmp;
     }
 }

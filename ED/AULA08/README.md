@@ -1,7 +1,7 @@
 # Aula 08 — Códigos para o JDoodle
 
-Programas usados nas práticas da Aula 08 de Estrutura de Dados
-(Merge Sort e Quick Sort — algoritmos de divisão e conquista).
+Programas usados no laboratório da Aula 08 de Estrutura de Dados
+(Merge Sort e Quick Sort — algoritmos de dividir para conquistar).
 
 ## Como executar
 
@@ -11,6 +11,11 @@ Programas usados nas práticas da Aula 08 de Estrutura de Dados
 4. cole **um arquivo inteiro** desta pasta;
 5. clique em **Execute**.
 
+**Caminho alternativo — OneCompiler.** Se o JDoodle não abrir ou estiver lento, abra
+<https://onecompiler.com/java>, apague o exemplo, cole o arquivo inteiro **sem mudar nada** (nem o
+nome da classe) e clique em **Run**. Os três arquivos rodam lá sem alteração, com os mesmos
+resultados.
+
 Funciona no computador e também no navegador do celular. Nenhum dos três programas
 pede digitação: basta executar.
 
@@ -18,32 +23,42 @@ pede digitação: basta executar.
 
 | Arquivo | O que demonstra |
 |---|---|
-| `OrdenacaoApp.java` | Merge Sort e Quick Sort ordenando uma cópia do mesmo vetor. É o código das seções 4.3 e 5 do texto-base, reunido em um arquivo só. |
-| `PassoAPassoMergeApp.java` | O Merge Sort imprimindo cada trecho do vetor no momento em que ele vai ser mesclado. Serve para acompanhar a recursão descendo e voltando. |
-| `ComparaTemposApp.java` | Merge × Quick com 100.000 números aleatórios e, depois, com o vetor **já ordenado** — o pior caso do Quick Sort desta versão. |
+| `OrdenacaoApp.java` | Merge Sort e Quick Sort testados em seis vetores: o da aula, `[6, 3, 8, 1, 7, 2, 5, 4]`, e os casos de borda (já ordenado, ao contrário, com repetidos, um elemento, vazio). É o código das seções 6.4, 7.3 e 10.2 do texto-base, num arquivo só. |
+| `PassoAPassoMergeApp.java` | O Merge Sort imprimindo cada trecho do vetor no momento em que ele vai ser intercalado. Serve para acompanhar a recursão descendo e voltando. |
+| `ComparaTemposApp.java` | Merge × Quick com o tamanho dobrando: com números sorteados (os tempos ficam perto de 2x a cada linha) e com o vetor **já ordenado**, o pior caso do Quick Sort desta versão (4x a cada linha). É o programa da seção 10.3 do texto-base. |
 
 Cada arquivo é **autossuficiente**: reúne todas as classes necessárias e **não declara
 `package`**, para poder ser colado no JDoodle sem nenhuma alteração.
 
-> **Sobre o tamanho do vetor ordenado em `ComparaTemposApp`.** O texto-base usa 10.000
-> elementos. Aqui são 3.000, porque no pior caso o Quick Sort desce um nível de recursão
-> por elemento e a pilha de chamadas do JDoodle estoura antes do fim
-> (`StackOverflowError`). Aumentar esse número aos poucos é, por si só, uma boa
-> demonstração do limite da recursão.
+> **Por que o vetor ordenado de `ComparaTemposApp` vai só até 3.000?** No pior caso, o
+> Quick Sort empilha uma chamada recursiva por elemento, e a pilha de chamadas do JDoodle
+> estoura poucos milhares depois disso (`StackOverflowError`). Descobrir onde isso acontece
+> é um dos desafios abaixo.
+
+## Antes de rodar: veja o algoritmo andando
+
+O visualizador executa o Merge Sort e o Quick Sort **passo a passo**, com a linha de código
+em execução, as variáveis e a pilha de chamadas. Abre no celular, sem conta e sem instalar
+nada:
+
+<https://alyssonbruno.github.io/publicacao/ED/AULA08/visualizador-ed-aula08.html>
+
+Primeiro entender o movimento; depois rodar o código.
 
 ## Desafios
 
-- **`OrdenacaoApp`** — troque o vetor `original` por um vetor já ordenado e confira que os
-  dois algoritmos continuam devolvendo o mesmo resultado.
-- **`PassoAPassoMergeApp`** — conte quantas linhas são impressas para 11 elementos e
-  compare com o número de chamadas recursivas previsto na aula.
-- **`ComparaTemposApp`** — suba o vetor ordenado de 3.000 para 5.000, depois 10.000, e
-  descubra em que tamanho o `StackOverflowError` aparece.
-- **`ComparaTemposApp`** — no `partition`, troque o pivô do último elemento para o do meio
-  e veja o que acontece com o tempo do caso ordenado.
+- **`OrdenacaoApp`** — troque o `<=` do `merge` por `<` e rode de novo. O resultado dos
+  números muda? E o que mudaria se, em vez de números, fossem pedidos com o mesmo valor?
+- **`PassoAPassoMergeApp`** — conte quantas linhas entre colchetes são impressas para os
+  11 elementos. Cada uma é uma intercalação: quantas seriam para 16 elementos?
+- **`ComparaTemposApp`** — troque o `3_000` do segundo laço por `6_000`, depois `12_000`,
+  e descubra em que tamanho aparece o `StackOverflowError`.
+- **`ComparaTemposApp`** — acrescente o pivô aleatório no início do `particionar` (seção
+  7.6 do texto-base) e rode de novo: o que acontece com a coluna `Quick/anterior` da
+  Parte 2?
 
 ## E se eu tiver computador?
 
-A pasta `../codigo/` traz o Merge Sort organizado como projeto Maven, com as classes no
-pacote `br.unitins.ed`. O resultado é o mesmo do JDoodle — muda apenas a organização dos
+A pasta `codigo/` da aula traz o Merge Sort organizado como projeto Maven, com as classes
+no pacote `br.unitins.ed`. O resultado é o mesmo do JDoodle — muda apenas a organização dos
 arquivos.
