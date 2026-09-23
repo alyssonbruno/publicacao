@@ -1,4 +1,13 @@
 <title>Merge e Quick Passo a Passo</title>
+<script>
+  /* Aplica o tema salvo antes de desenhar a página, para não piscar. */
+  try {
+    var temaSalvo = localStorage.getItem("ed-visualizador-tema");
+    if (temaSalvo === "dark" || temaSalvo === "light") {
+      document.documentElement.setAttribute("data-theme", temaSalvo);
+    }
+  } catch (e) { /* sem armazenamento: segue o tema do sistema */ }
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;700&display=swap">
@@ -29,6 +38,9 @@
 
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --trecho: color-mix(in srgb, var(--laranja) 62%, var(--papel));
+      --zona:   color-mix(in srgb, var(--azul) 48%, var(--papel));
       --fundo:      #17140f;
       --papel:      #221d17;
       --tinta:      #f2ece3;
@@ -47,6 +59,9 @@
     }
   }
   :root[data-theme="dark"] {
+    color-scheme: dark;
+    --trecho: color-mix(in srgb, var(--laranja) 62%, var(--papel));
+    --zona:   color-mix(in srgb, var(--azul) 48%, var(--papel));
     --fundo:      #17140f;
     --papel:      #221d17;
     --tinta:      #f2ece3;
@@ -359,14 +374,31 @@
     .caixa { min-width: 44px; height: 44px; font-size: 1.15rem; }
     .pilha li { font-size: 1rem; }
   }
+
+  /* ---------- botão de tema claro / escuro ---------- */
+  .topo { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; }
+  .topo > div { min-width: 0; }
+  .tema {
+    flex: none; display: inline-flex; align-items: center; gap: 7px;
+    min-height: 44px; padding: 0 14px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--linha); background: var(--papel); color: var(--tinta);
+    box-shadow: var(--sombra); font-family: var(--corpo); font-size: .9rem; font-weight: 600;
+  }
+  .tema:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+  .tema .ic { font-size: 1.05rem; line-height: 1; }
 </style>
 
 <div class="folha">
 
-  <header>
-    <p class="eyebrow">Estrutura de Dados · Aula 08</p>
-    <h1>Merge Sort e Quick Sort passo a passo</h1>
-    <p class="subtitulo">Toque em <b>Próximo passo</b> e acompanhe ao mesmo tempo: o trecho do vetor que está sendo trabalhado, a linha que está executando, as variáveis e a <b>pilha de chamadas</b> da recursão.</p>
+  <header class="topo">
+    <div>
+      <p class="eyebrow">Estrutura de Dados · Aula 08</p>
+      <h1>Merge Sort e Quick Sort passo a passo</h1>
+      <p class="subtitulo">Toque em <b>Próximo passo</b> e acompanhe ao mesmo tempo: o trecho do vetor que está sendo trabalhado, a linha que está executando, as variáveis e a <b>pilha de chamadas</b> da recursão.</p>
+    </div>
+    <button class="tema" id="tema" type="button" aria-pressed="false">
+      <span class="ic" aria-hidden="true">☾</span><span class="rt">Escuro</span>
+    </button>
   </header>
 
   <div class="coluna esq">
@@ -1128,5 +1160,40 @@
 
   elDica.textContent = PRESETS.aula.dica;
   recomecar();
+})();
+</script>
+
+<script>
+(function () {
+  "use strict";
+  /* Botão de tema: alterna claro/escuro e lembra a escolha neste navegador.
+     Sem escolha salva, a página segue o tema do sistema (celular ou computador). */
+  var raiz = document.documentElement;
+  var bt = document.getElementById("tema");
+  var midia = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+
+  function atual() {
+    var t = raiz.getAttribute("data-theme");
+    if (t === "dark" || t === "light") { return t; }
+    return midia && midia.matches ? "dark" : "light";
+  }
+  function rotular() {
+    var escuro = atual() === "dark";
+    bt.querySelector(".ic").textContent = escuro ? "☀" : "☾";
+    bt.querySelector(".rt").textContent = escuro ? "Claro" : "Escuro";
+    bt.setAttribute("aria-label", escuro ? "Mudar para o modo claro" : "Mudar para o modo escuro");
+    bt.setAttribute("aria-pressed", String(escuro));
+  }
+  bt.addEventListener("click", function () {
+    var novo = atual() === "dark" ? "light" : "dark";
+    raiz.setAttribute("data-theme", novo);
+    try { localStorage.setItem("ed-visualizador-tema", novo); } catch (e) { /* sem armazenamento */ }
+    rotular();
+  });
+  if (midia) {
+    if (midia.addEventListener) { midia.addEventListener("change", rotular); }
+    else if (midia.addListener) { midia.addListener(rotular); }
+  }
+  rotular();
 })();
 </script>
