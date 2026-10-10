@@ -1,7 +1,7 @@
 # Publicação
 
-Arquivos de apoio das disciplinas de TI do Prof. **Alysson M. Bruno** (UNITINS),
-publicados para os alunos.
+Arquivos de apoio das disciplinas de TI do Prof. **Alysson M. Bruno** (UNITINS) e
+do grupo de estudos para concursos públicos, publicados para os alunos.
 
 Este repositório é **público de propósito**: é a origem que o
 [iximiuz Labs](https://labs.iximiuz.com) lê para montar os ambientes de
@@ -9,11 +9,15 @@ laboratório e o endereço dos downloads postados no Google Classroom.
 
 ## O que fica aqui
 
-Só o que o aluno precisa receber: scripts de laboratório, esquemas de banco,
-dados de exemplo e arquivos de configuração citados em aula.
+Só o que o aluno precisa receber:
+
+- **disciplinas** (`BD1/`, `BD2/`, `ED/`...): scripts de laboratório, esquemas de
+  banco, dados de exemplo e arquivos de configuração citados em aula;
+- **concursos** (`CONCURSOS/`): materiais de estudo e enunciados dos simulados de
+  cada concurso, lidos pelo sistema de estudos do grupo.
 
 Gabaritos, provas, respostas de exercício e material de planejamento **não**
-entram aqui — ficam no repositório privado da disciplina.
+entram aqui — ficam no repositório privado de origem.
 
 ## Estrutura de Dados — como usar
 
@@ -60,15 +64,29 @@ abrir uma página como página, use o endereço do GitHub Pages:
 https://alyssonbruno.github.io/publicacao/ED/AULA07/visualizador-ed-aula07.html
 ```
 
+Nos concursos, a organização é por concurso, disciplina e tópico:
+
+```
+CONCURSOS/<concurso>/diagnostico.yaml
+CONCURSOS/<concurso>/<disciplina>/<tópico>/materiais.yaml
+```
+
 ## Como os arquivos chegam aqui
 
-Eles não são editados neste repositório. A cópia de trabalho fica no
-repositório privado das aulas, e a publicação é feita pelo script
-`tools/publicar.sh` de lá, que copia apenas o que está declarado em
-`tools/publicacao.lista`.
+Cada parte tem a sua origem:
 
-Editar um arquivo diretamente aqui faz a cópia divergir da original e a
-alteração será desfeita na próxima publicação.
+- **Disciplinas:** a cópia de trabalho fica no repositório privado das aulas, e a
+  publicação é feita pelo script `tools/publicar.sh` de lá, que copia apenas o
+  que está declarado em `tools/publicacao.lista`. Editar um desses arquivos
+  diretamente aqui faz a cópia divergir da original, e a alteração será desfeita
+  na próxima publicação.
+- **Concursos:** a pasta `CONCURSOS/` é escrita pelos agentes do sistema de
+  estudos, cujo repositório privado guarda os gabaritos, e muda só por pull
+  request. O `publicar.sh` não a toca. Detalhes em
+  [`CONCURSOS/README.md`](CONCURSOS/README.md).
+
+Este `README.md` também vem das aulas (`tools/publicacao-README.md`): para
+mudá-lo, mude lá e publique.
 
 ## Licença
 
