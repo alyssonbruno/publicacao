@@ -10,14 +10,16 @@ materiais:
     url: https://www.youtube.com/watch?v=hzNA0EgMETg
     autor: TecConcursos
     duracao_min: 45
-    descricao: Aula sobre formulários e manuais administrativos (item 1.3 do edital), voltada a concursos
-      em geral, não só à Quadrix. Os nomes dos tipos de manual podem ser diferentes dos usados no
-      texto, porque a nomenclatura varia entre os autores.
+    descricao: Pela descrição do vídeo, a aula trata dos conceitos de formulário e de manual administrativo,
+      das vantagens e desvantagens dos manuais e dos tipos de manuais (item 1.3 do edital). É de um
+      canal de preparação para concursos em geral, não só para a Quadrix. Os nomes dos tipos de manual
+      podem ser diferentes dos usados no texto, porque a nomenclatura varia entre os autores.
   - tipo: video
     titulo: 10.03.02. Aula de Representações gráficas - OSM (Administração)
     url: https://www.youtube.com/watch?v=hk6cHMQlWT4
     autor: TecConcursos
     duracao_min: 29
-    descricao: Aula sobre as representações gráficas de organização, sistemas e métodos (item 1.4 do
-      edital), voltada a concursos em geral. Complementa a parte de fluxograma do texto. O quadro
+    descricao: Pela descrição do vídeo, a aula trata de organograma, fluxograma, cronograma e funcionograma.
+      Para este tópico (item 1.4 do edital) interessa só a parte de fluxograma; o organograma é assunto
+      de outro tópico. O vídeo não tem capítulos que indiquem o minuto de cada assunto. O quadro
       de distribuição do trabalho (QDT) é estudado pelo texto.

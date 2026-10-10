@@ -7,7 +7,7 @@ simulado:
     - 'Questões próprias, no formato de certo ou errado do Instituto Quadrix: itens de uma frase, agrupáveis
       sob um comando, uma afirmação por item. Referência de estilo: caderno de Assistente Administrativo
       do CAU/TO 2023 (só a forma dos itens; nenhum item foi copiado).'
-    - 'Bases dos comentários: "Funções do Processo Administrativo para concursos – Guia Definitivo", de
+    - 'Bases de conteúdo: "Funções do Processo Administrativo para concursos – Guia Definitivo", de
       Paulo Alvarenga Pires Cavalcanti, e "Funções da Administração para TCE-PR", de Renata Araújo Sodré
       da Silva (Estratégia Concursos); "Capítulo 1 — Introdução à administração e às organizações" (material
       didático de docente do IFSC); "Teorias da Administração I — Unidade 2" (PNAP/UAB, CESAD/UFS). Consultados
@@ -23,12 +23,12 @@ questoes:
       a função de direção resulta da reunião das funções de prever e de organizar, descritas por Fayol.
   - id: q03
     topico: conhecimentos-especificos/funcoes-administrativas
-    enunciado: Compete à função administrativa de organização monitorar o desempenho, compará-lo com
-      os objetivos estabelecidos e corrigir os desvios verificados.
+    enunciado: Compete à função administrativa de organização acompanhar os resultados obtidos, confrontá-los
+      com as metas fixadas e adotar as medidas corretivas necessárias.
   - id: q04
     topico: conhecimentos-especificos/funcoes-administrativas
-    enunciado: A distribuição das tarefas e dos recursos entre os membros da organização e a definição
-      das relações de autoridade são atividades próprias da função administrativa de organização.
+    enunciado: Cabe à função administrativa de organização repartir o trabalho e os recursos disponíveis
+      e estabelecer as relações de autoridade e de responsabilidade entre as pessoas e as unidades.
   - id: q05
     topico: conhecimentos-especificos/funcoes-administrativas
     enunciado: Liderar, motivar e comunicar-se com os subordinados são atividades relacionadas à função

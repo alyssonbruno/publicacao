@@ -2,12 +2,13 @@
 simulado:
   titulo: Treino — Procedimentos e manuais administrativos; organização e métodos
   tipo: treino
+  estilo: certo_errado
   fontes:
     - 'Questões próprias, no formato de certo ou errado do Edital nº 1/2026 do CAU/TO (Instituto Quadrix):
       uma afirmação por item.'
     - 'Referência de estilo: prova objetiva do CRMV-CE 2024, Assistente Administrativo (Instituto Quadrix),
       itens sobre manuais administrativos; prova do CAU/TO 2023, Assistente Administrativo.'
-    - 'Bases dos comentários: Souza, Organizações, sistemas e métodos (CEAD/UFV, 2023); Préve, Organização,
+    - 'Bases de conteúdo: Souza, Organizações, sistemas e métodos (CEAD/UFV, 2023); Préve, Organização,
       Sistemas e Métodos (CAD/UFSC, 2006); Barbosa, Material da disciplina OSM (UFAL, eduCAPES, 2010);
       Cruz e Scrivano, Boletim de O&M, v. 1, ed. 2 (UFRRJ, 2014), consultados em 10/10/2026.'
 questoes:

@@ -20,27 +20,29 @@
 
 - **QDT**, quatro etapas: tarefas individuais, agrupamento em atividades, montagem do quadro, análise (tempo, capacitação, equilíbrio da carga).
 - **Formulários**: centralização, criação, unicidade, numeração, parcimônia, ordenação.
-- **Fluxograma vertical**: colunas, rotinas simples, pode ser impresso como formulário.
+- **Fluxograma vertical**: colunas, rotinas simples, pode ser impresso como formulário. "Global ou de colunas" pode ser outro tipo.
+- **Símbolos**: elipse (início ou fim), retângulo (atividade), losango (decisão), seta (sentido do fluxo).
 
 ## Manuais
 
-- **Tipos** (os nomes variam entre autores): de organização (estrutura, hierarquia, deveres e responsabilidades); de políticas ou diretrizes (orientações para decidir); de normas e procedimentos (execução das rotinas); de formulários.
-- **Partes**: apresentação (objetivos), sumário (localizar), instruções de uso (como consultar e atualizar), conteúdo, anexos e apêndices (ilustram), glossário (termos), referências.
-- **Redação**: objetiva, clara, simples e concisa.
-- **Vantagens**: consulta permanente, uniformidade, menos improvisação, responsabilidades definidas.
-- **Limitações**: custo, risco de ficar obsoleto, menos flexibilidade e iniciativa, não resolve tudo.
+- **Seis tipos (Djalma de Oliveira, por citação)**: de organização (estrutura e hierarquia); de normas e procedimentos (como executar); de políticas e diretrizes (orienta chefias); de instruções especializadas (guia de um cargo); do empregado (visão geral da organização); de finalidade múltipla (todos num volume). Os nomes variam entre autores.
+- **Partes**: apresentação (objetivo), índice numérico ou sumário (páginas), instruções para uso, conteúdo básico, apêndice (formulários, gráficos), glossário (termos), índice temático (temas), bibliografia.
+- **Depois de pronto**: distribuição, instrução aos usuários e acompanhamento do uso.
+- **Redação**: simples, curta, clara e objetiva.
+- **Vantagens**: consulta permanente, uniformidade, menos improvisação.
+- **Limitações**: custo, risco de ficar obsoleto, menos flexibilidade e iniciativa.
 - O manual nunca está pronto: é atualizado sempre.
 
 ## O que mais confunde
 
 - QDT (distribuição do trabalho) × layout (espaço físico).
 - Fluxograma (processo) × organograma (estrutura).
-- Manual de organização (estrutura) × manual de políticas (diretrizes).
-- Anexo ou apêndice (ilustra) × glossário (define termos) × sumário (localiza).
+- Manual de organização (estrutura) × de políticas (diretrizes); do empregado (todos) × de instruções especializadas (um cargo).
+- Apêndice (apoio) × glossário (termos); índice numérico (páginas) × temático (temas).
 - Diagrama de blocos: simples para uns autores, rico em símbolos para outros.
 
 ## Revisões
 
 - **24 horas**: refaça de memória a tabela dos instrumentos e as partes do manual.
-- **7 dias**: tipos de manual com a definição de cada um; etapas do QDT; princípios dos formulários. Refaça os itens que errou no treino.
+- **7 dias**: os seis tipos de manual com a definição de cada um; etapas do QDT; princípios dos formulários. Refaça os itens que errou no treino.
 - **30 dias**: vantagens e limitações dos manuais e a lista "o que mais confunde". Treine achar a palavra trocada em cada definição.

@@ -8,6 +8,15 @@ Administrar é fazer uma organização alcançar seus objetivos usando bem as pe
 
 Este é um assunto de doutrina, sem lei para decorar. A prova cobra as definições, e o erro mais comum é aceitar a descrição de uma função com o nome de outra. Por isso, mais do que memorizar listas, aprenda a reconhecer cada função pelo que ela faz.
 
+## Eficiência e eficácia
+
+"Usar bem os recursos" e "alcançar os objetivos" são duas medidas diferentes, e a prova costuma trocar uma pela outra. A distinção abaixo segue o material didático do IFSC (ver Fontes):
+
+- **eficiência** olha para os **meios**: fazer o trabalho do jeito certo, com o menor gasto de tempo, dinheiro, pessoas e equipamentos;
+- **eficácia** olha para os **fins**: escolher o objetivo certo e chegar a ele.
+
+**Exemplo.** O setor que respondeu a todos os pedidos do mês dentro do prazo foi eficaz. Se fez isso sem horas extras e sem retrabalho, foi também eficiente. Se cumpriu o prazo à custa de refazer metade das respostas, foi eficaz, mas pouco eficiente.
+
 ## De Fayol ao PODC
 
 Uma das primeiras classificações é a de **Henri Fayol**, da Teoria Clássica, de 1916. Para ele, administrar compreendia **cinco** funções:
@@ -41,23 +50,23 @@ Alguns autores chamam a terceira função de **liderança** (planejar, organizar
 
 ## Planejamento
 
-Planejar é **definir os objetivos** a alcançar e **escolher os meios** para chegar a eles: estratégias, ações e planos que orientam as atividades da organização. É a base do processo, porque as outras funções trabalham a partir do que foi planejado.
+Planejar é **definir os objetivos** a alcançar e **escolher os meios** para chegar a eles: estratégias, ações e planos que orientam as atividades da organização. É o ponto de partida do processo, porque as outras três funções trabalham sobre o que foi planejado.
 
 Dois cuidados com o conceito:
 
-- planejar não é adivinhar o futuro: é decidir agora o que fazer para construir o futuro desejado;
-- o plano não é imutável. Ele precisa de flexibilidade para ser ajustado durante a execução, conforme as outras funções mostrem que algo mudou.
+- planejar não é adivinhar o futuro: é decidir hoje o que precisa ser feito para a organização chegar aonde quer;
+- o plano não é imutável. Ele precisa de flexibilidade para ser ajustado enquanto é executado, quando a organização, a direção ou o controle mostrarem que algo mudou.
 
 ### Etapas do planejamento
 
 Na sequência atribuída a Chiavenato, o planejamento tem seis etapas:
 
 1. definir os objetivos;
-2. verificar a situação atual em relação aos objetivos;
-3. desenvolver premissas sobre as condições futuras (cenários);
-4. analisar as alternativas de ação;
-5. escolher um curso de ação entre as alternativas;
-6. implementar o plano e avaliar os resultados.
+2. diagnosticar onde a organização está diante desses objetivos;
+3. formular premissas sobre o futuro (cenários);
+4. levantar e comparar os caminhos possíveis;
+5. escolher um deles;
+6. pôr o plano em prática e avaliar os resultados.
 
 Repare na primeira: os objetivos vêm antes de tudo, porque servem de base para os demais planos.
 
@@ -85,15 +94,15 @@ O tático traduz o estratégico em ações de cada área, e o operacional detalh
 
 A palavra "organização" tem dois sentidos na disciplina:
 
-- a **entidade**: um grupo de pessoas reunido para alcançar objetivos comuns (uma empresa, um conselho, uma prefeitura);
+- a **entidade**: pessoas que trabalham juntas, de forma estruturada, por um mesmo propósito (uma empresa, um conselho, uma prefeitura);
 - a **função administrativa**: o ato de organizar. É deste sentido que o edital trata aqui.
 
-Como função, organizar é **distribuir as tarefas e os recursos** entre os membros da organização e **definir quem tem autoridade sobre quem** e quem responde pelo quê. O resultado desse trabalho é a **estrutura organizacional**.
+Como função, organizar é **repartir o trabalho e os meios disponíveis** (pessoas, dinheiro, equipamentos) entre as pessoas e as unidades e **estabelecer quem manda, quem decide e quem responde pelo quê**. O produto desse trabalho é a **estrutura organizacional**.
 
 A função costuma ser descrita em três passos:
 
 1. **divisão do trabalho**: separar as atividades em cargos e funções;
-2. **definição de autoridade e responsabilidade**: estabelecer a cadeia de comando;
+2. **autoridade e responsabilidade**: fixar quem se reporta a quem (a cadeia de comando);
 3. **desenho da estrutura**: escolher como agrupar as unidades (a departamentalização).
 
 Os tipos de estrutura e de departamentalização são assunto de outra aula. Aqui basta saber que eles são produto da função de organização.
@@ -102,12 +111,12 @@ Os tipos de estrutura e de departamentalização são assunto de outra aula. Aqu
 
 **Pegadinhas**
 
-- Chamar de planejamento a alocação de recursos e a distribuição de tarefas. Planejar decide **o que** e **como** fazer; organizar arruma **quem faz** e **com que recursos**.
+- Chamar de planejamento a alocação de recursos e a repartição do trabalho. Planejar decide **o que** e **como** fazer; organizar arruma **quem faz** e **com que recursos**.
 - Confundir os dois sentidos da palavra no mesmo item.
 
 ## Direção
 
-Dirigir é **conduzir as pessoas** para que o trabalho planejado e organizado aconteça. É a função mais ligada às relações humanas: envolve **liderar, motivar e comunicar**, além de orientar e supervisionar a equipe e resolver conflitos entre os subordinados.
+Dirigir é **conduzir as pessoas** para que o trabalho planejado e organizado aconteça. É a função mais ligada às relações humanas: envolve **liderar, motivar e comunicar**, além de orientar e supervisionar a equipe e mediar os desentendimentos entre seus integrantes.
 
 Uma comparação útil: a organização olha para a estrutura formal (cargos, autoridade, recursos); a direção dá mais atenção às pessoas e às relações entre elas, inclusive as informais.
 
@@ -122,7 +131,7 @@ A direção também existe nos três níveis. É comum associar os nomes dos ges
 
 ## Controle
 
-Controlar é **verificar se os objetivos estão sendo alcançados**: acompanhar o desempenho, compará-lo com o que foi planejado e corrigir os desvios. Sem controle, as outras três funções perdem o sentido, porque ninguém saberia se deram resultado.
+Controlar é **conferir se a organização está chegando aos resultados pretendidos**: acompanhar o desempenho, compará-lo com o que foi planejado e corrigir os desvios. Sem controle, as outras três funções perdem o sentido, porque ninguém saberia se deram resultado.
 
 ### Etapas do controle
 
@@ -191,4 +200,4 @@ Depois confira os detalhes: o nome da função, o nível hierárquico, o prazo e
 - Material didático de docente do IFSC. *Capítulo 1 — Introdução à administração e às organizações*. https://docente.ifsc.edu.br/joelma.kremer/MaterialDidatico/Ci%c3%aancia%20da%20Computa%c3%a7%c3%a3o/1_Introdu%c3%a7%c3%a3o%20%c3%a0%20Administra%c3%a7%c3%a3o%20e%20%c3%a0s%20Organiza%c3%a7%c3%b5es.docx
 - Bacharelado em Administração Pública (PNAP/UAB), hospedado pelo CESAD/UFS. *Teorias da Administração I — Unidade 2: As funções administrativas e organizacionais*. https://cesad.ufs.br/ORBI/public/uploadCatalago/19101316022012Teorias_da_Administracao_I_Aula_2.pdf
 
-As sequências de etapas do planejamento e do controle (Chiavenato) e as características do controle eficaz (Maximiano) foram conferidas no primeiro artigo, que cita as obras desses autores; os livros não foram consultados diretamente.
+As sequências de etapas do planejamento e do controle (Chiavenato) e as características do controle eficaz (Maximiano) foram conferidas no primeiro artigo, que cita as obras desses autores; os livros não foram consultados diretamente. A distinção entre eficiência e eficácia e a noção de que organizar resulta na estrutura organizacional vêm do material do IFSC, aqui explicadas com outras palavras.

@@ -7,11 +7,11 @@ simulado:
     - 'Questões próprias, no formato de certo ou errado do Instituto Quadrix: itens de uma frase, agrupados
       por assunto. Referência de estilo: caderno de Assistente Administrativo do CAU/TO 2023 (nenhum item
       reproduzido).'
-    - 'Bases dos comentários: apostilas do Curso Técnico em Administração do CEAD/UFV (Gestão Financeira,
+    - 'Bases das questões: apostilas do Curso Técnico em Administração do CEAD/UFV (Gestão Financeira,
       de Rosiane Maria Lima Gonçalves; Gestão de Pessoas, de Adriana Ventola Marra) e Gestão de Materiais,
       de Renato Ribeiro Fenili (Enap, 2ª ed., 2016).'
-    - Leis nº 4.320/1964 (art. 15, § 2º) e nº 6.404/1976 (arts. 177 e 187, § 1º), textos do Planalto consultados
-      em 10/10/2026.
+    - Leis nº 4.320/1964 (arts. 15, § 2º, e 35) e nº 6.404/1976 (arts. 177 e 187, § 1º), textos do Planalto
+      consultados em 10/10/2026.
 questoes:
   - id: q01
     topico: conhecimentos-especificos/adm-financeira-pessoas-materiais

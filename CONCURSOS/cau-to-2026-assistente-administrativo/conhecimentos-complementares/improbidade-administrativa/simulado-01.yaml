@@ -8,7 +8,7 @@ simulado:
       agrupáveis pelo comando "com base na Lei nº 8.429/1992", na letra da lei.'
     - 'Referência de estilo (sem cópia de itens): caderno de Agente de Fiscalização do CAU/TO 2023
       (Instituto Quadrix), itens sobre a Lei nº 8.429/1992.'
-    - 'Base dos comentários: Lei nº 8.429/1992, texto compilado do Planalto, com a redação da Lei nº
+    - 'Base legal dos itens: Lei nº 8.429/1992, texto compilado do Planalto, com a redação da Lei nº
       14.230/2021 (consultado em 10/10/2026).'
     - 'Decisões de julgamento das ADIs 7156 e 7236 no andamento processual do portal do STF (sessões de
       28/5, 24/6, 25/6 e 1º/7/2026) e notícia do STF sobre o Tema 1199 (ARE 843989), usadas para conferir
@@ -47,8 +47,8 @@ questoes:
   - id: q07
     topico: conhecimentos-complementares/improbidade-administrativa
     enunciado: Segundo a Lei nº 8.429/1992, o ato de improbidade administrativa que causa lesão ao erário
-      pressupõe ação ou omissão que enseje, efetiva e comprovadamente, perda patrimonial, desvio, apropriação,
-      malbaratamento ou dilapidação dos bens ou haveres das entidades protegidas pela Lei.
+      pressupõe ação ou omissão dolosa que enseje, efetiva e comprovadamente, perda patrimonial, desvio,
+      apropriação, malbaratamento ou dilapidação dos bens ou haveres das entidades protegidas pela Lei.
   - id: q08
     topico: conhecimentos-complementares/improbidade-administrativa
     enunciado: Com base na Lei nº 8.429/1992, o responsável por ato de improbidade que atenta contra

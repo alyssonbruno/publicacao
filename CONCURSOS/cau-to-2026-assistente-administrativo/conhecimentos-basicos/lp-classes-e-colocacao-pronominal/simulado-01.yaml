@@ -10,9 +10,10 @@ simulado:
     - 'Referências de estilo, sem cópia de itens: caderno de Assistente Administrativo do CAU/TO 2023
       (Instituto Quadrix) e itens da Quadrix de 2017 e 2018 sobre colocação pronominal listados no Estude
       Grátis.'
-    - 'Bases dos comentários: Só Português (morfologia e colocação pronominal); EaDicas de Português do
+    - 'Bases do gabarito: Só Português (morfologia e colocação pronominal); EaDicas de Português do
       STJ, dicas 10 e 22; Minicurso “Pronomes Clíticos”, PET Letras/UNIFAL-MG, com base em Cunha & Cintra
-      e em Cegalla; PrePara ENEM (locuções verbais e a palavra “que”). Consultados em 10/10/2026.'
+      e em Cegalla; PrePara ENEM (colocação pronominal, locuções verbais e a palavra “que”); InfoEscola
+      (colocação pronominal). Consultados em 10/10/2026.'
 questoes:
   - id: q01
     topico: conhecimentos-basicos/lp-classes-e-colocacao-pronominal
@@ -24,8 +25,8 @@ questoes:
       “bastante” modifica o adjetivo “atentos” e classifica-se como advérbio.
   - id: q03
     topico: conhecimentos-basicos/lp-classes-e-colocacao-pronominal
-    enunciado: No trecho “a mudança decorre do aumento das solicitações de registro”, a expressão “de registro”
-      liga-se ao substantivo “solicitações” e tem valor de adjetivo.
+    enunciado: No trecho “o comunicado lembra que a taxa de registro não foi reajustada”, a expressão “de registro”
+      liga-se ao substantivo “taxa” e tem valor de adjetivo.
   - id: q04
     topico: conhecimentos-basicos/lp-classes-e-colocacao-pronominal
     enunciado: No período “Como a procura cresceu, a equipe trabalha meio sobrecarregada.”, o conector

@@ -56,7 +56,7 @@ A diferença entre os dois dissertativos é uma só: **há ou não há defesa de
 
 ### Injuntivo
 
-Orienta o leitor a fazer algo: instrui, ordena, aconselha. Marcas: verbos no imperativo ("acesse", "preencha") ou no infinitivo com valor de ordem ("preencher o formulário"), frases curtas, passos em sequência.
+Orienta o leitor a fazer algo: instrui, ordena, aconselha. Também aparece com o nome de **instrucional**: numa prova de 2016 para Assistente Administrativo (CRC-PR), a Quadrix falou em "texto instrucional" ao lado de "verbos no imperativo". Marcas: verbos no imperativo ("acesse", "preencha") ou no infinitivo com valor de ordem ("preencher o formulário"), frases curtas, passos em sequência.
 
 > Acesse o sistema com o seu número de registro. Confira o endereço e anexe o comprovante.
 
@@ -84,11 +84,11 @@ A linguagem denotativa predomina nos textos que precisam de precisão (notícia,
 Dois pontos que rendem item:
 
 - **nenhuma palavra é denotativa ou conotativa sozinha.** É o contexto que decide. "Caiu" é literal em "o processo caiu da mesa" e figurado em "o sistema caiu";
-- **as figuras de palavra e de pensamento trabalham com o sentido figurado.** Ao reconhecer uma metáfora ou uma hipérbole, você já sabe que o termo está em sentido conotativo.
+- **várias figuras se constroem com o sentido figurado, mas não todas.** Ao reconhecer uma metáfora, uma metonímia ou uma hipérbole, você já sabe que o termo está em sentido conotativo. Já a antítese pode ser feita só com palavras em sentido literal ("Uns entram, outros saem"), e as figuras de sintaxe e de som mexem com a construção e com a sonoridade, não com o significado.
 
 ## 4. Figuras de linguagem, aos pares que se confundem
 
-Figuras de linguagem são recursos que tornam a expressão mais enfática ou mais expressiva. Costumam ser divididas em figuras de palavra (mexem com o significado), de pensamento (mexem com as ideias), de sintaxe ou construção (mexem com a estrutura da frase) e de som.
+Figuras de linguagem são recursos que tornam a expressão mais enfática ou mais expressiva. Costumam ser divididas em figuras de palavra (mexem com o significado), de pensamento (mexem com as ideias), de sintaxe ou construção (mexem com a estrutura da frase) e de som (exploram a sonoridade das palavras). Os pares abaixo são os que mais se confundem; no fim da seção, uma tabela reúne outras figuras, entre elas as de som.
 
 ### Metáfora × comparação
 
@@ -152,6 +152,21 @@ Repetição da mesma palavra ou expressão no **início** de frases, orações o
 
 Atenção: no estudo da coesão textual, "anáfora" também é o nome da retomada de um termo anterior por um pronome ("o processo... **ele**"). Neste tópico, o edital fala da figura de linguagem.
 
+### Outras figuras, em uma linha cada
+
+| Figura | Grupo | O que é | Exemplo |
+|---|---|---|---|
+| Sinestesia | palavra | mistura sensações de sentidos diferentes | "A voz macia da atendente acalmou a fila." (audição e tato) |
+| Gradação | pensamento | ideias em progressão, crescente ou decrescente | "O usuário pediu, insistiu, exigiu." |
+| Hipérbato | sintaxe | inversão da ordem direta da frase | "Dos prazos ninguém na sala se lembrava." |
+| Polissíndeto | sintaxe | repetição do conectivo | "E conferia, e carimbava, e assinava." |
+| Assíndeto | sintaxe | omissão do conectivo | "Conferiu, carimbou, assinou." |
+| Aliteração | som | repetição de sons de consoante | "O protocolo parou por pura pressa." |
+| Assonância | som | repetição de sons de vogal | "A pasta parada na sala calada." |
+| Onomatopeia | som | palavra que imita um som | "O tique-taque do relógio do saguão." |
+
+Polissíndeto e assíndeto são opostos, como aliteração (consoante) e assonância (vogal). Não confunda o assíndeto com a elipse: nele, o que falta é só o conectivo.
+
 ## 5. Como a banca cobra
 
 A Quadrix trabalha com itens de certo ou errado, de uma frase, quase sempre presos a um trecho do texto. Os moldes mais prováveis para este tópico:
@@ -170,6 +185,7 @@ Dica de estudo (não é regra da gramática): diante de um item de figura, pergu
 - Márcia Fernandes, "Figuras de linguagem", Toda Matéria: https://www.todamateria.com.br/figuras-de-linguagem/
 - Márcia Fernandes, "Denotação e Conotação", Toda Matéria: https://www.todamateria.com.br/conotacao-e-denotacao/
 - Kassio Henrique Sobral Rocha, "Figuras de linguagem: o que são, tipos, quando usar e exemplos", Estratégia Concursos: https://concursos.estrategia.com/portal/figuras-de-linguagem/
+- Instituto Quadrix, caderno de provas de Assistente Administrativo do CRC-PR, Concurso Público nº 1/2016, questão 1 (uso do termo "instrucional"; nada foi reproduzido além dessas palavras): https://www.crcpr.org.br/data/concurso-publico/2026-03-16%20-%20DLC80%20-%202016-Documentos-21-Caderno%20de%20provas%20-%20Assistente%20Administrativo.pdf
 - Edital nº 1/2026 do CAU/TO (Instituto Quadrix), Anexo II, Língua Portuguesa, item 1.2.
 
-Consultadas em 10/10/2026. As definições seguem essas fontes; os exemplos e as dicas de prova são deste material.
+Consultadas em 10/10/2026. As definições seguem essas fontes. Os exemplos com situações de trabalho e as dicas de prova são deste material; alguns exemplos curtos são de uso corrente em gramáticas e sites de estudo (como "pé da mesa", "subir para cima", "ler Machado de Assis" e "morri de rir").

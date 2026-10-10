@@ -91,7 +91,7 @@ Informal não quer dizer incorreto, e formal não quer dizer difícil. O item po
 Textos digitais são curtos e contam com o que o leitor já sabe. Parte do sentido vem de palavras que carregam uma informação a mais:
 
 - "O atendimento por telefone **continua** das 8h às 17h": já era assim antes.
-- "**Ainda** há vagas": havia mais vagas antes e elas podem acabar.
+- "**Ainda** há vagas": já havia vagas antes e continua havendo; a palavra sugere que podem acabar.
 - "A partir de segunda, o protocolo **passará a** ser digital": até então, não era (ou não era só) digital.
 - "**Últimos dias** para pagar com desconto": há um prazo, e depois dele não há desconto.
 
@@ -165,6 +165,21 @@ A tabela **não permite** concluir:
 
 Repare no último caso: é o tipo de "pequena imprecisão" que derruba o candidato apressado. O item é quase todo verdadeiro, e o erro está em duas palavras ("nos dois anos").
 
+### Um gráfico, descrito em palavras
+
+Imagine um gráfico de linhas com o título "Certidões emitidas pelo portal de um conselho profissional, por mês — 1º semestre de 2025" (dados fictícios). Eixo horizontal: os meses. Eixo vertical: o número de certidões, de 0 a 500. Os pontos da linha:
+
+| Mês | jan. | fev. | mar. | abr. | maio | jun. |
+|---|---|---|---|---|---|---|
+| Certidões | 300 | 350 | 320 | 400 | 450 | 450 |
+
+O gráfico **permite** concluir que o maior valor foi o de maio e junho e que, de janeiro a junho, a emissão mensal subiu 50% (de 300 para 450).
+
+O gráfico **não permite** concluir:
+
+- "a emissão cresceu em todos os meses": a linha desce em março e fica horizontal em junho;
+- "foram emitidas 450 certidões no semestre": 450 é o valor de um mês, e a soma dos seis é 2.270.
+
 ## Pegadinhas para levar para a prova
 
 - **Tendência generalizada:** "aumentou a cada ano", "em todos os trimestres". Confira todos os intervalos, e não só o primeiro e o último.
@@ -185,4 +200,4 @@ Repare no último caso: é o tipo de "pequena imprecisão" que derruba o candida
 - Instituto Quadrix, prova de Assistente Administrativo do CAU/TO, 2023 (referência do formato e da proporção dos itens; nenhum item foi reproduzido): https://www.pciconcursos.com.br/provas/download/assistente-administrativo-cau-to-quadrix-2023
 - CAU/TO, Edital nº 1/2026, Anexo II (conteúdo programático de Língua Portuguesa).
 
-Os textos, as tabelas e os dados dos exemplos foram escritos para esta aula e são fictícios.
+Os textos, as tabelas, o gráfico e os dados dos exemplos foram escritos para esta aula e são fictícios.

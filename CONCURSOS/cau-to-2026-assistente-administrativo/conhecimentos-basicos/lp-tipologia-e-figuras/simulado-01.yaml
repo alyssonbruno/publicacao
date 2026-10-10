@@ -8,7 +8,7 @@ simulado:
       itens de uma afirmação, vinculados a um trecho do texto.'
     - 'Referência de estilo (nada copiado): caderno do CAU/TO 2023, Assistente Administrativo (Instituto
       Quadrix), em https://www.pciconcursos.com.br/provas/download/assistente-administrativo-cau-to-quadrix-2023.'
-    - 'Bases dos comentários: Toda Matéria — "Tipologia textual" (Daniela Diana), "Figuras de linguagem"
+    - 'Bases teóricas: Toda Matéria — "Tipologia textual" (Daniela Diana), "Figuras de linguagem"
       e "Denotação e Conotação" (Márcia Fernandes); Estratégia Concursos — "Figuras de linguagem: o que
       são, tipos, quando usar e exemplos" (Kassio Henrique Sobral Rocha). Consultadas em 10/10/2026.'
 questoes:
@@ -41,7 +41,7 @@ questoes:
     enunciado: |-
       Considere o texto a seguir, trecho de uma crônica.
 
-      > A fila do protocolo andava como uma tartaruga cansada. Na parede, o relógio cobrava de todos cada minuto perdido. Sobre o balcão, um mar de papéis; atrás dele, apenas dois atendentes. — Estou aqui há um século! — reclamou uma senhora. O atendente suspirou: o sistema, sempre tão confiável, tinha caído pela terceira vez naquela manhã.
+      > A fila do protocolo andava como uma tartaruga cansada. Na parede, o relógio cobrava de todos cada minuto perdido. Sobre o balcão, um mar de papéis; atrás dele, apenas dois atendentes. — Estou aqui há um século! — reclamou uma senhora. O atendente suspirou: o sistema, sempre tão confiável, tinha caído pela terceira vez naquela manhã, como em todas as outras manhãs da semana.
 
       No texto, não há sequência narrativa, uma vez que todas as formas verbais caracterizam o ambiente, sem indicar ações de personagens.
   - id: q05
@@ -70,4 +70,5 @@ questoes:
     topico: conhecimentos-basicos/lp-tipologia-e-figuras
     enunciado: >-
       No trecho “O atendente suspirou: o sistema, sempre tão confiável, tinha caído pela terceira
-      vez naquela manhã.”, a expressão “sempre tão confiável” foi empregada com ironia.
+      vez naquela manhã, como em todas as outras manhãs da semana.”, a expressão “sempre tão confiável”
+      foi empregada com ironia.

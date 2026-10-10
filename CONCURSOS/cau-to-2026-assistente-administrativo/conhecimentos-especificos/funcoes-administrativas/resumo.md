@@ -8,9 +8,9 @@
 | Função | O que faz | Verbos que a denunciam |
 |---|---|---|
 | Planejamento | Define os objetivos e os meios para alcançá-los | definir objetivos, traçar estratégias, elaborar planos |
-| Organização | Distribui tarefas e recursos; define autoridade e responsabilidade; gera a estrutura organizacional | dividir o trabalho, alocar, estruturar |
+| Organização | Reparte o trabalho e os recursos; estabelece autoridade e responsabilidade; gera a estrutura organizacional | dividir o trabalho, alocar, estruturar |
 | Direção | Conduz as pessoas | liderar, motivar, comunicar, orientar |
-| Controle | Verifica se os objetivos estão sendo alcançados | medir, comparar, corrigir |
+| Controle | Confere se os resultados pretendidos estão sendo atingidos | medir, comparar, corrigir |
 
 ## Listas para saber de cor
 
@@ -21,14 +21,14 @@
 
 ## Distinções que mais confundem
 
+- **Eficiência** = meios (gastar menos recursos); **eficácia** = fins (atingir o objetivo certo).
 - Planejar decide **o que e como** fazer; organizar define **quem faz e com que recursos**.
 - Organizar cuida da estrutura formal; dirigir cuida das pessoas.
 - Comparar o resultado com a meta é **controle**, e não planejamento.
 - "Organização" pode ser a entidade ou a função administrativa.
 - Direção e "liderança" (em alguns autores) são a mesma função.
 - As quatro funções existem nos **três níveis**: nenhuma é exclusiva do estratégico, do tático ou do operacional.
-- O ciclo não é rígido: as funções interagem, e o controle pode levar a rever o plano.
-- O planejamento é flexível, não imutável.
+- O ciclo não é rígido e o plano não é imutável: as funções interagem, e o controle pode levar a rever o planejamento.
 
 ## O que rever em cada revisão
 
