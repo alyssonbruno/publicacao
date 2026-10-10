@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="408" viewBox="0 0 720 408" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="408" fill="#ffffff"/>
+
+  <!-- Cabeçalho -->
+  <text x="14" y="28" font-size="15" font-weight="700" fill="#0b0b0b">Art. 37, caput, da Constituição Federal</text>
+  <text x="14" y="48" font-size="12.5" fill="#52514e">Cinco princípios, nessa ordem: a sigla é LIMPE.</text>
+
+  <!-- L: legalidade -->
+  <g transform="translate(10 64)">
+    <rect width="133.6" height="302" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="66.8" y="50" font-size="40" font-weight="800" fill="#256abf" text-anchor="middle">L</text>
+    <text x="66.8" y="78" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">Legalidade</text>
+    <line x1="16" y1="92" x2="117.6" y2="92" stroke="#256abf" stroke-width="2"/>
+    <text font-size="12.5" fill="#0b0b0b" text-anchor="middle">
+      <tspan x="66.8" y="116">o agente público</tspan>
+      <tspan x="66.8" dy="18">só pode fazer</tspan>
+      <tspan x="66.8" dy="18">o que a lei</tspan>
+      <tspan x="66.8" dy="18">autoriza</tspan>
+    </text>
+    <text font-size="12.5" fill="#52514e" text-anchor="middle">
+      <tspan x="66.8" y="200">o particular pode</tspan>
+      <tspan x="66.8" dy="18">fazer tudo o que</tspan>
+      <tspan x="66.8" dy="18">a lei não proíbe</tspan>
+    </text>
+  </g>
+
+  <!-- I: impessoalidade -->
+  <g transform="translate(151.6 64)">
+    <rect width="133.6" height="302" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="66.8" y="50" font-size="40" font-weight="800" fill="#1baf7a" text-anchor="middle">I</text>
+    <text x="66.8" y="78" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">Impessoalidade</text>
+    <line x1="16" y1="92" x2="117.6" y2="92" stroke="#1baf7a" stroke-width="2"/>
+    <text x="66.8" y="116" font-size="12.5" fill="#52514e" text-anchor="middle">três faces:</text>
+    <text font-size="12.5" fill="#0b0b0b" text-anchor="middle">
+      <tspan x="66.8" y="142">finalidade pública</tspan>
+      <tspan x="66.8" dy="26">igualdade de</tspan>
+      <tspan x="66.8" dy="18">tratamento</tspan>
+      <tspan x="66.8" dy="26">vedação à</tspan>
+      <tspan x="66.8" dy="18">promoção pessoal</tspan>
+    </text>
+  </g>
+
+  <!-- M: moralidade -->
+  <g transform="translate(293.2 64)">
+    <rect width="133.6" height="302" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="66.8" y="50" font-size="40" font-weight="800" fill="#4a3aa7" text-anchor="middle">M</text>
+    <text x="66.8" y="78" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">Moralidade</text>
+    <line x1="16" y1="92" x2="117.6" y2="92" stroke="#4a3aa7" stroke-width="2"/>
+    <text font-size="12.5" fill="#0b0b0b" text-anchor="middle">
+      <tspan x="66.8" y="116">honestidade,</tspan>
+      <tspan x="66.8" dy="18">lealdade e boa-fé,</tspan>
+      <tspan x="66.8" dy="18">além do</tspan>
+      <tspan x="66.8" dy="18">cumprimento</tspan>
+      <tspan x="66.8" dy="18">formal da lei</tspan>
+    </text>
+  </g>
+
+  <!-- P: publicidade -->
+  <g transform="translate(434.8 64)">
+    <rect width="133.6" height="302" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="66.8" y="50" font-size="40" font-weight="800" fill="#c98500" text-anchor="middle">P</text>
+    <text x="66.8" y="78" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">Publicidade</text>
+    <line x1="16" y1="92" x2="117.6" y2="92" stroke="#c98500" stroke-width="2"/>
+    <text font-size="12.5" fill="#0b0b0b" text-anchor="middle">
+      <tspan x="66.8" y="116">atos divulgados,</tspan>
+      <tspan x="66.8" dy="18">para que</tspan>
+      <tspan x="66.8" dy="18">produzam efeitos</tspan>
+      <tspan x="66.8" dy="18">e possam ser</tspan>
+      <tspan x="66.8" dy="18">controlados</tspan>
+    </text>
+    <text font-size="12.5" fill="#52514e" text-anchor="middle">
+      <tspan x="66.8" y="218">tem exceção:</tspan>
+      <tspan x="66.8" dy="18">o sigilo previsto</tspan>
+      <tspan x="66.8" dy="18">na Constituição</tspan>
+    </text>
+  </g>
+
+  <!-- E: eficiência -->
+  <g transform="translate(576.4 64)">
+    <rect width="133.6" height="302" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="66.8" y="50" font-size="40" font-weight="800" fill="#eb6834" text-anchor="middle">E</text>
+    <text x="66.8" y="78" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">Eficiência</text>
+    <line x1="16" y1="92" x2="117.6" y2="92" stroke="#eb6834" stroke-width="2"/>
+    <text font-size="12.5" fill="#0b0b0b" text-anchor="middle">
+      <tspan x="66.8" y="116">bons resultados,</tspan>
+      <tspan x="66.8" dy="18">com qualidade,</tspan>
+      <tspan x="66.8" dy="18">rapidez e</tspan>
+      <tspan x="66.8" dy="18">economia de</tspan>
+      <tspan x="66.8" dy="18">recursos</tspan>
+    </text>
+    <text font-size="12.5" fill="#52514e" text-anchor="middle">
+      <tspan x="66.8" y="218">incluída pela</tspan>
+      <tspan x="66.8" dy="18">Emenda</tspan>
+      <tspan x="66.8" dy="18">Constitucional</tspan>
+    </text>
+    <rect x="28.8" y="262" width="76" height="24" rx="12" fill="#fdf1d6" stroke="#c98500"/>
+    <text x="66.8" y="278.5" font-size="12.5" font-weight="600" fill="#8a5a00" text-anchor="middle">nº 19/1998</text>
+  </g>
+
+  <!-- Alcance -->
+  <text x="14" y="392" font-size="13" fill="#52514e">Valem para a administração direta e indireta, de qualquer dos Poderes, em todas as esferas.</text>
+</svg>

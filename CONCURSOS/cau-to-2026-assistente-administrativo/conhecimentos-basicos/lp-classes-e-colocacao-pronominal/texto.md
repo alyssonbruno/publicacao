@@ -1,10 +1,12 @@
 # Classes de palavras e colocação pronominal
 
-O edital pede o "emprego das classes de palavras e colocação de pronomes" (item 2.3). A palavra que importa é **emprego**: a banca não pede a lista das dez classes, e sim a classe de um termo dentro de uma frase do texto. Na prova de 2023 do mesmo cargo, esse foi o assunto de Português mais cobrado, sempre com a linha indicada. A segunda parte da aula trata do lugar do pronome átono em relação ao verbo.
+![Um homem encaixa um bloco de madeira entre outros dois, numa fileira sobre a bancada](imagens/abertura.webp)
 
-## Parte 1 — Classes de palavras
+O edital pede o "emprego das classes de palavras e colocação de pronomes" (item 2.3). A palavra que importa é **emprego**: a banca não pede a lista das dez classes, e sim a classe de um termo dentro de uma frase do texto.
 
-### As dez classes
+Na prova de 2023 do mesmo cargo, esse foi o assunto de Português mais cobrado, sempre com a linha indicada. Depois das classes, a aula trata do lugar do pronome átono em relação ao verbo.
+
+## As dez classes
 
 - **Variáveis** (flexionam): substantivo, artigo, adjetivo, numeral, pronome e verbo.
 - **Invariáveis**: advérbio, preposição, conjunção e interjeição.
@@ -24,13 +26,16 @@ Em uma linha cada:
 
 ### Como descobrir a classe: olhe para a frase
 
-A mesma palavra muda de classe conforme o que faz na frase. Três perguntas resolvem a maior parte dos itens:
+> [!IMPORTANT]
+> A mesma palavra muda de classe conforme o que faz na frase.
+
+Três perguntas resolvem a maior parte dos itens:
 
 1. **A que palavra ela se liga?** Quem se liga a substantivo tende a ser artigo, adjetivo, numeral ou pronome. Quem se liga a verbo, adjetivo ou advérbio é advérbio.
 2. **Ela varia?** Tente passar a frase para o plural ou para o feminino. Advérbio não muda.
 3. **Ela liga o quê?** A preposição prende um termo a outro (substantivo, pronome ou verbo no infinitivo); a conjunção liga orações de verbo flexionado ou termos de mesma função. *Para reduzir a espera*: preposição; *para que a espera diminua*: locução conjuntiva, com o mesmo valor de finalidade.
 
-### Adjetivo ou advérbio
+## Adjetivo ou advérbio
 
 - *As conselheiras pareciam **bastante** seguras* — modifica o adjetivo "seguras": advérbio, invariável.
 - *Chegaram **bastantes** pedidos* — acompanha o substantivo "pedidos" e equivale a "muitos": pronome indefinido, variável.
@@ -60,9 +65,10 @@ Locução é um grupo de palavras que vale por uma só. As duas abaixo costumam 
 - **Locução adjetiva** liga-se a um substantivo e vale por um adjetivo: *taxa **de registro***, *turno **da manhã*** (matutino), *reunião **do mês*** (mensal).
 - **Locução adverbial** liga-se ao verbo (ou à oração inteira) e indica circunstância: *protocolou o pedido **às pressas***, *o sistema caiu **de repente***, ***sem dúvida**, o prazo acabou*.
 
-A pegadinha típica: a banca classifica certo, mas aponta o núcleo errado, ou dá à locução ligada a um substantivo o nome de "adverbial".
+> [!CAUTION]
+> A banca classifica certo, mas aponta o núcleo errado, ou dá à locução ligada a um substantivo o nome de "adverbial".
 
-### Numeral
+## Numeral e três pronomes
 
 - **Cardinal** (quantidade): *dois*, *quarenta*.
 - **Ordinal** (ordem numa série): *primeiro*, *décimo*.
@@ -70,7 +76,10 @@ A pegadinha típica: a banca classifica certo, mas aponta o núcleo errado, ou d
 - **Multiplicativo**: *dobro*, *triplo*.
 - **Coletivo** (conjunto de número exato): *dezena*, *dúzia*.
 
-*Ambos* é numeral (= os dois). Atenção ao par vizinho: "primeira edição" traz um ordinal, não um cardinal — trocar um nome pelo outro é o tipo de imprecisão que a Quadrix gosta.
+*Ambos* é numeral (= os dois).
+
+> [!WARNING]
+> O par vizinho: "primeira edição" traz um ordinal, não um cardinal — trocar um nome pelo outro é o tipo de imprecisão de que a Quadrix gosta.
 
 ### Emprego de três pronomes
 
@@ -78,7 +87,7 @@ A pegadinha típica: a banca classifica certo, mas aponta o núcleo errado, ou d
 - **Cujo** indica posse, vale por "do qual" e concorda com o termo que vem depois dele, não com o anterior: *o profissional **cujas** anuidades venceram*.
 - **O × lhe**: *o, a, os, as* são objeto direto; *lhe, lhes*, objeto indireto. *O fiscal recebeu a denúncia e **a** arquivou* (arquivou a denúncia); *O fiscal **lhe** entregou a notificação* (entregou ao profissional).
 
-### "Que", "se", "a" e "como"
+## "Que", "se", "a" e "como"
 
 **Que**
 
@@ -107,6 +116,8 @@ A preposição *a* funde-se com o artigo *a* e dá *à* (crase).
 - **Causal**, no início do período (= porque): ***Como** a procura cresceu, abrimos novos guichês.*
 - **Conformativa** (= conforme): *Preencha o formulário **como** manda o edital.*
 - **Comparativa**: *Ele redige **como** um veterano.*
+
+## Preposições e conjunções
 
 ### Valor das preposições
 
@@ -143,9 +154,10 @@ A mesma preposição exprime relações diferentes. As mais lembradas:
 - consecutivas: *que* (depois de *tão, tanto*), *de modo que*;
 - integrantes: *que, se*.
 
-Pares que a banca troca: **conforme** (conformidade) × **conquanto** (concessão, = embora); **porquanto** (causa/explicação) × **portanto** (conclusão); **pois** antes do verbo (explicação) × depois do verbo (conclusão).
+> [!CAUTION]
+> Pares que a banca troca: **conforme** (conformidade) × **conquanto** (concessão, = embora); **porquanto** (causa/explicação) × **portanto** (conclusão); **pois** antes do verbo (explicação) × depois do verbo (conclusão).
 
-### Posição do adjetivo e mudança de sentido
+## Posição do adjetivo e mudança de sentido
 
 O lugar comum do adjetivo é depois do substantivo. Antes dele, o adjetivo ganha ênfase e, em alguns casos, outro sentido:
 
@@ -158,15 +170,18 @@ Há palavras que mudam até de classe:
 - ***certo** conselheiro*, ***certa** pressa* (antes do substantivo: pronome indefinido, particulariza sem especificar) × *resposta **certa***, *prazo **certo*** (depois: adjetivo, = exato, seguro);
 - *Não houve recurso **algum*** — "algum" depois do substantivo tem valor negativo (= nenhum).
 
-Por isso, diante de um item que desloca um adjetivo e afirma que "o sentido e a classificação se preservam", teste os dois sentidos antes de marcar.
+> [!TIP]
+> Por isso, diante de um item que desloca um adjetivo e afirma que "o sentido e a classificação se preservam", teste os dois sentidos antes de marcar.
 
-## Parte 2 — Colocação pronominal
+## Colocação pronominal
 
 Os pronomes oblíquos átonos (*me, te, se, o, a, lhe, nos, vos, os, as, lhes*) apoiam-se no verbo e podem ocupar três posições:
 
 - **próclise** — antes do verbo: *Não **me** avisaram*;
 - **mesóclise** — no meio do verbo: *Avisar-**me**-ão*;
 - **ênclise** — depois do verbo: *Avisaram-**me***.
+
+![Três faixas, uma para cada posição do pronome átono. Próclise, antes do verbo: "Não me avisaram"; vale quando há, antes do verbo e sem pausa, uma palavra atrativa (aqui, o "não"), e a vírgula desfaz a atração. Mesóclise, no meio do verbo: "Avisar-me-ão"; só com o verbo no futuro do presente ou no futuro do pretérito, e só quando não há palavra atrativa. Ênclise, depois do verbo: "Avisaram-me"; é a posição de base e aparece sobretudo com imperativo afirmativo, no início do período, com infinitivo e com gerúndio sem "em". No pé da figura: com verbo no futuro, nunca há ênclise; "enviaremos-lhe" e "diria-se" estão fora da norma-padrão.](imagens/tres-posicoes-do-pronome.svg "As três posições do pronome átono, com os exemplos desta aula")
 
 ### Próclise: as palavras atrativas
 
@@ -182,7 +197,10 @@ Na norma-padrão, o pronome vai para antes do verbo quando há, antes deste e se
 - **certas coordenativas alternativas**: *Ou **se** paga a anuidade, ou **se** pede o parcelamento*;
 - **"em" + gerúndio**: *Em **se** confirmando o pagamento, o registro é liberado*.
 
-**A vírgula desfaz a atração.** Com pausa depois do advérbio, o pronome vai para depois do verbo: *Hoje, atende-**se** sem agendamento* × *Hoje **se** atende sem agendamento*.
+> [!WARNING]
+> **A vírgula desfaz a atração.** Com pausa depois do advérbio, o pronome vai para depois do verbo: *Hoje, atende-**se** sem agendamento* × *Hoje **se** atende sem agendamento*.
+
+## Ênclise e mesóclise
 
 ### Ênclise
 
@@ -201,9 +219,10 @@ A mesóclise só existe com o verbo no **futuro do presente** ou no **futuro do 
 
 Havendo palavra atrativa, vale a próclise: *Não **lhe** enviaremos o comprovante*; *Ninguém **nos** convocaria sem quórum*. Com pronome reto (sujeito) antes do verbo, também se usa a próclise: *Nós **lhe** enviaremos o comprovante*.
 
-Com verbo no futuro **nunca há ênclise**: "enviaremos-lhe" e "diria-se" estão fora da norma-padrão.
+> [!IMPORTANT]
+> Com verbo no futuro **nunca há ênclise**: "enviaremos-lhe" e "diria-se" estão fora da norma-padrão.
 
-### Locuções verbais
+## Colocação nas locuções verbais
 
 **Verbo principal no infinitivo ou no gerúndio**
 

@@ -2,7 +2,9 @@
 
 ## O essencial
 
-- A classe depende do **emprego**: veja a que palavra o termo se liga, se ele varia e o que ele liga.
+> [!IMPORTANT]
+> A classe depende do **emprego**: veja a que palavra o termo se liga, se ele varia e o que ele liga.
+
 - Liga-se a substantivo: artigo, adjetivo, numeral ou pronome. Liga-se a verbo, adjetivo ou advérbio: advérbio (invariável).
 - **Locução adjetiva** liga-se a substantivo (*taxa de registro*); **locução adverbial**, ao verbo (*atendeu às pressas*).
 - **Substantivação**: *o falar*, *o não*, *os inadimplentes*.
@@ -28,9 +30,13 @@
 5. Locução com infinitivo ou gerúndio: *quer-nos mostrar* ou *quer mostrar-nos*; com atrativa, *não nos quer mostrar*.
 6. Locução com particípio: **nunca depois do particípio**; *haviam-nos convocado*, *não nos haviam convocado*.
 
-*Me envie o boleto* é uso brasileiro, fora da norma-padrão escrita. *Vou lhe enviar*, sem hífen, é ponto controverso entre as gramáticas; as formas com hífen são as seguras.
+> [!CAUTION]
+> *Me envie o boleto* é uso brasileiro, fora da norma-padrão escrita. *Vou lhe enviar*, sem hífen, é ponto controverso entre as gramáticas; as formas com hífen são as seguras.
 
 ## O que rever
+
+> [!TIP]
+> Faça a revisão do dia sem abrir o texto da aula primeiro: tente lembrar, e só depois confira.
 
 - **24 horas**: refaça os testes do "que" (*o qual* × "isso") e a lista das palavras atrativas, sem olhar.
 - **7 dias**: releia os pares adjetivo × advérbio e as locuções verbais; refaça os itens que errou no treino.

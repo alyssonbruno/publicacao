@@ -9,6 +9,9 @@
 
 ## Cada instrumento, uma função
 
+> [!IMPORTANT]
+> Guarde a função de cada instrumento: a banca costuma atribuir a um a finalidade do outro.
+
 | Instrumento | Mostra |
 | --- | --- |
 | Fluxograma | sequência das etapas do processo |
@@ -35,6 +38,9 @@
 
 ## O que mais confunde
 
+> [!CAUTION]
+> Os nomes variam entre autores: leia a definição inteira, e não se prenda só ao rótulo.
+
 - QDT (distribuição do trabalho) × layout (espaço físico).
 - Fluxograma (processo) × organograma (estrutura).
 - Manual de organização (estrutura) × de políticas (diretrizes); do empregado (todos) × de instruções especializadas (um cargo).
@@ -42,6 +48,9 @@
 - Diagrama de blocos: simples para uns autores, rico em símbolos para outros.
 
 ## Revisões
+
+> [!TIP]
+> Faça a revisão do dia sem abrir o texto da aula primeiro: tente lembrar, e só depois confira.
 
 - **24 horas**: refaça de memória a tabela dos instrumentos e as partes do manual.
 - **7 dias**: os seis tipos de manual com a definição de cada um; etapas do QDT; princípios dos formulários. Refaça os itens que errou no treino.

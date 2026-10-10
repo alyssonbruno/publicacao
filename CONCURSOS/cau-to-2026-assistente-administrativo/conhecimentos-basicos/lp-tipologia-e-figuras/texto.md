@@ -1,8 +1,10 @@
 # Tipos textuais, figuras de linguagem, denotação e conotação
 
+![Uma jovem separa em pilhas um livro de histórias, um jornal e um folheto de instruções](imagens/abertura.webp)
+
 O edital pede a **identificação** de três coisas: o tipo de um texto, as figuras de linguagem e o sentido (literal ou figurado) em que uma palavra foi usada. Não é preciso decorar listas enormes. É preciso reconhecer cada fenômeno num trecho e, principalmente, não aceitar o nome certo colado na coisa errada, que é o molde preferido da banca.
 
-## 1. Tipo textual não é gênero textual
+## Tipo textual não é gênero textual
 
 **Tipo textual** é o modo de organizar o texto por dentro: contar, descrever, explicar, defender uma ideia ou orientar uma ação. Os tipos são poucos e se reconhecem por marcas linguísticas (tempos verbais, presença de personagens, de opinião, de ordens).
 
@@ -14,9 +16,10 @@ Um gênero é construído com um ou mais tipos. Exemplos de um setor administrat
 - a **crônica** que um servidor publica no jornal interno é um gênero; nela costuma predominar a narração;
 - a **notícia** publicada no site do conselho é um gênero; o **artigo de opinião** é outro.
 
-Pegadinha: o item diz "tipo textual notícia" ou "gênero narrativo", ou acerta o tipo e erra o gênero na mesma frase. Leia as duas metades. Se uma estiver errada, o item inteiro está errado.
+> [!CAUTION]
+> O item diz "tipo textual notícia" ou "gênero narrativo", ou acerta o tipo e erra o gênero na mesma frase. Leia as duas metades. Se uma estiver errada, o item inteiro está errado.
 
-## 2. Os tipos textuais
+## Os tipos textuais
 
 Os materiais de estudo trabalham com cinco: narrativo, descritivo, dissertativo-expositivo, dissertativo-argumentativo e injuntivo. Há fontes que chamam o dissertativo-expositivo apenas de "expositivo" e o dissertativo-argumentativo apenas de "dissertativo" ou "argumentativo". Os nomes variam; o que distingue um do outro, não.
 
@@ -52,19 +55,26 @@ Defende um ponto de vista (a tese) com argumentos e procura convencer o leitor. 
 
 Gêneros em que costuma predominar: artigo de opinião, editorial, resenha crítica, redação de concurso.
 
-A diferença entre os dois dissertativos é uma só: **há ou não há defesa de opinião**. Texto que só informa é expositivo; texto que quer convencer é argumentativo.
+> [!IMPORTANT]
+> A diferença entre os dois dissertativos é uma só: **há ou não há defesa de opinião**. Texto que só informa é expositivo; texto que quer convencer é argumentativo.
 
 ### Injuntivo
 
-Orienta o leitor a fazer algo: instrui, ordena, aconselha. Também aparece com o nome de **instrucional**: numa prova de 2016 para Assistente Administrativo (CRC-PR), a Quadrix falou em "texto instrucional" ao lado de "verbos no imperativo". Marcas: verbos no imperativo ("acesse", "preencha") ou no infinitivo com valor de ordem ("preencher o formulário"), frases curtas, passos em sequência.
+Orienta o leitor a fazer algo: instrui, ordena, aconselha. Também aparece com o nome de **instrucional**: numa prova de 2016 para Assistente Administrativo (CRC-PR), a Quadrix falou em "texto instrucional" ao lado de "verbos no imperativo".
+
+Marcas: verbos no imperativo ("acesse", "preencha") ou no infinitivo com valor de ordem ("preencher o formulário"), frases curtas, passos em sequência.
 
 > Acesse o sistema com o seu número de registro. Confira o endereço e anexe o comprovante.
 
 Gêneros em que costuma predominar: manual de instruções, receita, bula, regulamento.
 
-### "Não existe tipo puro": a classificação é por predominância
+## "Não existe tipo puro": a classificação é por predominância
 
 Textos reais misturam sequências. Uma crônica narra, mas para a história para descrever um lugar. Um comunicado informa e, no fim, dá instruções. Um artigo de opinião conta um caso para sustentar a tese. Por isso se pergunta qual tipo **predomina**, ou de que tipo é determinado **trecho**.
+
+Na figura, os cinco tipos, os gêneros em que cada um costuma predominar e, tracejados, esses três exemplos de mistura:
+
+![Quadro com os cinco tipos textuais e, ao lado de cada um, os gêneros em que costuma predominar. Narrativo, que conta fatos no tempo: conto, crônica, romance, fábula e novela; tracejado, o artigo de opinião, que conta um caso para sustentar a tese. Descritivo, que faz o retrato e em que o tempo “para”: tracejada, a crônica, que para a história para descrever um lugar. Dissertativo-expositivo, que explica sem tomar partido: verbete, texto didático, seminário e palestra. Dissertativo-argumentativo, que defende uma tese: artigo de opinião, editorial, resenha crítica e redação de concurso. Injuntivo, ou instrucional, que orienta uma ação: manual de instruções, receita, bula e regulamento; tracejado, o comunicado, que no fim dá instruções.](imagens/tipos-e-generos.svg "Poucos tipos, muitos gêneros: classifica-se pelo tipo que predomina")
 
 Daí saem três cuidados:
 
@@ -72,7 +82,7 @@ Daí saem três cuidados:
 - um detalhe isolado não define o tipo. Uma data não faz um texto narrativo; um adjetivo não o faz descritivo; um verbo no imperativo não o faz injuntivo. O que conta é a finalidade do conjunto;
 - confira a justificativa. A banca gosta de dar a classificação certa com o motivo errado ("é argumentativo porque usa linguagem figurada") ou a classificação errada com um motivo verdadeiro ("é narrativo porque traz uma data").
 
-## 3. Denotação e conotação
+## Denotação e conotação
 
 **Denotação** é o uso da palavra no sentido próprio, literal, o do dicionário. **Conotação** é o uso no sentido figurado, que só se entende pelo contexto.
 
@@ -86,9 +96,11 @@ Dois pontos que rendem item:
 - **nenhuma palavra é denotativa ou conotativa sozinha.** É o contexto que decide. "Caiu" é literal em "o processo caiu da mesa" e figurado em "o sistema caiu";
 - **várias figuras se constroem com o sentido figurado, mas não todas.** Ao reconhecer uma metáfora, uma metonímia ou uma hipérbole, você já sabe que o termo está em sentido conotativo. Já a antítese pode ser feita só com palavras em sentido literal ("Uns entram, outros saem"), e as figuras de sintaxe e de som mexem com a construção e com a sonoridade, não com o significado.
 
-## 4. Figuras de linguagem, aos pares que se confundem
+## Figuras de linguagem, aos pares que se confundem
 
-Figuras de linguagem são recursos que tornam a expressão mais enfática ou mais expressiva. Costumam ser divididas em figuras de palavra (mexem com o significado), de pensamento (mexem com as ideias), de sintaxe ou construção (mexem com a estrutura da frase) e de som (exploram a sonoridade das palavras). Os pares abaixo são os que mais se confundem; no fim da seção, uma tabela reúne outras figuras, entre elas as de som.
+Figuras de linguagem são recursos que tornam a expressão mais enfática ou mais expressiva. Costumam ser divididas em figuras de palavra (mexem com o significado), de pensamento (mexem com as ideias), de sintaxe ou construção (mexem com a estrutura da frase) e de som (exploram a sonoridade das palavras).
+
+Os pares abaixo são os que mais se confundem; depois deles, uma tabela reúne outras figuras, entre elas as de som.
 
 ### Metáfora × comparação
 
@@ -108,11 +120,16 @@ Teste: se cabe "é como se fosse", é metáfora; se cabe "que pertence a", "feit
 
 ### Catacrese
 
-É a metáfora que o uso desgastou: a palavra é emprestada porque não há outra mais específica, e ninguém mais percebe a figura. "Pé da mesa", "braço da cadeira", "boca do fogão", "embarcar no avião". Na prova, a catacrese costuma aparecer como nome errado para outro fenômeno. Ela é sempre o emprego de uma **palavra** em sentido emprestado; nunca é omissão nem repetição de termos.
+É a metáfora que o uso desgastou: a palavra é emprestada porque não há outra mais específica, e ninguém mais percebe a figura. "Pé da mesa", "braço da cadeira", "boca do fogão", "embarcar no avião".
+
+> [!CAUTION]
+> Na prova, a catacrese costuma aparecer como nome errado para outro fenômeno. Ela é sempre o emprego de uma **palavra** em sentido emprestado; nunca é omissão nem repetição de termos.
 
 ### Personificação (prosopopeia)
 
 Atribui ação, fala ou sentimento humano a seres inanimados ou irracionais. "O relógio do saguão vigia os atrasados." "A impressora se recusou a trabalhar."
+
+## Hipérbole, eufemismo, ironia, antítese e paradoxo
 
 ### Hipérbole × eufemismo
 
@@ -131,7 +148,10 @@ Uma aumenta, o outro abranda.
 - **Antítese**: aproxima palavras ou ideias opostas, que continuam separadas e fazem sentido lado a lado. "Uns entram, outros saem." "O atendimento abre cedo e fecha tarde."
 - **Paradoxo**: junta ideias opostas **no mesmo ser, ao mesmo tempo**, formando uma aparente contradição. "Um silêncio ensurdecedor." "Na reunião, ele estava presente e ausente ao mesmo tempo."
 
-Teste: na antítese há contraste; no paradoxo, um aparente absurdo lógico.
+> [!TIP]
+> Teste: na antítese há contraste; no paradoxo, um aparente absurdo lógico.
+
+## Elipse, zeugma, pleonasmo e anáfora
 
 ### Elipse × zeugma
 
@@ -150,9 +170,10 @@ Repetição de uma ideia já expressa. Quando reforça de propósito, é figura:
 
 Repetição da mesma palavra ou expressão no **início** de frases, orações ou versos. "Falta pessoal, falta espaço, falta tempo." Não confunda com o pleonasmo: na anáfora repete-se a palavra; no pleonasmo, a ideia.
 
-Atenção: no estudo da coesão textual, "anáfora" também é o nome da retomada de um termo anterior por um pronome ("o processo... **ele**"). Neste tópico, o edital fala da figura de linguagem.
+> [!WARNING]
+> No estudo da coesão textual, "anáfora" também é o nome da retomada de um termo anterior por um pronome ("o processo... **ele**"). Neste tópico, o edital fala da figura de linguagem.
 
-### Outras figuras, em uma linha cada
+## Outras figuras, em uma linha cada
 
 | Figura | Grupo | O que é | Exemplo |
 |---|---|---|---|
@@ -167,7 +188,7 @@ Atenção: no estudo da coesão textual, "anáfora" também é o nome da retomad
 
 Polissíndeto e assíndeto são opostos, como aliteração (consoante) e assonância (vogal). Não confunda o assíndeto com a elipse: nele, o que falta é só o conectivo.
 
-## 5. Como a banca cobra
+## Como a banca cobra
 
 A Quadrix trabalha com itens de certo ou errado, de uma frase, quase sempre presos a um trecho do texto. Os moldes mais prováveis para este tópico:
 
@@ -177,7 +198,8 @@ A Quadrix trabalha com itens de certo ou errado, de uma frase, quase sempre pres
 - **sentido literal por figurado**, e vice-versa, com a palavra entre aspas e a remissão à linha;
 - **absolutos.** "Exclusivamente narrativo", "apenas em sentido denotativo", "sempre conotativa".
 
-Dica de estudo (não é regra da gramática): diante de um item de figura, pergunte primeiro o que acontece no trecho (troca de sentido, exagero, contradição, omissão, repetição) e só depois confira o nome. Como cada erro tira um ponto, se o nome da figura não lhe disser nada e você não conseguir eliminar pela descrição, pese bem antes de marcar.
+> [!TIP]
+> É dica de estudo, e não regra da gramática: diante de um item de figura, pergunte primeiro o que acontece no trecho (troca de sentido, exagero, contradição, omissão, repetição) e só depois confira o nome. Como cada erro tira um ponto, se o nome da figura não lhe disser nada e você não conseguir eliminar pela descrição, pese bem antes de marcar.
 
 ## Fontes
 

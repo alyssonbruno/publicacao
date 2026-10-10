@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="330" viewBox="0 0 720 330" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="330" fill="#ffffff"/>
+  <defs>
+    <!-- Um posto de trabalho visto de lado: cadeira, pessoa, mesa e monitor. A cor da pessoa vem de "color". -->
+    <g id="posto">
+      <rect x="0" y="118" width="4" height="34" rx="2" fill="#c3c2b7"/>
+      <rect x="0" y="148" width="28" height="5" rx="2" fill="#c3c2b7"/>
+      <line x1="14" y1="153" x2="14" y2="176" stroke="#c3c2b7" stroke-width="3"/>
+      <path d="M12,148 L34,148 L34,174" fill="none" stroke="#52514e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="6" y="114" width="17" height="36" rx="8" fill="currentColor"/>
+      <circle cx="15" cy="102" r="9" fill="currentColor"/>
+      <line x1="18" y1="126" x2="44" y2="136" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+      <rect x="28" y="138" width="56" height="6" rx="2" fill="#c3c2b7"/>
+      <line x1="80" y1="144" x2="80" y2="176" stroke="#c3c2b7" stroke-width="3"/>
+      <rect x="64" y="112" width="6" height="24" rx="1.5" fill="#52514e"/>
+      <rect x="60" y="134" width="14" height="4" rx="1" fill="#52514e"/>
+    </g>
+    <marker id="ponta" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#256abf"/>
+    </marker>
+  </defs>
+
+  <!-- Espaço aberto: nada entre as mesas -->
+  <g transform="translate(12 12)">
+    <rect width="342" height="306" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="32" font-size="18" font-weight="700" fill="#0b0b0b">Espaço aberto</text>
+    <text x="326" y="50" font-size="12" fill="#52514e" text-anchor="end">teto</text>
+    <line x1="16" y1="56" x2="326" y2="56" stroke="#c3c2b7" stroke-width="2"/>
+    <line x1="16" y1="176" x2="326" y2="176" stroke="#c3c2b7" stroke-width="2"/>
+    <use xlink:href="#posto" href="#posto" x="26" color="#256abf"/>
+    <use xlink:href="#posto" href="#posto" x="128" color="#1baf7a"/>
+    <use xlink:href="#posto" href="#posto" x="230" color="#eb6834"/>
+    <text x="16" y="212" font-size="13.5" fill="#52514e">
+      <tspan x="16" font-weight="600" fill="#0b0b0b">Grandes áreas com muitas pessoas.</tspan>
+      <tspan x="16" dy="20">Facilita a comunicação e o fluxo de</tspan>
+      <tspan x="16" dy="20">documentos, mas favorece a distração</tspan>
+      <tspan x="16" dy="20">e não é indicado para tarefas de alta</tspan>
+      <tspan x="16" dy="20">concentração.</tspan>
+    </text>
+  </g>
+
+  <!-- Panorâmico: divisórias transparentes que não vão até o teto -->
+  <g transform="translate(366 12)">
+    <rect width="342" height="306" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="32" font-size="18" font-weight="700" fill="#0b0b0b">Panorâmico</text>
+    <text x="326" y="50" font-size="12" fill="#52514e" text-anchor="end">teto</text>
+    <line x1="16" y1="56" x2="326" y2="56" stroke="#c3c2b7" stroke-width="2"/>
+    <line x1="16" y1="176" x2="326" y2="176" stroke="#c3c2b7" stroke-width="2"/>
+    <use xlink:href="#posto" href="#posto" x="26" color="#256abf"/>
+    <use xlink:href="#posto" href="#posto" x="128" color="#1baf7a"/>
+    <use xlink:href="#posto" href="#posto" x="230" color="#eb6834"/>
+    <g fill="#e3edf9" fill-opacity="0.8" stroke="#256abf" stroke-width="1.5">
+      <rect x="114" y="96" width="8" height="80" rx="1"/>
+      <rect x="216" y="96" width="8" height="80" rx="1"/>
+    </g>
+    <line x1="118" y1="60" x2="118" y2="92" stroke="#256abf" stroke-width="1.5" stroke-dasharray="3 3" marker-start="url(#ponta)" marker-end="url(#ponta)"/>
+    <text x="128" y="80" font-size="12.5" font-weight="600" fill="#1c5cab">não vão até o teto</text>
+    <text x="16" y="212" font-size="13.5" fill="#52514e">
+      <tspan x="16" font-weight="600" fill="#0b0b0b">Divisórias transparentes que não vão</tspan>
+      <tspan x="16" dy="20" font-weight="600" fill="#0b0b0b">até o teto e tratamento acústico,</tspan>
+      <tspan x="16" dy="20">que dão privacidade sem impedir a</tspan>
+      <tspan x="16" dy="20">supervisão visual.</tspan>
+    </text>
+  </g>
+</svg>

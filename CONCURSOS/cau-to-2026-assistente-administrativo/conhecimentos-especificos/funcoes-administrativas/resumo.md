@@ -2,8 +2,9 @@
 
 ## O essencial
 
-- **Fayol** (Teoria Clássica): cinco funções — prever, organizar, comandar, coordenar e controlar.
-- **PODC** (Teoria Neoclássica): quatro funções. Comandar + coordenar = **direção**; prever = **planejar**.
+> [!IMPORTANT]
+> - **Fayol** (Teoria Clássica): cinco funções — prever, organizar, comandar, coordenar e controlar.
+> - **PODC** (Teoria Neoclássica): quatro funções. Comandar + coordenar = **direção**; prever = **planejar**.
 
 | Função | O que faz | Verbos que a denunciam |
 |---|---|---|
@@ -21,13 +22,15 @@
 
 ## Distinções que mais confundem
 
+> [!CAUTION]
+> As quatro funções existem nos **três níveis**: nenhuma é exclusiva do estratégico, do tático ou do operacional.
+
 - **Eficiência** = meios (gastar menos recursos); **eficácia** = fins (atingir o objetivo certo).
 - Planejar decide **o que e como** fazer; organizar define **quem faz e com que recursos**.
 - Organizar cuida da estrutura formal; dirigir cuida das pessoas.
 - Comparar o resultado com a meta é **controle**, e não planejamento.
 - "Organização" pode ser a entidade ou a função administrativa.
 - Direção e "liderança" (em alguns autores) são a mesma função.
-- As quatro funções existem nos **três níveis**: nenhuma é exclusiva do estratégico, do tático ou do operacional.
 - O ciclo não é rígido e o plano não é imutável: as funções interagem, e o controle pode levar a rever o planejamento.
 
 ## O que rever em cada revisão

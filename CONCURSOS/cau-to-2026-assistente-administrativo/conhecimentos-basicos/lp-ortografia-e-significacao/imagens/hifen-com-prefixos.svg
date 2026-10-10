@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="480" fill="#ffffff"/>
+
+  <!-- Com hífen: o encontro do prefixo com o segundo elemento -->
+  <g transform="translate(12 12)">
+    <rect width="342" height="284" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="32" font-size="18" font-weight="700" fill="#1c5cab">Com hífen<tspan font-size="13" font-weight="400" fill="#52514e">  ·  em casos definidos</tspan></text>
+    <g stroke="#e1e0d9">
+      <line x1="16" y1="104" x2="326" y2="104"/>
+      <line x1="16" y1="162" x2="326" y2="162"/>
+      <line x1="16" y1="220" x2="326" y2="220"/>
+    </g>
+    <g font-size="13" fill="#52514e">
+      <text x="16" y="66">o segundo elemento começa por h</text>
+      <text x="16" y="124">vogal + a mesma vogal</text>
+      <text x="16" y="182">hiper-, inter-, super- + r</text>
+      <text x="16" y="240">sub- + r (segundo o VOLP)</text>
+    </g>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="90">ant<tspan font-weight="700" fill="#1c5cab">i</tspan><tspan fill="#52514e"> + </tspan><tspan font-weight="700" fill="#1c5cab">h</tspan>orário<tspan fill="#52514e">  →  </tspan>anti<tspan font-weight="700" fill="#1c5cab">-</tspan>horário</text>
+      <text x="16" y="148">sem<tspan font-weight="700" fill="#1c5cab">i</tspan><tspan fill="#52514e"> + </tspan><tspan font-weight="700" fill="#1c5cab">i</tspan>ntegral<tspan fill="#52514e">  →  </tspan>semi<tspan font-weight="700" fill="#1c5cab">-</tspan>integral</text>
+      <text x="16" y="206">inte<tspan font-weight="700" fill="#1c5cab">r</tspan><tspan fill="#52514e"> + </tspan><tspan font-weight="700" fill="#1c5cab">r</tspan>egional<tspan fill="#52514e">  →  </tspan>inter<tspan font-weight="700" fill="#1c5cab">-</tspan>regional</text>
+      <text x="16" y="264">su<tspan font-weight="700" fill="#1c5cab">b</tspan><tspan fill="#52514e"> + </tspan><tspan font-weight="700" fill="#1c5cab">r</tspan>egião<tspan fill="#52514e">  →  </tspan>sub<tspan font-weight="700" fill="#1c5cab">-</tspan>região</text>
+    </g>
+  </g>
+
+  <!-- Junto, sem hífen -->
+  <g transform="translate(366 12)">
+    <rect width="342" height="284" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="32" font-size="18" font-weight="700" fill="#127a55">Junto, sem hífen<tspan font-size="13" font-weight="400" fill="#52514e">  ·  em geral</tspan></text>
+    <g stroke="#e1e0d9">
+      <line x1="16" y1="134" x2="326" y2="134"/>
+      <line x1="16" y1="200" x2="326" y2="200"/>
+    </g>
+    <g font-size="13" fill="#52514e">
+      <text x="16" y="66">vogal + r ou s: dobra-se a consoante</text>
+      <text x="16" y="156">vogal + vogal diferente</text>
+      <text x="16" y="222">consoante + letra diferente</text>
+    </g>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="90">ant<tspan font-weight="700" fill="#127a55">i</tspan><tspan fill="#52514e"> + </tspan><tspan font-weight="700" fill="#127a55">s</tspan>ocial<tspan fill="#52514e">  →  </tspan>anti<tspan font-weight="700" fill="#127a55">ss</tspan>ocial</text>
+      <text x="16" y="114">contr<tspan font-weight="700" fill="#127a55">a</tspan><tspan fill="#52514e"> + </tspan><tspan font-weight="700" fill="#127a55">r</tspan>azão<tspan fill="#52514e">  →  </tspan>contra<tspan font-weight="700" fill="#127a55">rr</tspan>azão</text>
+      <text x="16" y="180">aut<tspan font-weight="700" fill="#127a55">o</tspan><tspan fill="#52514e"> + </tspan><tspan font-weight="700" fill="#127a55">e</tspan>scola<tspan fill="#52514e">  →  </tspan>aut<tspan font-weight="700" fill="#127a55">oe</tspan>scola</text>
+      <text x="16" y="246">inte<tspan font-weight="700" fill="#127a55">r</tspan><tspan fill="#52514e"> + </tspan><tspan font-weight="700" fill="#127a55">e</tspan>stadual<tspan fill="#52514e">  →  </tspan>inte<tspan font-weight="700" fill="#127a55">re</tspan>stadual</text>
+    </g>
+  </g>
+
+  <!-- Também com hífen: prefixos que pedem hífen pela própria forma -->
+  <g transform="translate(12 308)">
+    <rect width="696" height="160" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#1c5cab">Também com hífen</text>
+    <line x1="348" y1="46" x2="348" y2="144" stroke="#e1e0d9"/>
+    <g font-size="13" fill="#52514e">
+      <text x="16" y="60">circum- e pan- diante de vogal, m ou n</text>
+      <text x="364" y="60">sempre com ex- (o que deixou de ser) e vice-</text>
+      <text x="16" y="114">pós-, pré- e pró- acentuados</text>
+      <text x="364" y="114">além-, aquém-, recém- e sem-</text>
+    </g>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="84">circum<tspan font-weight="700" fill="#1c5cab">-</tspan>navegação, pan<tspan font-weight="700" fill="#1c5cab">-</tspan>americano</text>
+      <text x="364" y="84">ex<tspan font-weight="700" fill="#1c5cab">-</tspan>presidente, vice<tspan font-weight="700" fill="#1c5cab">-</tspan>presidente</text>
+      <text x="16" y="138">pós<tspan font-weight="700" fill="#1c5cab">-</tspan>graduação, pré<tspan font-weight="700" fill="#1c5cab">-</tspan>requisito</text>
+      <text x="364" y="138">além<tspan font-weight="700" fill="#1c5cab">-</tspan>mar, recém<tspan font-weight="700" fill="#1c5cab">-</tspan>chegado, sem<tspan font-weight="700" fill="#1c5cab">-</tspan>teto</text>
+    </g>
+  </g>
+</svg>

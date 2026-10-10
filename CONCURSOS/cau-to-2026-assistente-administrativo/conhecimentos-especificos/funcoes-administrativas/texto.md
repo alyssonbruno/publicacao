@@ -1,5 +1,7 @@
 # Funções administrativas: planejamento, organização, direção e controle
 
+![Um homem, a uma mesa de trabalho, encaixa a última de quatro engrenagens coloridas que giram juntas, em círculo](imagens/abertura.webp)
+
 > Edital (Conhecimentos Específicos, item 1.1): "Funções administrativas: planejamento, organização, direção e controle."
 
 ## Por que este tópico importa
@@ -8,9 +10,12 @@ Administrar é fazer uma organização alcançar seus objetivos usando bem as pe
 
 Este é um assunto de doutrina, sem lei para decorar. A prova cobra as definições, e o erro mais comum é aceitar a descrição de uma função com o nome de outra. Por isso, mais do que memorizar listas, aprenda a reconhecer cada função pelo que ela faz.
 
-## Eficiência e eficácia
+### Eficiência e eficácia
 
-"Usar bem os recursos" e "alcançar os objetivos" são duas medidas diferentes, e a prova costuma trocar uma pela outra. A distinção abaixo segue o material didático do IFSC (ver Fontes):
+> [!WARNING]
+> "Usar bem os recursos" e "alcançar os objetivos" são duas medidas diferentes, e a prova costuma trocar uma pela outra.
+
+A distinção abaixo segue o material didático do IFSC (ver Fontes):
 
 - **eficiência** olha para os **meios**: fazer o trabalho do jeito certo, com o menor gasto de tempo, dinheiro, pessoas e equipamentos;
 - **eficácia** olha para os **fins**: escolher o objetivo certo e chegar a ele.
@@ -41,9 +46,12 @@ O resultado é o processo administrativo de quatro funções: **planejamento, or
 | Comandar e coordenar | Direção |
 | Controlar | Controle |
 
-Alguns autores chamam a terceira função de **liderança** (planejar, organizar, liderar e controlar). É a mesma função com outro nome, e não uma quinta função.
+![Quatro cartões em sequência, ligados por setas. P, planejamento: define os objetivos e escolhe os meios para chegar a eles. O, organização: reparte o trabalho e os meios e define autoridade e responsabilidade. D, direção, ou liderança: conduz as pessoas, isto é, liderar, motivar e comunicar. C, controle: acompanha o desempenho, compara com o planejado e corrige os desvios. Uma seta volta do controle ao planejamento: o controle mostra um desvio e leva a rever o planejamento, e daí o ciclo recomeça. Embaixo: as funções interagem e não acontecem isoladas, uma depois da outra, em ordem rígida.](imagens/ciclo-podc.svg "O ciclo PODC: as quatro funções e a volta do controle ao planejamento")
 
-**Pegadinhas**
+> [!NOTE]
+> Alguns autores chamam a terceira função de **liderança** (planejar, organizar, liderar e controlar). É a mesma função com outro nome, e não uma quinta função.
+
+### Pegadinhas
 
 - Dizer que Fayol propôs quatro funções, ou que "dirigir" já estava na lista dele. A lista de Fayol tem cinco funções, e a direção nasce da união de duas delas.
 - Dizer que a direção reúne "prever e organizar" ou "organizar e controlar". Ela reúne **comandar e coordenar**.
@@ -68,7 +76,8 @@ Na sequência atribuída a Chiavenato, o planejamento tem seis etapas:
 5. escolher um deles;
 6. pôr o plano em prática e avaliar os resultados.
 
-Repare na primeira: os objetivos vêm antes de tudo, porque servem de base para os demais planos.
+> [!IMPORTANT]
+> Repare na primeira: os objetivos vêm antes de tudo, porque servem de base para os demais planos.
 
 ### Tipos de planejamento
 
@@ -84,7 +93,7 @@ O tático traduz o estratégico em ações de cada área, e o operacional detalh
 
 **Exemplo.** Em um conselho profissional, o plenário e a presidência definem que, em quatro anos, todo o atendimento poderá ser feito por meio digital (estratégico). A gerência administrativa prepara o plano do ano para o setor de atendimento: quais serviços migram primeiro, com que orçamento e com que equipe (tático). O chefe do atendimento monta a escala da semana e o roteiro de respostas aos pedidos recebidos por e-mail (operacional).
 
-**Pegadinhas**
+### Pegadinhas
 
 - Trocar os prazos: estratégico de curto prazo, operacional de longo prazo.
 - Trocar o alcance: dizer que o planejamento tático abrange a organização inteira (isso é o estratégico) ou que o estratégico é detalhado (detalhado é o operacional).
@@ -105,11 +114,12 @@ A função costuma ser descrita em três passos:
 2. **autoridade e responsabilidade**: fixar quem se reporta a quem (a cadeia de comando);
 3. **desenho da estrutura**: escolher como agrupar as unidades (a departamentalização).
 
-Os tipos de estrutura e de departamentalização são assunto de outra aula. Aqui basta saber que eles são produto da função de organização.
+> [!NOTE]
+> Os tipos de estrutura e de departamentalização são assunto de outra aula. Aqui basta saber que eles são produto da função de organização.
 
 **Exemplo.** Decidido o plano do atendimento digital, a gerência define que dois assistentes cuidarão dos pedidos eletrônicos e um ficará no balcão, quem será o responsável pelo setor, quais computadores e sistemas cada um usará. Isso é organizar.
 
-**Pegadinhas**
+### Pegadinhas
 
 - Chamar de planejamento a alocação de recursos e a repartição do trabalho. Planejar decide **o que** e **como** fazer; organizar arruma **quem faz** e **com que recursos**.
 - Confundir os dois sentidos da palavra no mesmo item.
@@ -124,7 +134,7 @@ A direção também existe nos três níveis. É comum associar os nomes dos ges
 
 **Exemplo.** A chefe do atendimento reúne a equipe, explica o novo fluxo, tira dúvidas, reconhece quem cumpriu os prazos e conversa com dois colegas que se desentenderam sobre a divisão dos pedidos. Tudo isso é dirigir.
 
-**Pegadinhas**
+### Pegadinhas
 
 - Restringir a direção aos "diretores" ou ao topo. O supervisor que orienta a equipe também dirige.
 - Atribuir à direção a comparação de resultados com metas (isso é controle) ou a definição da cadeia de comando (isso é organização).
@@ -156,7 +166,7 @@ Na sequência atribuída a Chiavenato, o controle tem quatro etapas, nesta ordem
 
 A doutrina de concursos atribui a Maximiano uma lista de características do controle eficaz: foco nos pontos estratégicos, precisão, rapidez, objetividade, economia (o controle deve custar menos do que o benefício que traz), aceitação pelas pessoas, ênfase na exceção (atenção aos desvios) e uso de mais de um critério de avaliação.
 
-**Pegadinhas**
+### Pegadinhas
 
 - Inverter as etapas: a ação corretiva é a **última**, depois da comparação.
 - Chamar de planejamento a comparação entre o desempenho real e as metas. Comparar é etapa do **controle**.
@@ -171,18 +181,22 @@ Os níveis da organização são três:
 - **tático** (ou intermediário, gerencial): faz a ligação entre o topo e a base e cuida de cada área;
 - **operacional**: os gestores de primeira linha, que coordenam quem executa as tarefas do dia a dia, no curto prazo.
 
-A regra que mais rende itens: **as quatro funções estão presentes nos três níveis**. O que muda é o peso e o alcance de cada uma. O presidente de um conselho planeja, organiza, dirige e controla; o chefe de um setor também, em escala menor.
+> [!IMPORTANT]
+> A regra que mais rende itens: **as quatro funções estão presentes nos três níveis**. O que muda é o peso e o alcance de cada uma. O presidente de um conselho planeja, organiza, dirige e controla; o chefe de um setor também, em escala menor.
+
+![Três faixas, uma para cada nível, com as mesmas quatro funções (planejamento, organização, direção e controle) em cada uma. Estratégico, ou institucional: diretores, longo prazo, a organização inteira. Tático, ou intermediário, gerencial: gerentes, médio prazo, cada área. Operacional: supervisores, curto prazo, as tarefas do dia a dia. Embaixo: o que muda é o peso e o alcance de cada uma; nenhuma função é exclusiva de um nível.](imagens/funcoes-nos-tres-niveis.svg "As quatro funções em cada um dos três níveis")
 
 Outra ideia cobrada: o processo é chamado de **ciclo**, mas as funções não acontecem isoladas, uma depois da outra, em ordem rígida. Elas interagem. É comum que o controle mostre um desvio e leve a rever o planejamento, e daí o ciclo recomeça.
 
-**Pegadinhas**
+### Pegadinhas
 
 - "O planejamento cabe apenas ao nível estratégico", "o controle é exclusivo do nível operacional", "somente a alta administração dirige": desconfie dos absolutos. Nenhuma função é exclusiva de um nível.
 - "As funções são independentes entre si": elas são interdependentes.
 
 ## Como identificar a função em um item
 
-Dica de estudo (não é classificação de autor): procure o verbo principal da descrição.
+> [!TIP]
+> Dica de estudo (não é classificação de autor): procure o verbo principal da descrição.
 
 | Se a descrição fala em… | A função é… |
 |---|---|
