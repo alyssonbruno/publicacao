@@ -11,7 +11,7 @@ Quando alguém pede algo a um órgão público, ou quando o órgão precisa deci
 A lei tem dois objetivos, ditos logo no art. 1º: **proteger os direitos dos administrados** e garantir o **melhor cumprimento dos fins da Administração**. Administrado é quem se relaciona com a Administração: a pessoa que pede, reclama, recorre ou é afetada pela decisão.
 
 > [!TIP]
-> O edital pede "noções" e destaca **direitos e deveres** (arts. 3º e 4º). A banca cobra a **letra da lei**, em itens de uma frase. Estude nesta ordem: direitos e deveres, competência e delegação, prazos. O resto, leia para reconhecer.
+> O edital pede "noções" e destaca **direitos e deveres** (arts. 3º e 4º). A banca cobra a **letra da lei**, em itens de uma frase. Estude nesta ordem: direitos e deveres, competência e delegação, prazos.
 
 ## A quem a lei se aplica
 
@@ -25,7 +25,7 @@ Três definições do art. 1º, § 2º, que a banca gosta de trocar entre si:
 | **Entidade** | unidade de atuação **dotada de personalidade jurídica** |
 | **Autoridade** | servidor ou agente público **dotado de poder de decisão** |
 
-Os processos que têm lei própria continuam regidos por ela; a Lei nº 9.784/1999 entra **apenas subsidiariamente**, isto é, onde a lei própria não tem regra (art. 69).
+Os processos que têm lei própria continuam regidos por ela; a Lei nº 9.784/1999 entra **apenas subsidiariamente** (art. 69).
 
 > [!NOTE]
 > Leitura nossa: os conselhos de arquitetura e urbanismo são autarquias criadas por lei federal (Lei nº 12.378/2010, art. 24), ou seja, entidades da administração indireta. Por isso esta lei aparece no edital do CAU/TO.
@@ -36,22 +36,18 @@ O art. 2º, caput, lista **onze princípios**: legalidade, finalidade, motivaç�
 
 O parágrafo único traz **critérios** para aplicar esses princípios. Os que mais rendem item de prova:
 
-- atuação conforme **a lei e o Direito** (I);
 - **vedada a renúncia** total ou parcial de poderes ou competências, salvo autorização em lei (II);
 - objetividade, **vedada a promoção pessoal** de agentes ou autoridades (III);
-- padrões éticos de **probidade, decoro e boa-fé** (IV);
-- vedada a imposição de obrigações, restrições e sanções **em medida superior** à estritamente necessária (VI);
-- **formas simples**, suficientes para dar certeza, segurança e respeito aos direitos (IX);
 - **proibição de cobrança de despesas processuais**, ressalvadas as previstas em lei (XI);
 - **impulsão de ofício** do processo, sem prejuízo da atuação dos interessados (XII);
 - interpretação que melhor atenda ao fim público, **vedada a aplicação retroativa de nova interpretação** (XIII).
 
 > [!CAUTION]
-> A lista do caput não tem "publicidade" nem "impessoalidade" com esses nomes (eles estão na Constituição, art. 37). As ideias aparecem nos critérios: divulgação oficial (V) e vedação de promoção pessoal (III). Item que diga "o art. 2º da lei cita expressamente a impessoalidade" está errado.
+> A lista do caput não tem "publicidade" nem "impessoalidade" com esses nomes: as ideias aparecem nos critérios (divulgação oficial, V; vedação de promoção pessoal, III).
 
 ## Os direitos do administrado
 
-O art. 3º dá ao administrado **quatro direitos**, "sem prejuízo de outros que lhe sejam assegurados". Vale decorar os quatro:
+O art. 3º dá ao administrado **quatro direitos**, "sem prejuízo de outros que lhe sejam assegurados":
 
 1. **Respeito e facilitação.** Ser tratado com respeito pelas autoridades e servidores, que **deverão facilitar** o exercício de seus direitos e o cumprimento de suas obrigações (I).
 2. **Informação.** Ter ciência da tramitação dos processos em que seja interessado, **ter vista dos autos, obter cópias** de documentos e conhecer as decisões (II).
@@ -63,7 +59,6 @@ Um exemplo. Uma arquiteta pede ao conselho a correção de um dado do seu regist
 > [!CAUTION]
 > - "O administrado deve ser assistido por advogado": errado. A regra é **facultativo**; obrigatório só quando a lei exigir.
 > - "Pode apresentar documentos após a decisão, em qualquer fase": o inciso III fala em **antes da decisão**.
-> - "A Administração pode desconsiderar as alegações": errado. Elas **serão objeto de consideração**.
 
 ## Os deveres do administrado
 
@@ -81,16 +76,11 @@ Urbanidade é educação no trato. Agir de modo temerário é agir de forma impr
 
 ## Como o processo começa e quem participa
 
-O processo pode começar **de ofício** (por iniciativa da própria Administração) ou **a pedido de interessado** (art. 5º).
+O processo pode começar **de ofício** (por iniciativa da própria Administração) ou **a pedido de interessado** (art. 5º). O requerimento é **por escrito**, salvo quando for admitida solicitação oral (art. 6º).
 
-O requerimento deve ser **por escrito**, salvo quando for admitida solicitação oral, e traz a quem se dirige, quem pede, onde receber comunicações, o pedido com seus fundamentos, a data e a assinatura (art. 6º).
+No protocolo, é **vedada a recusa imotivada** de recebimento de documentos, e o servidor deve **orientar o interessado** a suprir as falhas (art. 6º, parágrafo único).
 
-Duas regras de atendimento, úteis no dia a dia de um setor de protocolo:
-
-- é **vedada a recusa imotivada** de recebimento de documentos, e o servidor deve **orientar o interessado** a suprir as falhas (art. 6º, parágrafo único);
-- os órgãos **deverão elaborar modelos ou formulários padronizados** para assuntos com pretensões equivalentes (art. 7º).
-
-**Interessados** (art. 9º): quem inicia o processo como titular de direito ou interesse; quem não iniciou, mas pode ser afetado pela decisão; as organizações e associações representativas, quanto a direitos coletivos; as pessoas ou associações legalmente constituídas, quanto a direitos difusos. São capazes, para o processo, os **maiores de 18 anos**, ressalvada previsão especial (art. 10).
+**Interessados** (art. 9º): quem inicia o processo como titular de direito ou interesse; quem **não iniciou, mas pode ser afetado** pela decisão; as organizações e associações representativas, quanto a direitos coletivos; as pessoas ou associações legalmente constituídas, quanto a direitos difusos.
 
 ## Competência: a regra, a delegação e a avocação
 
@@ -98,27 +88,27 @@ Competência é o poder de decidir que a lei dá a um órgão. A regra do art. 1
 
 **Delegar** é passar a outro o exercício de **parte** da competência. **Avocar** é o caminho inverso: o superior chama para si, por um tempo, o que cabia ao subordinado.
 
-![Quadro com duas colunas. Delegação (arts. 12 a 14): passar a outro órgão ou titular parte da competência; pode ser para quem não é subordinado; quando for conveniente, por razões técnicas, sociais, econômicas, jurídicas ou territoriais; o ato é publicado no meio oficial e é revogável a qualquer tempo. Avocação (art. 15): chamar para si a competência de órgão hierarquicamente inferior; exige hierarquia; é excepcional, por motivos relevantes devidamente justificados; é temporária. Embaixo, uma faixa: não podem ser delegados os atos de caráter normativo, a decisão de recursos administrativos e as matérias de competência exclusiva (art. 13).](imagens/delegacao-e-avocacao.svg "Delegação e avocação na Lei nº 9.784/1999")
+![Quadro com duas colunas. Delegação (arts. 12 a 14): passar parte da competência a outro órgão ou titular, mesmo não subordinado; é publicada no meio oficial e revogável a qualquer tempo. Avocação (art. 15): chamar para si a competência de órgão inferior; exige hierarquia, é excepcional, justificada e temporária. Embaixo: não se delegam atos normativos, decisão de recursos e competência exclusiva (art. 13).](imagens/delegacao-e-avocacao.svg "Delegação e avocação na Lei nº 9.784/1999")
 
 O que a lei diz da **delegação**:
 
 - delega-se **parte** da competência, nunca toda, e só **se não houver impedimento legal** (art. 12);
 - pode ser para órgão ou titular **que não seja subordinado** a quem delega (art. 12);
 - o motivo é a conveniência, por circunstâncias de índole **técnica, social, econômica, jurídica ou territorial** (art. 12);
+- a mesma regra vale para a delegação dos **órgãos colegiados aos respectivos presidentes** (art. 12, parágrafo único). Exemplo nosso: o plenário de um conselho delega ao presidente parte do que lhe cabe decidir;
+- o ato de delegação **especifica** as matérias e poderes transferidos, os limites da atuação do delegado, a duração e os objetivos da delegação e o recurso cabível (art. 14, § 1º);
 - o ato de delegação e a sua revogação são **publicados no meio oficial** (art. 14);
 - a delegação é **revogável a qualquer tempo** por quem delegou (art. 14, § 2º);
 - a decisão tomada por delegação menciona isso e **considera-se editada pelo delegado** (art. 14, § 3º).
 
 O que a lei diz da **avocação** (art. 15): é permitida em **caráter excepcional**, por **motivos relevantes devidamente justificados**, é **temporária** e recai sobre competência de órgão **hierarquicamente inferior**.
 
-Por fim, se nenhuma norma disser quem é competente, o processo começa perante a autoridade de **menor grau hierárquico** para decidir (art. 17).
-
 > [!WARNING]
 > A delegação **não exige hierarquia**; a avocação **exige**. A banca troca as duas: "a delegação só é possível a órgão subordinado" e "a avocação é a regra, por prazo indeterminado" são itens errados.
 
 ## O que não pode ser delegado
 
-O art. 13 é curto e cabe inteiro num item de uma frase: por isso vale sabê-lo de cor. Ele proíbe a delegação de três coisas:
+O art. 13 é curto e cabe inteiro num item de uma frase: vale sabê-lo de cor.
 
 > [!IMPORTANT]
 > **Não podem ser objeto de delegação** (art. 13):
@@ -131,7 +121,7 @@ Para guardar: **N-R-E, "Não Repasse Essas"**. **N**ormativo, **R**ecurso, **E**
 
 Uma lógica para lembrar (leitura nossa): ato **normativo** cria regra geral, e quem recebeu esse poder responde por ele; o **recurso** existe para que outra autoridade reexamine a decisão; e o que é **exclusivo** de alguém, por definição, não é de mais ninguém.
 
-Como treinar: leia cada frase abaixo e decida, antes de ver a resposta.
+Para treinar, decida antes de ver a resposta.
 
 | Afirmação | Certo ou errado? | Por quê |
 |---|---|---|
@@ -143,7 +133,7 @@ Como treinar: leia cada frase abaixo e decida, antes de ver a resposta.
 
 ## Impedimento e suspeição
 
-As duas figuras protegem a imparcialidade de quem atua no processo, mas funcionam de modos diferentes.
+As duas figuras protegem a imparcialidade de quem atua no processo.
 
 | | Impedimento (arts. 18 e 19) | Suspeição (arts. 20 e 21) |
 |---|---|---|
@@ -152,57 +142,33 @@ As duas figuras protegem a imparcialidade de quem atua no processo, mas funciona
 | Se descumprir | Omitir a comunicação é **falta grave** | Do indeferimento da alegação cabe recurso, **sem efeito suspensivo** |
 
 > [!TIP]
-> Impedimento é **objetivo** (um fato: é parente, é parte, foi perito) e gera **dever**. Suspeição é **subjetiva** (amizade ou inimizade) e gera **possibilidade** de alegação. Na lei: impedido "deve"; suspeição "pode".
+> Impedimento é **objetivo** (um fato: tem interesse na matéria, foi perito ou testemunha, litiga com o interessado) e gera **dever**. Suspeição é **subjetiva** (amizade íntima ou inimizade notória) e gera **possibilidade** de alegação. Na lei: impedido "deve"; suspeição "pode". Ser parente do interessado, sozinho, **não é impedimento**.
 
-## Forma dos atos e intimações
+## Forma dos atos, intimação e instrução
 
-A regra é a **simplicidade**: os atos do processo **não dependem de forma determinada**, a não ser quando a lei exigir expressamente (art. 22, caput). Mesmo assim, há um mínimo:
+A regra é a **simplicidade**: os atos do processo **não dependem de forma determinada**, a não ser quando a lei exigir (art. 22). São feitos **por escrito, em vernáculo**, isto é, em português (art. 22, § 1º).
 
-- atos **por escrito, em vernáculo** (em português), com data, local e assinatura da autoridade responsável (art. 22, § 1º);
-- **reconhecimento de firma** só quando houver **dúvida de autenticidade**, salvo imposição legal (art. 22, § 2º);
-- a autenticação de cópias **pode ser feita pelo próprio órgão** (art. 22, § 3º);
-- páginas **numeradas em sequência e rubricadas** (art. 22, § 4º);
-- atos em **dias úteis**, no horário normal da repartição (art. 23).
-
-**Intimação** é o aviso ao interessado para tomar ciência de uma decisão ou para cumprir uma diligência (art. 26). Para comparecimento, deve chegar com **antecedência mínima de 3 dias úteis** (art. 26, § 2º).
-
-A intimação feita fora das regras é nula, mas **o comparecimento do administrado supre a falta** (art. 26, § 5º).
+**Intimação** é o aviso ao interessado para tomar ciência de uma decisão ou cumprir uma diligência (art. 26). Feita fora das regras, é nula, mas **o comparecimento do administrado supre a falta** (art. 26, § 5º).
 
 > [!IMPORTANT]
 > Não atender à intimação **não importa o reconhecimento da verdade dos fatos, nem a renúncia a direito** (art. 27). No processo administrativo, quem cala não consente.
 
-## Instrução: provas e participação
-
-Instrução é a fase de reunir os dados necessários à decisão. Ela se faz **de ofício**, sem prejuízo do direito dos interessados de propor provas (art. 29). Os atos que exijam a atuação do interessado devem ser feitos do **modo menos oneroso** para ele (art. 29, § 2º).
-
-As regras que mais aparecem:
+**Instrução** (arts. 29 a 47) é a fase de reunir os dados necessários à decisão. Faz-se **de ofício**, sem prejuízo do direito dos interessados de propor provas (art. 29). O que mais aparece:
 
 - são **inadmissíveis as provas obtidas por meios ilícitos** (art. 30);
-- **cabe ao interessado a prova dos fatos que alegar** (art. 36), mas, se ele declarar que o documento já está na Administração, o órgão **providencia de ofício** (art. 37);
-- o interessado pode juntar documentos e pareceres, requerer diligências e perícias e apresentar alegações, **antes da decisão** (art. 38);
-- a prova proposta só pode ser recusada, com decisão fundamentada, se for **ilícita, impertinente, desnecessária ou protelatória** (art. 38, § 2º);
-- se o interessado não entregar, no prazo, documento **necessário à apreciação do seu pedido**, o processo é **arquivado** (art. 40);
-- em caso de **risco iminente**, a Administração pode adotar, motivadamente, providências acauteladoras **sem a prévia manifestação** do interessado (art. 45).
-
-Em assuntos de interesse geral, o órgão pode abrir **consulta pública** (manifestações escritas de terceiros, art. 31) ou **audiência pública** (debates, art. 32). Participar da consulta **não torna a pessoa interessada** no processo, mas dá direito a resposta fundamentada (art. 31, § 2º).
-
-Encerrada a instrução, o interessado pode se manifestar em até **10 dias** (art. 44). Os outros prazos desta fase estão na tabela de prazos, mais adiante.
+- **cabe ao interessado a prova dos fatos que alegar** (art. 36), mas, se ele declarar que o documento já está na Administração, o órgão o **providencia de ofício** (art. 37).
 
 ## Dever de decidir e motivação
 
-A Administração tem o **dever de emitir decisão explícita** nos processos e sobre solicitações ou reclamações (art. 48). Não pode deixar o pedido sem resposta.
+A Administração tem o **dever de emitir decisão explícita** nos processos e sobre solicitações ou reclamações (art. 48), em **até 30 dias** depois de concluída a instrução (art. 49).
 
-Concluída a instrução, o prazo para decidir é de **até 30 dias**, salvo **prorrogação por igual período, expressamente motivada** (art. 49).
+**Motivar** é indicar os fatos e os fundamentos jurídicos da decisão. O art. 50 exige motivação, entre outros casos, quando o ato negar, limitar ou afetar direitos, impuser sanções, decidir recurso ou anular, revogar ou convalidar outro ato.
 
-**Motivar** é indicar os fatos e os fundamentos jurídicos da decisão. O art. 50 exige motivação, entre outros casos, quando o ato: negar, limitar ou afetar direitos; impuser ou agravar deveres ou sanções; decidir concurso ou seleção pública; decidir recurso; anular, revogar, suspender ou convalidar outro ato.
-
-A motivação deve ser **explícita, clara e congruente**, e pode consistir em declarar concordância com parecer ou informação anterior, que passa a integrar o ato (art. 50, § 1º).
+A motivação deve ser **explícita, clara e congruente**, e **pode** consistir em declarar concordância com parecer ou informação anterior, que passa a integrar o ato (art. 50, § 1º).
 
 ## Decisão coordenada
 
-É a novidade da lei, incluída pela **Lei nº 14.210/2021** (arts. 49-A a 49-G). Serve para decisões que exijam a participação de **3 ou mais setores, órgãos ou entidades**: em vez de o processo passar de mesa em mesa, todos decidem juntos, em reuniões.
-
-Ela **pode** ser usada quando a matéria for relevante **e** houver discordância que prejudique a celeridade (art. 49-A, I e II).
+É a novidade da lei, incluída pela **Lei nº 14.210/2021** (arts. 49-A a 49-G). Serve para decisões que exijam a participação de **3 ou mais setores, órgãos ou entidades**: em vez de o processo passar de mesa em mesa, todos decidem juntos.
 
 **Não se aplica** (art. 49-A, § 6º) aos processos:
 
@@ -210,10 +176,8 @@ Ela **pode** ser usada quando a matéria for relevante **e** houver discordânci
 - relacionados ao **poder sancionador**;
 - em que estejam envolvidas autoridades de **Poderes distintos**.
 
-Outros pontos: ela **não exclui a responsabilidade** de cada órgão (art. 49-A, § 4º); os interessados podem se habilitar como **ouvintes**, por decisão **irrecorrível** de quem convocou (art. 49-B); o resultado vai para uma **ata**, publicada por extrato no Diário Oficial da União (art. 49-G).
-
 > [!WARNING]
-> Material anterior a outubro de 2021 não traz a decisão coordenada. Números para não errar: **3 ou mais** participantes (não "2 ou mais") e **três exclusões**: licitação, poder sancionador e Poderes distintos.
+> Material anterior a outubro de 2021 não traz a decisão coordenada. Para não errar: **3 ou mais** participantes (não "2 ou mais") e **três exclusões**.
 
 ## Anulação, revogação e convalidação
 
@@ -227,40 +191,47 @@ Três formas de a Administração rever os próprios atos (arts. 53 a 55):
 
 O direito de anular atos com **efeitos favoráveis** ao destinatário **decai em 5 anos**, contados da data em que foram praticados, **salvo comprovada má-fé** (art. 54).
 
-O interessado, por sua vez, pode **desistir** do pedido, por escrito, no todo ou em parte (art. 51). A desistência só atinge quem desistiu e **não impede** a Administração de continuar o processo, se o interesse público exigir (art. 51, §§ 1º e 2º).
+O interessado pode **desistir** do pedido, por escrito, mas isso **não impede** a Administração de continuar o processo, se o interesse público exigir (art. 51).
 
 > [!TIP]
-> Ato **ilegal** se **anula** (dever). Ato **legal, mas inconveniente**, se **revoga** (faculdade). Item que diga "a Administração pode revogar atos ilegais" troca os dois.
+> Ato **ilegal** se **anula** (dever). Ato **legal, mas inconveniente**, se **revoga** (faculdade).
 
 ## Recurso e revisão
 
 Das decisões cabe recurso, por razões de **legalidade e de mérito** (art. 56). O caminho:
 
-1. o recurso é dirigido à **autoridade que decidiu**, que tem **5 dias** para reconsiderar; se não reconsiderar, encaminha à autoridade superior (art. 56, § 1º);
-2. o prazo para recorrer é de **10 dias**, contados da ciência ou da divulgação oficial da decisão (art. 59);
-3. os demais interessados são intimados para apresentar alegações em **5 dias úteis** (art. 62);
-4. o recurso deve ser decidido em **até 30 dias** do recebimento dos autos, prorrogáveis por igual período, com justificativa explícita (art. 59, §§ 1º e 2º).
+1. o interessado recorre em **10 dias**, contados da ciência ou da divulgação oficial da decisão (art. 59);
+2. o recurso é dirigido à **autoridade que decidiu**, que tem **5 dias** para reconsiderar; se não reconsiderar, encaminha à autoridade superior (art. 56, § 1º);
+3. os demais interessados são intimados para apresentar alegações (art. 62), e a autoridade superior decide (art. 59, § 1º).
 
-Mais três regras:
+Mais duas regras:
 
-- o recurso **independe de caução** (depósito em garantia), salvo exigência legal (art. 56, § 2º);
-- tramita por, **no máximo, três instâncias** administrativas, salvo disposição legal diversa (art. 57);
-- em regra, **não tem efeito suspensivo**: a decisão continua valendo enquanto se recorre (art. 61). A autoridade pode dar esse efeito se houver justo receio de prejuízo de difícil reparação (art. 61, parágrafo único);
+- o recurso tramita por, **no máximo, três instâncias** administrativas, salvo disposição legal diversa (art. 57);
+- em regra, **não tem efeito suspensivo**: a decisão continua valendo enquanto se recorre (art. 61).
 
-**Revisão** (art. 65) é diferente: vale para processos de que resultem **sanções**, pode ocorrer **a qualquer tempo**, a pedido ou de ofício, quando surgirem fatos novos ou circunstâncias relevantes.
+**Revisão** (art. 65) é diferente: vale para processos de que resultem **sanções** e pode ocorrer **a qualquer tempo**, a pedido ou de ofício, quando surgirem fatos novos ou circunstâncias relevantes.
 
 > [!CAUTION]
 > No **recurso**, a situação do recorrente **pode piorar**, desde que ele seja avisado antes para se manifestar (art. 64, parágrafo único). Na **revisão**, **não pode** haver agravamento da sanção (art. 65, parágrafo único). A banca inverte as duas regras.
 
+## Quem tem prioridade na tramitação
+
+Têm prioridade, em qualquer órgão ou instância, os processos em que seja parte ou interessado (art. 69-A):
+
+- pessoa com **60 anos ou mais** (I);
+- pessoa com **deficiência, física ou mental** (II);
+- pessoa com **doença grave** da lista do inciso IV, mesmo que contraída **depois do início do processo**.
+
+A prioridade **não é automática**: a pessoa deve **requerê-la** à autoridade competente, juntando prova da sua condição (art. 69-A, § 1º).
+
 ## Os prazos, lado a lado
 
-![Linha do processo em quatro etapas, de cima para baixo. 1, início (arts. 5º e 6º): de ofício ou a pedido do interessado; requerimento por escrito, salvo quando admitida a solicitação oral. 2, instrução (arts. 26 a 47): intimação com 3 dias úteis de antecedência; parecer obrigatório em até 15 dias; manifestação do interessado em até 10 dias depois de encerrada a instrução. 3, decisão (arts. 48 e 49): até 30 dias depois de concluída a instrução, prorrogáveis por igual período, com motivação expressa. 4, recurso (arts. 56 a 62): 10 dias para recorrer; 5 dias para a autoridade reconsiderar; 5 dias úteis para os demais interessados; até 30 dias para decidir, prorrogáveis por igual período; no máximo três instâncias. Embaixo: sem prazo específico, os atos são praticados em 5 dias, prazo que pode ser dilatado até o dobro (art. 24).](imagens/caminho-do-processo.svg "O caminho do processo e os prazos da Lei nº 9.784/1999")
+![Linha do processo em quatro etapas, cada uma com os seus prazos, os mesmos da tabela abaixo. 1, início (arts. 5º e 6º). 2, comunicação dos atos e instrução (arts. 26 a 47). 3, decisão (arts. 48 e 49). 4, recurso (arts. 56 a 62), que tramita por no máximo três instâncias. Embaixo, a regra geral: sem prazo específico, 5 dias, que podem ser dilatados até o dobro (art. 24).](imagens/caminho-do-processo.svg "O caminho do processo e os prazos da Lei nº 9.784/1999")
 
 | Para quê | Prazo | Artigo |
 |---|---|---|
 | Praticar ato sem prazo específico | **5 dias**, podendo ser dilatado **até o dobro**, com justificação | 24 |
-| Antecedência da intimação para comparecer | **3 dias úteis** | 26, § 2º |
-| Antecedência da intimação de prova ou diligência | **3 dias úteis** | 41 |
+| Antecedência das intimações (para comparecer; de prova ou diligência) | **3 dias úteis** | 26, § 2º, e 41 |
 | Parecer obrigatório de órgão consultivo | até **15 dias** | 42 |
 | Manifestação do interessado, encerrada a instrução | até **10 dias** | 44 |
 | Decisão, concluída a instrução | até **30 dias**, prorrogáveis por igual período | 49 |
@@ -277,20 +248,7 @@ Exemplo: ciência da decisão na quinta-feira, 15/10/2026. O prazo de 10 dias pa
 Os prazos **não se suspendem**, salvo motivo de força maior devidamente comprovado (art. 67).
 
 > [!NOTE]
-> Leitura nossa do texto da lei: só três prazos estão em **dias úteis**, os dois de 3 dias (intimações, arts. 26 e 41) e o de 5 dias para os demais interessados no recurso (art. 62). Todos os outros são em dias corridos.
-
-## Como a banca erra o item
-
-Em prova de certo ou errado, cada erro anula um acerto. Nesta lei, o item errado costuma nascer de uma destas trocas:
-
-- **um número pelo outro:** 10 dias para decidir e 30 para recorrer (é o contrário); intimação com 5 dias úteis (são 3);
-- **"deve" por "pode":** a Administração "pode" anular ato ilegal (deve); o administrado "deve" ter advogado (pode);
-- **uma palavra a mais na lista:** incluir um quarto caso entre os indelegáveis, ou um quinto dever no art. 4º;
-- **um conceito pelo vizinho:** delegação × avocação, impedimento × suspeição, anulação × revogação, recurso × revisão, órgão × entidade;
-- **absolutos:** "sempre", "em nenhuma hipótese", "apenas". A lei está cheia de "salvo": desconfie do item que os ignora.
-
-> [!NOTE]
-> Esta lista é leitura nossa do estilo da banca, e não texto da lei. O erro custa um ponto: marque quando reconhecer a regra **e** o detalhe.
+> Leitura nossa do texto da lei: só os prazos das intimações (3 dias) e o das alegações dos demais interessados no recurso (5 dias) estão em **dias úteis**. Os outros são em dias corridos.
 
 ## Fontes
 

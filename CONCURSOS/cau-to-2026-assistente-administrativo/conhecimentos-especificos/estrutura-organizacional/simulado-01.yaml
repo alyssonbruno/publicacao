@@ -22,8 +22,8 @@ questoes:
       que o ocupa.
   - id: q02
     topico: conhecimentos-especificos/estrutura-organizacional
-    enunciado: A estrutura organizacional é um fim em si mesma, cabendo à organização adequar os seus
-      objetivos à estrutura adotada.
+    enunciado: A estrutura organizacional é um fim em si mesma, e não um meio de que a organização se
+      serve para alcançar os seus objetivos.
   - id: q03
     topico: conhecimentos-especificos/estrutura-organizacional
     enunciado: A adoção de amplitude de controle grande, com muitos subordinados para cada chefe, resulta
@@ -34,8 +34,8 @@ questoes:
       momento.
   - id: q05
     topico: conhecimentos-especificos/estrutura-organizacional
-    enunciado: Na estrutura funcional entendida no sentido clássico, em que a autoridade é dividida por
-      especialidade, o subordinado recebe ordens de mais de um chefe.
+    enunciado: Na estrutura funcional derivada da supervisão funcional proposta por Taylor, o mesmo
+      subordinado recebe ordens de mais de um chefe.
   - id: q06
     topico: conhecimentos-especificos/estrutura-organizacional
     enunciado: Na estrutura linha-staff, os órgãos de staff exercem autoridade de comando sobre os órgãos

@@ -14,8 +14,9 @@ simulado:
 questoes:
   - id: q01
     topico: conhecimentos-complementares/processo-administrativo
-    enunciado: Conforme a Lei nº 9.784/1999, o administrado deve fazer-se assistir por advogado nos processos
-      administrativos, salvo quando a lei dispensar expressamente a representação.
+    enunciado: Conforme a Lei nº 9.784/1999, são direitos do administrado perante a Administração, entre
+      outros, ser tratado com respeito pelas autoridades e servidores e prestar as informações que lhe
+      forem solicitadas.
   - id: q02
     topico: conhecimentos-complementares/processo-administrativo
     enunciado: Segundo a Lei nº 9.784/1999, são deveres do administrado perante a Administração, entre
@@ -49,13 +50,13 @@ questoes:
       que tenha amizade íntima ou inimizade notória com algum dos interessados.
   - id: q09
     topico: conhecimentos-complementares/processo-administrativo
-    enunciado: Conforme a Lei nº 9.784/1999, a decisão coordenada não se aplica aos processos administrativos
-      de licitação.
-  - id: q10
-    topico: conhecimentos-complementares/processo-administrativo
     enunciado: Nos termos da Lei nº 9.784/1999, a motivação dos atos administrativos deve ser explícita,
       clara e congruente, não podendo consistir em declaração de concordância com fundamentos de pareceres
       anteriores.
+  - id: q10
+    topico: conhecimentos-complementares/processo-administrativo
+    enunciado: Conforme a Lei nº 9.784/1999, a decisão coordenada não se aplica aos processos administrativos
+      de licitação.
   - id: q11
     topico: conhecimentos-complementares/processo-administrativo
     enunciado: Segundo a Lei nº 9.784/1999, a Administração pode anular seus próprios atos por motivo

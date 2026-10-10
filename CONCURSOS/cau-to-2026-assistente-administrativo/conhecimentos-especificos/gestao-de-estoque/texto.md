@@ -36,7 +36,7 @@ O ideal seria comprar só na hora de usar. Na prática, a apostila da Enap (Feni
 - **proteger contra atrasos** do fornecedor ou da compra, que no setor público costuma demorar;
 - **comprar em quantidade maior por preço menor** (economia de escala).
 
-Do outro lado estão os custos. A doutrina separa três, e a banca gosta de trocar um pelo outro:
+Do outro lado estão os custos. Três nomes são correntes nos manuais e nas provas, e a banca gosta de trocar um pelo outro:
 
 | Custo | O que é | Quando o estoque aumenta |
 |---|---|---|
@@ -45,6 +45,14 @@ Do outro lado estão os custos. A doutrina separa três, e a banca gosta de troc
 | De falta | O prejuízo de não ter o material quando alguém precisa (**ruptura de estoque**) | Diminui |
 
 **Exemplo.** Comprar de uma vez o papel do ano inteiro reduz o custo de pedido (uma compra só), mas eleva o de armazenagem. Comprar todo mês faz o contrário.
+
+A apostila da Enap arruma esses custos pelo modo como reagem ao tamanho do estoque, e a prova pode usar esses nomes:
+
+- **diretamente proporcionais** ao estoque: crescem com ele. São os de armazenagem e o do dinheiro parado (custo de capital);
+- **inversamente proporcionais**: diminuem quando o estoque aumenta. É o caso do custo de pedido;
+- **independentes**: fixos, como a manutenção do almoxarifado. Por isso, estoque zero não significa custo zero.
+
+O custo de falta aparece na apostila à parte, ligado à ruptura de estoque.
 
 > [!WARNING]
 > Estoque grande não é sinal de boa gestão. A própria IN nº 205/1988 manda evitar a compra volumosa de materiais que perdem as características de uso em pouco tempo ou que ficam obsoletos (item 2.5).
@@ -72,7 +80,7 @@ Os percentuais são **aproximados** e variam de autor para autor e de organizaç
 
 ## Curva ABC: exemplo passo a passo
 
-O almoxarifado de um conselho consumiu, no ano, dez itens de material de expediente (dados fictícios).
+O almoxarifado de um conselho consumiu, no ano, dez itens de material de consumo (dados fictícios).
 
 **Passo 1: calcular o valor de consumo de cada item.**
 
@@ -136,13 +144,15 @@ Para decidir **quando** e **quanto** comprar, a IN nº 205/1988 (item 7.6) defin
 
 | Fator | O que é | Como se calcula |
 |---|---|---|
-| Consumo médio mensal (c) | A média aritmética do consumo nos últimos 12 meses | consumo do ano ÷ 12 |
+| Consumo médio mensal (c) | A média aritmética do consumo nos últimos 12 meses | consumo dos últimos 12 meses ÷ 12 |
 | Tempo de aquisição (T) | O período entre a emissão do pedido de compra e o recebimento do material no almoxarifado, em meses | observado |
 | Intervalo de aquisição (I) | O período entre duas aquisições normais e sucessivas | definido pelo órgão |
 | Estoque mínimo ou de segurança (Em) | A menor quantidade a manter, para atender a um consumo acima do previsto ou a um atraso na entrega | Em = c × f |
 | Estoque máximo (EM) | A maior quantidade admissível em estoque | EM = Em + c × I |
 | Ponto de pedido (Pp) | O nível de estoque que, quando atingido, determina a emissão imediata de um pedido de compra | Pp = Em + c × T |
 | Quantidade a ressuprir (Q) | O número de unidades a comprar para recompor o estoque máximo | Q = c × I |
+
+As fórmulas estão no item 7.7 da norma. No texto do portal, a do consumo médio mensal aparece só como "c = Consumo Anual": o "÷ 12" vem da definição do item 7.6 (média dos últimos 12 meses).
 
 O "f" do estoque mínimo é uma fração do tempo de aquisição: em princípio, de 0,25 a 0,50 de T. E a norma diz que o estoque mínimo se aplica **somente aos itens indispensáveis** aos serviços do órgão.
 
@@ -237,7 +247,7 @@ A norma lista cinco tipos de inventário (item 8.1):
 
 Além deles, a norma admite dois instrumentos gerenciais (item 8.3): o **inventário rotativo**, contínuo e seletivo, feito por programação para que todos os itens sejam contados ao longo do exercício; e o **inventário por amostragem**, para acervos de grande porte, em que se contam amostras de um grupo de itens e se estende o resultado aos demais.
 
-**Exemplo.** Em dezembro, o conselho conta todo o material do almoxarifado: inventário anual. Quando o responsável pelo almoxarifado é substituído em julho, faz-se nova conferência para passar a carga: inventário de transferência de responsabilidade.
+**Exemplo.** Em dezembro, o conselho conta todo o material do almoxarifado: inventário anual. Quando o dirigente da unidade gestora é substituído em julho, faz-se nova conferência: inventário de transferência de responsabilidade.
 
 ### Pegadinhas
 
@@ -252,6 +262,6 @@ Além deles, a norma admite dois instrumentos gerenciais (item 8.3): o **invent�
 - Renato Ribeiro Fenili. *Gestão de Materiais* (Enap Didáticos, 2ª edição). Escola Nacional de Administração Pública. https://repositorio.enap.gov.br/handle/1/2449
 - Governo de Minas Gerais, Secretaria de Estado de Planejamento e Gestão. *Cartilha de Gestão de Almoxarifados* (2017). https://www.mg.gov.br/sites/default/files/planejamento/documentos/gestao-de-logistica-e-patrimonio/gestao-de-suprimentos/cartilha_gestao_de_almoxarifados_-_final.pdf
 
-Vêm da IN nº 205/1988, conferidos no texto do portal: recebimento e aceitação (item 3), cuidados de armazenagem (4.1), distribuição por pressão e por requisição (5 e 5.1), compra volumosa (2.5), fatores e fórmulas de ressuprimento (7.6 e 7.7) e inventários (8, 8.1 e 8.3). Os anexos da instrução, com o exemplo e o gráfico oficiais, não estão na página consultada e não foram lidos. A definição de material de expediente e a de material de consumo vêm da Portaria STN nº 448/2002, lida em cópia hospedada por universidade.
+Vêm da IN nº 205/1988, conferidos no texto do portal: recebimento e aceitação (item 3), cuidados de armazenagem (4.1), distribuição por pressão e por requisição (5 e 5.1), compra volumosa (2.5), fatores e fórmulas de ressuprimento (7.6 e 7.7) e inventários (8, 8.1 e 8.3). No item 7.7, a, o texto do portal traz "c = Consumo Anual", sem divisor; o "÷ 12" da nossa tabela vem da definição do item 7.6, a (média aritmética do consumo nos últimos 12 meses). Os anexos da instrução, com o exemplo e o gráfico oficiais, não estão na página consultada e não foram lidos. A definição de material de expediente e a de material de consumo vêm da Portaria STN nº 448/2002, lida em cópia hospedada por universidade.
 
-Vêm da doutrina, pela apostila da Enap: as razões para manter estoque, os custos de estoque, a curva ABC, a classificação XYZ, a reposição contínua e a periódica, o giro, a cobertura e os métodos de avaliação. Os percentuais da curva ABC foram conferidos também na cartilha de Minas Gerais. Os exemplos numéricos (os dez itens e o papel A4) são nossos, com dados fictícios, e as dicas para memorizar as fórmulas são leitura nossa.
+Vêm da doutrina, pela apostila da Enap: as razões para manter estoque, a curva ABC, a classificação XYZ, a reposição contínua e a periódica, o giro, a cobertura e os métodos de avaliação. Nos custos de estoque, a apostila (capítulo 3, p. 42-44) divide-os em diretamente proporcionais, inversamente proporcionais e independentes do nível do estoque, e é dela o que se diz dos custos de armazenagem e de pedido; o custo de falta está nas p. 45 e 50. A tabela que põe lado a lado armazenagem, pedido e falta é arranjo nosso, com os nomes correntes. Os percentuais da curva ABC foram conferidos também na cartilha de Minas Gerais. Os exemplos numéricos (os dez itens e o papel A4) são nossos, com dados fictícios, e as dicas para memorizar as fórmulas são leitura nossa.
