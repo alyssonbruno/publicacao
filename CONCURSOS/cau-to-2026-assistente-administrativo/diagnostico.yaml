@@ -5,11 +5,12 @@ simulado:
   fontes:
     - 'Questões próprias, no formato de certo ou errado do Edital nº 1/2026 do CAU/TO (Instituto Quadrix):
       itens agrupados por assunto, uma afirmação por item.'
-    - 'Bases dos comentários: Constituição Federal; Leis nº 4.320/1964, 6.766/1979, 8.036/1990, 8.429/1992,
-      9.610/1998, 9.784/1999, 10.257/2001, 12.378/2010, 12.527/2011, 13.709/2018 e 14.133/2021; Lei Complementar
-      nº 101/2000; Decreto nº 10.278/2020 (textos do Planalto, consultados em 10/10/2026).'
-    - Manual de Redação da Presidência da República (3ª ed., 2018); ABNT NBR 9050:2020; Edital nº 1/2026
-      do CAU/TO, Anexo II.
+    - 'Bases dos comentários: Constituição Federal; Leis nº 4.320/1964, 6.766/1979, 8.036/1990, 8.159/1991,
+      8.429/1992, 9.610/1998, 9.784/1999, 10.257/2001, 12.378/2010, 12.527/2011, 13.709/2018 e 14.133/2021;
+      Lei Complementar nº 101/2000; Decreto nº 10.278/2020 (textos do Planalto, consultados em 10/10/2026).'
+    - Resoluções CAU/BR nº 67/2013 e 198/2020; Manual de Redação da Presidência da República (3ª ed.,
+      2018); ABNT NBR 9050:2020; Manual de Contabilidade Aplicada ao Setor Público (11ª ed.); Edital nº
+      1/2026 do CAU/TO, Anexo II.
 questoes:
   - id: q01
     topico: conhecimentos-basicos/lp-compreensao-de-textos
@@ -68,8 +69,8 @@ questoes:
       da solicitação.
   - id: q14
     topico: conhecimentos-complementares/lgpd
-    enunciado: Para a Lei Geral de Proteção de Dados Pessoais, o dado biométrico, como a impressão digital,
-      é dado pessoal sensível.
+    enunciado: Para a Lei Geral de Proteção de Dados Pessoais, o dado biométrico vinculado a uma pessoa
+      natural, como a impressão digital de um candidato, é dado pessoal sensível.
   - id: q15
     topico: conhecimentos-complementares/lei-12378-2010
     enunciado: O Conselho de Arquitetura e Urbanismo do Brasil (CAU/BR) e os conselhos dos estados e do
