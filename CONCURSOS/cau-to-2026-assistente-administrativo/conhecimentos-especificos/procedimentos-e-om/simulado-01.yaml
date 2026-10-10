@@ -1,0 +1,54 @@
+# Treino do tópico Procedimentos e manuais administrativos; organização e métodos. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Procedimentos e manuais administrativos; organização e métodos
+  tipo: treino
+  fontes:
+    - 'Questões próprias, no formato de certo ou errado do Edital nº 1/2026 do CAU/TO (Instituto Quadrix):
+      uma afirmação por item.'
+    - 'Referência de estilo: prova objetiva do CRMV-CE 2024, Assistente Administrativo (Instituto Quadrix),
+      itens sobre manuais administrativos; prova do CAU/TO 2023, Assistente Administrativo.'
+    - 'Bases dos comentários: Souza, Organizações, sistemas e métodos (CEAD/UFV, 2023); Préve, Organização,
+      Sistemas e Métodos (CAD/UFSC, 2006); Barbosa, Material da disciplina OSM (UFAL, eduCAPES, 2010);
+      Cruz e Scrivano, Boletim de O&M, v. 1, ed. 2 (UFRRJ, 2014), consultados em 10/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/procedimentos-e-om
+    enunciado: A função de organização e métodos volta-se à introdução de novos métodos de trabalho
+      e à redução de custos e de esforços desnecessários na organização.
+  - id: q02
+    topico: conhecimentos-especificos/procedimentos-e-om
+    enunciado: No estudo do arranjo físico, o layout em espaço aberto é o mais indicado para as unidades
+      cujas tarefas exigem alto grau de concentração.
+  - id: q03
+    topico: conhecimentos-especificos/procedimentos-e-om
+    enunciado: Na racionalização de formulários, recomenda-se que cada unidade da organização mantenha
+      formulário próprio, ainda que já exista outro com a mesma finalidade em outra unidade.
+  - id: q04
+    topico: conhecimentos-especificos/procedimentos-e-om
+    enunciado: O fluxograma é a representação gráfica das etapas de um processo e, ao evidenciar
+      a sequência do trabalho, permite visualizar movimentos desnecessários.
+  - id: q05
+    topico: conhecimentos-especificos/procedimentos-e-om
+    enunciado: A análise do quadro de distribuição do trabalho (QDT) permite verificar se há equilíbrio
+      na carga de trabalho entre as pessoas de uma unidade.
+  - id: q06
+    topico: conhecimentos-especificos/procedimentos-e-om
+    enunciado: O manual de políticas ou de diretrizes é o tipo de manual administrativo que trata
+      da estrutura da organização, com a definição dos níveis hierárquicos e dos deveres e das responsabilidades
+      de cada cargo ou função.
+  - id: q07
+    topico: conhecimentos-especificos/procedimentos-e-om
+    enunciado: O sumário ou índice numérico é a parte do manual administrativo que indica os itens
+      do conteúdo e as páginas em que se encontram, de modo a permitir a localização rápida das informações.
+  - id: q08
+    topico: conhecimentos-especificos/procedimentos-e-om
+    enunciado: As instruções para uso e atualização são a parte do manual administrativo destinada
+      a reunir modelos de formulários, gráficos e exemplos que ilustram o conteúdo.
+  - id: q09
+    topico: conhecimentos-especificos/procedimentos-e-om
+    enunciado: Entre as limitações dos manuais administrativos, estão o custo de sua elaboração e
+      de sua manutenção e a possibilidade de enfraquecimento da iniciativa individual.
+  - id: q10
+    topico: conhecimentos-especificos/procedimentos-e-om
+    enunciado: Depois de implantado, o manual administrativo deve permanecer inalterado, uma vez que
+      a sua atualização compromete a padronização dos procedimentos.

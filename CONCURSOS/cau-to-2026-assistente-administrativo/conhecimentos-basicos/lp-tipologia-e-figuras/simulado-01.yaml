@@ -1,0 +1,73 @@
+# Treino do tópico. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Tipos textuais, figuras de linguagem, denotação e conotação
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, com textos-base próprios, no formato de certo ou errado do Instituto Quadrix:
+      itens de uma afirmação, vinculados a um trecho do texto.'
+    - 'Referência de estilo (nada copiado): caderno do CAU/TO 2023, Assistente Administrativo (Instituto
+      Quadrix), em https://www.pciconcursos.com.br/provas/download/assistente-administrativo-cau-to-quadrix-2023.'
+    - 'Bases dos comentários: Toda Matéria — "Tipologia textual" (Daniela Diana), "Figuras de linguagem"
+      e "Denotação e Conotação" (Márcia Fernandes); Estratégia Concursos — "Figuras de linguagem: o que
+      são, tipos, quando usar e exemplos" (Kassio Henrique Sobral Rocha). Consultadas em 10/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-tipologia-e-figuras
+    enunciado: |-
+      Considere o texto a seguir, publicado na página de um conselho profissional.
+
+      > O Conselho abriu nesta segunda-feira o prazo para a atualização cadastral dos profissionais registrados. O procedimento é gratuito, é feito pela internet e leva cerca de dez minutos. Para concluí-lo, acesse o sistema com o número de registro, confira o endereço e o telefone e anexe um comprovante de residência. Ao final, guarde o protocolo.
+
+      As formas verbais “acesse”, “confira”, “anexe” e “guarde” são marcas de sequência injuntiva, pois orientam o leitor a praticar ações.
+  - id: q02
+    topico: conhecimentos-basicos/lp-tipologia-e-figuras
+    enunciado: |-
+      Considere o texto a seguir, publicado na página de um conselho profissional.
+
+      > O Conselho abriu nesta segunda-feira o prazo para a atualização cadastral dos profissionais registrados. O procedimento é gratuito, é feito pela internet e leva cerca de dez minutos. Para concluí-lo, acesse o sistema com o número de registro, confira o endereço e o telefone e anexe um comprovante de residência. Ao final, guarde o protocolo.
+
+      O texto pertence ao gênero textual injuntivo e ao tipo textual comunicado.
+  - id: q03
+    topico: conhecimentos-basicos/lp-tipologia-e-figuras
+    enunciado: |-
+      Considere o texto a seguir, publicado na página de um conselho profissional.
+
+      > O Conselho abriu nesta segunda-feira o prazo para a atualização cadastral dos profissionais registrados. O procedimento é gratuito, é feito pela internet e leva cerca de dez minutos. Para concluí-lo, acesse o sistema com o número de registro, confira o endereço e o telefone e anexe um comprovante de residência. Ao final, guarde o protocolo.
+
+      No texto, predomina a linguagem denotativa, adequada à finalidade de informar e orientar o leitor com precisão.
+  - id: q04
+    topico: conhecimentos-basicos/lp-tipologia-e-figuras
+    enunciado: |-
+      Considere o texto a seguir, trecho de uma crônica.
+
+      > A fila do protocolo andava como uma tartaruga cansada. Na parede, o relógio cobrava de todos cada minuto perdido. Sobre o balcão, um mar de papéis; atrás dele, apenas dois atendentes. — Estou aqui há um século! — reclamou uma senhora. O atendente suspirou: o sistema, sempre tão confiável, tinha caído pela terceira vez naquela manhã.
+
+      No texto, não há sequência narrativa, uma vez que todas as formas verbais caracterizam o ambiente, sem indicar ações de personagens.
+  - id: q05
+    topico: conhecimentos-basicos/lp-tipologia-e-figuras
+    enunciado: No trecho “A fila do protocolo andava como uma tartaruga cansada.”, há metáfora, dado
+      que a aproximação entre a fila e a tartaruga é feita sem o emprego de conectivo.
+  - id: q06
+    topico: conhecimentos-basicos/lp-tipologia-e-figuras
+    enunciado: No trecho “Na parede, o relógio cobrava de todos cada minuto perdido.”, ocorre personificação
+      (prosopopeia).
+  - id: q07
+    topico: conhecimentos-basicos/lp-tipologia-e-figuras
+    enunciado: No trecho “Sobre o balcão, um mar de papéis; atrás dele, apenas dois atendentes.”, ocorre
+      elipse, pois se omite uma forma verbal (como “havia”) que não foi expressa antes, mas é facilmente
+      subentendida.
+  - id: q08
+    topico: conhecimentos-basicos/lp-tipologia-e-figuras
+    enunciado: No trecho “Sobre o balcão, um mar de papéis”, o emprego de “mar” para indicar grande quantidade
+      constitui a figura de linguagem conhecida como metonímia.
+  - id: q09
+    topico: conhecimentos-basicos/lp-tipologia-e-figuras
+    enunciado: No trecho “— Estou aqui há um século! — reclamou uma senhora.”, dito por quem esperava atendimento
+      em uma fila, a expressão “um século” está empregada em sentido denotativo, pois indica com exatidão
+      o tempo de espera.
+  - id: q10
+    topico: conhecimentos-basicos/lp-tipologia-e-figuras
+    enunciado: >-
+      No trecho “O atendente suspirou: o sistema, sempre tão confiável, tinha caído pela terceira
+      vez naquela manhã.”, a expressão “sempre tão confiável” foi empregada com ironia.

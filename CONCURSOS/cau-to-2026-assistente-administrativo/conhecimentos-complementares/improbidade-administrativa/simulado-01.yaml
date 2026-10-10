@@ -1,0 +1,75 @@
+# Treino de improbidade administrativa — CAU/TO 2026, Assistente Administrativo. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Improbidade administrativa (Lei nº 8.429/1992)
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no estilo de certo ou errado do Instituto Quadrix: itens de uma afirmação,
+      agrupáveis pelo comando "com base na Lei nº 8.429/1992", na letra da lei.'
+    - 'Referência de estilo (sem cópia de itens): caderno de Agente de Fiscalização do CAU/TO 2023
+      (Instituto Quadrix), itens sobre a Lei nº 8.429/1992.'
+    - 'Base dos comentários: Lei nº 8.429/1992, texto compilado do Planalto, com a redação da Lei nº
+      14.230/2021 (consultado em 10/10/2026).'
+    - 'Decisões de julgamento das ADIs 7156 e 7236 no andamento processual do portal do STF (sessões de
+      28/5, 24/6, 25/6 e 1º/7/2026) e notícia do STF sobre o Tema 1199 (ARE 843989), usadas para conferir
+      que os dispositivos cobrados não foram alterados.'
+questoes:
+  - id: q01
+    topico: conhecimentos-complementares/improbidade-administrativa
+    enunciado: Segundo a Lei nº 8.429/1992, considera-se dolo a vontade livre e consciente de alcançar
+      o resultado ilícito tipificado nos arts. 9º, 10 e 11 dessa Lei, não bastando a voluntariedade
+      do agente.
+  - id: q02
+    topico: conhecimentos-complementares/improbidade-administrativa
+    enunciado: 'Considere a seguinte situação hipotética: por descuido, sem intenção de causar prejuízo,
+      o empregado responsável pelo almoxarifado de um conselho profissional deixou destrancada a sala
+      em que eram guardados equipamentos, e um computador da entidade foi furtado. Nessa situação, com
+      base na Lei nº 8.429/1992, a conduta do empregado configura ato de improbidade administrativa
+      que causa lesão ao erário.'
+  - id: q03
+    topico: conhecimentos-complementares/improbidade-administrativa
+    enunciado: Para os efeitos da Lei nº 8.429/1992, considera-se agente público aquele que exerce mandato,
+      cargo, emprego ou função nas entidades protegidas pela Lei, desde que o faça de forma permanente
+      e remunerada.
+  - id: q04
+    topico: conhecimentos-complementares/improbidade-administrativa
+    enunciado: As disposições da Lei nº 8.429/1992 são aplicáveis, no que couber, àquele que, mesmo não
+      sendo agente público, induza ou concorra dolosamente para a prática do ato de improbidade.
+  - id: q05
+    topico: conhecimentos-complementares/improbidade-administrativa
+    enunciado: De acordo com a Lei nº 8.429/1992, o exercício da função pública de que resulte ato ilegal
+      é suficiente para a responsabilização do agente por improbidade administrativa, ainda que não
+      se comprove ato doloso com fim ilícito.
+  - id: q06
+    topico: conhecimentos-complementares/improbidade-administrativa
+    enunciado: Nos termos da Lei nº 8.429/1992, o herdeiro daquele que causar dano ao erário está sujeito
+      apenas à obrigação de repará-lo, até o limite do valor da herança ou do patrimônio transferido.
+  - id: q07
+    topico: conhecimentos-complementares/improbidade-administrativa
+    enunciado: Segundo a Lei nº 8.429/1992, o ato de improbidade administrativa que causa lesão ao erário
+      pressupõe ação ou omissão que enseje, efetiva e comprovadamente, perda patrimonial, desvio, apropriação,
+      malbaratamento ou dilapidação dos bens ou haveres das entidades protegidas pela Lei.
+  - id: q08
+    topico: conhecimentos-complementares/improbidade-administrativa
+    enunciado: Com base na Lei nº 8.429/1992, o responsável por ato de improbidade que atenta contra
+      os princípios da administração pública está sujeito, entre outras cominações, à suspensão dos
+      direitos políticos por até quatro anos.
+  - id: q09
+    topico: conhecimentos-complementares/improbidade-administrativa
+    enunciado: De acordo com a Lei nº 8.429/1992, a ilegalidade sem a presença de dolo que a qualifique
+      não configura ato de improbidade.
+  - id: q10
+    topico: conhecimentos-complementares/improbidade-administrativa
+    enunciado: Segundo a Lei nº 8.429/1992, a declaração de bens apresentada pelo agente público como
+      condição para a posse e o exercício será atualizada a cada dois anos e na data em que ele deixar
+      o exercício do mandato, do cargo, do emprego ou da função.
+  - id: q11
+    topico: conhecimentos-complementares/improbidade-administrativa
+    enunciado: Conforme a Lei nº 8.429/1992, a celebração do acordo de não persecução civil depende de
+      homologação judicial, independentemente de o acordo ocorrer antes ou depois do ajuizamento da
+      ação de improbidade administrativa.
+  - id: q12
+    topico: conhecimentos-complementares/improbidade-administrativa
+    enunciado: Nos termos da Lei nº 8.429/1992, a ação para a aplicação das sanções nela previstas prescreve
+      em cinco anos, contados do término do exercício do mandato, do cargo em comissão ou da função
+      de confiança.

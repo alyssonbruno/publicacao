@@ -1,0 +1,77 @@
+# Treino do tópico. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Ortografia oficial e significação das palavras
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, com texto-base próprio, no formato de certo ou errado do Instituto Quadrix:
+      itens agrupados por comando, uma afirmação por item, com remissão ao trecho do texto.'
+    - 'Referências de estilo, sem reprodução de itens: cadernos de prova do Instituto Quadrix para
+      Assistente Administrativo do CAU/TO (2023), do CORE/SE (2025) e do CORE/RJ (2025).'
+    - 'Bases dos comentários: Acordo Ortográfico da Língua Portuguesa, promulgado pelo Decreto nº
+      6.583/2008 (Bases VIII a XI e XVI; texto do Planalto, consultado em 10/10/2026); Vocabulário
+      Ortográfico da Língua Portuguesa, da Academia Brasileira de Letras (consultado em 10/10/2026).'
+    - 'Conceitos de significação: Toda Matéria (Semântica; Homônimos e Parônimos) e Mundo Educação
+      (Hiperonímia e Hiponímia), consultados em 10/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-ortografia-e-significacao
+    enunciado: |-
+      Considere o texto a seguir.
+
+      > Na última assembleia, o conselho apresentou o balanço da fiscalização. A equipe constituída no início do ano percorreu o estado, e os técnicos constataram que muitos escritórios mantêm a documentação em ordem. Em alguns municípios, porém, o fim do prazo de regularização era iminente, e a equipe precisou retificar relatórios antigos antes de emitir os pareceres. Ao final, o plenário aprovou a ampliação do atendimento público e destinou quantia vultosa à reforma da sede. Segundo a presidência, a medida favorece arquitetos, urbanistas e demais profissionais que dependem do órgão.
+
+      Com base nos aspectos linguísticos do texto, julgue o item.
+
+      O acento gráfico de “constituída” (em “A equipe constituída no início do ano”) justifica-se pela mesma regra que determina o acento gráfico em “ruím”.
+  - id: q02
+    topico: conhecimentos-basicos/lp-ortografia-e-significacao
+    enunciado: >-
+      Considerando os trechos “Na última assembleia”, “os técnicos constataram” e “a ampliação do
+      atendimento público”, julgue o item: as palavras “última”, “técnicos” e “público” são
+      acentuadas graficamente em razão da mesma regra.
+  - id: q03
+    topico: conhecimentos-basicos/lp-ortografia-e-significacao
+    enunciado: >-
+      No trecho “os técnicos constataram que muitos escritórios mantêm a documentação em ordem”,
+      o acento circunflexo de “mantêm” indica que a forma verbal está flexionada na terceira pessoa
+      do plural.
+  - id: q04
+    topico: conhecimentos-basicos/lp-ortografia-e-significacao
+    enunciado: >-
+      A palavra “assembleia” (em “Na última assembleia, o conselho apresentou o balanço da
+      fiscalização”) deixou de receber acento gráfico com o Acordo Ortográfico da Língua
+      Portuguesa, o que também ocorreu com a palavra “papéis”.
+  - id: q05
+    topico: conhecimentos-basicos/lp-ortografia-e-significacao
+    enunciado: >-
+      No trecho “a equipe precisou retificar relatórios antigos antes de emitir os pareceres”, a
+      substituição de “retificar” por “ratificar” manteria o sentido original do texto, uma vez
+      que os dois verbos expressam a ideia de corrigir.
+  - id: q06
+    topico: conhecimentos-basicos/lp-ortografia-e-significacao
+    enunciado: >-
+      No trecho “o fim do prazo de regularização era iminente”, o vocábulo “iminente” foi
+      empregado com o sentido de que está prestes a acontecer.
+  - id: q07
+    topico: conhecimentos-basicos/lp-ortografia-e-significacao
+    enunciado: >-
+      No trecho “destinou quantia vultosa à reforma da sede”, o adjetivo “vultosa” poderia ser
+      substituído por “volumosa”, sem prejuízo do sentido original do texto.
+  - id: q08
+    topico: conhecimentos-basicos/lp-ortografia-e-significacao
+    enunciado: >-
+      No trecho “a medida favorece arquitetos, urbanistas e demais profissionais que dependem do
+      órgão”, o vocábulo “profissionais” funciona como hipônimo em relação a “arquitetos” e
+      “urbanistas”.
+  - id: q09
+    topico: conhecimentos-basicos/lp-ortografia-e-significacao
+    enunciado: >-
+      Acerca da ortografia oficial, julgue o item: a palavra “antissocial” deveria ser grafada com
+      hífen (“anti-social”), porque o segundo elemento da formação começa pela consoante “s”.
+  - id: q10
+    topico: conhecimentos-basicos/lp-ortografia-e-significacao
+    enunciado: >-
+      Acerca da significação das palavras, julgue o item: os vocábulos “sessão” (reunião) e
+      “cessão” (ato de ceder) são homônimos homófonos, pois têm a mesma pronúncia e grafias
+      diferentes.

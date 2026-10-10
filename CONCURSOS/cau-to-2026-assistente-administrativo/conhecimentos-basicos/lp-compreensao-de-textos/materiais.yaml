@@ -1,0 +1,33 @@
+materiais:
+  - tipo: texto
+    titulo: Compreensão e interpretação de textos variados, digitais e multimodais
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: PERFIL DA BANCA QUADRIX
+    url: https://www.youtube.com/watch?v=o8Wfty00Qk0
+    autor: Professora Flávia Rita (canal no YouTube)
+    duracao_min: 96
+    descricao: >-
+      Aula ao vivo com questões de Língua Portuguesa da Quadrix comentadas. Veja as partes de
+      interpretação de textos e de armadilhas da banca; a gramática fica para os outros tópicos. Não
+      trata de textos digitais nem de gráficos e tabelas: para isso, use o texto da aula.
+  - tipo: video
+    titulo: Acerte as questões de INTERPRETAÇÃO DE TEXTO com estes 4 passos
+    url: https://www.youtube.com/watch?v=z0PX0-KjI6U
+    autor: Prof. Álvaro Ferreira (canal no YouTube)
+    duracao_min: 59
+    descricao: >-
+      Método geral em quatro passos para resolver questões de interpretação. Os exemplos não são da
+      Quadrix nem de certo ou errado: aproveite o método e treine com os itens do tópico.
+  - tipo: podcast
+    titulo: Por que você erra interpretação (não é português)
+    url: https://podcasts.apple.com/gb/podcast/por-que-voc%C3%AA-erra-interpreta%C3%A7%C3%A3o-n%C3%A3o-%C3%A9-portugu%C3%AAs/id1516650122?i=1000774465260
+    autor: Mente de Concurseiro (podcast)
+    duracao_min: 18
+    descricao: >-
+      Episódio curto sobre ferramentas de leitura de prova para concursos de nível médio (o que ler
+      antes do texto, palavras de intensidade, como achar a prova no texto). Cita outras bancas, não
+      a Quadrix.

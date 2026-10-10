@@ -1,0 +1,48 @@
+materiais:
+  - tipo: texto
+    titulo: Ética na função pública e princípios da Administração Pública
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: Ética e função pública. Ética no setor público (Ética no Serviço Público)
+    url: https://www.youtube.com/watch?v=agd3z5_mx9U
+    autor: Felipe Medeiros
+    duracao_min: 19
+    descricao: >-
+      Complementa as seções 1 e 2 do texto (item 1.1 do edital: ética na função pública). Vídeo de
+      cerca de três anos; em caso de divergência, vale o texto da aula.
+  - tipo: video
+    titulo: Princípios do Direito Administrativo (Resumo) - LIMPE e Princípios Implícitos
+    url: https://www.youtube.com/watch?v=ZCE93TMAFeI
+    autor: Me Julga - Cíntia Brunelli
+    duracao_min: 14
+    descricao: >-
+      Resumo curto dos princípios expressos do art. 37 da Constituição e dos implícitos (item 1.2
+      do edital). Veja depois de ler as seções 3 e 4 do texto.
+  - tipo: video
+    titulo: Princípios da Administração Pública para Concursos
+    url: https://www.youtube.com/watch?v=FIghHQZw9MQ
+    autor: Focus Concursos
+    duracao_min: 33
+    descricao: >-
+      Opcional: aula mais longa sobre o item 1.2 do edital, para quem quer uma explicação mais
+      detalhada dos princípios do que a do resumo anterior.
+  - tipo: video
+    titulo: ÉTICA - CONHECIMENTOS COMPLEMENTARES | BANCA QUADRIX | AULA 1
+    url: https://www.youtube.com/watch?v=IV4CSMFaziM
+    autor: Vinicius Elias
+    duracao_min: 49
+    descricao: >-
+      Opcional: primeira aula de um curso aberto voltado ao bloco de conhecimentos complementares
+      da Quadrix. É um vídeo de cerca de seis anos, feito para outro edital: use para ver como a
+      banca trata a ética, e fique com o texto da aula quanto ao que este edital pede.
+  - tipo: podcast
+    titulo: PRINCÍPIOS EXPLÍCITOS DA ADMINISTRAÇÃO PÚBLICA
+    url: https://podcasts.apple.com/br/podcast/princ%C3%ADpios-expl%C3%ADcitos-da-administra%C3%A7%C3%A3o-p%C3%BAblica/id1584593874?i=1000663710643
+    autor: Tribo Concursos
+    duracao_min: 21
+    descricao: >-
+      Aula em áudio só sobre os princípios expressos do art. 37 da Constituição; serve para revisar
+      a seção 3 do texto no deslocamento.

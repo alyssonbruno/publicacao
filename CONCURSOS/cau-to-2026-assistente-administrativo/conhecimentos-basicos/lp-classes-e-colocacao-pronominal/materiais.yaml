@@ -1,0 +1,26 @@
+materiais:
+  - tipo: texto
+    titulo: Classes de palavras e colocação pronominal
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: "MORFOLOGIA: CLASSES DE PALAVRAS (Para Concurso)"
+    url: https://www.youtube.com/watch?v=ltrzPijgKi4
+    autor: Prof. Álvaro Ferreira
+    duracao_min: 63
+    descricao: >-
+      Passa por todas as classes (substantivo em 1:30, adjetivo em 8:30, artigos em 14:18,
+      pronomes em 19:40, advérbio e verbo em 27:39, preposição em 36:14, conjunção em 40:28,
+      numeral em 47:05) e resolve questões de concurso de 50:10 até o fim. Se o tempo for
+      curto, veja advérbio, preposição e conjunção e as questões. Há divulgação de curso pago
+      por volta de 26:41.
+  - tipo: video
+    titulo: COLOCAÇÃO PRONOMINAL (Para Concurso)
+    url: https://www.youtube.com/watch?v=6zsVwix7Uh0
+    autor: Prof. Álvaro Ferreira
+    descricao: >-
+      Aula curta (o último capítulo começa em 15:50): próclise em 1:12, ênclise em 2:22,
+      mesóclise em 3:14, regras importantes em 4:38 e duas questões, em 12:12 e 15:50. Os
+      capítulos não citam as locuções verbais: para esse ponto, use o texto da aula.

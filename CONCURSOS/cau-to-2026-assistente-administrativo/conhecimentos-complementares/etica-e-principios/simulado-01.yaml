@@ -1,0 +1,79 @@
+# Treino do tópico. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino 1 — Ética na função pública e princípios da Administração Pública
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no formato de certo ou errado do Instituto Quadrix (itens de uma afirmação,
+      agrupados por comando), com referência de estilo nos cadernos do CAU/TO 2023.'
+    - 'Bases dos comentários: Constituição Federal, arts. 5º e 37; Lei nº 9.784/1999, arts. 2º e 53;
+      Lei nº 12.378/2010, arts. 24 e 41; Decreto nº 1.171/1994 (textos do Planalto, consultados em
+      10/10/2026).'
+    - 'Ética e serviço público — Módulo 1: conceitos básicos (Enap, 2014), para a distinção entre ética
+      e moral.'
+questoes:
+  - id: q01
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Acerca do conceito de ética e de sua aplicação à função pública, julgue o item. A moral
+      corresponde ao conjunto de normas e valores estabelecidos e transmitidos por um grupo social,
+      ao passo que a ética, como área de estudo, se ocupa de refletir sobre essas normas e de
+      examinar sua justificação.
+  - id: q02
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Acerca do conceito de ética e de sua aplicação à função pública, julgue o item. Uma conduta
+      habitual entre os empregados de uma entidade pública e tolerada pelas chefias deve, por essa
+      razão, ser considerada eticamente correta.
+  - id: q03
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Acerca do conceito de ética e de sua aplicação à função pública, julgue o item. A atuação
+      segundo padrões éticos de probidade, decoro e boa-fé é um dos critérios que a Lei
+      nº 9.784/1999 manda observar nos processos administrativos.
+  - id: q04
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base na Constituição Federal de 1988, julgue o item, relativo aos princípios da
+      Administração Pública. Os princípios enumerados no caput do art. 37 obrigam a administração
+      direta de qualquer dos Poderes da União, dos estados, do Distrito Federal e dos municípios,
+      mas não as entidades da administração indireta, como as autarquias.
+  - id: q05
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base na Constituição Federal de 1988, julgue o item, relativo aos princípios da
+      Administração Pública. Pelo princípio da legalidade, o agente público está autorizado a
+      praticar qualquer ato que a lei não proíba expressamente.
+  - id: q06
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base na Constituição Federal de 1988, julgue o item, relativo aos princípios da
+      Administração Pública. A contratação dos empregados de um conselho de arquitetura e urbanismo
+      mediante aprovação em concurso público é aplicação do princípio da impessoalidade.
+  - id: q07
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base na Constituição Federal de 1988, julgue o item, relativo aos princípios da
+      Administração Pública. A publicidade das campanhas dos órgãos públicos pode trazer o nome e a
+      imagem da autoridade responsável, ainda que caracterizem promoção pessoal, desde que a
+      campanha tenha caráter informativo.
+  - id: q08
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base na Lei nº 9.784/1999, julgue o item, relativo aos princípios da Administração
+      Pública. O caput do art. 2º enumera expressamente, entre outros, os princípios da legalidade,
+      da impessoalidade, da moralidade, da publicidade e da eficiência.
+  - id: q09
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base na Lei nº 9.784/1999, julgue o item, relativo aos princípios da Administração
+      Pública. A Administração deve anular seus próprios atos, quando eivados de vício de
+      legalidade, e pode revogá-los por motivo de conveniência ou oportunidade, respeitados os
+      direitos adquiridos.
+  - id: q10
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base no Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal
+      (Decreto nº 1.171/1994), julgue o item. A função pública integra-se à vida particular do
+      servidor, de modo que fatos e atos de sua vida privada podem acrescer ou diminuir o seu bom
+      conceito na vida funcional.

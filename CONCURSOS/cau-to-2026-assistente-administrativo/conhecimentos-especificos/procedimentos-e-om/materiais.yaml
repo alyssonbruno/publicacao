@@ -1,0 +1,23 @@
+materiais:
+  - tipo: texto
+    titulo: Procedimentos e manuais administrativos; organização e métodos
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: 10.03.05. Aula de Formulários e Manuais Administrativos (Administração)
+    url: https://www.youtube.com/watch?v=hzNA0EgMETg
+    autor: TecConcursos
+    duracao_min: 45
+    descricao: Aula sobre formulários e manuais administrativos (item 1.3 do edital), voltada a concursos
+      em geral, não só à Quadrix. Os nomes dos tipos de manual podem ser diferentes dos usados no
+      texto, porque a nomenclatura varia entre os autores.
+  - tipo: video
+    titulo: 10.03.02. Aula de Representações gráficas - OSM (Administração)
+    url: https://www.youtube.com/watch?v=hk6cHMQlWT4
+    autor: TecConcursos
+    duracao_min: 29
+    descricao: Aula sobre as representações gráficas de organização, sistemas e métodos (item 1.4 do
+      edital), voltada a concursos em geral. Complementa a parte de fluxograma do texto. O quadro
+      de distribuição do trabalho (QDT) é estudado pelo texto.
