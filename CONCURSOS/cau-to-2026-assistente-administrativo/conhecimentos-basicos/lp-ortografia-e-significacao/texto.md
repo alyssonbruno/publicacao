@@ -1,8 +1,10 @@
 # Ortografia oficial e significação das palavras
 
+![Uma senhora folheia um dicionário grosso numa poltrona, junto à janela](imagens/abertura.webp)
+
 O edital pede, em Língua Portuguesa, "2.1 Ortografia oficial" e "2.2 Significado de palavras (sinônimos, antônimos, etc.)". São dois assuntos que a banca costuma cobrar dentro de um texto: ela aponta uma palavra, cita a linha e afirma algo sobre o acento, a grafia ou o sentido. Esta aula segue essa ordem: primeiro a escrita, depois o sentido.
 
-## 1. O que é a "ortografia oficial"
+## O que é a "ortografia oficial"
 
 A ortografia oficial do Brasil é a do **Acordo Ortográfico da Língua Portuguesa**, assinado em Lisboa em 16 de dezembro de 1990 e promulgado pelo **Decreto nº 6.583, de 29 de setembro de 2008**. As datas que importam:
 
@@ -14,9 +16,10 @@ Quem tira a dúvida sobre a grafia de uma palavra é o **Vocabulário Ortográfi
 
 O Acordo mexeu em três coisas: o alfabeto (que passou a ter 26 letras, com k, w e y), a acentuação de alguns grupos de palavras e o uso do hífen. Ele **não mudou a pronúncia** de nenhuma palavra.
 
-> Pegadinha de data: dizer que o Acordo "entrou em vigor em 2016" é impreciso. Em 2016 terminou a transição; os efeitos começaram em 2009.
+> [!CAUTION]
+> Dizer que o Acordo "entrou em vigor em 2016" é impreciso. Em 2016 terminou a transição; os efeitos começaram em 2009.
 
-## 2. Acentuação gráfica: as regras gerais
+## Acentuação gráfica: as regras gerais
 
 Antes de aplicar qualquer regra, separe as sílabas e ache a sílaba tônica (a mais forte).
 
@@ -29,7 +32,8 @@ Antes de aplicar qualquer regra, separe as sílabas e ache a sílaba tônica (a 
 - i(s), us, um, uns: táxi, lápis, vírus, bônus, álbum;
 - ei(s): jóquei, fáceis.
 
-Atenção ao plural: hífen tem acento, mas **hifens** e **itens** não têm (terminam em "ens", que não está na lista).
+> [!WARNING]
+> O plural: hífen tem acento, mas **hifens** e **itens** não têm (terminam em "ens", que não está na lista).
 
 **Oxítonas** (tônica na última): levam acento as terminadas em:
 
@@ -43,11 +47,13 @@ As palavras de uma sílaba só terminadas em a, e, o seguem a mesma lógica: já
 
 Não há acento quando o i ou o u forma sílaba com outra consoante (l, m, n, r, z) ou vem antes de nh: **juiz**, **raiz**, **ruim**, Raul, ainda, rainha. Por isso o par clássico: juiz (sem acento) e juízes (com acento); raiz e raízes.
 
-**Observação sobre palavras como "relatório", "história", "série" e "água"**: nas gramáticas escolares brasileiras, elas costumam ser classificadas como paroxítonas terminadas em ditongo crescente; o texto do Acordo as chama de "proparoxítonas aparentes". Nos dois casos, são acentuadas. Dica de estudo: pela classificação escolar, "relatório" (paroxítona terminada em ditongo) e "técnico" (proparoxítona) seguem regras diferentes; tenha as duas nomenclaturas em mente ao julgar um item que compare essas palavras.
+**Observação sobre palavras como "relatório", "história", "série" e "água"**: nas gramáticas escolares brasileiras, elas costumam ser classificadas como paroxítonas terminadas em ditongo crescente; o texto do Acordo as chama de "proparoxítonas aparentes". Nos dois casos, são acentuadas.
+
+Dica de estudo: pela classificação escolar, "relatório" (paroxítona terminada em ditongo) e "técnico" (proparoxítona) seguem regras diferentes; tenha as duas nomenclaturas em mente ao julgar um item que compare essas palavras.
 
 **Palavras derivadas perdem o acento** quando recebem "-mente" ou sufixo iniciado por z: fácil, facilmente; único, unicamente; café, cafezinho; só, somente.
 
-## 3. O que o Acordo mudou na acentuação
+## O que o Acordo mudou na acentuação
 
 1. **Ditongos abertos "ei" e "oi" em paroxítonas perderam o acento**: assembleia, ideia, plateia, heroico, jiboia, paranoico.
    O acento continua nas **oxítonas** e nos monossílabos: papéis, anéis, herói, dói, céu, chapéu. A diferença é a posição da sílaba tônica: he-**roi**-co (paroxítona, sem acento) e he-**rói** (oxítona, com acento).
@@ -61,11 +67,14 @@ Não há acento quando o i ou o u forma sílaba com outra consoante (l, m, n, r,
    É **facultativo** em fôrma (molde), para distinguir de forma.
 5. **Trema**: foi eliminado das palavras portuguesas e aportuguesadas: frequência, tranquilo, linguiça, cinquenta, aguentar. A pronúncia do u não mudou. O trema só permanece em derivados de nomes próprios estrangeiros, como mülleriano (de Müller).
 
-> Pegadinhas típicas: afirmar que "papéis" ou "herói" perderam o acento (não perderam: são oxítonas); afirmar que o acento diferencial foi abolido "em todos os casos" (pôr, pôde, têm e vêm continuam); dizer que, sem o trema, o u de "frequência" deixou de ser pronunciado.
+> [!CAUTION]
+> Afirmar que "papéis" ou "herói" perderam o acento (não perderam: são oxítonas); afirmar que o acento diferencial foi abolido "em todos os casos" (pôr, pôde, têm e vêm continuam); dizer que, sem o trema, o u de "frequência" deixou de ser pronunciado.
 
-## 4. Hífen com prefixos
+## Hífen com prefixos
 
 A regra do Acordo para prefixos (anti-, auto-, contra-, extra-, infra-, micro-, semi-, super-, inter-, sub- etc.) pode ser resumida assim: **em geral, escreve-se junto**; o hífen aparece em casos definidos.
+
+![Esquema em três quadros. Com hífen, em casos definidos: o segundo elemento começa por h (anti mais horário dá anti-horário); vogal mais a mesma vogal (semi-integral); hiper-, inter- e super- mais r (inter-regional); sub- mais r, segundo o VOLP (sub-região). Junto, sem hífen, em geral: vogal mais r ou s, e dobra-se a consoante (antissocial, contrarrazão); vogal mais vogal diferente (autoescola); consoante mais letra diferente (interestadual). Também com hífen: circum- e pan- diante de vogal, m ou n (circum-navegação, pan-americano); sempre ex-, o que deixou de ser, e vice- (ex-presidente, vice-presidente); pós-, pré- e pró- acentuados (pós-graduação, pré-requisito); além-, aquém-, recém- e sem- (além-mar, recém-chegado, sem-teto).](imagens/hifen-com-prefixos.svg "Onde o prefixo encontra o segundo elemento: com hífen ou junto")
 
 **Usa-se hífen:**
 
@@ -91,11 +100,13 @@ A regra do Acordo para prefixos (anti-, auto-, contra-, extra-, infra-, micro-, 
 - compostos comuns mantêm o hífen (guarda-chuva, segunda-feira), mas alguns se escrevem juntos porque se perdeu a noção de composição: girassol, paraquedas, mandachuva;
 - locuções, em geral, não têm hífen: fim de semana, sala de jantar. Exceções consagradas: cor-de-rosa, pé-de-meia, água-de-colônia, mais-que-perfeito.
 
-> Pegadinha típica: a grafia está certa e a justificativa, errada. "Autoescola" não tem hífen porque as vogais são **diferentes**, e não porque "o Acordo aboliu o hífen com prefixos".
+> [!CAUTION]
+> A grafia está certa e a justificativa, errada. "Autoescola" não tem hífen porque as vogais são **diferentes**, e não porque "o Acordo aboliu o hífen com prefixos".
 
-## 5. Grafias que confundem
+## Grafias que confundem
 
-O que segue são **dicas de estudo**: regularidades úteis, com exceções. As grafias dos exemplos foram conferidas no VOLP.
+> [!NOTE]
+> O que segue são **dicas de estudo**: regularidades úteis, com exceções. As grafias dos exemplos foram conferidas no VOLP.
 
 **S ou Z**
 
@@ -125,19 +136,22 @@ O que segue são **dicas de estudo**: regularidades úteis, com exceções. As g
 
 Outras grafias que derrubam candidatos: privilégio, empecilho, beneficente.
 
-## 6. Significação das palavras
+## Sinônimos, antônimos e homônimos
 
 **Sinônimos** são palavras de sentido igual ou próximo (confirmar e ratificar; elevado e alto). Sinônimos perfeitos, que servem em qualquer frase, são raros: quase sempre a troca depende do **contexto**. "O prazo é curto" aceita "breve", mas "o servidor é curto de vista" não.
 
 **Antônimos** são palavras de sentido contrário (deferir e indeferir; incluir e excluir; lícito e ilícito).
 
-Na prova, o molde é: "a substituição de X por Y manteria o sentido original". Para julgar, troque a palavra **na frase do texto** e confira duas coisas: se o sentido ficou o mesmo e se a justificativa que a banca embutiu no item é verdadeira.
+> [!TIP]
+> Na prova, o molde é: "a substituição de X por Y manteria o sentido original". Para julgar, troque a palavra **na frase do texto** e confira duas coisas: se o sentido ficou o mesmo e se a justificativa que a banca embutiu no item é verdadeira.
 
 **Homônimos** são palavras iguais na pronúncia, na grafia ou em ambas, com sentidos diferentes. São de três tipos:
 
 - **homógrafos**: mesma grafia, pronúncia diferente. Colher (talher) e colher (verbo); sede (vontade de beber) e sede (prédio principal);
 - **homófonos**: mesma pronúncia, grafia diferente. Cessão (ato de ceder), sessão (reunião) e seção (divisão, setor); concerto (musical) e conserto (reparo); censo (recenseamento) e senso (juízo); acento (sinal gráfico) e assento (lugar de sentar); cassar (anular) e caçar (perseguir animais); taxa (tributo) e tacha (prego pequeno); cheque (ordem de pagamento) e xeque (lance do xadrez; chefe árabe);
 - **perfeitos**: mesma grafia e mesma pronúncia. Rio (curso de água) e rio (verbo rir); cedo (advérbio) e cedo (verbo ceder).
+
+## Parônimos
 
 **Parônimos** são palavras apenas **parecidas** na grafia e na pronúncia, com sentidos diferentes. Os pares que mais aparecem na rotina de um conselho:
 
@@ -153,18 +167,25 @@ Na prova, o molde é: "a substituição de X por Y manteria o sentido original".
 - **comprimento** (extensão) e **cumprimento** (execução; saudação);
 - **vultoso** (volumoso, de grande valor) e **vultuoso** (inchado e avermelhado, dito do rosto). Uma quantia, uma despesa ou um contrato são **vultosos**. Há material de estudo na internet que troca os dois: fique com o registro do VOLP.
 
-> Pegadinha típica: a definição certa atribuída à palavra vizinha ("ratificar significa corrigir") ou a classificação errada com a definição certa (chamar "sessão" e "cessão" de parônimos: como a pronúncia é **igual**, são homônimos homófonos).
+> [!CAUTION]
+> A definição certa atribuída à palavra vizinha ("ratificar significa corrigir") ou a classificação errada com a definição certa (chamar "sessão" e "cessão" de parônimos: como a pronúncia é **igual**, são homônimos homófonos).
 
-**Polissemia** é a propriedade de **uma mesma palavra** ter vários sentidos ligados entre si, que o contexto esclarece: "banco" (assento, instituição financeira), "ponto" (sinal gráfico, parada de ônibus, registro de presença), "processo" (autos, sequência de etapas). Na homonímia, ao contrário, são palavras diferentes que coincidem na forma. Ligados à polissemia estão o sentido literal (**denotação**) e o figurado (**conotação**): "a pauta estava pesada" não fala de quilos.
+## Polissemia, hiperônimo e hipônimo
+
+**Polissemia** é a propriedade de **uma mesma palavra** ter vários sentidos ligados entre si, que o contexto esclarece: "banco" (assento, instituição financeira), "ponto" (sinal gráfico, parada de ônibus, registro de presença), "processo" (autos, sequência de etapas). Na homonímia, ao contrário, são palavras diferentes que coincidem na forma.
+
+Ligados à polissemia estão o sentido literal (**denotação**) e o figurado (**conotação**): "a pauta estava pesada" não fala de quilos.
 
 **Hiperônimo e hipônimo** indicam uma relação de conjunto e elemento:
 
 - **hiperônimo** é a palavra de sentido mais amplo, que abrange outras: profissional, documento, veículo;
 - **hipônimo** é a palavra de sentido mais específico, contida no hiperônimo: arquiteto e engenheiro (hipônimos de profissional); ofício e ata (hipônimos de documento).
 
-Para não trocar: "hiper" é o maior (como em hipermercado); "hipo" é o menor. A Quadrix já cobrou essa relação como recurso de **coesão**: o texto cita "o ofício" e, adiante, retoma-o como "o documento". A retomada foi feita por um hiperônimo. Se a segunda palavra fosse "o expediente", com sentido equivalente, seria retomada por sinônimo.
+Para não trocar: "hiper" é o maior (como em hipermercado); "hipo" é o menor.
 
-## 7. Como a banca cobra
+A Quadrix já cobrou essa relação como recurso de **coesão**: o texto cita "o ofício" e, adiante, retoma-o como "o documento". A retomada foi feita por um hiperônimo. Se a segunda palavra fosse "o expediente", com sentido equivalente, seria retomada por sinônimo.
+
+## Como a banca cobra
 
 Na prova anterior do mesmo cargo (2023), em 20 itens de Português, dois trataram de acentuação e um de significação, todos presos ao texto. Os moldes:
 
@@ -173,7 +194,8 @@ Na prova anterior do mesmo cargo (2023), em 20 itens de Português, dois tratara
 3. propor a troca de uma palavra por outra e já dar o motivo. O item só está certo se a troca **e** o motivo estiverem certos;
 4. absolutos: "todas as paroxítonas", "nunca se usa hífen", "o acento diferencial foi abolido". Desconfie, mas lembre que um absoluto é verdadeiro: todas as proparoxítonas são acentuadas.
 
-Como um erro anula um acerto, marque só quando conseguir justificar pela regra.
+> [!TIP]
+> Como um erro anula um acerto, marque só quando conseguir justificar pela regra.
 
 ## Fontes
 

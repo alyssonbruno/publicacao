@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="452" viewBox="0 0 720 452" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="452" fill="#ffffff"/>
+
+  <!-- Legenda das cores -->
+  <g font-size="13" fill="#52514e">
+    <rect x="12" y="12" width="24" height="18" rx="4" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+    <text x="44" y="26">verbo</text>
+    <rect x="104" y="12" width="24" height="18" rx="4" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+    <text x="136" y="26">pronome átono</text>
+    <rect x="252" y="12" width="24" height="18" rx="4" fill="#ece9f8" stroke="#4a3aa7" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <text x="284" y="26">palavra atrativa</text>
+  </g>
+
+  <!-- Próclise: antes do verbo -->
+  <g transform="translate(12 44)">
+    <rect width="696" height="104" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="20" y="44" font-size="18" font-weight="700" fill="#0b0b0b">Próclise</text>
+    <text x="20" y="66" font-size="13" fill="#52514e">antes do verbo</text>
+    <line x1="152" y1="16" x2="152" y2="88" stroke="#e1e0d9"/>
+    <g font-size="16" font-weight="600" text-anchor="middle">
+      <rect x="172" y="34" width="52" height="36" rx="6" fill="#ece9f8" stroke="#4a3aa7" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <text x="198" y="58" fill="#4a3aa7">Não</text>
+      <rect x="232" y="34" width="44" height="36" rx="6" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+      <text x="254" y="58" fill="#8a5a00">me</text>
+      <rect x="284" y="34" width="100" height="36" rx="6" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+      <text x="334" y="58" fill="#1c5cab">avisaram</text>
+    </g>
+    <line x1="404" y1="16" x2="404" y2="88" stroke="#e1e0d9"/>
+    <text font-size="13" fill="#52514e">
+      <tspan x="420" y="38">Há, antes do verbo e sem pausa,</tspan>
+      <tspan x="420" dy="18">uma <tspan font-weight="600" fill="#0b0b0b">palavra atrativa</tspan> (aqui, o “não”).</tspan>
+      <tspan x="420" dy="18">A vírgula desfaz a atração.</tspan>
+    </text>
+  </g>
+
+  <!-- Mesóclise: no meio do verbo -->
+  <g transform="translate(12 156)">
+    <rect width="696" height="104" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="20" y="44" font-size="18" font-weight="700" fill="#0b0b0b">Mesóclise</text>
+    <text x="20" y="66" font-size="13" fill="#52514e">no meio do verbo</text>
+    <line x1="152" y1="16" x2="152" y2="88" stroke="#e1e0d9"/>
+    <g font-size="16" font-weight="600" text-anchor="middle">
+      <rect x="172" y="34" width="76" height="36" rx="6" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+      <text x="210" y="58" fill="#1c5cab">Avisar</text>
+      <text x="256" y="58" fill="#0b0b0b">-</text>
+      <rect x="264" y="34" width="44" height="36" rx="6" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+      <text x="286" y="58" fill="#8a5a00">me</text>
+      <text x="316" y="58" fill="#0b0b0b">-</text>
+      <rect x="324" y="34" width="44" height="36" rx="6" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+      <text x="346" y="58" fill="#1c5cab">ão</text>
+    </g>
+    <line x1="404" y1="16" x2="404" y2="88" stroke="#e1e0d9"/>
+    <text font-size="13" fill="#52514e">
+      <tspan x="420" y="30">Só com o verbo no <tspan font-weight="600" fill="#0b0b0b">futuro do</tspan></tspan>
+      <tspan x="420" dy="18"><tspan font-weight="600" fill="#0b0b0b">presente</tspan> ou no <tspan font-weight="600" fill="#0b0b0b">futuro do</tspan></tspan>
+      <tspan x="420" dy="18"><tspan font-weight="600" fill="#0b0b0b">pretérito</tspan>, e só quando não há</tspan>
+      <tspan x="420" dy="18">palavra atrativa.</tspan>
+    </text>
+  </g>
+
+  <!-- Ênclise: depois do verbo -->
+  <g transform="translate(12 268)">
+    <rect width="696" height="104" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="20" y="44" font-size="18" font-weight="700" fill="#0b0b0b">Ênclise</text>
+    <text x="20" y="66" font-size="13" fill="#52514e">depois do verbo</text>
+    <line x1="152" y1="16" x2="152" y2="88" stroke="#e1e0d9"/>
+    <g font-size="16" font-weight="600" text-anchor="middle">
+      <rect x="172" y="34" width="100" height="36" rx="6" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+      <text x="222" y="58" fill="#1c5cab">Avisaram</text>
+      <text x="280" y="58" fill="#0b0b0b">-</text>
+      <rect x="288" y="34" width="44" height="36" rx="6" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+      <text x="310" y="58" fill="#8a5a00">me</text>
+    </g>
+    <line x1="404" y1="16" x2="404" y2="88" stroke="#e1e0d9"/>
+    <text font-size="13" fill="#52514e">
+      <tspan x="420" y="30">A <tspan font-weight="600" fill="#0b0b0b">posição de base</tspan>. Sobretudo:</tspan>
+      <tspan x="420" dy="18">imperativo afirmativo, início do</tspan>
+      <tspan x="420" dy="18">período, infinitivo e gerúndio</tspan>
+      <tspan x="420" dy="18">sem “em”.</tspan>
+    </text>
+  </g>
+
+  <!-- O futuro não aceita ênclise -->
+  <g transform="translate(12 380)">
+    <rect width="696" height="60" rx="10" fill="#fbe3e3"/>
+    <text font-size="13.5" fill="#b42727">
+      <tspan x="20" y="25" font-weight="700">Com verbo no futuro, nunca há ênclise:</tspan>
+      <tspan x="20" dy="20">“enviaremos-lhe” e “diria-se” estão fora da norma-padrão.</tspan>
+    </text>
+  </g>
+</svg>

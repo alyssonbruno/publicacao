@@ -1,16 +1,16 @@
 # Noções de administração financeira, de pessoas e de materiais
 
+![Uma mulher confere, com uma prancheta, caixas numa estante, e há um cofrinho no balcão ao lado](imagens/abertura.webp)
+
 O edital pede "noções" de três áreas de apoio de qualquer organização: o dinheiro, as pessoas e os materiais. A banca costuma cobrar esse conteúdo em itens de uma frase, trocando a definição de um conceito pela do vizinho. Por isso, a aula é organizada em pares: cada conceito e o vizinho com que ele é confundido.
 
 O que está aqui é doutrina geral de administração, escrita quase sempre para empresas, com alguns pontos de lei indicados expressamente. Onde a regra do setor público é outra, a aula avisa. O estoque é outro tópico do edital e tem aula própria: aqui, materiais aparecem só em visão geral.
 
-## 1. Administração financeira
-
-### 1.1 Para que serve
+## Administração financeira: prazos e capital de giro
 
 Finanças é a gestão do dinheiro: de onde vêm os recursos, onde são aplicados e se haverá caixa para pagar as contas no vencimento. Nos manuais voltados a empresas, o objetivo do gestor financeiro é aumentar a riqueza dos proprietários, com o menor risco possível.
 
-### 1.2 Curto prazo × longo prazo
+### Curto prazo × longo prazo
 
 - **Curto prazo**: o dia a dia. Contas a receber, estoques, pagamento de fornecedores e de salários.
 - **Longo prazo**: investimentos e forma de financiá-los, incluída a composição entre capital próprio e capital de terceiros.
@@ -19,7 +19,7 @@ Exemplo: escolher o dia de pagar o fornecedor de material de limpeza é decisão
 
 Pegadinha: atribuir ao curto prazo a "composição de capital" ou a "avaliação de investimentos".
 
-### 1.3 Capital de giro × capital de giro líquido
+### Capital de giro × capital de giro líquido
 
 - **Capital de giro**: os recursos que sustentam o funcionamento cotidiano. Corresponde às contas do **ativo circulante** (disponibilidades, valores a receber e estoques).
 - **Capital de giro líquido (CGL)**: a folga de curto prazo. CGL = ativo circulante − passivo circulante.
@@ -28,7 +28,7 @@ Exemplo: ativo circulante de R$ 500 mil e passivo circulante de R$ 350 mil dão 
 
 Pegadinha: definir capital de giro líquido como "ativo circulante mais passivo circulante".
 
-### 1.4 Ciclo operacional × ciclo financeiro
+## Ciclo operacional × ciclo financeiro
 
 São três ciclos, pensados para uma empresa que compra, estoca, vende e recebe:
 
@@ -42,11 +42,16 @@ Exemplo: a mercadoria fica 20 dias em estoque, o cliente paga 30 dias depois da 
 - ciclo operacional: 20 + 30 = 50 dias;
 - ciclo financeiro: 50 − 25 = 25 dias.
 
+Na figura, o exemplo numa linha do tempo:
+
+![Linha do tempo de 50 dias. No dia 0, a compra; no dia 20, a venda; no dia 25, o pagamento ao fornecedor; no dia 50, o recebimento do cliente. Acima, três barras: o ciclo operacional vai da compra ao recebimento (20 + 30 = 50 dias); o ciclo econômico, da compra à venda (20 dias); o ciclo financeiro, do pagamento ao recebimento (50 − 25 = 25 dias), o intervalo em que a organização já pagou e ainda não recebeu.](imagens/ciclos-operacional-e-financeiro.svg "O exemplo do texto: 20 dias em estoque, 30 para o cliente pagar e 25 de prazo do fornecedor")
+
 No ciclo financeiro a organização já pagou e ainda não recebeu: é o intervalo que o capital de giro precisa cobrir.
 
-Pegadinha: dar ao ciclo financeiro a definição do operacional ("da compra ao recebimento"). O financeiro começa no pagamento, não na compra.
+> [!CAUTION]
+> Dar ao ciclo financeiro a definição do operacional ("da compra ao recebimento"). O financeiro começa no pagamento, não na compra.
 
-### 1.5 Fluxo de caixa × resultado
+## Fluxo de caixa × resultado
 
 - **Fluxo de caixa**: o registro do dinheiro que efetivamente entra e sai, por dia, semana ou mês. Segue a lógica do **regime de caixa**: o que conta é a data em que o dinheiro se movimenta. Serve para prever se haverá recursos para honrar os compromissos.
 - **Resultado** (lucro ou prejuízo): na contabilidade das empresas, é apurado pelo **regime de competência**. A receita pertence ao período em que foi ganha e a despesa, ao período em que foi incorrida, ainda que o dinheiro entre ou saia em outra data.
@@ -57,26 +62,28 @@ Exemplo: numa empresa, um serviço prestado em outubro e recebido em dezembro é
 
 Consequência que a banca explora: resultado positivo não garante caixa. Uma empresa pode ter lucro no ano e ficar sem dinheiro num mês em que as saídas se concentram.
 
-**Ressalva para o setor público.** Essa definição é a da contabilidade empresarial e não vale para o orçamento público, em que pertencem ao exercício financeiro as receitas nele arrecadadas e as despesas nele legalmente empenhadas (Lei nº 4.320/1964, art. 35). Orçamento público não faz parte deste tópico do edital: basta não estender a ele a regra da competência.
+> [!WARNING]
+> **Ressalva para o setor público.** Essa definição é a da contabilidade empresarial e não vale para o orçamento público, em que pertencem ao exercício financeiro as receitas nele arrecadadas e as despesas nele legalmente empenhadas (Lei nº 4.320/1964, art. 35). Orçamento público não faz parte deste tópico do edital: basta não estender a ele a regra da competência.
 
-## 2. Administração de pessoas
+## Administração de pessoas: recrutamento, seleção e treinamento
 
 A apostila do CEAD/UFV que serve de base a esta seção não traz uma lista fechada de processos. Ela reúne, sob o nome de gestão de talentos, tarefas interligadas: **descrição e análise de cargos**, **recrutamento**, **seleção**, **treinamento e desenvolvimento**, **avaliação de desempenho** e **remuneração e benefícios**. Tudo começa pela descrição do cargo: sem saber o que ele exige, não há como recrutar nem selecionar.
 
 A apostila da Enap (2015, p. 14) usa outros nomes: **seis processos**, num esquema que ela credita a Chiavenato: **agregar, aplicar, recompensar, desenvolver, manter e monitorar** pessoas. Um exercício dela liga agregar a recrutamento e seleção, desenvolver a capacitação e recompensar a remuneração.
 
-### 2.1 Recrutamento × seleção
+### Recrutamento × seleção
 
 - **Recrutamento**: **atrair** candidatos. A organização divulga a vaga e forma um grupo de interessados.
 - **Seleção**: **escolher**, entre os recrutados, quem tem as competências para a vaga. Usa triagem de currículos, provas ou testes de conhecimento, testes psicológicos, dinâmicas de grupo e entrevistas.
 
-A ordem é sempre essa: primeiro se recruta, depois se seleciona.
+> [!IMPORTANT]
+> A ordem é sempre essa: primeiro se recruta, depois se seleciona.
 
 Exemplo: o edital de um concurso, ao divulgar as vagas e abrir inscrições, cumpre o papel de recrutamento; as provas cumprem o de seleção.
 
 Pegadinha: "recrutamento é o processo de escolha do candidato mais adequado". Escolher é seleção.
 
-### 2.2 Recrutamento interno × externo × misto
+### Recrutamento interno × externo × misto
 
 - **Interno**: dirigido a quem já trabalha na organização. Resulta em promoção ou transferência. Vantagens: é mais rápido e mais barato, a organização já conhece os candidatos e o pessoal se motiva. Desvantagens: frustra quem não foi escolhido e traz poucas ideias novas.
 - **Externo**: busca candidatos fora do quadro. Vantagens: experiências diferentes e mais candidatos. Desvantagens: é mais demorado e mais caro, e o novo empregado precisa de tempo de adaptação.
@@ -84,7 +91,7 @@ Pegadinha: "recrutamento é o processo de escolha do candidato mais adequado". E
 
 Pegadinha: trocar as vantagens ("o recrutamento externo é mais rápido e mais barato" está errado).
 
-### 2.3 Treinamento × desenvolvimento
+### Treinamento × desenvolvimento
 
 - **Treinamento**: curto prazo, voltado ao **cargo atual** e à execução das tarefas. Transmite informações e desenvolve habilidades e atitudes de que o trabalho precisa agora.
 - **Desenvolvimento**: voltado ao **crescimento pessoal e profissional** do indivíduo, com olhar para o futuro e sem ficar preso à tarefa de hoje.
@@ -95,7 +102,9 @@ O processo de treinamento tem quatro etapas, em ciclo: levantamento de necessida
 
 Pegadinha: inverter os horizontes ("o treinamento visa ao longo prazo e à carreira").
 
-### 2.4 Avaliação de desempenho
+## Avaliação de desempenho e remuneração
+
+### Avaliação de desempenho
 
 Verifica, de tempos em tempos, como cada pessoa desempenha o seu trabalho e lhe devolve esse resultado (feedback). Alimenta decisões de treinamento e de recompensa.
 
@@ -110,35 +119,39 @@ Verifica, de tempos em tempos, como cada pessoa desempenha o seu trabalho e lhe 
 - **Escala de avaliação comportamental**: cada grau é ancorado num exemplo de comportamento próprio do cargo.
 - **Gestão por objetivos**: avalia-se pelas metas alcançadas, combinadas antes entre chefe e subordinado.
 
-**Por que a avaliação falha.** A apostila não lista erros do avaliador. Lista razões para o fracasso dos programas, com base em Bohlander e Snell: falta de apoio da alta administração, padrões que não combinam com a descrição do cargo, métodos tendenciosos, excesso de formulários, pouca conversa entre chefe e avaliado e avaliação que vira etapa burocrática. Aponta ainda dois defeitos dos padrões de desempenho: **deficiência de critério** (o padrão mede só parte das responsabilidades) e **contaminação de critério** (o padrão sofre a influência de fatores que o avaliado não controla).
+**Por que a avaliação falha.** A apostila não lista erros do avaliador. Lista razões para o fracasso dos programas, com base em Bohlander e Snell: falta de apoio da alta administração, padrões que não combinam com a descrição do cargo, métodos tendenciosos, excesso de formulários, pouca conversa entre chefe e avaliado e avaliação que vira etapa burocrática.
+
+Aponta ainda dois defeitos dos padrões de desempenho: **deficiência de critério** (o padrão mede só parte das responsabilidades) e **contaminação de critério** (o padrão sofre a influência de fatores que o avaliado não controla).
 
 Pegadinhas: restringir a 360 graus ("apenas pela chefia e pelos pares"); trocar os métodos (frases em blocos é escolha forçada; fatos excepcionais é incidentes críticos).
 
-### 2.5 Remuneração
+### Remuneração
 
 A remuneração abrange todas as formas de pagamento pelo trabalho. Na apostila do CEAD/UFV (p. 78):
 
 - **Remuneração direta**: salários, comissões e gratificações.
 - **Remuneração indireta**: os **benefícios**, que podem ser legais (impostos por lei, como o vale-transporte) ou espontâneos (concedidos por decisão da organização, como plano de saúde e seguro de vida).
 
-Essa é a divisão da apostila. A posição de parcelas como as gratificações pode mudar de um autor para outro; o par seguro é: salário, direta; benefício, indireta.
+> [!NOTE]
+> Essa é a divisão da apostila. A posição de parcelas como as gratificações pode mudar de um autor para outro; o par seguro é: salário, direta; benefício, indireta.
 
 Pegadinha: classificar benefício como remuneração direta ou tratar remuneração como sinônimo de salário. O salário é só uma parte.
 
-## 3. Administração de materiais
+## Administração de materiais: classificação
 
 Administrar materiais é garantir o material certo, na quantidade e na qualidade necessárias, no momento certo e ao menor custo.
 
-### 3.1 Classificação: consumo × permanente
+### Consumo × permanente
 
 - **Material de consumo**: o que, com o uso corrente, perde a identidade física ou tem utilização limitada a dois anos. Papel, canetas, toner, material de limpeza.
 - **Material permanente**: o que não perde a identidade física com o uso e dura mais de dois anos. Mesas, cadeiras, computadores, veículos.
 
-Separe as duas origens. **A lei só fixa o prazo**: para efeito de classificação da despesa, "considera-se material permanente o de duração superior a dois anos" (Lei nº 4.320/1964, art. 15, § 2º). A perda ou não da **identidade física** não está nesse artigo: é o critério que a apostila da Enap (Fenili) acrescenta.
+> [!IMPORTANT]
+> Separe as duas origens. **A lei só fixa o prazo**: para efeito de classificação da despesa, "considera-se material permanente o de duração superior a dois anos" (Lei nº 4.320/1964, art. 15, § 2º). A perda ou não da **identidade física** não está nesse artigo: é o critério que a apostila da Enap (Fenili) acrescenta.
 
 Pegadinha: trocar o prazo ("superior a um ano", "superior a cinco anos").
 
-### 3.2 Classificação ABC
+### Classificação ABC
 
 A curva ABC (ou princípio de Pareto, ou curva 80-20) ordena os itens pela importância, em geral pelo **valor** consumido no período:
 
@@ -148,13 +161,19 @@ A curva ABC (ou princípio de Pareto, ou curva 80-20) ordena os itens pela impor
 
 Os percentuais são aproximados, não fixos.
 
+Na figura, as três classes pela quantidade de itens e pelo valor:
+
+![Duas barras divididas nas classes A, B e C. Na barra dos itens, a classe A é uma faixa estreita, de cerca de 20%, e a classe C, uma faixa larga, de cerca de 50%. Na barra do valor consumido, a classe A ocupa a maior parte, cerca de 80%, e a classe C, uma faixa fina, de cerca de 5%. A classe B fica no meio, em situação intermediária.](imagens/classificacao-abc.svg "Classe A: poucos itens, a maior parte do valor. Percentuais aproximados")
+
 Pegadinha: dizer que a classe A reúne "a maior quantidade de itens". O critério é o valor. O detalhamento fica para a aula de gestão de estoque.
 
-### 3.3 Compras
+## Compras, recebimento e armazenagem
+
+### Compras
 
 O ciclo de compras, em visão geral: pedido do setor que precisa, pesquisa de fornecedores, cotação, julgamento das propostas, emissão do pedido, acompanhamento da entrega e recebimento. No julgamento, o preço não é o único critério: contam também a qualidade, o prazo de entrega e as condições de pagamento.
 
-### 3.4 Recebimento
+### Recebimento
 
 O recebimento fica entre a compra e o pagamento ao fornecedor. As etapas, na doutrina:
 
@@ -167,13 +186,14 @@ O que diz a lei (Lei nº 14.133/2021, art. 140, II): nas compras, o recebimento 
 
 Exemplo: chegam 50 caixas de papel. O assistente confere a nota e assina o canhoto (provisório). Depois conta as caixas (quantitativa) e verifica se é o papel da gramatura pedida (qualitativa). Estando tudo certo, o material é aceito (definitivo).
 
-Pegadinhas: trocar as conferências (quantitativa é contar; qualitativa é comparar com a especificação) e dizer que o recebimento provisório já significa aceitação.
+> [!CAUTION]
+> Trocar as conferências (quantitativa é contar; qualitativa é comparar com a especificação) e dizer que o recebimento provisório já significa aceitação.
 
-### 3.5 Armazenagem
+### Armazenagem
 
 Armazenar é guardar os materiais de forma organizada e em condições de uso até que sejam requisitados. A armazenagem é **simples** quando o material não exige cuidados especiais e **complexa** quando exige, por características físicas (fragilidade, peso, volume) ou químicas (inflamabilidade, perecibilidade).
 
-### 3.6 Patrimônio: tombamento e inventário
+## Patrimônio: tombamento e inventário
 
 - **Tombamento**: a identificação do bem quando ele é incorporado ao patrimônio. O bem é cadastrado e recebe um **número de registro patrimonial**, em plaqueta ou etiqueta quando possível.
 - **Carga patrimonial**: o conjunto de bens permanentes sob a responsabilidade do titular de uma unidade. A movimentação de um bem é formalizada com **termo de responsabilidade**.
@@ -183,11 +203,14 @@ O que diz a lei (Lei nº 4.320/1964): haverá registros analíticos de todos os 
 
 Pegadinhas: confundir tombamento (identificar e registrar) com inventário (conferir o que existe); dizer que o inventário alcança "apenas" os bens permanentes.
 
-### 3.7 Bens que não servem mais: atenção ao material antigo
+### Bens que não servem mais
 
-O edital não cita norma sobre o assunto. Basta saber que muito material antigo ainda ensina a classificação de bens inservíveis pelo Decreto nº 9.373/2018, **revogado** pelo Decreto nº 12.785/2025 (art. 23).
+> [!WARNING]
+> O edital não cita norma sobre o assunto. Basta saber que muito material antigo ainda ensina a classificação de bens inservíveis pelo Decreto nº 9.373/2018, **revogado** pelo Decreto nº 12.785/2025 (art. 23).
 
-O decreto de 2025 trata da circularidade de bens móveis "no âmbito da administração pública federal direta, autárquica e fundacional" (art. 1º) e os classifica em cinco classes: em uso regular, ocioso, recuperável, antieconômico e irrecuperável (art. 3º). É **inservível** o bem que se enquadra em uma das quatro últimas (art. 3º, § 1º). O decreto não menciona os conselhos profissionais; esta aula não afirma que ele se aplica ao CAU/TO.
+O decreto de 2025 trata da circularidade de bens móveis "no âmbito da administração pública federal direta, autárquica e fundacional" (art. 1º) e os classifica em cinco classes: em uso regular, ocioso, recuperável, antieconômico e irrecuperável (art. 3º). É **inservível** o bem que se enquadra em uma das quatro últimas (art. 3º, § 1º).
+
+O decreto não menciona os conselhos profissionais; esta aula não afirma que ele se aplica ao CAU/TO.
 
 ## Fontes
 

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="424" viewBox="0 0 720 424" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="424" fill="#ffffff"/>
+  <defs>
+    <marker id="ponta" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#52514e"/>
+    </marker>
+  </defs>
+
+  <!-- As quatro formas, com os nomes e significados da tabela do texto -->
+  <g transform="translate(12 12)">
+    <rect width="404" height="400" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="32" font-size="18" font-weight="700" fill="#0b0b0b">As quatro formas</text>
+
+    <!-- Elipse -->
+    <ellipse cx="64" cy="86" rx="44" ry="22" fill="#e3edf9" stroke="#256abf" stroke-width="2"/>
+    <text x="148" y="81" font-size="14" font-weight="700" fill="#0b0b0b">Elipse</text>
+    <text x="148" y="100" font-size="13" fill="#52514e">Início ou fim do processo</text>
+
+    <!-- Retângulo -->
+    <rect x="20" y="150" width="88" height="44" rx="3" fill="#ffffff" stroke="#256abf" stroke-width="2"/>
+    <text x="148" y="160" font-size="14" font-weight="700" fill="#0b0b0b">Retângulo</text>
+    <text x="148" y="179" font-size="13" fill="#52514e">
+      <tspan x="148">Atividade ou operação: uma etapa</tspan>
+      <tspan x="148" dy="17">do processo (dentro dele se escreve</tspan>
+      <tspan x="148" dy="17">o que é feito)</tspan>
+    </text>
+
+    <!-- Losango, com as duas saídas -->
+    <path d="M64,240 L108,268 L64,296 L20,268 Z" fill="#fdf1d6" stroke="#c98500" stroke-width="2"/>
+    <line x1="108" y1="268" x2="134" y2="268" stroke="#52514e" stroke-width="2" marker-end="url(#ponta)"/>
+    <line x1="64" y1="296" x2="64" y2="322" stroke="#52514e" stroke-width="2" marker-end="url(#ponta)"/>
+    <text x="121" y="260" font-size="12" font-weight="600" fill="#8a5a00" text-anchor="middle">sim</text>
+    <text x="72" y="317" font-size="12" font-weight="600" fill="#8a5a00">não</text>
+    <text x="148" y="252" font-size="14" font-weight="700" fill="#0b0b0b">Losango</text>
+    <text x="148" y="271" font-size="13" fill="#52514e">
+      <tspan x="148">Decisão: dentro vai a pergunta, e</tspan>
+      <tspan x="148" dy="17">dele saem os caminhos conforme a</tspan>
+      <tspan x="148" dy="17">resposta (em geral, sim ou não)</tspan>
+    </text>
+
+    <!-- Seta -->
+    <line x1="20" y1="368" x2="106" y2="368" stroke="#52514e" stroke-width="2.5" marker-end="url(#ponta)"/>
+    <text x="148" y="363" font-size="14" font-weight="700" fill="#0b0b0b">Seta</text>
+    <text x="148" y="382" font-size="13" fill="#52514e">Sentido do fluxo</text>
+  </g>
+
+  <!-- A rotina de protocolo do texto (recebe, registra, encaminha), desenhada com as formas -->
+  <g transform="translate(428 12)">
+    <rect width="280" height="400" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="32" font-size="18" font-weight="700" fill="#0b0b0b">A rotina de protocolo</text>
+
+    <ellipse cx="140" cy="82" rx="48" ry="20" fill="#e3edf9" stroke="#256abf" stroke-width="2"/>
+    <rect x="40" y="128" width="200" height="42" rx="3" fill="#ffffff" stroke="#256abf" stroke-width="2"/>
+    <rect x="40" y="196" width="200" height="42" rx="3" fill="#ffffff" stroke="#256abf" stroke-width="2"/>
+    <rect x="40" y="264" width="200" height="42" rx="3" fill="#ffffff" stroke="#256abf" stroke-width="2"/>
+    <ellipse cx="140" cy="352" rx="48" ry="20" fill="#e3edf9" stroke="#256abf" stroke-width="2"/>
+
+    <g stroke="#52514e" stroke-width="2" marker-end="url(#ponta)">
+      <line x1="140" y1="102" x2="140" y2="127"/>
+      <line x1="140" y1="170" x2="140" y2="195"/>
+      <line x1="140" y1="238" x2="140" y2="263"/>
+      <line x1="140" y1="306" x2="140" y2="331"/>
+    </g>
+
+    <g font-size="13.5" text-anchor="middle">
+      <text x="140" y="87" font-weight="700" fill="#1c5cab">Início</text>
+      <text x="140" y="154" fill="#0b0b0b">Recebe o documento</text>
+      <text x="140" y="222" fill="#0b0b0b">Registra o documento</text>
+      <text x="140" y="290" fill="#0b0b0b">Encaminha o documento</text>
+      <text x="140" y="357" font-weight="700" fill="#1c5cab">Fim</text>
+    </g>
+  </g>
+</svg>

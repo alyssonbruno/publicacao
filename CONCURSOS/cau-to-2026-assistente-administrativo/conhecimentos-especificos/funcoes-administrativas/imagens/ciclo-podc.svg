@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="328" viewBox="0 0 720 328" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="328" fill="#ffffff"/>
+
+  <text x="12" y="26" font-size="14" font-weight="700" fill="#0b0b0b">O processo administrativo de quatro funções (PODC)</text>
+
+  <!-- P: planejamento -->
+  <g transform="translate(12 44)">
+    <rect width="156" height="186" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <circle cx="30" cy="30" r="16" fill="#256abf"/>
+    <text x="30" y="36" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">P</text>
+    <text x="14" y="74" font-size="15" font-weight="700" fill="#0b0b0b">Planejamento</text>
+    <text x="14" y="100" font-size="13" fill="#52514e">
+      <tspan x="14">define os objetivos</tspan>
+      <tspan x="14" dy="18">e escolhe os meios</tspan>
+      <tspan x="14" dy="18">para chegar a eles</tspan>
+    </text>
+  </g>
+
+  <!-- O: organização -->
+  <g transform="translate(192 44)">
+    <rect width="156" height="186" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <circle cx="30" cy="30" r="16" fill="#127a55"/>
+    <text x="30" y="36" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">O</text>
+    <text x="14" y="74" font-size="15" font-weight="700" fill="#0b0b0b">Organização</text>
+    <text x="14" y="100" font-size="13" fill="#52514e">
+      <tspan x="14">reparte o trabalho</tspan>
+      <tspan x="14" dy="18">e os meios; define</tspan>
+      <tspan x="14" dy="18">autoridade e</tspan>
+      <tspan x="14" dy="18">responsabilidade</tspan>
+    </text>
+  </g>
+
+  <!-- D: direção -->
+  <g transform="translate(372 44)">
+    <rect width="156" height="186" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <circle cx="30" cy="30" r="16" fill="#d03b3b"/>
+    <text x="30" y="36" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">D</text>
+    <text x="14" y="74" font-size="15" font-weight="700" fill="#0b0b0b">Direção</text>
+    <text x="14" y="92" font-size="12.5" fill="#52514e">(ou liderança)</text>
+    <text x="14" y="118" font-size="13" fill="#52514e">
+      <tspan x="14">conduz as pessoas:</tspan>
+      <tspan x="14" dy="18">liderar, motivar</tspan>
+      <tspan x="14" dy="18">e comunicar</tspan>
+    </text>
+  </g>
+
+  <!-- C: controle -->
+  <g transform="translate(552 44)">
+    <rect width="156" height="186" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <circle cx="30" cy="30" r="16" fill="#4a3aa7"/>
+    <text x="30" y="36" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+    <text x="14" y="74" font-size="15" font-weight="700" fill="#0b0b0b">Controle</text>
+    <text x="14" y="100" font-size="13" fill="#52514e">
+      <tspan x="14">acompanha o</tspan>
+      <tspan x="14" dy="18">desempenho,</tspan>
+      <tspan x="14" dy="18">compara com o</tspan>
+      <tspan x="14" dy="18">planejado e corrige</tspan>
+      <tspan x="14" dy="18">os desvios</tspan>
+    </text>
+  </g>
+
+  <!-- Setas entre as funções -->
+  <g stroke="#8a8880" stroke-width="2" fill="#8a8880">
+    <line x1="171" y1="137" x2="182" y2="137"/>
+    <polygon points="182,131 190,137 182,143" stroke="none"/>
+    <line x1="351" y1="137" x2="362" y2="137"/>
+    <polygon points="362,131 370,137 362,143" stroke="none"/>
+    <line x1="531" y1="137" x2="542" y2="137"/>
+    <polygon points="542,131 550,137 542,143" stroke="none"/>
+  </g>
+
+  <!-- A volta: do controle ao planejamento -->
+  <path d="M630 232 V252 Q630 264 618 264 H102 Q90 264 90 252 V242" fill="none" stroke="#eb6834" stroke-width="2.5"/>
+  <polygon points="83,243 97,243 90,232" fill="#eb6834"/>
+  <text x="360" y="290" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="middle">O controle mostra um desvio e leva a rever o planejamento, e daí o ciclo recomeça.</text>
+  <text x="360" y="312" font-size="12.5" fill="#52514e" text-anchor="middle">As funções interagem: não acontecem isoladas, uma depois da outra, em ordem rígida.</text>
+</svg>

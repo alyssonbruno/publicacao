@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="468" viewBox="0 0 720 468" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="468" fill="#ffffff"/>
+
+  <!-- Legenda das barras: as sanções máximas do art. 12 -->
+  <g font-size="12.5" fill="#52514e">
+    <text x="12" y="28" font-weight="600" fill="#0b0b0b">Sanções máximas (art. 12):</text>
+    <rect x="190" y="17" width="14" height="14" rx="3" fill="#256abf"/>
+    <text x="210" y="28">suspensão dos direitos políticos</text>
+    <rect x="420" y="17" width="14" height="14" rx="3" fill="#eb6834"/>
+    <text x="440" y="28">proibição de contratar</text>
+  </g>
+
+  <!-- Art. 9º -->
+  <g transform="translate(12 44)">
+    <rect width="224" height="320" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="34" font-size="20" font-weight="700" fill="#1c5cab">Art. 9º</text>
+    <text x="16" y="58" font-size="15" font-weight="700" fill="#0b0b0b">
+      <tspan x="16">Enriquecimento</tspan>
+      <tspan x="16" dy="18">ilícito</tspan>
+    </text>
+    <text x="16" y="102" font-size="13" fill="#52514e">
+      <tspan x="16" font-weight="600" fill="#0b0b0b">Quem ganha é o agente:</tspan>
+      <tspan x="16" dy="18">vantagem patrimonial</tspan>
+      <tspan x="16" dy="18">indevida.</tspan>
+    </text>
+    <rect x="42" y="188" width="56" height="112" rx="3" fill="#256abf"/>
+    <rect x="126" y="188" width="56" height="112" rx="3" fill="#eb6834"/>
+    <line x1="24" y1="300" x2="200" y2="300" stroke="#c3c2b7"/>
+    <g font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">
+      <text x="70" y="180">até 14 anos</text>
+      <text x="154" y="180">até 14 anos</text>
+    </g>
+  </g>
+
+  <!-- Art. 10 -->
+  <g transform="translate(248 44)">
+    <rect width="224" height="320" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="34" font-size="20" font-weight="700" fill="#1c5cab">Art. 10</text>
+    <text x="16" y="58" font-size="15" font-weight="700" fill="#0b0b0b">
+      <tspan x="16">Prejuízo (lesão)</tspan>
+      <tspan x="16" dy="18">ao erário</tspan>
+    </text>
+    <text x="16" y="102" font-size="13" fill="#52514e">
+      <tspan x="16" font-weight="600" fill="#0b0b0b">Quem perde é o poder</tspan>
+      <tspan x="16" dy="18" font-weight="600" fill="#0b0b0b">público.</tspan>
+      <tspan x="16" dy="18">A lei exige dano efetivo</tspan>
+      <tspan x="16" dy="18">e comprovado.</tspan>
+    </text>
+    <rect x="42" y="204" width="56" height="96" rx="3" fill="#256abf"/>
+    <rect x="126" y="204" width="56" height="96" rx="3" fill="#eb6834"/>
+    <line x1="24" y1="300" x2="200" y2="300" stroke="#c3c2b7"/>
+    <g font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">
+      <text x="70" y="196">até 12 anos</text>
+      <text x="154" y="196">até 12 anos</text>
+    </g>
+  </g>
+
+  <!-- Art. 11 -->
+  <g transform="translate(484 44)">
+    <rect width="224" height="320" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="34" font-size="20" font-weight="700" fill="#1c5cab">Art. 11</text>
+    <text x="16" y="58" font-size="15" font-weight="700" fill="#0b0b0b">
+      <tspan x="16">Atentado contra</tspan>
+      <tspan x="16" dy="18">os princípios</tspan>
+    </text>
+    <text x="16" y="102" font-size="13" fill="#52514e">
+      <tspan x="16" font-weight="600" fill="#0b0b0b">Não é preciso dano nem</tspan>
+      <tspan x="16" dy="18" font-weight="600" fill="#0b0b0b">enriquecimento,</tspan>
+      <tspan x="16" dy="18">mas a conduta tem de ser</tspan>
+      <tspan x="16" dy="18">uma das listadas.</tspan>
+    </text>
+    <rect x="42" y="296" width="56" height="4" rx="1" fill="none" stroke="#256abf" stroke-dasharray="4 3"/>
+    <rect x="126" y="268" width="56" height="32" rx="3" fill="#eb6834"/>
+    <line x1="24" y1="300" x2="200" y2="300" stroke="#c3c2b7"/>
+    <g font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">
+      <text x="70" y="284" font-weight="400" fill="#52514e">não prevista</text>
+      <text x="154" y="260">até 4 anos</text>
+    </g>
+  </g>
+
+  <!-- A base comum: o dolo -->
+  <rect x="12" y="376" width="696" height="80" rx="10" fill="#ece9f8" stroke="#4a3aa7" stroke-width="1.5"/>
+  <text x="32" y="402" font-size="15" font-weight="700" fill="#4a3aa7">Nos três artigos, só existe improbidade com dolo</text>
+  <text x="32" y="424" font-size="13" fill="#0b0b0b">Dolo: vontade livre e consciente de alcançar o resultado ilícito; não basta a voluntariedade.</text>
+  <text x="32" y="444" font-size="13" fill="#52514e">Sem dolo, não há ato de improbidade, ainda que haja dano. Nem no art. 10.</text>
+</svg>

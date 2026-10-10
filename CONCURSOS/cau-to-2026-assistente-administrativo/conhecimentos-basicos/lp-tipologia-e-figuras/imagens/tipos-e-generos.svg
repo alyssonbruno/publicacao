@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="562" viewBox="0 0 720 562" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="562" fill="#ffffff"/>
+
+  <!-- Cabeçalho -->
+  <text x="28" y="30" font-size="15" font-weight="700" fill="#4a3aa7">Tipo textual <tspan font-size="13" font-weight="400" fill="#52514e">(poucos)</tspan></text>
+  <text x="28" y="50" font-size="12.5" fill="#52514e">o modo de organizar o texto</text>
+  <text x="238" y="30" font-size="15" font-weight="700" fill="#1c5cab">Gênero textual <tspan font-size="13" font-weight="400" fill="#52514e">(muitos)</tspan></text>
+  <text x="238" y="50" font-size="12.5" fill="#52514e">o texto como ele circula na vida real</text>
+
+  <!-- Narrativo -->
+  <g>
+    <rect x="12" y="72" width="696" height="92" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <rect x="12" y="82" width="4" height="72" rx="2" fill="#4a3aa7"/>
+    <text x="28" y="114" font-size="14" font-weight="700" fill="#4a3aa7">Narrativo</text>
+    <text x="28" y="134" font-size="12.5" fill="#52514e">conta fatos no tempo</text>
+    <line x1="226" y1="82" x2="226" y2="154" stroke="#e1e0d9"/>
+    <rect x="238" y="90" width="51.5" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="263.7" y="107.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">conto</text>
+    <rect x="297.48388671875" y="90" width="61.8" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="328.4" y="107.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">crônica</text>
+    <rect x="367.313232421875" y="90" width="69.8" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="402.2" y="107.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">romance</text>
+    <rect x="445.08935546875" y="90" width="54.5" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="472.4" y="107.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">fábula</text>
+    <rect x="507.631103515625" y="90" width="56.8" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="536.0" y="107.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">novela</text>
+    <rect x="238" y="124" width="117.3" height="26" rx="13" fill="#ffffff" stroke="#c98500" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="296.6" y="141.5" font-size="12.5" fill="#8a5a00" text-anchor="middle">artigo de opinião</text>
+    <text x="365.3" y="141.5" font-size="12.5" fill="#52514e">conta um caso para sustentar a tese</text>
+  </g>
+
+  <!-- Descritivo -->
+  <g>
+    <rect x="12" y="172" width="696" height="62" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <rect x="12" y="182" width="4" height="42" rx="2" fill="#4a3aa7"/>
+    <text x="28" y="199" font-size="14" font-weight="700" fill="#4a3aa7">Descritivo</text>
+    <text x="28" y="219" font-size="12.5" fill="#52514e">faz o retrato; o tempo “para”</text>
+    <line x1="226" y1="182" x2="226" y2="224" stroke="#e1e0d9"/>
+    <rect x="238" y="190" width="61.8" height="26" rx="13" fill="#ffffff" stroke="#c98500" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="268.9" y="207.5" font-size="12.5" fill="#8a5a00" text-anchor="middle">crônica</text>
+    <text x="309.8" y="207.5" font-size="12.5" fill="#52514e">para a história para descrever um lugar</text>
+  </g>
+
+  <!-- Dissertativo-expositivo -->
+  <g>
+    <rect x="12" y="242" width="696" height="62" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <rect x="12" y="252" width="4" height="42" rx="2" fill="#4a3aa7"/>
+    <text x="28" y="269" font-size="14" font-weight="700" fill="#4a3aa7">Dissertativo-expositivo</text>
+    <text x="28" y="289" font-size="12.5" fill="#52514e">explica, sem tomar partido</text>
+    <line x1="226" y1="252" x2="226" y2="294" stroke="#e1e0d9"/>
+    <rect x="238" y="260" width="63.2" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="269.6" y="277.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">verbete</text>
+    <rect x="309.166015625" y="260" width="98.1" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="358.2" y="277.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">texto didático</text>
+    <rect x="415.29296875" y="260" width="75.7" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="453.1" y="277.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">seminário</text>
+    <rect x="498.9833984375" y="260" width="65.5" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="531.7" y="277.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">palestra</text>
+  </g>
+
+  <!-- Dissertativo-argumentativo -->
+  <g>
+    <rect x="12" y="312" width="696" height="62" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <rect x="12" y="322" width="4" height="42" rx="2" fill="#4a3aa7"/>
+    <text x="28" y="339" font-size="14" font-weight="700" fill="#4a3aa7">Dissertativo-argumentativo</text>
+    <text x="28" y="359" font-size="12.5" fill="#52514e">defende uma tese</text>
+    <line x1="226" y1="322" x2="226" y2="364" stroke="#e1e0d9"/>
+    <rect x="238" y="330" width="117.3" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="296.6" y="347.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">artigo de opinião</text>
+    <rect x="363.273681640625" y="330" width="65.4" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="396.0" y="347.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">editorial</text>
+    <rect x="436.6796875" y="330" width="105.5" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="489.4" y="347.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">resenha crítica</text>
+    <rect x="550.130859375" y="330" width="143.6" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="621.9" y="347.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">redação de concurso</text>
+  </g>
+
+  <!-- Injuntivo (instrucional) -->
+  <g>
+    <rect x="12" y="382" width="696" height="92" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <rect x="12" y="392" width="4" height="72" rx="2" fill="#4a3aa7"/>
+    <text x="28" y="424" font-size="14" font-weight="700" fill="#4a3aa7">Injuntivo (instrucional)</text>
+    <text x="28" y="444" font-size="12.5" fill="#52514e">orienta uma ação</text>
+    <line x1="226" y1="392" x2="226" y2="464" stroke="#e1e0d9"/>
+    <rect x="238" y="400" width="144.5" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="310.2" y="417.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">manual de instruções</text>
+    <rect x="390.483154296875" y="400" width="58.4" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="419.7" y="417.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">receita</text>
+    <rect x="456.89453125" y="400" width="43.1" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="478.4" y="417.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">bula</text>
+    <rect x="507.986083984375" y="400" width="92.0" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="554.0" y="417.5" font-size="12.5" fill="#1c5cab" text-anchor="middle">regulamento</text>
+    <rect x="238" y="434" width="90.8" height="26" rx="13" fill="#ffffff" stroke="#c98500" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="283.4" y="451.5" font-size="12.5" fill="#8a5a00" text-anchor="middle">comunicado</text>
+    <text x="338.8" y="451.5" font-size="12.5" fill="#52514e">no fim, dá instruções</text>
+  </g>
+
+  <!-- Legenda -->
+  <g font-size="12.5">
+    <rect x="238" y="488" width="59.6" height="26" rx="13" fill="#e3edf9" stroke="#256abf"/>
+    <text x="267.8" y="505.5" fill="#1c5cab" text-anchor="middle">gênero</text>
+    <text x="307.6" y="505.5" fill="#52514e">em que o tipo costuma predominar</text>
+    <rect x="238" y="522" width="59.6" height="26" rx="13" fill="#ffffff" stroke="#c98500" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="267.8" y="539.5" fill="#8a5a00" text-anchor="middle">gênero</text>
+    <text x="307.6" y="539.5" fill="#52514e">com um trecho desse tipo: não existe tipo puro</text>
+  </g>
+</svg>

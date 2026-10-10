@@ -1,10 +1,13 @@
 # Procedimentos e manuais administrativos; organização e métodos
 
+![Um homem monta, num quadro branco, uma sequência de cartões ligados por setas, com um fichário aberto ao lado](imagens/abertura.webp)
+
 O edital do CAU/TO cobra, nos conhecimentos específicos, "1.3 Procedimentos Administrativos e Manuais Administrativos" e "1.4 Organização e Métodos". Os dois itens formam um assunto só: a área de organização e métodos é a que estuda e melhora a maneira de trabalhar, e os manuais são o lugar em que essa maneira de trabalhar fica escrita.
 
-**Aviso sobre a nomenclatura.** Este assunto é de doutrina, não de lei, e os autores não usam os mesmos nomes. O que um chama de "manual de normas e procedimentos" outro chama de "manual de processos administrativos" ou "manual de instruções". Por isso, cada classificação abaixo vem com a fonte que a traz. Na prova, leia a definição inteira e não se prenda só ao rótulo.
+> [!WARNING]
+> Este assunto é de doutrina, não de lei, e os autores não usam os mesmos nomes. O que um chama de "manual de normas e procedimentos" outro chama de "manual de processos administrativos" ou "manual de instruções". Por isso, cada classificação abaixo vem com a fonte que a traz. Na prova, leia a definição inteira e não se prenda só ao rótulo.
 
-## 1. O que é organização e métodos (O&M, OSM)
+## O que é organização e métodos (O&M, OSM)
 
 Organização e métodos (O&M) é a função que analisa como o trabalho é feito e propõe formas mais racionais de fazê-lo. Segundo o material da UFAL (que cita Alvarez), o termo passou a ser usado em organizações brasileiras no início da década de 1950, como função especializada voltada à introdução de novos métodos de trabalho e de novas estruturas organizacionais e à redução de custos e de esforços desnecessários.
 
@@ -12,18 +15,21 @@ A apostila da UFV explica a mudança de nome: a partir da década de 1980, com o
 
 As ferramentas da área, segundo o material da UFAL, incluem formulários, organogramas, fluxogramas e manuais, todos voltados a eliminar o que é inútil ou supérfluo e a aproveitar melhor os recursos. O organograma (o desenho da estrutura da organização) aparece aqui só como uma dessas ferramentas: ele é estudado em outro tópico do edital.
 
-## 2. Processos, procedimentos e rotinas
+## Processos, procedimentos e rotinas
 
 - **Processo**: conjunto ordenado de atividades, com começo, fim, insumos (entradas) e resultados (saídas) identificados. É a definição de Davenport citada no material da UFAL. Exemplo: o registro de um profissional no conselho, do pedido até a emissão da carteira.
 - **Procedimento** e **rotina**: no uso comum da área, são a maneira definida de executar uma parte do processo, passo a passo. Exemplo: a rotina de protocolo, que diz quem recebe o documento, onde o registra e para quem o encaminha. (Esta explicação é uma simplificação para estudo; os autores não trazem uma fronteira única entre os dois termos.)
 
 Para conhecer um processo antes de melhorá-lo, o analista faz o levantamento. O material da UFAL cita três técnicas: a entrevista, o questionário e a observação direta.
 
-## 3. Análise e racionalização do trabalho
+### Análise e racionalização do trabalho
 
 Racionalizar é simplificar: tirar o que não agrega, juntar o que está duplicado e pôr as etapas na melhor ordem. Para criticar cada fase de uma rotina, usam-se perguntas clássicas, listadas no material da UFAL: o que é feito e para que serve? Por que a fase é necessária? Onde deve ser feita? Quando? Quem deve executar? Como está sendo executada?
 
-Os instrumentos das seções seguintes servem a essa análise. Guarde a função de cada um, porque a banca costuma atribuir a um a finalidade do outro.
+Os instrumentos das seções seguintes servem a essa análise.
+
+> [!CAUTION]
+> Guarde a função de cada um, porque a banca costuma atribuir a um a finalidade do outro.
 
 | Instrumento | O que mostra |
 | --- | --- |
@@ -34,11 +40,13 @@ Os instrumentos das seções seguintes servem a essa análise. Guarde a função
 | Manual | As normas e instruções, por escrito |
 | Organograma | A estrutura da organização |
 
-## 4. Fluxograma
+## Fluxograma
 
 O fluxograma é a representação gráfica das etapas de um processo, feita com símbolos padronizados, que permite analisar o fluxo de tarefas de forma sistemática (apostila da UFV). O material da UFAL lista seus objetivos: padronizar a representação dos métodos e procedimentos administrativos, facilitar a leitura e o entendimento das rotinas e evidenciar a sequência do trabalho, o que deixa visíveis os movimentos desnecessários.
 
-**Símbolos.** O manual de padronização do Departamento de Parcerias da Prefeitura de São Paulo descreve por escrito quatro formas, na legenda que adota para os seus fluxogramas; os slides de aula da UFOP confirmam duas delas (o retângulo e o losango):
+### Símbolos
+
+O manual de padronização do Departamento de Parcerias da Prefeitura de São Paulo descreve por escrito quatro formas, na legenda que adota para os seus fluxogramas; os slides de aula da UFOP confirmam duas delas (o retângulo e o losango):
 
 | Forma | O que representa |
 | --- | --- |
@@ -47,9 +55,17 @@ O fluxograma é a representação gráfica das etapas de um processo, feita com 
 | Losango | Decisão: dentro vai a pergunta, e dele saem os caminhos conforme a resposta (em geral, sim ou não) |
 | Seta | Sentido do fluxo |
 
-Os demais símbolos são apresentados nas apostilas só pela função, em figuras: documento, conector, arquivo temporário e arquivo definitivo (UFSC); no fluxograma vertical, operação, transporte, arquivamento, demora e inspeção (UFAL). Para esses, saiba o que cada um representa e não se prenda ao desenho: a apostila da UFSC avisa que o desenho e a quantidade de símbolos mudam de autor para autor. A Figura 5.3 da apostila da UFV (p. 79) mostra um conjunto deles.
+Na figura, as quatro formas e, com elas, a rotina de protocolo:
 
-**Tipos.** Aqui a variação entre autores é grande:
+![À esquerda, as quatro formas do fluxograma: a elipse marca o início ou o fim do processo; o retângulo, uma atividade ou operação; o losango, uma decisão, de onde saem os caminhos sim e não; a seta, o sentido do fluxo. À direita, a rotina de protocolo desenhada com elas, de cima para baixo: início, recebe o documento, registra o documento, encaminha o documento, fim.](imagens/simbolos-do-fluxograma.svg "As quatro formas da tabela e a rotina de protocolo desenhada com elas")
+
+Os demais símbolos são apresentados nas apostilas só pela função, em figuras: documento, conector, arquivo temporário e arquivo definitivo (UFSC); no fluxograma vertical, operação, transporte, arquivamento, demora e inspeção (UFAL).
+
+Para esses, saiba o que cada um representa e não se prenda ao desenho: a apostila da UFSC avisa que o desenho e a quantidade de símbolos mudam de autor para autor. A Figura 5.3 da apostila da UFV (p. 79) mostra um conjunto deles.
+
+### Tipos
+
+Aqui a variação entre autores é grande:
 
 - A apostila da UFV traz quatro: diagrama de blocos, fluxograma de processos simples, fluxograma funcional (mostra as atividades por área da organização, útil quando o processo passa por mais de um setor) e fluxograma vertical.
 - A apostila da UFSC traz: simples, vertical ou de coluna, descritivo e diagrama de blocos.
@@ -58,11 +74,14 @@ Os demais símbolos são apresentados nas apostilas só pela função, em figura
 
 O **fluxograma vertical** é o mais estável entre as fontes: é formado por colunas, com os símbolos, a descrição do passo e quem o executa; serve para rotinas simples; pode ser impresso como formulário padronizado e é rápido de preencher e fácil de ler (UFAL e UFRRJ).
 
-**Atenção: "vertical" e "de coluna" nem sempre são o mesmo.** A apostila da UFSC trata os dois nomes como um só tipo ("vertical ou coluna"). Já a apostila da Rede e-Tec/IFSP chama de "global ou de coluna" outro tipo, diferente do vertical. O fato de o fluxograma vertical ser desenhado em colunas não faz dele o "fluxograma de colunas" dessa segunda classificação. Se o item falar em "fluxograma global ou de colunas", não o leia como sinônimo de vertical: confira a definição que vem junto.
+> [!WARNING]
+> **"Vertical" e "de coluna" nem sempre são o mesmo.** A apostila da UFSC trata os dois nomes como um só tipo ("vertical ou coluna"). Já a apostila da Rede e-Tec/IFSP chama de "global ou de coluna" outro tipo, diferente do vertical.
+>
+> O fato de o fluxograma vertical ser desenhado em colunas não faz dele o "fluxograma de colunas" dessa segunda classificação. Se o item falar em "fluxograma global ou de colunas", não o leia como sinônimo de vertical: confira a definição que vem junto.
 
 Atenção ao **diagrama de blocos**: para a UFV e para o boletim da UFRRJ, é a representação mais simples, para uma visão geral; para a apostila da UFSC, é o tipo que usa mais símbolos. Se a prova trouxer esse ponto, a definição do item decide.
 
-## 5. Quadro de distribuição do trabalho (QDT)
+## Quadro de distribuição do trabalho (QDT)
 
 O QDT mostra como o trabalho de uma unidade está distribuído: quais atividades existem, quais tarefas cabem a cada pessoa e quanto tempo cada uma consome. A técnica também é chamada de análise da distribuição do trabalho. Seu objetivo é o uso equilibrado dos recursos (Simcsik, citado nas apostilas da UFSC e da UFAL).
 
@@ -73,11 +92,13 @@ Etapas, segundo a apostila da UFSC:
 3. montagem do quadro;
 4. análise do quadro.
 
-Na análise, verificam-se o tempo gasto em cada tarefa, a capacidade profissional de quem a executa e o equilíbrio da carga de trabalho entre as pessoas e entre as unidades. O quadro mostra o desequilíbrio na carga de trabalho e as tarefas feitas em duplicidade. Uma ressalva das mesmas fontes: os dados do QDT são quantitativos, e o analista não pode esquecer o lado qualitativo e as relações entre as pessoas.
+Na análise, verificam-se o tempo gasto em cada tarefa, a capacidade profissional de quem a executa e o equilíbrio da carga de trabalho entre as pessoas e entre as unidades. O quadro mostra o desequilíbrio na carga de trabalho e as tarefas feitas em duplicidade.
+
+Uma ressalva das mesmas fontes: os dados do QDT são quantitativos, e o analista não pode esquecer o lado qualitativo e as relações entre as pessoas.
 
 Exemplo: no setor de atendimento, o quadro revela que uma assistente gasta 30 horas por semana conferindo documentos de registro, enquanto outra gasta 8. O QDT não diz como corrigir, mas mostra onde olhar.
 
-## 6. Layout (arranjo físico)
+## Layout (arranjo físico)
 
 Layout, ou arranjo físico, é a disposição dos postos de trabalho, dos móveis, das máquinas e dos equipamentos no espaço disponível, com a preocupação de adaptar as pessoas ao ambiente (Cury, citado no material da UFAL). Entre os objetivos de um estudo de layout estão um fluxo eficiente de trabalho e de comunicação, a facilidade de supervisão, a redução da fadiga e do ruído e a flexibilidade para mudanças.
 
@@ -87,7 +108,11 @@ Recomendações práticas da apostila da UFSC: agrupar as unidades que fazem tra
 
 O material da UFAL (com base em Araújo) cita tipos de layout de escritório, entre eles o espaço aberto (grandes áreas com muitas pessoas, que facilita a comunicação e o fluxo de documentos, mas favorece a distração e não é indicado para tarefas de alta concentração) e o panorâmico (divisórias transparentes que não vão até o teto e tratamento acústico, que dão privacidade sem impedir a supervisão visual).
 
-## 7. Formulários
+Na figura, os dois tipos lado a lado:
+
+![Dois escritórios vistos de lado, cada um com três pessoas sentadas a mesas. No espaço aberto, não há nada entre as mesas: grandes áreas com muitas pessoas, o que facilita a comunicação e o fluxo de documentos, mas favorece a distração. No panorâmico, há divisórias transparentes entre as mesas, que não vão até o teto: dão privacidade sem impedir a supervisão visual.](imagens/tipos-de-layout.svg "Dois tipos de layout de escritório: o espaço aberto e o panorâmico")
+
+## Formulários
 
 Formulário é o documento padronizado, com campos próprios, que serve para receber, preservar e transmitir informações (material da UFAL). Pode ser impresso ou eletrônico. A apostila da UFV lista finalidades: fixar responsabilidades, registrar o estado de uma operação, transferir informações e controlar dados.
 
@@ -100,9 +125,7 @@ Princípios para criar ou racionalizar formulários, segundo a apostila da UFV:
 - **parcimônia**: só os dados necessários;
 - **ordenação**: campos em sequência lógica.
 
-## 8. Manuais administrativos
-
-### Conceito
+## Manuais administrativos: conceito e tipos
 
 Manual administrativo é o conjunto de normas, procedimentos, funções, atividades, políticas e outras orientações que devem ser obedecidas e cumpridas por todos na organização. As apostilas da UFSC e da UFAL atribuem essa definição a Djalma de Oliveira. Em palavras simples, o manual ensina como fazer o trabalho.
 
@@ -119,7 +142,9 @@ Comparando as três fontes:
 - o **manual de normas e procedimentos** está, com esse nome, em duas (UFSC e UFAL): reúne as normas e orienta a execução das atividades. A apostila da UFV divide esse conteúdo em dois manuais: o de processos administrativos (leis, normas e instruções de funcionamento) e o de normas (instruções para as rotinas, apoiadas em fluxos);
 - o **manual de formulários** e o **manual de sequência administrativa** só estão no material da UFAL: o primeiro define a finalidade, o preenchimento e a distribuição dos formulários; o segundo descreve as fases de cada processo, com quem as executa, os volumes e os tempos.
 
-**A classificação de Djalma de Oliveira (seis tipos).** É a mais detalhada das encontradas, e vale conhecê-la. Segundo Oliveira, conforme citado por Oliveira Neto (artigo sobre manuais na gestão pública; ver Fontes), os manuais administrativos são de seis tipos:
+### A classificação de Djalma de Oliveira (seis tipos)
+
+É a mais detalhada das encontradas, e vale conhecê-la. Segundo Oliveira, conforme citado por Oliveira Neto (artigo sobre manuais na gestão pública; ver Fontes), os manuais administrativos são de seis tipos:
 
 | Tipo | Para que serve |
 | --- | --- |
@@ -132,7 +157,7 @@ Comparando as três fontes:
 
 O livro de Oliveira não foi consultado diretamente: a lista acima é a do artigo que o cita.
 
-### Partes
+## As partes do manual
 
 A estrutura mínima descrita nas apostilas da UFSC e da UFAL:
 
@@ -156,11 +181,14 @@ Há uma segunda lista, com oito partes. Ela está no artigo de Oliveira Neto (qu
 | Índice temático | Relaciona os temas tratados e onde encontrá-los |
 | Bibliografia | Indica as obras citadas, pela ordem alfabética do sobrenome dos autores |
 
-A troca mais fácil de montar é entre apêndice (material de apoio) e glossário (definição de termos), e entre índice numérico (por página) e índice temático (por tema).
+> [!CAUTION]
+> A troca mais fácil de montar é entre apêndice (material de apoio) e glossário (definição de termos), e entre índice numérico (por página) e índice temático (por tema).
 
-### Elaboração
+## Elaboração e atualização do manual
 
-Para a apostila da UFSC, a elaboração passa por definir os objetivos e avaliar o custo e o benefício, conhecer a organização (entrevistas e documentos), planejar com cronograma (incluído o período de implantação), levantar os dados, redigir, definir a apresentação, testar antes de implantar e acompanhar. Araújo, citado nas apostilas da UFSC e da UFAL, resume a manualização em quatro etapas: inventariar os manuais que já existem, definir o que precisa ser manualizado, elaborar o manual e distribuí-lo aos envolvidos.
+Para a apostila da UFSC, a elaboração passa por definir os objetivos e avaliar o custo e o benefício, conhecer a organização (entrevistas e documentos), planejar com cronograma (incluído o período de implantação), levantar os dados, redigir, definir a apresentação, testar antes de implantar e acompanhar.
+
+Araújo, citado nas apostilas da UFSC e da UFAL, resume a manualização em quatro etapas: inventariar os manuais que já existem, definir o que precisa ser manualizado, elaborar o manual e distribuí-lo aos envolvidos.
 
 O manual deve responder a seis perguntas (D'Ascenção, citado nas mesmas apostilas): o quê, como, quando, onde, quem e por quê.
 
@@ -172,15 +200,18 @@ Depois de pronto, o manual ainda passa por três momentos, descritos no artigo d
 
 A atualização, no mesmo artigo, pode ser feita por **revisão** (troca das folhas alteradas), **reemissão** (nova edição completa, quando as alterações atingem mais de dois terços do manual) ou **cancelamento** (de uma parte ou do manual inteiro).
 
-Um aviso: a prova de 2024 da banca para o mesmo cargo cobrou uma sequência de fases de elaboração do manual. Não foi encontrada fonte aberta que traga essa sequência com a indicação do autor, e por isso ela não está reproduzida aqui.
+> [!NOTE]
+> A prova de 2024 da banca para o mesmo cargo cobrou uma sequência de fases de elaboração do manual. Não foi encontrada fonte aberta que traga essa sequência com a indicação do autor, e por isso ela não está reproduzida aqui.
 
-### Redação
+## Redação, vantagens e limitações do manual
 
 A redação deve ser objetiva, clara, simples e concisa (D'Ascenção, citado na apostila da UFSC). A apostila da UFV acrescenta: evitar jargões, usar imagens e ilustrações e deixar o manual sempre acessível a quem trabalha.
 
 Segundo Oliveira, conforme citado por Oliveira Neto, o manual precisa atender a sete requisitos: corresponder a uma necessidade real da organização; ter diagramação adequada à sua finalidade; ter redação simples, curta, eficiente e clara, com bom índice ou sumário; trazer instruções autênticas, necessárias e suficientes; chegar a todos os que precisam dele; ter flexibilidade; e passar por revisão, atualização e distribuição contínuas.
 
-O **fluxograma** também entra no manual: a apostila da UFSC põe, no conteúdo do manual de normas e procedimentos, o fluxograma que descreve o modo de operar, e a da UFV diz que o manual de normas se apoia em fluxos que desenham as rotinas. A prova de 2024 cobrou regras de redação mais detalhadas do que essas; não foi encontrada fonte aberta que as traga com a indicação do autor, e o que está acima é o que as fontes desta aula permitem afirmar.
+O **fluxograma** também entra no manual: a apostila da UFSC põe, no conteúdo do manual de normas e procedimentos, o fluxograma que descreve o modo de operar, e a da UFV diz que o manual de normas se apoia em fluxos que desenham as rotinas.
+
+A prova de 2024 cobrou regras de redação mais detalhadas do que essas; não foi encontrada fonte aberta que as traga com a indicação do autor, e o que está acima é o que as fontes desta aula permitem afirmar.
 
 ### Vantagens e limitações
 
@@ -188,9 +219,10 @@ O **fluxograma** também entra no manual: a apostila da UFSC põe, no conteúdo 
 
 **Limitações**: não resolve todos os problemas; tem custo de elaboração e de manutenção; fica obsoleto se não for atualizado; perde força onde as relações informais são fortes; pode reduzir a flexibilidade e enfraquecer a iniciativa individual.
 
-Duas ideias da apostila da UFV fecham o assunto: o manual nunca está pronto (é instrumento dinâmico, que muda com a organização) e funciona melhor para padronizar o trabalho operacional do que para decisões estratégicas, que exigem flexibilidade.
+> [!IMPORTANT]
+> Duas ideias da apostila da UFV fecham o assunto: o manual nunca está pronto (é instrumento dinâmico, que muda com a organização) e funciona melhor para padronizar o trabalho operacional do que para decisões estratégicas, que exigem flexibilidade.
 
-## 9. Pegadinhas típicas
+## Pegadinhas típicas
 
 - **Função trocada entre instrumentos**: definir o QDT com a função do layout, ou o fluxograma com a do organograma.
 - **Definição certa no tipo de manual errado**: a descrição do manual de organização atribuída ao manual de políticas; a do manual do empregado atribuída ao de instruções especializadas.
@@ -200,7 +232,8 @@ Duas ideias da apostila da UFV fecham o assunto: o manual nunca está pronto (é
 - **Absolutos**: "o manual resolve todos os problemas", "deve permanecer inalterado", "somente a chefia consulta o manual".
 - **Vantagem apresentada como limitação** (ou o contrário): "o manual estimula a improvisação".
 
-Dica de estudo: como cada item errado vale um ponto negativo, se o item trouxer uma classificação que você nunca viu, com nomes diferentes dos desta aula, pese a opção de deixá-lo em branco.
+> [!TIP]
+> Como cada item errado vale um ponto negativo, se o item trouxer uma classificação que você nunca viu, com nomes diferentes dos desta aula, pese a opção de deixá-lo em branco.
 
 ## Fontes
 
