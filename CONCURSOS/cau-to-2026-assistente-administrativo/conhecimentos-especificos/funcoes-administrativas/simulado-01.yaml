@@ -1,0 +1,55 @@
+# Treino de funções administrativas (PODC). Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Funções administrativas (planejamento, organização, direção e controle)
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no formato de certo ou errado do Instituto Quadrix: itens de uma frase, agrupáveis
+      sob um comando, uma afirmação por item. Referência de estilo: caderno de Assistente Administrativo
+      do CAU/TO 2023 (só a forma dos itens; nenhum item foi copiado).'
+    - 'Bases de conteúdo: "Funções do Processo Administrativo para concursos – Guia Definitivo", de
+      Paulo Alvarenga Pires Cavalcanti, e "Funções da Administração para TCE-PR", de Renata Araújo Sodré
+      da Silva (Estratégia Concursos); "Capítulo 1 — Introdução à administração e às organizações" (material
+      didático de docente do IFSC); "Teorias da Administração I — Unidade 2" (PNAP/UAB, CESAD/UFS). Consultados
+      em 10/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/funcoes-administrativas
+    enunciado: Na classificação proposta por Henri Fayol, as funções administrativas são prever, organizar,
+      comandar, coordenar e controlar.
+  - id: q02
+    topico: conhecimentos-especificos/funcoes-administrativas
+    enunciado: No processo administrativo formado por planejamento, organização, direção e controle,
+      a função de direção resulta da reunião das funções de prever e de organizar, descritas por Fayol.
+  - id: q03
+    topico: conhecimentos-especificos/funcoes-administrativas
+    enunciado: Compete à função administrativa de organização acompanhar os resultados obtidos, confrontá-los
+      com as metas fixadas e adotar as medidas corretivas necessárias.
+  - id: q04
+    topico: conhecimentos-especificos/funcoes-administrativas
+    enunciado: Cabe à função administrativa de organização repartir o trabalho e os recursos disponíveis
+      e estabelecer as relações de autoridade e de responsabilidade entre as pessoas e as unidades.
+  - id: q05
+    topico: conhecimentos-especificos/funcoes-administrativas
+    enunciado: Liderar, motivar e comunicar-se com os subordinados são atividades relacionadas à função
+      administrativa de direção.
+  - id: q06
+    topico: conhecimentos-especificos/funcoes-administrativas
+    enunciado: O planejamento é função exclusiva do nível estratégico da organização, cabendo aos níveis
+      tático e operacional somente a execução dos planos.
+  - id: q07
+    topico: conhecimentos-especificos/funcoes-administrativas
+    enunciado: O planejamento operacional abrange o curto prazo e trata das atividades rotineiras da
+      organização com elevado grau de detalhamento.
+  - id: q08
+    topico: conhecimentos-especificos/funcoes-administrativas
+    enunciado: O planejamento tático é de longo prazo e abrange a organização como um todo.
+  - id: q09
+    topico: conhecimentos-especificos/funcoes-administrativas
+    enunciado: No processo de controle, a adoção da ação corretiva antecede a comparação do desempenho
+      com os padrões estabelecidos.
+  - id: q10
+    topico: conhecimentos-especificos/funcoes-administrativas
+    enunciado: O chefe de um setor de atendimento confere, antes do início do expediente, se os sistemas
+      e os formulários necessários estão disponíveis, a fim de evitar falhas no serviço. Nessa situação
+      hipotética, a conferência realizada é exemplo de controle preventivo.

@@ -1,0 +1,27 @@
+materiais:
+  - tipo: texto
+    titulo: "Improbidade administrativa: noções da Lei nº 8.429/1992"
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: Resumo de Improbidade Administrativa
+    url: https://www.youtube.com/watch?v=LkpK6hCClcE
+    autor: Prof. Herbert Almeida
+    duracao_min: 30
+    descricao: >-
+      Vídeo publicado em 13/8/2026, depois do fim do julgamento das ADIs 7156 e 7236 no STF
+      (1º/7/2026). A página não traz capítulos nem sumário do conteúdo. Veja depois de ler
+      o texto; se algo divergir do texto da aula, confira na lei.
+  - tipo: video
+    titulo: As mudanças na Lei de Improbidade - STF julga ADIs sobre a LIA
+    url: https://www.youtube.com/watch?v=dW2AtNltw40
+    autor: Prof. Herbert Almeida
+    duracao_min: 54
+    descricao: >-
+      Transmissão ao vivo de 27/6/2026, feita com o julgamento das ADIs ainda em andamento
+      no STF. É anterior à sessão final, de 1º/7/2026, e por isso não traz a decisão sobre
+      a prescrição (fim do recomeço pela metade e teto de 20 anos). A página não traz
+      capítulos nem sumário do conteúdo. Opcional; sobre as decisões do STF, vale o texto
+      da aula.

@@ -1,0 +1,55 @@
+materiais:
+  - tipo: texto
+    titulo: Ética na função pública e princípios da Administração Pública
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: Ética e função pública. Ética no setor público (Ética no Serviço Público)
+    url: https://www.youtube.com/watch?v=agd3z5_mx9U
+    autor: Felipe Medeiros
+    duracao_min: 19
+    descricao: >-
+      Publicado em 18/01/2023. O título repete os assuntos do item 1.1 do edital (ética e função
+      pública; ética no setor público), tratados nas seções 1 e 2 do texto. Em caso de
+      divergência, vale o texto da aula.
+  - tipo: video
+    titulo: Princípios do Direito Administrativo (Resumo) - LIMPE e Princípios Implícitos
+    url: https://www.youtube.com/watch?v=ZCE93TMAFeI
+    autor: Me Julga - Cíntia Brunelli
+    duracao_min: 14
+    descricao: >-
+      Publicado em 18/06/2025. Pelo título e pela descrição da página, é um resumo dos princípios
+      expressos do art. 37 da Constituição (LIMPE) e dos implícitos, assunto do item 1.2 do
+      edital. Veja depois de ler as seções 3 e 4 do texto.
+  - tipo: video
+    titulo: Princípios da Administração Pública para Concursos
+    url: https://www.youtube.com/watch?v=FIghHQZw9MQ
+    autor: Focus Concursos
+    duracao_min: 33
+    descricao: >-
+      Opcional. Publicado em 08/05/2024. O título indica o assunto do item 1.2 do edital
+      (princípios da Administração Pública); é mais longo que o resumo anterior.
+  - tipo: video
+    titulo: ÉTICA - CONHECIMENTOS COMPLEMENTARES | BANCA QUADRIX | AULA 1
+    url: https://www.youtube.com/watch?v=IV4CSMFaziM
+    autor: Vinicius Elias
+    duracao_min: 49
+    descricao: >-
+      Opcional, e só para a parte de ética. Primeira aula de um curso publicado em 27/07/2020 para
+      outro edital da Quadrix. O programa transcrito na descrição do vídeo começa por "Ética e
+      função pública" e "Ética no setor público" (os assuntos do item 1.1 deste edital), mas
+      também traz as Leis nº 8.666/1993 e nº 10.520/2002, hoje revogadas, e a Lei nº 8.429/1992
+      como era antes da reforma de 2021 (Lei nº 14.230/2021). Não use este curso para licitações
+      nem para improbidade; em caso de divergência, vale o texto da aula.
+  - tipo: podcast
+    titulo: PRINCÍPIOS EXPLÍCITOS DA ADMINISTRAÇÃO PÚBLICA
+    url: https://podcasts.apple.com/br/podcast/princ%C3%ADpios-expl%C3%ADcitos-da-administra%C3%A7%C3%A3o-p%C3%BAblica/id1584593874?i=1000663710643
+    autor: Tribo Concursos
+    duracao_min: 21
+    descricao: >-
+      Episódio de 29/07/2024; a página informa a matéria (Direito Administrativo) e o nome da
+      professora, sem descrever o conteúdo. O título indica que o assunto são os princípios
+      explícitos (expressos) da Administração Pública, tratados na seção 3 do texto. Opção em
+      áudio para a revisão.

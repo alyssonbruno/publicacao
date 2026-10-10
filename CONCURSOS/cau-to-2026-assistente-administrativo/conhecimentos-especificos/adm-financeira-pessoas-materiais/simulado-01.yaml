@@ -1,0 +1,69 @@
+# Treino do tópico. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Noções de administração financeira, de pessoas e de materiais
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no formato de certo ou errado do Instituto Quadrix: itens de uma frase, agrupados
+      por assunto. Referência de estilo: caderno de Assistente Administrativo do CAU/TO 2023 (nenhum item
+      reproduzido).'
+    - 'Bases das questões: apostilas do Curso Técnico em Administração do CEAD/UFV (Gestão Financeira,
+      de Rosiane Maria Lima Gonçalves; Gestão de Pessoas, de Adriana Ventola Marra) e Gestão de Materiais,
+      de Renato Ribeiro Fenili (Enap, 2ª ed., 2016).'
+    - Leis nº 4.320/1964 (arts. 15, § 2º, e 35) e nº 6.404/1976 (arts. 177 e 187, § 1º), textos do Planalto
+      consultados em 10/10/2026.
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/adm-financeira-pessoas-materiais
+    enunciado: A respeito de noções de administração financeira, julgue o item. A administração financeira
+      de curto prazo ocupa-se da captação de recursos para investimentos e da escolha da composição entre
+      capital próprio e capital de terceiros.
+  - id: q02
+    topico: conhecimentos-especificos/adm-financeira-pessoas-materiais
+    enunciado: A respeito de noções de administração financeira, julgue o item. O capital de giro líquido
+      corresponde à diferença entre o ativo circulante e o passivo circulante.
+  - id: q03
+    topico: conhecimentos-especificos/adm-financeira-pessoas-materiais
+    enunciado: A respeito de noções de administração financeira, julgue o item. O ciclo financeiro é o
+      intervalo de tempo entre a compra da mercadoria e o recebimento do valor da venda.
+  - id: q04
+    topico: conhecimentos-especificos/adm-financeira-pessoas-materiais
+    enunciado: A respeito de noções de administração financeira, julgue o item. Pelo regime de competência,
+      a despesa é reconhecida no período em que é incorrida, ainda que o pagamento ocorra em período posterior.
+  - id: q05
+    topico: conhecimentos-especificos/adm-financeira-pessoas-materiais
+    enunciado: No que se refere a noções de administração de pessoas, julgue o item. O recrutamento é
+      o processo de escolha, entre os candidatos disponíveis, daquele que reúne as competências mais adequadas
+      à vaga.
+  - id: q06
+    topico: conhecimentos-especificos/adm-financeira-pessoas-materiais
+    enunciado: No que se refere a noções de administração de pessoas, julgue o item. O treinamento é voltado
+      ao longo prazo e ao crescimento pessoal do indivíduo, sem vínculo com as tarefas do cargo que ele
+      ocupa.
+  - id: q07
+    topico: conhecimentos-especificos/adm-financeira-pessoas-materiais
+    enunciado: No que se refere a noções de administração de pessoas, julgue o item. Na avaliação de desempenho
+      do tipo 360 graus, o empregado é avaliado por diversas fontes com que interage, como a chefia, os
+      pares, os subordinados e os clientes.
+  - id: q08
+    topico: conhecimentos-especificos/adm-financeira-pessoas-materiais
+    enunciado: No que se refere a noções de administração de pessoas, julgue o item. Os benefícios concedidos
+      ao empregado, como o plano de saúde, integram a remuneração indireta.
+  - id: q09
+    topico: conhecimentos-especificos/adm-financeira-pessoas-materiais
+    enunciado: Quanto a noções de administração de materiais, julgue o item. Para efeito de classificação
+      da despesa, considera-se material permanente o de duração superior a dois anos.
+  - id: q10
+    topico: conhecimentos-especificos/adm-financeira-pessoas-materiais
+    enunciado: Quanto a noções de administração de materiais, julgue o item. Na classificação ABC, a classe
+      A reúne a maior quantidade de itens do estoque, que respondem pela menor parcela do valor de demanda.
+  - id: q11
+    topico: conhecimentos-especificos/adm-financeira-pessoas-materiais
+    enunciado: Quanto a noções de administração de materiais, julgue o item. No recebimento de materiais,
+      a conferência qualitativa consiste em verificar se a quantidade entregue corresponde à declarada
+      pelo fornecedor na nota fiscal.
+  - id: q12
+    topico: conhecimentos-especificos/adm-financeira-pessoas-materiais
+    enunciado: Quanto a noções de administração de materiais, julgue o item. O tombamento é o procedimento
+      de identificação do bem patrimonial, efetuado quando ele é incorporado ao patrimônio da organização,
+      com a atribuição de um número de registro.

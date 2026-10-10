@@ -1,0 +1,42 @@
+materiais:
+  - tipo: texto
+    titulo: Ortografia oficial e significação das palavras
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: "Novo Acordo Ortográfico: o que mudou na acentuação gráfica"
+    url: https://www.youtube.com/watch?v=lZb8yx7oSm8
+    autor: Aprova Concursos, com a professora Daniela Tatarin
+    duracao_min: 10
+    descricao: >-
+      Veja inteiro: só as mudanças do Acordo na acentuação, com foco em prova. Atenção: a
+      descrição do vídeo diz que o Acordo "entrou em vigor em janeiro de 2016", o que é
+      impreciso. Os efeitos começaram em 1º/1/2009 e o uso passou a ser obrigatório em
+      1º/1/2016, quando terminou a transição (Decretos nº 6.583/2008 e 7.875/2012).
+  - tipo: video
+    titulo: "Aula 5: Emprego do hífen (novas regras)"
+    url: https://www.youtube.com/watch?v=I0N3EvDBLmU
+    autor: GramáticaEmVídeo - Prof. Fábio Alves
+    duracao_min: 17
+    descricao: >-
+      Hífen com prefixos: regra geral (3:05), letras iguais (4:37), casos em que sempre há
+      hífen (5:48), circum- (7:09) e super-, hiper- e inter- (8:29).
+  - tipo: video
+    titulo: HOMÔNIMOS e PARÔNIMOS || Português para Concursos
+    url: https://www.youtube.com/watch?v=G-mVUDQ13fo
+    autor: Português para Concursos - com Diego Pureza
+    duracao_min: 18
+    descricao: >-
+      Homônimos perfeitos (2:02), homógrafos (2:27) e homófonos (2:57); parônimos (7:41);
+      questões comentadas de outras bancas a partir de 10:33. Não trata de polissemia nem de
+      hiperônimo e hipônimo: para isso, use o texto da aula.
+  - tipo: video
+    titulo: Homônimos e Parônimos - Nunca mais erre em concurso público!
+    url: https://www.youtube.com/watch?v=aHpFOM3NBtg
+    autor: Prof. Álvaro Ferreira
+    duracao_min: 74
+    descricao: >-
+      Aprofundamento opcional: aula longa de homônimos, parônimos e polissemia, com questões
+      de concurso resolvidas. Sem capítulos; vale dividir em duas partes.

@@ -1,0 +1,173 @@
+# Treino do tópico. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Compreensão e interpretação de textos variados, digitais e multimodais
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no formato de certo ou errado do Instituto Quadrix (itens vinculados a um
+      comando, uma afirmação por item). Os textos-base (e-mail, post, tabela e notícia) foram escritos
+      para este treino; o órgão, os programas e os dados são fictícios.'
+    - 'Referência de estilo, sem reprodução de itens: prova de Assistente Administrativo do CAU/TO
+      (Instituto Quadrix, 2023), https://www.pciconcursos.com.br/provas/download/assistente-administrativo-cau-to-quadrix-2023'
+    - 'Base teórica: Rafaela Freitas, "Dicas de Interpretação textual – Português para
+      iniciantes" (Estratégia Concursos, 2017), para os erros de extrapolação, redução e contradição;
+      Bruno Quintela, "Transforme imagens em pontos: domine gêneros multimodais para o ENEM"
+      (Descomplica, 2026), para a leitura de tabelas e gráficos.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-compreensao-de-textos
+    enunciado: |-
+      Considere o e-mail a seguir, enviado por um conselho profissional aos profissionais registrados.
+
+      > **Assunto:** Alteração no atendimento presencial a partir de 3 de novembro
+      >
+      > Prezados profissionais registrados,
+      >
+      > Informamos que, a partir de 3 de novembro, o atendimento presencial na sede do Conselho passará a ocorrer das 9h às 15h, de segunda a sexta-feira, exclusivamente mediante agendamento prévio pelo portal de serviços. A medida decorre da reforma do andar térreo, prevista para durar três meses.
+      >
+      > O atendimento por e-mail e por telefone não sofrerá alteração. Os pedidos de registro e de emissão de certidões continuam disponíveis no portal, a qualquer hora.
+      >
+      > Agradecemos a compreensão.
+      >
+      > Setor de Atendimento
+
+      Com base no e-mail, julgue o item.
+
+      De acordo com a mensagem, a partir de 3 de novembro, o atendimento presencial na sede dependerá de agendamento feito previamente pelo portal de serviços.
+  - id: q02
+    topico: conhecimentos-basicos/lp-compreensao-de-textos
+    enunciado: |-
+      Considere o e-mail a seguir, enviado por um conselho profissional aos profissionais registrados.
+
+      > **Assunto:** Alteração no atendimento presencial a partir de 3 de novembro
+      >
+      > Prezados profissionais registrados,
+      >
+      > Informamos que, a partir de 3 de novembro, o atendimento presencial na sede do Conselho passará a ocorrer das 9h às 15h, de segunda a sexta-feira, exclusivamente mediante agendamento prévio pelo portal de serviços. A medida decorre da reforma do andar térreo, prevista para durar três meses.
+      >
+      > O atendimento por e-mail e por telefone não sofrerá alteração. Os pedidos de registro e de emissão de certidões continuam disponíveis no portal, a qualquer hora.
+      >
+      > Agradecemos a compreensão.
+      >
+      > Setor de Atendimento
+
+      Com base no e-mail, julgue o item.
+
+      Infere-se da mensagem que, em razão da reforma do andar térreo, os pedidos de registro e de emissão de certidões ficarão suspensos por três meses.
+  - id: q03
+    topico: conhecimentos-basicos/lp-compreensao-de-textos
+    enunciado: |-
+      Considere o e-mail a seguir, enviado por um conselho profissional aos profissionais registrados.
+
+      > **Assunto:** Alteração no atendimento presencial a partir de 3 de novembro
+      >
+      > Prezados profissionais registrados,
+      >
+      > Informamos que, a partir de 3 de novembro, o atendimento presencial na sede do Conselho passará a ocorrer das 9h às 15h, de segunda a sexta-feira, exclusivamente mediante agendamento prévio pelo portal de serviços. A medida decorre da reforma do andar térreo, prevista para durar três meses.
+      >
+      > O atendimento por e-mail e por telefone não sofrerá alteração. Os pedidos de registro e de emissão de certidões continuam disponíveis no portal, a qualquer hora.
+      >
+      > Agradecemos a compreensão.
+      >
+      > Setor de Atendimento
+
+      Com base no e-mail, julgue o item.
+
+      A finalidade principal da mensagem é informar aos profissionais registrados que o andar térreo da sede do Conselho será reformado.
+  - id: q04
+    topico: conhecimentos-basicos/lp-compreensao-de-textos
+    enunciado: |-
+      Considere a postagem a seguir, publicada no perfil de um conselho profissional em uma rede social.
+
+      > Atenção, profissional! Termina nesta sexta, 30/10, o prazo de inscrição no curso gratuito de elaboração de laudos. São 40 vagas, preenchidas por ordem de inscrição. O formulário está no link da bio. Dúvidas? Chame a gente no direto. #capacitação
+
+      Com base na postagem, julgue o item.
+
+      Expressões como “Chame a gente” e “link da bio” conferem à postagem um registro mais informal do que o esperado em um ofício.
+  - id: q05
+    topico: conhecimentos-basicos/lp-compreensao-de-textos
+    enunciado: |-
+      Considere a postagem a seguir, publicada no perfil de um conselho profissional em uma rede social.
+
+      > Atenção, profissional! Termina nesta sexta, 30/10, o prazo de inscrição no curso gratuito de elaboração de laudos. São 40 vagas, preenchidas por ordem de inscrição. O formulário está no link da bio. Dúvidas? Chame a gente no direto. #capacitação
+
+      Com base na postagem, julgue o item.
+
+      Depreende-se da postagem que a inscrição feita dentro do prazo pode não assegurar vaga no curso, caso o número de inscritos supere o de vagas.
+  - id: q06
+    topico: conhecimentos-basicos/lp-compreensao-de-textos
+    enunciado: |-
+      Considere a tabela a seguir, publicada no relatório de gestão de um conselho profissional.
+
+      **Pedidos de registro profissional em 2025, por trimestre**
+
+      | Trimestre | Pedidos recebidos | Pedidos concluídos | Prazo médio de conclusão (em dias) |
+      |---|---|---|---|
+      | 1º | 200 | 150 | 20 |
+      | 2º | 250 | 200 | 18 |
+      | 3º | 240 | 240 | 15 |
+      | 4º | 300 | 270 | 12 |
+
+      Fonte: Setor de Registro, Relatório de Gestão 2025.
+
+      Com base na tabela, julgue o item.
+
+      O número de pedidos de registro recebidos aumentou a cada trimestre de 2025.
+  - id: q07
+    topico: conhecimentos-basicos/lp-compreensao-de-textos
+    enunciado: |-
+      Considere a tabela a seguir, publicada no relatório de gestão de um conselho profissional.
+
+      **Pedidos de registro profissional em 2025, por trimestre**
+
+      | Trimestre | Pedidos recebidos | Pedidos concluídos | Prazo médio de conclusão (em dias) |
+      |---|---|---|---|
+      | 1º | 200 | 150 | 20 |
+      | 2º | 250 | 200 | 18 |
+      | 3º | 240 | 240 | 15 |
+      | 4º | 300 | 270 | 12 |
+
+      Fonte: Setor de Registro, Relatório de Gestão 2025.
+
+      Com base na tabela, julgue o item.
+
+      O 4º trimestre registrou, ao mesmo tempo, o maior número de pedidos recebidos e o menor prazo médio de conclusão do ano.
+  - id: q08
+    topico: conhecimentos-basicos/lp-compreensao-de-textos
+    enunciado: |-
+      Considere a tabela a seguir, publicada no relatório de gestão de um conselho profissional.
+
+      **Pedidos de registro profissional em 2025, por trimestre**
+
+      | Trimestre | Pedidos recebidos | Pedidos concluídos | Prazo médio de conclusão (em dias) |
+      |---|---|---|---|
+      | 1º | 200 | 150 | 20 |
+      | 2º | 250 | 200 | 18 |
+      | 3º | 240 | 240 | 15 |
+      | 4º | 300 | 270 | 12 |
+
+      Fonte: Setor de Registro, Relatório de Gestão 2025.
+
+      Com base na tabela, julgue o item.
+
+      Os dados da tabela permitem concluir que a redução do prazo médio de conclusão ao longo de 2025 resultou do aumento do número de servidores do Setor de Registro.
+  - id: q09
+    topico: conhecimentos-basicos/lp-compreensao-de-textos
+    enunciado: |-
+      Considere a notícia a seguir, publicada no site de um conselho profissional.
+
+      > O Conselho lançou, em março de 2026, o programa Portas Abertas, que leva orientação sobre registro profissional a municípios do interior. A primeira etapa, encerrada em junho, passou por seis cidades e atendeu 480 profissionais. A segunda etapa, prevista para o segundo semestre, deve alcançar outras oito cidades. Segundo a coordenação, a iniciativa foi criada em resposta ao resultado de uma pesquisa interna de 2025, que apontou a distância da capital como a principal dificuldade dos profissionais do interior.
+
+      Com base na notícia, julgue o item.
+
+      Depreende-se do texto que, de acordo com a coordenação, a criação do programa foi motivada pelo resultado de uma pesquisa feita no âmbito do próprio Conselho.
+  - id: q10
+    topico: conhecimentos-basicos/lp-compreensao-de-textos
+    enunciado: |-
+      Considere a notícia a seguir, publicada no site de um conselho profissional.
+
+      > O Conselho lançou, em março de 2026, o programa Portas Abertas, que leva orientação sobre registro profissional a municípios do interior. A primeira etapa, encerrada em junho, passou por seis cidades e atendeu 480 profissionais. A segunda etapa, prevista para o segundo semestre, deve alcançar outras oito cidades. Segundo a coordenação, a iniciativa foi criada em resposta ao resultado de uma pesquisa interna de 2025, que apontou a distância da capital como a principal dificuldade dos profissionais do interior.
+
+      Com base na notícia, julgue o item.
+
+      Infere-se do texto que o programa Portas Abertas, lançado em 2025, atendeu 480 profissionais em oito cidades do interior na primeira etapa, encerrada em junho.

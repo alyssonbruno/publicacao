@@ -1,0 +1,66 @@
+# Treino de classes de palavras e colocação pronominal — CAU/TO 2026, Assistente Administrativo. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Classes de palavras e colocação pronominal
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre trechos de um texto próprio (comunicado fictício de um conselho profissional),
+      no estilo de certo ou errado do Instituto Quadrix: a classe de um termo do texto e o deslocamento
+      do pronome átono num trecho.'
+    - 'Referências de estilo, sem cópia de itens: caderno de Assistente Administrativo do CAU/TO 2023
+      (Instituto Quadrix) e itens da Quadrix de 2017 e 2018 sobre colocação pronominal listados no Estude
+      Grátis.'
+    - 'Bases do gabarito: Só Português (morfologia e colocação pronominal); EaDicas de Português do
+      STJ, dicas 10 e 22; Minicurso “Pronomes Clíticos”, PET Letras/UNIFAL-MG, com base em Cunha & Cintra
+      e em Cegalla; PrePara ENEM (colocação pronominal, locuções verbais e a palavra “que”); InfoEscola
+      (colocação pronominal). Consultados em 10/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-classes-e-colocacao-pronominal
+    enunciado: No período “O Conselho informa que o atendimento presencial foi ampliado.”, o termo “que”
+      classifica-se como pronome relativo.
+  - id: q02
+    topico: conhecimentos-basicos/lp-classes-e-colocacao-pronominal
+    enunciado: No trecho “os profissionais encontram mais guichês e servidores bastante atentos”, o vocábulo
+      “bastante” modifica o adjetivo “atentos” e classifica-se como advérbio.
+  - id: q03
+    topico: conhecimentos-basicos/lp-classes-e-colocacao-pronominal
+    enunciado: No trecho “o comunicado lembra que a taxa de registro não foi reajustada”, a expressão “de registro”
+      liga-se ao substantivo “taxa” e tem valor de adjetivo.
+  - id: q04
+    topico: conhecimentos-basicos/lp-classes-e-colocacao-pronominal
+    enunciado: No período “Como a procura cresceu, a equipe trabalha meio sobrecarregada.”, o conector
+      “Como” introduz uma ideia de comparação.
+  - id: q05
+    topico: conhecimentos-basicos/lp-classes-e-colocacao-pronominal
+    enunciado: No período “O crescer da procura exigiu mudanças na rotina da sede.”, o vocábulo “crescer”,
+      antecedido de artigo, está empregado como substantivo.
+  - id: q06
+    topico: conhecimentos-basicos/lp-classes-e-colocacao-pronominal
+    enunciado: No trecho “O presidente, alto dirigente da autarquia, acompanhou a mudança”, a substituição
+      de “alto dirigente” por “dirigente alto” preservaria o sentido original.
+  - id: q07
+    topico: conhecimentos-basicos/lp-classes-e-colocacao-pronominal
+    enunciado: No período “A secretaria ainda não sabe se o prazo será prorrogado.”, o vocábulo “se” é
+      uma conjunção condicional.
+  - id: q08
+    topico: conhecimentos-basicos/lp-classes-e-colocacao-pronominal
+    enunciado: No período “O Conselho abriu novos guichês para reduzir a espera.”, a preposição “para”
+      introduz uma ideia de finalidade.
+  - id: q09
+    topico: conhecimentos-basicos/lp-classes-e-colocacao-pronominal
+    enunciado: No trecho “a equipe trabalha meio sobrecarregada, mas ninguém se queixa”, o deslocamento
+      do pronome “se” para depois do verbo (ninguém queixa-se) manteria a correção gramatical.
+  - id: q10
+    topico: conhecimentos-basicos/lp-classes-e-colocacao-pronominal
+    enunciado: No período “Atualmente, registram-se cerca de quarenta pedidos por semana.”, a supressão
+      da vírgula, acompanhada do deslocamento do pronome para antes do verbo (Atualmente se registram),
+      manteria a correção gramatical.
+  - id: q11
+    topico: conhecimentos-basicos/lp-classes-e-colocacao-pronominal
+    enunciado: No período “A secretaria vai informar-lhe o resultado.”, a norma-padrão também admite a
+      colocação do pronome depois do verbo auxiliar, com hífen (vai-lhe informar).
+  - id: q12
+    topico: conhecimentos-basicos/lp-classes-e-colocacao-pronominal
+    enunciado: No período “Enviar-lhe-emos o comprovante em dois dias.”, a forma verbal poderia ser reescrita
+      como “Enviaremos-lhe”, sem prejuízo da correção gramatical, pois não há palavra que exija a próclise.

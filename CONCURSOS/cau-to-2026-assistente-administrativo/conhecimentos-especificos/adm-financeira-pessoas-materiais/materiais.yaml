@@ -1,0 +1,24 @@
+materiais:
+  - tipo: texto
+    titulo: Noções de administração financeira, de pessoas e de materiais
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: Gestão de Pessoas - Adm de Recursos Humanos - Conceitos Básicos
+    url: https://www.youtube.com/watch?v=2fBypccQLCo
+    autor: Rodrigo Rennó
+    duracao_min: 41
+    descricao: >-
+      Teoria e questões comentadas sobre os conceitos básicos de gestão de pessoas, segundo a
+      descrição do vídeo. Complementa a seção 2 do texto. A aula não é específica da Quadrix.
+  - tipo: video
+    titulo: 01. Aula de Noções de Administração de Materiais (Administração de Recursos Materiais)
+    url: https://www.youtube.com/watch?v=WSzViE4JOy8
+    autor: TecConcursos
+    duracao_min: 37
+    descricao: >-
+      Aula de introdução: o que são recursos e o conceito de administração de materiais, segundo
+      a descrição do vídeo. Não trata de classificação, recebimento, armazenagem nem patrimônio,
+      que estão na seção 3 do texto.

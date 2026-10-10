@@ -1,0 +1,26 @@
+materiais:
+  - tipo: texto
+    titulo: Tipos textuais, figuras de linguagem, denotação e conotação
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: "18. Aula de Tipologia textual (Português) - Parte 1"
+    url: https://www.youtube.com/watch?v=UZ5DJkUhMrM
+    autor: TecConcursos
+    duracao_min: 31
+    descricao: >-
+      Veja os capítulos sobre gêneros textuais, "não existe tipo textual puro" e o tipo
+      narrativo, com um exemplo analisado. Os demais tipos não estão nesta parte: estude-os
+      pelo texto da aula.
+  - tipo: video
+    titulo: "PASSO A PASSO para entender as FIGURAS DE LINGUAGEM!"
+    url: https://www.youtube.com/watch?v=n0e75nRstcU
+    autor: Professor Noslen
+    duracao_min: 15
+    descricao: >-
+      Denotação e conotação, comparação, metáfora, metonímia, antítese, paradoxo,
+      personificação, hipérbole, eufemismo e ironia, com exemplos de músicas. Pelos capítulos, não trata de
+      catacrese, elipse, zeugma, pleonasmo e anáfora nem é voltado a bancas: complete com o
+      texto da aula.

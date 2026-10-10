@@ -1,0 +1,35 @@
+materiais:
+  - tipo: texto
+    titulo: Compreensão e interpretação de textos variados, digitais e multimodais
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: PERFIL DA BANCA QUADRIX
+    url: https://www.youtube.com/watch?v=o8Wfty00Qk0
+    autor: Professora Flávia Rita (canal no YouTube)
+    duracao_min: 96
+    descricao: >-
+      Aula ao vivo de junho de 2026, sem capítulos. Pela descrição do vídeo, analisa o perfil da
+      Quadrix com questões objetivas de Língua Portuguesa comentadas e lista, entre os assuntos,
+      interpretação de textos, gramática aplicada e estratégias de resolução. A descrição não
+      menciona textos digitais, gráficos nem tabelas: esses pontos estão no texto da aula.
+  - tipo: video
+    titulo: Acerte as questões de INTERPRETAÇÃO DE TEXTO com estes 4 passos
+    url: https://www.youtube.com/watch?v=z0PX0-KjI6U
+    autor: Prof. Álvaro Ferreira (canal no YouTube)
+    duracao_min: 59
+    descricao: >-
+      Aula de março de 2026, sem capítulos. Pela descrição do vídeo, apresenta quatro passos para
+      resolver questões de interpretação de texto em provas de concurso. A descrição não cita a
+      Quadrix nem o formato de certo ou errado: treine os passos com os itens do tópico.
+  - tipo: podcast
+    titulo: COMPREENSÃO E INTERPRETAÇÃO DE TEXTOS
+    url: https://podcasts.apple.com/br/podcast/compreens%C3%A3o-e-interpreta%C3%A7%C3%A3o-de-textos/id1584593874?i=1000556433179
+    autor: Tribo Concursos (podcast)
+    duracao_min: 26
+    descricao: >-
+      Episódio de abril de 2022. Pela descrição da página, é uma aula de interpretação textual
+      preparada para outro concurso (Polícia Penal): aproveite o método de leitura e treine com os
+      itens do tópico, que seguem o formato de certo ou errado da Quadrix.
