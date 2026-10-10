@@ -10,7 +10,8 @@ revisados por pull request (ADR-0004 de lá).
   treino (`simulado-NN.yaml`).
 - `<concurso>/<disciplina>/<tópico>/imagens/`: as figuras citadas nos textos. Gráficos e esquemas
   são SVG feitos à mão; ilustrações sem texto podem ser geradas por IA a partir de um
-  `<nome>.prompt.md` ([ilustrações sob demanda](../.github/ilustracoes/README.md)).
+  `<nome>.prompt.md` ([ilustrações sob demanda](../.github/ilustracoes/README.md)); rodado no
+  `main`, o workflow grava as imagens direto no `main`, a única exceção ao pull request.
 
 Os gabaritos ficam no repositório privado: o diagnóstico só mede o que o aluno sabe se ele não
 vir as respostas antes.
