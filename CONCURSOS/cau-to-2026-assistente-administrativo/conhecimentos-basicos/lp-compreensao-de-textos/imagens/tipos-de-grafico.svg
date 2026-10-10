@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="324" viewBox="0 0 720 324" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="324" fill="#ffffff"/>
+
+  <!-- Colunas: solicitações de 2025 por canal (a tabela do texto) -->
+  <g transform="translate(12 12)">
+    <rect width="224" height="300" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="32" font-size="18" font-weight="700" fill="#0b0b0b">Colunas</text>
+    <line x1="24" y1="200" x2="204" y2="200" stroke="#c3c2b7"/>
+    <rect x="34" y="65" width="44" height="135" fill="#256abf"/>
+    <rect x="92" y="146" width="44" height="54" fill="#eb6834"/>
+    <rect x="150" y="173" width="44" height="27" fill="#1baf7a"/>
+    <g font-size="12" font-weight="600" fill="#0b0b0b" text-anchor="middle">
+      <text x="56" y="59">1.500</text>
+      <text x="114" y="140">600</text>
+      <text x="172" y="167">300</text>
+    </g>
+    <g font-size="11.5" fill="#52514e" text-anchor="middle">
+      <text x="56" y="218">E-mail</text>
+      <text x="114" y="218">Telefone</text>
+      <text x="172" y="218">Presencial</text>
+    </g>
+    <text x="16" y="254" font-size="13.5" fill="#52514e">
+      <tspan x="16" font-weight="600" fill="#0b0b0b">Comparam categorias:</tspan>
+      <tspan x="16" dy="20">os pedidos de 2025, por canal.</tspan>
+    </text>
+  </g>
+
+  <!-- Linhas: certidões por mês no 1º semestre (o gráfico do texto) -->
+  <g transform="translate(248 12)">
+    <rect width="224" height="300" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="32" font-size="18" font-weight="700" fill="#0b0b0b">Linhas</text>
+    <line x1="24" y1="200" x2="206" y2="200" stroke="#c3c2b7"/>
+    <polyline points="32,113.6 66,99.2 100,107.8 134,84.8 168,70.4 202,70.4" fill="none" stroke="#4a3aa7" stroke-width="3" stroke-linejoin="round"/>
+    <g fill="#4a3aa7">
+      <circle cx="32" cy="113.6" r="4.5"/>
+      <circle cx="66" cy="99.2" r="4.5"/>
+      <circle cx="100" cy="107.8" r="4.5"/>
+      <circle cx="134" cy="84.8" r="4.5"/>
+      <circle cx="168" cy="70.4" r="4.5"/>
+      <circle cx="202" cy="70.4" r="4.5"/>
+    </g>
+    <g font-size="11.5" fill="#52514e" text-anchor="middle">
+      <text x="32" y="218">jan</text>
+      <text x="66" y="218">fev</text>
+      <text x="100" y="218">mar</text>
+      <text x="134" y="218">abr</text>
+      <text x="168" y="218">mai</text>
+      <text x="202" y="218">jun</text>
+    </g>
+    <text x="16" y="254" font-size="13.5" fill="#52514e">
+      <tspan x="16" font-weight="600" fill="#0b0b0b">Mostram a evolução:</tspan>
+      <tspan x="16" dy="20">as certidões, mês a mês.</tspan>
+    </text>
+  </g>
+
+  <!-- Setores: as partes de 2025 (1.500, 600 e 300 de 2.400) -->
+  <g transform="translate(484 12)">
+    <rect width="224" height="300" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="32" font-size="18" font-weight="700" fill="#0b0b0b">Setores</text>
+    <path d="M112,128 L112,60 A68,68 0 1 1 63.92,176.08 Z" fill="#256abf"/>
+    <path d="M112,128 L63.92,176.08 A68,68 0 0 1 63.92,79.92 Z" fill="#eb6834"/>
+    <path d="M112,128 L63.92,79.92 A68,68 0 0 1 112,60 Z" fill="#1baf7a"/>
+    <g stroke="#ffffff" stroke-width="2">
+      <line x1="112" y1="128" x2="112" y2="60"/>
+      <line x1="112" y1="128" x2="63.92" y2="176.08"/>
+      <line x1="112" y1="128" x2="63.92" y2="79.92"/>
+    </g>
+    <g font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">
+      <text x="148" y="146">62,5%</text>
+      <text x="80" y="132">25%</text>
+    </g>
+    <text x="64" y="54" font-size="12" font-weight="700" fill="#127a55" text-anchor="middle">12,5%</text>
+    <g font-size="11.5" fill="#52514e">
+      <rect x="14" y="209" width="10" height="10" fill="#256abf"/>
+      <text x="28" y="218">E-mail</text>
+      <rect x="76" y="209" width="10" height="10" fill="#eb6834"/>
+      <text x="90" y="218">Telefone</text>
+      <rect x="144" y="209" width="10" height="10" fill="#1baf7a"/>
+      <text x="158" y="218">Presencial</text>
+    </g>
+    <text x="16" y="254" font-size="13.5" fill="#52514e">
+      <tspan x="16" font-weight="600" fill="#0b0b0b">Mostram as partes de um</tspan>
+      <tspan x="16" dy="20">todo (100%): canais em 2025.</tspan>
+    </text>
+  </g>
+</svg>

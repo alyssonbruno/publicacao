@@ -1,0 +1,140 @@
+# Ilustrações das aulas dos concursos, geradas por IA só quando alguém pede, em Actions →
+# "Ilustrações sob demanda" → Run workflow. Baseado no workflow do repositório da obra
+# (another-isekai). Como funciona, quanto custa e onde ficam as chaves:
+# .github/ilustracoes/README.md
+#
+# Rode no branch do pull request que trouxe os prompts: as imagens entram nesse branch e são
+# revisadas junto. Rodado no main, as imagens vão para um branch novo, e o resumo do job traz o
+# link para abrir o pull request (CONCURSOS/ só muda por pull request).
+name: Ilustrações sob demanda
+
+on:
+  workflow_dispatch:
+    inputs:
+      pasta:
+        description: "Onde procurar os prompts (ex.: CONCURSOS/cau-to-2026-assistente-administrativo)"
+        required: false
+        default: "CONCURSOS"
+      maximo:
+        description: "Teto de imagens nesta execução (0 = sem teto)"
+        required: false
+        default: "10"
+      refazer:
+        description: "Gerar de novo mesmo quem já tem imagem atual"
+        type: boolean
+        default: false
+      gerador:
+        description: "gemini ou openai (vazio: o primeiro com chave)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ilustracoes-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  ilustrar:
+    name: Gera as imagens que faltam
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Instala o Pillow (recorte e WebP)
+        run: python3 -m pip install --quiet Pillow
+
+      - name: Alguma chave está configurada?
+        id: chave
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          # A pasta vem do formulário: passa por variável, nunca direto no script.
+          PASTA: ${{ inputs.pasta }}
+        run: |
+          if [ -n "${GEMINI_API_KEY:-}" ] || [ -n "${OPENAI_API_KEY:-}" ]; then
+            echo "tem=sim" >> "$GITHUB_OUTPUT"
+          else
+            echo "tem=nao" >> "$GITHUB_OUTPUT"
+            echo "::warning::Sem GEMINI_API_KEY nem OPENAI_API_KEY nos Secrets: nenhuma imagem é gerada." \
+              "Veja .github/ilustracoes/README.md"
+            python3 .github/ilustracoes/ilustrar.py --simular --pasta="$PASTA"
+          fi
+
+      - name: Gera as imagens
+        id: gerar
+        if: steps.chave.outputs.tem == 'sim'
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PASTA: ${{ inputs.pasta }}
+          MAXIMO: ${{ inputs.maximo }}
+          REFAZER: ${{ inputs.refazer }}
+          GERADOR: ${{ inputs.gerador || vars.IMAGENS_GERADOR }}
+        run: |
+          set -uo pipefail
+          args=(--pasta="$PASTA" --maximo="$MAXIMO")
+          [ "$REFAZER" = "true" ] && args+=(--refazer)
+          [ -n "$GERADOR" ] && args+=(--gerador="$GERADOR")
+          python3 .github/ilustracoes/ilustrar.py "${args[@]}"
+
+      - name: Guarda as imagens no próprio Actions, aconteça o que acontecer
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: ilustracoes-${{ github.run_number }}
+          path: |
+            CONCURSOS/**/imagens/*.webp
+            CONCURSOS/**/imagens/geradas.json
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Commita as imagens no branch (ou num branch novo, se for o main)
+        if: steps.chave.outputs.tem == 'sim'
+        env:
+          RAMO: ${{ github.ref_name }}
+          PADRAO: ${{ github.event.repository.default_branch }}
+          REPOSITORIO: ${{ github.repository }}
+          EXECUCAO: ${{ github.run_number }}
+        run: |
+          set -euo pipefail
+          git add -- 'CONCURSOS/**/imagens/*.webp' 'CONCURSOS/**/imagens/geradas.json'
+          if git diff --cached --quiet; then
+            echo "nenhuma imagem nova: nada a commitar"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Ilustrações das aulas geradas a partir dos prompts"
+          destino="$RAMO"
+          if [ "$RAMO" = "$PADRAO" ]; then
+            destino="ilustracoes/$EXECUCAO"
+          fi
+          for tentativa in 1 2 3 4; do
+            if [ "$destino" != "$RAMO" ]; then
+              git push origin "HEAD:refs/heads/$destino" && break
+            elif git pull --rebase origin "$RAMO" && git push origin "HEAD:$RAMO"; then
+              break
+            fi
+            if [ "$tentativa" = 4 ]; then
+              echo "::error::Não consegui empurrar as imagens. Elas estão no artefato ilustracoes-$EXECUCAO."
+              exit 1
+            fi
+            sleep $((tentativa * 10))
+          done
+          if [ "$destino" != "$RAMO" ]; then
+            {
+              echo ""
+              echo "As imagens estão no branch \`$destino\`: abra o pull request em"
+              echo "https://github.com/$REPOSITORIO/compare/$PADRAO...$destino?expand=1"
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: O veredito do gerador
+        if: steps.gerar.outcome == 'failure'
+        run: |
+          echo "::error::.github/ilustracoes/ilustrar.py reprovou: veja o resumo do job"
+          exit 1
