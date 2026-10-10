@@ -1,0 +1,157 @@
+# Diagnóstico da Câmara dos Deputados 2026 — Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Diagnóstico — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação
+  tipo: diagnostico
+  fontes:
+    - 'Questões próprias, no formato de certo ou errado do Edital nº 1 – Câmara dos Deputados – Analista
+      Legislativo, de 2/10/2026 (Cebraspe): itens agrupados por comando, uma afirmação por item.'
+    - 'Bases dos comentários: Constituição Federal; Leis nº 8.112/1990 e 14.133/2021; Lei Complementar
+      nº 95/1998; Decreto nº 21.076/1932 (Código Eleitoral) — textos do Planalto, consultados em 10/10/2026;
+      Regimento Interno da Câmara dos Deputados (Resolução nº 17/1989), texto atualizado da Câmara.'
+    - 'Manual de Redação da Presidência da República (3ª ed., 2018); documentação do Whisper (repositório
+      openai/whisper no GitHub).'
+questoes:
+  # P1 — Conhecimentos Básicos
+  - id: q01
+    topico: conhecimentos-basicos/lp-compreensao-e-generos
+    enunciado: |-
+      Considere o texto a seguir.
+
+      > O registro dos debates parlamentares não é mera cópia do que se fala. Entre a fala espontânea, cheia de hesitações e repetições, e o texto publicado, há um trabalho de edição que precisa preservar o sentido e a autoria de cada intervenção. Quando esse trabalho é bem feito, o cidadão encontra no texto final um retrato fiel do debate; quando falha, perde-se parte da memória da instituição. Por essa razão, as casas legislativas mantêm equipes especializadas e, mais recentemente, passaram a usar ferramentas de transcrição automática, cujo resultado ainda depende de revisão humana.
+
+      Infere-se do texto que as ferramentas de transcrição automática tornaram dispensável o trabalho de revisão feito pelas equipes especializadas.
+  - id: q02
+    topico: conhecimentos-basicos/lp-coesao-textual
+    enunciado: |-
+      No trecho “as casas legislativas mantêm equipes especializadas e, mais recentemente, passaram a usar ferramentas de transcrição automática, cujo resultado ainda depende de revisão humana”, o pronome “cujo” retoma “ferramentas de transcrição automática” e estabelece relação de posse entre esse termo e “resultado”.
+  - id: q03
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      No trecho “Entre a fala espontânea, cheia de hesitações e repetições, e o texto publicado, há um trabalho de edição”, a forma verbal “há” poderia ser substituída por existem, sem prejuízo da correção gramatical.
+  - id: q04
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Read the text below.
+
+      > Parliaments around the world are turning to speech recognition to speed up the production of their official records. However, automatic transcripts still struggle with overlapping voices, regional accents and technical vocabulary. For this reason, most legislatures use these systems only to produce a first draft, which reporters then check against the audio before publication.
+
+      According to the text, in most legislatures automatic transcripts are published without being checked by reporters.
+  - id: q05
+    topico: conhecimentos-basicos/ingles-gramatica-e-usos
+    enunciado: |-
+      In the sentence “most legislatures use these systems only to produce a first draft, which reporters then check against the audio before publication”, the word “which” refers to “a first draft”.
+  - id: q06
+    topico: conhecimentos-basicos/adm-lei-8112
+    enunciado: De acordo com a Lei nº 8.112/1990, o servidor empossado em cargo público dispõe de trinta
+      dias, contados da data da posse, para entrar em exercício.
+  - id: q07
+    topico: conhecimentos-basicos/adm-ato-administrativo
+    enunciado: A revogação de ato administrativo, fundada em razões de conveniência e oportunidade, produz
+      efeitos retroativos (ex tunc).
+  - id: q08
+    topico: conhecimentos-basicos/adm-responsabilidade-civil
+    enunciado: A responsabilidade objetiva prevista no art. 37, § 6º, da Constituição Federal alcança tanto
+      as pessoas jurídicas de direito público quanto as de direito privado prestadoras de serviços públicos.
+  - id: q09
+    topico: conhecimentos-basicos/adm-licitacoes
+    enunciado: O diálogo competitivo é uma das modalidades de licitação previstas na Lei nº 14.133/2021.
+  - id: q10
+    topico: conhecimentos-basicos/const-direitos-sociais-nacionalidade-e-politicos
+    enunciado: A idade mínima de vinte e um anos é condição de elegibilidade para o cargo de deputado federal.
+  - id: q11
+    topico: conhecimentos-basicos/const-poder-legislativo
+    enunciado: Compete privativamente ao Senado Federal autorizar, por dois terços de seus membros, a instauração
+      de processo contra o presidente da República.
+  - id: q12
+    topico: conhecimentos-basicos/const-estatuto-dos-parlamentares
+    enunciado: Os deputados e senadores são invioláveis, civil e penalmente, por quaisquer de suas opiniões,
+      palavras e votos.
+  - id: q13
+    topico: conhecimentos-basicos/ricd-sessoes
+    enunciado: Segundo o Regimento Interno da Câmara dos Deputados, as sessões solenes são sessões deliberativas,
+      destinadas à votação de matérias em regime de urgência.
+  - id: q14
+    topico: conhecimentos-basicos/ti-office-365
+    enunciado: No Microsoft Excel, ao se copiar a fórmula =$A$1*B1 da célula C1 para a célula C2, a fórmula
+      obtida em C2 será =$A$1*B2.
+  - id: q15
+    topico: conhecimentos-basicos/ti-seguranca-da-informacao
+    enunciado: Phishing é o ataque que, por meio da alteração do serviço de nomes de domínio (DNS), leva
+      o usuário a um site falso mesmo quando ele digita corretamente o endereço do site legítimo.
+  - id: q16
+    topico: conhecimentos-basicos/ti-inteligencia-artificial-e-etica
+    enunciado: No aprendizado supervisionado, o modelo é treinado com dados rotulados, isto é, com exemplos
+      acompanhados da resposta esperada.
+  # P2 — Conhecimentos Específicos
+  - id: q17
+    topico: conhecimentos-especificos/ling-signo-linguistico
+    enunciado: Para Saussure, o signo linguístico é arbitrário, pois não há vínculo natural entre o significante
+      e o significado que ele representa.
+  - id: q18
+    topico: conhecimentos-especificos/ling-intertextualidade-e-retextualizacao
+    enunciado: Na retextualização de um pronunciamento oral para a modalidade escrita, a supressão de hesitações
+      e de marcadores conversacionais, como “né” e “tá”, pode ser feita sem alterar o conteúdo do que foi
+      dito.
+  - id: q19
+    topico: conhecimentos-especificos/ling-variacao-linguistica
+    enunciado: A variação diafásica é a que decorre da origem geográfica dos falantes, como a que distingue
+      o falar gaúcho do falar nordestino.
+  - id: q20
+    topico: conhecimentos-especificos/ling-redacao-oficial
+    enunciado: Segundo o Manual de Redação da Presidência da República, o fecho “Respeitosamente” é o indicado
+      nas comunicações dirigidas a autoridades de hierarquia superior à do remetente.
+  - id: q21
+    topico: conhecimentos-especificos/ling-tecnica-legislativa
+    enunciado: De acordo com a Lei Complementar nº 95/1998, os incisos são representados por algarismos
+      arábicos, e as alíneas, por algarismos romanos.
+  - id: q22
+    topico: conhecimentos-especificos/fala-reconhecimento-automatico
+    enunciado: A taxa de erro de palavras (WER), métrica usual de avaliação de sistemas de reconhecimento
+      automático de fala, considera apenas as palavras substituídas, desprezando as inseridas e as omitidas
+      em relação à transcrição de referência.
+  - id: q23
+    topico: conhecimentos-especificos/fala-diarizacao-pontuacao-e-tempo-real
+    enunciado: A diarização de falantes consiste em segmentar o áudio e atribuir cada trecho a quem o pronunciou,
+      de modo a responder à pergunta “quem falou quando”.
+  - id: q24
+    topico: conhecimentos-especificos/fala-ferramentas-e-apis
+    enunciado: O Whisper, da OpenAI, reconhece fala apenas em inglês e, por isso, não pode ser usado para
+      transcrever sessões em português.
+  - id: q25
+    topico: conhecimentos-especificos/fala-degravacao-e-revisao
+    enunciado: No fluxo de degravação assistida por inteligência artificial com revisão humana (human in
+      the loop), a transcrição automática é publicada diretamente, e o revisor só intervém quando há reclamação
+      posterior.
+  - id: q26
+    topico: conhecimentos-especificos/pl-comissoes-votacao-sancao-e-veto
+    enunciado: O veto do presidente da República a projeto de lei somente pode ser rejeitado pelo voto da
+      maioria absoluta dos deputados e senadores, em sessão conjunta.
+  - id: q27
+    topico: conhecimentos-especificos/pl-projetos-de-lei-e-medida-provisoria
+    enunciado: É vedada a edição de medida provisória sobre matéria relativa a direito penal, processual
+      penal e processual civil.
+  - id: q28
+    topico: conhecimentos-especificos/pl-decreto-legislativo-resolucao-e-pec
+    enunciado: A proposta de emenda à Constituição é discutida e votada em cada Casa do Congresso Nacional,
+      em dois turnos, e considera-se aprovada se obtiver, em ambos, dois terços dos votos dos respectivos
+      membros.
+  - id: q29
+    topico: conhecimentos-especificos/ricd-questoes-de-ordem-e-ata
+    enunciado: No Regimento Interno da Câmara dos Deputados, considera-se questão de ordem toda dúvida sobre
+      a interpretação do Regimento, na sua prática exclusiva ou relacionada com a Constituição Federal.
+  - id: q30
+    topico: conhecimentos-especificos/ricd-tramitacao-e-urgencia
+    enunciado: Pelo Regimento Interno da Câmara dos Deputados, os projetos de lei complementar estão sujeitos
+      a turno único de apreciação.
+  - id: q31
+    topico: conhecimentos-especificos/cp-regimes-sistemas-e-formas
+    enunciado: No presidencialismo, as funções de chefe de Estado e de chefe de governo são exercidas pela
+      mesma pessoa.
+  - id: q32
+    topico: conhecimentos-especificos/cp-sistemas-eleitorais-e-partidos
+    enunciado: Os deputados federais brasileiros são eleitos pelo sistema proporcional de lista fechada,
+      no qual o eleitor vota apenas no partido, que define previamente a ordem dos candidatos eleitos.
+  - id: q33
+    topico: conhecimentos-especificos/cp-historia-do-voto-e-dos-partidos
+    enunciado: O Código Eleitoral de 1932 estendeu o direito de voto às mulheres, ao definir como eleitor
+      o cidadão maior de 21 anos, sem distinção de sexo.
