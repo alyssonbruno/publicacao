@@ -1,0 +1,36 @@
+materiais:
+  - tipo: texto
+    titulo: 'Estrutura organizacional: conceito e tipos'
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: 'NOÇÕES DE ADMINISTRAÇÃO - BANCA QUADRIX | AULA 1: Estrutura Organizacional'
+    url: https://www.youtube.com/watch?v=lVvPhs1XhkY
+    autor: Vinicius Elias
+    duracao_min: 29
+    descricao: Pela descrição do vídeo, é um aulão de Noções de Administração voltado à banca Quadrix,
+      de 2020, sobre um trecho de edital da banca (tipos de organização, estruturas organizacionais,
+      departamentalização, organogramas). A descrição não diz que tipos de estrutura são explicados
+      nem se o assunto termina nesta aula; o vídeo não tem capítulos. Os nomes usados podem ser
+      diferentes dos do texto.
+  - tipo: video
+    titulo: 10.01. Desenho organizacional (conceitos, tipos, centralização, descentralização)
+    url: https://www.youtube.com/watch?v=UR9VrcCWHmY
+    autor: TecConcursos
+    duracao_min: 32
+    descricao: Pela descrição do vídeo, a aula trata da definição de organização, de organograma,
+      de centralização e descentralização e dos tipos de estrutura organizacional. É de um canal
+      de preparação para concursos em geral, não só para a Quadrix, e não tem capítulos que indiquem
+      o minuto de cada assunto.
+  - tipo: podcast
+    titulo: Estruturas Organizacionais (podcast Profº Msc Carlos Teixeira)
+    url: https://podcasters.spotify.com/pod/show/carlos-teixeira-de-moraes-junior/episodes/Estruturas-Organizacionais-ebuqd6
+    autor: Carlos Teixeira
+    duracao_min: 16
+    descricao: Aula de faculdade gravada em 2020 por um professor para as próprias turmas, não um
+      programa de concursos. Pela descrição do episódio, aborda os tipos de estruturas organizacionais
+      ou departamentalizações, com vantagens e desvantagens; a descrição não diz quais tipos. Trata
+      estrutura e departamentalização como sinônimos, o que o texto separa. Use como complemento,
+      depois da leitura.

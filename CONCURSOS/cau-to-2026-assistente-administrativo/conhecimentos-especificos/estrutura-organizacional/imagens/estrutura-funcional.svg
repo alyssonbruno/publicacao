@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="396" viewBox="0 0 720 396" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="396" fill="#ffffff"/>
+  <text x="12" y="26" font-size="14" font-weight="700" fill="#0b0b0b">Estrutura funcional (sentido clássico): vários chefes, cada um na sua especialidade</text>
+
+  <!-- Da presidência aos chefes especializados -->
+  <path d="M360 92 V116 M130 116 H590 M130 116 V140 M360 116 V140 M590 116 V140" stroke="#8a8880" stroke-width="2.5" fill="none"/>
+
+  <!-- De cada chefe especializado a cada setor -->
+  <g stroke-width="2.5" fill="none">
+    <path d="M130 182 L208 262 M130 182 L448 262" stroke="#256abf"/>
+    <path d="M360 182 L240 262 M360 182 L480 262" stroke="#127a55"/>
+    <path d="M590 182 L272 262 M590 182 L512 262" stroke="#eb6834"/>
+  </g>
+
+  <!-- Topo -->
+  <rect x="280" y="50" width="160" height="42" rx="8" fill="#3d3c39"/>
+  <text x="360" y="76" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Presidência</text>
+
+  <!-- Chefes especializados -->
+  <g font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <rect x="45" y="140" width="170" height="42" rx="8" fill="#256abf"/>
+    <text x="130" y="166">Chefia de Pessoal</text>
+    <rect x="275" y="140" width="170" height="42" rx="8" fill="#127a55"/>
+    <text x="360" y="166">Chefia de Finanças</text>
+    <rect x="505" y="140" width="170" height="42" rx="8" fill="#eb6834"/>
+    <text x="590" y="166">Chefia Técnica</text>
+  </g>
+
+  <!-- Setores -->
+  <g font-size="13.5" font-weight="700" fill="#0b0b0b" text-anchor="middle">
+    <rect x="150" y="262" width="180" height="42" rx="8" fill="#fcfcfb" stroke="#8a8880" stroke-width="1.5"/>
+    <text x="240" y="288">Atendimento</text>
+    <rect x="390" y="262" width="180" height="42" rx="8" fill="#fcfcfb" stroke="#8a8880" stroke-width="1.5"/>
+    <text x="480" y="288">Fiscalização</text>
+  </g>
+
+  <text x="360" y="338" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="middle">Em cada setor chegam três linhas: não há unidade de comando.</text>
+  <text x="360" y="360" font-size="12.5" fill="#52514e" text-anchor="middle">Cada chefe manda só no assunto da sua especialidade (pessoal, finanças ou técnica).</text>
+  <text x="360" y="382" font-size="12" fill="#52514e" text-anchor="middle">Exemplo fictício de um conselho profissional.</text>
+</svg>

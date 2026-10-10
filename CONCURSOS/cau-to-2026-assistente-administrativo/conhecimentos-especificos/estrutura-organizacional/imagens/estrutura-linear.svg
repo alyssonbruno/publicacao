@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="372" viewBox="0 0 720 372" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="372" fill="#ffffff"/>
+  <text x="12" y="26" font-size="14" font-weight="700" fill="#0b0b0b">Estrutura linear: cada um responde a um só chefe</text>
+
+  <!-- Linhas de autoridade (uma só para cada caixa) -->
+  <g stroke="#256abf" stroke-width="2.5" fill="none">
+    <path d="M360 92 V116 M195 116 H545 M195 116 V140 M545 116 V140"/>
+    <path d="M195 182 V206 M110 206 H280 M110 206 V230 M280 206 V230"/>
+    <path d="M545 182 V206 M460 206 H630 M460 206 V230 M630 206 V230"/>
+  </g>
+
+  <!-- Topo -->
+  <rect x="280" y="50" width="160" height="42" rx="8" fill="#256abf"/>
+  <text x="360" y="76" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Presidência</text>
+
+  <!-- Gerências -->
+  <g font-size="13.5" font-weight="700" fill="#0b0b0b" text-anchor="middle">
+    <rect x="105" y="140" width="180" height="42" rx="8" fill="#e3edf9" stroke="#256abf"/>
+    <text x="195" y="166">Gerência Administrativa</text>
+    <rect x="455" y="140" width="180" height="42" rx="8" fill="#e3edf9" stroke="#256abf"/>
+    <text x="545" y="166">Gerência Técnica</text>
+  </g>
+
+  <!-- Setores -->
+  <g font-size="13" fill="#0b0b0b" text-anchor="middle">
+    <rect x="42" y="230" width="136" height="40" rx="8" fill="#fcfcfb" stroke="#8a8880"/>
+    <text x="110" y="255">Atendimento</text>
+    <rect x="212" y="230" width="136" height="40" rx="8" fill="#fcfcfb" stroke="#8a8880"/>
+    <text x="280" y="255">Protocolo</text>
+    <rect x="392" y="230" width="136" height="40" rx="8" fill="#fcfcfb" stroke="#8a8880"/>
+    <text x="460" y="255">Registro</text>
+    <rect x="562" y="230" width="136" height="40" rx="8" fill="#fcfcfb" stroke="#8a8880"/>
+    <text x="630" y="255">Fiscalização</text>
+  </g>
+
+  <text x="360" y="312" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="middle">De cada caixa sobe uma única linha: é a unidade de comando.</text>
+  <text x="360" y="334" font-size="12.5" fill="#52514e" text-anchor="middle">O Atendimento recebe ordens só da Gerência Administrativa, que responde só à Presidência.</text>
+  <text x="360" y="356" font-size="12" fill="#52514e" text-anchor="middle">Exemplo fictício de um conselho profissional.</text>
+</svg>

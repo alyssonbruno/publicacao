@@ -1,0 +1,67 @@
+# Treino de processo administrativo — CAU/TO 2026, Assistente Administrativo. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Processo administrativo (Lei nº 9.784/1999)
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no estilo de certo ou errado do Instituto Quadrix: itens de uma afirmação,
+      agrupáveis pelo comando "com base na Lei nº 9.784/1999", na letra da lei.'
+    - 'Referência de estilo (sem cópia de itens): caderno de Assistente Administrativo do CAU/TO 2023
+      (Instituto Quadrix), bloco de 10 itens sobre a Lei nº 9.784/1999, e a lista de temas que a banca
+      cobra nessa lei, registrada na curadoria do tópico.'
+    - 'Base legal dos itens: Lei nº 9.784/1999, texto compilado do Planalto, com o Capítulo XI-A (decisão
+      coordenada) incluído pela Lei nº 14.210/2021 (consultado em 10/10/2026).'
+questoes:
+  - id: q01
+    topico: conhecimentos-complementares/processo-administrativo
+    enunciado: Conforme a Lei nº 9.784/1999, o administrado deve fazer-se assistir por advogado nos processos
+      administrativos, salvo quando a lei dispensar expressamente a representação.
+  - id: q02
+    topico: conhecimentos-complementares/processo-administrativo
+    enunciado: Segundo a Lei nº 9.784/1999, são deveres do administrado perante a Administração, entre
+      outros, expor os fatos conforme a verdade e não agir de modo temerário.
+  - id: q03
+    topico: conhecimentos-complementares/processo-administrativo
+    enunciado: De acordo com a Lei nº 9.784/1999, são legitimados como interessados no processo administrativo
+      aqueles que, sem o terem iniciado, têm direitos ou interesses que possam ser afetados pela decisão
+      a ser adotada.
+  - id: q04
+    topico: conhecimentos-complementares/processo-administrativo
+    enunciado: Nos termos da Lei nº 9.784/1999, um órgão administrativo e seu titular poderão, se não
+      houver impedimento legal, delegar parte da sua competência a outros órgãos ou titulares, ainda
+      que estes não lhes sejam hierarquicamente subordinados.
+  - id: q05
+    topico: conhecimentos-complementares/processo-administrativo
+    enunciado: Com base na Lei nº 9.784/1999, se não houver impedimento legal e for conveniente em razão
+      de circunstâncias de índole técnica, o titular de um órgão administrativo poderá delegar a outro
+      órgão a edição de atos de caráter normativo.
+  - id: q06
+    topico: conhecimentos-complementares/processo-administrativo
+    enunciado: Segundo a Lei nº 9.784/1999, um órgão não pode delegar a outro matéria de sua competência
+      exclusiva, ainda que o ato de delegação seja publicado no meio oficial.
+  - id: q07
+    topico: conhecimentos-complementares/processo-administrativo
+    enunciado: A Lei nº 9.784/1999 permite, em caráter excepcional e por motivos relevantes devidamente
+      justificados, a avocação definitiva de competência atribuída a órgão hierarquicamente inferior.
+  - id: q08
+    topico: conhecimentos-complementares/processo-administrativo
+    enunciado: De acordo com a Lei nº 9.784/1999, pode ser arguida a suspeição de autoridade ou servidor
+      que tenha amizade íntima ou inimizade notória com algum dos interessados.
+  - id: q09
+    topico: conhecimentos-complementares/processo-administrativo
+    enunciado: Conforme a Lei nº 9.784/1999, a decisão coordenada não se aplica aos processos administrativos
+      de licitação.
+  - id: q10
+    topico: conhecimentos-complementares/processo-administrativo
+    enunciado: Nos termos da Lei nº 9.784/1999, a motivação dos atos administrativos deve ser explícita,
+      clara e congruente, não podendo consistir em declaração de concordância com fundamentos de pareceres
+      anteriores.
+  - id: q11
+    topico: conhecimentos-complementares/processo-administrativo
+    enunciado: Segundo a Lei nº 9.784/1999, a Administração pode anular seus próprios atos por motivo
+      de conveniência ou oportunidade, respeitados os direitos adquiridos.
+  - id: q12
+    topico: conhecimentos-complementares/processo-administrativo
+    enunciado: Com base na Lei nº 9.784/1999, salvo disposição legal específica, é de trinta dias o prazo
+      para interposição de recurso administrativo, contado a partir da ciência ou divulgação oficial
+      da decisão recorrida.

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="528" viewBox="0 0 720 528" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="528" fill="#ffffff"/>
+  <!-- Barras: 240 px = R$ 10.000 (0,024 px por real). Total do exemplo: R$ 20.000. -->
+
+  <text x="16" y="26" font-size="14" font-weight="700" fill="#0b0b0b">Curva ABC: dez itens de material de expediente, do maior para o menor valor de consumo</text>
+
+  <!-- Cabeçalho -->
+  <g font-size="12" fill="#52514e">
+    <text x="16" y="56">Item (consumo no ano × preço unitário)</text>
+    <text x="566" y="56" text-anchor="end">Valor de consumo</text>
+    <text x="636" y="56" text-anchor="end">Acumulado</text>
+    <text x="678" y="56" text-anchor="middle">Classe</text>
+  </g>
+  <line x1="16" y1="64" x2="704" y2="64" stroke="#e1e0d9"/>
+
+  <!-- Faixas das classes: A (2 linhas), B (3 linhas), C (5 linhas); cada linha tem 34 px -->
+  <rect x="8" y="66" width="704" height="68" fill="#e3edf9"/>
+  <rect x="8" y="134" width="704" height="102" fill="#fdf1d6"/>
+  <rect x="8" y="236" width="704" height="170" fill="#1baf7a" fill-opacity="0.10"/>
+
+  <!-- Nomes dos itens -->
+  <g font-size="13" font-weight="600" fill="#0b0b0b">
+    <text x="16" y="82">Toner de impressora</text>
+    <text x="16" y="116">Papel A4 (resma)</text>
+    <text x="16" y="150">Envelope (caixa)</text>
+    <text x="16" y="184">Pasta suspensa (caixa)</text>
+    <text x="16" y="218">Caneta (caixa com 50)</text>
+    <text x="16" y="252">Etiqueta adesiva (pacote)</text>
+    <text x="16" y="286">Grampo (caixa)</text>
+    <text x="16" y="320">Clipe (caixa)</text>
+    <text x="16" y="354">Carimbo automático</text>
+    <text x="16" y="388">Borracha</text>
+  </g>
+  <g font-size="11.5" fill="#52514e">
+    <text x="16" y="97">40 × R$ 250,00</text>
+    <text x="16" y="131">240 × R$ 25,00</text>
+    <text x="16" y="165">100 × R$ 12,00</text>
+    <text x="16" y="199">50 × R$ 20,00</text>
+    <text x="16" y="233">20 × R$ 40,00</text>
+    <text x="16" y="267">20 × R$ 15,00</text>
+    <text x="16" y="301">100 × R$ 2,50</text>
+    <text x="16" y="335">100 × R$ 2,00</text>
+    <text x="16" y="369">3 × R$ 50,00</text>
+    <text x="16" y="403">200 × R$ 0,50</text>
+  </g>
+
+  <!-- Barras do valor de consumo -->
+  <g fill="#256abf">
+    <rect x="220" y="74" width="240" height="18" rx="2"/>
+    <rect x="220" y="108" width="144" height="18" rx="2"/>
+  </g>
+  <g fill="#c98500">
+    <rect x="220" y="142" width="28.8" height="18" rx="2"/>
+    <rect x="220" y="176" width="24" height="18" rx="2"/>
+    <rect x="220" y="210" width="19.2" height="18" rx="2"/>
+  </g>
+  <g fill="#127a55">
+    <rect x="220" y="244" width="7.2" height="18" rx="1"/>
+    <rect x="220" y="278" width="6" height="18" rx="1"/>
+    <rect x="220" y="312" width="4.8" height="18" rx="1"/>
+    <rect x="220" y="346" width="3.6" height="18" rx="1"/>
+    <rect x="220" y="380" width="2.4" height="18" rx="1"/>
+  </g>
+
+  <!-- Valores de consumo -->
+  <g font-size="13" fill="#0b0b0b" text-anchor="end">
+    <text x="566" y="88">R$ 10.000</text>
+    <text x="566" y="122">R$ 6.000</text>
+    <text x="566" y="156">R$ 1.200</text>
+    <text x="566" y="190">R$ 1.000</text>
+    <text x="566" y="224">R$ 800</text>
+    <text x="566" y="258">R$ 300</text>
+    <text x="566" y="292">R$ 250</text>
+    <text x="566" y="326">R$ 200</text>
+    <text x="566" y="360">R$ 150</text>
+    <text x="566" y="394">R$ 100</text>
+  </g>
+
+  <!-- Percentual acumulado -->
+  <g font-size="13" fill="#52514e" text-anchor="end">
+    <text x="636" y="88">50%</text>
+    <text x="636" y="122" font-weight="700" fill="#1c5cab">80%</text>
+    <text x="636" y="156">86%</text>
+    <text x="636" y="190">91%</text>
+    <text x="636" y="224" font-weight="700" fill="#8a5a00">95%</text>
+    <text x="636" y="258">96,5%</text>
+    <text x="636" y="292">97,75%</text>
+    <text x="636" y="326">98,75%</text>
+    <text x="636" y="360">99,5%</text>
+    <text x="636" y="394" font-weight="700" fill="#127a55">100%</text>
+  </g>
+
+  <!-- Letras das classes -->
+  <g font-size="26" font-weight="700" text-anchor="middle">
+    <text x="678" y="109" fill="#1c5cab">A</text>
+    <text x="678" y="194" fill="#8a5a00">B</text>
+    <text x="678" y="330" fill="#127a55">C</text>
+  </g>
+
+  <!-- Resumo -->
+  <g font-size="13.5" fill="#52514e">
+    <text x="16" y="434"><tspan font-weight="700" fill="#1c5cab">Classe A:</tspan> 2 itens (20% dos itens) somam R$ 16.000, ou 80% do valor de consumo.</text>
+    <text x="16" y="458"><tspan font-weight="700" fill="#8a5a00">Classe B:</tspan> 3 itens (30% dos itens) somam R$ 3.000, ou 15% do valor de consumo.</text>
+    <text x="16" y="482"><tspan font-weight="700" fill="#127a55">Classe C:</tspan> 5 itens (50% dos itens) somam R$ 1.000, ou 5% do valor de consumo.</text>
+  </g>
+  <text x="16" y="512" font-size="12" fill="#52514e">Dados fictícios. Total: R$ 20.000 no ano. Valor de consumo = quantidade consumida × preço unitário.</text>
+</svg>

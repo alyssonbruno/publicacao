@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="436" viewBox="0 0 720 436" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="436" fill="#ffffff"/>
+  <text x="12" y="26" font-size="14" font-weight="700" fill="#0b0b0b">Estrutura linha-staff: a linha manda, a assessoria aconselha</text>
+
+  <!-- Linhas de autoridade (linha) -->
+  <g stroke="#256abf" stroke-width="2.5" fill="none">
+    <path d="M360 92 V176 M195 176 H545 M195 176 V200 M545 176 V200"/>
+    <path d="M195 242 V266 M110 266 H280 M110 266 V290 M280 266 V290"/>
+    <path d="M545 242 V266 M460 266 H630 M460 266 V290 M630 266 V290"/>
+  </g>
+
+  <!-- Ligação de assessoria (staff) -->
+  <path d="M360 134 H470" stroke="#b97a00" stroke-width="2.5" stroke-dasharray="7 5" fill="none"/>
+
+  <!-- Topo -->
+  <rect x="280" y="50" width="160" height="42" rx="8" fill="#256abf"/>
+  <text x="360" y="76" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Presidência</text>
+
+  <!-- Órgão de staff -->
+  <rect x="470" y="113" width="180" height="42" rx="8" fill="#fdf3d7" stroke="#b97a00" stroke-width="1.5" stroke-dasharray="7 5"/>
+  <text x="560" y="139" font-size="13.5" font-weight="700" fill="#0b0b0b" text-anchor="middle">Assessoria Jurídica</text>
+
+  <!-- Gerências -->
+  <g font-size="13.5" font-weight="700" fill="#0b0b0b" text-anchor="middle">
+    <rect x="105" y="200" width="180" height="42" rx="8" fill="#e3edf9" stroke="#256abf"/>
+    <text x="195" y="226">Gerência Administrativa</text>
+    <rect x="455" y="200" width="180" height="42" rx="8" fill="#e3edf9" stroke="#256abf"/>
+    <text x="545" y="226">Gerência Técnica</text>
+  </g>
+
+  <!-- Setores -->
+  <g font-size="13" fill="#0b0b0b" text-anchor="middle">
+    <rect x="42" y="290" width="136" height="40" rx="8" fill="#fcfcfb" stroke="#8a8880"/>
+    <text x="110" y="315">Atendimento</text>
+    <rect x="212" y="290" width="136" height="40" rx="8" fill="#fcfcfb" stroke="#8a8880"/>
+    <text x="280" y="315">Protocolo</text>
+    <rect x="392" y="290" width="136" height="40" rx="8" fill="#fcfcfb" stroke="#8a8880"/>
+    <text x="460" y="315">Registro</text>
+    <rect x="562" y="290" width="136" height="40" rx="8" fill="#fcfcfb" stroke="#8a8880"/>
+    <text x="630" y="315">Fiscalização</text>
+  </g>
+
+  <!-- Legenda -->
+  <g font-size="12.5" fill="#0b0b0b">
+    <line x1="60" y1="364" x2="110" y2="364" stroke="#256abf" stroke-width="2.5"/>
+    <text x="120" y="368">Linha: dá ordens (um só chefe para cada um)</text>
+    <line x1="400" y1="364" x2="450" y2="364" stroke="#b97a00" stroke-width="2.5" stroke-dasharray="7 5"/>
+    <text x="460" y="368">Staff: aconselha, não dá ordens</text>
+  </g>
+  <text x="360" y="398" font-size="12.5" fill="#52514e" text-anchor="middle">A Assessoria Jurídica dá pareceres à Presidência; não manda nas gerências nem nos setores.</text>
+  <text x="360" y="420" font-size="12" fill="#52514e" text-anchor="middle">Exemplo fictício de um conselho profissional.</text>
+</svg>

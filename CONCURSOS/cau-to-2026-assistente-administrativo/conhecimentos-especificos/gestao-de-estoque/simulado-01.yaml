@@ -1,0 +1,75 @@
+# Treino do tópico. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Gestão de estoque e suprimentos de escritório
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no formato de certo ou errado do Instituto Quadrix: itens de uma frase, agrupados
+      por assunto. Referências de estilo: caderno de Assistente Administrativo do CAU/TO 2023 e itens da
+      banca sobre curva ABC listados no Aprova Concursos (nenhum item reproduzido). Os dados numéricos
+      são fictícios.'
+    - 'Bases das questões: Instrução Normativa SEDAP nº 205/1988 (itens 4.1, 5.1, 7.6 e 8.1), texto do
+      Portal de Compras do Governo Federal, e Portaria STN nº 448/2002 (art. 2º e Anexo I), consultadas
+      em 10/10/2026.'
+    - 'Doutrina: Gestão de Materiais, de Renato Ribeiro Fenili (Enap Didáticos, 2ª ed.), para custos de
+      estoque, curva ABC, giro e cobertura.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/gestao-de-estoque
+    enunciado: A respeito de suprimentos de escritório e de custos de estoque, julgue o item. O material
+      de expediente, como papéis, canetas e envelopes, classifica-se como material permanente, razão pela
+      qual cada unidade recebe número de patrimônio.
+  - id: q02
+    topico: conhecimentos-especificos/gestao-de-estoque
+    enunciado: A respeito de suprimentos de escritório e de custos de estoque, julgue o item. Quando a
+      organização passa a manter estoques maiores, o custo de armazenagem aumenta, ao passo que o custo
+      de pedido diminui.
+  - id: q03
+    topico: conhecimentos-especificos/gestao-de-estoque
+    enunciado: Acerca da curva ABC, julgue o item. O critério usual de classificação é o preço unitário
+      do material, de modo que integram a classe A os itens de maior preço por unidade, qualquer que seja
+      a quantidade consumida.
+  - id: q04
+    topico: conhecimentos-especificos/gestao-de-estoque
+    enunciado: Acerca da curva ABC, julgue o item. A classe C é formada por poucos itens, que concentram
+      a maior parte do valor de consumo do estoque.
+  - id: q05
+    topico: conhecimentos-especificos/gestao-de-estoque
+    enunciado: Acerca da curva ABC, julgue o item. Os itens da classe A justificam controle mais rigoroso
+      e acompanhamento mais frequente do que os da classe C.
+  - id: q06
+    topico: conhecimentos-especificos/gestao-de-estoque
+    enunciado: Acerca da curva ABC, julgue o item. Suponha que, em um ano, um setor tenha consumido 800
+      lápis, a R$ 0,50 a unidade, 100 caixas de clipe, a R$ 3,00 a caixa, e 30 pacotes de etiquetas, a
+      R$ 40,00 o pacote. Nessa situação, na ordenação feita pelo critério usual da curva ABC, o primeiro
+      desses três itens é o pacote de etiquetas.
+  - id: q07
+    topico: conhecimentos-especificos/gestao-de-estoque
+    enunciado: Com base nos fatores de ressuprimento definidos na Instrução Normativa SEDAP nº 205/1988,
+      julgue o item. O ponto de pedido é o nível de estoque que, ao ser atingido, determina a imediata
+      emissão de um pedido de compra.
+  - id: q08
+    topico: conhecimentos-especificos/gestao-de-estoque
+    enunciado: Com base nos fatores de ressuprimento definidos na Instrução Normativa SEDAP nº 205/1988,
+      julgue o item. Suponha que determinado material tenha tido consumo de 120 caixas nos últimos 12
+      meses e que seu tempo de aquisição seja de 3 meses, seu intervalo de aquisição, de 6 meses, e seu
+      estoque mínimo, de 15 caixas. Nessa situação, o ponto de pedido é de 75 caixas.
+  - id: q09
+    topico: conhecimentos-especificos/gestao-de-estoque
+    enunciado: No que se refere aos indicadores de gestão de estoque, julgue o item. O giro de estoque
+      indica por quanto tempo o estoque médio é capaz de atender ao consumo, caso nada seja reposto.
+  - id: q10
+    topico: conhecimentos-especificos/gestao-de-estoque
+    enunciado: Quanto à armazenagem, à distribuição e ao inventário de materiais, de acordo com a Instrução
+      Normativa SEDAP nº 205/1988, julgue o item. Na armazenagem, o material estocado há mais tempo deve
+      ser fornecido em primeiro lugar, critério conhecido como PEPS (primeiro a entrar, primeiro a sair).
+  - id: q11
+    topico: conhecimentos-especificos/gestao-de-estoque
+    enunciado: Quanto à armazenagem, à distribuição e ao inventário de materiais, de acordo com a Instrução
+      Normativa SEDAP nº 205/1988, julgue o item. No fornecimento por pressão, o material é entregue ao
+      setor mediante a apresentação de requisição pelo usuário.
+  - id: q12
+    topico: conhecimentos-especificos/gestao-de-estoque
+    enunciado: Quanto à armazenagem, à distribuição e ao inventário de materiais, de acordo com a Instrução
+      Normativa SEDAP nº 205/1988, julgue o item. O inventário eventual é o realizado em qualquer época,
+      por iniciativa do dirigente da unidade gestora ou do órgão fiscalizador.
