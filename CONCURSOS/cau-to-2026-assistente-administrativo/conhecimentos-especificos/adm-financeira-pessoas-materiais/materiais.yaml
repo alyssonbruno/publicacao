@@ -22,3 +22,16 @@ materiais:
       Aula de introdução: o que são recursos e o conceito de administração de materiais, segundo
       a descrição do vídeo. Não trata de classificação, recebimento, armazenagem nem patrimônio,
       que estão na seção 3 do texto.
+  - tipo: video
+    titulo: "Concurso CRECI/SP: Administração Financeira | Noções de Fluxo de Caixa"
+    url: https://www.youtube.com/watch?v=ankhiDpc7V8
+    autor: Carranza Cursos
+    duracao_min: 46
+    descricao: >-
+      Gravação de uma aula ao vivo de 21/9/2026, de um curso para assistente administrativo de
+      conselho profissional. Segundo a descrição da página, trata só de fluxo de caixa: entradas
+      e saídas, saldo de caixa e projeção. Acompanha a parte "Fluxo de caixa × resultado" do
+      texto; capital de giro, ciclos e regime de competência não aparecem na descrição e ficam
+      com o texto. Ninguém da equipe assistiu ao vídeo: o que está aqui vem da descrição da
+      página. Se algo divergir do texto da aula, vale o texto. Opcional, para quem quiser
+      reforço.

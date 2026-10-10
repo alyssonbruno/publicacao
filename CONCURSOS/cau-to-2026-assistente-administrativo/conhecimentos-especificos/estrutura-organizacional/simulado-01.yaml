@@ -1,0 +1,65 @@
+# Treino de estrutura organizacional (conceito e tipos). Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Estrutura organizacional (conceito e tipos)
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no formato de certo ou errado do Instituto Quadrix: itens de uma frase, agrupáveis
+      sob um comando, uma afirmação por item. Referência de estilo: o perfil da banca feito sobre o caderno
+      de Assistente Administrativo do CAU/TO 2023 (bloco de estrutura organizacional) e os enunciados
+      de itens da banca sobre o assunto em provas de conselhos de 2020 a 2024 (só a forma e os pontos
+      cobrados; nenhum item foi copiado).'
+    - 'Bases de conteúdo: "Organização, Sistemas e Métodos Aplicados a Ambientes de Informação", Unidades
+      2 e 3, de Glauco Henrique de Sousa Mendes (CAPES/UAB e UFRJ, 2018); "Teorias da Administração I
+      — Unidade 5" (PNAP/UAB, CESAD/UFS); "Estruturas administrativas de serviços de enfermagem", de
+      Paulina Kurcgant e Maria Cristina K. Braga Massarollo (Revista da Escola de Enfermagem da USP,
+      1989); "Organizações, sistemas e métodos", de Mariana Mayumi Pereira de Souza (CEAD/UFV, 2023).
+      Consultados em 10/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/estrutura-organizacional
+    enunciado: Na estrutura formal de uma organização, a autoridade pertence ao cargo, e não à pessoa
+      que o ocupa.
+  - id: q02
+    topico: conhecimentos-especificos/estrutura-organizacional
+    enunciado: A estrutura organizacional é um fim em si mesma, e não um meio de que a organização se
+      serve para alcançar os seus objetivos.
+  - id: q03
+    topico: conhecimentos-especificos/estrutura-organizacional
+    enunciado: A adoção de amplitude de controle grande, com muitos subordinados para cada chefe, resulta
+      em estrutura mais alta, com maior número de níveis hierárquicos.
+  - id: q04
+    topico: conhecimentos-especificos/estrutura-organizacional
+    enunciado: O organograma é a representação gráfica da estrutura formal da organização em determinado
+      momento.
+  - id: q05
+    topico: conhecimentos-especificos/estrutura-organizacional
+    enunciado: Na estrutura funcional derivada da supervisão funcional proposta por Taylor, o mesmo
+      subordinado recebe ordens de mais de um chefe.
+  - id: q06
+    topico: conhecimentos-especificos/estrutura-organizacional
+    enunciado: Na estrutura linha-staff, os órgãos de staff exercem autoridade de comando sobre os órgãos
+      de linha.
+  - id: q07
+    topico: conhecimentos-especificos/estrutura-organizacional
+    enunciado: Na estrutura matricial, a pessoa responde a dois chefes, o do seu setor de origem e o gerente
+      do projeto de que participa.
+  - id: q08
+    topico: conhecimentos-especificos/estrutura-organizacional
+    enunciado: A supervisão técnica exercida por chefes especialistas, cada um com autoridade restrita
+      ao assunto de sua especialidade, é característica da estrutura linear.
+  - id: q09
+    topico: conhecimentos-especificos/estrutura-organizacional
+    enunciado: A estrutura linha-staff conserva a unidade de comando própria da estrutura linear.
+  - id: q10
+    topico: conhecimentos-especificos/estrutura-organizacional
+    enunciado: A criação de uma unidade para atender profissionais e de outra para atender empresas é
+      exemplo de departamentalização pelo critério geográfico.
+  - id: q11
+    topico: conhecimentos-especificos/estrutura-organizacional
+    enunciado: Na delegação, o chefe que transfere uma tarefa a um subordinado deixa de ser responsável
+      pelo resultado.
+  - id: q12
+    topico: conhecimentos-especificos/estrutura-organizacional
+    enunciado: A estrutura organizacional é condicionada por fatores como o ambiente externo e a tecnologia
+      usada no trabalho.

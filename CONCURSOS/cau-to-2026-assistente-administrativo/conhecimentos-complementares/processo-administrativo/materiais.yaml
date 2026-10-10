@@ -1,0 +1,61 @@
+materiais:
+  - tipo: texto
+    titulo: "Processo administrativo: noções da Lei nº 9.784/1999, direitos e deveres"
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: Lei 9.784/99 - Processo Administrativo Federal - Resumo para Concursos
+    url: https://www.youtube.com/watch?v=RDprdxE4O54
+    autor: Me Julga - Cíntia Brunelli
+    duracao_min: 10
+    descricao: >-
+      Vídeo curto, publicado em 2/9/2025. Indicado pela descrição da página, sem ter sido
+      assistido: ela promete uma visão geral (para que serve a lei, princípios, direitos do
+      administrado, início do processo, motivação, anulação e revogação, prazos para
+      decidir). A descrição não cita os deveres do administrado, a delegação, o recurso nem
+      a decisão coordenada: esses pontos estão no texto da aula. Sem capítulos. Se algo
+      divergir do texto, confira na lei.
+  - tipo: video
+    titulo: Concurso CORE-SE | Lei 9.784/99 Processo Administrativo | Direito Administrativo Teoria
+    url: https://www.youtube.com/watch?v=Nq5pbhcs8T8
+    autor: Carranza Cursos (Prof. Clóvis Feitosa)
+    duracao_min: 28
+    descricao: >-
+      Transmissão ao vivo de 23/8/2025, feita para o cargo de Assistente Administrativo de
+      outro conselho profissional. Indicada pela descrição da página, sem ter sido
+      assistida: promete os pontos mais cobrados da lei, mas não diz quais nem cita direitos
+      e deveres. É aula de divulgação de um curso pago. Sem capítulos. Veja depois de ler o
+      texto.
+  - tipo: video
+    titulo: "Lei 9.784/1999 Esquematizada para Concursos: Parte Geral"
+    url: https://www.youtube.com/watch?v=nx7_8aHuEFo
+    autor: Gran Cursos Online (Prof. Rodrigo Cardoso)
+    duracao_min: 50
+    descricao: >-
+      Transmissão ao vivo de 31/1/2026, a primeira de duas aulas de teoria de um curso
+      gratuito. Indicada pela descrição da página, sem ter sido assistida: a descrição não
+      diz quais artigos ficam nesta parte. Tem trechos de divulgação de cursos e não tem
+      capítulos. Opcional, para quem quiser ouvir a lei explicada com mais calma.
+  - tipo: video
+    titulo: "Lei 9.784/1999 Esquematizada para Concursos: Parte Especial"
+    url: https://www.youtube.com/watch?v=A4RPRl_fvuA
+    autor: Gran Cursos Online (Prof. Rodrigo Cardoso)
+    duracao_min: 48
+    descricao: >-
+      Transmissão ao vivo de 7/2/2026, continuação da Parte Geral. Indicada pela descrição
+      da página, sem ter sido assistida: a descrição não lista os artigos tratados nem diz
+      se inclui a decisão coordenada. Tem trechos de divulgação de cursos e não tem
+      capítulos. Opcional; veja depois da Parte Geral.
+  - tipo: podcast
+    titulo: Processo Administrativo
+    url: https://podcasts.apple.com/br/podcast/processo-administrativo/id1556051452?i=1000512099956
+    autor: Desencaixotando o Direito Administrativo (Prof. Filipe Etges)
+    duracao_min: 35
+    descricao: >-
+      Episódio de 8/3/2021, anterior à Lei nº 14.210/2021: não traz a decisão coordenada
+      (arts. 49-A a 49-G), que está no texto da aula. Indicado pela descrição da página,
+      sem ter sido ouvido: ela fala em características, fases, princípios e principais
+      institutos da lei, e não cita direitos e deveres. A qualidade do áudio não foi
+      verificada. Opcional, para revisar ouvindo.

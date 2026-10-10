@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="492" viewBox="0 0 720 492" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="492" fill="#ffffff"/>
+
+  <!-- Linha que liga as etapas -->
+  <line x1="30" y1="44" x2="30" y2="306" stroke="#c3c2b7" stroke-width="2"/>
+
+  <!-- 1. Início -->
+  <g transform="translate(0 12)">
+    <rect x="60" width="648" height="66" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <circle cx="30" cy="32" r="16" fill="#256abf"/>
+    <text x="30" y="38" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="76" y="30" font-size="16" font-weight="700" fill="#1c5cab">Início</text>
+    <text x="76" y="50" font-size="12" fill="#52514e">arts. 5º e 6º</text>
+    <g font-size="13" fill="#0b0b0b">
+      <text x="236" y="29">De ofício ou a pedido do interessado (art. 5º).</text>
+      <text x="236" y="50">Por escrito, salvo quando admitida a solicitação oral (art. 6º).</text>
+    </g>
+  </g>
+
+  <!-- 2. Comunicação dos atos (arts. 26 a 28) e instrução (arts. 29 a 47) -->
+  <g transform="translate(0 90)">
+    <rect x="60" width="648" height="90" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <circle cx="30" cy="32" r="16" fill="#256abf"/>
+    <text x="30" y="38" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="76" y="30" font-size="16" font-weight="700" fill="#1c5cab">Comunicação</text>
+    <text x="76" y="50" font-size="16" font-weight="700" fill="#1c5cab">e instrução</text>
+    <text x="76" y="70" font-size="12" fill="#52514e">arts. 26 a 47</text>
+    <g font-size="13" fill="#0b0b0b">
+      <rect x="236" y="13" width="96" height="20" rx="10" fill="#fdeee6"/>
+      <text x="284" y="28" font-weight="700" fill="#9a3a12" text-anchor="middle">3 dias úteis</text>
+      <text x="344" y="28">antecedência das intimações (arts. 26, § 2º, e 41)</text>
+      <rect x="236" y="37" width="96" height="20" rx="10" fill="#e3edf9"/>
+      <text x="284" y="52" font-weight="700" fill="#1c5cab" text-anchor="middle">até 15 dias</text>
+      <text x="344" y="52">parecer obrigatório de órgão consultivo (art. 42)</text>
+      <rect x="236" y="61" width="96" height="20" rx="10" fill="#e3edf9"/>
+      <text x="284" y="76" font-weight="700" fill="#1c5cab" text-anchor="middle">até 10 dias</text>
+      <text x="344" y="76">manifestação final do interessado (art. 44)</text>
+    </g>
+  </g>
+
+  <!-- 3. Decisão -->
+  <g transform="translate(0 192)">
+    <rect x="60" width="648" height="70" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <circle cx="30" cy="32" r="16" fill="#256abf"/>
+    <text x="30" y="38" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+    <text x="76" y="30" font-size="16" font-weight="700" fill="#1c5cab">Decisão</text>
+    <text x="76" y="50" font-size="12" fill="#52514e">arts. 48 e 49</text>
+    <g font-size="13" fill="#0b0b0b">
+      <rect x="236" y="13" width="96" height="20" rx="10" fill="#e3edf9"/>
+      <text x="284" y="28" font-weight="700" fill="#1c5cab" text-anchor="middle">até 30 dias</text>
+      <text x="344" y="28">depois de concluída a instrução (art. 49)</text>
+      <text x="344" y="50" fill="#52514e">prorrogáveis por igual período, com motivação expressa</text>
+    </g>
+  </g>
+
+  <!-- 4. Recurso -->
+  <g transform="translate(0 274)">
+    <rect x="60" width="648" height="138" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <circle cx="30" cy="32" r="16" fill="#256abf"/>
+    <text x="30" y="38" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+    <text x="76" y="30" font-size="16" font-weight="700" fill="#1c5cab">Recurso</text>
+    <text x="76" y="50" font-size="12" fill="#52514e">arts. 56 a 62</text>
+    <g font-size="13" fill="#0b0b0b">
+      <rect x="236" y="13" width="96" height="20" rx="10" fill="#e3edf9"/>
+      <text x="284" y="28" font-weight="700" fill="#1c5cab" text-anchor="middle">10 dias</text>
+      <text x="344" y="28">para recorrer, contados da ciência (art. 59)</text>
+      <rect x="236" y="37" width="96" height="20" rx="10" fill="#e3edf9"/>
+      <text x="284" y="52" font-weight="700" fill="#1c5cab" text-anchor="middle">5 dias</text>
+      <text x="344" y="52">para a autoridade reconsiderar (art. 56, § 1º)</text>
+      <rect x="236" y="61" width="96" height="20" rx="10" fill="#fdeee6"/>
+      <text x="284" y="76" font-weight="700" fill="#9a3a12" text-anchor="middle">5 dias úteis</text>
+      <text x="344" y="76">para alegações dos demais interessados (art. 62)</text>
+      <rect x="236" y="85" width="96" height="20" rx="10" fill="#e3edf9"/>
+      <text x="284" y="100" font-weight="700" fill="#1c5cab" text-anchor="middle">até 30 dias</text>
+      <text x="344" y="100">para decidir, prorrogáveis por igual período (art. 59)</text>
+      <rect x="236" y="109" width="96" height="20" rx="10" fill="#e3edf9"/>
+      <text x="284" y="124" font-weight="700" fill="#1c5cab" text-anchor="middle">3 instâncias</text>
+      <text x="344" y="124">no máximo (art. 57)</text>
+    </g>
+  </g>
+
+  <!-- Regra geral -->
+  <rect x="12" y="424" width="696" height="56" rx="10" fill="#ece9f8" stroke="#4a3aa7" stroke-width="1.5"/>
+  <text x="28" y="447" font-size="13.5" font-weight="700" fill="#4a3aa7">Sem prazo específico: 5 dias, que podem ser dilatados até o dobro (art. 24).</text>
+  <text x="28" y="467" font-size="13" fill="#0b0b0b">Prazo em dias conta-se de modo contínuo (art. 66); em laranja, os únicos em dias úteis.</text>
+</svg>

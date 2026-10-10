@@ -1,0 +1,45 @@
+materiais:
+  - tipo: texto
+    titulo: Gestão de estoque e suprimentos de escritório
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: 02.01. Aula de Noções de Classificação de Materiais (Administração de Recursos Materiais)
+    url: https://www.youtube.com/watch?v=8viWu34x2OU
+    autor: TecConcursos
+    duracao_min: 38
+    descricao: >-
+      Aula gravada, de janeiro de 2024. Pela descrição da página, trata dos atributos da
+      classificação de materiais e das classificações ABC e XYZ, que estão nas partes de curva ABC
+      do texto da aula. O vídeo não tem capítulos, então não dá para indicar o minuto em que a
+      curva ABC começa. Não é voltado à Quadrix. Se algo divergir do texto da aula, vale o texto.
+  - tipo: video
+    titulo: 03.01. Aula de Noções de Gestão de Estoques (Administração de Recursos Materiais)
+    url: https://www.youtube.com/watch?v=dHoegcRIJfc
+    autor: TecConcursos
+    duracao_min: 27
+    descricao: >-
+      Aula gravada, de janeiro de 2024. Pela descrição da página, trata da definição de estoque,
+      do fluxo, das funções e dos tipos de estoque: serve de introdução. Níveis de estoque, ponto
+      de pedido e inventário não estão na descrição desta aula; estude-os pelo texto.
+  - tipo: podcast
+    titulo: "Logística de suprimentos no contexto da produção | Episódio 12 - Conhecimento técnico e classificação da curva ABC"
+    url: https://podcasters.spotify.com/pod/show/senai-play/episodes/Logstica-de-suprimentos-no-contexto-da-produo-Episdio-12---Conhecimento-tcnico-e-classificao-da-curva-ABC-e2guad8
+    autor: SENAI Play (podcast)
+    duracao_min: 14
+    descricao: >-
+      Episódio de março de 2024. Pela descrição da página, mostra como a curva ABC é aplicada e
+      por que o conhecimento técnico importa para que a classificação não comprometa o estoque de
+      itens críticos. O contexto é de indústria, e não de órgão público, e a descrição não diz se
+      o episódio dá os percentuais das classes: para eles, vale o texto da aula.
+  - tipo: podcast
+    titulo: "O \"mundo perfeito\" do Almoxarifado | Episódio 10 - Gestão de Estoque"
+    url: https://podcasters.spotify.com/pod/show/senai-play/episodes/O-mundo-perfeito-do-Almoxarifado--Episdio-10--Gesto-de-Estoque-e2597ir
+    autor: SENAI Play (podcast)
+    duracao_min: 14
+    descricao: >-
+      Episódio de junho de 2023. Pela descrição da página, apresenta os tipos de estoque, o giro
+      de estoque e o controle de estoque eficiente. A visão é de empresa, sem as normas do setor
+      público. Se algo divergir do texto da aula, vale o texto.

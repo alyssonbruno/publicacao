@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="448" viewBox="0 0 720 448" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#256abf"/>
+    </marker>
+  </defs>
+  <rect width="720" height="448" fill="#ffffff"/>
+
+  <!-- Delegação -->
+  <g transform="translate(12 12)">
+    <rect width="342" height="300" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="34" font-size="20" font-weight="700" fill="#1c5cab">Delegação</text>
+    <text x="326" y="34" font-size="12.5" fill="#52514e" text-anchor="end">arts. 12 a 14</text>
+
+    <rect x="16" y="58" width="126" height="44" rx="6" fill="#e3edf9" stroke="#256abf"/>
+    <text x="79" y="85" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">Quem delega</text>
+    <line x1="148" y1="80" x2="194" y2="80" stroke="#256abf" stroke-width="2" marker-end="url(#seta)"/>
+    <text x="171" y="71" font-size="11.5" fill="#52514e" text-anchor="middle">parte</text>
+    <rect x="200" y="58" width="126" height="44" rx="6" fill="#ffffff" stroke="#256abf"/>
+    <text x="263" y="77" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">
+      <tspan x="263">Outro órgão</tspan>
+      <tspan x="263" dy="16">ou titular</tspan>
+    </text>
+
+    <g font-size="13" fill="#0b0b0b">
+      <g fill="#256abf">
+        <circle cx="21" cy="146" r="3"/><circle cx="21" cy="170" r="3"/><circle cx="21" cy="212" r="3"/>
+        <circle cx="21" cy="254" r="3"/><circle cx="21" cy="276" r="3"/>
+      </g>
+      <text x="32" y="150">Passa a outro <tspan font-weight="700">parte</tspan> da competência.</text>
+      <text x="32" y="174"><tspan font-weight="700">Não exige hierarquia:</tspan> vale para quem</text>
+      <text x="32" y="192">não é subordinado.</text>
+      <text x="32" y="216">Por conveniência: razões técnicas, sociais,</text>
+      <text x="32" y="234">econômicas, jurídicas ou territoriais.</text>
+      <text x="32" y="258">Ato publicado no meio oficial.</text>
+      <text x="32" y="280">Revogável a qualquer tempo.</text>
+    </g>
+  </g>
+
+  <!-- Avocação -->
+  <g transform="translate(366 12)">
+    <rect width="342" height="300" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="34" font-size="20" font-weight="700" fill="#1c5cab">Avocação</text>
+    <text x="326" y="34" font-size="12.5" fill="#52514e" text-anchor="end">art. 15</text>
+
+    <rect x="16" y="50" width="136" height="36" rx="6" fill="#e3edf9" stroke="#256abf"/>
+    <text x="84" y="73" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">Autoridade superior</text>
+    <line x1="194" y1="102" x2="158" y2="78" stroke="#256abf" stroke-width="2" marker-end="url(#seta)"/>
+    <text x="262" y="74" font-size="11.5" fill="#52514e" text-anchor="middle">por um tempo</text>
+    <rect x="198" y="86" width="128" height="36" rx="6" fill="#ffffff" stroke="#256abf"/>
+    <text x="262" y="109" font-size="12.5" font-weight="600" fill="#0b0b0b" text-anchor="middle">Órgão inferior</text>
+
+    <g font-size="13" fill="#0b0b0b">
+      <g fill="#256abf">
+        <circle cx="21" cy="146" r="3"/><circle cx="21" cy="170" r="3"/><circle cx="21" cy="212" r="3"/>
+        <circle cx="21" cy="254" r="3"/>
+      </g>
+      <text x="32" y="150">Chama para si a competência de outro.</text>
+      <text x="32" y="174"><tspan font-weight="700">Exige hierarquia:</tspan> só de órgão</text>
+      <text x="32" y="192">hierarquicamente inferior.</text>
+      <text x="32" y="216">Excepcional, por motivos relevantes</text>
+      <text x="32" y="234">devidamente justificados.</text>
+      <text x="32" y="258"><tspan font-weight="700">Temporária.</tspan></text>
+    </g>
+  </g>
+
+  <!-- Os três casos indelegáveis -->
+  <rect x="12" y="324" width="696" height="112" rx="10" fill="#fdf0ea" stroke="#c2501f" stroke-width="1.5"/>
+  <text x="28" y="350" font-size="15" font-weight="700" fill="#9a3a12">Não podem ser delegados (art. 13)</text>
+  <text x="692" y="350" font-size="13" fill="#0b0b0b" text-anchor="end">N-R-E: “Não Repasse Essas”</text>
+
+  <g font-size="13" fill="#0b0b0b">
+    <g transform="translate(24 364)">
+      <rect width="220" height="58" rx="8" fill="#ffffff" stroke="#e8b9a3"/>
+      <circle cx="28" cy="29" r="16" fill="#b8481a"/>
+      <text x="28" y="35" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">N</text>
+      <text x="54" y="25">Atos de caráter</text>
+      <text x="54" y="43" font-weight="700">normativo</text>
+    </g>
+    <g transform="translate(250 364)">
+      <rect width="220" height="58" rx="8" fill="#ffffff" stroke="#e8b9a3"/>
+      <circle cx="28" cy="29" r="16" fill="#b8481a"/>
+      <text x="28" y="35" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">R</text>
+      <text x="54" y="25">Decisão de <tspan font-weight="700">recursos</tspan></text>
+      <text x="54" y="43">administrativos</text>
+    </g>
+    <g transform="translate(476 364)">
+      <rect width="220" height="58" rx="8" fill="#ffffff" stroke="#e8b9a3"/>
+      <circle cx="28" cy="29" r="16" fill="#b8481a"/>
+      <text x="28" y="35" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">E</text>
+      <text x="54" y="25">Matérias de competência</text>
+      <text x="54" y="43" font-weight="700">exclusiva</text>
+    </g>
+  </g>
+</svg>
