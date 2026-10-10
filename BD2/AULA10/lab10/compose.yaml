@@ -1,0 +1,66 @@
+---
+# =============================================================
+# Banco de Dados II - UNITINS | Prof. Alysson Martins Bruno
+# Aula 10 - Índices, seletividade e diagnóstico de consultas
+# Arquivo: compose.yaml
+#
+# Sobe um contêiner:
+#   bd2-aula10-pg   PostgreSQL 17 (servidor do banco)
+#
+# Uso (no diretório deste arquivo):
+#   podman compose up -d      sobe o servidor
+#   podman compose ps         confere se está no ar
+#   podman compose down       desliga (os dados continuam no volume)
+#   podman compose down -v    desliga e APAGA os dados
+#
+# Conexão ao banco (psql, DBeaver, JDBC):
+#   Host:     localhost
+#   Porta:    5432
+#   Usuário:  aluno
+#   Senha:    aluno
+#   Banco:    banco
+#
+#   Pelo terminal, sem instalar nada:
+#   podman exec -it bd2-aula10-pg psql -U aluno -d banco
+#
+# Para voltar ao ponto de partida do laboratório a qualquer momento:
+#   podman exec -i bd2-aula10-pg psql -U aluno -d banco < preparar.sql
+#
+# No PowerShell do Windows, onde o `<` não funciona:
+#   podman exec bd2-aula10-pg psql -U aluno -d banco -f /lab/preparar.sql
+#
+# As senhas são apenas didáticas. Nunca as reutilize em sistemas reais.
+# =============================================================
+
+services:
+  postgres:
+    image: docker.io/library/postgres:17
+    container_name: bd2-aula10-pg
+
+    environment:
+      POSTGRES_USER: aluno
+      POSTGRES_PASSWORD: aluno
+      POSTGRES_DB: banco
+      TZ: America/Araguaina
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      # O preparar.sql fica disponível dentro do contêiner, em /lab.
+      # Ele NÃO roda sozinho na primeira subida: cada atividade começa
+      # rodando o preparar.sql, e carregar a tabela duas vezes seria
+      # tempo perdido.
+      - ./preparar.sql:/lab/preparar.sql:ro,z
+      # Os dados ficam num volume: sobrevivem a desligar e religar.
+      - pgdata:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h localhost -U aluno -d banco"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  pgdata:
+    name: bd2-aula10-pgdata
