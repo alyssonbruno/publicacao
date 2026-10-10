@@ -1,0 +1,115 @@
+# Diagnóstico do CAU/TO 2026 — Agente Fiscal. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Diagnóstico — CAU/TO 2026, Agente Fiscal
+  tipo: diagnostico
+  fontes:
+    - 'Questões próprias, no formato de certo ou errado do Edital nº 1/2026 do CAU/TO (Instituto Quadrix):
+      itens agrupados por assunto, uma afirmação por item.'
+    - 'Bases dos comentários: Constituição Federal; Leis nº 4.320/1964, 6.766/1979, 8.036/1990, 8.429/1992,
+      9.610/1998, 9.784/1999, 10.257/2001, 12.378/2010, 12.527/2011, 13.709/2018 e 14.133/2021; Lei Complementar
+      nº 101/2000; Decreto nº 10.278/2020 (textos do Planalto, consultados em 10/10/2026).'
+    - Manual de Redação da Presidência da República (3ª ed., 2018); ABNT NBR 9050:2020; Edital nº 1/2026
+      do CAU/TO, Anexo II.
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-compreensao-de-textos
+    enunciado: |-
+      Considere o texto a seguir.
+
+      > A cidade acessível não se constrói apenas com rampas. Ela depende de calçadas contínuas, de travessias seguras e de informação que todos consigam compreender. Quando o poder público negligencia esses elementos, quem mais sofre são as pessoas idosas e as pessoas com deficiência, que passam a enfrentar obstáculos diários para exercer direitos básicos. Por isso, planejar o espaço urbano exige ouvir quem o utiliza, e não somente consultar normas técnicas.
+
+      Depreende-se do texto que a instalação de rampas, por si só, garante a acessibilidade de uma cidade.
+  - id: q02
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: No trecho “quem mais sofre são as pessoas idosas e as pessoas com deficiência, que passam
+      a enfrentar obstáculos diários”, a forma verbal “passam” poderia ser substituída por “passa”, sem
+      prejuízo da correção gramatical.
+  - id: q03
+    topico: conhecimentos-basicos/lp-coesao-e-coerencia
+    enunciado: No período “Por isso, planejar o espaço urbano exige ouvir quem o utiliza.”, a substituição
+      de “Por isso” por “Portanto” preservaria o sentido e a correção gramatical.
+  - id: q04
+    topico: conhecimentos-basicos/rlm-proposicoes-e-conectivos
+    enunciado: A negação da proposição “Se o projeto foi aprovado, então a obra começou” é “O projeto
+      foi aprovado e a obra não começou”.
+  - id: q05
+    topico: conhecimentos-basicos/rlm-razao-proporcao-porcentagem
+    enunciado: Se o valor de uma anuidade aumenta 10% e, no ano seguinte, diminui 10%, o valor final é
+      igual ao valor inicial.
+  - id: q06
+    topico: conhecimentos-basicos/rlm-contagem-e-probabilidade
+    enunciado: Com 5 servidores, é possível formar exatamente 10 comissões diferentes de 3 membros.
+  - id: q07
+    topico: conhecimentos-basicos/info-seguranca-e-backup
+    enunciado: No backup incremental, são copiados apenas os arquivos criados ou alterados desde o último
+      backup realizado, seja ele completo ou incremental.
+  - id: q08
+    topico: conhecimentos-basicos/info-aplicativos-de-escritorio
+    enunciado: No Microsoft Excel, se a célula A3 estiver vazia e as células A1, A2 e A4 contiverem números,
+      a fórmula =MÉDIA(A1:A4) dividirá a soma desses números por 4.
+  - id: q09
+    topico: conhecimentos-basicos/info-redes-e-internet
+    enunciado: A intranet, por ser uma rede privada de uma organização, não pode utilizar os mesmos protocolos
+      da internet, como o TCP/IP.
+  - id: q10
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: A eficiência é um dos princípios expressos no caput do art. 37 da Constituição Federal,
+      ao lado da legalidade, da impessoalidade, da moralidade e da publicidade.
+  - id: q11
+    topico: conhecimentos-complementares/improbidade-administrativa
+    enunciado: Após as alterações da Lei nº 14.230/2021, a conduta culposa do agente público que causa
+      lesão ao erário pode configurar ato de improbidade administrativa.
+  - id: q12
+    topico: conhecimentos-complementares/processo-administrativo
+    enunciado: Segundo a Lei nº 9.784/1999, a decisão de recursos administrativos pode ser objeto de delegação.
+  - id: q13
+    topico: conhecimentos-complementares/acesso-a-informacao
+    enunciado: Para pedir acesso a informações de interesse público, o requerente deve informar os motivos
+      da solicitação.
+  - id: q14
+    topico: conhecimentos-complementares/lgpd
+    enunciado: Para a Lei Geral de Proteção de Dados Pessoais, o dado biométrico, como a impressão digital,
+      é dado pessoal sensível.
+  - id: q15
+    topico: conhecimentos-complementares/lei-12378-2010
+    enunciado: O Conselho de Arquitetura e Urbanismo do Brasil (CAU/BR) e os conselhos dos estados e do
+      Distrito Federal são autarquias dotadas de personalidade jurídica de direito público.
+  - id: q16
+    topico: conhecimentos-especificos/nbr-9050-acessibilidade
+    enunciado: Na NBR 9050, o módulo de referência ocupado por uma pessoa em cadeira de rodas corresponde
+      à projeção de 0,80 m por 1,20 m no piso.
+  - id: q17
+    topico: conhecimentos-especificos/planejamento-urbano
+    enunciado: A taxa de ocupação de um lote é a relação entre a área construída total da edificação e
+      a área do terreno.
+  - id: q18
+    topico: conhecimentos-especificos/conforto-ambiental
+    enunciado: No hemisfério Sul, em fachadas voltadas para o norte, protetores solares horizontais tendem
+      a ser mais eficientes que os verticais, por causa da maior altura do sol nessa orientação.
+  - id: q19
+    topico: conhecimentos-especificos/memoriais-e-orcamento
+    enunciado: No orçamento de obras, o BDI (benefícios e despesas indiretas) corresponde ao custo direto
+      de materiais, mão de obra e equipamentos.
+  - id: q20
+    topico: conhecimentos-especificos/cartografia
+    enunciado: Em um mapa na escala 1:25.000, 1 cm no mapa corresponde a 2,5 km no terreno.
+  - id: q21
+    topico: conhecimentos-especificos/lei-12378-2010
+    enunciado: Exerce ilegalmente a profissão a pessoa que, mesmo sem realizar atos privativos, se apresenta
+      como arquiteto e urbanista sem ter registro no CAU.
+  - id: q22
+    topico: conhecimentos-especificos/responsabilidade-tecnica-rrt
+    enunciado: Só as atividades privativas do arquiteto e urbanista exigem Registro de Responsabilidade
+      Técnica (RRT); as de atuação compartilhada com outras profissões regulamentadas o dispensam.
+  - id: q23
+    topico: conhecimentos-especificos/resolucao-143-2017-etico-disciplinar
+    enunciado: As sanções disciplinares previstas na Lei nº 12.378/2010, aplicadas no processo ético-disciplinar,
+      incluem advertência, suspensão do exercício profissional, cancelamento do registro e multa.
+  - id: q24
+    topico: conhecimentos-especificos/parcelamento-do-solo-urbano
+    enunciado: Pela Lei nº 6.766/1979, os lotes urbanos devem ter, em regra, área mínima de 250 m² e frente
+      mínima de 10 m.
+  - id: q25
+    topico: conhecimentos-especificos/estatuto-da-cidade
+    enunciado: Segundo o Estatuto da Cidade, o plano diretor é obrigatório para cidades com mais de vinte
+      mil habitantes e deve ser revisto, pelo menos, a cada dez anos.
