@@ -3,9 +3,10 @@
 # (another-isekai). Como funciona, quanto custa e onde ficam as chaves:
 # .github/ilustracoes/README.md
 #
-# Rode no branch do pull request que trouxe os prompts: as imagens entram nesse branch e são
-# revisadas junto. Rodado no main, as imagens vão para um branch novo, e o resumo do job traz o
-# link para abrir o pull request (CONCURSOS/ só muda por pull request).
+# As imagens entram no branch em que o workflow rodou: no main, direto no main (decisão do
+# professor, para a imagem não ficar perdida num branch à parte); no branch de um pull request,
+# no próprio PR, revisadas junto. Se o push falhar, elas vão para um branch de reserva
+# (ilustracoes/<execução>) e ficam também no artefato da execução.
 name: Ilustrações sob demanda
 
 on:
@@ -41,7 +42,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
+      # O histórico inteiro: o push no fim faz rebase sobre o que entrou no branch enquanto rodava.
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
 
       - name: Instala o Pillow (recorte e WebP)
         run: python3 -m pip install --quiet Pillow
@@ -92,11 +96,10 @@ jobs:
           if-no-files-found: ignore
           retention-days: 30
 
-      - name: Commita as imagens no branch (ou num branch novo, se for o main)
+      - name: Commita as imagens no branch em que rodou (no main, direto no main)
         if: steps.chave.outputs.tem == 'sim'
         env:
           RAMO: ${{ github.ref_name }}
-          PADRAO: ${{ github.event.repository.default_branch }}
           REPOSITORIO: ${{ github.repository }}
           EXECUCAO: ${{ github.run_number }}
         run: |
@@ -109,29 +112,26 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Ilustrações das aulas geradas a partir dos prompts"
-          destino="$RAMO"
-          if [ "$RAMO" = "$PADRAO" ]; then
-            destino="ilustracoes/$EXECUCAO"
-          fi
           for tentativa in 1 2 3 4; do
-            if [ "$destino" != "$RAMO" ]; then
-              git push origin "HEAD:refs/heads/$destino" && break
-            elif git pull --rebase origin "$RAMO" && git push origin "HEAD:$RAMO"; then
-              break
+            if git pull --rebase origin "$RAMO" && git push origin "HEAD:$RAMO"; then
+              echo "As imagens novas estão no branch \`$RAMO\`." >> "$GITHUB_STEP_SUMMARY"
+              exit 0
             fi
-            if [ "$tentativa" = 4 ]; then
-              echo "::error::Não consegui empurrar as imagens. Elas estão no artefato ilustracoes-$EXECUCAO."
-              exit 1
-            fi
+            echo "push falhou (tentativa $tentativa); o estado da árvore:"
+            git status --short | head -20
             sleep $((tentativa * 10))
           done
-          if [ "$destino" != "$RAMO" ]; then
-            {
-              echo ""
-              echo "As imagens estão no branch \`$destino\`: abra o pull request em"
-              echo "https://github.com/$REPOSITORIO/compare/$PADRAO...$destino?expand=1"
-            } >> "$GITHUB_STEP_SUMMARY"
-          fi
+          # Sem conseguir empurrar (proteção do branch, concorrência): as imagens não se perdem.
+          git rebase --abort 2>/dev/null || true
+          reserva="ilustracoes/$EXECUCAO"
+          git push origin "HEAD:refs/heads/$reserva"
+          {
+            echo ""
+            echo "Não consegui empurrar para \`$RAMO\`. As imagens estão no branch \`$reserva\`:"
+            echo "https://github.com/$REPOSITORIO/compare/$RAMO...$reserva?expand=1"
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo "::error::Não consegui empurrar as imagens para $RAMO; elas estão no branch $reserva."
+          exit 1
 
       - name: O veredito do gerador
         if: steps.gerar.outcome == 'failure'

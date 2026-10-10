@@ -29,10 +29,16 @@ CONCURSOS/<concurso>/<disciplina>/<tópico>/
 1. Configure uma chave em *Settings → Secrets and variables → Actions*: `GEMINI_API_KEY`
    (Gemini, o padrão) e/ou `OPENAI_API_KEY`. A variável `IMAGENS_GERADOR` (opcional) escolhe
    `gemini` ou `openai` quando as duas existem.
-2. Em *Actions → Ilustrações sob demanda → Run workflow*, escolha **o branch do pull request**
-   que trouxe os prompts. As imagens entram como um commit nesse branch e são revisadas junto.
-   Rodado no `main`, as imagens vão para um branch novo (`ilustracoes/<número>`), e o resumo do
-   job traz o link para abrir o pull request.
+2. Em *Actions → Ilustrações sob demanda → Run workflow*, escolha o branch. As imagens entram
+   como um commit **no próprio branch em que o workflow rodou**:
+   - no `main` (o caso comum, depois do merge dos prompts), **direto no `main`**, sem pull
+     request: a sincronização seguinte leva a imagem ao painel;
+   - no branch de um pull request, no próprio PR, e são revisadas junto.
+
+   Se o push falhar (proteção do branch, outra execução ao mesmo tempo), as imagens vão para um
+   branch de reserva (`ilustracoes/<número>`), o resumo do job traz o link para abrir o pull
+   request, e a execução termina com erro para chamar atenção. Elas também ficam 30 dias no
+   artefato da execução.
 3. Campos: a pasta (padrão `CONCURSOS`), o teto de imagens (padrão 10), `refazer` e o gerador.
    Vazio quer dizer gerar o que falta ou mudou.
 
@@ -55,5 +61,5 @@ do sistema lê uma cópia simples deste repositório, e as imagens são poucas e
 | aviso de chave ausente | nenhum secret de gerador | configure `GEMINI_API_KEY` ou `OPENAI_API_KEY` |
 | "a cota do gerador acabou" | cota do dia ou faturamento | aguarde, ative o faturamento ou troque o gerador |
 | recusada pelo gerador | filtro de conteúdo | mude o prompt; a recusa fica anotada até ele mudar |
-| imagens geradas e push falhou | concorrência no branch | baixe o artefato `ilustracoes-<n>` (30 dias) |
+| imagens num branch `ilustracoes/<n>` | o push no branch falhou | abra o PR pelo link do resumo do job (ou baixe o artefato) |
 | mudou o estilo e nada aconteceu | esperado: o hash é só do prompt | rode com `refazer` |
