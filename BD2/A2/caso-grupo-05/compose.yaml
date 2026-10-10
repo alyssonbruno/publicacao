@@ -1,0 +1,68 @@
+---
+# =============================================================
+# Banco de Dados II - UNITINS | Prof. Alysson Martins Bruno
+# Avaliação A2 (2026/2) - Caso do Grupo 05: AVA Cerrado Digital (educação a distância)
+# Arquivo: compose.yaml
+#
+# Sobe um contêiner:
+#   bd2-a2-g05-pg   PostgreSQL 17 (servidor do banco)
+#
+# Uso (no diretório deste arquivo):
+#   podman compose up -d      sobe o servidor
+#   podman compose ps         confere se está no ar
+#   podman compose down       desliga (os dados continuam no volume)
+#   podman compose down -v    desliga e APAGA os dados
+#
+# Conexão ao banco (psql, DBeaver):
+#   Host:     localhost
+#   Porta:    5432
+#   Usuário:  aluno
+#   Senha:    aluno
+#   Banco:    banco
+#
+#   Pelo terminal, sem instalar nada:
+#   podman exec -it bd2-a2-g05-pg psql -U aluno -d banco
+#
+# Para voltar ao ponto de partida do caso a qualquer momento:
+#   podman exec -i bd2-a2-g05-pg psql -U aluno -d banco < preparar.sql
+#
+# No PowerShell do Windows, onde o `<` não funciona:
+#   podman exec bd2-a2-g05-pg psql -U aluno -d banco -f /a2/preparar.sql
+#
+# As senhas são apenas didáticas. Nunca as reutilize em sistemas reais.
+# =============================================================
+
+services:
+  postgres:
+    image: docker.io/library/postgres:17
+    container_name: bd2-a2-g05-pg
+
+    environment:
+      POSTGRES_USER: aluno
+      POSTGRES_PASSWORD: aluno
+      POSTGRES_DB: banco
+      TZ: America/Araguaina
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      # A pasta do caso fica visível dentro do contêiner, em /a2 (só
+      # leitura): é assim que `psql -f /a2/arquivo.sql` encontra o
+      # preparar.sql, o consultas.sql e os scripts que o grupo criar.
+      # O preparar.sql NÃO roda sozinho na primeira subida: cada sessão
+      # de trabalho começa rodando-o, e carregar duas vezes seria tempo
+      # perdido.
+      - .:/a2:ro,z
+      # Os dados ficam num volume: sobrevivem a desligar e religar.
+      - pgdata:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h localhost -U aluno -d banco"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  pgdata:
+    name: bd2-a2-g05-pgdata
