@@ -1,5 +1,7 @@
 # Compreensão e interpretação de textos variados, digitais e multimodais
 
+![Uma pessoa lê com atenção um e-mail, uma postagem e um gráfico](imagens/abertura.webp)
+
 ## O que o edital pede
 
 O edital abre Língua Portuguesa com este item: "Compreensão e Interpretação de Textos: Análise de textos variados, incluindo digitais (e-mails, redes sociais) e multimodais (gráficos, tabelas)". São três frentes:
@@ -8,29 +10,36 @@ O edital abre Língua Portuguesa com este item: "Compreensão e Interpretação 
 2. ler **textos digitais**, como um e-mail ou uma postagem em rede social;
 3. ler **textos multimodais**, como uma tabela ou um gráfico.
 
-A prova é de certo ou errado: cada item é uma afirmação sobre o texto, e você decide se ela se sustenta. Como o erro tira um ponto, a regra de ouro desta aula é uma só: **a resposta se prova com o que está no texto**. Se você não consegue apontar a linha (ou a célula da tabela) que sustenta a afirmação, desconfie.
+A prova é de certo ou errado: cada item é uma afirmação sobre o texto, e você decide se ela se sustenta. Como o erro tira um ponto, vale uma regra só.
+
+> [!IMPORTANT]
+> **A resposta se prova com o que está no texto.** Se você não consegue apontar a linha (ou a célula da tabela) que sustenta a afirmação, desconfie.
 
 ## Como a Quadrix cobrou em 2023
 
 Na prova de Assistente Administrativo do CAU/TO de 2023, os dois textos de Português eram curtos (um de 20 linhas, outro de 7), tirados do site do próprio conselho. Dos 20 itens, só 3 eram de compreensão: uma inferência que misturava datas e fatos do texto, um item sobre o objetivo do texto e uma conclusão direta. O restante era gramática aplicada ao texto.
 
-Duas lições (são leitura nossa da prova, não regra do edital):
-
-- o texto é curto, mas o item de compreensão exige voltar a ele e conferir **cada pedaço** da afirmação;
-- textos digitais e multimodais não apareceram em 2023. O trecho é novidade no edital de 2026, e é razoável esperar um e-mail, um post ou uma tabela como texto-base.
+> [!NOTE]
+> Duas lições, que são leitura nossa da prova, e não regra do edital:
+>
+> - o texto é curto, mas o item de compreensão exige voltar a ele e conferir **cada pedaço** da afirmação;
+> - textos digitais e multimodais não apareceram em 2023. O trecho é novidade no edital de 2026, e é razoável esperar um e-mail, um post ou uma tabela como texto-base.
 
 ## Compreender e interpretar
 
 - **Compreender** é localizar e reconhecer o que o texto diz de forma explícita. O item costuma vir com "de acordo com o texto" ou "segundo o texto". A afirmação certa é uma paráfrase: diz o mesmo com outras palavras.
 - **Interpretar** é concluir algo que o texto não diz com todas as letras, mas autoriza. O item costuma vir com "infere-se", "depreende-se" ou "conclui-se". A afirmação certa é uma consequência necessária do que está escrito, e não uma opinião plausível sobre o assunto.
 
-Exemplo. Texto: "O atendimento presencial passará a ocorrer exclusivamente mediante agendamento."
+### Exemplo
+
+Texto: "O atendimento presencial passará a ocorrer exclusivamente mediante agendamento."
 
 - Compreensão: "O atendimento presencial dependerá de agendamento." Certo: é paráfrase.
 - Interpretação: "Antes da mudança, havia atendimento presencial sem agendamento." Certo: "passará a" e "exclusivamente" só fazem sentido se antes era diferente.
 - Fora do texto: "O agendamento tornará o atendimento mais rápido." Pode até ser verdade, mas o texto não diz nem autoriza. Errado.
 
-Atenção: na prova de 2023, um item introduzido por "Infere-se do texto que" apenas juntava fatos e datas que estavam explícitos, em uma combinação a conferir. Ou seja, o verbo do comando não dispensa a conferência dos dados.
+> [!WARNING]
+> Na prova de 2023, um item introduzido por "Infere-se do texto que" apenas juntava fatos e datas que estavam explícitos, em uma combinação a conferir. Ou seja, o verbo do comando não dispensa a conferência dos dados.
 
 ## Um roteiro de leitura (dica de estudo)
 
@@ -44,19 +53,24 @@ Atenção: na prova de 2023, um item introduzido por "Infere-se do texto que" ap
 
 São as três maneiras mais comuns de uma afirmação se afastar do texto. Aprenda a dar nome ao erro: fica mais fácil reconhecê-lo.
 
+![Três quadros. No primeiro, o item passa dos limites do texto. No segundo, o item é um pedaço pequeno dentro do texto. No terceiro, o item diz o contrário do texto.](imagens/tres-erros.svg "Os três erros: o item vai além do texto, fica com uma parte dele ou diz o contrário")
+
 | Erro | O que acontece | Exemplo com o texto "O curso é gratuito e tem 40 vagas, preenchidas por ordem de inscrição" |
 |---|---|---|
 | Extrapolação | A afirmação vai além do texto: acrescenta uma ideia, uma causa ou uma consequência que não está lá | "O curso é gratuito porque foi pago com recursos das anuidades." |
 | Redução | A afirmação fica com uma parte verdadeira e a apresenta como se fosse o todo ou o principal | "O texto tem por finalidade informar que há 40 vagas." (se o texto for um convite à inscrição) |
 | Contradição | A afirmação diz o contrário do texto | "As vagas serão distribuídas por sorteio." |
 
-Como a banca disfarça esses erros:
+### Como a banca disfarça esses erros
 
 - **Fatos embaralhados.** Todos os dados estão no texto, mas ligados de outro jeito: a data de um fato é atribuída a outro, o número da primeira etapa vai para a segunda. É uma contradição escondida numa frase quase toda verdadeira.
-- **Uma palavra a mais.** "Apenas", "somente", "sempre", "nunca", "todos", "exclusivamente", "garante". Se o texto diz "em geral" e o item diz "sempre", houve extrapolação. Mas cuidado: absoluto não é sinônimo de errado. Se o próprio texto traz "exclusivamente", o item que o repete está certo.
+- **Uma palavra a mais.** "Apenas", "somente", "sempre", "nunca", "todos", "exclusivamente", "garante". Se o texto diz "em geral" e o item diz "sempre", houve extrapolação.
 - **Causa inventada.** O texto diz que dois fatos ocorreram; o item diz que um causou o outro.
 - **Detalhe promovido a objetivo.** Em item sobre a finalidade do texto, a afirmação escolhe uma informação secundária (redução).
 - **Troca de quem fala.** O texto atribui uma opinião a alguém ("segundo a coordenação"), e o item a apresenta como fato ou como opinião de outro.
+
+> [!CAUTION]
+> Palavra absoluta não é sinônimo de item errado. Se o próprio texto traz "exclusivamente", o item que o repete está certo.
 
 ## Textos variados: o que observar
 
@@ -71,6 +85,8 @@ Nos textos curtos de site institucional (notícias, comunicados, verbetes), obse
 
 Textos digitais são os que circulam no ambiente virtual. Leia-os como qualquer texto, com quatro perguntas a mais.
 
+![Um e-mail de um setor de atendimento, com seis marcas: remetente, destinatário, assunto, corpo, fecho e assinatura, link e anexo.](imagens/anatomia-do-email.svg "Um e-mail institucional (fictício) e as suas partes")
+
 ### 1. Qual é a finalidade?
 
 Informar uma mudança, pedir uma providência, convocar, divulgar, responder a uma solicitação. No e-mail, o campo **assunto** costuma resumir a finalidade; no post, ela está na primeira frase ou na chamada ("Atenção", "Últimos dias", "Participe").
@@ -84,7 +100,8 @@ Informar uma mudança, pedir uma providência, convocar, divulgar, responder a u
 
 O e-mail pode ser formal ou informal, conforme a situação. O institucional tende ao formal: vocativo ("Prezada Senhora"), frases completas, fecho ("Atenciosamente"). O post de rede social, mesmo de um órgão público, costuma ser mais curto e mais próximo da fala: frases breves, perguntas ao leitor, hashtags, emojis, abreviações, expressões do próprio meio ("link na bio", "chame no direto").
 
-Informal não quer dizer incorreto, e formal não quer dizer difícil. O item pode perguntar se o registro é **adequado** ao meio e ao interlocutor: "Chame a gente" é adequado num post e inadequado num ofício.
+> [!TIP]
+> Informal não quer dizer incorreto, e formal não quer dizer difícil. O item pode perguntar se o registro é **adequado** ao meio e ao interlocutor: "Chame a gente" é adequado num post e inadequado num ofício.
 
 ### 4. O que está implícito?
 
@@ -123,15 +140,18 @@ Um texto é multimodal quando o sentido é construído por mais de um modo ao me
 5. **Cabeçalhos e legenda:** o que cada linha, coluna, cor ou eixo representa. Na tabela, cruze linha e coluna para achar cada valor; veja se há linha de total.
 6. **Comparação:** só então compare: maior, menor, aumentou, diminuiu, quanto.
 
+![Uma tabela com seis marcas: o título, a unidade, o período, a fonte, os cabeçalhos e, por último, os valores a comparar.](imagens/moldura-da-tabela.svg "A moldura primeiro, os números depois")
+
 ### Tipos de gráfico mais comuns
 
-Como nesta aula não há imagens, imagine cada um:
+![Três gráficos: colunas com os pedidos de 2025 por canal, uma linha com as certidões de janeiro a junho e um círculo dividido em fatias com a participação de cada canal.](imagens/tipos-de-grafico.svg "Os três tipos mais comuns, com os dados desta aula")
 
 - **Colunas ou barras:** uma barra para cada categoria (cada canal de atendimento, cada mês); a altura ou o comprimento mostra o valor. Serve para comparar categorias.
 - **Linhas:** pontos ligados ao longo do tempo. Serve para ver evolução: a linha sobe, desce ou fica estável.
 - **Setores ("pizza"):** um círculo dividido em fatias que, juntas, formam o todo (100%). Serve para ver a participação de cada parte. Mostra proporção, não quantidade, salvo se os valores vierem escritos.
 
-Em gráficos, confira ainda a escala do eixo: um eixo que não começa do zero faz uma diferença pequena parecer enorme.
+> [!WARNING]
+> Confira a escala do eixo: um eixo que não começa do zero faz uma diferença pequena parecer enorme.
 
 ### O que o dado permite e o que não permite concluir
 
@@ -163,15 +183,14 @@ A tabela **não permite** concluir:
 - "o atendimento presencial deixou de ser procurado": caiu, mas houve 300 solicitações (contradição);
 - "nos dois anos, mais da metade das solicitações chegou por e-mail": vale para 2025, não para 2024 (1.200 de 2.500 é menos da metade). É a generalização de um dado parcial.
 
-Repare no último caso: é o tipo de "pequena imprecisão" que derruba o candidato apressado. O item é quase todo verdadeiro, e o erro está em duas palavras ("nos dois anos").
+> [!CAUTION]
+> Repare no último caso: é o tipo de "pequena imprecisão" que derruba o candidato apressado. O item é quase todo verdadeiro, e o erro está em duas palavras ("nos dois anos").
 
-### Um gráfico, descrito em palavras
+### Um gráfico de linhas
 
-Imagine um gráfico de linhas com o título "Certidões emitidas pelo portal de um conselho profissional, por mês — 1º semestre de 2025" (dados fictícios). Eixo horizontal: os meses. Eixo vertical: o número de certidões, de 0 a 500. Os pontos da linha:
+Leia a moldura antes da linha: o título, o período, a unidade do eixo vertical (de 0 a 500 certidões) e a fonte.
 
-| Mês | jan. | fev. | mar. | abr. | maio | jun. |
-|---|---|---|---|---|---|---|
-| Certidões | 300 | 350 | 320 | 400 | 450 | 450 |
+![Gráfico de linhas das certidões emitidas por mês no 1º semestre de 2025: janeiro 300, fevereiro 350, março 320, abril 400, maio 450 e junho 450.](imagens/certidoes-por-mes.svg "Dados fictícios, criados para esta aula")
 
 O gráfico **permite** concluir que o maior valor foi o de maio e junho e que, de janeiro a junho, a emissão mensal subiu 50% (de 300 para 450).
 
@@ -200,4 +219,4 @@ O gráfico **não permite** concluir:
 - Instituto Quadrix, prova de Assistente Administrativo do CAU/TO, 2023 (referência do formato e da proporção dos itens; nenhum item foi reproduzido): https://www.pciconcursos.com.br/provas/download/assistente-administrativo-cau-to-quadrix-2023
 - CAU/TO, Edital nº 1/2026, Anexo II (conteúdo programático de Língua Portuguesa).
 
-Os textos, as tabelas, o gráfico e os dados dos exemplos foram escritos para esta aula e são fictícios.
+Os textos, as tabelas, as figuras e os dados dos exemplos foram feitos para esta aula e são fictícios.

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="400" fill="#ffffff"/>
+
+  <!-- O e-mail (fictício) -->
+  <rect x="16" y="16" width="420" height="368" rx="10" fill="#fcfcfb" stroke="#c3c2b7"/>
+  <g font-size="13">
+    <text x="32" y="48"><tspan font-weight="600" fill="#52514e">De: </tspan><tspan fill="#0b0b0b">Setor de Atendimento do Conselho</tspan></text>
+    <text x="32" y="76"><tspan font-weight="600" fill="#52514e">Para: </tspan><tspan fill="#0b0b0b">Profissionais registrados</tspan></text>
+    <text x="32" y="104"><tspan font-weight="600" fill="#52514e">Assunto: </tspan><tspan font-weight="600" fill="#0b0b0b">Atendimento presencial só com agendamento</tspan></text>
+  </g>
+  <line x1="32" y1="120" x2="420" y2="120" stroke="#e1e0d9"/>
+  <text x="32" y="148" font-size="13" fill="#0b0b0b">
+    <tspan x="32">Prezados profissionais,</tspan>
+    <tspan x="32" dy="32">Informamos que, a partir de 3 de novembro,</tspan>
+    <tspan x="32" dy="20">o atendimento presencial passará a ocorrer</tspan>
+    <tspan x="32" dy="20">exclusivamente mediante agendamento, pelo</tspan>
+    <tspan x="32" dy="20">link abaixo. O atendimento por telefone</tspan>
+    <tspan x="32" dy="20">continua das 8h às 17h.</tspan>
+    <tspan x="32" dy="32">Atenciosamente,</tspan>
+    <tspan x="32" dy="20">Setor de Atendimento</tspan>
+  </text>
+  <text x="32" y="348" font-size="13" fill="#256abf" text-decoration="underline">agendamento.conselho.exemplo</text>
+  <rect x="252" y="333" width="124" height="24" rx="12" fill="#f0efec" stroke="#c3c2b7"/>
+  <text x="314" y="349" font-size="12" fill="#52514e" text-anchor="middle">orientacoes.pdf</text>
+
+  <!-- As marcas numeradas no e-mail -->
+  <g font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <circle cx="414" cy="44" r="11" fill="#256abf"/><text x="414" y="48">1</text>
+    <circle cx="414" cy="72" r="11" fill="#256abf"/><text x="414" y="76">2</text>
+    <circle cx="414" cy="100" r="11" fill="#256abf"/><text x="414" y="104">3</text>
+    <circle cx="414" cy="210" r="11" fill="#256abf"/><text x="414" y="214">4</text>
+    <circle cx="414" cy="292" r="11" fill="#256abf"/><text x="414" y="296">5</text>
+    <circle cx="414" cy="345" r="11" fill="#256abf"/><text x="414" y="349">6</text>
+  </g>
+
+  <!-- A legenda -->
+  <g font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <circle cx="464" cy="44" r="11" fill="#256abf"/><text x="464" y="48">1</text>
+    <circle cx="464" cy="102" r="11" fill="#256abf"/><text x="464" y="106">2</text>
+    <circle cx="464" cy="160" r="11" fill="#256abf"/><text x="464" y="164">3</text>
+    <circle cx="464" cy="218" r="11" fill="#256abf"/><text x="464" y="222">4</text>
+    <circle cx="464" cy="294" r="11" fill="#256abf"/><text x="464" y="298">5</text>
+    <circle cx="464" cy="352" r="11" fill="#256abf"/><text x="464" y="356">6</text>
+  </g>
+  <g font-size="12.5" fill="#52514e">
+    <text x="484" y="49"><tspan font-size="14" font-weight="700" fill="#0b0b0b">Remetente</tspan><tspan x="484" dy="19">quem fala: uma pessoa ou</tspan><tspan x="484" dy="17">um setor</tspan></text>
+    <text x="484" y="107"><tspan font-size="14" font-weight="700" fill="#0b0b0b">Destinatário</tspan><tspan x="484" dy="19">um grupo, e não uma pessoa</tspan></text>
+    <text x="484" y="165"><tspan font-size="14" font-weight="700" fill="#0b0b0b">Assunto</tspan><tspan x="484" dy="19">resume a finalidade</tspan></text>
+    <text x="484" y="223"><tspan font-size="14" font-weight="700" fill="#0b0b0b">Corpo</tspan><tspan x="484" dy="19">“Informamos”: fala a instituição.</tspan><tspan x="484" dy="17">“passará a” e “continua”: há</tspan><tspan x="484" dy="17">informação implícita</tspan></text>
+    <text x="484" y="299"><tspan font-size="14" font-weight="700" fill="#0b0b0b">Fecho e assinatura</tspan><tspan x="484" dy="19">registro formal, de instituição</tspan></text>
+    <text x="484" y="357"><tspan font-size="14" font-weight="700" fill="#0b0b0b">Link e anexo</tspan><tspan x="484" dy="19">completam a informação</tspan></text>
+  </g>
+</svg>

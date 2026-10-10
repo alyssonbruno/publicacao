@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="320" fill="#ffffff"/>
+
+  <!-- Extrapolação: o item é maior que o texto -->
+  <g transform="translate(12 12)">
+    <rect width="224" height="296" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="32" font-size="18" font-weight="700" fill="#b42727">1. Extrapolação</text>
+    <rect x="70" y="102" width="132" height="76" rx="8" fill="#fbe3e3"/>
+    <rect x="24" y="64" width="128" height="92" rx="8" fill="#e3edf9" stroke="#256abf" stroke-width="2"/>
+    <rect x="70" y="102" width="132" height="76" rx="8" fill="none" stroke="#d03b3b" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="34" y="84" font-size="12.5" font-weight="600" fill="#1c5cab">o texto</text>
+    <text x="158" y="124" font-size="12.5" font-weight="600" fill="#b42727">o item</text>
+    <text x="16" y="216" font-size="13.5" fill="#52514e">
+      <tspan x="16" font-weight="600" fill="#0b0b0b">O item vai além do texto:</tspan>
+      <tspan x="16" dy="20">acrescenta uma causa, uma</tspan>
+      <tspan x="16" dy="20">consequência ou uma previsão</tspan>
+      <tspan x="16" dy="20">que o texto não traz.</tspan>
+    </text>
+  </g>
+
+  <!-- Redução: o item é um pedaço do texto -->
+  <g transform="translate(248 12)">
+    <rect width="224" height="296" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="32" font-size="18" font-weight="700" fill="#8a5a00">2. Redução</text>
+    <rect x="32" y="64" width="160" height="112" rx="8" fill="#e3edf9" stroke="#256abf" stroke-width="2"/>
+    <text x="42" y="84" font-size="12.5" font-weight="600" fill="#1c5cab">o texto</text>
+    <rect x="48" y="104" width="64" height="52" rx="6" fill="#fdf1d6" stroke="#c98500" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="80" y="134" font-size="12.5" font-weight="600" fill="#8a5a00" text-anchor="middle">o item</text>
+    <text x="16" y="216" font-size="13.5" fill="#52514e">
+      <tspan x="16" font-weight="600" fill="#0b0b0b">O item fica com uma parte</tspan>
+      <tspan x="16" dy="20">verdadeira e a apresenta</tspan>
+      <tspan x="16" dy="20">como o todo ou como o</tspan>
+      <tspan x="16" dy="20">principal do texto.</tspan>
+    </text>
+  </g>
+
+  <!-- Contradição: o item diz o contrário -->
+  <g transform="translate(484 12)">
+    <rect width="224" height="296" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="32" font-size="18" font-weight="700" fill="#4a3aa7">3. Contradição</text>
+    <rect x="16" y="76" width="84" height="84" rx="8" fill="#e3edf9" stroke="#256abf" stroke-width="2"/>
+    <text x="58" y="108" font-size="12.5" font-weight="600" fill="#1c5cab" text-anchor="middle">o texto</text>
+    <text x="58" y="138" font-size="20" font-weight="700" fill="#1c5cab" text-anchor="middle">A</text>
+    <text x="112" y="128" font-size="30" font-weight="700" fill="#4a3aa7" text-anchor="middle">≠</text>
+    <rect x="124" y="76" width="84" height="84" rx="8" fill="#ece9f8" stroke="#4a3aa7" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="166" y="108" font-size="12.5" font-weight="600" fill="#4a3aa7" text-anchor="middle">o item</text>
+    <text x="166" y="138" font-size="20" font-weight="700" fill="#4a3aa7" text-anchor="middle">não A</text>
+    <text x="16" y="216" font-size="13.5" fill="#52514e">
+      <tspan x="16" font-weight="600" fill="#0b0b0b">O item diz o contrário do</tspan>
+      <tspan x="16" dy="20">texto. Às vezes, com fatos</tspan>
+      <tspan x="16" dy="20">verdadeiros embaralhados</tspan>
+      <tspan x="16" dy="20">(a data de um no outro).</tspan>
+    </text>
+  </g>
+</svg>

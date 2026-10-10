@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="312" viewBox="0 0 720 312" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="312" fill="#ffffff"/>
+
+  <!-- A tabela do texto, com a moldura -->
+  <text x="52" y="34" font-size="13.5" font-weight="700" fill="#0b0b0b">
+    <tspan x="52">Solicitações recebidas pelo setor de</tspan>
+    <tspan x="52" dy="18">atendimento de um conselho profissional,</tspan>
+    <tspan x="52" dy="18">por canal — 2024 e 2025</tspan>
+  </text>
+  <rect x="52" y="88" width="348" height="28" fill="#f0efec"/>
+  <g font-size="13" fill="#0b0b0b">
+    <text x="62" y="107" font-weight="700">Canal</text>
+    <text x="300" y="107" font-weight="700" text-anchor="end">2024</text>
+    <text x="388" y="107" font-weight="700" text-anchor="end">2025</text>
+    <text x="62" y="135">E-mail</text>
+    <text x="300" y="135" text-anchor="end">1.200</text>
+    <text x="388" y="135" text-anchor="end">1.500</text>
+    <text x="62" y="163">Telefone</text>
+    <text x="300" y="163" text-anchor="end">900</text>
+    <text x="388" y="163" text-anchor="end">600</text>
+    <text x="62" y="191">Presencial</text>
+    <text x="300" y="191" text-anchor="end">400</text>
+    <text x="388" y="191" text-anchor="end">300</text>
+    <text x="62" y="219" font-weight="700">Total</text>
+    <text x="300" y="219" font-weight="700" text-anchor="end">2.500</text>
+    <text x="388" y="219" font-weight="700" text-anchor="end">2.400</text>
+  </g>
+  <g stroke="#e1e0d9">
+    <line x1="52" y1="144" x2="400" y2="144"/>
+    <line x1="52" y1="172" x2="400" y2="172"/>
+  </g>
+  <line x1="52" y1="200" x2="400" y2="200" stroke="#8a8880"/>
+  <line x1="52" y1="228" x2="400" y2="228" stroke="#e1e0d9"/>
+  <g font-size="12.5" fill="#52514e">
+    <text x="52" y="256">Unidade: número de solicitações.</text>
+    <text x="52" y="280">Fonte: relatório anual do setor de atendimento (fictício).</text>
+  </g>
+
+  <!-- As marcas, na ordem de leitura -->
+  <g font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <circle cx="30" cy="48" r="11" fill="#1baf7a"/><text x="30" y="52">1</text>
+    <circle cx="30" cy="252" r="11" fill="#1baf7a"/><text x="30" y="256">2</text>
+    <circle cx="416" cy="102" r="11" fill="#1baf7a"/><text x="416" y="106">3</text>
+    <circle cx="30" cy="276" r="11" fill="#1baf7a"/><text x="30" y="280">4</text>
+    <circle cx="30" cy="102" r="11" fill="#1baf7a"/><text x="30" y="106">5</text>
+    <circle cx="416" cy="158" r="11" fill="#256abf"/><text x="416" y="162">6</text>
+  </g>
+
+  <!-- A legenda -->
+  <g font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <circle cx="462" cy="30" r="11" fill="#1baf7a"/><text x="462" y="34">1</text>
+    <circle cx="462" cy="76" r="11" fill="#1baf7a"/><text x="462" y="80">2</text>
+    <circle cx="462" cy="122" r="11" fill="#1baf7a"/><text x="462" y="126">3</text>
+    <circle cx="462" cy="168" r="11" fill="#1baf7a"/><text x="462" y="172">4</text>
+    <circle cx="462" cy="214" r="11" fill="#1baf7a"/><text x="462" y="218">5</text>
+    <circle cx="462" cy="260" r="11" fill="#256abf"/><text x="462" y="264">6</text>
+  </g>
+  <g font-size="12.5" fill="#52514e">
+    <text x="482" y="35"><tspan font-size="14" font-weight="700" fill="#0b0b0b">Título</tspan><tspan x="482" dy="18">o que foi medido, onde, de quem</tspan></text>
+    <text x="482" y="81"><tspan font-size="14" font-weight="700" fill="#0b0b0b">Unidade</tspan><tspan x="482" dy="18">pedidos? reais? dias? %?</tspan></text>
+    <text x="482" y="127"><tspan font-size="14" font-weight="700" fill="#0b0b0b">Período</tspan><tspan x="482" dy="18">de quando são os dados</tspan></text>
+    <text x="482" y="173"><tspan font-size="14" font-weight="700" fill="#0b0b0b">Fonte</tspan><tspan x="482" dy="18">quem produziu os dados</tspan></text>
+    <text x="482" y="219"><tspan font-size="14" font-weight="700" fill="#0b0b0b">Cabeçalhos</tspan><tspan x="482" dy="18">o que é cada linha e coluna</tspan></text>
+    <text x="482" y="265"><tspan font-size="14" font-weight="700" fill="#0b0b0b">Só então, compare</tspan><tspan x="482" dy="18">maior, menor, quanto mudou</tspan></text>
+  </g>
+</svg>
