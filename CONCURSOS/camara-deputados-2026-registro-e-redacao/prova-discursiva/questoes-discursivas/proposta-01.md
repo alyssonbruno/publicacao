@@ -7,7 +7,7 @@ Questão discursiva no formato da prova: **até 20 linhas, 15,00 pontos**. O con
 - Faça o que se pede usando, se quiser, uma folha de rascunho. Depois, passe o texto para a folha definitiva, com 20 linhas numeradas. Só a folha definitiva é corrigida.
 - O que passar da linha 20 será desconsiderado.
 - Não escreva nome, assinatura ou qualquer marca que identifique você. Na prova, isso anula a discursiva.
-- Dos 15,00 pontos de conteúdo, até 0,70 ponto vai para a apresentação (letra legível, margens respeitadas, parágrafos indicados) e para a estrutura textual (ideias organizadas em texto estruturado), como no caderno da Câmara 2025. O restante está distribuído entre os aspectos abaixo.
+- Dos 15,00 pontos de conteúdo, até 0,70 ponto vai para a apresentação (letra legível, margens respeitadas, parágrafos indicados) e para a estrutura textual (ideias organizadas em texto estruturado). É o valor do caderno da Câmara 2025: o edital de 2026 não o fixa, e o caderno da sua prova pode trazer outro. O restante está distribuído entre os aspectos abaixo.
 - Tempo sugerido: 45 minutos, do plano à passagem a limpo.
 
 ## Questão
@@ -26,10 +26,10 @@ Considerando a situação apresentada, redija um texto dissertativo acerca da te
 
 ## Como será corrigida
 
-Os critérios são os do edital para as questões discursivas (itens 9.8.4 e 9.8.5.1, p. 40 e 41):
+Os critérios são os do edital para as questões discursivas (itens 9.8.4 e 9.8.5.1, p. 40 e 41); só o valor da apresentação vem do caderno de 2025, porque o edital não o fixa:
 
 - **Texto dissertativo**, conforme o comando, com coerência e coesão. Resposta em tópicos ou em esquema perde na estrutura.
-- **Nota de conteúdo (NC)**, até 15,00: apresentação e estrutura (0,70) mais o desenvolvimento dos três aspectos (14,30), avaliados pelo padrão de resposta.
+- **Nota de conteúdo (NC)**, até 15,00: apresentação e estrutura (0,70, valor do caderno de 2025) mais o desenvolvimento dos três aspectos (14,30), avaliados pelo padrão de resposta.
 - **Desconto por erro**: NQ = NC − 3 × NE ÷ TL. NE é o número de erros de grafia, morfossintaxe e propriedade vocabular; TL, o número de linhas que você efetivamente escreveu.
 - **Nota zero**: fuga ao tema, texto em branco ou nota negativa depois do desconto.
 - A correção é uma **nota estimada**, com a devolutiva no painel, na página desta proposta.

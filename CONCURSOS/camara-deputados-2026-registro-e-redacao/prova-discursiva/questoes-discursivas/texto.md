@@ -4,7 +4,7 @@
 
 Na tarde da prova, depois das objetivas, vem a discursiva: duas questões de até 20 linhas e uma peça técnica. Esta aula trata das **duas questões**. Elas valem metade da discursiva, e é nelas que mais se perde ponto por descuido: aspecto esquecido, texto na linha 21, resposta em tópicos, erro de português num texto curto.
 
-Ao fim da aula, você deve saber ler o comando, distribuir as linhas, montar a resposta e fazer a conta do desconto por erro. A peça técnica e a lista completa dos critérios de correção têm aulas próprias.
+Ao fim da aula, você deve saber ler o comando, distribuir as linhas, montar a resposta e fazer a conta do desconto por erro. A peça técnica tem aula própria. As regras de correção que valem para a discursiva inteira (quem corrige, o que conta como erro, o que anula a prova) ficam para a aula de Critérios de correção e desconto por erro de português.
 
 ## O que o edital pede
 
@@ -28,12 +28,12 @@ O item 9.8.4 (p. 40) diz o que se avalia: o conteúdo, a expressão escrita e o 
 
 A nota de cada questão nasce de duas avaliações:
 
-- **NC, a nota de conteúdo**, até 15 pontos: junta a apresentação e a estrutura do texto com o desenvolvimento do tema (9.8.5.1, a). Dois examinadores corrigem, e vale a média das duas notas se elas diferirem em até 25% da nota máxima, ou seja, 3,75 pontos. Se diferirem mais, há uma terceira correção, e vale a média das duas notas mais próximas (9.8.4.1.1 a 9.8.4.1.3).
+- **NC, a nota de conteúdo**, até 15 pontos: junta a apresentação e a estrutura do texto com o desenvolvimento do tema (9.8.5.1, a). Como os examinadores chegam a ela fica para a aula de Critérios de correção e desconto por erro de português.
 - **NE, o número de erros** de grafia, morfossintaxe e propriedade vocabular (9.8.5.1, b), que desconta da NC pela fórmula da parte "O desconto por erro de português".
 
-Depois da prova, o Cebraspe publica o **padrão de resposta**. Na Câmara 2025, ele trazia um texto com tudo o que a banca aceitava e, em seguida, os **quesitos**, numerados a partir de 2.1 (o quesito 1 é a apresentação e a estrutura), um para cada aspecto do comando. Cada quesito tem uma escala de conceitos (de 0 a 2, de 0 a 3, de 0 a 5), e o conceito sobe com o número de elementos certos que a resposta traz.
+Depois da prova, o Cebraspe publica o **padrão de resposta**. Na Câmara 2025, ele trazia um texto com tudo o que a banca aceitava e, em seguida, os **quesitos**, numerados a partir de 2.1 (o quesito 1 é a apresentação e a estrutura), um para cada aspecto do comando. Cada quesito tem uma escala de conceitos (de 0 a 2, de 0 a 3, de 0 a 5). Nos dois primeiros quesitos da questão 1, o conceito subia com o número de elementos certos que a resposta trazia. Na questão 2, subia com a qualidade: "incompleto ou parcialmente inconsistente" valia menos que "completo e consistente".
 
-No caderno de 2025, a apresentação (letra legível, margens, parágrafos) e a estrutura textual valiam até 0,70 dos 15 pontos de cada questão; o resto ia para os aspectos. O edital de 2026 não diz esse valor: ele aparece no próprio caderno de prova.
+No caderno de 2025, a apresentação (letra legível, margens, parágrafos) e a estrutura textual valiam até 0,70 dos 15 pontos de cada questão; o resto ia para os aspectos. O edital de 2026 não diz esse valor: ele aparece no próprio caderno de prova e muda de prova para prova. Na SEED/SE 2025 (Professor de Língua Portuguesa, também do Cebraspe, com questões de até 15 linhas), foi de 0,75 em questões de 15 pontos.
 
 > [!IMPORTANT]
 > O padrão de resposta é a lista do que vale ponto, aspecto por aspecto. Texto bem escrito sobre o que não foi pedido não sobe conceito nenhum.
@@ -44,7 +44,7 @@ A questão do Cebraspe tem três partes: um texto motivador (às vezes, uma situ
 
 O verbo de cada aspecto diz o que fazer:
 
-- **"Esclareça se…"** pede uma **posição** (sim ou não, pode ou não pode) e o **fundamento**. Na Câmara 2025, num aspecto assim, quem só citou a regra ficou com o conceito 1, e quem a citou e explicou, com o 2.
+- **"Esclareça se…"** pede uma **posição** (sim ou não, pode ou não pode) e o **fundamento**. Na Câmara 2025, num aspecto assim, quem só citou a regra ficou com o conceito 1, e quem a citou e explicou, com o 2; lá, porém, o comando pedia o texto "com fundamento" na Constituição e na jurisprudência do STF. Quando o comando não pede, dê o fundamento mesmo assim (recomendação nossa).
 - **"Discorra acerca de…"** e **"aborde…"** pedem os elementos do assunto. No padrão, cada elemento certo conta.
 - **"Explique…"** e **"justifique…"** pedem o porquê: a causa, o fundamento.
 - **"Diferencie…"** pede os termos e o critério que os separa.
@@ -72,15 +72,15 @@ Faça esse plano no rascunho, com duas ou três palavras-chave por aspecto, e s�
 
 ## A anatomia de uma resposta de 20 linhas
 
-A figura mostra a forma que recomendamos: abertura curta, um parágrafo por aspecto na ordem do comando e, se sobrar espaço, uma linha de fechamento. O texto dentro dela é o começo da resposta do exemplo comentado, na próxima parte.
+A figura mostra a forma que recomendamos: abertura curta (opcional), um parágrafo por aspecto na ordem do comando e, se sobrar espaço, uma linha de fechamento. O texto dentro dela é o começo da resposta do exemplo comentado, na próxima parte.
 
-![Folha de 20 linhas numeradas, dividida em blocos coloridos. Linhas 1 e 2: abertura, que entra direto no tema ("A distinção entre denotação e conotação explica…"). Linhas 3 a 9: aspecto 1, de 6,00 pontos, aberto por um tópico frasal que retoma o aspecto ("A denotação é o sentido literal…"). Linhas 10 a 15: aspecto 2, de 5,00 pontos, um "esclareça se" com a posição na primeira frase e o fundamento logo depois ("Na fala do deputado, “cheque em branco” foi empregado em sentido conotativo…"). Linhas 16 a 19: aspecto 3, de 3,30 pontos, com menos linhas porque vale menos ("O contexto é decisivo porque…"). Linha 20: folga, ou um fechamento de uma linha, só se sobrar espaço. Abaixo da folha, a linha 21 riscada: desconsiderada (edital, 9.8.5.1, c). No pé, a conta das linhas, recomendação da aula e não regra do edital: valor do aspecto dividido por 14,30 e multiplicado por 17, o que dá 7 linhas para 6,00 pontos, 6 para 5,00 e 4 para 3,30.](imagens/anatomia-da-resposta.svg "Abertura, um parágrafo por aspecto e folga")
+![Folha de 20 linhas numeradas, dividida em blocos coloridos. Linhas 1 e 2: abertura opcional, que entra direto no tema ("A distinção entre denotação e conotação explica…"). Linhas 3 a 9: aspecto 1, de 6,00 pontos, aberto por um tópico frasal que retoma o aspecto ("A denotação é o sentido literal…"). Linhas 10 a 15: aspecto 2, de 5,00 pontos, um "esclareça se" com a posição na primeira frase e o fundamento logo depois ("Na fala do deputado, “cheque em branco” foi empregado em sentido conotativo…"). Linhas 16 a 19: aspecto 3, de 3,30 pontos, com menos linhas porque vale menos ("O contexto é decisivo porque…"). Linha 20: folga, ou um fechamento de uma linha, só se sobrar espaço. Abaixo da folha, a linha 21 riscada: desconsiderada (edital, 9.8.5.1, c). No pé, a conta das linhas, recomendação da aula e não regra do edital: valor do aspecto dividido por 14,30 e multiplicado por 17, o que dá 7 linhas para 6,00 pontos, 6 para 5,00 e 4 para 3,30; as 2 linhas da abertura e a de folga ficam fora da conta.](imagens/anatomia-da-resposta.svg "Abertura, um parágrafo por aspecto e folga")
 
-- **Abertura (1 ou 2 linhas)**: uma frase que já entra no tema. Nada de "desde os primórdios" nem de repetir o texto motivador.
+- **Abertura (1 ou 2 linhas, opcional)**: uma frase que já entra no tema. Nada de "desde os primórdios" nem de repetir o texto motivador. Se as linhas apertarem, comece direto pelo primeiro aspecto.
 - **Um parágrafo por aspecto**, na ordem do comando. Abra cada um com um **tópico frasal** que retome o aspecto e já traga a resposta. O examinador procura cada quesito na folha: facilite o trabalho dele.
 - **Fechamento (1 linha, opcional)**: só se sobrar espaço. Ele não costuma ter quesito próprio; nunca tire linhas de um aspecto para concluir.
 
-O padrão definitivo do Técnico Legislativo da Câmara 2025 é organizado exatamente assim: quatro parágrafos, um por aspecto, cada um aberto pelo nome do aspecto ("Na tomada de decisões…", "Quanto à divisão do trabalho…").
+O padrão definitivo do Técnico Legislativo da Câmara 2025 (questão 1) segue essa lógica, e sem abertura: quatro parágrafos, um por aspecto, cada um aberto pelo nome do aspecto ("Na tomada de decisões…", "Quanto à divisão do trabalho…"). A abertura é recomendação nossa; o que o padrão da banca mostra é um parágrafo por aspecto.
 
 > [!WARNING]
 > "Texto dissertativo" (9.8.4) é texto em prosa, com parágrafos ligados por conectivos. Resposta em tópicos soltos, em esquema ou com setas arrisca o quesito de estrutura e a coesão. Nomeie o aspecto no começo do parágrafo em vez de numerá-lo.
@@ -112,7 +112,7 @@ O conteúdo segue o uso semântico e estilístico do par (sentido literal × sen
 Por que ela pontua:
 
 - Cada parágrafo responde a um aspecto, na ordem do comando, e começa por ele.
-- O "esclareça se" tem a posição na primeira frase ("foi empregado em sentido conotativo") e o fundamento logo depois. Repare: o comando não diz "justifique", e mesmo assim o fundamento conta, como mostrou o conceito 2 da Câmara 2025.
+- O "esclareça se" tem a posição na primeira frase ("foi empregado em sentido conotativo") e o fundamento logo depois. Repare: o comando não diz "justifique", e mesmo assim o fundamento está lá, como recomendamos para todo "esclareça se".
 - O aspecto 1 não para nas duas definições: a última frase diz como uma se apoia na outra.
 - A abertura tem uma frase e já está no tema. Não há conclusão, porque as linhas foram para os aspectos.
 
@@ -142,27 +142,21 @@ Com NC de 12,00 e 4 erros:
 - em 20 linhas: 3 × 4 ÷ 20 = 0,60, e NQ = 12,00 − 0,60 = **11,40**;
 - em 10 linhas: 3 × 4 ÷ 10 = 1,20, e NQ = 12,00 − 1,20 = **10,80**.
 
-Cada erro custa 3 ÷ TL: 0,15 ponto num texto de 20 linhas, 0,30 num de 10. Dito de outro modo, o desconto é 3 vezes a quantidade de erros por linha. Um erro por linha custa 3 pontos, qualquer que seja o tamanho do texto.
+Cada erro custa 3 ÷ TL: 0,15 ponto num texto de 20 linhas, 0,30 num de 10. Dito de outro modo, o desconto é 3 vezes a quantidade de erros por linha. Um erro por linha custa 3 pontos, qualquer que seja o tamanho do texto. Se a conta der negativa, a nota na questão é zero (9.8.5.1, e).
 
 > [!CAUTION]
 > Isso não é convite para encher linhas. Linha sem conteúdo não sobe a NC e traz chances novas de erro. O que protege a nota é escrever os aspectos inteiros, com poucos erros por linha.
 
-Na peça técnica, o fator é 6 (9.8.5.2, d). O que conta como erro de grafia, de morfossintaxe e de propriedade vocabular fica para a aula de critérios de correção.
+Na peça técnica, o fator é 6 (9.8.5.2, d). O que conta como erro de grafia, de morfossintaxe e de propriedade vocabular fica para a aula de Critérios de correção e desconto por erro de português.
 
-## O que zera, o que anula, o que não conta
+## A linha 20 e o comando
 
-Pelo edital:
-
-- **Fuga ao tema ou texto em branco**: nota zero na questão (9.8.5.1, f).
-- **Nota negativa**: vira zero (9.8.5.1, e). Uma NC de 2,00 com 10 erros em 8 linhas daria 2,00 − 3,75 = −1,75; a nota é zero.
-- **Texto da linha 21 em diante, ou fora do espaço próprio**: desconsiderado (9.8.5.1, c). Se o último aspecto começa na linha 19, o que passar da 20 não existe para a banca.
-- **Rascunho**: não vale para a avaliação (9.6).
-- **Nome, assinatura, rubrica ou qualquer marca** que identifique você no espaço do texto definitivo: anula **a prova discursiva inteira**, e não só a questão (9.5, p. 40).
-- **Forma**: à mão, com letra legível e caneta esferográfica de tinta preta, de material transparente (9.4, p. 39). Lápis e borracha são proibidos durante as provas (13.10.1, p. 46).
-- **Documento de textos definitivos não devolvido**: a discursiva é anulada, e o candidato, eliminado (9.8.5.5, p. 41).
+O limite de 20 linhas não tem tolerância: o que passa da linha 20, ou fica fora do espaço da questão, é desconsiderado (9.8.5.1, c). Se o último aspecto começa na linha 19, o que vier depois da 20 não existe para a banca. É mais um motivo para planejar as linhas antes de escrever.
 
 > [!WARNING]
-> O edital só zera a fuga ao tema. Tratar do tema sem atender ao comando, explicando o assunto em geral e esquecendo um aspecto, não dá zero: dá conceito baixo nos quesitos que faltaram. O plano no rascunho é o que evita isso.
+> Quanto ao conteúdo, só a fuga ao tema zera a questão (9.8.5.1, f). Tratar do tema sem atender ao comando, explicando o assunto em geral e esquecendo um aspecto, não dá zero: dá conceito baixo nos quesitos que faltaram. O plano no rascunho é o que evita isso.
+
+As regras que valem para a discursiva inteira (a caneta, a marca que identifica o candidato, o documento de textos definitivos, a correção por dois examinadores) estão na aula de Critérios de correção e desconto por erro de português.
 
 ## Pegadinhas que custam pontos
 
@@ -173,7 +167,7 @@ Pelo edital:
 - Responder em tópicos, esquemas ou frases soltas.
 - Trocar o termo técnico por sinônimo só para variar: "significante" vira "som" no meio do texto, e o conceito fica impreciso. O Manual de Redação da Presidência da República pede, na precisão, a mesma palavra para a mesma ideia, sem sinonímia "com propósito meramente estilístico".
 - Achar que escrever pouco protege de erro: com o mesmo número de erros, o texto curto perde mais.
-- Confiar em regra de outro edital. Textos antigos na internet trazem outro fator de desconto ou outra regra para a terceira correção: vale o edital de 2026.
+- Confiar em regra de outro edital ou de outra prova. Textos antigos na internet trazem outro fator de desconto, e cadernos de outros concursos, outro valor para a apresentação: vale o edital de 2026 e, para a apresentação, o caderno da sua prova.
 
 ## Como treinar a partir de hoje
 
@@ -184,7 +178,7 @@ Pelo edital:
 
 ## Fontes
 
-- Câmara dos Deputados e Cebraspe, Edital nº 1 – Câmara dos Deputados – Analista Legislativo, de 2/10/2026 (itens 7.3, 9.1 a 9.8.5.5 e 13.10.1): https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/BBE30D016054F40651E36AC7B302C3425BD148A39675CA840A5A0CCBFBB5F0F1.pdf
+- Câmara dos Deputados e Cebraspe, Edital nº 1 – Câmara dos Deputados – Analista Legislativo, de 2/10/2026 (itens 7.3 e 9.1 a 9.8.5.4): https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/BBE30D016054F40651E36AC7B302C3425BD148A39675CA840A5A0CCBFBB5F0F1.pdf
 - Cebraspe, Câmara dos Deputados 2025, Cargo 1 (Analista Legislativo, Processo Legislativo e Gestão), caderno da prova discursiva: https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/4536C347379F236B51C537AC0D040D50717F27BF79FE55B56E95C3E8DFB96839.pdf
 - Cebraspe, Câmara dos Deputados 2025, Cargo 1, padrão definitivo de respostas da prova discursiva: https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/D5F3CAA9B8BAEA93D7B1750A43949FF94C88F2DA3F44ADAE978062F601A94FDD.pdf
 - Cebraspe, Câmara dos Deputados 2025, Cargo 2 (Técnico Legislativo), padrão definitivo de respostas da prova discursiva: https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/1C23D0335F1DED27BA543CF39E89A4531EE45DCC023A9026ECD2311A10AF5254.pdf

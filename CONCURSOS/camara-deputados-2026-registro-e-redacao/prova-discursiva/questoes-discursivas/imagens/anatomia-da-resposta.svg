@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 780" width="1100" height="780" font-family="Inter, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 800" width="1100" height="800" font-family="Inter, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif">
   <title>Anatomia de uma resposta de até 20 linhas</title>
-  <desc>Folha de 20 linhas dividida em abertura (linhas 1 e 2), aspecto 1 de 6,00 pontos (linhas 3 a 9), aspecto 2 de 5,00 pontos (linhas 10 a 15), aspecto 3 de 3,30 pontos (linhas 16 a 19) e folga (linha 20). A linha 21 é desconsiderada. Linhas por aspecto: valor dividido por 14,30 e multiplicado por 17.</desc>
-  <rect x="0" y="0" width="1100" height="780" fill="#f9f9f7"/>
+  <desc>Folha de 20 linhas dividida em abertura opcional (linhas 1 e 2), aspecto 1 de 6,00 pontos (linhas 3 a 9), aspecto 2 de 5,00 pontos (linhas 10 a 15), aspecto 3 de 3,30 pontos (linhas 16 a 19) e folga (linha 20). A linha 21 é desconsiderada. Linhas por aspecto: valor dividido por 14,30 e multiplicado por 17; a abertura e a folga ficam fora da conta. Recomendação da aula, não regra do edital.</desc>
+  <rect x="0" y="0" width="1100" height="800" fill="#f9f9f7"/>
 
   <text x="40" y="46" font-size="26" font-weight="700" fill="#1f2937">Anatomia de uma resposta de até 20 linhas</text>
   <text x="40" y="74" font-size="15" fill="#4b5563">Exemplo: a questão sobre denotação e conotação desta aula (aspectos de 6,00, 5,00 e 3,30 pontos)</text>
@@ -113,7 +113,7 @@
 
   <!-- notas -->
   <g font-size="15" fill="#1f2937">
-    <text x="666" y="120" font-weight="700" fill="#1d5aa6">Abertura · linhas 1 e 2</text>
+    <text x="666" y="120" font-weight="700" fill="#1d5aa6">Abertura (opcional) · linhas 1 e 2</text>
     <text x="666" y="142">Entra direto no tema. Sem “desde os primórdios”.</text>
 
     <text x="666" y="222" font-weight="700" fill="#11865c">Aspecto 1 · 6,00 pontos · linhas 3 a 9</text>
@@ -137,5 +137,6 @@
   <!-- conta -->
   <line x1="40" y1="706" x2="1060" y2="706" stroke="#d5d9de" stroke-width="1"/>
   <text x="40" y="734" font-size="16" font-weight="700" fill="#1f2937">Linhas por aspecto ≈ valor do aspecto ÷ 14,30 × 17</text>
-  <text x="40" y="758" font-size="14" fill="#4b5563">6,00 → 7 linhas · 5,00 → 6 linhas · 3,30 → 4 linhas. As 2 linhas da abertura e a de folga ficam fora da conta. Recomendação da aula, não regra do edital.</text>
+  <text x="40" y="758" font-size="14" fill="#4b5563">6,00 → 7 linhas · 5,00 → 6 linhas · 3,30 → 4 linhas. As 2 linhas da abertura e a de folga ficam fora da conta.</text>
+  <text x="40" y="780" font-size="14" fill="#4b5563">Recomendação da aula, não regra do edital.</text>
 </svg>
