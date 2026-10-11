@@ -27,7 +27,7 @@
 - **Parônimos**: só parecidos: *mandado*/*mandato*, *ratificar*/*retificar*, *infringir*/*infligir*, *vultoso*/*vultuoso*, *emenda*/*ementa*.
 - **Sinonímia** perfeita é rara; no Regimento, *sessão* (Plenário) e *reunião* (comissões) não se trocam. **Antonímia**: oposição de sentido, às vezes só no contexto (*governo* × *oposição*).
 - **Hiperônimo** (geral) × **hipônimo** (específico): teste "X é um tipo de Y". *Projeto* é hipônimo de *proposição* e hiperônimo de *projeto de lei*. Parte não é tipo (artigo × projeto: meronímia).
-- **Campo semântico**: para o Cebraspe, palavras de uma mesma área de sentido (*votação*, *quórum*, *painel*). Em materiais escolares, os sentidos de uma só palavra.
+- **Campo semântico**: para o Cebraspe, palavras de uma mesma área de sentido (*orador*, *tribuna*, *aparte*). Em materiais escolares, os sentidos de uma só palavra.
 
 > [!CAUTION]
 > Sigla e expressão por extenso não são parônimos; *sessão* e *cessão* são homófonos, não parônimos; ter prefixo e sufixo não faz uma palavra parassintética.

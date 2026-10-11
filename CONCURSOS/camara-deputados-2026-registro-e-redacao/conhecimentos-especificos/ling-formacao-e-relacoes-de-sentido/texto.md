@@ -212,13 +212,13 @@ No texto, o hiperônimo serve para **retomar** sem repetir: citado um projeto de
 
 A expressão aparece em dois sentidos, e convém conhecer os dois:
 
-- na **linguística**, e no uso do Cebraspe, campo semântico é o conjunto de palavras ligadas a uma mesma área de sentido. *Votação*, *quórum*, *painel*, *destaque* e *maioria* formam o campo semântico da deliberação. Numa prova aplicada em 2017 (SEE/DF), um item da banca falou em "campo semântico do movimento" e "campo semântico do transporte", nesse sentido;
+- na **linguística**, e no uso do Cebraspe, campo semântico é o conjunto de palavras ligadas a uma mesma área de sentido. *Orador*, *tribuna*, *aparte*, *discurso* e *pronunciamento* formam o campo semântico da fala em plenário. Numa prova aplicada em 2017 (SEE/DF), um item da banca falou em "campo semântico do movimento" e "campo semântico do transporte", nesse sentido;
 - em muitos materiais **escolares**, campo semântico é o conjunto de sentidos que **uma palavra** pode assumir (o "campo semântico de *partir*": ir embora, morrer, quebrar...). Nesses materiais, o conjunto de palavras de uma área recebe outro nome: **campo lexical**.
 
 Os slides da UFMG, a partir de Henriques, avisam que "campo semântico" costuma ser usado de modo genérico, no lugar de campo conceitual ou lexical.
 
 > [!TIP]
-> Leitura nossa: num item do Cebraspe, entenda "campo semântico de X" como a área de sentido X (o movimento, o transporte, a deliberação), a menos que o item fale claramente dos vários sentidos de uma só palavra.
+> Leitura nossa: num item do Cebraspe, entenda "campo semântico de X" como a área de sentido X (o movimento, o transporte, a fala em plenário), a menos que o item fale claramente dos vários sentidos de uma só palavra.
 
 ## Como o Cebraspe cobra
 

@@ -35,7 +35,7 @@ Quem diz como se escreve cada palavra é o **Vocabulário Ortográfico da Língu
 
 Aqui há pouca regra e muita memória. O que ajuda é a **família da palavra**: a letra da base costuma passar para as derivadas. As regularidades abaixo são dicas de estudo, com exceções; as grafias foram conferidas no VOLP.
 
-- **-isar ou -izar**: base com s dá -isar (análise, analisar; pesquisa, pesquisar; paralisia, paralisar); base sem s dá -izar (fiscal, fiscalizar; real, realizar). Exceções que a banca adora: síntese, **sintetizar**; catequese, **catequizar**; hipnose, **hipnotizar**.
+- **-isar ou -izar**: base com s dá -isar (análise, analisar; pesquisa, pesquisar; paralisia, paralisar); base sem s dá -izar (fiscal, fiscalizar; real, realizar). Exceções clássicas: síntese, **sintetizar**; catequese, **catequizar**; hipnose, **hipnotizar**.
 - **-ês e -esa** marcam origem e título (português, francesa, princesa); **-ez e -eza** formam substantivos de adjetivos (rapidez, clareza, sutileza).
 - **Depois de ditongo**, s: causa, coisa, pausa. Em pôr e querer, também: pus, puser, quis.
 - **Substantivos tirados de verbos**: ceder, cessão; conceder, concessão; agredir, agressão; imprimir, impressão; suprimir, supressão (daí a emenda **supressiva**); discutir, discussão; admitir, admissão.
@@ -160,7 +160,7 @@ Pela Base XIX do Acordo, usa-se **minúscula** nos dias, meses e estações (seg
 
 Nos casos facultativos, a Câmara tem padrão próprio. O seu *Manual de redação: documentos administrativos* (2ª ed., 2023) manda:
 
-- maiúscula também na **referência posterior** a órgãos: depois de citar a Câmara dos Deputados, escreve-se **a Casa**;
+- maiúscula também na **referência posterior** a órgãos e instituições (o próprio manual escreve "esta **Casa**" para a Câmara);
 - **Plenário** com maiúscula quando é o órgão colegiado (*o Plenário aprovou o projeto*) e com minúscula quando é o espaço físico (*os deputados deixaram o plenário*);
 - maiúscula em nomes de leis (*Lei de Responsabilidade Fiscal*), mas minúscula no uso genérico (*pagar imposto de renda*).
 

@@ -1,0 +1,210 @@
+# Treino de coesão textual — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: 'Treino — Coesão textual: referência, substituição, repetição e conectores'
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (notícia de uma sessão da Câmara dos Deputados), no estilo de certo ou errado do Cebraspe: remissão à linha, item composto (referente e consequência), elipse, valor dos conectores e troca de conectores sob o comando “manteria a correção gramatical e os sentidos do texto”.'
+    - 'Referências de estilo, sem cópia de itens: provas de nível superior do Cebraspe com gabarito definitivo — TCU 2025 (Auditor Federal de Controle Externo), Câmara dos Deputados 2025 (Conhecimentos Gerais), CPNUJE 2024, Polícia Federal 2025, STM 2025 e TRT da 10ª Região 2024.'
+    - 'Bases do gabarito: Manual de Redação da Presidência da República, 3ª ed. (2018), itens 3.4, 11.6 e 11.10 e verbetes “À medida que/Na medida em que” e “Posto que”; Manual de Comunicação da Secom do Senado (“Este/esse”, “À medida que/na medida em que”); Só Português (pronomes demonstrativos e conjunções subordinativas); Ciberdúvidas da Língua Portuguesa (“enquanto” = “na qualidade de”; “este” × “aquele”); Gramatigalhas, Migalhas (“Posto que”). Consultados em 11/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-coesao-textual
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, o Plenário examinou o substitutivo que o relator
+      > 2. apresentou ao projeto que reorganiza o registro dos debates da Casa.
+      > 3. Enquanto órgão responsável pelas notas taquigráficas, o departamento
+      > 4. de redação foi ouvido antes da votação. À medida que as sessões se
+      > 5. alongam, cresce o volume de áudio a revisar, e a emenda em debate
+      > 6. exige revisão humana de toda transcrição automática. Embora o sistema
+      > 7. já reduza o tempo de publicação, os revisores ainda corrigem nomes
+      > 8. próprios, siglas e trechos em que dois parlamentares falam ao mesmo
+      > 9. tempo. Isso explica por que a emenda recebeu apoio de deputados da
+      > 10. base e da oposição: estes pediram mais revisores; aqueles, um prazo
+      > 11. maior para a adaptação. O primeiro orador defendeu o texto do
+      > 12. relator; o segundo, a emenda. O relator acolheu a emenda, mas manteve
+      > 13. em trinta dias o prazo de adaptação, uma vez que o contrato do sistema
+      > 14. vence no fim do mês.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      No trecho “o substitutivo que o relator apresentou” (linhas 1 e 2), o vocábulo “que” retoma “o substitutivo” e exerce a função de sujeito da forma verbal “apresentou”.
+  - id: q02
+    topico: conhecimentos-basicos/lp-coesao-textual
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, o Plenário examinou o substitutivo que o relator
+      > 2. apresentou ao projeto que reorganiza o registro dos debates da Casa.
+      > 3. Enquanto órgão responsável pelas notas taquigráficas, o departamento
+      > 4. de redação foi ouvido antes da votação. À medida que as sessões se
+      > 5. alongam, cresce o volume de áudio a revisar, e a emenda em debate
+      > 6. exige revisão humana de toda transcrição automática. Embora o sistema
+      > 7. já reduza o tempo de publicação, os revisores ainda corrigem nomes
+      > 8. próprios, siglas e trechos em que dois parlamentares falam ao mesmo
+      > 9. tempo. Isso explica por que a emenda recebeu apoio de deputados da
+      > 10. base e da oposição: estes pediram mais revisores; aqueles, um prazo
+      > 11. maior para a adaptação. O primeiro orador defendeu o texto do
+      > 12. relator; o segundo, a emenda. O relator acolheu a emenda, mas manteve
+      > 13. em trinta dias o prazo de adaptação, uma vez que o contrato do sistema
+      > 14. vence no fim do mês.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      A substituição de “Enquanto” (linha 3) por *Na qualidade de* manteria a correção gramatical e os sentidos do texto.
+  - id: q03
+    topico: conhecimentos-basicos/lp-coesao-textual
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, o Plenário examinou o substitutivo que o relator
+      > 2. apresentou ao projeto que reorganiza o registro dos debates da Casa.
+      > 3. Enquanto órgão responsável pelas notas taquigráficas, o departamento
+      > 4. de redação foi ouvido antes da votação. À medida que as sessões se
+      > 5. alongam, cresce o volume de áudio a revisar, e a emenda em debate
+      > 6. exige revisão humana de toda transcrição automática. Embora o sistema
+      > 7. já reduza o tempo de publicação, os revisores ainda corrigem nomes
+      > 8. próprios, siglas e trechos em que dois parlamentares falam ao mesmo
+      > 9. tempo. Isso explica por que a emenda recebeu apoio de deputados da
+      > 10. base e da oposição: estes pediram mais revisores; aqueles, um prazo
+      > 11. maior para a adaptação. O primeiro orador defendeu o texto do
+      > 12. relator; o segundo, a emenda. O relator acolheu a emenda, mas manteve
+      > 13. em trinta dias o prazo de adaptação, uma vez que o contrato do sistema
+      > 14. vence no fim do mês.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      A substituição de “À medida que” (linha 4) por *Na medida em que* preservaria os sentidos originais do texto.
+  - id: q04
+    topico: conhecimentos-basicos/lp-coesao-textual
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, o Plenário examinou o substitutivo que o relator
+      > 2. apresentou ao projeto que reorganiza o registro dos debates da Casa.
+      > 3. Enquanto órgão responsável pelas notas taquigráficas, o departamento
+      > 4. de redação foi ouvido antes da votação. À medida que as sessões se
+      > 5. alongam, cresce o volume de áudio a revisar, e a emenda em debate
+      > 6. exige revisão humana de toda transcrição automática. Embora o sistema
+      > 7. já reduza o tempo de publicação, os revisores ainda corrigem nomes
+      > 8. próprios, siglas e trechos em que dois parlamentares falam ao mesmo
+      > 9. tempo. Isso explica por que a emenda recebeu apoio de deputados da
+      > 10. base e da oposição: estes pediram mais revisores; aqueles, um prazo
+      > 11. maior para a adaptação. O primeiro orador defendeu o texto do
+      > 12. relator; o segundo, a emenda. O relator acolheu a emenda, mas manteve
+      > 13. em trinta dias o prazo de adaptação, uma vez que o contrato do sistema
+      > 14. vence no fim do mês.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      A substituição de “Embora” (linha 6) por *Posto que* manteria a correção gramatical e os sentidos do texto.
+  - id: q05
+    topico: conhecimentos-basicos/lp-coesao-textual
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, o Plenário examinou o substitutivo que o relator
+      > 2. apresentou ao projeto que reorganiza o registro dos debates da Casa.
+      > 3. Enquanto órgão responsável pelas notas taquigráficas, o departamento
+      > 4. de redação foi ouvido antes da votação. À medida que as sessões se
+      > 5. alongam, cresce o volume de áudio a revisar, e a emenda em debate
+      > 6. exige revisão humana de toda transcrição automática. Embora o sistema
+      > 7. já reduza o tempo de publicação, os revisores ainda corrigem nomes
+      > 8. próprios, siglas e trechos em que dois parlamentares falam ao mesmo
+      > 9. tempo. Isso explica por que a emenda recebeu apoio de deputados da
+      > 10. base e da oposição: estes pediram mais revisores; aqueles, um prazo
+      > 11. maior para a adaptação. O primeiro orador defendeu o texto do
+      > 12. relator; o segundo, a emenda. O relator acolheu a emenda, mas manteve
+      > 13. em trinta dias o prazo de adaptação, uma vez que o contrato do sistema
+      > 14. vence no fim do mês.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      O pronome “Isso” (linha 9) retoma a ideia expressa no período imediatamente anterior.
+  - id: q06
+    topico: conhecimentos-basicos/lp-coesao-textual
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, o Plenário examinou o substitutivo que o relator
+      > 2. apresentou ao projeto que reorganiza o registro dos debates da Casa.
+      > 3. Enquanto órgão responsável pelas notas taquigráficas, o departamento
+      > 4. de redação foi ouvido antes da votação. À medida que as sessões se
+      > 5. alongam, cresce o volume de áudio a revisar, e a emenda em debate
+      > 6. exige revisão humana de toda transcrição automática. Embora o sistema
+      > 7. já reduza o tempo de publicação, os revisores ainda corrigem nomes
+      > 8. próprios, siglas e trechos em que dois parlamentares falam ao mesmo
+      > 9. tempo. Isso explica por que a emenda recebeu apoio de deputados da
+      > 10. base e da oposição: estes pediram mais revisores; aqueles, um prazo
+      > 11. maior para a adaptação. O primeiro orador defendeu o texto do
+      > 12. relator; o segundo, a emenda. O relator acolheu a emenda, mas manteve
+      > 13. em trinta dias o prazo de adaptação, uma vez que o contrato do sistema
+      > 14. vence no fim do mês.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      No trecho “estes pediram mais revisores; aqueles, um prazo maior para a adaptação” (linhas 10 e 11), “estes” refere-se aos deputados da base, e “aqueles”, aos deputados da oposição.
+  - id: q07
+    topico: conhecimentos-basicos/lp-coesao-textual
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, o Plenário examinou o substitutivo que o relator
+      > 2. apresentou ao projeto que reorganiza o registro dos debates da Casa.
+      > 3. Enquanto órgão responsável pelas notas taquigráficas, o departamento
+      > 4. de redação foi ouvido antes da votação. À medida que as sessões se
+      > 5. alongam, cresce o volume de áudio a revisar, e a emenda em debate
+      > 6. exige revisão humana de toda transcrição automática. Embora o sistema
+      > 7. já reduza o tempo de publicação, os revisores ainda corrigem nomes
+      > 8. próprios, siglas e trechos em que dois parlamentares falam ao mesmo
+      > 9. tempo. Isso explica por que a emenda recebeu apoio de deputados da
+      > 10. base e da oposição: estes pediram mais revisores; aqueles, um prazo
+      > 11. maior para a adaptação. O primeiro orador defendeu o texto do
+      > 12. relator; o segundo, a emenda. O relator acolheu a emenda, mas manteve
+      > 13. em trinta dias o prazo de adaptação, uma vez que o contrato do sistema
+      > 14. vence no fim do mês.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      No trecho “o segundo, a emenda” (linha 12), estão subentendidos o vocábulo *orador* e a forma verbal *defendeu*.
+  - id: q08
+    topico: conhecimentos-basicos/lp-coesao-textual
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, o Plenário examinou o substitutivo que o relator
+      > 2. apresentou ao projeto que reorganiza o registro dos debates da Casa.
+      > 3. Enquanto órgão responsável pelas notas taquigráficas, o departamento
+      > 4. de redação foi ouvido antes da votação. À medida que as sessões se
+      > 5. alongam, cresce o volume de áudio a revisar, e a emenda em debate
+      > 6. exige revisão humana de toda transcrição automática. Embora o sistema
+      > 7. já reduza o tempo de publicação, os revisores ainda corrigem nomes
+      > 8. próprios, siglas e trechos em que dois parlamentares falam ao mesmo
+      > 9. tempo. Isso explica por que a emenda recebeu apoio de deputados da
+      > 10. base e da oposição: estes pediram mais revisores; aqueles, um prazo
+      > 11. maior para a adaptação. O primeiro orador defendeu o texto do
+      > 12. relator; o segundo, a emenda. O relator acolheu a emenda, mas manteve
+      > 13. em trinta dias o prazo de adaptação, uma vez que o contrato do sistema
+      > 14. vence no fim do mês.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      A substituição de “uma vez que” (linha 13) por *conquanto* manteria a correção gramatical e os sentidos do texto.

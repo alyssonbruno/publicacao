@@ -42,14 +42,14 @@ O pronome relativo (*que*, *o qual*, *cujo*, *onde*) faz duas coisas ao mesmo te
 
 ![Esquema com duas frases. Na primeira, "A Mesa arquivou o requerimento que o deputado apresentou", uma seta sai de "que" e volta para "o requerimento", com a legenda: referente do "que", que é o objeto direto de "apresentou". "O deputado" aparece marcado à parte, com a legenda: sujeito de "apresentou", não é o referente do "que". Na segunda frase, "O deputado que apresentou o requerimento pediu a palavra", a seta sai de "que" e volta para "O deputado", com a legenda: referente do "que", que aqui é o sujeito de "apresentou". Abaixo, a observação: antecedente e sujeito coincidem só quando o "que" é o sujeito da oração. No pé, o teste: ponha o antecedente no lugar do "que" e desfaça a oração; na frase 1, "o deputado apresentou o requerimento", e o "que" vale por "o requerimento".](imagens/relativo-e-antecedente.svg "O referente do relativo é o antecedente; o sujeito da oração pode ser outro termo")
 
-Teste: desfaça a oração, pondo o antecedente no lugar do relativo: *o deputado apresentou **o requerimento***. O termo que entrou no lugar do "que" é o referente; o que já estava na oração é outra coisa.
+Teste: desfaça a oração, pondo o antecedente no lugar do relativo: *o deputado apresentou o requerimento*. O termo que entrou no lugar do "que" (*o requerimento*) é o referente; o que já estava na oração (*o deputado*) é outra coisa.
 
 Quando há dois candidatos, *o qual* resolve, porque mostra gênero e número (Manual de Redação da Presidência, item 11.6). Em *Ouvi o assessor da deputada, que defende o projeto*, quem defende? Com *o qual*, o assessor; com *a qual*, a deputada.
 
 Duas lembranças rápidas:
 
 - ***Onde*** só retoma lugar: *a sala onde a comissão se reúne*. Para *sessão*, *reunião* e *debate*, use *em que* ou *na qual*.
-- ***Cujo***, que a turma já domina: fica entre o possuidor (antes) e a coisa possuída (depois), concorda com a coisa possuída e não aceita artigo depois de si (*a comissão cujo relatório saiu*).
+- ***Cujo***, em revisão rápida: fica entre o possuidor (antes) e a coisa possuída (depois), concorda com a coisa possuída e não aceita artigo depois de si (*a comissão cujo relatório saiu*).
 
 ## Item composto: duas afirmações, um julgamento
 
@@ -74,7 +74,7 @@ Elipse é a omissão de um termo que o contexto permite recuperar. Pode faltar:
 - o **verbo**, com a vírgula marcando o lugar: *O primeiro orador defendeu o projeto; o segundo, a emenda* (o segundo orador defendeu a emenda);
 - o **nome**, depois de artigo ou demonstrativo: *Ouvimos três consultores, e o de maior experiência redigiu o voto* (o consultor de maior experiência).
 
-O item de elipse afirma qual é a palavra omitida. Para julgar, **reescreva a frase com a palavra que o item propõe**: se ela não couber em gênero, número ou sentido, o item está errado. Desconfie também da afirmação de que outro trecho "explicita" o termo omitido: o termo elíptico vem de algo já dito, e o trecho apontado pode estar desenvolvendo outra ideia.
+O item de elipse afirma qual é a palavra omitida. Para julgar, **reescreva a frase com a palavra que o item propõe**: se ela não couber em gênero, número ou sentido, o item está errado. Desconfie também da afirmação de que outro trecho "explicita" o termo omitido: o termo elíptico, em geral, vem de algo já dito, e o trecho apontado pode estar desenvolvendo outra ideia.
 
 > [!TIP]
 > Quando o item diz que vários verbos têm o mesmo sujeito elíptico, confira **verbo por verbo**. O sujeito pode mudar no meio do período.
@@ -151,7 +151,7 @@ Exemplos resolvidos, com *A votação foi adiada porque faltou quórum*:
 - **porque** → **conquanto**: *conquanto* vale por *embora*. Muda o sentido e quebra a correção, porque pede subjuntivo (*conquanto faltasse*).
 - *À medida que os destaques eram votados, o plenário esvaziava* → *Na medida em que*: a frase continua gramatical, mas a relação passa de proporção a causa. O sentido muda.
 
-Duas formas estão fora da norma-padrão: ***à medida em que*** e ***na medida que*** (Manual da Presidência; Manual de Comunicação do Senado). E os dois manuais pedem *enquanto*, sem o "que".
+Duas formas estão fora da norma-padrão: ***à medida em que*** e ***na medida que*** (Manual da Presidência; Manual de Comunicação do Senado). E os dois manuais condenam *enquanto que*: basta *enquanto*.
 
 > [!IMPORTANT]
 > Dê nome ao valor do conector original, dê nome ao do novo e compare. Valores diferentes: o sentido mudou. Mesmo valor: teste ainda o modo do verbo e a construção.
@@ -162,7 +162,7 @@ O **Manual de Redação da Presidência** é taxativo: *posto que* é conjunçã
 
 **Pasquale Cipro Neto** tem outra ênfase. No programa *A Nossa Língua de Todo Dia* (CBN, novembro de 2025), ele mostra o valor concessivo clássico (*posto* e *suposto*, com o sentido de *embora*, em Machado de Assis e em Drummond) e trata o *posto que* causal do verso de Vinicius de Moraes ("posto que é chama", isto é, *visto que é chama*) como uma inovação do português do Brasil que considera consagrada.
 
-As duas posições não se anulam: uma descreve o uso; a outra diz o que a norma-padrão escrita aceita. A prova cobra a norma-padrão, e os itens de redação oficial do Cebraspe se apoiam no Manual da Presidência.
+As duas posições não se anulam: o Pasquale descreve o uso no Brasil; o Manual diz o que a linguagem formal deve evitar. A prova cobra a norma-padrão, e os itens de redação oficial do Cebraspe se apoiam no Manual da Presidência.
 
 > [!IMPORTANT]
 > Recomendação nossa: na prova, *posto que* = *embora*, com verbo no subjuntivo (*posto que fosse tarde*). Trocar *porque*, *uma vez que* ou *visto que* por *posto que* muda o sentido.
