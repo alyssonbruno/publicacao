@@ -63,7 +63,7 @@ O tempo composto se forma com **ter** ou **haver** mais o particípio do verbo p
 A equivalência segura, que a banca aceita como troca correta, é uma só:
 
 > [!IMPORTANT]
-> **tinha estudado = havia estudado = estudara.** As três formas são o mais-que-perfeito do indicativo. A simples (*estudara*) é mais comum em textos escritos.
+> **tinha estudado = havia estudado = estudara.** As três formas são o mais-que-perfeito do indicativo. A simples (*estudara*) aparece quase só na escrita formal; no dia a dia, a mais usada é a composta.
 
 Fora desse caso, não suponha que o composto vale pelo simples:
 
@@ -75,7 +75,7 @@ Fora desse caso, não suponha que o composto vale pelo simples:
 São três tempos simples. Cada um tem uma palavra-guia que ajuda a conjugar:
 
 - **Presente** (guia: *que*): *Peço que ele **venha** cedo.* *Talvez **chova**.*
-- **Pretérito imperfeito** (guia: *se*): *Se ele **viesse** cedo, resolveríamos tudo.* Termina sempre em *-sse*.
+- **Pretérito imperfeito** (guia: *se*): *Se ele **viesse** cedo, resolveríamos tudo.* Traz sempre *-sse-*: *viesse*, *viéssemos*, *viessem*.
 - **Futuro** (guia: *quando*): *Quando ele **vier**, resolveremos tudo.*
 
 O pretérito imperfeito do subjuntivo, apesar do nome, nem sempre fala do passado: em *se ele viesse amanhã*, é uma hipótese.
@@ -158,7 +158,7 @@ Um exemplo: *Se o profissional **enviar** o documento, o registro **sairá** em 
 
 ## O imperativo
 
-O imperativo não tem a pessoa "eu": ninguém dá ordem a si mesmo desse jeito. As formas vêm de dois tempos do presente, como mostra a figura.
+O imperativo não tem a pessoa "eu": ninguém dá ordem a si mesmo desse jeito. As formas vêm de dois presentes, o do indicativo e o do subjuntivo, como mostra a figura.
 
 ![Tabela da formação do imperativo com o verbo atender. No imperativo afirmativo, "tu" e "vós" vêm do presente do indicativo sem o "-s": atendes vira atende; atendeis vira atendei. As outras pessoas vêm do presente do subjuntivo, sem mudança: atenda (você), atendamos (nós), atendam (vocês). O imperativo negativo vem inteiro do presente do subjuntivo: não atendas (tu), não atenda (você), não atendamos (nós), não atendais (vós), não atendam (vocês). Não existe imperativo para "eu".](imagens/de-onde-sai-o-imperativo.svg "De onde sai cada pessoa do imperativo")
 
@@ -211,7 +211,8 @@ A prova dá uma forma e a atribui ao verbo vizinho. Antes de julgar, **volte à 
 - "A troca preserva o sentido", quando só a correção se mantém: perfeito por imperfeito; futuro do presente por futuro do pretérito.
 - Efeito de sentido exagerado: dizer que o subjuntivo indica algo "irrealizável" ou que o futuro do pretérito de polidez indica "dúvida".
 - Infinitivo no lugar do futuro do subjuntivo: "quem manter", "se intervir", "quando ver".
-- Tratamento misturado no imperativo e particípio irregular com *ter* dado como a única forma correta.
+- Tratamento misturado no imperativo: *tu* e *você* no mesmo período.
+- Particípio irregular com *ter* dado como a única forma correta: *tinha pago* é o mais usado, mas *tinha pagado* não está errado.
 
 ## Fontes
 

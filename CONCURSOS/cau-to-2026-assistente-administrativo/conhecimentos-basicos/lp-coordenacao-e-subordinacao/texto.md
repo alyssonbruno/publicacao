@@ -132,7 +132,7 @@ A lista de conectores por valor está na aula de coesão e coerência. Aqui impo
 
 ## Subordinadas substantivas
 
-Valem por um substantivo. Começam por *que* ou *se* (conjunções integrantes).
+Valem por um substantivo. Em geral, começam por *que* ou *se* (conjunções integrantes); nas perguntas indiretas, por pronome ou advérbio interrogativo: *Não sei **quem** assinou*; *Perguntou **onde** fica a sede*.
 
 **Teste: troque a oração inteira por "isso".** A função do "isso" é a função da oração.
 
@@ -152,7 +152,7 @@ A **subjetiva** aparece depois de *é* + adjetivo (*é importante que…*, *é c
 
 ## Subordinadas adjetivas
 
-Valem por um adjetivo: caracterizam um termo anterior, do qual são **adjunto adnominal**. Começam por pronome relativo (*que, o qual, cujo, onde, quem*).
+Valem por um adjetivo: caracterizam um termo anterior, do qual são **adjunto adnominal**. Começam por pronome relativo (*que, o qual, cujo, onde, quem*). Há gramáticos que dão à explicativa, a que vem entre vírgulas, a função de aposto.
 
 *A sala **que foi reformada** reabre amanhã.* (= a sala reformada)
 

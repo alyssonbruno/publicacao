@@ -22,7 +22,7 @@ Completa verbo, objeto indireto (*confia no sistema*); completa nome, complement
 ## As três famílias de subordinadas
 
 - **Substantiva** = "isso": sujeito (*Convém que…*), objeto direto (*informou que…*), objeto indireto, complemento nominal (*certeza de que…*), predicativo, aposto.
-- **Adjetiva** = adjetivo, com pronome relativo; adjunto adnominal do termo anterior. **Sem vírgula**, restringe (só alguns); **com vírgulas**, explica (todos).
+- **Adjetiva** = adjetivo, com pronome relativo; adjunto adnominal do termo anterior. **Sem vírgula**, restringe (só alguns); **com vírgulas**, explica (todos; para alguns gramáticos, é aposto).
 - **Adverbial** = circunstância: causa, condição, concessão, conformidade, comparação, consequência, finalidade, tempo, proporção.
 
 ## O que mais confunde

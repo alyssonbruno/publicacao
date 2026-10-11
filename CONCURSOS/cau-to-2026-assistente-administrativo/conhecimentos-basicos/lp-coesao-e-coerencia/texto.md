@@ -141,7 +141,7 @@ Esses três valores falam da mesma relação, vista de lados diferentes. A pergu
 
 Daí o erro de trocar *por isso* por *porque* (ou por *porquanto*, que é a mesma coisa). A troca vira a relação do avesso: *Não houve quórum, porque a sessão foi adiada* diz que o adiamento causou a falta de quórum.
 
-A **explicação** é vizinha da causa: justifica o que acabou de ser dito, muitas vezes uma ordem ou um palpite (*Deve ter chovido, **pois** a rua está molhada*). A diferença entre as duas é assunto da aula de coordenação e subordinação; aqui basta saber que *porque*, *pois* e *porquanto* servem às duas e **nunca** indicam conclusão.
+A **explicação** é vizinha da causa: justifica o que acabou de ser dito, muitas vezes uma ordem ou um palpite (*Deve ter chovido, **pois** a rua está molhada*). A diferença entre as duas é assunto da aula de coordenação e subordinação; aqui basta saber que *porque* e *porquanto* servem às duas e **nunca** indicam conclusão. O *pois* também serve às duas quando abre a oração; depois do verbo, entre vírgulas, ele conclui (veja os avisos mais adiante).
 
 ## Conectores que enganam
 
@@ -161,7 +161,7 @@ Alguns conectores parecem dizer uma coisa e dizem outra. São os preferidos da b
 
 Quatro avisos:
 
-- ***Posto que***: na norma-padrão, vale por *embora* e pede verbo no subjuntivo (*posto que **seja** tarde*). O uso com sentido de "porque" é comum na fala e em textos informais, mas o Manual de Redação da Presidência e a maioria dos gramáticos não o aceitam.
+- ***Posto que***: na norma-padrão, vale por *embora* e pede verbo no subjuntivo (*posto que **seja** tarde*). O uso com sentido de "porque" existe: o dicionário Houaiss o registra como regionalismo brasileiro de uso informal, e por isso o Manual de Redação da Presidência o desaconselha na linguagem formal.
 - ***À medida que*** e ***na medida em que*** não se misturam. "À medida em que" e "na medida que" não existem na norma-padrão.
 - ***Pois*** muda de valor conforme o lugar. No começo da oração, explica (= porque): *O atendimento parou, **pois** faltou energia.* Depois do verbo, entre vírgulas, conclui (= portanto): *Faltou energia; o atendimento foi, **pois**, suspenso.*
 - ***Uma vez que***, com verbo no indicativo, indica causa: *O pedido foi negado, **uma vez que** faltava a assinatura.*
