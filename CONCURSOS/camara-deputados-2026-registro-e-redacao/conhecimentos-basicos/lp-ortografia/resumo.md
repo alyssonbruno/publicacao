@@ -22,13 +22,13 @@
 ## O que mais confunde
 
 > [!CAUTION]
-> **Eles veem** (ver) × **eles vêm** (vir). E a grafia pode estar certa com o motivo errado: autoestima não tem hífen porque as vogais são diferentes.
+> **Eles veem** (ver) × **eles vêm** (vir). E desconfie do motivo: autoestima não tem hífen porque as vogais são diferentes, e não porque o Acordo aboliu o hífen.
 
 - **por que** (por qual razão; pelo qual; pergunta indireta); **por quê** (fim de frase); **porque** (pois); **porquê** (o motivo, com artigo).
 - **senão** (a não ser; caso contrário) × **se não** (caso não); **a fim de** × **afim**; **mal** × **mau**.
 - **sessão** (reunião), **seção** (divisão), **cessão** (ato de ceder).
 - **Maiúsculas**: na Câmara, Plenário (órgão) × plenário (espaço físico).
-- **Discursiva**: erro de grafia desconta: NQ = NC − 3 × NE ÷ TL; na peça, NPT = NC − 6 × NE ÷ TL.
+- **Discursiva**: cada erro de grafia desconta (NQ = NC − 3 × NE ÷ TL; na peça, NPT = NC − 6 × NE ÷ TL).
 
 ## O que rever
 

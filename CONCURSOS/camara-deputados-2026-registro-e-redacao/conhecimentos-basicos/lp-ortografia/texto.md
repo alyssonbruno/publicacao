@@ -57,13 +57,13 @@ Três palavras da rotina da Câmara soam igual e se escrevem de modo diferente: 
 > [!TIP]
 > Na dúvida entre letras, procure uma palavra da mesma família que você saiba escrever: **análise** garante analisar; **excesso** garante excessivo; **cheio** garante preencher.
 
-## Acentuação: as regras que o Acordo não mexeu
+## Acentuação: as regras que o Acordo manteve
 
 Antes de qualquer regra, separe as sílabas e ache a tônica.
 
 - **Proparoxítonas**: todas têm acento. Câmara, público, legítimo.
 - **Paroxítonas**: a maioria não tem (prazo, registro). Levam acento as terminadas em l, n, r, x, ps (fácil, hífen, caráter, tórax); ã(s), ão(s) (órfã, acórdão); i(s), us, um, uns (júri, vírus, quórum, álbuns); ei(s) (jóquei, fáceis); e em ditongo crescente (relatório, série, área).
-- **Oxítonas**: levam acento as terminadas em a, e, o, com ou sem s (está, você, após), em em e ens (também, parabéns, detém) e nos ditongos abertos éi, éu, ói (papéis, chapéu, herói).
+- **Oxítonas**: levam acento as terminadas em a, e, o, com ou sem s (está, você, após), as terminadas em -em e -ens (também, parabéns, detém) e as de ditongo aberto éi, éu, ói (papéis, chapéu, herói).
 - **Monossílabos tônicos** em a, e, o, com ou sem s, e de ditongo aberto: já, pé, nós, mês, réu, dói.
 - **Hiato com i e u**: a vogal tônica leva acento quando fica sozinha na sílaba ou com s (sa-ú-de, ju-í-zes, pa-ís, a-tri-bu-í-lo); fica sem acento quando forma sílaba com l, m, n, r ou z, ou vem antes de nh (juiz, raiz, ruim, rainha).
 
@@ -74,7 +74,7 @@ Duas consequências caem em prova. O plural pode mudar a regra: **hífen** tem a
 
 ## O que o Acordo mudou na acentuação
 
-O Acordo tirou o acento de cinco grupos e manteve outros que a banca gosta de dar como abolidos.
+O Acordo tirou o acento de cinco grupos e manteve outros que muita gente supõe abolidos.
 
 ![Quadro em três partes sobre os acentos depois do Acordo. À esquerda, os que perderam o acento: ei e oi abertos em paroxítona (ideia, assembleia, heroico, jiboia); ee e oo em hiato (creem, leem, veem, voo, enjoo); i e u tônicos depois de ditongo em paroxítona (feiura, baiuca); o diferencial que separava da palavra átona (para, do verbo parar, pelo, polo, pera); o trema (frequência, tranquilo, cinquenta), que só fica em nome estrangeiro, como mülleriano. À direita, os que continuam com acento: éi, éu e ói em oxítona e monossílabo (papéis, herói, chapéu, dói); i e u depois de ditongo em oxítona (Piauí, tuiuiú); pôr, verbo, diferente de por, e pôde, passado, diferente de pode; ter e vir no plural (eles têm, vêm; ele tem, vem); derivados de ter e vir no plural (eles mantêm; ele mantém). Embaixo, os acentos facultativos, fôrma ou forma (molde) e dêmos (subjuntivo) ou demos, e um alerta: eles veem (ver) o painel; eles vêm (vir) à sessão.](imagens/acentos-depois-do-acordo.svg "O que caiu e o que ficou")
 
@@ -123,7 +123,7 @@ Onde o Acordo foi omisso ou pouco claro, a nota da ABL de 2009 decidiu, e o VOLP
 - **Divergência entre fontes**: o VOLP registra só **sub-humano**; o Manual de Comunicação do Senado aceita também subumano.
 
 > [!NOTE]
-> Seguir o VOLP quando os manuais divergem é recomendação nossa: ele é o registro oficial, e foi o critério da banca nos itens de variante citados no começo da aula.
+> Seguir o VOLP quando os manuais divergem é recomendação nossa: ele é o registro oficial, e foi o critério da banca no item de variante citado no começo da aula.
 
 ## Hífen em compostos e locuções
 
