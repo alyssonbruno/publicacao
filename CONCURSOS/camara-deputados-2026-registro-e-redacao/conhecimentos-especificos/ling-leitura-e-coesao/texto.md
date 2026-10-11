@@ -73,7 +73,7 @@ Halliday e Hasan distinguem três tipos:
 
 - **pessoal**, com pronomes pessoais e possessivos: *A deputada pediu a palavra. **Ela** defendeu **seu** projeto.*
 - **demonstrativa**, com demonstrativos e advérbios de lugar: *O projeto foi à CCJ. **Lá**, recebeu parecer favorável.*
-- **comparativa**, com palavras que remetem por semelhança ou diferença: ***Outro** deputado fez **a mesma** pergunta.* "Outro" só se entende diante de um deputado já citado; "a mesma", diante de uma pergunta anterior.
+- **comparativa**, com palavras que remetem por identidade, semelhança ou diferença: ***Outro** deputado fez **a mesma** pergunta.* "Outro" só se entende diante de um deputado já citado; "a mesma", diante de uma pergunta anterior.
 
 > [!CAUTION]
 > A referência comparativa é a menos lembrada. *Outro*, *o mesmo* (junto de um nome), *semelhante*, *diferente*, *tal*, *mais* e *menos* também são coesivos: dependem de um termo anterior para fazer sentido.
@@ -191,7 +191,9 @@ Koch e Travaglia apontam como principais fatores de coerência:
 - a **intencionalidade** e a **aceitabilidade**: o modo como quem escreve organiza o texto para realizar sua intenção e o esforço de quem lê para calcular o sentido;
 - a **consistência** e a **relevância**: os enunciados não se contradizem e falam do mesmo tópico.
 
-Vários desses nomes vêm de antes. Robert de Beaugrande e Wolfgang Dressler (1981) propuseram sete **padrões de textualidade**: coesão, coerência, intencionalidade, aceitabilidade, informatividade, situacionalidade e intertextualidade. Os linguistas brasileiros partiram deles nos anos 1980, acrescentaram outros e deixaram de ver a coerência como um padrão entre os demais: passaram a vê-la como resultado da atuação conjunta de todos, segundo o balanço que a própria Koch fez em 1999.
+Vários desses nomes vêm de antes. Robert de Beaugrande e Wolfgang Dressler (1981) propuseram sete **padrões de textualidade**: coesão, coerência, intencionalidade, aceitabilidade, informatividade, situacionalidade e intertextualidade.
+
+Os linguistas brasileiros partiram deles nos anos 1980, acrescentaram outros e deixaram de ver a coerência como um padrão entre os demais: passaram a vê-la como resultado da atuação conjunta de todos, segundo o balanço que a própria Koch fez em 1999.
 
 > [!TIP]
 > Confira o rótulo junto com o autor: "padrões (ou critérios) de textualidade" é de Beaugrande e Dressler; "fatores de coerência", de Koch e Travaglia; "metarregras", de Charolles.
