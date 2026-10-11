@@ -1,0 +1,8 @@
+{
+ "abertura": {
+  "arquivo": "abertura.webp",
+  "prompt": "sha256:be401af3a81d36f3",
+  "modelo": "gemini-2.5-flash-image",
+  "data": "2026-10-11"
+ }
+}
