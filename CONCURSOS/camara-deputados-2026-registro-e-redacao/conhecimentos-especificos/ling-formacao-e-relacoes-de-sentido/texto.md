@@ -11,7 +11,7 @@ No Cebraspe, esses assuntos vêm presos a um texto: o item aponta duas ou três 
 "Grupos vocálicos" são os **encontros vocálicos**: sons vocálicos vizinhos numa palavra. Para classificá-los, separe dois papéis:
 
 - a **vogal** é o núcleo da sílaba, o som mais forte. Toda sílaba tem uma, e só uma;
-- a **semivogal** é um i ou um u fraco, que se apoia na vogal da mesma sílaba. Às vezes é escrita com e ou o: em *mãe* e *sessão*, o e e o o soam como i e u.
+- a **semivogal** é um *i* ou um *u* fraco, que se apoia na vogal da mesma sílaba. Às vezes é escrita com *e* ou *o*: em *mãe* e *sessão*, essas letras soam como *i* e *u*.
 
 Com isso, há três encontros:
 
@@ -37,12 +37,12 @@ Na escrita, Bechara, também citado na aula da UFS, manda seguir a norma ortogr�
 
 Três casos derrubam candidatos:
 
-1. **qu e gu antes de e ou i.** Se o u não soa, as duas letras formam um **dígrafo** (um som só), e não há encontro vocálico: *aquele*, *seguinte*, *quero*. Se o u soa, ele é semivogal e forma ditongo crescente: *frequente*, *aguentar*, *linguística*. Desde que o Acordo Ortográfico eliminou o trema, a escrita não mostra a diferença: vale a pronúncia.
-2. **am e em no fim da palavra.** Em *votaram*, *falam* e *também*, o m não soa como consoante: marca a nasalidade de um **ditongo nasal** (*vo-ta-ram* soa *vo-ta-rãu*). O mesmo vale para *têm* e *mantêm*.
-3. **ditongo nasal sem til.** *Muito* soa *mũito*: tem ditongo nasal decrescente, embora a escrita não o mostre.
+1. **As sequências qu e gu antes de e ou i.** Se o *u* não soa, as duas letras formam um **dígrafo** (um som só), e não há encontro vocálico: *aquele*, *seguinte*, *quero*. Se o *u* soa, ele é semivogal e forma ditongo crescente: *frequente*, *aguentar*, *linguística*. Desde que o Acordo Ortográfico eliminou o trema, a escrita não mostra a diferença: vale a pronúncia.
+2. **As terminações am e em.** Em *votaram*, *falam* e *também*, o *m* não soa como consoante: marca a nasalidade de um **ditongo nasal** (*vo-ta-ram* soa *vo-ta-rãu*). O mesmo vale para *têm* e *mantêm*.
+3. **O ditongo nasal sem til.** *Muito* soa *mũito*: tem ditongo nasal decrescente, embora a escrita não o mostre.
 
 > [!CAUTION]
-> "Em *aquele* e *frequente* há ditongo crescente": errado, porque em *aquele* o u não soa (*qu* é dígrafo). A classificação vale para uma palavra e não para a outra.
+> "Em *aquele* e *frequente* há ditongo crescente": errado, porque em *aquele* o *u* não soa (*qu* é dígrafo). A classificação vale para uma palavra e não para a outra.
 
 ## A estrutura da palavra
 
@@ -54,7 +54,7 @@ A palavra se divide em **morfemas**, as menores unidades com significado. Os ele
 - **afixos**: os **prefixos** (antes do radical: *des-*, *in-*, *re-*) e os **sufixos** (depois: *-ção*, *-mento*, *-al*), que formam palavras novas;
 - **desinências**: as marcas de flexão. As nominais indicam gênero e número (*relator-a-s*); as verbais, modo e tempo, número e pessoa (*vot-á-va-mos*: radical, vogal temática, modo e tempo, número e pessoa).
 
-A **vogal temática é classificatória**: não cria palavra nova (não é afixo) nem marca gênero ou número (não é desinência). E há palavras sem ela, as **atemáticas**, terminadas em vogal tônica ou consoante: *café*, *sofá*, *feliz*.
+A **vogal temática é classificatória**: não cria palavra nova (não é afixo) nem marca gênero ou número (não é desinência). E há palavras sem ela, as **atemáticas**, como as terminadas em vogal tônica: *café*, *sofá*, *cipó*.
 
 No livro de Morfologia da UFSC, **raiz** é o núcleo irredutível (*nacion-*), e **radical** pode incluir afixos (*nacionaliz-*, em *nacionalizar*). Em muitos manuais, "radical" designa só a parte comum à família.
 
@@ -78,7 +78,7 @@ Na **derivação**, uma palavra nova sai de outra pelo acréscimo (ou pela retir
 - **Prefixal**: *arquivar* → *desarquivar*; *constitucional* → *inconstitucional*; *apresentar* → *reapresentar*.
 - **Sufixal**: *votar* → *votação*; *regimento* → *regimental*; *legislar* → *legislador*. Os advérbios em *-mente* também: o sufixo se junta ao adjetivo no feminino (*rápida* → *rapidamente*).
 - **Prefixal e sufixal**: os afixos entram um de cada vez. *Inconstitucionalidade* vem de *inconstitucional* (+ *-idade*), que vem de *constitucional* (+ *in-*). *Desarquivamento* vem de *desarquivar*, que vem de *arquivar*.
-- **Parassintética**: prefixo e sufixo entram **ao mesmo tempo**, porque um não existe sem o outro. Em *engavetar* (de *gaveta*), não existe *gavetar* nem o substantivo *engaveta*; em *empossar* (de *posse*), nem *possar* nem *emposse*. Outros: *envelhecer*, *entardecer*, *amanhecer*, *apedrejar*.
+- **Parassintética**: prefixo e sufixo entram **ao mesmo tempo**, porque não há palavra só com um deles. Em *engavetar* (de *gaveta*), não existe *gavetar* nem o substantivo *engaveta*; em *empossar* (de *posse*), nem *possar* nem *emposse*. Outros: *envelhecer*, *entardecer*, *amanhecer*, *apedrejar*.
 
 O teste: **retire o prefixo e veja se sobra palavra; depois, retire o sufixo**. Em *desarquivamento*, sobram *arquivamento* e *desarquivar*: não é parassíntese. Em *engavetar*, não sobra nada.
 
@@ -222,7 +222,7 @@ Os slides da UFMG, a partir de Henriques, avisam que "campo semântico" costuma 
 
 ## Como o Cebraspe cobra
 
-Nas provas de Linguística para professores de português (SEE/DF, aplicada em 2017, e Fundação Inoversa Sul, aplicada em 2025), os itens deste assunto seguem poucos moldes:
+Nas provas de conhecimentos específicos para professores de português (SEE/DF, aplicada em 2017, e Fundação Inoversa Sul, aplicada em 2025), os itens deste assunto seguem poucos moldes:
 
 1. **duas palavras, um processo**: "X e Y são formadas pelo mesmo processo". Classifique cada uma separadamente; basta uma não caber para o item estar errado;
 2. **classificação com nome trocado**: palavras derivadas apresentadas como compostas por aglutinação e justaposição;
