@@ -11,7 +11,7 @@
 
 ## Implícitos
 
-- **Pressuposto**: vem de uma marca na frase e resiste à negação e à pergunta. *O relator não voltou a pedir* → houve um pedido antes.
+- **Pressuposto**: vem de uma marca na frase e resiste à negação e à pergunta. *O relator não voltou a pedir* → houve um pedido antes. Nem todo "infere-se" certo vem de pressuposto: às vezes a conclusão sai da junção de trechos.
 - **Marcas**: *deixar de*, *passar a*, *continuar*, *voltar a*; *lamentar*, *saber*, *perceber*; *conseguir*, *esquecer*, *evitar*; *ainda*, *já*, *também*; *desde que* no início; oração adjetiva explicativa.
 - **Subentendido**: vem da situação, e quem fala pode negá-lo ("Já são onze da noite, Senhor Presidente"). Só sustenta C se o texto der base firme.
 
@@ -28,7 +28,7 @@
 - **Cinco tipos**: narrativo (fatos no tempo), descritivo (retrato, tempo parado), expositivo (informa e explica), argumentativo (defende tese), injuntivo (instrucional ou prescritivo, como a lei).
 - **Predominância**: textos misturam tipos; classifique pela finalidade do conjunto ou do trecho pedido. Data, imperativo ou adjetivo isolado não definem o tipo.
 - **Dado não é descrição**: parágrafo de números e comparações é expositivo.
-- **Gênero** (Marcuschi): o texto como circula, com nome, função e forma (ata, parecer, projeto de lei, discurso, notícia). **Bakhtin**: conteúdo temático, construção composicional e estilo.
+- **Tipo × gênero** (Marcuschi): o tipo se reconhece por traços linguísticos; o gênero é o texto como circula, com nome, função e forma (ata, parecer, projeto de lei, discurso, notícia). **Bakhtin**: conteúdo temático, construção composicional e estilo.
 - **Pegadinhas**: "tipo notícia", "gênero argumentativo"; gênero literário no lugar de gênero textual; classificação certa com motivo errado.
 
 ## O que rever
