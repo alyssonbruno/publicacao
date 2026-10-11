@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="534" viewBox="0 0 760 534" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="760" height="534" fill="#ffffff"/>
+  <text x="24" y="32" font-size="17" font-weight="700" fill="#0b0b0b">Mesma função, papéis diferentes</text>
+  <text x="24" y="54" font-size="13" fill="#52514e">Em todas as frases, o termo em destaque é o sujeito. O papel semântico muda com o verbo.</text>
+  <g font-size="13" font-weight="700" fill="#0b0b0b">
+    <text x="32" y="84">Frase (sujeito em destaque)</text>
+    <text x="392" y="84">Função sintática</text>
+    <text x="586" y="84">Papel semântico</text>
+  </g>
+  <line x1="24" y1="92" x2="736" y2="92" stroke="#0b0b0b" stroke-width="1.5"/>
+  <rect x="24" y="96" width="712" height="46" fill="#f6f5f1"/>
+  <text x="32" y="124" font-size="14" fill="#0b0b0b"><tspan font-weight="700" fill="#0b0b0b" text-decoration="underline">O relator</tspan> retirou o requerimento.</text>
+  <text x="392" y="124" font-size="13" fill="#52514e">sujeito</text>
+  <rect x="580" y="107" width="152" height="24" rx="6" fill="#e3edf9" stroke="#256abf" stroke-width="1.3"/>
+  <text x="656" y="124" font-size="13.5" font-weight="700" fill="#1c5cab" text-anchor="middle">agente</text>
+  <text x="32" y="170" font-size="14" fill="#0b0b0b"><tspan font-weight="700" fill="#0b0b0b" text-decoration="underline">A ata</tspan> foi rasgada pelo servidor.</text>
+  <text x="392" y="170" font-size="13" fill="#52514e">sujeito (voz passiva)</text>
+  <rect x="580" y="147" width="152" height="36" rx="6" fill="#fdeee6" stroke="#eb6834" stroke-width="1.3"/>
+  <text x="656" y="162" font-size="13.5" font-weight="700" fill="#b24a1c" text-anchor="middle">paciente</text>
+  <text x="656" y="177" font-size="11.5" fill="#52514e" text-anchor="middle">agente: “pelo servidor”</text>
+  <rect x="24" y="188" width="712" height="46" fill="#f6f5f1"/>
+  <text x="32" y="216" font-size="14" fill="#0b0b0b"><tspan font-weight="700" fill="#0b0b0b" text-decoration="underline">O microfone</tspan> desligou.</text>
+  <text x="392" y="216" font-size="13" fill="#52514e">sujeito (ergativa)</text>
+  <rect x="580" y="199" width="152" height="24" rx="6" fill="#fdeee6" stroke="#eb6834" stroke-width="1.3"/>
+  <text x="656" y="216" font-size="13.5" font-weight="700" fill="#b24a1c" text-anchor="middle">paciente</text>
+  <text x="32" y="262" font-size="14" fill="#0b0b0b"><tspan font-weight="700" fill="#0b0b0b" text-decoration="underline">A queda de energia</tspan> desligou o microfone.</text>
+  <text x="392" y="262" font-size="13" fill="#52514e">sujeito</text>
+  <rect x="580" y="245" width="152" height="24" rx="6" fill="#ece9f8" stroke="#4a3aa7" stroke-width="1.3"/>
+  <text x="656" y="262" font-size="13.5" font-weight="700" fill="#4a3aa7" text-anchor="middle">causa</text>
+  <rect x="24" y="280" width="712" height="46" fill="#f6f5f1"/>
+  <text x="32" y="308" font-size="14" fill="#0b0b0b"><tspan font-weight="700" fill="#0b0b0b" text-decoration="underline">A chave</tspan> abriu o armário.</text>
+  <text x="392" y="308" font-size="13" fill="#52514e">sujeito</text>
+  <rect x="580" y="291" width="152" height="24" rx="6" fill="#efeee9" stroke="#8c8a83" stroke-width="1.3"/>
+  <text x="656" y="308" font-size="13.5" font-weight="700" fill="#52514e" text-anchor="middle">instrumento</text>
+  <text x="32" y="354" font-size="14" fill="#0b0b0b"><tspan font-weight="700" fill="#0b0b0b" text-decoration="underline">A deputada</tspan> temia a derrota.</text>
+  <text x="392" y="354" font-size="13" fill="#52514e">sujeito</text>
+  <rect x="580" y="337" width="152" height="24" rx="6" fill="#dff3ea" stroke="#12805a" stroke-width="1.3"/>
+  <text x="656" y="354" font-size="13.5" font-weight="700" fill="#0e6b4b" text-anchor="middle">experienciador</text>
+  <rect x="24" y="372" width="712" height="46" fill="#f6f5f1"/>
+  <text x="32" y="400" font-size="14" fill="#0b0b0b"><tspan font-weight="700" fill="#0b0b0b" text-decoration="underline">O partido</tspan> tem doze cadeiras.</text>
+  <text x="392" y="400" font-size="13" fill="#52514e">sujeito</text>
+  <rect x="580" y="383" width="152" height="24" rx="6" fill="#fdf1d6" stroke="#c98500" stroke-width="1.3"/>
+  <text x="656" y="400" font-size="13.5" font-weight="700" fill="#8a5a00" text-anchor="middle">possuidor</text>
+  <text x="32" y="446" font-size="14" fill="#0b0b0b"><tspan font-weight="700" fill="#0b0b0b" text-decoration="underline">O ladrão</tspan> apanhou do vigia.</text>
+  <text x="392" y="446" font-size="13" fill="#52514e">sujeito (“apanhar de”)</text>
+  <rect x="580" y="423" width="152" height="36" rx="6" fill="#fdeee6" stroke="#eb6834" stroke-width="1.3"/>
+  <text x="656" y="438" font-size="13.5" font-weight="700" fill="#b24a1c" text-anchor="middle">paciente</text>
+  <text x="656" y="453" font-size="11.5" fill="#52514e" text-anchor="middle">agente: “do vigia”</text>
+  <line x1="24" y1="464" x2="736" y2="464" stroke="#0b0b0b" stroke-width="1.5"/>
+  <text x="24" y="490" font-size="12.5" fill="#0b0b0b"><tspan font-weight="700">Função</tspan> é do plano da forma; <tspan font-weight="700">papel</tspan>, do plano do sentido. Numa reescrita, em geral, a função muda e o papel fica.</text>
+  <text x="24" y="510" font-size="12" fill="#52514e">Rótulos como no texto da aula (em geral, os de Perini). Outros autores usam outros nomes.</text>
+</svg>

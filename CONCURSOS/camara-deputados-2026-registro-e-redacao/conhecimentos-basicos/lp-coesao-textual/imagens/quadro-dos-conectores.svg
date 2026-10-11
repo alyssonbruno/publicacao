@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="668" viewBox="0 0 920 668" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" role="img">
+  <title>Conectores por valor: o que se troca e o que não cabe</title>
+  <rect width="920" height="668" fill="#ffffff"/>
+  <defs>
+    <marker id="seta-azul" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1c5cab"/></marker>
+    <marker id="seta-verde" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#13704f"/></marker>
+    <marker id="seta-roxa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a3aa7"/></marker>
+  </defs>
+  <text x="24.0" y="34.0" font-size="20" fill="#0b0b0b" font-weight="700">Conectores por valor: o que se troca e o que não cabe</text>
+  <rect x="12" y="52" width="896" height="36" rx="8" fill="#f1f0ea"/>
+  <text x="26.0" y="76.0" font-size="15" fill="#0b0b0b" font-weight="700">Valor</text>
+  <text x="194.0" y="76.0" font-size="15" fill="#13704f" font-weight="700">Trocam entre si</text>
+  <text x="634.0" y="76.0" font-size="15" fill="#a8430f" font-weight="700">Parece, mas não cabe</text>
+  <rect x="12" y="94" width="896" height="38" rx="6" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="26.0" y="118.0" font-size="15" fill="#0b0b0b" font-weight="700">Adição</text>
+  <text x="194.0" y="118.0" font-size="15" fill="#0b0b0b">e, além disso, também, não só… mas também</text>
+  <text x="634.0" y="118.0" font-size="15" fill="#a8430f">“mas” sozinho (opõe)</text>
+  <rect x="12" y="136" width="896" height="58" rx="6" fill="#ffffff" stroke="#e1e0d9"/>
+  <text x="26.0" y="160.0" font-size="15" fill="#0b0b0b" font-weight="700">Oposição</text>
+  <text x="194.0" y="160.0" font-size="15" fill="#0b0b0b">mas, porém, contudo, todavia, no entanto, entretanto</text>
+  <text x="634.0" y="160.0" font-size="15" fill="#a8430f">“embora” sem refazer a frase</text>
+  <text x="634.0" y="180.0" font-size="15" fill="#a8430f">(muda o modo do verbo)</text>
+  <rect x="12" y="198" width="896" height="58" rx="6" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="26.0" y="222.0" font-size="15" fill="#0b0b0b" font-weight="700">Concessão</text>
+  <text x="26.0" y="242.0" font-size="13" fill="#52514e" font-style="italic">verbo no subjuntivo</text>
+  <text x="194.0" y="222.0" font-size="15" fill="#0b0b0b">embora, ainda que, conquanto, posto que,</text>
+  <text x="194.0" y="242.0" font-size="15" fill="#0b0b0b">se bem que</text>
+  <text x="634.0" y="222.0" font-size="15" fill="#a8430f">“porquanto” (causa); “contudo”</text>
+  <text x="634.0" y="242.0" font-size="15" fill="#a8430f">sem refazer a frase</text>
+  <rect x="12" y="260" width="896" height="58" rx="6" fill="#ffffff" stroke="#e1e0d9"/>
+  <text x="26.0" y="284.0" font-size="15" fill="#0b0b0b" font-weight="700">Causa</text>
+  <text x="194.0" y="284.0" font-size="15" fill="#0b0b0b">porque, já que, visto que, uma vez que, porquanto,</text>
+  <text x="194.0" y="304.0" font-size="15" fill="#0b0b0b">na medida em que</text>
+  <text x="634.0" y="284.0" font-size="15" fill="#a8430f">“posto que” e “conquanto”</text>
+  <text x="634.0" y="304.0" font-size="15" fill="#a8430f">(concessão)</text>
+  <rect x="12" y="322" width="896" height="58" rx="6" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="26.0" y="346.0" font-size="15" fill="#0b0b0b" font-weight="700">Conclusão</text>
+  <text x="194.0" y="346.0" font-size="15" fill="#0b0b0b">portanto, logo, por isso, por conseguinte,</text>
+  <text x="194.0" y="366.0" font-size="15" fill="#0b0b0b">pois (depois do verbo)</text>
+  <text x="634.0" y="346.0" font-size="15" fill="#a8430f">“porquanto” (causa)</text>
+  <rect x="12" y="384" width="896" height="38" rx="6" fill="#ffffff" stroke="#e1e0d9"/>
+  <text x="26.0" y="408.0" font-size="15" fill="#0b0b0b" font-weight="700">Proporção</text>
+  <text x="194.0" y="408.0" font-size="15" fill="#0b0b0b">à medida que, à proporção que, quanto mais… mais</text>
+  <text x="634.0" y="408.0" font-size="15" fill="#a8430f">“na medida em que” (causa)</text>
+  <rect x="12" y="426" width="896" height="58" rx="6" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="26.0" y="450.0" font-size="15" fill="#0b0b0b" font-weight="700">Condição</text>
+  <text x="26.0" y="470.0" font-size="13" fill="#52514e" font-style="italic">verbo no subjuntivo</text>
+  <text x="194.0" y="450.0" font-size="15" fill="#0b0b0b">se, caso, contanto que, desde que</text>
+  <text x="634.0" y="450.0" font-size="15" fill="#a8430f">“desde que” com indicativo</text>
+  <text x="634.0" y="470.0" font-size="15" fill="#a8430f">(tempo ou causa)</text>
+  <rect x="12" y="488" width="896" height="58" rx="6" fill="#ffffff" stroke="#e1e0d9"/>
+  <text x="26.0" y="512.0" font-size="15" fill="#0b0b0b" font-weight="700">Tempo</text>
+  <text x="194.0" y="512.0" font-size="15" fill="#0b0b0b">quando, assim que, logo que, enquanto (+ verbo)</text>
+  <text x="634.0" y="512.0" font-size="15" fill="#a8430f">“enquanto” + substantivo</text>
+  <text x="634.0" y="532.0" font-size="15" fill="#a8430f">(= na condição de)</text>
+  <rect x="12" y="550" width="896" height="38" rx="6" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="26.0" y="574.0" font-size="15" fill="#0b0b0b" font-weight="700">Na condição de</text>
+  <text x="194.0" y="574.0" font-size="15" fill="#0b0b0b">enquanto (+ substantivo), como, na qualidade de</text>
+  <text x="634.0" y="574.0" font-size="15" fill="#a8430f">“durante” (tempo)</text>
+  <rect x="12" y="598" width="896" height="58" rx="8" fill="#fbe9df" stroke="#a8430f"/>
+  <text x="28.0" y="622.0" font-size="15" fill="#a8430f" font-weight="700">Fora da norma-padrão: “à medida em que” e “na medida que”. Evite “enquanto que”.</text>
+  <text x="28.0" y="644.0" font-size="14" fill="#52514e">Trocar dentro do mesmo grupo mantém o valor; ainda assim, confira o modo do verbo e a construção.</text>
+</svg>

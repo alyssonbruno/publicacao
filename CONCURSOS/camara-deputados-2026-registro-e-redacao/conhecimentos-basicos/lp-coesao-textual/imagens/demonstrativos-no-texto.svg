@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="590" viewBox="0 0 880 590" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" role="img">
+  <title>Demonstrativos dentro do texto</title>
+  <rect width="880" height="590" fill="#ffffff"/>
+  <defs>
+    <marker id="seta-azul" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1c5cab"/></marker>
+    <marker id="seta-verde" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#13704f"/></marker>
+    <marker id="seta-roxa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a3aa7"/></marker>
+    <marker id="seta-laranja" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#a8430f"/></marker>
+  </defs>
+  <text x="24.0" y="34.0" font-size="20" fill="#0b0b0b" font-weight="700">Demonstrativos dentro do texto</text>
+  <rect x="12" y="50" width="856" height="150" rx="12" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="28.0" y="78.0" font-size="16" fill="#13704f" font-weight="700">este, esta, isto: antecipam o que vai ser dito</text>
+  <text x="73.8" y="168.0" font-size="19" fill="#0b0b0b" text-anchor="middle">A pauta é</text>
+  <rect x="130.7" y="147.0" width="63.7" height="29" rx="6" fill="#e2f4ec" stroke="#13704f" stroke-width="1.5"/>
+  <text x="162.5" y="168.0" font-size="19" fill="#13704f" font-weight="700" text-anchor="middle">esta:</text>
+  <text x="380.8" y="168.0" font-size="19" fill="#0b0b0b" text-anchor="middle">duas medidas provisórias e um veto.</text>
+  <path d="M205.4,145 L205.4,139 L550.2,139 L550.2,145" fill="none" stroke="#13704f" stroke-width="2"/>
+  <path d="M162.5,139.0 C162.5,105.0 377.8,105.0 377.8,139.0" fill="none" stroke="#13704f" stroke-width="2" marker-end="url(#seta-verde)"/>
+  <text x="387.8" y="103.0" font-size="14" fill="#13704f" font-weight="700">para a frente</text>
+  <rect x="12" y="214" width="856" height="150" rx="12" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="28.0" y="242.0" font-size="16" fill="#1c5cab" font-weight="700">esse, essa, isso: retomam o que já foi dito, até uma oração inteira</text>
+  <text x="191.5" y="332.0" font-size="19" fill="#0b0b0b" text-anchor="middle">A sessão foi suspensa duas vezes.</text>
+  <rect x="366.0" y="311.0" width="52.7" height="29" rx="6" fill="#e3edf9" stroke="#1c5cab" stroke-width="1.5"/>
+  <text x="392.3" y="332.0" font-size="19" fill="#1c5cab" font-weight="700" text-anchor="middle">Isso</text>
+  <text x="518.4" y="332.0" font-size="19" fill="#0b0b0b" text-anchor="middle">atrasou a votação.</text>
+  <path d="M28.0,309 L28.0,303 L348.9,303 L348.9,309" fill="none" stroke="#1c5cab" stroke-width="2"/>
+  <path d="M392.3,303.0 C392.3,269.0 188.4,269.0 188.4,303.0" fill="none" stroke="#1c5cab" stroke-width="2" marker-end="url(#seta-azul)"/>
+  <text x="408.3" y="273.0" font-size="14" fill="#1c5cab" font-weight="700">para trás: retoma o fato todo</text>
+  <rect x="12" y="378" width="856" height="196" rx="12" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="28.0" y="406.0" font-size="16" fill="#4a3aa7" font-weight="700">dois termos já citados: este = o último; aquele = o primeiro</text>
+  <rect x="23.0" y="469.0" width="112.9" height="29" rx="6" fill="#fbe9df" stroke="#a8430f" stroke-width="1.5"/>
+  <text x="79.5" y="490.0" font-size="19" fill="#a8430f" font-weight="700" text-anchor="middle">A Câmara</text>
+  <text x="152.8" y="490.0" font-size="19" fill="#0b0b0b" text-anchor="middle">e</text>
+  <rect x="169.7" y="469.0" width="109.2" height="29" rx="6" fill="#ece9f8" stroke="#4a3aa7" stroke-width="1.5"/>
+  <text x="224.3" y="490.0" font-size="19" fill="#4a3aa7" font-weight="700" text-anchor="middle">o Senado</text>
+  <text x="381.4" y="490.0" font-size="19" fill="#0b0b0b" text-anchor="middle">aprovaram o texto:</text>
+  <rect x="483.9" y="469.0" width="56.2" height="29" rx="6" fill="#ece9f8" stroke="#4a3aa7" stroke-width="1.5"/>
+  <text x="511.9" y="490.0" font-size="19" fill="#4a3aa7" font-weight="700" text-anchor="middle">este</text>
+  <text x="598.8" y="490.0" font-size="19" fill="#0b0b0b" text-anchor="middle">em junho,</text>
+  <rect x="657.5" y="469.0" width="82.2" height="29" rx="6" fill="#fbe9df" stroke="#a8430f" stroke-width="1.5"/>
+  <text x="698.6" y="490.0" font-size="19" fill="#a8430f" font-weight="700" text-anchor="middle">aquela</text>
+  <text x="801.5" y="490.0" font-size="19" fill="#0b0b0b" text-anchor="middle">em março.</text>
+  <path d="M511.9,465.0 C511.9,429.0 224.3,429.0 224.3,465.0" fill="none" stroke="#4a3aa7" stroke-width="2" marker-end="url(#seta-roxa)"/>
+  <text x="368.1" y="425.0" font-size="14" fill="#4a3aa7" font-weight="700" text-anchor="middle">o último citado</text>
+  <path d="M698.6,502 C698.6,552 79.5,552 79.5,502" fill="none" stroke="#a8430f" stroke-width="2" marker-end="url(#seta-laranja)"/>
+  <text x="389.0" y="560.0" font-size="14" fill="#a8430f" font-weight="700" text-anchor="middle">o primeiro citado</text>
+</svg>

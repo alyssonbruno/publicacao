@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="800" viewBox="0 0 960 800" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="960" height="800" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="40" font-size="21" font-weight="700" fill="#0b0b0b">Processos de formação de palavras</text>
+  <text x="24" y="64" font-size="14" fill="#52514e">um exemplo de cada, do mundo legislativo</text>
+
+  <!-- Cabeçalho das colunas -->
+  <g font-size="13" font-weight="700" fill="#52514e">
+    <text x="36" y="98">PROCESSO</text>
+    <text x="246" y="98">COMO SE FORMA</text>
+    <text x="566" y="98">EXEMPLO</text>
+  </g>
+  <line x1="24" y1="108" x2="936" y2="108" stroke="#b9b8b1"/>
+
+  <!-- Faixas dos grupos -->
+  <rect x="24" y="114" width="912" height="32" rx="6" fill="#e3edf9"/>
+  <text x="36" y="136" font-size="15" font-weight="700" fill="#1c5cab">Derivação<tspan font-weight="400" fill="#52514e">  ·  um radical só</tspan></text>
+
+  <rect x="24" y="386" width="912" height="32" rx="6" fill="#e2f4ec"/>
+  <text x="36" y="408" font-size="15" font-weight="700" fill="#127a55">Composição<tspan font-weight="400" fill="#52514e">  ·  dois ou mais radicais</tspan></text>
+
+  <rect x="24" y="498" width="912" height="32" rx="6" fill="#fdf0e6"/>
+  <text x="36" y="520" font-size="15" font-weight="700" fill="#b4501f">Outros processos</text>
+
+  <!-- Linhas entre as linhas da tabela -->
+  <g stroke="#e1e0d9">
+    <line x1="24" y1="186" x2="936" y2="186"/>
+    <line x1="24" y1="226" x2="936" y2="226"/>
+    <line x1="24" y1="266" x2="936" y2="266"/>
+    <line x1="24" y1="306" x2="936" y2="306"/>
+    <line x1="24" y1="346" x2="936" y2="346"/>
+    <line x1="24" y1="458" x2="936" y2="458"/>
+    <line x1="24" y1="570" x2="936" y2="570"/>
+    <line x1="24" y1="610" x2="936" y2="610"/>
+    <line x1="24" y1="650" x2="936" y2="650"/>
+    <line x1="24" y1="690" x2="936" y2="690"/>
+  </g>
+
+  <!-- Coluna 1: processo -->
+  <g font-size="15" font-weight="700" fill="#0b0b0b">
+    <text x="36" y="172">Prefixal</text>
+    <text x="36" y="212">Sufixal</text>
+    <text x="36" y="252">Prefixal e sufixal</text>
+    <text x="36" y="292">Parassintética</text>
+    <text x="36" y="332">Regressiva</text>
+    <text x="36" y="372">Imprópria</text>
+    <text x="36" y="444">Justaposição</text>
+    <text x="36" y="484">Aglutinação</text>
+    <text x="36" y="556">Abreviação</text>
+    <text x="36" y="596">Sigla</text>
+    <text x="36" y="636">Hibridismo</text>
+    <text x="36" y="676">Onomatopeia</text>
+  </g>
+
+  <!-- Coluna 2: como se forma -->
+  <g font-size="14" fill="#52514e">
+    <text x="246" y="172">prefixo + palavra</text>
+    <text x="246" y="212">palavra + sufixo</text>
+    <text x="246" y="252">um afixo de cada vez</text>
+    <text x="246" y="292">prefixo e sufixo ao mesmo tempo</text>
+    <text x="246" y="332">verbo vira substantivo de ação</text>
+    <text x="246" y="372">muda a classe, não a forma</text>
+    <text x="246" y="444">partes inteiras, cada uma com seu acento</text>
+    <text x="246" y="484">partes fundidas, com perda de som</text>
+    <text x="246" y="556">parte pelo todo, na mesma classe</text>
+    <text x="246" y="596">iniciais da expressão</text>
+    <text x="246" y="636">elementos de línguas diferentes</text>
+    <text x="246" y="676">imitação de um som</text>
+  </g>
+
+  <!-- Coluna 3: exemplo -->
+  <g font-size="15" fill="#0b0b0b">
+    <text x="566" y="172">arquivar <tspan fill="#52514e">→</tspan> <tspan font-weight="700" fill="#1c5cab">des</tspan>arquivar</text>
+    <text x="566" y="212">votar <tspan fill="#52514e">→</tspan> vota<tspan font-weight="700" fill="#1c5cab">ção</tspan></text>
+    <text x="566" y="252">inconstitucional <tspan fill="#52514e">→</tspan> inconstitucional<tspan font-weight="700" fill="#1c5cab">idade</tspan></text>
+    <text x="566" y="292">gaveta <tspan fill="#52514e">→</tspan> <tspan font-weight="700" fill="#1c5cab">en</tspan>gavet<tspan font-weight="700" fill="#1c5cab">ar</tspan><tspan font-size="13" fill="#52514e">  (não há “gavetar”)</tspan></text>
+    <text x="566" y="332">debater <tspan fill="#52514e">→</tspan> debate<tspan fill="#52514e">;  </tspan>destacar <tspan fill="#52514e">→</tspan> destaque</text>
+    <text x="566" y="372">parecer <tspan font-size="13" fill="#52514e">(verbo)</tspan> <tspan fill="#52514e">→</tspan> o parecer</text>
+    <text x="566" y="444">decreto + lei <tspan fill="#52514e">→</tspan> <tspan font-weight="700" fill="#127a55">decreto-lei</tspan></text>
+    <text x="566" y="484">plano + alto <tspan fill="#52514e">→</tspan> <tspan font-weight="700" fill="#127a55">planalto</tspan></text>
+    <text x="566" y="556">vice-presidente <tspan fill="#52514e">→</tspan> <tspan font-weight="700" fill="#b4501f">vice</tspan></text>
+    <text x="566" y="596">proposta de emenda à Constituição <tspan fill="#52514e">→</tspan> <tspan font-weight="700" fill="#b4501f">PEC</tspan></text>
+    <text x="566" y="636">tele <tspan font-size="13" fill="#52514e">(grego)</tspan> + visão <tspan font-size="13" fill="#52514e">(latim)</tspan> <tspan fill="#52514e">→</tspan> <tspan font-weight="700" fill="#b4501f">televisão</tspan></text>
+    <text x="566" y="676"><tspan font-weight="700" fill="#b4501f">tique-taque</tspan>, <tspan font-weight="700" fill="#b4501f">blá-blá-blá</tspan></text>
+  </g>
+
+  <!-- Teste da parassíntese -->
+  <rect x="24" y="708" width="912" height="76" rx="10" fill="#fcfcfb" stroke="#1c5cab" stroke-width="1.5"/>
+  <text x="40" y="732" font-size="15" font-weight="700" fill="#1c5cab">Teste da parassíntese</text>
+  <text x="40" y="754" font-size="14" fill="#0b0b0b">Tire o prefixo; depois, o sufixo. Se não sobra palavra nenhuma, é parassintética: engavetar (não há gavetar).</text>
+  <text x="40" y="774" font-size="14" fill="#0b0b0b">Se sobra, não é: de desarquivamento sobram arquivamento e desarquivar, e por isso a palavra é prefixal e sufixal.</text>
+</svg>

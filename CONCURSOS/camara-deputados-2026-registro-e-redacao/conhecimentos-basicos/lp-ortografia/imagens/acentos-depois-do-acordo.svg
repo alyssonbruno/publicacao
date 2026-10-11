@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+  <rect width="760" height="480" fill="#ffffff"/>
+  <text x="16" y="34" font-size="17" font-weight="700" fill="#0b0b0b">Acentos depois do Acordo: o que caiu e o que ficou</text>
+
+  <!-- Perderam o acento -->
+  <g transform="translate(12 52)">
+    <rect width="362" height="304" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#b4471b">Perderam o acento</text>
+    <g stroke="#e1e0d9">
+      <line x1="16" y1="97" x2="346" y2="97"/>
+      <line x1="16" y1="149" x2="346" y2="149"/>
+      <line x1="16" y1="201" x2="346" y2="201"/>
+      <line x1="16" y1="253" x2="346" y2="253"/>
+    </g>
+    <g font-size="13" fill="#52514e">
+      <text x="16" y="62">ei e oi abertos, em paroxítona</text>
+      <text x="16" y="114">ee e oo (hiato)</text>
+      <text x="16" y="166">i e u tônicos depois de ditongo, em paroxítona</text>
+      <text x="16" y="218">o diferencial que separava da palavra átona</text>
+      <text x="16" y="270">trema (só fica em nome estrangeiro: mülleriano)</text>
+    </g>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="84">ideia, assembleia, heroico, jiboia</text>
+      <text x="16" y="136">creem, leem, veem, voo, enjoo</text>
+      <text x="16" y="188">feiura, baiuca</text>
+      <text x="16" y="240">para (de parar), pelo, polo, pera</text>
+      <text x="16" y="292">frequência, tranquilo, cinquenta</text>
+    </g>
+  </g>
+
+  <!-- Continuam com acento -->
+  <g transform="translate(386 52)">
+    <rect width="362" height="304" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#1c5cab">Continuam com acento</text>
+    <g stroke="#e1e0d9">
+      <line x1="16" y1="97" x2="346" y2="97"/>
+      <line x1="16" y1="149" x2="346" y2="149"/>
+      <line x1="16" y1="201" x2="346" y2="201"/>
+      <line x1="16" y1="253" x2="346" y2="253"/>
+    </g>
+    <g font-size="13" fill="#52514e">
+      <text x="16" y="62">éi, éu, ói em oxítona e monossílabo</text>
+      <text x="16" y="114">i e u depois de ditongo, em oxítona</text>
+      <text x="16" y="166">pôr (verbo) e pôde (passado)</text>
+      <text x="16" y="218">ter e vir no plural</text>
+      <text x="16" y="270">derivados de ter e vir no plural</text>
+    </g>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="84">papéis, herói, chapéu, dói</text>
+      <text x="16" y="136">Piauí, tuiuiú</text>
+      <text x="16" y="188">p<tspan font-weight="700" fill="#1c5cab">ô</tspan>r <tspan fill="#52514e">× por;</tspan>  p<tspan font-weight="700" fill="#1c5cab">ô</tspan>de <tspan fill="#52514e">× pode</tspan></text>
+      <text x="16" y="240">eles t<tspan font-weight="700" fill="#1c5cab">ê</tspan>m, v<tspan font-weight="700" fill="#1c5cab">ê</tspan>m <tspan fill="#52514e">× ele tem, vem</tspan></text>
+      <text x="16" y="292">eles mant<tspan font-weight="700" fill="#1c5cab">ê</tspan>m <tspan fill="#52514e">× ele</tspan> mant<tspan font-weight="700" fill="#1c5cab">é</tspan>m</text>
+    </g>
+  </g>
+
+  <!-- Faixa de baixo -->
+  <g transform="translate(12 368)">
+    <rect width="736" height="100" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="30" font-size="13" fill="#52514e">Acento facultativo</text>
+    <text x="16" y="52" font-size="15" fill="#0b0b0b">fôrma ou forma (molde); dêmos (subjuntivo) ou demos</text>
+    <line x1="16" y1="66" x2="720" y2="66" stroke="#e1e0d9"/>
+    <text x="16" y="86" font-size="13" fill="#b4471b" font-weight="700">Não confunda</text>
+    <text x="120" y="86" font-size="15" fill="#0b0b0b">eles <tspan font-weight="700">veem</tspan> (ver) o painel  ×  eles <tspan font-weight="700">vêm</tspan> (vir) à sessão</text>
+  </g>
+</svg>

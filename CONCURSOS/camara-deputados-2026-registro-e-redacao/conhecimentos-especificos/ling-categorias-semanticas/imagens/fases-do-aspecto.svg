@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="760" height="460" fill="#ffffff"/>
+
+  <text x="24" y="32" font-size="17" font-weight="700" fill="#0b0b0b">Aspecto: o fato inteiro ou uma fase dele</text>
+
+  <!-- Perfectivo: colchete que abraça a situação inteira -->
+  <text x="345" y="70" font-size="14" font-weight="700" fill="#1c5cab" text-anchor="middle">PERFECTIVO: o fato visto de fora, como um todo</text>
+  <text x="345" y="90" font-size="13.5" font-style="italic" fill="#0b0b0b" text-anchor="middle">a comissão votou os destaques</text>
+  <path d="M110 128 L110 108 L580 108 L580 128" fill="none" stroke="#256abf" stroke-width="2.5"/>
+
+  <!-- A situação -->
+  <rect x="110" y="138" width="470" height="36" rx="6" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+  <text x="215" y="161" font-size="14" font-weight="700" fill="#1c5cab" text-anchor="middle">votar os destaques</text>
+  <line x1="580" y1="156" x2="716" y2="156" stroke="#8c8a83" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <path d="M716 150 L728 156 L716 162 Z" fill="#8c8a83"/>
+  <g font-size="12" fill="#52514e" text-anchor="middle">
+    <text x="110" y="192">início</text>
+    <text x="580" y="192">fim</text>
+    <text x="660" y="146">depois do fim</text>
+  </g>
+
+  <!-- Imperfectivo: janela sobre uma parte da faixa -->
+  <rect x="298" y="130" width="94" height="52" rx="8" fill="none" stroke="#12805a" stroke-width="2.5" stroke-dasharray="6 4"/>
+
+  <!-- Fases -->
+  <g stroke-width="2">
+    <line x1="150" y1="174" x2="150" y2="222" stroke="#4a3aa7"/>
+    <line x1="345" y1="182" x2="345" y2="222" stroke="#4a3aa7"/>
+    <line x1="540" y1="174" x2="540" y2="222" stroke="#4a3aa7"/>
+    <line x1="660" y1="162" x2="660" y2="222" stroke="#8a5a00"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="150" y="242" font-size="13.5" font-weight="700" fill="#4a3aa7">inceptivo</text>
+    <text x="150" y="261" font-size="13" fill="#52514e">o começo</text>
+    <text x="150" y="281" font-size="13" font-style="italic" fill="#0b0b0b">começa a votar</text>
+
+    <text x="345" y="242" font-size="13.5" font-weight="700" fill="#4a3aa7">cursivo</text>
+    <text x="345" y="261" font-size="13" fill="#52514e">o meio, em curso</text>
+    <text x="345" y="281" font-size="13" font-style="italic" fill="#0b0b0b">está votando</text>
+
+    <text x="520" y="242" font-size="13.5" font-weight="700" fill="#4a3aa7">terminativo</text>
+    <text x="520" y="261" font-size="13" fill="#52514e">os últimos momentos</text>
+    <text x="520" y="281" font-size="13" font-style="italic" fill="#0b0b0b">está terminando de votar</text>
+
+    <text x="668" y="242" font-size="13.5" font-weight="700" fill="#8a5a00">acabado</text>
+    <text x="668" y="261" font-size="13" fill="#52514e">depois do término</text>
+    <text x="668" y="281" font-size="13" font-style="italic" fill="#0b0b0b">já votou</text>
+    <text x="668" y="300" font-size="13" font-style="italic" fill="#0b0b0b">acaba de votar*</text>
+  </g>
+
+  <!-- Caixa do imperfectivo -->
+  <rect x="24" y="324" width="712" height="64" rx="10" fill="#dff3ea" stroke="#12805a" stroke-width="1.5"/>
+  <text x="40" y="350" font-size="14" font-weight="700" fill="#0e6b4b">IMPERFECTIVO (a janela tracejada): o fato visto de dentro, numa fase, sem o todo</text>
+  <text x="40" y="374" font-size="13.5" font-style="italic" fill="#0b0b0b">a comissão votava os destaques quando faltou luz</text>
+
+  <!-- Notas -->
+  <text x="24" y="416" font-size="12" fill="#52514e">* Para Travaglia, “acabar de” + infinitivo é acabado (logo depois do fim);</text>
+  <text x="24" y="434" font-size="12" fill="#52514e">   Castilho chama “acabou de fumar” de terminativo. Nomes das fases: Travaglia (2016).</text>
+</svg>

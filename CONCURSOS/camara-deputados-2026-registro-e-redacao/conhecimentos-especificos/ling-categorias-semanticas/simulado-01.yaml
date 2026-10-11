@@ -1,0 +1,249 @@
+# Treino de categorias semânticas e papéis semânticos — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Categorias semânticas e papéis semânticos
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (relato de uma reunião de comissão parlamentar
+      de inquérito), no estilo de certo ou errado do Cebraspe: uma forma do texto, com remissão à linha,
+      e uma afirmação por item sobre o valor dela no trecho (papel semântico, gênero, tempo, aspecto,
+      modalidade, pessoa) ou sobre o efeito de uma reescrita.'
+    - 'Referências de estilo, sem cópia de itens: caderno de conhecimentos específicos de Professor de
+      Educação Básica – Língua Portuguesa da SEE/DF 2017 (Cebraspe) e caderno de conhecimentos específicos
+      de Analista Legislativo – Taquígrafo Legislativo da Câmara dos Deputados 2012 (CESPE/UnB).'
+    - 'Bases do gabarito: Cançado (2005, DELTA); Cunha (2005 e 2008, Soletras); Corrêa (2012, CESAD/UFS,
+      sobre Perini); Barbosa e Longo (2003, Letras & Letras, com a descrição de Corôa, 1985); Ilari (2020,
+      Diadorim); Travaglia (2016, EDUFU); Duarte (2012, Revista do GELNE); Corbari (2013, Cadernos de
+      Letras da UFF); Manual de Redação da Presidência da República, 3ª ed. (2018), item 4.1.1. Consultados
+      em 11/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/ling-categorias-semanticas
+    enunciado: |-
+      Texto para o item: relato fictício de uma reunião de comissão parlamentar de inquérito, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A reunião da comissão parlamentar de inquérito começou com uma hora
+      > 2. de atraso. Às 14h, uma queda de energia desligou os microfones e o
+      > 3. painel eletrônico. Quando o sistema voltou, parte dos deputados já
+      > 4. tinha deixado o plenário. O relator, que tem apresentado
+      > 5. requerimentos de convocação de ex-dirigentes da empresa investigada,
+      > 6. leu o plano de trabalho e defendeu novas diligências. Segundo
+      > 7. assessores, o presidente da comissão estaria disposto a ouvir novos
+      > 8. depoentes, mas o relatório final deve ser votado até o último dia do
+      > 9. prazo, como determina o ato de criação da comissão. A testemunha
+      > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
+      > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
+      > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+
+      Com base no texto e nas categorias semânticas, julgue o item.
+
+      No trecho “uma queda de energia desligou os microfones e o painel eletrônico” (linhas 2 e 3), o sujeito designa a causa do evento, e não o seu agente, uma vez que não exerce controle sobre o processo que desencadeia.
+  - id: q02
+    topico: conhecimentos-especificos/ling-categorias-semanticas
+    enunciado: |-
+      Texto para o item: relato fictício de uma reunião de comissão parlamentar de inquérito, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A reunião da comissão parlamentar de inquérito começou com uma hora
+      > 2. de atraso. Às 14h, uma queda de energia desligou os microfones e o
+      > 3. painel eletrônico. Quando o sistema voltou, parte dos deputados já
+      > 4. tinha deixado o plenário. O relator, que tem apresentado
+      > 5. requerimentos de convocação de ex-dirigentes da empresa investigada,
+      > 6. leu o plano de trabalho e defendeu novas diligências. Segundo
+      > 7. assessores, o presidente da comissão estaria disposto a ouvir novos
+      > 8. depoentes, mas o relatório final deve ser votado até o último dia do
+      > 9. prazo, como determina o ato de criação da comissão. A testemunha
+      > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
+      > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
+      > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+
+      Com base no texto e nas categorias semânticas, julgue o item.
+
+      Caso o trecho “uma queda de energia desligou os microfones” (linha 2) fosse reescrito como *Os microfones desligaram por causa de uma queda de energia*, o termo “os microfones” passaria a exercer o papel semântico de agente, por ocupar a função de sujeito.
+  - id: q03
+    topico: conhecimentos-especificos/ling-categorias-semanticas
+    enunciado: |-
+      Texto para o item: relato fictício de uma reunião de comissão parlamentar de inquérito, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A reunião da comissão parlamentar de inquérito começou com uma hora
+      > 2. de atraso. Às 14h, uma queda de energia desligou os microfones e o
+      > 3. painel eletrônico. Quando o sistema voltou, parte dos deputados já
+      > 4. tinha deixado o plenário. O relator, que tem apresentado
+      > 5. requerimentos de convocação de ex-dirigentes da empresa investigada,
+      > 6. leu o plano de trabalho e defendeu novas diligências. Segundo
+      > 7. assessores, o presidente da comissão estaria disposto a ouvir novos
+      > 8. depoentes, mas o relatório final deve ser votado até o último dia do
+      > 9. prazo, como determina o ato de criação da comissão. A testemunha
+      > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
+      > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
+      > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+
+      Com base no texto e nas categorias semânticas, julgue o item.
+
+      Visto que a testemunha é um homem, como informa o aposto “um servidor aposentado” (linha 10), a forma “ouvida” (linha 10) deveria ser substituída por *ouvido*, para que o texto respeitasse a norma-padrão.
+  - id: q04
+    topico: conhecimentos-especificos/ling-categorias-semanticas
+    enunciado: |-
+      Texto para o item: relato fictício de uma reunião de comissão parlamentar de inquérito, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A reunião da comissão parlamentar de inquérito começou com uma hora
+      > 2. de atraso. Às 14h, uma queda de energia desligou os microfones e o
+      > 3. painel eletrônico. Quando o sistema voltou, parte dos deputados já
+      > 4. tinha deixado o plenário. O relator, que tem apresentado
+      > 5. requerimentos de convocação de ex-dirigentes da empresa investigada,
+      > 6. leu o plano de trabalho e defendeu novas diligências. Segundo
+      > 7. assessores, o presidente da comissão estaria disposto a ouvir novos
+      > 8. depoentes, mas o relatório final deve ser votado até o último dia do
+      > 9. prazo, como determina o ato de criação da comissão. A testemunha
+      > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
+      > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
+      > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+
+      Com base no texto e nas categorias semânticas, julgue o item.
+
+      A forma verbal “vira” (linha 10) remete a um período anterior ao momento em que a testemunha falou, o qual, por sua vez, é anterior ao momento da produção do texto.
+  - id: q05
+    topico: conhecimentos-especificos/ling-categorias-semanticas
+    enunciado: |-
+      Texto para o item: relato fictício de uma reunião de comissão parlamentar de inquérito, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A reunião da comissão parlamentar de inquérito começou com uma hora
+      > 2. de atraso. Às 14h, uma queda de energia desligou os microfones e o
+      > 3. painel eletrônico. Quando o sistema voltou, parte dos deputados já
+      > 4. tinha deixado o plenário. O relator, que tem apresentado
+      > 5. requerimentos de convocação de ex-dirigentes da empresa investigada,
+      > 6. leu o plano de trabalho e defendeu novas diligências. Segundo
+      > 7. assessores, o presidente da comissão estaria disposto a ouvir novos
+      > 8. depoentes, mas o relatório final deve ser votado até o último dia do
+      > 9. prazo, como determina o ato de criação da comissão. A testemunha
+      > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
+      > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
+      > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+
+      Com base no texto e nas categorias semânticas, julgue o item.
+
+      A substituição de “tem apresentado” (linha 4) por *apresentou* preservaria o sentido original do texto.
+  - id: q06
+    topico: conhecimentos-especificos/ling-categorias-semanticas
+    enunciado: |-
+      Texto para o item: relato fictício de uma reunião de comissão parlamentar de inquérito, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A reunião da comissão parlamentar de inquérito começou com uma hora
+      > 2. de atraso. Às 14h, uma queda de energia desligou os microfones e o
+      > 3. painel eletrônico. Quando o sistema voltou, parte dos deputados já
+      > 4. tinha deixado o plenário. O relator, que tem apresentado
+      > 5. requerimentos de convocação de ex-dirigentes da empresa investigada,
+      > 6. leu o plano de trabalho e defendeu novas diligências. Segundo
+      > 7. assessores, o presidente da comissão estaria disposto a ouvir novos
+      > 8. depoentes, mas o relatório final deve ser votado até o último dia do
+      > 9. prazo, como determina o ato de criação da comissão. A testemunha
+      > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
+      > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
+      > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+
+      Com base no texto e nas categorias semânticas, julgue o item.
+
+      A forma verbal “tinha deixado” (linhas 3 e 4) apresenta a saída dos deputados como fato ainda em curso no momento em que o sistema voltou.
+  - id: q07
+    topico: conhecimentos-especificos/ling-categorias-semanticas
+    enunciado: |-
+      Texto para o item: relato fictício de uma reunião de comissão parlamentar de inquérito, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A reunião da comissão parlamentar de inquérito começou com uma hora
+      > 2. de atraso. Às 14h, uma queda de energia desligou os microfones e o
+      > 3. painel eletrônico. Quando o sistema voltou, parte dos deputados já
+      > 4. tinha deixado o plenário. O relator, que tem apresentado
+      > 5. requerimentos de convocação de ex-dirigentes da empresa investigada,
+      > 6. leu o plano de trabalho e defendeu novas diligências. Segundo
+      > 7. assessores, o presidente da comissão estaria disposto a ouvir novos
+      > 8. depoentes, mas o relatório final deve ser votado até o último dia do
+      > 9. prazo, como determina o ato de criação da comissão. A testemunha
+      > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
+      > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
+      > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+
+      Com base no texto e nas categorias semânticas, julgue o item.
+
+      Se a forma verbal “leu” (linha 6) fosse substituída por *lia*, a leitura do plano de trabalho deixaria de ser apresentada como fato concluído, embora continuasse situada no passado.
+  - id: q08
+    topico: conhecimentos-especificos/ling-categorias-semanticas
+    enunciado: |-
+      Texto para o item: relato fictício de uma reunião de comissão parlamentar de inquérito, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A reunião da comissão parlamentar de inquérito começou com uma hora
+      > 2. de atraso. Às 14h, uma queda de energia desligou os microfones e o
+      > 3. painel eletrônico. Quando o sistema voltou, parte dos deputados já
+      > 4. tinha deixado o plenário. O relator, que tem apresentado
+      > 5. requerimentos de convocação de ex-dirigentes da empresa investigada,
+      > 6. leu o plano de trabalho e defendeu novas diligências. Segundo
+      > 7. assessores, o presidente da comissão estaria disposto a ouvir novos
+      > 8. depoentes, mas o relatório final deve ser votado até o último dia do
+      > 9. prazo, como determina o ato de criação da comissão. A testemunha
+      > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
+      > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
+      > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+
+      Com base no texto e nas categorias semânticas, julgue o item.
+
+      No trecho “o relatório final deve ser votado até o último dia do prazo” (linhas 8 e 9), o verbo *dever* exprime probabilidade, ou seja, modalidade epistêmica.
+  - id: q09
+    topico: conhecimentos-especificos/ling-categorias-semanticas
+    enunciado: |-
+      Texto para o item: relato fictício de uma reunião de comissão parlamentar de inquérito, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A reunião da comissão parlamentar de inquérito começou com uma hora
+      > 2. de atraso. Às 14h, uma queda de energia desligou os microfones e o
+      > 3. painel eletrônico. Quando o sistema voltou, parte dos deputados já
+      > 4. tinha deixado o plenário. O relator, que tem apresentado
+      > 5. requerimentos de convocação de ex-dirigentes da empresa investigada,
+      > 6. leu o plano de trabalho e defendeu novas diligências. Segundo
+      > 7. assessores, o presidente da comissão estaria disposto a ouvir novos
+      > 8. depoentes, mas o relatório final deve ser votado até o último dia do
+      > 9. prazo, como determina o ato de criação da comissão. A testemunha
+      > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
+      > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
+      > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+
+      Com base no texto e nas categorias semânticas, julgue o item.
+
+      O emprego do futuro do pretérito em “estaria disposto” (linha 7) indica que o autor do texto não assume como certa a disposição do presidente da comissão, informação que ele atribui a assessores.
+  - id: q10
+    topico: conhecimentos-especificos/ling-categorias-semanticas
+    enunciado: |-
+      Texto para o item: relato fictício de uma reunião de comissão parlamentar de inquérito, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A reunião da comissão parlamentar de inquérito começou com uma hora
+      > 2. de atraso. Às 14h, uma queda de energia desligou os microfones e o
+      > 3. painel eletrônico. Quando o sistema voltou, parte dos deputados já
+      > 4. tinha deixado o plenário. O relator, que tem apresentado
+      > 5. requerimentos de convocação de ex-dirigentes da empresa investigada,
+      > 6. leu o plano de trabalho e defendeu novas diligências. Segundo
+      > 7. assessores, o presidente da comissão estaria disposto a ouvir novos
+      > 8. depoentes, mas o relatório final deve ser votado até o último dia do
+      > 9. prazo, como determina o ato de criação da comissão. A testemunha
+      > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
+      > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
+      > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+
+      Com base no texto e nas categorias semânticas, julgue o item.
+
+      Em “Vossa Excelência sabe” (linha 12), a forma de tratamento designa o interlocutor do relator, embora o verbo esteja flexionado na terceira pessoa do singular.

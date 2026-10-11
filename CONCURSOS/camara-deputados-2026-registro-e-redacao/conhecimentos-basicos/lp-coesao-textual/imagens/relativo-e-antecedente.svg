@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="516" viewBox="0 0 820 516" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" role="img">
+  <title>O relativo retoma o antecedente, não o sujeito</title>
+  <rect width="820" height="516" fill="#ffffff"/>
+  <defs>
+    <marker id="seta-azul" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1c5cab"/></marker>
+    <marker id="seta-verde" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#13704f"/></marker>
+    <marker id="seta-roxa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a3aa7"/></marker>
+  </defs>
+  <text x="24.0" y="36.0" font-size="20" fill="#0b0b0b" font-weight="700">O relativo retoma o antecedente, não o sujeito</text>
+  <rect x="12" y="56" width="796" height="190" rx="12" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="119.5" y="150.0" font-size="22" fill="#0b0b0b" text-anchor="middle">A Mesa arquivou</text>
+  <rect x="223.1" y="126.0" width="202.4" height="32" rx="6" fill="#e3edf9" stroke="#1c5cab" stroke-width="1.5"/>
+  <text x="324.3" y="150.0" font-size="22" fill="#1c5cab" font-weight="700" text-anchor="middle">o requerimento</text>
+  <text x="460.6" y="150.0" font-size="22" fill="#1c5cab" font-weight="700" text-anchor="middle">que</text>
+  <rect x="495.8" y="126.0" width="151.1" height="32" rx="6" fill="#fbe9df" stroke="#a8430f" stroke-width="1.5"/>
+  <text x="571.3" y="150.0" font-size="22" fill="#a8430f" font-weight="700" text-anchor="middle">o deputado</text>
+  <text x="724.6" y="150.0" font-size="22" fill="#0b0b0b" text-anchor="middle">apresentou.</text>
+  <path d="M460.6,122.0 C460.6,76.0 344.3,76.0 344.3,122.0" fill="none" stroke="#1c5cab" stroke-width="2" marker-end="url(#seta-azul)"/>
+  <text x="402.4" y="80.0" font-size="15" fill="#1c5cab" font-weight="700" text-anchor="middle">referente do “que” (é o objeto direto de “apresentou”)</text>
+  <line x1="571.3" y1="160" x2="571.3" y2="180" stroke="#a8430f" stroke-width="2"/>
+  <text x="571.3" y="200.0" font-size="15" fill="#a8430f" font-weight="700" text-anchor="middle">sujeito de “apresentou”:</text>
+  <text x="571.3" y="220.0" font-size="15" fill="#a8430f" font-weight="700" text-anchor="middle">não é o referente do “que”</text>
+  <rect x="12" y="262" width="796" height="150" rx="12" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <rect x="23.0" y="336.0" width="154.7" height="32" rx="6" fill="#e3edf9" stroke="#1c5cab" stroke-width="1.5"/>
+  <text x="100.3" y="360.0" font-size="22" fill="#1c5cab" font-weight="700" text-anchor="middle">O deputado</text>
+  <text x="212.8" y="360.0" font-size="22" fill="#1c5cab" font-weight="700" text-anchor="middle">que</text>
+  <text x="486.6" y="360.0" font-size="22" fill="#0b0b0b" text-anchor="middle">apresentou o requerimento pediu a palavra.</text>
+  <path d="M212.8,332.0 C212.8,288.0 114.3,288.0 114.3,332.0" fill="none" stroke="#1c5cab" stroke-width="2" marker-end="url(#seta-azul)"/>
+  <text x="28.0" y="286.0" font-size="15" fill="#1c5cab" font-weight="700">referente do “que”, que aqui é o sujeito de “apresentou”</text>
+  <text x="28.0" y="394.0" font-size="15" fill="#52514e">Antecedente e sujeito coincidem só quando o “que” é o sujeito da oração.</text>
+  <rect x="12" y="422" width="796" height="74" rx="12" fill="#e2f4ec" stroke="#13704f"/>
+  <text x="28.0" y="448.0" font-size="16" fill="#13704f" font-weight="700">Teste: ponha o antecedente no lugar do “que” e desfaça a oração.</text>
+  <text x="28" y="478" font-size="16" fill="#0b0b0b">Na frase 1: o deputado apresentou <tspan fill="#1c5cab" font-weight="700">o requerimento</tspan> → o “que” vale por <tspan fill="#1c5cab" font-weight="700">o requerimento</tspan>.</text>
+</svg>
