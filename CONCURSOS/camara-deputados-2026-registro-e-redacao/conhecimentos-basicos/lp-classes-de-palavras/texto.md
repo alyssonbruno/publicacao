@@ -51,7 +51,7 @@ O sinal é o **determinante** (artigo, pronome ou numeral) antes da palavra. Out
 Muitos adjetivos aparecem logo depois do verbo, e é aí que mora o erro. São dois casos diferentes:
 
 - **Predicativo**: o adjetivo se refere ao sujeito (ou ao objeto) e **concorda** com ele. *O deputado chegou **apressado*** → *As deputadas chegaram **apressadas***. Em *Tranquila, a relatora leu o parecer*, "tranquila" concorda com "relatora".
-- **Adjetivo adverbializado**: a palavra modifica o verbo e **não varia**; é advérbio. *O orador falou **claro*** → *As oradoras falaram **claro*** (= claramente).
+- **Adjetivo adverbializado**: a palavra modifica o verbo e **não varia**; é advérbio, outro caso de derivação imprópria. *O orador falou **claro*** → *As oradoras falaram **claro*** (= claramente).
 
 O teste está na figura: mude o gênero ou o número do sujeito e veja se a palavra acompanha.
 
@@ -92,7 +92,7 @@ O lugar comum do adjetivo é depois do substantivo. Anteposto, ele ganha ênfase
 
 Com "certo", muda também a classe: ***Certo** deputado pediu a palavra* (pronome indefinido: um deputado, sem dizer qual) × *O presidente designou o relator **certo*** (adjetivo: o adequado).
 
-Com "algum", a classe fica e o valor se inverte: ***alguma** emenda* (positivo) × *emenda **alguma*** (negativo). É pronome indefinido nas duas posições.
+Com "algum", a classe não muda, mas o valor se inverte: ***alguma** emenda* (positivo) × *emenda **alguma*** (negativo). É pronome indefinido nas duas posições.
 
 > [!CAUTION]
 > Diante de um item que desloca o adjetivo, "certo" ou "algum" e afirma que "o sentido se preserva", leia as duas versões. Nesses pares, o sentido muda; só com "certo" muda também a classe.
@@ -194,7 +194,7 @@ O que os dois manuais condenam é *o mesmo*, *os mesmos* sem substantivo, no lug
 - Dar a mesma classificação a dois "que" ou dois "se" que só têm a mesma forma.
 - Chamar de advérbio o adjetivo predicativo que fica perto do verbo ("chegaram apressados").
 - Trocar apassivador e índice de indeterminação, ou pôr o verbo no plural diante de termo com preposição.
-- Deslocar um adjetivo, ou "certo", e afirmar que o sentido se preserva.
+- Deslocar um adjetivo, "certo" ou "algum" e afirmar que o sentido se preserva.
 - Suprimir o artigo depois de "todo" ou antes de numeral ("umas cinco horas") "sem prejuízo do sentido".
 - Tratar "o mesmo" como retomada adequada de um nome.
 - Usar "onde" com antecedente que não é lugar: "a reunião onde se decidiu".
