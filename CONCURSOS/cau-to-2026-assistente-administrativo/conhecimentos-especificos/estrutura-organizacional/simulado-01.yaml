@@ -10,7 +10,7 @@ simulado:
       de itens da banca sobre o assunto em provas de conselhos de 2020 a 2024 (só a forma e os pontos
       cobrados; nenhum item foi copiado).'
     - 'Bases de conteúdo: "Organização, Sistemas e Métodos Aplicados a Ambientes de Informação", Unidades
-      2 e 3, de Glauco Henrique de Sousa Mendes (CAPES/UAB e UFRJ, 2018); "Teorias da Administração I
+      1 a 3, de Glauco Henrique de Sousa Mendes (CAPES/UAB e UFRJ, 2018); "Teorias da Administração I
       — Unidade 5" (PNAP/UAB, CESAD/UFS); "Estruturas administrativas de serviços de enfermagem", de
       Paulina Kurcgant e Maria Cristina K. Braga Massarollo (Revista da Escola de Enfermagem da USP,
       1989); "Organizações, sistemas e métodos", de Mariana Mayumi Pereira de Souza (CEAD/UFV, 2023).
@@ -46,8 +46,8 @@ questoes:
       do projeto de que participa.
   - id: q08
     topico: conhecimentos-especificos/estrutura-organizacional
-    enunciado: A supervisão técnica exercida por chefes especialistas, cada um com autoridade restrita
-      ao assunto de sua especialidade, é característica da estrutura linear.
+    enunciado: Na estrutura linear, as decisões são descentralizadas, tomadas por chefes especialistas
+      nos níveis mais baixos da hierarquia.
   - id: q09
     topico: conhecimentos-especificos/estrutura-organizacional
     enunciado: A estrutura linha-staff conserva a unidade de comando própria da estrutura linear.
