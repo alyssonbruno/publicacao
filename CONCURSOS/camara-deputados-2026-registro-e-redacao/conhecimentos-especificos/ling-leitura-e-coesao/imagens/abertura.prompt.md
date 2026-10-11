@@ -6,10 +6,11 @@ Ilustração de abertura da aula (`abertura.webp`), gerada pelo workflow *Ilustr
 Proporção: 21:9
 
 ```text
-Um homem negro de uns sessenta anos, de óculos, cabelo curto grisalho, camisa lisa de mangas
-dobradas, de pé diante de um grande quadro de cortiça preso a uma parede clara. No quadro, uma
-fileira de cartões retangulares em branco, presos com alfinetes coloridos, da esquerda para a
-direita. Ele estica um fio de lã azul de um cartão até outro; outros fios, verdes e laranja, já
-ligam vários cartões, e alguns voltam a cartões que ficaram para trás. Nada escrito nos cartões
-nem em lugar nenhum. Bastante espaço livre dos dois lados.
+Uma mulher negra de uns cinquenta anos, de cabelo crespo curto e grisalho, óculos de armação
+redonda e blusa lisa de mangas compridas, sentada diante de um tear de madeira simples, numa sala
+clara com uma janela ampla. No tear, um tecido em faixas azuis, verdes e laranja cresce da
+esquerda para a direita; a mesma faixa de cor volta de tempos em tempos, e os fios da trama vão
+e voltam entre os fios esticados do tear. Ela passa a lançadeira com uma das mãos e, com a
+outra, alisa uma faixa já tecida. Ao lado, numa cesta de vime, novelos das mesmas cores. Nada
+escrito em lugar nenhum. Bastante espaço livre dos dois lados.
 ```

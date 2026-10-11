@@ -11,54 +11,53 @@ materiais:
     autor: Linguística – Prof. Rerisson Cavalcante
     duracao_min: 3
     descricao: >-
-      Recorte curto, com licença Creative Commons, sobre o ponto central da parte de gênero: o
-      gênero gramatical depende de padrões da língua, como a concordância, e não do sexo dos
-      seres. Indicado pela descrição do vídeo, sem conferência do conteúdo. O vídeo completo de
-      onde saiu é exclusivo para membros pagantes do canal; o recorte basta.
+      Recorte de 3 minutos sobre o ponto central da parte de gênero: o gênero gramatical não
+      depende de haver palavras masculinas e femininas, mas de padrões da língua, como a
+      concordância. Assista depois de ler "Gênero não é sexo" e teste a ideia nos exemplos da aula
+      (a testemunha, o cônjuge, a cobra macho). O vídeo completo de onde saiu é exclusivo para
+      membros pagantes do canal; o recorte basta.
   - tipo: video
     titulo: Tempo verbal
     url: https://www.youtube.com/watch?v=SeSZSGK5ts8
     autor: Roberlei Alves Bertucci (Letras, UTFPR)
     duracao_min: 11
     descricao: >-
-      Aula da disciplina de Semântica e Pragmática do curso de Letras da UTFPR: pelo contexto, deve
-      tratar o tempo pelo sentido, e não pela conjugação. Indicado pela descrição e pela duração,
-      sem conferência do conteúdo. Se o professor usar outros nomes para os momentos, compare com
-      a figura dos três momentos (MF, ME e MR) do texto da aula.
+      Aula de 11 minutos sobre o tempo verbal, da disciplina de Semântica e Pragmática do curso de
+      Letras da UTFPR. Assista depois da parte "Tempo: uma categoria dêitica". Se o professor usar
+      outros nomes para os momentos, compare com a figura dos três momentos (MF, ME e MR) do texto
+      da aula.
   - tipo: video
     titulo: Aspecto verbal
     url: https://www.youtube.com/watch?v=ownUS9fQtrs
     autor: Roberlei Alves Bertucci (Letras, UTFPR)
     duracao_min: 15
     descricao: >-
-      Par do vídeo anterior, na mesma disciplina de Semântica e Pragmática. Foi o único vídeo
-      sobre aspecto feito por linguista para curso superior encontrado com duração adequada.
-      Indicado pela descrição e pela duração, sem conferência do conteúdo. Os nomes das fases e
-      tipos de aspecto podem não ser os de Travaglia, usados na aula: quando divergirem, vale a
-      definição que o item der.
+      Aula de 15 minutos sobre o aspecto verbal, par do vídeo anterior, na mesma disciplina de
+      Semântica e Pragmática. Assista depois das partes "Aspecto: visto de fora ou visto de
+      dentro" e "Fases, duração e repetição". Se o professor usar nomes diferentes dos de
+      Travaglia, adotados na aula, lembre que na prova vale a definição que o item der.
   - tipo: video
     titulo: Quase tudo sobre papéis temáticos
     url: https://www.youtube.com/watch?v=4jxZ2PfKJxs
     autor: Linguística – Prof. Rerisson Cavalcante
     duracao_min: 72
     descricao: >-
-      Reúne a série do canal sobre papéis temáticos (licença Creative Commons). Pela descrição,
-      trata de agente, causador, instrumento, paciente, tema, experienciador, objeto estativo,
-      locativo, fonte, meta e beneficiário, ou seja, todos os papéis da aula. Indicado pela
-      descrição e pela duração, sem conferência do conteúdo. É longo: assista em partes, começando
-      pelo agente, o causador e o instrumento (a diferença do controle) e pela distinção entre
-      paciente e tema, em que os nomes mudam de autor para autor. Os livros recomendados na
-      descrição têm links de afiliado; não são leitura da aula.
+      Reúne a série do canal sobre papéis temáticos: agente, causador, instrumento, paciente, tema,
+      experienciador, objeto estativo, locativo, fonte, meta e beneficiário, os papéis da aula. É
+      longo: assista em partes, começando por agente, causador e instrumento (compare com o teste
+      do controle da aula) e pelo trecho que compara paciente e tema, nomes que mudam de autor
+      para autor. Os livros recomendados na descrição têm links de afiliado; não são leitura da
+      aula.
   - tipo: podcast
     titulo: "#18 - Sobre uma linguagem inclusiva - Raquel Freitag"
     url: https://podcasts.apple.com/br/podcast/18-sobre-uma-linguagem-inclusiva-raquel-freitag-professora/id1578163864?i=1000559312266
     autor: Podcast Café Acadêmico (entrevista com Raquel Meister Ko Freitag, UFS)
     duracao_min: 39
     descricao: >-
-      Entrevista com uma sociolinguista da UFS sobre linguagem neutra e inclusiva e sobre o
-      masculino como plural genérico. Indicado pela descrição do episódio, sem conferência do
-      conteúdo. Só complementa a parte de gênero (masculino não marcado); a prova cobra a
-      categoria gramatical, não a polêmica. Nada sobre tempo, aspecto ou papéis.
+      Entrevista com a sociolinguista Raquel Freitag (UFS) sobre linguagem neutra, inclusiva e não
+      binária, o masculino como plural genérico e a resistência a essas formas. Serve só à parte
+      de gênero (o masculino não marcado): ouça se quiser aprofundar, lembrando que a prova cobra a
+      categoria gramatical, não a polêmica.
   - tipo: link
     titulo: Construções oracionais e suboracionais da língua portuguesa (Aula 2)
     url: https://cesad.ufs.br/ORBI/public/uploadCatalago/09391204042012Laboratorio_para_o_Ensino_da_Lingua_Portuguesa_Aula_2.pdf
@@ -83,7 +82,8 @@ materiais:
     descricao: >-
       Leia só as páginas 7 a 10: o melhor resumo encontrado de tempo (dêitico), aspecto (não
       dêitico) e modo, com as fórmulas de cada tempo do indicativo com os momentos da fala, do
-      evento e de referência, que estão na figura da aula. O resto do artigo é pesquisa em
+      evento e de referência, que estão na figura da aula. A fórmula do perfeito é a de Corôa,
+      que difere da de Reichenbach (veja a nota da aula). O resto do artigo é pesquisa em
       corpus.
   - tipo: link
     titulo: Covid tem gênero?

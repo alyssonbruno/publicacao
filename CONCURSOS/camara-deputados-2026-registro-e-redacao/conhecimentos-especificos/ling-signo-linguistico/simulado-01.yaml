@@ -12,11 +12,12 @@ simulado:
       Legislativo – Taquígrafo Legislativo da Câmara dos Deputados 2012 (CESPE/UnB), com itens C/E
       sobre textos de linhas numeradas. Não foi encontrada prova do Cebraspe com itens deste
       tópico.'
-    - 'Bases do gabarito: Saussure, Cours de linguistique générale (Wikisource: Introdução, cap.
-      IV; Primeira parte, cap. I; Segunda parte, cap. VI); Frege, “Sobre o sentido e a
-      referência” (tradução de Sérgio R. N. Miranda); Ogden e Richards, The Meaning of Meaning
-      (1923), cap. I; Sémir Badir, “La hiérarchie sémiotique (Hjelmslev)”, Signo; Barthes,
-      Elementos de semiologia, cap. IV. Consultados em 11/10/2026.'
+    - 'Bases do gabarito, consultadas em 11/10/2026: Saussure, Cours de linguistique générale
+      (Wikisource: Introdução, cap. IV; Primeira parte, cap. I; Segunda parte, cap. VI); Frege,
+      “Sobre o sentido e a referência” (tradução de Sérgio R. N. Miranda); Ogden e Richards, The
+      Meaning of Meaning (1923), cap. I; Sémir Badir, “La hiérarchie sémiotique (Hjelmslev)”,
+      Signo; Orlando J. Geno, “Connotadores humorísticos”, Cuadernos de Literatura (UNNE), n. 10,
+      2001. Barthes é citado de forma indireta, por Geno.'
 questoes:
   - id: q01
     topico: conhecimentos-especificos/ling-signo-linguistico
@@ -36,7 +37,7 @@ questoes:
 
       Considerando as ideias e os aspectos linguísticos do texto, julgue o item.
 
-      Em “dorme na gaveta da comissão” (linha 3), a forma verbal “dorme” está empregada em sentido denotativo, uma vez que o projeto está, de fato, parado na comissão.
+      Em “esta Casa não pode continuar de braços cruzados” (linhas 1 e 2), a expressão “de braços cruzados” está empregada em sentido denotativo, pois descreve uma situação que o orador dá como real: a falta de iniciativa da Casa diante do projeto.
   - id: q02
     topico: conhecimentos-especificos/ling-signo-linguistico
     enunciado: |-

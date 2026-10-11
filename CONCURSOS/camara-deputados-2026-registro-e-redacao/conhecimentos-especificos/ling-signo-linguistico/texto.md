@@ -71,7 +71,7 @@ As exclamações seguem a mesma lógica: *ai!* em português, *ouch!* em inglês
 
 Saussure evita chamar o signo linguístico de **símbolo**, porque o símbolo nunca é inteiramente arbitrário: há nele um rudimento de laço natural. A balança, símbolo da justiça, não poderia ser trocada por qualquer coisa, um carro, por exemplo.
 
-Em Peirce, a palavra tem outro uso. Para ele, todo signo envolve três elementos: o **representâmen** (aquilo que significa, como a palavra escrita ou a fumaça), o **objeto** (aquilo que é significado, como o fogo que a fumaça indica) e o **interpretante** (o entendimento que o signo produz da relação com o objeto, que é, ele mesmo, um novo signo, uma espécie de tradução do primeiro).
+Em Peirce, a palavra tem outro uso. Para ele, todo signo envolve três elementos: o **representâmen** (aquilo que significa, como a palavra escrita ou a fumaça), o **objeto** (aquilo que é significado, como o fogo que a fumaça indica) e o **interpretante** (o entendimento que o signo produz da sua relação com o objeto). O interpretante é, ele mesmo, um novo signo, uma espécie de tradução do primeiro.
 
 Pela relação com o objeto, Peirce distingue o **ícone** (liga-se ao objeto por semelhança, como um retrato), o **índice** (por uma conexão de fato, como o cata-vento e o vento) e o **símbolo** (por convenção ou lei, como as palavras).
 
@@ -187,14 +187,16 @@ A frase pode ser verdadeira e conotativa, ou literal e falsa. Denotação e cono
 - Sentido de Frege descrito como subjetivo, ou a representação como objetiva; ou o sentido como o que designa o objeto, papel que é do nome.
 - A referência de uma frase descrita como o pensamento, e não o valor de verdade.
 - Conotação de Hjelmslev e Barthes reduzida ao sentido figurado; ou conotação trocada por metalinguagem.
+- "Conotadores" de Barthes (significantes) tratados como os de Hjelmslev (conteúdo), ou o contrário.
 
 ## Fontes
 
 - Ferdinand de Saussure, *Cours de linguistique générale* (ed. Charles Bally e Albert Sechehaye, Payot, 1971), Wikisource: Introdução, cap. III e IV, https://fr.wikisource.org/wiki/Cours_de_linguistique_g%C3%A9n%C3%A9rale/Introduction ; Primeira parte, cap. I e II, https://fr.wikisource.org/wiki/Cours_de_linguistique_g%C3%A9n%C3%A9rale/Premi%C3%A8re_partie ; Segunda parte, cap. IV e VI, https://fr.wikisource.org/wiki/Cours_de_linguistique_g%C3%A9n%C3%A9rale/Deuxi%C3%A8me_partie
-- Gottlob Frege, "Sobre o sentido e a referência", tradução de Sérgio R. N. Miranda, *Res Severa Verum Gaudium*, v. 9, n. 2, 2025: https://seer.ufrgs.br/index.php/resseveraverumgaudium/article/view/147224
+- Gottlob Frege, "Sobre o sentido e a referência", tradução de Sérgio R. N. Miranda, *Res Severa Verum Gaudium*, v. 9, n. 2, 2025 (o nome que exprime o sentido e designa a referência; a nota sobre "Aristóteles"): https://seer.ufrgs.br/index.php/resseveraverumgaudium/article/view/147224
 - C. K. Ogden e I. A. Richards, *The Meaning of Meaning* (1923), cap. I, Internet Archive: https://archive.org/details/meaningofmeaning00ogde
 - John Stuart Mill, *A System of Logic* (1843), livro I, cap. II, § 5, Projeto Gutenberg: https://www.gutenberg.org/ebooks/27942
 - Sémir Badir, "La hiérarchie sémiotique (Hjelmslev)", em *Signo*, dir. Louis Hébert: https://www.signosemio.com/pages/hjelmslev/hierarchie-semiotique.php
-- Albert Atkin, "Peirce's Theory of Signs", *Stanford Encyclopedia of Philosophy*: https://plato.stanford.edu/entries/peirce-semiotics/
+- Albert Atkin, "Peirce's Theory of Signs", *Stanford Encyclopedia of Philosophy*, seções 1 e 2 (representâmen, objeto e interpretante; ícone, índice e símbolo): https://plato.stanford.edu/entries/peirce-semiotics/
 - Edward N. Zalta, "Gottlob Frege", *Stanford Encyclopedia of Philosophy*, seção 3.2: https://plato.stanford.edu/entries/frege/
-- Roland Barthes, *Elementos de semiologia*, tradução de Izidoro Blikstein (Cultrix), cap. IV, "Denotação e conotação"; original em *Communications*, n. 4, 1964: https://www.persee.fr/doc/comm_0588-8018_1964_num_4_1_1029
+- Orlando J. Geno, "Connotadores humorísticos", *Cuadernos de Literatura* (Universidad Nacional del Nordeste), n. 10, 2001, p. 11-41, parte 2 (os conotadores em Hjelmslev e em Barthes; em espanhol): https://revistas.unne.edu.ar/index.php/clt/article/view/3150
+- Roland Barthes, *Elementos de semiologia* (1964), cap. IV, "Denotação e conotação" (tradução de Izidoro Blikstein, Cultrix), a referência clássica do trecho, que não lemos. O que a aula diz de Barthes vem de forma indireta: o uso de "conotadores", do artigo de Geno, que cita outros textos de Barthes ("Rhétorique de l'image", de 1964, e "A análise retórica"); o esquema que ele retoma, da página de Badir sobre Hjelmslev. O original francês dos *Elementos*, em *Communications*, n. 4, 1964, está na Persée: https://www.persee.fr/doc/comm_0588-8018_1964_num_4_1_1029

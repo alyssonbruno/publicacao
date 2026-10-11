@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
-  <rect width="760" height="460" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="496" viewBox="0 0 760 496" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="760" height="496" fill="#ffffff"/>
 
   <text x="24" y="32" font-size="17" font-weight="700" fill="#0b0b0b">Aspecto: o fato inteiro ou uma fase dele</text>
 
@@ -27,7 +27,7 @@
     <line x1="150" y1="174" x2="150" y2="222" stroke="#4a3aa7"/>
     <line x1="345" y1="182" x2="345" y2="222" stroke="#4a3aa7"/>
     <line x1="540" y1="174" x2="540" y2="222" stroke="#4a3aa7"/>
-    <line x1="660" y1="162" x2="660" y2="222" stroke="#8a5a00"/>
+    <line x1="672" y1="162" x2="672" y2="222" stroke="#8a5a00"/>
   </g>
   <g text-anchor="middle">
     <text x="150" y="242" font-size="13.5" font-weight="700" fill="#4a3aa7">inceptivo</text>
@@ -42,18 +42,25 @@
     <text x="520" y="261" font-size="13" fill="#52514e">os últimos momentos</text>
     <text x="520" y="281" font-size="13" font-style="italic" fill="#0b0b0b">está terminando de votar</text>
 
-    <text x="668" y="242" font-size="13.5" font-weight="700" fill="#8a5a00">acabado</text>
-    <text x="668" y="261" font-size="13" fill="#52514e">depois do término</text>
-    <text x="668" y="281" font-size="13" font-style="italic" fill="#0b0b0b">já votou</text>
-    <text x="668" y="300" font-size="13" font-style="italic" fill="#0b0b0b">acaba de votar*</text>
+    <text x="676" y="242" font-size="13.5" font-weight="700" fill="#8a5a00">acabado</text>
+    <text x="676" y="261" font-size="13" fill="#52514e">depois do término</text>
+    <text x="676" y="281" font-size="13" font-style="italic" fill="#0b0b0b">já votou</text>
+    <text x="676" y="300" font-size="13" font-style="italic" fill="#0b0b0b">acaba de votar*</text>
   </g>
 
+  <!-- As duas séries de Travaglia -->
+  <path d="M72 310 L72 318 L604 318 L604 310" fill="none" stroke="#4a3aa7" stroke-width="1.5"/>
+  <text x="338" y="337" font-size="12.5" font-weight="700" fill="#4a3aa7" text-anchor="middle">fases de desenvolvimento (a situação em curso)</text>
+  <path d="M620 310 L620 318 L734 318 L734 310" fill="none" stroke="#8a5a00" stroke-width="1.5"/>
+  <text x="677" y="337" font-size="12.5" font-weight="700" fill="#8a5a00" text-anchor="middle">fase de realização</text>
+
   <!-- Caixa do imperfectivo -->
-  <rect x="24" y="324" width="712" height="64" rx="10" fill="#dff3ea" stroke="#12805a" stroke-width="1.5"/>
-  <text x="40" y="350" font-size="14" font-weight="700" fill="#0e6b4b">IMPERFECTIVO (a janela tracejada): o fato visto de dentro, numa fase, sem o todo</text>
-  <text x="40" y="374" font-size="13.5" font-style="italic" fill="#0b0b0b">a comissão votava os destaques quando faltou luz</text>
+  <rect x="24" y="356" width="712" height="64" rx="10" fill="#dff3ea" stroke="#12805a" stroke-width="1.5"/>
+  <text x="40" y="382" font-size="14" font-weight="700" fill="#0e6b4b">IMPERFECTIVO (a janela tracejada): o fato visto de dentro, numa fase, sem o todo</text>
+  <text x="40" y="406" font-size="13.5" font-style="italic" fill="#0b0b0b">a comissão votava os destaques quando faltou luz</text>
 
   <!-- Notas -->
-  <text x="24" y="416" font-size="12" fill="#52514e">* Para Travaglia, “acabar de” + infinitivo é acabado (logo depois do fim);</text>
-  <text x="24" y="434" font-size="12" fill="#52514e">   Castilho chama “acabou de fumar” de terminativo. Nomes das fases: Travaglia (2016).</text>
+  <text x="24" y="448" font-size="12" fill="#52514e">* Para Travaglia, “acabar de” + infinitivo é acabado (logo depois do fim);</text>
+  <text x="33" y="466" font-size="12" fill="#52514e">Castilho chama “acabou de fumar” de terminativo.</text>
+  <text x="24" y="484" font-size="12" fill="#52514e">Nomes e séries das fases: Travaglia (2016, Quadro III). A série de realização tem ainda o não começado e o começado.</text>
 </svg>

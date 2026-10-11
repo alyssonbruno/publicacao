@@ -2,7 +2,7 @@
 
 ![Um homem liga com clipes e um fio fino uma sequência de folhas de papel sobre a mesa, formando uma faixa contínua](imagens/abertura.webp)
 
-O edital pede o "domínio dos mecanismos de coesão textual" e o "emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual" (itens 4 e 4.1 da P1). Coesão é o que amarra uma parte do texto a outra: o pronome que aponta para um nome, a palavra omitida que o leitor recupera, o conector que diz que relação há entre duas ideias.
+O edital pede o "domínio dos mecanismos de coesão textual" e o "emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual" (itens 4 e 4.1 da P1). Coesão é o que amarra uma parte do texto a outra: o pronome que aponta para um nome, a palavra omitida que o leitor recupera, o conector que diz que relação há entre duas ideias, o advérbio que as põe em ordem.
 
 Esta é a aula prática da P1: achar o referente, entender relativos e demonstrativos, recuperar a elipse, julgar a troca de conectores e o deslocamento dos advérbios que ordenam o texto. A teoria (os mecanismos de Halliday e Hasan, a classificação de Koch, os fatores de coerência) fica para a aula de Linguística sobre leitura, coesão e coerência, na P2.
 
@@ -80,15 +80,22 @@ O item de elipse afirma qual é a palavra omitida. Para julgar, **reescreva a fr
 > [!TIP]
 > Quando o item diz que vários verbos têm o mesmo sujeito elíptico, confira **verbo por verbo**. O sujeito pode mudar no meio do período.
 
-## Substituição: outras palavras para o mesmo referente
+## Substituição: outra forma no lugar do que já foi dito
 
-Substituir é pôr uma palavra ou expressão no lugar de outra já dita:
+Nesta aula, **substituição** tem o sentido largo do Manual de Redação da Presidência (item 3.4): a colocação de uma palavra no lugar de outra já dita ou no lugar de uma oração. Cabem aí:
 
 - **sinônimo ou equivalente**: *o projeto* → *a proposta*;
-- **hiperônimo**, o termo mais geral: *a medida provisória* → *a norma*; *a relatora* → *a parlamentar*;
-- **pró-formas**, que retomam um trecho maior: *fazer o mesmo*, *fazê-lo* e o pronome *o* no lugar de um predicativo (*Se os votos forem nominais, a ata deve registrá-los; se não o forem, basta o resultado*: "o" = nominais).
+- **hiperônimo ou nome genérico**, o termo mais geral: *a medida provisória* → *a norma*; *o parecer* → *o documento*; *a relatora* → *a parlamentar*;
+- **formas substitutas**, que retomam um verbo ou uma oração: *fazer o mesmo*, *fazê-lo* e o pronome *o* no lugar de um predicativo (*Se os votos forem nominais, a ata deve registrá-los; se não o forem, basta o resultado*: "o" = nominais).
 
-O Manual de Redação da Presidência dá como exemplo de substituição *os prefeitos fizeram o mesmo* (item 3.4). Já **"o mesmo" no lugar de um nome ou pronome** é condenado pelo Manual de Comunicação do Senado: em vez de *afirmaram que os mesmos devem ser votados*, escreva *afirmaram que devem ser votados* (com elipse).
+A troca só funciona se o termo novo designar **a mesma coisa**, sem ambiguidade. Se ele já nomeia outro elemento do texto, a "substituição" muda o referente, e o sentido muda junto.
+
+> [!NOTE]
+> Os nomes mudam de autor para autor. Na classificação de Halliday e Hasan, apresentada na aula de Linguística sobre leitura, coesão e coerência, sinônimo e hiperônimo são **reiteração** (coesão lexical), e "substituição" é só a forma substituta explícita: *fazer o mesmo*, *fazê-lo*, *acho que sim*. Se o item citar um autor, julgue pelo rótulo dele; se não citar, o que conta é acertar o que a forma retoma.
+
+## "Fazer o mesmo", sim; "o mesmo" no lugar de um nome, não
+
+O Manual de Redação da Presidência dá como exemplo de substituição *os prefeitos fizeram o mesmo* (item 3.4): ali, "o mesmo" vale por "a mesma coisa". Já **"o mesmo" no lugar de um nome ou de um pronome pessoal** é condenado pelo próprio Manual (verbete "Mesmo", no item 12.2) e pelo Manual de Comunicação do Senado. Em vez de *A comissão recebeu dois pareceres e votou os mesmos na terça*, escreva *e votou-os na terça* (pronome) ou *e votou os dois pareceres na terça* (repetição).
 
 > [!WARNING]
 > "Fazer o mesmo" (= fazer a mesma coisa) está certo. "O mesmo" como substituto de "ele", "o projeto" ou "o relatório" é condenado pelos manuais; desconfie da reescrita que o propõe como se mantivesse a correção.
@@ -97,7 +104,7 @@ O Manual de Redação da Presidência dá como exemplo de substituição *os pre
 
 Repetir uma palavra também é coesão: o leitor sabe que se fala da mesma coisa. No texto normativo, é regra. A Lei Complementar nº 95/1998 (art. 11, II, *b*) manda expressar a ideia repetida "por meio das mesmas palavras, evitando o emprego de sinonímia com propósito meramente estilístico", e o Manual de Redação da Presidência repete a orientação ao tratar da precisão (item 3.1).
 
-Fora daí, o mesmo Manual considera indesejável a repetição excessiva quando outra palavra pode substituir a primeira sem alterar o sentido (capítulo 12). As duas orientações convivem: num projeto de lei, *servidor* continua *servidor* do primeiro ao último artigo; na notícia da sessão, *o projeto* pode virar *a proposta*.
+Fora daí, o mesmo Manual pede que se evitem as repetições desnecessárias, com sinônimos ou termos mais precisos, mas manda manter a repetição quando a troca deixaria o texto ambíguo ou menos claro (item 12, "Semântica", do Capítulo III). As duas orientações convivem: num projeto de lei, *servidor* continua *servidor* do primeiro ao último artigo; na notícia da sessão, *o projeto* pode virar *a proposta*.
 
 > [!NOTE]
 > Leitura nossa, para o item: em texto normativo ou técnico, a troca de um termo repetido por um sinônimo "para evitar repetição" pode custar precisão. Antes de aceitá-la, confira se os dois termos dizem exatamente a mesma coisa.
@@ -117,19 +124,19 @@ Com **dois termos** já citados, usa-se o par *este* × *aquele*: ***este*** ret
 O Manual da Presidência aplica a regra do último citado ao corrigir uma frase ambígua: em *comunicou a seu secretariado a exoneração deste*, "deste" é o secretariado (item 11.6). Nessa função, só *este* e *aquele* servem: *esse* não entra no par.
 
 > [!NOTE]
-> Nem todo texto de prova segue à risca a distinção entre *este* e *esse*. Julgue o referente pelo sentido. O Cebraspe já deu como certo que *esses programas* e *esse desenvolvimento*, que retomam o que foi dito, contribuem para a coesão (Polícia Federal, 2025).
+> No item, a pergunta costuma ser o que o demonstrativo retoma, e não se a forma escolhida é a ideal. Na Polícia Federal 2025, o Cebraspe deu como certo que *esses programas* e *esse desenvolvimento*, que retomam o que já foi dito, contribuem para a coesão. Se o texto da prova usar *este* onde a regra pediria *esse*, julgue o referente pelo sentido.
 
 ## O valor do conector muda com o contexto
 
 O mesmo conector pode ter valores diferentes, e a banca pergunta o valor **naquela frase**:
 
-- ***Enquanto***: tempo simultâneo (*Enquanto o deputado discursava, a taquígrafa registrava*); contraste (*A base votou sim, enquanto a oposição obstruiu*), que o Manual da Presidência chama de proporcional e equipara a "ao passo que"; e, **seguido de substantivo**, *na condição de* (*Enquanto relator, cabe-lhe ouvir as partes*). Num item do TCU 2025, "Enquanto lei natural" foi dado como tempo, e o gabarito foi *errado*.
-- ***Mas***: opõe. Só soma no par *não só… mas também*. Trocar o "mas" de um contraste por "e" muda o sentido.
+- ***Enquanto***: tempo simultâneo (*Enquanto o deputado discursava, a taquígrafa registrava*); contraste, na nossa leitura (*A base votou sim, enquanto a oposição obstruiu*); e, **seguido de substantivo**, *na condição de* (*Enquanto relator, cabe-lhe ouvir as partes*). O Manual da Presidência não fala em contraste: dá *enquanto* como conjunção proporcional, equivalente a "ao passo que" e "à medida que". Num item do TCU 2025, "Enquanto lei natural" foi dado como tempo, e o gabarito foi *errado*.
+- ***Mas***: em geral opõe; soma, por exemplo, no par *não só… mas também*. Trocar o "mas" de um contraste por "e" muda o sentido.
 - ***Desde que***: com subjuntivo, condição (*desde que haja quórum*); com indicativo, tempo (*desde que assumiu o mandato*) ou causa. Não é concessivo.
 - ***Pois***: no início da oração, explica (*Leve o crachá, pois a portaria vai pedi-lo*); deslocado, entre vírgulas, conclui (*Faltou quórum; a sessão foi, pois, encerrada*).
 - ***Como***: no início do período, causa (*Como não houve quórum, a sessão caiu*); também conformidade (*como prevê o Regimento*) e comparação.
 
-O *enquanto* com o sentido de *na qualidade de* já foi condenado por puristas como galicismo, mas dicionários como o Houaiss o registram sem ressalva, e a banca o cobra como valor legítimo.
+O *enquanto* com o sentido de *na qualidade de* já foi condenado por puristas como galicismo, mas, segundo o Ciberdúvidas, dicionários como o Houaiss o registram sem ressalva, e a banca o cobra como valor legítimo.
 
 > [!TIP]
 > Troque o conector pelo modelo de cada valor (*mas*, *embora*, *porque*, *portanto*, *se*, *quando*, *à medida que*). O modelo que couber sem estranheza dá o valor.
@@ -142,9 +149,9 @@ O comando da troca pode pedir uma, duas ou três coisas, e cada uma é uma pergu
 2. **Correção**: a frase continua gramatical? Confira o modo do verbo, a preposição e a pontuação.
 3. **Coerência**: as ideias continuam fazendo sentido juntas?
 
-Sentido e coerência **não** são a mesma coisa. Em *Os deputados votaram e não discursaram* → *votaram, mas não discursaram*, a relação muda (adição para oposição), e o texto continua coerente. Se o item pede "o sentido", está errado; se pede só "a coerência", pode estar certo.
+Sentido e coerência **não** são a mesma coisa. Em *Como faltou quórum, a votação ficou para terça* → *Quando faltou quórum, a votação ficou para terça*, a relação muda (causa para tempo), e o texto continua coerente. Se o item pede "o sentido", está errado; se pede só "a coerência", pode estar certo.
 
-![Quadro dos conectores por valor, em três colunas: o valor, os conectores que se trocam entre si e o que parece, mas não cabe. Adição: e, além disso, também, não só… mas também; não cabe "mas" sozinho, que opõe. Oposição: mas, porém, contudo, todavia, no entanto, entretanto; não cabe "embora" sem refazer a frase, porque muda o modo do verbo. Concessão, com verbo no subjuntivo: embora, ainda que, conquanto, posto que, se bem que; não cabem "porquanto", que é causa, nem "contudo" sem refazer a frase. Causa: porque, já que, visto que, uma vez que, porquanto, na medida em que; não cabem "posto que" e "conquanto", que são concessão. Conclusão: portanto, logo, por isso, por conseguinte, pois depois do verbo; não cabe "porquanto", que é causa. Proporção: à medida que, à proporção que, quanto mais… mais; não cabe "na medida em que", que é causa. Condição, com verbo no subjuntivo: se, caso, contanto que, desde que; não cabe "desde que" com indicativo, que é tempo ou causa. Tempo: quando, assim que, logo que, enquanto seguido de verbo; não cabe "enquanto" seguido de substantivo, que vale por "na condição de". Na condição de: enquanto seguido de substantivo, como, na qualidade de; não cabe "durante", que é tempo. No pé: fora da norma-padrão, "à medida em que" e "na medida que"; evite "enquanto que". Trocar dentro do mesmo grupo mantém o valor; ainda assim, confira o modo do verbo e a construção.](imagens/quadro-dos-conectores.svg "Os conectores que a banca troca, por valor, e os falsos amigos de cada grupo")
+![Quadro dos conectores por valor, em três colunas: o valor, os conectores de mesmo valor e o que parece, mas não cabe. Adição: e, além disso, também, não só… mas também; não cabe "mas" sozinho, que opõe. Oposição: mas, porém, contudo, todavia, no entanto, entretanto; não cabe "embora" sem refazer a frase, porque muda o modo do verbo. Concessão, com verbo no subjuntivo: embora, ainda que, conquanto, posto que, se bem que; não cabem "porquanto", que é causa, nem "contudo" sem refazer a frase. Causa: porque, já que, visto que, uma vez que, porquanto, na medida em que; não cabem "posto que" e "conquanto", que são concessão. Conclusão: portanto, logo, por isso, por conseguinte, pois depois do verbo; não cabe "porquanto", que é causa. Proporção: à medida que, à proporção que, quanto mais… mais; não cabe "na medida em que", que é causa. Condição, com verbo no subjuntivo: se, caso, contanto que, desde que; não cabe "desde que" com indicativo, que é tempo ou causa. Tempo: quando, assim que, logo que, enquanto seguido de verbo; não cabe "enquanto" seguido de substantivo, que vale por "na condição de". Na condição de: enquanto seguido de substantivo, como, na qualidade de; não cabe "durante", que é tempo. No pé: fora da norma-padrão, "à medida em que" e "na medida que"; evite "enquanto que". Mesmo valor não garante a troca: confira a nuance (no tempo, "enquanto" é ao mesmo tempo, e "assim que", logo depois), o modo do verbo e a construção.](imagens/quadro-dos-conectores.svg "Os conectores que a banca troca, por valor, e os falsos amigos de cada grupo")
 
 Exemplos resolvidos, com *A votação foi adiada porque faltou quórum*:
 
@@ -153,6 +160,8 @@ Exemplos resolvidos, com *A votação foi adiada porque faltou quórum*:
 - *À medida que os destaques eram votados, o plenário esvaziava* → *Na medida em que*: a frase continua gramatical, mas a relação passa de proporção a causa. O sentido muda.
 
 Duas formas estão fora da norma-padrão: ***à medida em que*** e ***na medida que*** (Manual da Presidência; Manual de Comunicação do Senado). E os dois manuais condenam *enquanto que*: basta *enquanto*.
+
+O dicionário Aulete registra *na medida em que* com outro sentido, "na mesma proporção em que". Na prova, fique com os manuais oficiais, que a dão como causal.
 
 > [!IMPORTANT]
 > Dê nome ao valor do conector original, dê nome ao do novo e compare. Valores diferentes: o sentido mudou. Mesmo valor: teste ainda o modo do verbo e a construção.
@@ -168,6 +177,25 @@ As duas posições não se anulam: o Pasquale descreve o uso no Brasil; o Manual
 > [!IMPORTANT]
 > Recomendação nossa: na prova, *posto que* = *embora*, com verbo no subjuntivo (*posto que fosse tarde*). Trocar *porque*, *uma vez que* ou *visto que* por *posto que* muda o sentido.
 
+## Outros elementos de sequenciação: advérbios que ordenam e acrescentam
+
+O edital fala também em "outros elementos de sequenciação textual". Além das conjunções, encadeiam o texto advérbios e expressões que **ordenam** os fatos ou os argumentos e que **acrescentam** um item ao que já foi dito:
+
+- **ordem**: *primeiro*… *segundo*… (ou *em primeiro lugar*… *em segundo lugar*…), *depois*, *em seguida*, *por fim*, *finalmente*: *Primeiro, a Mesa leu o expediente; em seguida, abriu a discussão; por fim, pôs a matéria em votação*;
+- **acréscimo**: *ainda*, *além disso*, *também*, *ademais*: *A nota técnica aponta falhas no áudio. Além disso, pede mais revisores.*
+
+Deslocar o sequenciador, com as vírgulas, em geral mantém o sentido e a correção: *Em seguida, a Mesa abriu a discussão* → *A Mesa abriu, em seguida, a discussão*. Na prova da Câmara de 2025 (item 15), o Cebraspe deu como certa a reescrita que levava um "Ainda" do início do parágrafo para depois do verbo, entre vírgulas.
+
+O cuidado é com o advérbio que **muda de valor** no lugar novo. *Ainda* tem dois valores:
+
+- **acréscimo** (= além disso), em geral isolado por vírgulas: *Ainda, a nota técnica pede mais revisores* = *A nota técnica pede, ainda, mais revisores*;
+- **continuidade** (= até agora), junto do verbo: *Os revisores ainda corrigem as siglas* (continuam corrigindo, como antes).
+
+Levar o *ainda* de continuidade para o início do período, com vírgula (*Ainda, os revisores corrigem as siglas*), troca a continuidade pelo acréscimo: o sentido muda.
+
+> [!TIP]
+> Para julgar o deslocamento, dê nome ao valor do advérbio no lugar original (ordem, acréscimo, continuidade), leve-o ao lugar novo com as vírgulas e veja se o valor continua o mesmo.
+
 ## Pegadinhas no estilo da banca
 
 - Dar como referente do relativo o **sujeito** da oração adjetiva, e não o antecedente.
@@ -175,14 +203,16 @@ As duas posições não se anulam: o Pasquale descreve o uso no Brasil; o Manual
 - Justificar o referente do possessivo pela pessoa do verbo.
 - Acertar o referente e errar a classe, a função ou a conclusão.
 - Nomear errado o termo elíptico, ou dizer que outro trecho o "explicita".
-- Dar *enquanto* + substantivo como tempo; *mas* como aditivo; *desde que* como concessivo.
+- Dar *enquanto* + substantivo como tempo; *mas* como aditivo fora de pares como *não só… mas também*; *desde que* como concessivo.
 - Trocar *porque* por *posto que* ou *conquanto*; *portanto* por *porquanto*; *à medida que* por *na medida em que*.
 - Propor "o mesmo" no lugar de um nome e dizer que a correção se mantém.
+- Trocar um termo repetido por um "sinônimo" que, no texto, já designa outra coisa.
+- Deslocar um advérbio que muda de valor no lugar novo, como o *ainda* de continuidade lido como acréscimo.
 - Dizer que uma troca que muda a relação "mantém o sentido" porque o texto continua coerente.
 
 ## Fontes
 
-- Presidência da República, *Manual de Redação da Presidência da República*, 3ª ed. (2018), itens 3.1 (clareza e precisão), 3.4 (coesão e coerência), 11.6 (ambiguidade), 11.10 (pronomes demonstrativos), capítulo 12 e os verbetes "à medida que/na medida em que", "enquanto" e "posto que" (cópia hospedada pelo ICMBio): https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf
+- Presidência da República, *Manual de Redação da Presidência da República*, 3ª ed. (2018), itens 3.1 (clareza e precisão), 3.4 (coesão e coerência), 11.6 (ambiguidade), 11.10 (pronomes demonstrativos), 12 ("Semântica", no Capítulo III) e, no item 12.2, os verbetes "à medida que/na medida em que", "enquanto", "inclusive", "mesmo" e "posto que" (cópia hospedada pelo ICMBio): https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf
 - Brasil, Lei Complementar nº 95, de 26 de fevereiro de 1998, art. 11: https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm
 - Senado Federal, Manual de Comunicação da Secom, verbetes "Este/esse, esta/essa, isto/isso", "À medida que/na medida em que", "Mesmo" e "Enquanto": https://www12.senado.leg.br/manualdecomunicacao/estilos/este-esse-esta-essa-isto-isso, https://www12.senado.leg.br/manualdecomunicacao/estilos/a-medida-que-na-medida-em-que, https://www12.senado.leg.br/manualdecomunicacao/estilos/mesmo e https://www12.senado.leg.br/manualdecomunicacao/estilos/enquanto
 - Pasquale Cipro Neto (A Nossa Língua de Todo Dia, rádio CBN), "'Posto que' tem sempre valor de 'embora'?", 12/11/2025: https://podcasts.apple.com/br/podcast/posto-que-tem-sempre-valor-de-embora/id1227867522?i=1000736496142
@@ -190,6 +220,9 @@ As duas posições não se anulam: o Pasquale descreve o uso no Brasil; o Manual
 - Fernando Pestana (Ciberdúvidas da Língua Portuguesa), "Função distributiva textual de «este... aquele...»": https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/funcao-distributiva-textual-de-este-aquele/38568
 - Carla Marques (Ciberdúvidas da Língua Portuguesa), "Enquanto no sentido de «na qualidade de»", e Carlos Rocha, "O uso de enquanto = «na qualidade de»": https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/enquanto-no-sentido-de-na-qualidade-de/37085 e https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/o-uso-de-enquanto--na-qualidade-de/23875
 - Só Português (Virtuous), "Pronomes Demonstrativos (continuação)": https://www.soportugues.com.br/secoes/morf/morf49.php
+- Só Português (Virtuous), "Emprego e função dos pronomes relativos" (relativo *que*): https://www.soportugues.com.br/secoes/sint/sint37.php
 - Só Português (Virtuous), "Conjunções coordenativas" e as páginas seguintes, das subordinativas: https://www.soportugues.com.br/secoes/morf/morf85.php
-- Luiz Felipe Durval (Estratégia Concursos), "Reescritura de frases: desvendando questões CEBRASPE": https://concursos.estrategia.com/portal/reescritura-de-frases-desvendando-questoes-cebraspe/
+- Talliandre Matos (Mundo Educação), "Operadores argumentativos" (o *ainda* entre os operadores que somam argumentos e entre os que marcam pressupostos): https://mundoeducacao.uol.com.br/redacao/operadores-argumentativos.htm
+- Dicionário Aulete Digital, verbete "medida" (locuções *à medida que* e *na medida em que*): https://www.aulete.com.br/medida
+- Luiz Felipe Durval (Estratégia Concursos), "Reescritura de frases: desvendando questões CEBRASPE" (a diferença entre sentido e coerência no comando da reescrita): https://concursos.estrategia.com/portal/reescritura-de-frases-desvendando-questoes-cebraspe/
 - Cebraspe, cadernos de provas e gabaritos definitivos usados como referência do estilo dos itens (sem reprodução): TCU 2025, Auditor Federal de Controle Externo, Conhecimentos Básicos (https://cdn.cebraspe.org.br/concursos/TCU_25_AUFC/arquivos/E853346980B6093207C3ECF8630F11E71C8F39D74F9D7881E2AB5DE760FB5366.pdf); Câmara dos Deputados 2025, nível superior, Conhecimentos Gerais (https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/E61A04B682ABA7AF746F702D22B1516C4A4BC005855CE5CFFF5D2280F3E790CE.pdf); CPNUJE 2024 (https://cdn.cebraspe.org.br/concursos/CPNUJE_24/arquivos/988_CPNUJE_CB3_01.PDF); Polícia Federal 2025 (https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_CB1_01.pdf); STM 2025 (https://cdn.cebraspe.org.br/concursos/STM_25/arquivos/072_STM_CG1_01.pdf); TRT da 10ª Região 2024 (https://cdn.cebraspe.org.br/concursos/TRT10_24/arquivos/050_TRT10_CB1_01.pdf)

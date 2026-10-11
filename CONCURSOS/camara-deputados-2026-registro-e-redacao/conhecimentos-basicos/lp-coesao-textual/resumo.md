@@ -3,15 +3,16 @@
 ## O essencial
 
 > [!IMPORTANT]
-> O Cebraspe cobra coesão presa a uma palavra do texto: o referente, o item composto (referente + consequência), a elipse, o valor do conector e a troca de conectores.
+> O Cebraspe cobra coesão presa a uma palavra do texto: o referente, o item composto (referente + consequência), a elipse, o valor do conector, a troca de conectores e outras reescritas (troca por sinônimo, deslocamento de advérbio).
 
 - **Referente**: veja gênero, número e pessoa; troque o pronome pelo candidato e releia. O possessivo concorda com a coisa possuída: a pessoa do verbo não diz quem é o dono.
 - **Relativo**: retoma o **antecedente**, não o sujeito da oração. Em *o requerimento que o deputado apresentou*, "que" = o requerimento (objeto direto); "o deputado" é o sujeito.
 - ***O qual*** desfaz ambiguidade; ***onde*** só para lugar; ***cujo*** concorda com a coisa possuída, sem artigo.
 - **Item composto**: as duas partes precisam estar certas. O *o* que retoma uma oração vale por *isso* (demonstrativo); o que retoma um nome é pessoal oblíquo.
-- **Elipse**: reescreva a frase com a palavra proposta (*o segundo, a emenda* = o segundo **orador** **defendeu** a emenda).
-- **Substituição**: sinônimo, hiperônimo, *fazer o mesmo*, *fazê-lo*. "O mesmo" no lugar de um nome: não.
-- **Repetição**: em texto normativo, a mesma ideia com as mesmas palavras (LC nº 95/1998, art. 11, II, *b*).
+- **Elipse**: reescreva a frase com a palavra proposta (*o segundo, a emenda* = o segundo **orador** **defendeu** a emenda). O nome omitido depois de artigo, numeral ou adjetivo também é elipse (*aprovou dois* Ø).
+- **Substituição**, no sentido largo do Manual da Presidência: sinônimo, hiperônimo, nome genérico, *fazer o mesmo*, *fazê-lo*. Em Halliday e Hasan (aula de Linguística sobre leitura, coesão e coerência), sinônimo e hiperônimo são reiteração; substituição é só a forma substituta (*fazer o mesmo*, *acho que sim*). "O mesmo" no lugar de um nome: não.
+- **Repetição**: em texto normativo, a mesma ideia com as mesmas palavras (LC nº 95/1998, art. 11, II, *b*). Sinônimo só se designar a mesma coisa, sem ambiguidade.
+- **Sequenciação**: *primeiro*, *em seguida*, *por fim* (ordem); *ainda*, *além disso* (acréscimo). Deslocado entre vírgulas, o sequenciador mantém o valor; o *ainda* de continuidade (*ainda corrigem*) não é o de acréscimo.
 
 ## Demonstrativos
 
@@ -29,7 +30,7 @@
 | Condição | se | caso, desde que (+ subjuntivo) | desde que + indicativo |
 
 > [!CAUTION]
-> ***Enquanto*** + substantivo = *na condição de* (não é tempo). ***Mas*** não é aditivo. ***Posto que*** = *embora* na prova (o Manual da Presidência rejeita o causal na linguagem formal; o Pasquale o vê como uso brasileiro consagrado). *À medida em que* e *na medida que*: erradas.
+> ***Enquanto*** + substantivo = *na condição de* (não é tempo). ***Mas*** em geral opõe (soma em *não só… mas também*). ***Posto que*** = *embora* na prova (o Manual da Presidência rejeita o causal na linguagem formal; o Pasquale o vê como uso brasileiro consagrado). *À medida em que* e *na medida que*: erradas.
 
 **Troca de conector**: dê nome ao valor do original e ao do novo → valores diferentes, o sentido mudou → mesmo valor, confira o modo do verbo e a construção → releia o que o comando pede: sentido, correção, coerência (sentido e coerência não são a mesma coisa).
 
@@ -39,5 +40,5 @@
 > Faça a revisão do dia sem abrir o texto da aula primeiro: tente lembrar, e só depois confira.
 
 - **24 horas**: diga de cor o valor de *porquanto*, *conquanto*, *posto que*, *à medida que*, *na medida em que* e *enquanto* + substantivo. Refaça os itens que errou no treino.
-- **7 dias**: escreva três frases com relativo em que o referente não seja o sujeito da oração adjetiva e uma frase com *este* e *aquele* retomando dois termos. Refaça os dois roteiros (referente e troca de conector) sem consultar.
+- **7 dias**: escreva três frases com relativo em que o referente não seja o sujeito da oração adjetiva, uma frase com *este* e *aquele* retomando dois termos e duas com *ainda* (uma de acréscimo, outra de continuidade). Refaça os dois roteiros (referente e troca de conector) sem consultar.
 - **30 dias**: num discurso ou numa notícia da Câmara, ache o referente de cinco pronomes, recupere duas elipses e dê o valor de cinco conectores, testando a troca de cada um por outro do mesmo grupo.

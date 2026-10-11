@@ -11,61 +11,58 @@ materiais:
     autor: Yara Coeli
     duracao_min: 39
     descricao: >-
-      Questões do Cebraspe comentadas no formato certo ou errado. Pelos capítulos da descrição,
-      as cinco questões de tempos e modos verbais vão de 3:12 a 32:55: assista a esse trecho.
-      Indicado pela descrição do vídeo, sem conferência do conteúdo. É de 2021 e não traz itens
-      de provas da Câmara.
+      Cinco questões do Cebraspe sobre tempos e modos verbais, comentadas no formato certo ou
+      errado, entre 3:12 e 32:55 (os capítulos estão na descrição do vídeo): assista a esse
+      trecho. Pause antes de cada comentário e julgue o item sozinho. O vídeo é de 2021, e as
+      questões são de outros concursos, não da Câmara.
   - tipo: video
     titulo: Correlação de TEMPOS e MODOS verbais - APRENDA DE UMA VEZ!
     url: https://www.youtube.com/watch?v=vJZI9v0ds-g
     autor: Pablo Jamilk
     duracao_min: 13
     descricao: >-
-      Só correlação verbal: segundo a descrição, mostra as combinações corretas e as que as
-      bancas exploram como erro, com exemplos da FGV, do Cebraspe, da FCC e da Fundatec.
-      Indicado pela descrição do vídeo, sem conferência do conteúdo. Aproveite as combinações e
-      treine com os itens desta aula, que são no formato certo ou errado.
+      Só correlação verbal: as combinações de tempos que a norma aceita e as que as bancas cobram
+      como erro, com exemplos da FGV, do Cebraspe, da FCC e da Fundatec. Depois de assistir,
+      compare com os pares da figura de correlação do texto da aula e treine com os itens desta
+      aula, que são no formato certo ou errado.
   - tipo: video
     titulo: TEMPOS e MODOS VERBAIS — alerta de tabelinha
     url: https://www.youtube.com/watch?v=WK6WqY3iRU8
     autor: Português com Letícia
     duracao_min: 15
     descricao: >-
-      Visão geral, para quem precisa rever a conjugação antes de estudar os valores: pelos
-      capítulos da descrição, um tempo por vez do indicativo, do subjuntivo e do imperativo.
-      Indicado pela descrição do vídeo, sem conferência do conteúdo. Os capítulos não citam
-      correlação nem os valores do futuro do pretérito (distância, polidez), que ficam com o
-      texto da aula e com o vídeo de questões.
+      Visão geral da conjugação, um tempo por vez, do indicativo, do subjuntivo e do imperativo
+      (os capítulos estão na descrição do vídeo). Serve para quem precisa rever a tabela antes de
+      estudar os valores dos tempos. Correlação e valores do futuro do pretérito (distância,
+      polidez) ficam com o texto da aula e com o vídeo de questões.
   - tipo: video
     titulo: "ISSO PODE CUSTAR A SUA VAGA NA FGV: INFINITIVO x SUBJUNTIVO"
     url: https://www.youtube.com/watch?v=8-RBWGxe66s
     autor: Professor Mazziotti
     duracao_min: 6
     descricao: >-
-      Vídeo curto sobre a diferença entre o infinitivo e o futuro do subjuntivo ("vir" ×
-      "vier", "manter" × "mantiver"). Indicado pela descrição do vídeo, sem conferência do
-      conteúdo. É voltado a outra banca, mas o ponto é o mesmo que o Cebraspe cobra em
-      reescrita; se já domina a figura da aula, pode pular.
+      Vídeo curto sobre a diferença entre o infinitivo e o futuro do subjuntivo. É voltado à FGV,
+      mas o ponto é o mesmo que o Cebraspe cobra em reescrita. Se você já domina a figura do
+      futuro do subjuntivo no texto da aula, pode pular.
   - tipo: podcast
     titulo: "VERBOS | FUTURO DO PRESENTE e FUTURO DO PRETÉRITO – Entenda as DIFERENÇAS!"
     url: https://podcasts.apple.com/br/podcast/verbos-futuro-do-presente-e-futuro-do-pret%C3%A9rito-entenda/id1534371896?i=1000683007361
     autor: Português com Letícia
     duracao_min: 11
     descricao: >-
-      Pelo título, a diferença entre os dois futuros do indicativo; o futuro do pretérito é o
-      tempo que o Cebraspe mais explora. Indicado pelo título e pela duração, sem conferência do
-      conteúdo. O programa costuma ser o áudio de videoaulas: se a explicação depender do que
-      aparece na tela, fique com os quatro valores do texto da aula.
+      Episódio sobre a diferença entre o futuro do presente e o futuro do pretérito, o tempo que
+      o Cebraspe mais explora. Ouça com os quatro valores do futuro do pretérito do texto da aula
+      à mão e encaixe cada exemplo do episódio num deles. O programa é o áudio das videoaulas do
+      canal: se alguma explicação depender da tela, volte ao texto da aula.
   - tipo: podcast
     titulo: "VERBOS | PRETÉRITO PERFEITO, IMPERFEITO e MAIS-QUE-PERFEITO – Entenda as DIFERENÇAS!"
     url: https://podcasts.apple.com/br/podcast/verbos-pret%C3%A9rito-perfeito-imperfeito-e-mais-que-perfeito/id1534371896?i=1000680683787
     autor: Português com Letícia
     duracao_min: 13
     descricao: >-
-      Pelo título, a diferença entre os três pretéritos do indicativo, base das trocas "sem
-      prejuízo dos sentidos" da prova. Indicado pelo título e pela duração, sem conferência do
-      conteúdo. Mesma ressalva do episódio dos futuros: se depender da tela, use a linha do tempo
-      do texto da aula.
+      Episódio sobre a diferença entre os pretéritos perfeito, imperfeito e mais-que-perfeito,
+      base das trocas "sem prejuízo dos sentidos" da prova. Mesma observação do episódio dos
+      futuros: se alguma explicação depender da tela, use a linha do tempo do texto da aula.
   - tipo: link
     titulo: Consecução dos tempos verbais
     url: https://www.migalhas.com.br/coluna/gramatigalhas/12606/consecucao-dos-tempos-verbais
@@ -91,7 +88,9 @@ materiais:
       PDF de duas páginas, com dez frases para completar e as respostas no fim: bom para treinar
       "vier", "mantiver", "propuser" e "houver". Forma o futuro do subjuntivo a partir de "nós"
       (fizemos, fizer); o texto da aula parte de "eles" (fizeram, fizer). O resultado é o mesmo:
-      fique com um método só.
+      fique com um método só. Onde a gota diz que, "com os verbos irregulares, a coisa muda",
+      leia: com os de pretérito perfeito irregular. Ler e ouvir são irregulares e continuam
+      iguais ao infinitivo ("quando o relator ler").
   - tipo: link
     titulo: "Futuro do subjuntivo: como acertar sempre"
     url: https://blogs.correiobraziliense.com.br/dad/futuro-do-subjuntivo-como-acertar-sempre/

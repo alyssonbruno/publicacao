@@ -101,7 +101,7 @@ Travaglia (2016, p. 85) define a oposição básica assim:
 - **Perfectivo**: apresenta a situação "como completa", "com começo, meio e fim englobados juntos"; "é como se a situação fosse vista de fora, em sua globalidade". *O deputado discursou.*
 - **Imperfectivo**: apresenta a situação "como incompleta", em geral numa de suas fases; é "como se a situação fosse vista de dentro". *O deputado discursava quando a sessão foi suspensa.*
 
-Travaglia lembra que Comrie (1976) também caracteriza o perfectivo pela situação vista em seu todo.
+Em nota, Travaglia registra que Comrie (1976) também caracteriza o perfectivo pela situação apresentada em seu todo, completa.
 
 > [!WARNING]
 > Perfectivo não quer dizer curto. Para Travaglia, *ouviu música o dia todo* é perfectivo: o fato durou, mas é apresentado como um todo concluído. Castilho (2025) usa outro quadro, em que o perfectivo é pensado como um ponto e *andaram durante três horas* fica no imperfectivo. Num item, siga a definição que o enunciado der.

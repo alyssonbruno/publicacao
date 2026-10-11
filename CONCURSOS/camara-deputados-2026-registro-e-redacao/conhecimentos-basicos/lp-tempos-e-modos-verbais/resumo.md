@@ -22,10 +22,10 @@
 
 - *embora*, *ainda que*, *mesmo que*: subjuntivo. *caso*: presente ou imperfeito do subjuntivo. *se* e *quando*: aceitam o futuro do subjuntivo.
 - A conjunção rege também o verbo coordenado: *caso **seja**... e **deseje***.
-- **Futuro do subjuntivo**: pretérito perfeito com "eles", menos o *-am*: *vir* (de ver), *vier*, *mantiver*, *intervier*, *previr*, *propuser*, *dispuser*, *reouver*. Teste: troque por "fazer".
+- **Futuro do subjuntivo**: pretérito perfeito com "eles", menos o *-am*: *vir* (de ver), *vier*, *mantiver*, *intervier*, *previr*, *propuser*, *dispuser*, *reouver*. Teste: troque por "fazer". Só difere do infinitivo quando o perfeito é irregular; com perfeito regular, é igual, mesmo em verbo irregular no presente: *quando o relator **ler***, *se a Mesa **ouvir***.
 - **Pares com "se"**: *é... começa*; *for... começará*; *fosse... começaria*; *tivesse sido... teria começado*. Errado: *fosse... começará*.
 - *pede que **registrem***; *pediu que **registrassem***. *tramita **há***; *tramitava **havia***.
-- **Discurso indireto**: *é* → *era*; *votarei* → *votaria*; *li* → *lera*; *retirem* → *que retirassem*.
+- **Discurso indireto**: *é* → *era*; *votarei* → *votaria*; *li* → *lera*; *retirem* → *que retirassem*. O recuo pode não acontecer se o conteúdo ainda vale: *lembrou que o regimento **exige***.
 
 > [!CAUTION]
 > A troca pode manter a correção e mudar o sentido: de fato possível para hipótese, de afirmação para distância, de fato concluído para fato em curso.

@@ -6,16 +6,16 @@ simulado:
   fontes:
     - 'Questões próprias, sobre um texto próprio e fictício (relato de uma reunião de comissão parlamentar
       de inquérito), no estilo de certo ou errado do Cebraspe: uma forma do texto, com remissão à linha,
-      e uma afirmação por item sobre o valor dela no trecho (papel semântico, gênero, tempo, aspecto,
-      modalidade, pessoa) ou sobre o efeito de uma reescrita.'
+      e uma afirmação por item sobre o valor dela no trecho (papel semântico, gênero, número, pessoa,
+      tempo, aspecto, modo e modalidade) ou sobre o efeito de uma reescrita.'
     - 'Referências de estilo, sem cópia de itens: caderno de conhecimentos específicos de Professor de
       Educação Básica – Língua Portuguesa da SEE/DF 2017 (Cebraspe) e caderno de conhecimentos específicos
       de Analista Legislativo – Taquígrafo Legislativo da Câmara dos Deputados 2012 (CESPE/UnB).'
     - 'Bases do gabarito: Cançado (2005, DELTA); Cunha (2005 e 2008, Soletras); Corrêa (2012, CESAD/UFS,
       sobre Perini); Barbosa e Longo (2003, Letras & Letras, com a descrição de Corôa, 1985); Ilari (2020,
       Diadorim); Travaglia (2016, EDUFU); Duarte (2012, Revista do GELNE); Corbari (2013, Cadernos de
-      Letras da UFF); Manual de Redação da Presidência da República, 3ª ed. (2018), item 4.1.1. Consultados
-      em 11/10/2026.'
+      Letras da UFF); Silva e Camacho (2017, Estudos Linguísticos); Manual de Redação da Presidência da
+      República, 3ª ed. (2018), item 4.1.1. Consultados em 11/10/2026.'
 questoes:
   - id: q01
     topico: conhecimentos-especificos/ling-categorias-semanticas
@@ -36,6 +36,8 @@ questoes:
       > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
       > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
       > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+      > 13. Na saída, uma deputada resumiu: “A gente quer que a empresa envie
+      > 14. os contratos ainda neste mês.”
 
       Com base no texto e nas categorias semânticas, julgue o item.
 
@@ -59,6 +61,8 @@ questoes:
       > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
       > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
       > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+      > 13. Na saída, uma deputada resumiu: “A gente quer que a empresa envie
+      > 14. os contratos ainda neste mês.”
 
       Com base no texto e nas categorias semânticas, julgue o item.
 
@@ -82,6 +86,8 @@ questoes:
       > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
       > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
       > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+      > 13. Na saída, uma deputada resumiu: “A gente quer que a empresa envie
+      > 14. os contratos ainda neste mês.”
 
       Com base no texto e nas categorias semânticas, julgue o item.
 
@@ -105,6 +111,8 @@ questoes:
       > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
       > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
       > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+      > 13. Na saída, uma deputada resumiu: “A gente quer que a empresa envie
+      > 14. os contratos ainda neste mês.”
 
       Com base no texto e nas categorias semânticas, julgue o item.
 
@@ -128,6 +136,8 @@ questoes:
       > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
       > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
       > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+      > 13. Na saída, uma deputada resumiu: “A gente quer que a empresa envie
+      > 14. os contratos ainda neste mês.”
 
       Com base no texto e nas categorias semânticas, julgue o item.
 
@@ -151,6 +161,8 @@ questoes:
       > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
       > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
       > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+      > 13. Na saída, uma deputada resumiu: “A gente quer que a empresa envie
+      > 14. os contratos ainda neste mês.”
 
       Com base no texto e nas categorias semânticas, julgue o item.
 
@@ -174,6 +186,8 @@ questoes:
       > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
       > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
       > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+      > 13. Na saída, uma deputada resumiu: “A gente quer que a empresa envie
+      > 14. os contratos ainda neste mês.”
 
       Com base no texto e nas categorias semânticas, julgue o item.
 
@@ -197,6 +211,8 @@ questoes:
       > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
       > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
       > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+      > 13. Na saída, uma deputada resumiu: “A gente quer que a empresa envie
+      > 14. os contratos ainda neste mês.”
 
       Com base no texto e nas categorias semânticas, julgue o item.
 
@@ -220,6 +236,8 @@ questoes:
       > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
       > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
       > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+      > 13. Na saída, uma deputada resumiu: “A gente quer que a empresa envie
+      > 14. os contratos ainda neste mês.”
 
       Com base no texto e nas categorias semânticas, julgue o item.
 
@@ -243,7 +261,59 @@ questoes:
       > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
       > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
       > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+      > 13. Na saída, uma deputada resumiu: “A gente quer que a empresa envie
+      > 14. os contratos ainda neste mês.”
 
       Com base no texto e nas categorias semânticas, julgue o item.
 
       Em “Vossa Excelência sabe” (linha 12), a forma de tratamento designa o interlocutor do relator, embora o verbo esteja flexionado na terceira pessoa do singular.
+  - id: q11
+    topico: conhecimentos-especificos/ling-categorias-semanticas
+    enunciado: |-
+      Texto para o item: relato fictício de uma reunião de comissão parlamentar de inquérito, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A reunião da comissão parlamentar de inquérito começou com uma hora
+      > 2. de atraso. Às 14h, uma queda de energia desligou os microfones e o
+      > 3. painel eletrônico. Quando o sistema voltou, parte dos deputados já
+      > 4. tinha deixado o plenário. O relator, que tem apresentado
+      > 5. requerimentos de convocação de ex-dirigentes da empresa investigada,
+      > 6. leu o plano de trabalho e defendeu novas diligências. Segundo
+      > 7. assessores, o presidente da comissão estaria disposto a ouvir novos
+      > 8. depoentes, mas o relatório final deve ser votado até o último dia do
+      > 9. prazo, como determina o ato de criação da comissão. A testemunha
+      > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
+      > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
+      > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+      > 13. Na saída, uma deputada resumiu: “A gente quer que a empresa envie
+      > 14. os contratos ainda neste mês.”
+
+      Com base no texto e nas categorias semânticas, julgue o item.
+
+      Em “A gente quer” (linha 13), o verbo está no singular porque a expressão “a gente” se refere a uma só pessoa, a deputada que fala.
+  - id: q12
+    topico: conhecimentos-especificos/ling-categorias-semanticas
+    enunciado: |-
+      Texto para o item: relato fictício de uma reunião de comissão parlamentar de inquérito, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A reunião da comissão parlamentar de inquérito começou com uma hora
+      > 2. de atraso. Às 14h, uma queda de energia desligou os microfones e o
+      > 3. painel eletrônico. Quando o sistema voltou, parte dos deputados já
+      > 4. tinha deixado o plenário. O relator, que tem apresentado
+      > 5. requerimentos de convocação de ex-dirigentes da empresa investigada,
+      > 6. leu o plano de trabalho e defendeu novas diligências. Segundo
+      > 7. assessores, o presidente da comissão estaria disposto a ouvir novos
+      > 8. depoentes, mas o relatório final deve ser votado até o último dia do
+      > 9. prazo, como determina o ato de criação da comissão. A testemunha
+      > 10. ouvida pela manhã, um servidor aposentado, disse que nunca vira tanta
+      > 11. gente naquele plenário. Ao final, o relator dirigiu-se ao presidente:
+      > 12. “Vossa Excelência sabe que esta relatoria ouviu todos os envolvidos.”
+      > 13. Na saída, uma deputada resumiu: “A gente quer que a empresa envie
+      > 14. os contratos ainda neste mês.”
+
+      Com base no texto e nas categorias semânticas, julgue o item.
+
+      A forma verbal “envie” (linha 13), no modo subjuntivo, apresenta o envio dos contratos como algo desejado, e não como fato tido por certo.

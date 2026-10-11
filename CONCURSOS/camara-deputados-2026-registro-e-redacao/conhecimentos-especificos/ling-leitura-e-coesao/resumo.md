@@ -11,10 +11,11 @@
 
 ## Coesão
 
-- **Halliday e Hasan (1976)**: referência, substituição, elipse, conjunção e coesão lexical. A "repetição" do edital é a reiteração lexical.
-- **Referência**: endofórica (anáfora, catáfora) ou exofórica; pessoal, demonstrativa e **comparativa** (*outro*, *o mesmo*).
-- **Substituição**: forma-coringa no lugar da expressão (*fez o mesmo*; *comprar **um** novo*; *acho que **sim***). Relação de forma: o ser pode ser outro.
-- **Elipse**: substituição por zero; nominal, verbal (*o revisor, pela rejeição*), oracional. Escreva o termo que falta e releia. Sujeito indeterminado não é elipse.
+- **Halliday e Hasan (1976)**: referência, substituição, elipse, conjunção e coesão lexical. Leitura nossa: a "repetição" do edital é a reiteração da mesma palavra, um dos casos de reiteração da coesão lexical.
+- **Referência**: endofórica (anáfora, catáfora) ou exofórica; pessoal, demonstrativa e **comparativa** (*outro*; *o mesmo* junto de um nome: *a mesma pergunta*).
+- **Substituição** (sentido estrito): forma substituta explícita no lugar de uma expressão verbal (*fez o mesmo*, *não o fez*) ou de uma oração (*acho que **sim***, *espero que **não***). Relação de forma: o que ela designa pode ser outro. *Fez o mesmo* é substituição; *a mesma proposta* é referência comparativa.
+- **Elipse**: substituição por zero; nominal (*aprovou duas Ø*; *comprar um Ø novo*: o português não tem o *one* do inglês), verbal (*o revisor, pela rejeição*), oracional. Escreva o termo que falta e releia. Sujeito indeterminado não é elipse.
+- **Reiteração** (coesão lexical): mesma palavra, sinônimo, hiperônimo, nome genérico. O Manual da Presidência e a aula de Coesão textual, de Português, chamam a troca por sinônimo ou hiperônimo de substituição (sentido largo).
 - **Fávero**: referencial, recorrencial, sequencial. **Koch (1989)**: referencial (remissão) e sequencial (progressão: recorrência, paráfrase, conexão).
 
 > [!CAUTION]
@@ -24,8 +25,9 @@
 
 - **Anáfora indireta**: referente novo, com artigo definido, inferido de uma âncora (*o relatório… **o relator***).
 - **Encapsulamento**: um nome ou pronome resume um trecho inteiro e pode avaliá-lo (*Essa manobra*; *isso*).
-- **Koch e Travaglia**: coerência é princípio de interpretabilidade; a coesão não é condição necessária nem suficiente. Fatores: conhecimento de mundo e partilhado, inferências, situação, informatividade, focalização, intertextualidade, intencionalidade, aceitabilidade.
-- **Charolles (1978)**: repetição, progressão, não contradição, relação.
+- **Koch e Travaglia**: coerência é princípio de interpretabilidade; a coesão não é condição necessária nem suficiente. Fatores: elementos linguísticos, conhecimento de mundo, conhecimento partilhado, inferências, fatores de contextualização, situacionalidade, informatividade, focalização, intertextualidade, intencionalidade, aceitabilidade, consistência e relevância.
+- **Beaugrande e Dressler (1981)**: os sete padrões de textualidade (coesão, coerência, intencionalidade, aceitabilidade, informatividade, situacionalidade, intertextualidade).
+- **Charolles**: as metarregras são de 1978 (repetição, progressão, não contradição, relação); a coerência como princípio de interpretação, de um trabalho dos anos 1980.
 
 ## O que rever
 
