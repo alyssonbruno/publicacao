@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="568" viewBox="0 0 720 568" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="568" fill="#ffffff"/>
+  <rect x="12" y="12" width="148" height="36" rx="8" fill="#f2f1ec"/>
+  <text x="24" y="35" font-size="14" font-weight="700" fill="#0b0b0b">Molde</text>
+  <rect x="168" y="12" width="266" height="36" rx="8" fill="#e3edf9"/>
+  <text x="180" y="35" font-size="14" font-weight="700" fill="#1c5cab">O texto diz</text>
+  <rect x="442" y="12" width="266" height="36" rx="8" fill="#fde7dd"/>
+  <text x="454" y="35" font-size="14" font-weight="700" fill="#b8481f">O item diz (gabarito E)</text>
+  <!-- 1. Generalização -->
+  <rect x="12" y="58" width="696" height="74" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="24" y="90.5" font-size="14" font-weight="700" fill="#0b0b0b">
+    <tspan x="24">1. Generalização</tspan>
+    <tspan x="24" dy="19" font-size="12" font-weight="400" fill="#52514e">troca de quantificador</tspan>
+  </text>
+  <line x1="162" y1="68" x2="162" y2="122" stroke="#e1e0d9"/>
+  <line x1="436" y1="68" x2="436" y2="122" stroke="#e1e0d9"/>
+  <text x="180" y="90.5" font-size="13" fill="#2b2a28">
+    <tspan x="180"><tspan font-weight="700" fill="#1c5cab">Alguns</tspan> líderes pediram o</tspan>
+    <tspan x="180" dy="18">adiamento da votação.</tspan>
+  </text>
+  <text x="454" y="90.5" font-size="13" fill="#2b2a28">
+    <tspan x="454"><tspan font-weight="700" fill="#b8481f">Os</tspan> líderes pediram o</tspan>
+    <tspan x="454" dy="18">adiamento da votação.</tspan>
+  </text>
+  <!-- 2. Hierarquia inventada -->
+  <rect x="12" y="138" width="696" height="74" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="24" y="170.5" font-size="14" font-weight="700" fill="#0b0b0b">
+    <tspan x="24">2. Hierarquia</tspan>
+    <tspan x="24" dy="19">inventada</tspan>
+  </text>
+  <line x1="162" y1="148" x2="162" y2="202" stroke="#e1e0d9"/>
+  <line x1="436" y1="148" x2="436" y2="202" stroke="#e1e0d9"/>
+  <text x="180" y="161.5" font-size="13" fill="#2b2a28">
+    <tspan x="180">A sessão foi suspensa por falta</tspan>
+    <tspan x="180" dy="18">de quórum <tspan font-weight="700" fill="#1c5cab">e</tspan> por uma falha</tspan>
+    <tspan x="180" dy="18">no painel.</tspan>
+  </text>
+  <text x="454" y="161.5" font-size="13" fill="#2b2a28">
+    <tspan x="454">A sessão foi suspensa <tspan font-weight="700" fill="#b8481f">mais</tspan> pela</tspan>
+    <tspan x="454" dy="18">falha no painel <tspan font-weight="700" fill="#b8481f">do que</tspan> pela</tspan>
+    <tspan x="454" dy="18">falta de quórum.</tspan>
+  </text>
+  <!-- 3. Voz trocada -->
+  <rect x="12" y="218" width="696" height="74" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="24" y="250.5" font-size="14" font-weight="700" fill="#0b0b0b">
+    <tspan x="24">3. Voz trocada</tspan>
+    <tspan x="24" dy="19" font-size="12" font-weight="400" fill="#52514e">opinião dada ao autor</tspan>
+  </text>
+  <line x1="162" y1="228" x2="162" y2="282" stroke="#e1e0d9"/>
+  <line x1="436" y1="228" x2="436" y2="282" stroke="#e1e0d9"/>
+  <text x="180" y="250.5" font-size="13" fill="#2b2a28">
+    <tspan x="180"><tspan font-weight="700" fill="#1c5cab">Para o relator</tspan>, a proposta</tspan>
+    <tspan x="180" dy="18">reduz a burocracia.</tspan>
+  </text>
+  <text x="454" y="250.5" font-size="13" fill="#2b2a28">
+    <tspan x="454"><tspan font-weight="700" fill="#b8481f">O autor defende</tspan> que a</tspan>
+    <tspan x="454" dy="18">proposta reduz a burocracia.</tspan>
+  </text>
+  <!-- 4. Meio e fim invertidos -->
+  <rect x="12" y="298" width="696" height="74" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="24" y="330.5" font-size="14" font-weight="700" fill="#0b0b0b">
+    <tspan x="24">4. Meio e fim</tspan>
+    <tspan x="24" dy="19">invertidos</tspan>
+  </text>
+  <line x1="162" y1="308" x2="162" y2="362" stroke="#e1e0d9"/>
+  <line x1="436" y1="308" x2="436" y2="362" stroke="#e1e0d9"/>
+  <text x="180" y="321.5" font-size="13" fill="#2b2a28">
+    <tspan x="180">A edição tira as hesitações do</tspan>
+    <tspan x="180" dy="18">discurso <tspan font-weight="700" fill="#1c5cab">para dar clareza</tspan> ao</tspan>
+    <tspan x="180" dy="18">registro.</tspan>
+  </text>
+  <text x="454" y="321.5" font-size="13" fill="#2b2a28">
+    <tspan x="454"><tspan font-weight="700" fill="#b8481f">A clareza é uma técnica</tspan> usada</tspan>
+    <tspan x="454" dy="18">para tirar as hesitações do</tspan>
+    <tspan x="454" dy="18">discurso.</tspan>
+  </text>
+  <!-- 5. Escala exagerada -->
+  <rect x="12" y="378" width="696" height="74" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="24" y="410.5" font-size="14" font-weight="700" fill="#0b0b0b">
+    <tspan x="24">5. Escala</tspan>
+    <tspan x="24" dy="19">exagerada</tspan>
+  </text>
+  <line x1="162" y1="388" x2="162" y2="442" stroke="#e1e0d9"/>
+  <line x1="436" y1="388" x2="436" y2="442" stroke="#e1e0d9"/>
+  <text x="180" y="401.5" font-size="13" fill="#2b2a28">
+    <tspan x="180">O uso do celular é</tspan>
+    <tspan x="180" dy="18"><tspan font-weight="700" fill="#1c5cab">desaconselhado</tspan> durante as</tspan>
+    <tspan x="180" dy="18">votações.</tspan>
+  </text>
+  <text x="454" y="410.5" font-size="13" fill="#2b2a28">
+    <tspan x="454">O uso do celular é <tspan font-weight="700" fill="#b8481f">proibido</tspan></tspan>
+    <tspan x="454" dy="18">durante as votações.</tspan>
+  </text>
+  <!-- 6. Troca de predicado -->
+  <rect x="12" y="458" width="696" height="74" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="24" y="490.5" font-size="14" font-weight="700" fill="#0b0b0b">
+    <tspan x="24">6. Troca de</tspan>
+    <tspan x="24" dy="19">predicado</tspan>
+  </text>
+  <line x1="162" y1="468" x2="162" y2="522" stroke="#e1e0d9"/>
+  <line x1="436" y1="468" x2="436" y2="522" stroke="#e1e0d9"/>
+  <text x="180" y="481.5" font-size="13" fill="#2b2a28">
+    <tspan x="180">Os servidores novos <tspan font-weight="700" fill="#1c5cab">relatam</tspan></tspan>
+    <tspan x="180" dy="18"><tspan font-weight="700" fill="#1c5cab">menos</tspan> dificuldades com o</tspan>
+    <tspan x="180" dy="18">sistema.</tspan>
+  </text>
+  <text x="454" y="490.5" font-size="13" fill="#2b2a28">
+    <tspan x="454">Os servidores novos <tspan font-weight="700" fill="#b8481f">têm menos</tspan></tspan>
+    <tspan x="454" dy="18">dificuldades com o sistema.</tspan>
+  </text>
+  <text x="12" y="558" font-size="12" fill="#52514e">Exemplos criados para esta aula. Em negrito, o ponto em que o item se afasta do texto.</text>
+</svg>

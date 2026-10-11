@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="548" viewBox="0 0 720 548" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="548" fill="#ffffff"/>
+  <rect x="12" y="12" width="170" height="36" rx="8" fill="#e3edf9"/>
+  <text x="24" y="35" font-size="14" font-weight="700" fill="#1c5cab">Gênero</text>
+  <rect x="190" y="12" width="262" height="36" rx="8" fill="#e2f5ee"/>
+  <text x="202" y="35" font-size="14" font-weight="700" fill="#137a55">Tipo que costuma predominar</text>
+  <rect x="460" y="12" width="248" height="36" rx="8" fill="#f2f1ec"/>
+  <text x="472" y="35" font-size="14" font-weight="700" fill="#0b0b0b">Também aparece</text>
+  <!-- Projeto de lei (o articulado) -->
+  <rect x="12" y="58" width="696" height="60" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <line x1="184" y1="68" x2="184" y2="108" stroke="#e1e0d9"/>
+  <line x1="454" y1="68" x2="454" y2="108" stroke="#e1e0d9"/>
+  <text x="24" y="83.5" font-size="14" fill="#2b2a28">
+    <tspan x="24" font-weight="700" fill="#1c5cab">Projeto de lei</tspan>
+    <tspan x="24" dy="18" font-weight="700" fill="#1c5cab">(o articulado)</tspan>
+  </text>
+  <text x="202" y="83.5" font-size="13" fill="#2b2a28">
+    <tspan x="202" font-weight="700" fill="#137a55">Injuntivo (prescritivo)</tspan>
+    <tspan x="202" dy="18" fill="#52514e">“Fica instituído…”, “É vedado…”</tspan>
+  </text>
+  <text x="472" y="92.5" font-size="13" fill="#2b2a28">
+    <tspan x="472">expositivo nas definições</tspan>
+  </text>
+  <!-- Justificação do projeto -->
+  <rect x="12" y="124" width="696" height="60" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <line x1="184" y1="134" x2="184" y2="174" stroke="#e1e0d9"/>
+  <line x1="454" y1="134" x2="454" y2="174" stroke="#e1e0d9"/>
+  <text x="24" y="149.5" font-size="14" fill="#2b2a28">
+    <tspan x="24" font-weight="700" fill="#1c5cab">Justificação</tspan>
+    <tspan x="24" dy="18" font-weight="700" fill="#1c5cab">do projeto</tspan>
+  </text>
+  <text x="202" y="149.5" font-size="13" fill="#2b2a28">
+    <tspan x="202" font-weight="700" fill="#137a55">Argumentativo</tspan>
+    <tspan x="202" dy="18" fill="#52514e">defende a aprovação</tspan>
+  </text>
+  <text x="472" y="149.5" font-size="13" fill="#2b2a28">
+    <tspan x="472">expositivo (dados) e</tspan>
+    <tspan x="472" dy="18">narrativo (histórico)</tspan>
+  </text>
+  <!-- Parecer -->
+  <rect x="12" y="190" width="696" height="60" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <line x1="184" y1="200" x2="184" y2="240" stroke="#e1e0d9"/>
+  <line x1="454" y1="200" x2="454" y2="240" stroke="#e1e0d9"/>
+  <text x="24" y="224.5" font-size="14" fill="#2b2a28">
+    <tspan x="24" font-weight="700" fill="#1c5cab">Parecer</tspan>
+  </text>
+  <text x="202" y="215.5" font-size="13" fill="#2b2a28">
+    <tspan x="202" font-weight="700" fill="#137a55">Relatório: expositivo e narrativo</tspan>
+    <tspan x="202" dy="18" font-weight="700" fill="#137a55">Voto: argumentativo</tspan>
+  </text>
+  <text x="472" y="224.5" font-size="13" fill="#2b2a28">
+    <tspan x="472">um tipo em cada parte</tspan>
+  </text>
+  <!-- Discurso parlamentar -->
+  <rect x="12" y="256" width="696" height="60" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <line x1="184" y1="266" x2="184" y2="306" stroke="#e1e0d9"/>
+  <line x1="454" y1="266" x2="454" y2="306" stroke="#e1e0d9"/>
+  <text x="24" y="281.5" font-size="14" fill="#2b2a28">
+    <tspan x="24" font-weight="700" fill="#1c5cab">Discurso</tspan>
+    <tspan x="24" dy="18" font-weight="700" fill="#1c5cab">parlamentar</tspan>
+  </text>
+  <text x="202" y="281.5" font-size="13" fill="#2b2a28">
+    <tspan x="202" font-weight="700" fill="#137a55">Argumentativo</tspan>
+    <tspan x="202" dy="18" fill="#52514e">defende uma posição</tspan>
+  </text>
+  <text x="472" y="281.5" font-size="13" fill="#2b2a28">
+    <tspan x="472">narrativo (casos) e</tspan>
+    <tspan x="472" dy="18">injuntivo (apelos ao voto)</tspan>
+  </text>
+  <!-- Ata de reunião -->
+  <rect x="12" y="322" width="696" height="60" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <line x1="184" y1="332" x2="184" y2="372" stroke="#e1e0d9"/>
+  <line x1="454" y1="332" x2="454" y2="372" stroke="#e1e0d9"/>
+  <text x="24" y="356.5" font-size="14" fill="#2b2a28">
+    <tspan x="24" font-weight="700" fill="#1c5cab">Ata de reunião</tspan>
+  </text>
+  <text x="202" y="347.5" font-size="13" fill="#2b2a28">
+    <tspan x="202" font-weight="700" fill="#137a55">Narrativo</tspan>
+    <tspan x="202" dy="18" fill="#52514e">relata, em ordem, o que ocorreu</tspan>
+  </text>
+  <text x="472" y="347.5" font-size="13" fill="#2b2a28">
+    <tspan x="472">expositivo (pauta,</tspan>
+    <tspan x="472" dy="18">resultado das votações)</tspan>
+  </text>
+  <!-- Notícia institucional -->
+  <rect x="12" y="388" width="696" height="60" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <line x1="184" y1="398" x2="184" y2="438" stroke="#e1e0d9"/>
+  <line x1="454" y1="398" x2="454" y2="438" stroke="#e1e0d9"/>
+  <text x="24" y="413.5" font-size="14" fill="#2b2a28">
+    <tspan x="24" font-weight="700" fill="#1c5cab">Notícia</tspan>
+    <tspan x="24" dy="18" font-weight="700" fill="#1c5cab">institucional</tspan>
+  </text>
+  <text x="202" y="413.5" font-size="13" fill="#2b2a28">
+    <tspan x="202" font-weight="700" fill="#137a55">Expositivo e narrativo</tspan>
+    <tspan x="202" dy="18" fill="#52514e">informa o fato</tspan>
+  </text>
+  <text x="472" y="413.5" font-size="13" fill="#2b2a28">
+    <tspan x="472">opiniões citadas, atribuídas</tspan>
+    <tspan x="472" dy="18">a quem as deu</tspan>
+  </text>
+  <!-- Nota taquigráfica -->
+  <rect x="12" y="454" width="696" height="60" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <line x1="184" y1="464" x2="184" y2="504" stroke="#e1e0d9"/>
+  <line x1="454" y1="464" x2="454" y2="504" stroke="#e1e0d9"/>
+  <text x="24" y="488.5" font-size="14" fill="#2b2a28">
+    <tspan x="24" font-weight="700" fill="#1c5cab">Nota taquigráfica</tspan>
+  </text>
+  <text x="202" y="479.5" font-size="13" fill="#2b2a28">
+    <tspan x="202" font-weight="700" fill="#137a55">O tipo da fala registrada</tspan>
+    <tspan x="202" dy="18" fill="#52514e">discurso, aparte, questão de ordem</tspan>
+  </text>
+  <text x="472" y="479.5" font-size="13" fill="#2b2a28">
+    <tspan x="472">a passagem da fala para</tspan>
+    <tspan x="472" dy="18">a escrita é tema da P2</tspan>
+  </text>
+  <text x="12" y="538" font-size="12" fill="#52514e">Tendências, não regras: na prova, classifique o texto ou o trecho que o item indicar.</text>
+</svg>

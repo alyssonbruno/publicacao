@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="452" viewBox="0 0 720 452" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="452" fill="#ffffff"/>
+
+  <!-- Frase do texto -->
+  <rect x="12" y="12" width="696" height="52" rx="10" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+  <text x="28" y="35" font-size="12.5" font-weight="600" fill="#1c5cab">O texto diz:</text>
+  <text x="28" y="54" font-size="15" font-style="italic" fill="#0b0b0b">“O relator voltou a pedir o adiamento da votação.”</text>
+
+  <!-- Régua: de dentro para fora do texto -->
+  <defs>
+    <linearGradient id="regua" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1baf7a"/>
+      <stop offset="0.5" stop-color="#eda100"/>
+      <stop offset="1" stop-color="#eb6834"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="84" width="680" height="10" rx="5" fill="url(#regua)"/>
+  <polygon points="692,80 708,89 692,98" fill="#eb6834"/>
+  <text x="12" y="116" font-size="12.5" font-weight="600" fill="#137a55">dentro do texto</text>
+  <text x="708" y="116" font-size="12.5" font-weight="600" fill="#b8481f" text-anchor="end">fora do texto</text>
+
+  <!-- 1. Posto -->
+  <g transform="translate(12 128)">
+    <rect width="168" height="214" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <rect x="0" y="0" width="168" height="6" rx="3" fill="#1baf7a"/>
+    <text x="14" y="32" font-size="16" font-weight="700" fill="#137a55">Posto</text>
+    <text x="14" y="52" font-size="12.5" fill="#52514e">o que a frase afirma</text>
+    <text x="14" y="94" font-size="13.5" font-style="italic" fill="#0b0b0b">
+      <tspan x="14">O relator pediu</tspan>
+      <tspan x="14" dy="19">o adiamento.</tspan>
+    </text>
+    <line x1="14" y1="146" x2="154" y2="146" stroke="#e1e0d9"/>
+    <text x="14" y="170" font-size="12.5" font-weight="700" fill="#137a55">
+      <tspan x="14">Sustenta item C.</tspan>
+    </text>
+  </g>
+
+  <!-- 2. Pressuposto -->
+  <g transform="translate(188 128)">
+    <rect width="168" height="214" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <rect x="0" y="0" width="168" height="6" rx="3" fill="#1baf7a"/>
+    <text x="14" y="32" font-size="16" font-weight="700" fill="#137a55">Pressuposto</text>
+    <text x="14" y="52" font-size="12.5" fill="#52514e">
+      <tspan x="14">vem de uma marca</tspan>
+      <tspan x="14" dy="17">na frase: “voltou a”</tspan>
+    </text>
+    <text x="14" y="94" font-size="13.5" font-style="italic" fill="#0b0b0b">
+      <tspan x="14">Ele já tinha pedido</tspan>
+      <tspan x="14" dy="19">o adiamento antes.</tspan>
+    </text>
+    <line x1="14" y1="146" x2="154" y2="146" stroke="#e1e0d9"/>
+    <text x="14" y="170" font-size="12.5" font-weight="700" fill="#137a55">
+      <tspan x="14">Sustenta item C:</tspan>
+      <tspan x="14" dy="18">resiste à negação.</tspan>
+    </text>
+  </g>
+
+  <!-- 3. Subentendido -->
+  <g transform="translate(364 128)">
+    <rect width="168" height="214" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <rect x="0" y="0" width="168" height="6" rx="3" fill="#eda100"/>
+    <text x="14" y="32" font-size="16" font-weight="700" fill="#8a5a00">Subentendido</text>
+    <text x="14" y="52" font-size="12.5" fill="#52514e">
+      <tspan x="14">depende da situação;</tspan>
+      <tspan x="14" dy="17">quem fala pode negar</tspan>
+    </text>
+    <text x="14" y="94" font-size="13.5" font-style="italic" fill="#0b0b0b">
+      <tspan x="14">Ele quer ganhar</tspan>
+      <tspan x="14" dy="19">tempo.</tspan>
+    </text>
+    <line x1="14" y1="146" x2="154" y2="146" stroke="#e1e0d9"/>
+    <text x="14" y="170" font-size="12.5" font-weight="700" fill="#8a5a00">
+      <tspan x="14">Só é C se o resto</tspan>
+      <tspan x="14" dy="18">do texto der base</tspan>
+      <tspan x="14" dy="18">firme.</tspan>
+    </text>
+  </g>
+
+  <!-- 4. Extrapolação -->
+  <g transform="translate(540 128)">
+    <rect width="168" height="214" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <rect x="0" y="0" width="168" height="6" rx="3" fill="#eb6834"/>
+    <text x="14" y="32" font-size="16" font-weight="700" fill="#b8481f">Extrapolação</text>
+    <text x="14" y="52" font-size="12.5" fill="#52514e">vai além do texto</text>
+    <text x="14" y="94" font-size="13.5" font-style="italic" fill="#0b0b0b">
+      <tspan x="14">Ele é contra</tspan>
+      <tspan x="14" dy="19">o projeto.</tspan>
+    </text>
+    <line x1="14" y1="146" x2="154" y2="146" stroke="#e1e0d9"/>
+    <text x="14" y="170" font-size="12.5" font-weight="700" fill="#b8481f">
+      <tspan x="14">Item E, ainda que</tspan>
+      <tspan x="14" dy="18">seja verdade fora</tspan>
+      <tspan x="14" dy="18">do texto.</tspan>
+    </text>
+  </g>
+
+  <!-- Teste da negação -->
+  <rect x="12" y="358" width="696" height="82" rx="10" fill="#fcfcfb" stroke="#256abf" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="28" y="384" font-size="13.5" font-weight="700" fill="#1c5cab">Teste da negação</text>
+  <text x="28" y="406" font-size="13.5" fill="#0b0b0b">“O relator <tspan font-weight="700">não</tspan> voltou a pedir o adiamento.”</text>
+  <text x="28" y="428" font-size="13.5" fill="#52514e">O posto é negado (desta vez, ele não pediu); o pressuposto continua (houve um pedido antes).</text>
+</svg>

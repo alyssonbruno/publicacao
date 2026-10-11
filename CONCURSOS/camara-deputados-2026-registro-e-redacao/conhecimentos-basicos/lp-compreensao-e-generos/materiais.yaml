@@ -1,0 +1,65 @@
+materiais:
+  - tipo: texto
+    titulo: Compreensão e interpretação de textos; tipos e gêneros textuais
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: "CESPE - Compreensão e interpretação de textos de gêneros variados (parte 02)"
+    url: https://www.youtube.com/watch?v=s3qzO-w-T8Y
+    autor: Professor Mazziotti
+    duracao_min: 26
+    descricao: >-
+      Aula feita para o Cebraspe, com o mesmo texto do edital. Pelos capítulos da descrição,
+      passa por compreensão × interpretação, informação explícita × implícita, os comandos da
+      banca, inferência em tirinhas, um item do Cebraspe comentado e o erro de redução; a
+      descrição cita também extrapolação e contradição. Indicado pela descrição e pelos
+      capítulos, sem conferência do conteúdo. É de 2020 e não trata de pressupostos nem de tipos
+      e gêneros: para esses pontos, use o texto da aula. A descrição oferece curso e e-book; não
+      são necessários.
+  - tipo: video
+    titulo: Inferência ou extrapolação? Questão comentada do Cebraspe
+    url: https://www.youtube.com/watch?v=5Fq34aR-0uU
+    autor: Professor Mazziotti
+    duracao_min: 8
+    descricao: >-
+      Um item de certo ou errado do Cebraspe com "depreende-se", comentado: pela descrição,
+      mostra como confrontar a afirmação com o texto inteiro e por que não atribuir ao autor
+      uma opinião que ele não demonstrou (o molde da voz trocada). Indicado pela descrição, sem
+      conferência do conteúdo. Curto e no formato da prova: bom para fechar o estudo.
+  - tipo: video
+    titulo: Pressupostos e subentendidos
+    url: https://www.youtube.com/watch?v=IRe1duamo0M
+    autor: Fernando Pestana (no canal do Professor Noslen)
+    duracao_min: 11
+    descricao: >-
+      Aula de professor conhecido de gramática para concursos sobre o pressuposto, marcado na
+      frase, e o subentendido, que depende do contexto. Indicado pela descrição, sem conferência
+      do conteúdo. Não é voltado a uma banca: os exemplos não estão no formato de certo ou
+      errado. Complete com as marcas e o teste da negação do texto da aula.
+  - tipo: video
+    titulo: "Tipos e gêneros textuais: como nunca mais errar essas questões"
+    url: https://www.youtube.com/watch?v=Yj0cJ3D9WUg
+    autor: Prof. Karla Gomes (canal Karla Gomes | Português e Redação)
+    duracao_min: 50
+    descricao: >-
+      Pelos capítulos da descrição, cobre os cinco tipos, o que é gênero, tipo × gênero e
+      questões comentadas por tipo. Indicado pela descrição e pelos capítulos, sem conferência do
+      conteúdo. As questões parecem de múltipla escolha, e os gêneros tratados são literários e
+      de humor (conto, crônica, charge): para os gêneros do Legislativo e para a pegadinha do
+      "dado não é descrição", fique com o texto da aula. Se o tempo estiver curto, veja só os
+      capítulos dos tipos e de tipo × gênero.
+  - tipo: podcast
+    titulo: "Português para a PRF: Compreensão e Interpretação de Textos"
+    url: https://podcasts.apple.com/br/podcast/portugu%C3%AAs-para-a-prf-compreens%C3%A3o-e-interpreta%C3%A7%C3%A3o-de-textos/id6794704229?i=1000778346372
+    autor: Escuta Policial (podcast Concurso PRF em Áudio)
+    duracao_min: 10
+    descricao: >-
+      Aula curta, em diálogo, para outro concurso da mesma banca. O conteúdo foi conferido pela
+      transcrição publicada no site do podcast: compreensão × interpretação, o teste para separar
+      inferência de extrapolação, a troca de quantificador, o fato verdadeiro fora do texto e
+      tipo × gênero, com itens de certo ou errado comentados. A narração é feita com voz
+      sintética, segundo o próprio episódio, e não há professor identificado. Atenção: o episódio
+      diz que "de acordo com o texto" sempre pede o literal e "depreende-se" sempre o implícito;
+      a banca não segue essa regra (veja o texto da aula).
