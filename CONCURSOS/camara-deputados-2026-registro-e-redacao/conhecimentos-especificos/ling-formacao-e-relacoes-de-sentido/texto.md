@@ -91,7 +91,7 @@ Os autores divergem nas bordas: Monteiro, citado no livro da UFSC, só reconhece
 
 Três processos sem afixo visível:
 
-- **Derivação regressiva**: um verbo perde a terminação e vira **substantivo de ação**: *debater* → *debate*; *destacar* → *destaque*; *apoiar* → *apoio*. O critério de Mário Barreto, citado por Kehdi e pelo livro da UFSC, ajuda a saber quem vem de quem: se o substantivo indica **ação**, ele é o derivado (*debate*, de *debater*); se indica **objeto**, o verbo é que deriva dele (*arquivo* → *arquivar*; *âncora* → *ancorar*).
+- **Derivação regressiva**: um verbo perde a terminação e vira **substantivo de ação**: *debater* → *debate*; *destacar* → *destaque*; *apoiar* → *apoio*. O critério de Mário Barreto, que o livro da UFSC traz pela citação de Kehdi, ajuda a saber quem vem de quem: se o substantivo indica **ação**, ele é o derivado (*debate*, de *debater*); se indica **objeto**, o verbo é que deriva dele (*arquivo* → *arquivar*; *âncora* → *ancorar*).
 - **Derivação imprópria** (ou conversão): a palavra muda de classe sem mudar de forma: *o parecer* (verbo que virou substantivo), *o sim* e *o não* do painel, *salvo* em "salvo disposição em contrário" (particípio que virou preposição).
 - **Abreviação** (redução ou braquissemia): usa-se uma parte da palavra pelo todo, **sem mudar a classe**: *vice* (por *vice-presidente*), *foto*, *pneu*, *cinema* (de *cinematógrafo*).
 
@@ -153,7 +153,7 @@ As classificações não se excluem: *emigrar* e *imigrar* são parônimos (form
 Diferente da homonímia é a **polissemia**: uma palavra só, com sentidos ligados entre si, que o contexto separa. *Mesa* é o móvel e é o órgão que dirige os trabalhos da Câmara; *sanção* é a concordância do presidente da República com o projeto aprovado e é também a pena para quem descumpre uma norma.
 
 > [!NOTE]
-> A fronteira entre homonímia e polissemia é discutível: Lyons, citado por Henriques, a chama de "indeterminada e arbitrária". Leitura nossa: um item que dependa só dessa fronteira é arriscado; os tipos de homônimo, ao contrário, são cobrança segura.
+> A fronteira entre homonímia e polissemia é discutível: Lyons, citado nos slides da UFMG a partir de Henriques, a chama de "indeterminada e arbitrária". Leitura nossa: um item que dependa só dessa fronteira é arriscado; os tipos de homônimo, ao contrário, são cobrança segura.
 
 ## Parônimos
 
