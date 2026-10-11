@@ -1,0 +1,57 @@
+materiais:
+  - tipo: texto
+    titulo: Formação de palavras, homônimos, parônimos e relações de sentido
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: Encontros Vocálicos e Consonantais || Português para Concursos
+    url: https://www.youtube.com/watch?v=NIe8rsNExp0
+    autor: Português para Concursos - com Diego Pureza
+    duracao_min: 15
+    descricao: >-
+      Vogal e semivogal, ditongo crescente e decrescente, as pegadinhas de "pão" e de "ideia",
+      tritongo, hiato e separação silábica, como as bancas cobram e questões comentadas de várias
+      bancas, entre elas o Cespe. Pode parar em 8:52: os encontros consonantais, que vêm depois,
+      não estão no edital. Veja depois da primeira parte do texto; a oscilação dos ditongos
+      crescentes finais (série, árdua) está no texto da aula.
+  - tipo: video
+    titulo: ESTRUTURA e FORMAÇÃO de PALAVRAS (composição e derivação) || Português do Zero
+    url: https://www.youtube.com/watch?v=Gjv44CgF68Y
+    autor: Português com Letícia
+    duracao_min: 23
+    descricao: >-
+      Estrutura das palavras (radical, afixos, desinência, vogal temática), primitivas e
+      derivadas, composição por justaposição e aglutinação, hibridismo e os tipos de derivação,
+      inclusive parassintética, regressiva e imprópria. O hibridismo aparece junto da composição,
+      arranjo que nem todos os autores adotam. Abreviação, sigla e onomatopeia não estão entre os
+      capítulos: para esses pontos, use o texto da aula.
+  - tipo: video
+    titulo: HOMÔNIMOS e PARÔNIMOS || Português para Concursos
+    url: https://www.youtube.com/watch?v=G-mVUDQ13fo
+    autor: Português para Concursos - com Diego Pureza
+    duracao_min: 18
+    descricao: >-
+      Homônimos perfeitos, homógrafos e homófonos, parônimos e questões de várias bancas, entre
+      elas uma do Cespe sobre sessão e seção (12:05). Bom para fixar os tipos de homônimo antes dos
+      itens de treino. As palavras cognatas não estão entre os capítulos: ficam no texto da aula.
+  - tipo: video
+    titulo: "Semântica lexical (5): hiperônimos e hipônimos."
+    url: https://www.youtube.com/watch?v=8yhEr7X4tMM
+    autor: Linguística – Prof. Rerisson Cavalcante
+    duracao_min: 15
+    descricao: >-
+      Aula de linguista (doutor em Linguística pela USP), no nível da prova de Linguística: a
+      hiperonímia e a hiponímia como relações reversas, com exemplos e os problemas comuns na
+      identificação dessas relações. Veja depois da parte de hiperonímia do texto, para fixar o
+      teste "X é um tipo de Y" antes dos itens de treino. Licença Creative Commons Atribuição.
+  - tipo: link
+    titulo: Morfologia do Português (livro-texto de Letras a distância, UFSC)
+    url: https://legado.moodle.ufsc.br/pluginfile.php/2057323/mod_resource/content/1/Livro%20Completo%20de%20Morfologia.PDF
+    autor: Felício Wessling Margotti e Rita de Cássia Mello Ferreira Margotti (UFSC)
+    descricao: >-
+      PDF de 174 páginas (2011), base desta aula. Para aprofundar, leia só duas partes: as seções
+      2.1 e 2.2 (p. 25 a 47 do livro), sobre morfema, alomorfia, raiz, radical e vogal temática, e o
+      capítulo 5 (p. 111 a 146), sobre os tipos de derivação, a composição e os outros processos
+      (braquissemia, acrossemia, onomatopeia, hibridismo). Nível de graduação em Letras.

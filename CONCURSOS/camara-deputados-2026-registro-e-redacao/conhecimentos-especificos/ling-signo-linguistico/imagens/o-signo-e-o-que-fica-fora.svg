@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="470" viewBox="0 0 760 470" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="760" height="470" fill="#ffffff"/>
+  <defs>
+    <clipPath id="metade-de-cima"><rect x="0" y="0" width="460" height="215"/></clipPath>
+    <marker id="ponta" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#52514e"/>
+    </marker>
+  </defs>
+
+  <text x="250" y="30" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">O signo “veto”</text>
+
+  <!-- Elipse do signo -->
+  <ellipse cx="250" cy="215" rx="170" ry="150" fill="#fdf1d6"/>
+  <ellipse cx="250" cy="215" rx="170" ry="150" fill="#e3edf9" clip-path="url(#metade-de-cima)"/>
+  <ellipse cx="250" cy="215" rx="170" ry="150" fill="none" stroke="#256abf" stroke-width="2"/>
+  <line x1="80" y1="215" x2="420" y2="215" stroke="#256abf" stroke-width="2"/>
+
+  <g text-anchor="middle" fill="#0b0b0b">
+    <text x="250" y="112" font-size="15" font-weight="700" fill="#1c5cab">SIGNIFICADO</text>
+    <text x="250" y="132" font-size="12.5" fill="#52514e">(conceito)</text>
+    <text x="250" y="168" font-size="14">“recusa do chefe do Executivo</text>
+    <text x="250" y="188" font-size="14">a sancionar um projeto”</text>
+
+    <text x="250" y="248" font-size="15" font-weight="700" fill="#8a5a00">SIGNIFICANTE</text>
+    <text x="250" y="268" font-size="12.5" fill="#52514e">(imagem acústica: a impressão psíquica</text>
+    <text x="250" y="285" font-size="12.5" fill="#52514e">do som, não o som físico)</text>
+    <text x="250" y="325" font-size="22">/ˈvɛtu/</text>
+  </g>
+
+  <!-- Setas da significação -->
+  <line x1="58" y1="290" x2="58" y2="140" stroke="#52514e" stroke-width="2" marker-start="url(#ponta)" marker-end="url(#ponta)"/>
+  <line x1="442" y1="140" x2="442" y2="290" stroke="#52514e" stroke-width="2" marker-start="url(#ponta)" marker-end="url(#ponta)"/>
+  <text x="250" y="392" font-size="13" fill="#0b0b0b" text-anchor="middle"><tspan font-weight="700">Setas:</tspan> a significação, relação entre as duas faces</text>
+
+  <!-- Arbitrário -->
+  <g transform="translate(478 46)">
+    <rect width="270" height="96" rx="8" fill="#dff3ea" stroke="#12805a" stroke-width="1.5"/>
+    <text x="14" y="24" font-size="13" font-weight="700" fill="#0e6b4b">ARBITRÁRIO</text>
+    <text font-size="13" fill="#0b0b0b">
+      <tspan x="14" y="46">O laço entre as duas faces é</tspan>
+      <tspan x="14" y="65">imotivado: nada no som /ˈvɛtu/</tspan>
+      <tspan x="14" y="84">lembra a recusa.</tspan>
+    </text>
+  </g>
+
+  <!-- Linear -->
+  <g transform="translate(478 156)">
+    <rect width="270" height="112" rx="8" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+    <text x="14" y="24" font-size="13" font-weight="700" fill="#8a5a00">LINEAR (só o significante)</text>
+    <g font-size="15" text-anchor="middle" fill="#0b0b0b">
+      <rect x="20" y="36" width="34" height="30" rx="4" fill="#ffffff" stroke="#c98500"/>
+      <text x="37" y="57">v</text>
+      <rect x="66" y="36" width="34" height="30" rx="4" fill="#ffffff" stroke="#c98500"/>
+      <text x="83" y="57">ɛ</text>
+      <rect x="112" y="36" width="34" height="30" rx="4" fill="#ffffff" stroke="#c98500"/>
+      <text x="129" y="57">t</text>
+      <rect x="158" y="36" width="34" height="30" rx="4" fill="#ffffff" stroke="#c98500"/>
+      <text x="175" y="57">u</text>
+    </g>
+    <line x1="204" y1="51" x2="250" y2="51" stroke="#52514e" stroke-width="1.5" marker-end="url(#ponta)"/>
+    <text x="226" y="40" font-size="11.5" fill="#52514e" text-anchor="middle">tempo</text>
+    <text x="14" y="94" font-size="13" fill="#0b0b0b">Um som depois do outro, numa linha.</text>
+  </g>
+
+  <!-- Referente -->
+  <g transform="translate(478 284)">
+    <rect width="270" height="96" rx="8" fill="#f4f4f2" stroke="#52514e" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <text x="14" y="24" font-size="13" font-weight="700" fill="#52514e">REFERENTE (fora do signo)</text>
+    <text font-size="13" fill="#0b0b0b">
+      <tspan x="14" y="46">Um veto real, publicado no Diário</tspan>
+      <tspan x="14" y="65">Oficial: é a coisa, e a coisa não</tspan>
+      <tspan x="14" y="84">faz parte do signo.</tspan>
+    </text>
+  </g>
+
+  <!-- Pé -->
+  <g transform="translate(12 412)">
+    <rect width="736" height="44" rx="10" fill="#fbe3e3"/>
+    <text x="368" y="28" font-size="14" font-weight="700" fill="#b42727" text-anchor="middle">O signo une conceito e imagem acústica, não coisa e nome.</text>
+  </g>
+</svg>

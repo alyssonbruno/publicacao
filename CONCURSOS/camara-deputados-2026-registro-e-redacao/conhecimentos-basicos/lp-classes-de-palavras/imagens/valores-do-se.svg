@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="593" viewBox="0 0 760 593" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="760" height="593" fill="#ffffff"/>
+  <g font-size="13" font-weight="700" fill="#52514e">
+  <text x="28" y="34">Valor</text>
+  <text x="208" y="34">Teste</text>
+  <text x="464" y="34">Exemplo</text>
+  </g>
+  <line x1="16" y1="44" x2="744" y2="44" stroke="#0b0b0b" stroke-width="1.5"/>
+  <text x="18" y="68" font-size="13" font-weight="700" fill="#0b0b0b" letter-spacing="0.6">CONJUNÇÃO: liga orações</text>
+  <rect x="16" y="78" width="728" height="60" rx="6" fill="#fdf1d6" stroke="#c98500" stroke-width="1.2"/>
+  <line x1="196" y1="86" x2="196" y2="130" stroke="#c98500" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="452" y1="86" x2="452" y2="130" stroke="#c98500" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="28" y="113.0" font-size="14" font-weight="700" fill="#8a5a00">Condicional</text>
+  <text x="208" y="112.9" font-size="13.5" fill="#0b0b0b">equivale a “caso”</text>
+  <text x="464" y="103.5" font-size="14" fill="#0b0b0b"><tspan font-weight="700" fill="#8a5a00">Se</tspan> houver quórum, a votação</text>
+  <text x="464" y="122.5" font-size="14" fill="#0b0b0b">começa. (= caso haja quórum)</text>
+  <rect x="16" y="144" width="728" height="60" rx="6" fill="#fdf1d6" stroke="#c98500" stroke-width="1.2"/>
+  <line x1="196" y1="152" x2="196" y2="196" stroke="#c98500" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="452" y1="152" x2="452" y2="196" stroke="#c98500" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="28" y="179.0" font-size="14" font-weight="700" fill="#8a5a00">Integrante</text>
+  <text x="208" y="178.9" font-size="13.5" fill="#0b0b0b">a oração vira “isso”</text>
+  <text x="464" y="169.5" font-size="14" fill="#0b0b0b">O presidente perguntou <tspan font-weight="700" fill="#8a5a00">se</tspan> havia</text>
+  <text x="464" y="188.5" font-size="14" fill="#0b0b0b">acordo. (= perguntou isso)</text>
+  <text x="18" y="226" font-size="13" font-weight="700" fill="#0b0b0b" letter-spacing="0.6">PRONOME: preso ao verbo</text>
+  <rect x="16" y="236" width="728" height="79" rx="6" fill="#dff3ea" stroke="#12805a" stroke-width="1.2"/>
+  <line x1="196" y1="244" x2="196" y2="307" stroke="#12805a" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="452" y1="244" x2="452" y2="307" stroke="#12805a" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="28" y="280.5" font-size="14" font-weight="700" fill="#0e6b4b">Apassivador</text>
+  <text x="208" y="261.4" font-size="13.5" fill="#0b0b0b">verbo transitivo direto; sujeito</text>
+  <text x="208" y="280.4" font-size="13.5" fill="#0b0b0b">sem preposição; verbo concorda;</text>
+  <text x="208" y="299.4" font-size="13.5" fill="#0b0b0b">teste: a passiva com “ser”</text>
+  <text x="464" y="271.0" font-size="14" fill="#0b0b0b">Aprovaram-<tspan font-weight="700" fill="#0e6b4b">se</tspan> as emendas.</text>
+  <text x="464" y="290.0" font-size="14" fill="#0b0b0b">→ As emendas foram aprovadas.</text>
+  <rect x="16" y="321" width="728" height="98" rx="6" fill="#e3edf9" stroke="#256abf" stroke-width="1.2"/>
+  <line x1="196" y1="329" x2="196" y2="411" stroke="#256abf" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="452" y1="329" x2="452" y2="411" stroke="#256abf" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="28" y="356.0" font-size="14" font-weight="700" fill="#1c5cab">Índice de</text>
+  <text x="28" y="375.0" font-size="14" font-weight="700" fill="#1c5cab">indeterminação</text>
+  <text x="28" y="394.0" font-size="14" font-weight="700" fill="#1c5cab">do sujeito</text>
+  <text x="208" y="346.4" font-size="13.5" fill="#0b0b0b">verbo transitivo indireto,</text>
+  <text x="208" y="365.4" font-size="13.5" fill="#0b0b0b">intransitivo ou de ligação; o</text>
+  <text x="208" y="384.4" font-size="13.5" fill="#0b0b0b">termo seguinte não é sujeito;</text>
+  <text x="208" y="403.4" font-size="13.5" fill="#0b0b0b">verbo sempre no singular</text>
+  <text x="464" y="346.5" font-size="14" fill="#0b0b0b">Precisa-<tspan font-weight="700" fill="#1c5cab">se</tspan> de quórum.</text>
+  <text x="464" y="365.5" font-size="14" fill="#0b0b0b">Votou-<tspan font-weight="700" fill="#1c5cab">se</tspan> até tarde.</text>
+  <text x="464" y="384.5" font-size="14" fill="#0b0b0b">Quando <tspan font-weight="700" fill="#1c5cab">se</tspan> é relator, o prazo</text>
+  <text x="464" y="403.5" font-size="14" fill="#0b0b0b">parece curto.</text>
+  <rect x="16" y="425" width="728" height="41" rx="6" fill="#f3f2ee" stroke="#8c8a84" stroke-width="1.2"/>
+  <line x1="196" y1="433" x2="196" y2="458" stroke="#8c8a84" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="452" y1="433" x2="452" y2="458" stroke="#8c8a84" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="28" y="450.5" font-size="14" font-weight="700" fill="#3d3c39">Reflexivo</text>
+  <text x="208" y="450.4" font-size="13.5" fill="#0b0b0b">cabe “a si mesmo”</text>
+  <text x="464" y="450.5" font-size="14" fill="#0b0b0b">O deputado declarou-<tspan font-weight="700" fill="#3d3c39">se</tspan> impedido.</text>
+  <rect x="16" y="472" width="728" height="41" rx="6" fill="#f3f2ee" stroke="#8c8a84" stroke-width="1.2"/>
+  <line x1="196" y1="480" x2="196" y2="505" stroke="#8c8a84" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="452" y1="480" x2="452" y2="505" stroke="#8c8a84" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="28" y="497.5" font-size="14" font-weight="700" fill="#3d3c39">Recíproco</text>
+  <text x="208" y="497.4" font-size="13.5" fill="#0b0b0b">cabe “um ao outro”</text>
+  <text x="464" y="497.5" font-size="14" fill="#0b0b0b">Os líderes cumprimentaram-<tspan font-weight="700" fill="#3d3c39">se</tspan>.</text>
+  <rect x="16" y="519" width="728" height="60" rx="6" fill="#ece9f8" stroke="#4a3aa7" stroke-width="1.2"/>
+  <line x1="196" y1="527" x2="196" y2="571" stroke="#4a3aa7" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="452" y1="527" x2="452" y2="571" stroke="#4a3aa7" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="28" y="544.5" font-size="14" font-weight="700" fill="#4a3aa7">Parte integrante</text>
+  <text x="28" y="563.5" font-size="14" font-weight="700" fill="#4a3aa7">do verbo</text>
+  <text x="208" y="544.4" font-size="13.5" fill="#0b0b0b">o verbo não se usa sem ele;</text>
+  <text x="208" y="563.4" font-size="13.5" fill="#0b0b0b">“a si mesmo” não cabe</text>
+  <text x="464" y="554.0" font-size="14" fill="#0b0b0b">O relator queixou-<tspan font-weight="700" fill="#4a3aa7">se</tspan> do prazo.</text>
+</svg>

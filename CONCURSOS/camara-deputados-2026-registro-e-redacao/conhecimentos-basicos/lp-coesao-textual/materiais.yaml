@@ -1,0 +1,76 @@
+materiais:
+  - tipo: texto
+    titulo: "Coesão textual: referência, substituição, repetição e conectores"
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: Desvende a referenciação com pronomes em concursos!
+    url: https://www.youtube.com/watch?v=0MBqhEmPw-E
+    autor: Professora Adriana Figueiredo
+    duracao_min: 19
+    descricao: >-
+      O uso dos pronomes na referenciação e o modo de desfazer ambiguidades, com o foco nas
+      provas do Cebraspe: é o item "o termo X retoma Y", o mais frequente do tópico. Veja depois
+      da parte "Achar o referente em quatro passos" e aplique o roteiro da aula a cada exemplo.
+      No relativo, lembre a regra: o referente é o antecedente, não o sujeito da oração. A
+      página do vídeo anuncia um curso pago: ignore a parte de venda.
+  - tipo: video
+    titulo: À medida que × na medida em que
+    url: https://www.youtube.com/watch?v=BNArwG4WJjY
+    autor: Professor Noslen
+    duracao_min: 10
+    descricao: >-
+      Curto e no ponto de uma pegadinha clássica de troca de conector: quando usar "à medida
+      que" (proporção) e quando usar "na medida em que" (causa). Não é voltado a uma banca: veja
+      depois da parte "Trocar conectores" da aula e guarde também que "à medida em que" e "na
+      medida que" estão fora da norma-padrão.
+  - tipo: video
+    titulo: É isso que cai sobre conjunções para concurso
+    url: https://www.youtube.com/watch?v=tKJkDQSMdh0
+    autor: Prof. Álvaro Ferreira
+    duracao_min: 24
+    descricao: >-
+      As regras de conjunções mais cobradas em concurso, com teoria e resolução de questões. Use
+      para fixar o valor dos conectores e, a cada troca que aparecer, confira o grupo no quadro
+      dos conectores da aula.
+  - tipo: video
+    titulo: "LIVE #361 — Reescritura no Cespe/Cebraspe: domine os conectores e não caia nas pegadinhas!"
+    url: https://www.youtube.com/watch?v=WCV7O3b7crQ
+    autor: Professora Grasiela Cabral
+    duracao_min: 51
+    descricao: >-
+      Gravação de uma live de 5/10/2026 que resolve questões de reescrita do Cebraspe centradas
+      nos conectores: quando a troca mantém o sentido e a correção e quando torna o item errado.
+      A Câmara dos Deputados está entre os concursos-alvo. Veja depois do texto da aula, como
+      treino: tente julgar cada item antes da resolução. Ignore as chamadas de venda de cursos.
+  - tipo: podcast
+    titulo: "'Posto que' tem sempre valor de 'embora'?"
+    url: https://podcasts.apple.com/br/podcast/posto-que-tem-sempre-valor-de-embora/id1227867522?i=1000736496142
+    autor: Pasquale Cipro Neto (A Nossa Língua de Todo Dia, rádio CBN)
+    duracao_min: 13
+    descricao: >-
+      Um ouvinte pergunta sobre o "posto que é chama" de Vinicius de Moraes. O professor mostra o valor concessivo clássico (= embora,
+      em Machado de Assis e em Drummond) e trata o causal de Vinicius como uso brasileiro que
+      considera consagrado. Na prova, fique com o Manual da Presidência e com o texto da aula:
+      "posto que" = "embora". O episódio começa com anúncios e um recado sobre um show; a
+      resposta começa perto dos 2 minutos. Fala baixa: aumente o volume.
+  - tipo: podcast
+    titulo: "#108 Dicas sobre conectivos (Língua Portuguesa)"
+    url: https://podcasts.apple.com/br/podcast/108-dicas-sobre-conectivos-l%C3%ADngua-portuguesa/id1495888330?i=1000534143972
+    autor: Qconcursos (QC Cast; professor Alexandre Soares)
+    duracao_min: 10
+    descricao: >-
+      Dicas sobre o valor semântico dos conectivos, num episódio curto do podcast de um cursinho
+      de concursos. Bom para ouvir no caminho, depois de ler o texto; ao ouvir cada conector,
+      tente dizer o valor dele e um par que o substitua sem mudar o sentido.
+  - tipo: link
+    titulo: Este/esse, esta/essa, isto/isso — Manual de Comunicação da Secom
+    url: https://www12.senado.leg.br/manualdecomunicacao/estilos/este-esse-esta-essa-isto-isso
+    autor: Senado Federal, Secretaria de Comunicação Social
+    descricao: >-
+      Leitura curta e oficial do Legislativo: os demonstrativos no tempo, no espaço e no texto
+      ("este" antecipa, "esse" retoma), com exemplos de notícias do Senado e a correção de um
+      caso real. Não traz o par "este" (o último citado) × "aquele" (o primeiro): esse ponto
+      está no texto da aula.

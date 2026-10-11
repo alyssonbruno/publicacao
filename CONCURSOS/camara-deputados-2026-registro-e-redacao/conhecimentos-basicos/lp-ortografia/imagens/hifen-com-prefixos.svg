@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="684" viewBox="0 0 760 684" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+  <rect width="760" height="684" fill="#ffffff"/>
+  <text x="16" y="34" font-size="17" font-weight="700" fill="#0b0b0b">Prefixo + segundo elemento: decide o encontro das letras</text>
+
+  <!-- A: com hífen, pelo encontro -->
+  <g transform="translate(12 52)">
+    <rect width="362" height="304" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#1c5cab">Com hífen<tspan font-size="13" font-weight="400" fill="#52514e">  ·  o encontro pede</tspan></text>
+    <g stroke="#e1e0d9">
+      <line x1="16" y1="97" x2="346" y2="97"/>
+      <line x1="16" y1="149" x2="346" y2="149"/>
+      <line x1="16" y1="201" x2="346" y2="201"/>
+      <line x1="16" y1="253" x2="346" y2="253"/>
+    </g>
+    <g font-size="13" fill="#52514e">
+      <text x="16" y="62">o segundo elemento começa por h</text>
+      <text x="16" y="114">vogal + a mesma vogal</text>
+      <text x="16" y="166">hiper-, inter-, super- + r</text>
+      <text x="16" y="218">sub- + b ou r; ab-, ob- + r</text>
+      <text x="16" y="270">circum-, pan- + vogal, m ou n</text>
+    </g>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="84">anti<tspan font-weight="700" fill="#1c5cab">-h</tspan>igiênico, super<tspan font-weight="700" fill="#1c5cab">-h</tspan>omem</text>
+      <text x="16" y="136">ant<tspan font-weight="700" fill="#1c5cab">i-i</tspan>nflamatório, contr<tspan font-weight="700" fill="#1c5cab">a-a</tspan>taque</text>
+      <text x="16" y="188">inte<tspan font-weight="700" fill="#1c5cab">r-r</tspan>egional, hipe<tspan font-weight="700" fill="#1c5cab">r-r</tspan>equintado</text>
+      <text x="16" y="240">su<tspan font-weight="700" fill="#1c5cab">b-b</tspan>ase, su<tspan font-weight="700" fill="#1c5cab">b-r</tspan>eitor, a<tspan font-weight="700" fill="#1c5cab">b-r</tspan>ogação</text>
+      <text x="16" y="292">circu<tspan font-weight="700" fill="#1c5cab">m-n</tspan>avegação, pa<tspan font-weight="700" fill="#1c5cab">n-a</tspan>mericano</text>
+    </g>
+  </g>
+
+  <!-- B: junto, sem hífen -->
+  <g transform="translate(386 52)">
+    <rect width="362" height="304" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#127a55">Junto, sem hífen<tspan font-size="13" font-weight="400" fill="#52514e">  ·  o resto</tspan></text>
+    <g stroke="#e1e0d9">
+      <line x1="16" y1="97" x2="346" y2="97"/>
+      <line x1="16" y1="149" x2="346" y2="149"/>
+      <line x1="16" y1="201" x2="346" y2="201"/>
+    </g>
+    <g font-size="13" fill="#52514e">
+      <text x="16" y="62">vogal + vogal diferente</text>
+      <text x="16" y="114">vogal + r ou s: a consoante dobra</text>
+      <text x="16" y="166">consoante + letra diferente</text>
+      <text x="16" y="218">pos-, pre-, pro- átonos, sem acento</text>
+    </g>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="84">aut<tspan font-weight="700" fill="#127a55">oe</tspan>stima, infr<tspan font-weight="700" fill="#127a55">ae</tspan>strutura</text>
+      <text x="16" y="136">anti<tspan font-weight="700" fill="#127a55">ss</tspan>ocial, contra<tspan font-weight="700" fill="#127a55">rr</tspan>azão</text>
+      <text x="16" y="188">inte<tspan font-weight="700" fill="#127a55">re</tspan>stadual, su<tspan font-weight="700" fill="#127a55">bc</tspan>omissão</text>
+      <text x="16" y="240"><tspan font-weight="700" fill="#127a55">pos</tspan>por, <tspan font-weight="700" fill="#127a55">pre</tspan>ver, <tspan font-weight="700" fill="#127a55">pro</tspan>mover</text>
+    </g>
+  </g>
+
+  <!-- C: com hífen pela forma do prefixo -->
+  <g transform="translate(12 368)">
+    <rect width="362" height="304" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#1c5cab">Sempre com hífen<tspan font-size="13" font-weight="400" fill="#52514e">  ·  pela forma</tspan></text>
+    <g stroke="#e1e0d9">
+      <line x1="16" y1="97" x2="346" y2="97"/>
+      <line x1="16" y1="149" x2="346" y2="149"/>
+    </g>
+    <g font-size="13" fill="#52514e">
+      <text x="16" y="62">ex- (o que deixou de ser) e vice-</text>
+      <text x="16" y="114">recém-, sem-, além-, aquém-</text>
+      <text x="16" y="166">pós-, pré-, pró- tônicos, com acento</text>
+    </g>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="84">ex<tspan font-weight="700" fill="#1c5cab">-</tspan>presidente, vice<tspan font-weight="700" fill="#1c5cab">-</tspan>líder</text>
+      <text x="16" y="136">recém<tspan font-weight="700" fill="#1c5cab">-</tspan>eleito, sem<tspan font-weight="700" fill="#1c5cab">-</tspan>terra, além<tspan font-weight="700" fill="#1c5cab">-</tspan>mar</text>
+      <text x="16" y="188">pós<tspan font-weight="700" fill="#1c5cab">-</tspan>graduação, pró<tspan font-weight="700" fill="#1c5cab">-</tspan>reitor</text>
+    </g>
+    <text x="16" y="236" font-size="13" fill="#52514e">Compare com o último caso do quadro verde:</text>
+    <text x="16" y="256" font-size="13" fill="#52514e">átono, junta; tônico e com acento, hífen.</text>
+  </g>
+
+  <!-- D: decisões da ABL -->
+  <g transform="translate(386 368)">
+    <rect width="362" height="304" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#b4471b">Decisões da ABL<tspan font-size="13" font-weight="400" fill="#52514e">  ·  o VOLP segue</tspan></text>
+    <g stroke="#e1e0d9">
+      <line x1="16" y1="97" x2="346" y2="97"/>
+      <line x1="16" y1="149" x2="346" y2="149"/>
+      <line x1="16" y1="201" x2="346" y2="201"/>
+      <line x1="16" y1="253" x2="346" y2="253"/>
+    </g>
+    <g font-size="13" fill="#52514e">
+      <text x="16" y="62">co-, re-, pre-, pro-: sempre juntos</text>
+      <text x="16" y="114">não e quase como prefixo: sem hífen</text>
+      <text x="16" y="166">an- + h: o h cai; a- + h: hífen</text>
+      <text x="16" y="218">duas grafias registradas</text>
+      <text x="16" y="270">só sub-humano (o Senado aceita subumano)</text>
+    </g>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="84">c<tspan font-weight="700" fill="#b4471b">oe</tspan>rdeiro, r<tspan font-weight="700" fill="#b4471b">ee</tspan>leição, pr<tspan font-weight="700" fill="#b4471b">ee</tspan>ncher</text>
+      <text x="16" y="136"><tspan font-weight="700" fill="#b4471b">não</tspan> governamental, <tspan font-weight="700" fill="#b4471b">quase</tspan> irmão</text>
+      <text x="16" y="188"><tspan font-weight="700" fill="#b4471b">an</tspan>istórico, mas a<tspan font-weight="700" fill="#b4471b">-h</tspan>istórico</text>
+      <text x="16" y="240">pré-requisito ou prerrequisito</text>
+      <text x="16" y="292">sub<tspan font-weight="700" fill="#b4471b">-h</tspan>umano</text>
+    </g>
+  </g>
+</svg>

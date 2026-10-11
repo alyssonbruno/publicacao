@@ -1,0 +1,98 @@
+materiais:
+  - tipo: texto
+    titulo: Categorias semânticas e papéis semânticos
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: Gênero gramatical não é isso (recorte)
+    url: https://www.youtube.com/watch?v=voNbGZoYQdI
+    autor: Linguística – Prof. Rerisson Cavalcante
+    duracao_min: 3
+    descricao: >-
+      Recorte de 3 minutos sobre o ponto central da parte de gênero: o gênero gramatical não
+      depende de haver palavras masculinas e femininas, mas de padrões da língua, como a
+      concordância. Assista depois de ler "Gênero não é sexo" e teste a ideia nos exemplos da aula
+      (a testemunha, o cônjuge, a cobra macho). O vídeo completo de onde saiu é exclusivo para
+      membros pagantes do canal; o recorte basta.
+  - tipo: video
+    titulo: Tempo verbal
+    url: https://www.youtube.com/watch?v=SeSZSGK5ts8
+    autor: Roberlei Alves Bertucci (Letras, UTFPR)
+    duracao_min: 11
+    descricao: >-
+      Aula de 11 minutos sobre o tempo verbal, da disciplina de Semântica e Pragmática do curso de
+      Letras da UTFPR. Assista depois da parte "Tempo: uma categoria dêitica". Se o professor usar
+      outros nomes para os momentos, compare com a figura dos três momentos (MF, ME e MR) do texto
+      da aula.
+  - tipo: video
+    titulo: Aspecto verbal
+    url: https://www.youtube.com/watch?v=ownUS9fQtrs
+    autor: Roberlei Alves Bertucci (Letras, UTFPR)
+    duracao_min: 15
+    descricao: >-
+      Aula de Semântica do curso de Letras que explica o aspecto pela relação entre o momento do
+      evento e o momento de referência. Trata do perfectivo ("João cantou", 1:05), do imperfectivo
+      ("estava cantando", 3:20), do habitual como imperfectivo ("na adolescência, João cantava",
+      8:28) e do perfeito, evento anterior à referência ("já tinha cantado", 5:03). Assista depois
+      do vídeo "Tempo verbal", do mesmo professor, e acompanhe os gráficos. As fases (inceptivo,
+      cursivo, terminativo) ficam com o texto da aula, e "tinha nadado" (7:50) é mais-que-perfeito
+      composto, não perfeito composto.
+  - tipo: video
+    titulo: Quase tudo sobre papéis temáticos
+    url: https://www.youtube.com/watch?v=4jxZ2PfKJxs
+    autor: Linguística – Prof. Rerisson Cavalcante
+    duracao_min: 72
+    descricao: >-
+      Reúne a série do canal sobre papéis temáticos: agente, causador, instrumento, paciente, tema,
+      experienciador, objeto estativo, locativo, fonte, meta e beneficiário, os papéis da aula. É
+      longo: assista em partes, começando por agente, causador e instrumento (compare com o teste
+      do controle da aula) e pelo trecho que compara paciente e tema, nomes que mudam de autor
+      para autor. Os livros recomendados na descrição têm links de afiliado; não são leitura da
+      aula.
+  - tipo: podcast
+    titulo: "#18 - Sobre uma linguagem inclusiva - Raquel Freitag"
+    url: https://podcasts.apple.com/br/podcast/18-sobre-uma-linguagem-inclusiva-raquel-freitag-professora/id1578163864?i=1000559312266
+    autor: Podcast Café Acadêmico (entrevista com Raquel Meister Ko Freitag, UFS)
+    duracao_min: 39
+    descricao: >-
+      Entrevista com a sociolinguista Raquel Freitag (UFS) sobre linguagem neutra, inclusiva e não
+      binária, o masculino como plural genérico e a resistência a essas formas. Serve só à parte
+      de gênero (o masculino não marcado): ouça se quiser aprofundar, lembrando que a prova cobra a
+      categoria gramatical, não a polêmica.
+  - tipo: link
+    titulo: Construções oracionais e suboracionais da língua portuguesa (Aula 2)
+    url: https://cesad.ufs.br/ORBI/public/uploadCatalago/09391204042012Laboratorio_para_o_Ensino_da_Lingua_Portuguesa_Aula_2.pdf
+    autor: Lêda Corrêa (CESAD/UFS)
+    descricao: >-
+      PDF de 8 páginas, a leitura curta mais clara sobre forma × sentido e sobre o sujeito que não
+      é agente: surrar, bater em e apanhar de; construção intransitiva × ergativa (o carro
+      quebrou). Segue Perini, como o texto da aula. Cuidados: o texto fala em exemplos (12) a (16)
+      que não existem, e a lista de papéis não traz beneficiário, instrumento nem locativo.
+  - tipo: link
+    titulo: Discutindo os critérios para a definição de sujeito no português do Brasil
+    url: https://www.e-publicacoes.uerj.br/soletras/article/view/4556
+    autor: Antônio Sérgio Cavalcante da Cunha (Soletras, UERJ, 2005)
+    descricao: >-
+      Leia só a seção "O critério semântico" (p. 97 a 99): mostra por que "sujeito é quem pratica
+      a ação" falha, com a lista de papéis de Mira Mateus e outros. Atenção ao rótulo: ali,
+      "paciente" não é o afetado (que se chama "objeto"), ao contrário do texto da aula.
+  - tipo: link
+    titulo: Um estudo do pretérito perfeito simples e composto no português brasileiro
+    url: https://seer.ufu.br/index.php/letraseletras/article/view/25151
+    autor: Juliana Bertucci Barbosa e Beatriz Nunes de Oliveira Longo (Letras & Letras, UFU, 2003)
+    descricao: >-
+      Leia só as páginas 7 a 10: o melhor resumo encontrado de tempo (dêitico), aspecto (não
+      dêitico) e modo, com as fórmulas de cada tempo do indicativo com os momentos da fala, do
+      evento e de referência, que estão na figura da aula. A fórmula do perfeito é a de Corôa,
+      que difere da de Reichenbach (veja a nota da aula). O resto do artigo é pesquisa em
+      corpus.
+  - tipo: link
+    titulo: Covid tem gênero?
+    url: https://jornal.usp.br/artigos/covid-tem-genero/
+    autor: Marcelo Módolo e Henrique Braga (Jornal da USP, 2020)
+    descricao: >-
+      Coluna curta e leve sobre gênero gramatical × sexo, com Mattoso Câmara e a dúvida entre "o"
+      e "a" covid. Não usa os termos epiceno e sobrecomum, que estão no texto da aula. O último
+      parágrafo passa a outro assunto (linguagem e identidade), que a prova dificilmente cobra.

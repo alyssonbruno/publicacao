@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="560" viewBox="0 0 912 560" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="560" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Homônimos e parônimos: duas perguntas</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">A grafia é igual? A pronúncia é igual?</text>
+
+  <!-- Cabeçalhos das colunas -->
+  <g font-size="15" font-weight="700" fill="#52514e" text-anchor="middle">
+    <text x="357" y="102">Pronúncia igual</text>
+    <text x="722" y="102">Pronúncia diferente</text>
+  </g>
+
+  <!-- Cabeçalhos das linhas -->
+  <g font-size="15" font-weight="700" fill="#52514e" text-anchor="middle">
+    <text x="92" y="190">Grafia</text>
+    <text x="92" y="210">igual</text>
+    <text x="92" y="360">Grafia</text>
+    <text x="92" y="380">diferente</text>
+  </g>
+
+  <!-- Célula: grafia igual, pronúncia igual -->
+  <g transform="translate(180 116)">
+    <rect width="355" height="160" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#1c5cab">Homônimos perfeitos</text>
+    <text x="16" y="52" font-size="13" fill="#52514e">mesma grafia, mesma pronúncia</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="86"><tspan font-weight="700">cedo</tspan> <tspan font-size="13" fill="#52514e">(advérbio):</tspan> a sessão começou cedo</text>
+      <text x="16" y="112"><tspan font-weight="700">cedo</tspan> <tspan font-size="13" fill="#52514e">(verbo ceder):</tspan> cedo meu tempo</text>
+      <text x="16" y="138"><tspan font-weight="700">são</tspan> <tspan font-size="13" fill="#52514e">(verbo ser)</tspan> · <tspan font-weight="700">são</tspan> <tspan font-size="13" fill="#52514e">(sadio)</tspan></text>
+    </g>
+  </g>
+
+  <!-- Célula: grafia igual, pronúncia diferente -->
+  <g transform="translate(545 116)">
+    <rect width="355" height="160" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#1c5cab">Homônimos homógrafos</text>
+    <text x="16" y="52" font-size="13" fill="#52514e">mesma grafia, pronúncia diferente</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="86">o <tspan font-weight="700">apoio</tspan> <tspan font-size="13" fill="#52514e">(ô)</tspan> · eu <tspan font-weight="700">apoio</tspan> <tspan font-size="13" fill="#52514e">(ó)</tspan></text>
+      <text x="16" y="112">o <tspan font-weight="700">governo</tspan> <tspan font-size="13" fill="#52514e">(ê)</tspan> · eu <tspan font-weight="700">governo</tspan> <tspan font-size="13" fill="#52514e">(é)</tspan></text>
+      <text x="16" y="138">o <tspan font-weight="700">acordo</tspan> <tspan font-size="13" fill="#52514e">(ô)</tspan> · eu <tspan font-weight="700">acordo</tspan> <tspan font-size="13" fill="#52514e">(ó)</tspan></text>
+    </g>
+  </g>
+
+  <!-- Célula: grafia diferente, pronúncia igual -->
+  <g transform="translate(180 286)">
+    <rect width="355" height="160" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#1c5cab">Homônimos homófonos</text>
+    <text x="16" y="52" font-size="13" fill="#52514e">mesma pronúncia, grafia diferente</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="86"><tspan font-weight="700">sessão</tspan> <tspan font-size="13" fill="#52514e">(reunião)</tspan> · <tspan font-weight="700">seção</tspan> <tspan font-size="13" fill="#52514e">(setor)</tspan></text>
+      <text x="16" y="112"><tspan font-weight="700">cessão</tspan> <tspan font-size="13" fill="#52514e">(ato de ceder)</tspan></text>
+      <text x="16" y="138"><tspan font-weight="700">cassar</tspan> <tspan font-size="13" fill="#52514e">(anular)</tspan> · <tspan font-weight="700">caçar</tspan></text>
+    </g>
+  </g>
+
+  <!-- Célula: grafia diferente, pronúncia diferente (parecidas) -->
+  <g transform="translate(545 286)">
+    <rect width="355" height="160" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#b4501f">Parônimos</text>
+    <text x="16" y="52" font-size="13" fill="#52514e">grafia e pronúncia só parecidas</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="86"><tspan font-weight="700">mandado</tspan> · <tspan font-weight="700">mandato</tspan></text>
+      <text x="16" y="112"><tspan font-weight="700">ratificar</tspan> · <tspan font-weight="700">retificar</tspan></text>
+      <text x="16" y="138"><tspan font-weight="700">emenda</tspan> · <tspan font-weight="700">ementa</tspan></text>
+    </g>
+  </g>
+
+  <!-- Pé -->
+  <line x1="24" y1="470" x2="888" y2="470" stroke="#e1e0d9"/>
+  <text x="24" y="498" font-size="14" fill="#0b0b0b">Em todos os casos, os <tspan font-weight="700">sentidos são diferentes</tspan>.</text>
+  <text x="24" y="524" font-size="14" fill="#0b0b0b">Fora do quadro: uma sigla e a expressão por extenso (<tspan font-weight="700">PEC</tspan> e proposta de emenda à Constituição)</text>
+  <text x="24" y="544" font-size="14" fill="#0b0b0b">não são parônimos. A sigla abrevia a expressão; não são duas palavras parecidas.</text>
+</svg>

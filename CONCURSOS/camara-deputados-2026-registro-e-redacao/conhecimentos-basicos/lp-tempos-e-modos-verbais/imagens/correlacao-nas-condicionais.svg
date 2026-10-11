@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="478" viewBox="0 0 760 478" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <title>Pares de correlação verbal nas frases com “se”</title>
+  <rect width="760" height="478" fill="#ffffff"/>
+
+  <g font-size="12.5" font-weight="700" fill="#0b0b0b" text-anchor="middle">
+    <text x="190" y="26">Oração da condição (com “se”)</text>
+    <text x="581" y="26">Oração principal</text>
+  </g>
+  <line x1="12" y1="38" x2="748" y2="38" stroke="#0b0b0b" stroke-width="1.5"/>
+
+  <!-- 1: presente + presente -->
+  <g transform="translate(0 48)" text-anchor="middle">
+    <rect x="12" y="0" width="356" height="78" rx="8" fill="#dff3ea" stroke="#12805a" stroke-width="1.5"/>
+    <text x="190" y="22" font-size="12.5" font-weight="700" fill="#0b0b0b">Presente do indicativo</text>
+    <text x="190" y="46" font-size="15" fill="#0b0b0b">Se o quórum <tspan font-weight="700" fill="#0e6b4b">é</tspan> atingido,</text>
+    <text x="190" y="66" font-size="12" fill="#52514e">fato tido como certo</text>
+    <path d="M374 39 L398 39" stroke="#52514e" stroke-width="1.5"/><path d="M398 34 L408 39 L398 44 Z" fill="#52514e"/>
+    <rect x="414" y="0" width="334" height="78" rx="8" fill="#dff3ea" stroke="#12805a" stroke-width="1.5"/>
+    <text x="581" y="22" font-size="12.5" font-weight="700" fill="#0b0b0b">Presente do indicativo</text>
+    <text x="581" y="46" font-size="15" fill="#0b0b0b">a votação <tspan font-weight="700" fill="#0e6b4b">começa</tspan>.</text>
+  </g>
+
+  <!-- 2: futuro do subjuntivo + futuro do presente -->
+  <g transform="translate(0 136)" text-anchor="middle">
+    <rect x="12" y="0" width="356" height="78" rx="8" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+    <text x="190" y="22" font-size="12.5" font-weight="700" fill="#0b0b0b">Futuro do subjuntivo</text>
+    <text x="190" y="46" font-size="15" fill="#0b0b0b">Se o quórum <tspan font-weight="700" fill="#8a5a00">for</tspan> atingido,</text>
+    <text x="190" y="66" font-size="12" fill="#52514e">pode acontecer</text>
+    <path d="M374 39 L398 39" stroke="#52514e" stroke-width="1.5"/><path d="M398 34 L408 39 L398 44 Z" fill="#52514e"/>
+    <rect x="414" y="0" width="334" height="78" rx="8" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+    <text x="581" y="22" font-size="12.5" font-weight="700" fill="#0b0b0b">Futuro do presente (ou imperativo)</text>
+    <text x="581" y="46" font-size="15" fill="#0b0b0b">a votação <tspan font-weight="700" fill="#8a5a00">começará</tspan>.</text>
+  </g>
+
+  <!-- 3: imperfeito do subjuntivo + futuro do pretérito -->
+  <g transform="translate(0 224)" text-anchor="middle">
+    <rect x="12" y="0" width="356" height="78" rx="8" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+    <text x="190" y="22" font-size="12.5" font-weight="700" fill="#0b0b0b">Pretérito imperfeito do subjuntivo</text>
+    <text x="190" y="46" font-size="15" fill="#0b0b0b">Se o quórum <tspan font-weight="700" fill="#1c5cab">fosse</tspan> atingido,</text>
+    <text x="190" y="66" font-size="12" fill="#52514e">hipótese</text>
+    <path d="M374 39 L398 39" stroke="#52514e" stroke-width="1.5"/><path d="M398 34 L408 39 L398 44 Z" fill="#52514e"/>
+    <rect x="414" y="0" width="334" height="78" rx="8" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+    <text x="581" y="22" font-size="12.5" font-weight="700" fill="#0b0b0b">Futuro do pretérito</text>
+    <text x="581" y="46" font-size="15" fill="#0b0b0b">a votação <tspan font-weight="700" fill="#1c5cab">começaria</tspan>.</text>
+  </g>
+
+  <!-- 4: mais-que-perfeito do subjuntivo + futuro do pretérito composto -->
+  <g transform="translate(0 312)" text-anchor="middle">
+    <rect x="12" y="0" width="356" height="78" rx="8" fill="#ece9f8" stroke="#4a3aa7" stroke-width="1.5"/>
+    <text x="190" y="22" font-size="12.5" font-weight="700" fill="#0b0b0b">Mais-que-perfeito do subjuntivo</text>
+    <text x="190" y="46" font-size="15" fill="#0b0b0b">Se o quórum <tspan font-weight="700" fill="#4a3aa7">tivesse sido</tspan> atingido,</text>
+    <text x="190" y="66" font-size="12" fill="#52514e">hipótese sobre um passado que não aconteceu</text>
+    <path d="M374 39 L398 39" stroke="#52514e" stroke-width="1.5"/><path d="M398 34 L408 39 L398 44 Z" fill="#52514e"/>
+    <rect x="414" y="0" width="334" height="78" rx="8" fill="#ece9f8" stroke="#4a3aa7" stroke-width="1.5"/>
+    <text x="581" y="22" font-size="12.5" font-weight="700" fill="#0b0b0b">Futuro do pretérito composto</text>
+    <text x="581" y="46" font-size="15" fill="#0b0b0b">a votação <tspan font-weight="700" fill="#4a3aa7">teria começado</tspan>.</text>
+  </g>
+
+  <!-- Combinação errada -->
+  <g transform="translate(12 404)">
+    <rect width="736" height="62" rx="10" fill="#fbeaea" stroke="#b42727" stroke-width="1.5"/>
+    <text font-size="13.5" fill="#0b0b0b">
+      <tspan x="18" y="25"><tspan font-weight="700" fill="#8f1d1d">Errado:</tspan> Se o quórum <tspan font-weight="700" fill="#1c5cab">fosse</tspan> atingido, a votação <tspan font-weight="700" fill="#8a5a00">começará</tspan>.</tspan>
+      <tspan x="18" dy="22" fill="#52514e">Imperfeito do subjuntivo não combina com futuro do presente: mudou um verbo, mude o outro.</tspan>
+    </text>
+  </g>
+</svg>

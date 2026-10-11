@@ -1,0 +1,111 @@
+materiais:
+  - tipo: texto
+    titulo: Emprego de tempos e modos verbais
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: 30 Questões Cebraspe - Parte 9/10 - Língua Portuguesa - Tempos e Modos Verbais
+    url: https://www.youtube.com/watch?v=0g1huUT6nOI
+    autor: Yara Coeli
+    duracao_min: 39
+    descricao: >-
+      Duas questões do Cebraspe sobre verbos, comentadas. Na primeira (11:46 a 20:04),
+      identifica-se o tempo pelas desinências; na segunda (20:40 a 30:30), uma reescrita troca
+      "interveio" por "interviu", com a regra de que os derivados de ter, vir, ver, pôr e fazer se
+      conjugam como eles ("mantiver", "satisfizer", "compuser"). Assista só de 11:46 a 30:30. A
+      revisão do começo e a última questão dão como regra que o imperfeito "sempre" indica hábito,
+      que o mais-que-perfeito é "passado distante" e que o subjuntivo sempre vem com conjunção;
+      não é assim, e o texto da aula mostra por quê.
+  - tipo: video
+    titulo: Correlação de TEMPOS e MODOS verbais - APRENDA DE UMA VEZ!
+    url: https://www.youtube.com/watch?v=vJZI9v0ds-g
+    autor: Pablo Jamilk
+    duracao_min: 13
+    descricao: >-
+      Teoria de correlação verbal, organizada pelo tempo do verbo principal: presente (2:09),
+      pretérito (5:29) e futuro (10:34). Os pares que o Cebraspe mais cobra estão em 8:52 ("se
+      você estudasse, saberia"), 9:27 ("se tivesse feito, não teria ficado") e 11:44 ("quando eu
+      passar, avisarei"). Em 3:48, "tenha trazido" aparece como pretérito perfeito composto do
+      indicativo; é do subjuntivo. O vídeo não traz questões, e a partir de 12:17 é propaganda.
+  - tipo: video
+    titulo: TEMPOS e MODOS VERBAIS — alerta de tabelinha
+    url: https://www.youtube.com/watch?v=WK6WqY3iRU8
+    autor: Português com Letícia
+    duracao_min: 15
+    descricao: >-
+      Visão geral da conjugação, um tempo por vez, do indicativo, do subjuntivo e do imperativo
+      (os capítulos estão na descrição do vídeo). Serve para quem precisa rever a tabela antes de
+      estudar os valores dos tempos. Correlação e valores do futuro do pretérito (distância,
+      polidez) ficam com o texto da aula e com o vídeo de questões.
+  - tipo: video
+    titulo: "ISSO PODE CUSTAR A SUA VAGA NA FGV: INFINITIVO x SUBJUNTIVO"
+    url: https://www.youtube.com/watch?v=8-RBWGxe66s
+    autor: Professor Mazziotti
+    duracao_min: 6
+    descricao: >-
+      Vídeo curto sobre a diferença entre o infinitivo e o futuro do subjuntivo. É voltado à FGV,
+      mas o ponto é o mesmo que o Cebraspe cobra em reescrita. Se você já domina a figura do
+      futuro do subjuntivo no texto da aula, pode pular.
+  - tipo: podcast
+    titulo: "VERBOS | FUTURO DO PRESENTE e FUTURO DO PRETÉRITO – Entenda as DIFERENÇAS!"
+    url: https://podcasts.apple.com/br/podcast/verbos-futuro-do-presente-e-futuro-do-pret%C3%A9rito-entenda/id1534371896?i=1000683007361
+    autor: Português com Letícia
+    duracao_min: 11
+    descricao: >-
+      Áudio de videoaula, em linguagem simples, sobre os dois futuros do indicativo. Vai de 2:57 a
+      5:52 o futuro do presente (simples, "vou estudar" e "terei feito"), e de 5:52 a 9:06 o
+      futuro do pretérito: hipótese, futuro em relação ao passado e o "teria entrado" do
+      noticiário, para o que não está confirmado. Em 6:51, "estudaria mais desde que tivesse
+      tempo" é explicado como fato passado; é hipótese sobre agora ou o futuro (o passado seria
+      "teria estudado se tivesse tido tempo"). A polidez ("gostaria") fica com o texto da aula; a
+      partir de 9:21, é propaganda.
+  - tipo: podcast
+    titulo: "VERBOS | PRETÉRITO PERFEITO, IMPERFEITO e MAIS-QUE-PERFEITO – Entenda as DIFERENÇAS!"
+    url: https://podcasts.apple.com/br/podcast/verbos-pret%C3%A9rito-perfeito-imperfeito-e-mais-que-perfeito/id1534371896?i=1000680683787
+    autor: Português com Letícia
+    duracao_min: 13
+    descricao: >-
+      Áudio de videoaula sobre os três pretéritos do indicativo: perfeito × imperfeito com o mesmo
+      verbo ("viajei" × "viajava", de 3:19 a 6:28) e mais-que-perfeito como passado anterior a
+      outro passado, com a equivalência "viajara = tinha viajado = havia viajado" (6:28 a 10:42).
+      Fecha com a diferença de acento entre "viajara" e "viajará" (10:42). O episódio reduz o
+      perfeito a fato "pontual" e o imperfeito a fato repetido. O perfeito também pode durar
+      ("trabalhou ali vinte anos"), e o imperfeito também mostra o fato em curso ("lia o parecer
+      quando a sessão foi suspensa"). Pare em 11:53.
+  - tipo: link
+    titulo: Consecução dos tempos verbais
+    url: https://www.migalhas.com.br/coluna/gramatigalhas/12606/consecucao-dos-tempos-verbais
+    autor: José Maria da Costa (Gramatigalhas, Migalhas)
+    descricao: >-
+      Coluna de um autor formado em Letras e em Direito, com exemplos de linguagem jurídica: os
+      três pares das frases com "se" ("se é clara", "se for clara", "se fosse clara") e a
+      correlação "havia dois dias que". Os itens 2 a 13 são o que interessa para a prova; o fim
+      da coluna discute "quis é" × "quis foi", ponto que vai além desta aula.
+  - tipo: link
+    titulo: Caso seja... e deseja...?
+    url: https://www.migalhas.com.br/coluna/gramatigalhas/20499/caso-seja--e-deseja-
+    autor: José Maria da Costa (Gramatigalhas, Migalhas)
+    descricao: >-
+      Coluna curta que parte de uma frase real e mostra que a conjunção "caso" rege também o
+      segundo verbo coordenado: "caso você seja... e deseje", e não "e deseja". É exatamente o
+      formato da pegadinha de reescrita do Cebraspe.
+  - tipo: link
+    titulo: "Gotas da Língua Portuguesa nº 40 — O futuro do subjuntivo em português"
+    url: https://bd.tjmg.jus.br/bitstreams/f2db14ce-75c0-4ab4-b3ef-b7c288538fb3/download
+    autor: Tribunal de Justiça de Minas Gerais
+    descricao: >-
+      PDF de duas páginas, com dez frases para completar e as respostas no fim: bom para treinar
+      "vier", "mantiver", "propuser" e "houver". Forma o futuro do subjuntivo a partir de "nós"
+      (fizemos, fizer); o texto da aula parte de "eles" (fizeram, fizer). O resultado é o mesmo:
+      fique com um método só. Onde a gota diz que, "com os verbos irregulares, a coisa muda",
+      leia: com os de pretérito perfeito irregular. Ler e ouvir, por exemplo, são irregulares,
+      mas têm o futuro do subjuntivo igual ao infinitivo ("quando o relator ler").
+  - tipo: link
+    titulo: "Futuro do subjuntivo: como acertar sempre"
+    url: https://blogs.correiobraziliense.com.br/dad/futuro-do-subjuntivo-como-acertar-sempre/
+    autor: Dad Squarisi (Blog da Dad, Correio Braziliense)
+    descricao: >-
+      Leitura curta e leve sobre o mesmo método do texto da aula: pretérito perfeito com "eles",
+      menos o "-am" (puseram, puser; vieram, vier; viram, vir; retiveram, retiver).

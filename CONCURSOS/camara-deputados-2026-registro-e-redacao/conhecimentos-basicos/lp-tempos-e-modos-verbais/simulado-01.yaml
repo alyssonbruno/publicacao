@@ -1,0 +1,212 @@
+# Treino de emprego de tempos e modos verbais — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Emprego de tempos e modos verbais
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre dois textos próprios e fictícios (uma notícia sobre a reunião de uma comissão e o trecho de um ato normativo sobre a publicação e a revisão de discursos), no estilo de certo ou errado do Cebraspe: a forma verbal entre aspas, com remissão à linha, e uma afirmação por item sobre o valor do tempo, a troca de formas e a correlação verbal.'
+    - 'Referências de estilo, sem cópia de itens: caderno de Conhecimentos Básicos do CNJ 2024 (Cebraspe, 979_CNJ_CB4_01, itens 2 e 8, com o gabarito definitivo); caderno de Conhecimentos Gerais do TRF da 6ª Região, aplicado em 2025 (Cebraspe, 034_TRF6_CG1_01, item 14, com o gabarito definitivo); itens do Cespe reunidos nos slides “Operação 104 — Emprego dos tempos e modos verbais” (Direção Concursos).'
+    - 'Bases do gabarito: Lei Complementar nº 95/1998, art. 11; Gramatigalhas, Migalhas (consecução dos tempos verbais; “Caso seja... e deseja...?”; conjunções concessivas; “Vir”); Ciberdúvidas da Língua Portuguesa (“Caso”; “Caso, em caso de, no caso de”); Gotas da Língua Portuguesa nº 40, nº 66 e nº 152 (TJMG); Blog da Dad, Correio Braziliense (futuro do subjuntivo); InfoEscola (modo indicativo, com base em Cunha & Cintra e Cegalla); Estratégia Concursos (verbos). Consultados em 11/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão especial adiou pela terceira vez a
+      > 2. votação do parecer. Segundo assessores, o relator estaria disposto a
+      > 3. retirar do texto o artigo que provocara a obstrução. Até o ano passado,
+      > 4. a comissão votava os pareceres na mesma semana em que os recebia. A
+      > 5. proposta original, de 2019, também enfrentou atrasos: aprovada na
+      > 6. comissão, ficou parada por dois anos e só chegaria ao Plenário em 2021,
+      > 7. quando acabou rejeitada. Caso o acordo se confirme e os líderes retirem
+      > 8. os destaques, a votação ocorrerá na próxima terça-feira. Embora a
+      > 9. presidente da comissão já tenha incluído a matéria na pauta, a oposição
+      > 10. promete apresentar novos requerimentos de adiamento.
+
+      Com base no texto I e em seus aspectos linguísticos, julgue o item a seguir.
+
+      No trecho “Segundo assessores, o relator estaria disposto a retirar do texto o artigo” (linhas 2 e 3), o emprego do futuro do pretérito em “estaria” indica que o autor do texto não assume como certa a informação atribuída aos assessores.
+  - id: q02
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão especial adiou pela terceira vez a
+      > 2. votação do parecer. Segundo assessores, o relator estaria disposto a
+      > 3. retirar do texto o artigo que provocara a obstrução. Até o ano passado,
+      > 4. a comissão votava os pareceres na mesma semana em que os recebia. A
+      > 5. proposta original, de 2019, também enfrentou atrasos: aprovada na
+      > 6. comissão, ficou parada por dois anos e só chegaria ao Plenário em 2021,
+      > 7. quando acabou rejeitada. Caso o acordo se confirme e os líderes retirem
+      > 8. os destaques, a votação ocorrerá na próxima terça-feira. Embora a
+      > 9. presidente da comissão já tenha incluído a matéria na pauta, a oposição
+      > 10. promete apresentar novos requerimentos de adiamento.
+
+      Com base no texto I e em seus aspectos linguísticos, julgue o item a seguir.
+
+      A substituição da forma verbal “provocara” (linha 3) por havia provocado preservaria a correção gramatical e os sentidos do texto.
+  - id: q03
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão especial adiou pela terceira vez a
+      > 2. votação do parecer. Segundo assessores, o relator estaria disposto a
+      > 3. retirar do texto o artigo que provocara a obstrução. Até o ano passado,
+      > 4. a comissão votava os pareceres na mesma semana em que os recebia. A
+      > 5. proposta original, de 2019, também enfrentou atrasos: aprovada na
+      > 6. comissão, ficou parada por dois anos e só chegaria ao Plenário em 2021,
+      > 7. quando acabou rejeitada. Caso o acordo se confirme e os líderes retirem
+      > 8. os destaques, a votação ocorrerá na próxima terça-feira. Embora a
+      > 9. presidente da comissão já tenha incluído a matéria na pauta, a oposição
+      > 10. promete apresentar novos requerimentos de adiamento.
+
+      Com base no texto I e em seus aspectos linguísticos, julgue o item a seguir.
+
+      No trecho “a comissão votava os pareceres na mesma semana em que os recebia” (linha 4), o pretérito imperfeito em “votava” indica que a comissão pretendia votar os pareceres na semana em que os recebeu, mas não chegou a fazê-lo.
+  - id: q04
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão especial adiou pela terceira vez a
+      > 2. votação do parecer. Segundo assessores, o relator estaria disposto a
+      > 3. retirar do texto o artigo que provocara a obstrução. Até o ano passado,
+      > 4. a comissão votava os pareceres na mesma semana em que os recebia. A
+      > 5. proposta original, de 2019, também enfrentou atrasos: aprovada na
+      > 6. comissão, ficou parada por dois anos e só chegaria ao Plenário em 2021,
+      > 7. quando acabou rejeitada. Caso o acordo se confirme e os líderes retirem
+      > 8. os destaques, a votação ocorrerá na próxima terça-feira. Embora a
+      > 9. presidente da comissão já tenha incluído a matéria na pauta, a oposição
+      > 10. promete apresentar novos requerimentos de adiamento.
+
+      Com base no texto I e em seus aspectos linguísticos, julgue o item a seguir.
+
+      As formas verbais “estaria” (linha 2) e “chegaria” (linha 6), ambas no futuro do pretérito, indicam que o autor do texto não assume como certas as informações que apresenta.
+  - id: q05
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão especial adiou pela terceira vez a
+      > 2. votação do parecer. Segundo assessores, o relator estaria disposto a
+      > 3. retirar do texto o artigo que provocara a obstrução. Até o ano passado,
+      > 4. a comissão votava os pareceres na mesma semana em que os recebia. A
+      > 5. proposta original, de 2019, também enfrentou atrasos: aprovada na
+      > 6. comissão, ficou parada por dois anos e só chegaria ao Plenário em 2021,
+      > 7. quando acabou rejeitada. Caso o acordo se confirme e os líderes retirem
+      > 8. os destaques, a votação ocorrerá na próxima terça-feira. Embora a
+      > 9. presidente da comissão já tenha incluído a matéria na pauta, a oposição
+      > 10. promete apresentar novos requerimentos de adiamento.
+
+      Com base no texto I e em seus aspectos linguísticos, julgue o item a seguir.
+
+      No trecho “Caso o acordo se confirme e os líderes retirem os destaques” (linhas 7 e 8), a substituição de “retirem” por retiram preservaria a correção gramatical do texto.
+  - id: q06
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão especial adiou pela terceira vez a
+      > 2. votação do parecer. Segundo assessores, o relator estaria disposto a
+      > 3. retirar do texto o artigo que provocara a obstrução. Até o ano passado,
+      > 4. a comissão votava os pareceres na mesma semana em que os recebia. A
+      > 5. proposta original, de 2019, também enfrentou atrasos: aprovada na
+      > 6. comissão, ficou parada por dois anos e só chegaria ao Plenário em 2021,
+      > 7. quando acabou rejeitada. Caso o acordo se confirme e os líderes retirem
+      > 8. os destaques, a votação ocorrerá na próxima terça-feira. Embora a
+      > 9. presidente da comissão já tenha incluído a matéria na pauta, a oposição
+      > 10. promete apresentar novos requerimentos de adiamento.
+
+      Com base no texto I e em seus aspectos linguísticos, julgue o item a seguir.
+
+      No período “Embora a presidente da comissão já tenha incluído a matéria na pauta, a oposição promete apresentar novos requerimentos de adiamento” (linhas 8 a 10), a substituição de “Embora” por Conquanto preservaria a correção gramatical e os sentidos do texto.
+  - id: q07
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: trecho de um ato normativo fictício sobre a publicação e a revisão de discursos, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Art. 1º O órgão de registro publica, no prazo de cinco dias, a íntegra
+      > 2. dos pronunciamentos feitos nas sessões e nas reuniões.
+      > 3. Art. 2º O orador que desejar revisar o próprio discurso devolverá o
+      > 4. texto ao órgão de registro no prazo de duas horas.
+      > 5. § 1º Se o orador não devolver o texto no prazo, publicar-se-á a
+      > 6. versão não revista, com a indicação dessa circunstância.
+      > 7. § 2º Quando o revisor vir, no texto devolvido, alteração que mude o
+      > 8. sentido do pronunciamento, consultará o orador antes da publicação.
+
+      Com base no texto II e em seus aspectos linguísticos, julgue o item a seguir.
+
+      Sem prejuízo da correção gramatical e dos sentidos do texto, a forma verbal “publica” (linha 1) poderia ser substituída por publicará.
+  - id: q08
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: trecho de um ato normativo fictício sobre a publicação e a revisão de discursos, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Art. 1º O órgão de registro publica, no prazo de cinco dias, a íntegra
+      > 2. dos pronunciamentos feitos nas sessões e nas reuniões.
+      > 3. Art. 2º O orador que desejar revisar o próprio discurso devolverá o
+      > 4. texto ao órgão de registro no prazo de duas horas.
+      > 5. § 1º Se o orador não devolver o texto no prazo, publicar-se-á a
+      > 6. versão não revista, com a indicação dessa circunstância.
+      > 7. § 2º Quando o revisor vir, no texto devolvido, alteração que mude o
+      > 8. sentido do pronunciamento, consultará o orador antes da publicação.
+
+      Com base no texto II e em seus aspectos linguísticos, julgue o item a seguir.
+
+      A forma verbal “desejar” (linha 3) está flexionada no futuro do subjuntivo, embora tenha a mesma forma do infinitivo.
+  - id: q09
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: trecho de um ato normativo fictício sobre a publicação e a revisão de discursos, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Art. 1º O órgão de registro publica, no prazo de cinco dias, a íntegra
+      > 2. dos pronunciamentos feitos nas sessões e nas reuniões.
+      > 3. Art. 2º O orador que desejar revisar o próprio discurso devolverá o
+      > 4. texto ao órgão de registro no prazo de duas horas.
+      > 5. § 1º Se o orador não devolver o texto no prazo, publicar-se-á a
+      > 6. versão não revista, com a indicação dessa circunstância.
+      > 7. § 2º Quando o revisor vir, no texto devolvido, alteração que mude o
+      > 8. sentido do pronunciamento, consultará o orador antes da publicação.
+
+      Com base no texto II e em seus aspectos linguísticos, julgue o item a seguir.
+
+      No § 1º, a substituição de “devolver” (linha 5) por devolvesse preservaria a correção gramatical do texto.
+  - id: q10
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: trecho de um ato normativo fictício sobre a publicação e a revisão de discursos, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Art. 1º O órgão de registro publica, no prazo de cinco dias, a íntegra
+      > 2. dos pronunciamentos feitos nas sessões e nas reuniões.
+      > 3. Art. 2º O orador que desejar revisar o próprio discurso devolverá o
+      > 4. texto ao órgão de registro no prazo de duas horas.
+      > 5. § 1º Se o orador não devolver o texto no prazo, publicar-se-á a
+      > 6. versão não revista, com a indicação dessa circunstância.
+      > 7. § 2º Quando o revisor vir, no texto devolvido, alteração que mude o
+      > 8. sentido do pronunciamento, consultará o orador antes da publicação.
+
+      Com base no texto II e em seus aspectos linguísticos, julgue o item a seguir.
+
+      A forma verbal “vir” (linha 7) é flexão do verbo vir.

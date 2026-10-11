@@ -1,0 +1,343 @@
+# Treino de compreensão e interpretação de textos e de tipos e gêneros textuais — Câmara dos Deputados 2026, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Compreensão e interpretação de textos; tipos e gêneros textuais
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício do contexto legislativo (uma notícia sobre
+      uma audiência pública), com as linhas numeradas, no estilo de certo ou errado do Cebraspe:
+      uma afirmação por item, com remissão às linhas ou ao período e ao parágrafo, sobre o que o
+      texto diz, o que dele se infere, as vozes do texto e o tipo e o gênero textual.'
+    - 'Referências de estilo, sem cópia de itens: Câmara 2025, caderno de Conhecimentos Gerais dos
+      cargos de nível superior da Câmara dos Deputados (Cebraspe, Edital nº 1/2025, prova aplicada em
+      março de 2026), itens 1 a 26, com o gabarito definitivo; Câmara 2012, caderno de Conhecimentos
+      Específicos de Analista Legislativo, Taquígrafo Legislativo (CESPE/UnB), itens 71 a 100, com o
+      gabarito definitivo.'
+    - 'Bases do gabarito: Isabel Cristina Michelan de Azevedo, “Estratégias argumentativas em perspectiva
+      linguística e discursiva” (CESAD/UFS, 2021), quadro dos marcadores de pressuposição; Roberta
+      Maria Garcia Blasque e Esther Gomes de Oliveira, “As mensagens implícitas do texto e o
+      delineamento conceitual do contrassentido” (Signum, UEL, 2020), critérios de Ducrot para o
+      pressuposto; Rafaela Freitas, “Dicas de Interpretação textual – Português para iniciantes”
+      (Estratégia Concursos); Warley Souza, “Tipologia textual” e “Gêneros textuais” (Brasil Escola);
+      Quero Bolsa, “Tipologia textual”. Consultados em 11/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-compreensao-e-generos
+    enunciado: |-
+      Texto para o item: texto fictício, criado para este treino, em quatro parágrafos (linhas 1 a 5, 6 a 11, 12 a 19 e 20 e 21), com as linhas numeradas.
+
+      > **Audiência debate acessibilidade das transmissões do Plenário**
+      >
+      > 1. Uma comissão da Câmara debateu ontem, em audiência pública, a
+      > 2. acessibilidade das transmissões das sessões do Plenário. Desde
+      > 3. março, as sessões deliberativas passaram a contar com legenda gerada
+      > 4. em tempo real, e a janela com intérprete de Libras voltou a aparecer
+      > 5. na tela durante as votações.
+      > 6. Segundo a equipe técnica da Casa, a legenda reproduz corretamente
+      > 7. cerca de 94% das palavras nos discursos lidos e 81% nos debates mais
+      > 8. acalorados, em que vários oradores falam ao mesmo tempo. De março a
+      > 9. agosto, a audiência das transmissões das sessões deliberativas
+      > 10. cresceu 40% em relação ao mesmo período do ano anterior, e a maior
+      > 11. parte desse público assistiu pelo celular.
+      > 12. Para a deputada que propôs o debate, os números mostram que a
+      > 13. demanda existia e estava “represada”. Ela atribuiu o crescimento à
+      > 14. divulgação nas redes sociais e à oferta de legenda nas sessões
+      > 15. noturnas, quando a audiência costuma ser maior. Representantes de
+      > 16. associações de pessoas surdas reconheceram o avanço, mas lembraram
+      > 17. que parte da comunidade surda tem o português como segunda língua e
+      > 18. não acompanha bem a legenda. Na avaliação deles, só a Libras garante
+      > 19. a essas pessoas o acesso ao debate.
+      > 20. A equipe técnica informou que ainda não há intérpretes em número
+      > 21. suficiente para cobrir as reuniões das comissões.
+
+      Com base nas ideias e nos aspectos linguísticos do texto, julgue o item.
+
+      Depreende-se do emprego da locução “voltou a aparecer” (linha 4) que a janela com intérprete de Libras já havia sido exibida nas transmissões em algum momento anterior.
+  - id: q02
+    topico: conhecimentos-basicos/lp-compreensao-e-generos
+    enunciado: |-
+      Texto para o item: texto fictício, criado para este treino, em quatro parágrafos (linhas 1 a 5, 6 a 11, 12 a 19 e 20 e 21), com as linhas numeradas.
+
+      > **Audiência debate acessibilidade das transmissões do Plenário**
+      >
+      > 1. Uma comissão da Câmara debateu ontem, em audiência pública, a
+      > 2. acessibilidade das transmissões das sessões do Plenário. Desde
+      > 3. março, as sessões deliberativas passaram a contar com legenda gerada
+      > 4. em tempo real, e a janela com intérprete de Libras voltou a aparecer
+      > 5. na tela durante as votações.
+      > 6. Segundo a equipe técnica da Casa, a legenda reproduz corretamente
+      > 7. cerca de 94% das palavras nos discursos lidos e 81% nos debates mais
+      > 8. acalorados, em que vários oradores falam ao mesmo tempo. De março a
+      > 9. agosto, a audiência das transmissões das sessões deliberativas
+      > 10. cresceu 40% em relação ao mesmo período do ano anterior, e a maior
+      > 11. parte desse público assistiu pelo celular.
+      > 12. Para a deputada que propôs o debate, os números mostram que a
+      > 13. demanda existia e estava “represada”. Ela atribuiu o crescimento à
+      > 14. divulgação nas redes sociais e à oferta de legenda nas sessões
+      > 15. noturnas, quando a audiência costuma ser maior. Representantes de
+      > 16. associações de pessoas surdas reconheceram o avanço, mas lembraram
+      > 17. que parte da comunidade surda tem o português como segunda língua e
+      > 18. não acompanha bem a legenda. Na avaliação deles, só a Libras garante
+      > 19. a essas pessoas o acesso ao debate.
+      > 20. A equipe técnica informou que ainda não há intérpretes em número
+      > 21. suficiente para cobrir as reuniões das comissões.
+
+      Com base nas ideias e nos aspectos linguísticos do texto, julgue o item.
+
+      De acordo com o texto, a legenda gerada em tempo real reproduz corretamente mais de 90% das palavras pronunciadas nas sessões do Plenário.
+  - id: q03
+    topico: conhecimentos-basicos/lp-compreensao-e-generos
+    enunciado: |-
+      Texto para o item: texto fictício, criado para este treino, em quatro parágrafos (linhas 1 a 5, 6 a 11, 12 a 19 e 20 e 21), com as linhas numeradas.
+
+      > **Audiência debate acessibilidade das transmissões do Plenário**
+      >
+      > 1. Uma comissão da Câmara debateu ontem, em audiência pública, a
+      > 2. acessibilidade das transmissões das sessões do Plenário. Desde
+      > 3. março, as sessões deliberativas passaram a contar com legenda gerada
+      > 4. em tempo real, e a janela com intérprete de Libras voltou a aparecer
+      > 5. na tela durante as votações.
+      > 6. Segundo a equipe técnica da Casa, a legenda reproduz corretamente
+      > 7. cerca de 94% das palavras nos discursos lidos e 81% nos debates mais
+      > 8. acalorados, em que vários oradores falam ao mesmo tempo. De março a
+      > 9. agosto, a audiência das transmissões das sessões deliberativas
+      > 10. cresceu 40% em relação ao mesmo período do ano anterior, e a maior
+      > 11. parte desse público assistiu pelo celular.
+      > 12. Para a deputada que propôs o debate, os números mostram que a
+      > 13. demanda existia e estava “represada”. Ela atribuiu o crescimento à
+      > 14. divulgação nas redes sociais e à oferta de legenda nas sessões
+      > 15. noturnas, quando a audiência costuma ser maior. Representantes de
+      > 16. associações de pessoas surdas reconheceram o avanço, mas lembraram
+      > 17. que parte da comunidade surda tem o português como segunda língua e
+      > 18. não acompanha bem a legenda. Na avaliação deles, só a Libras garante
+      > 19. a essas pessoas o acesso ao debate.
+      > 20. A equipe técnica informou que ainda não há intérpretes em número
+      > 21. suficiente para cobrir as reuniões das comissões.
+
+      Com base nas ideias e nos aspectos linguísticos do texto, julgue o item.
+
+      Ao afirmar que a demanda estava “represada” (linha 13), a deputada que propôs o debate emprega o termo em sentido figurado, para indicar que a procura pelas transmissões já existia, mas estava contida, sem ser atendida.
+  - id: q04
+    topico: conhecimentos-basicos/lp-compreensao-e-generos
+    enunciado: |-
+      Texto para o item: texto fictício, criado para este treino, em quatro parágrafos (linhas 1 a 5, 6 a 11, 12 a 19 e 20 e 21), com as linhas numeradas.
+
+      > **Audiência debate acessibilidade das transmissões do Plenário**
+      >
+      > 1. Uma comissão da Câmara debateu ontem, em audiência pública, a
+      > 2. acessibilidade das transmissões das sessões do Plenário. Desde
+      > 3. março, as sessões deliberativas passaram a contar com legenda gerada
+      > 4. em tempo real, e a janela com intérprete de Libras voltou a aparecer
+      > 5. na tela durante as votações.
+      > 6. Segundo a equipe técnica da Casa, a legenda reproduz corretamente
+      > 7. cerca de 94% das palavras nos discursos lidos e 81% nos debates mais
+      > 8. acalorados, em que vários oradores falam ao mesmo tempo. De março a
+      > 9. agosto, a audiência das transmissões das sessões deliberativas
+      > 10. cresceu 40% em relação ao mesmo período do ano anterior, e a maior
+      > 11. parte desse público assistiu pelo celular.
+      > 12. Para a deputada que propôs o debate, os números mostram que a
+      > 13. demanda existia e estava “represada”. Ela atribuiu o crescimento à
+      > 14. divulgação nas redes sociais e à oferta de legenda nas sessões
+      > 15. noturnas, quando a audiência costuma ser maior. Representantes de
+      > 16. associações de pessoas surdas reconheceram o avanço, mas lembraram
+      > 17. que parte da comunidade surda tem o português como segunda língua e
+      > 18. não acompanha bem a legenda. Na avaliação deles, só a Libras garante
+      > 19. a essas pessoas o acesso ao debate.
+      > 20. A equipe técnica informou que ainda não há intérpretes em número
+      > 21. suficiente para cobrir as reuniões das comissões.
+
+      Com base nas ideias e nos aspectos linguísticos do texto, julgue o item.
+
+      Depreende-se do texto que, na avaliação da deputada que propôs o debate, o crescimento da audiência deveu-se mais à divulgação nas redes sociais do que à oferta de legenda nas sessões noturnas.
+  - id: q05
+    topico: conhecimentos-basicos/lp-compreensao-e-generos
+    enunciado: |-
+      Texto para o item: texto fictício, criado para este treino, em quatro parágrafos (linhas 1 a 5, 6 a 11, 12 a 19 e 20 e 21), com as linhas numeradas.
+
+      > **Audiência debate acessibilidade das transmissões do Plenário**
+      >
+      > 1. Uma comissão da Câmara debateu ontem, em audiência pública, a
+      > 2. acessibilidade das transmissões das sessões do Plenário. Desde
+      > 3. março, as sessões deliberativas passaram a contar com legenda gerada
+      > 4. em tempo real, e a janela com intérprete de Libras voltou a aparecer
+      > 5. na tela durante as votações.
+      > 6. Segundo a equipe técnica da Casa, a legenda reproduz corretamente
+      > 7. cerca de 94% das palavras nos discursos lidos e 81% nos debates mais
+      > 8. acalorados, em que vários oradores falam ao mesmo tempo. De março a
+      > 9. agosto, a audiência das transmissões das sessões deliberativas
+      > 10. cresceu 40% em relação ao mesmo período do ano anterior, e a maior
+      > 11. parte desse público assistiu pelo celular.
+      > 12. Para a deputada que propôs o debate, os números mostram que a
+      > 13. demanda existia e estava “represada”. Ela atribuiu o crescimento à
+      > 14. divulgação nas redes sociais e à oferta de legenda nas sessões
+      > 15. noturnas, quando a audiência costuma ser maior. Representantes de
+      > 16. associações de pessoas surdas reconheceram o avanço, mas lembraram
+      > 17. que parte da comunidade surda tem o português como segunda língua e
+      > 18. não acompanha bem a legenda. Na avaliação deles, só a Libras garante
+      > 19. a essas pessoas o acesso ao debate.
+      > 20. A equipe técnica informou que ainda não há intérpretes em número
+      > 21. suficiente para cobrir as reuniões das comissões.
+
+      Com base nas ideias e nos aspectos linguísticos do texto, julgue o item.
+
+      O autor do texto defende que, para a parcela da comunidade surda que tem o português como segunda língua, somente a Libras garante o acesso ao debate.
+  - id: q06
+    topico: conhecimentos-basicos/lp-compreensao-e-generos
+    enunciado: |-
+      Texto para o item: texto fictício, criado para este treino, em quatro parágrafos (linhas 1 a 5, 6 a 11, 12 a 19 e 20 e 21), com as linhas numeradas.
+
+      > **Audiência debate acessibilidade das transmissões do Plenário**
+      >
+      > 1. Uma comissão da Câmara debateu ontem, em audiência pública, a
+      > 2. acessibilidade das transmissões das sessões do Plenário. Desde
+      > 3. março, as sessões deliberativas passaram a contar com legenda gerada
+      > 4. em tempo real, e a janela com intérprete de Libras voltou a aparecer
+      > 5. na tela durante as votações.
+      > 6. Segundo a equipe técnica da Casa, a legenda reproduz corretamente
+      > 7. cerca de 94% das palavras nos discursos lidos e 81% nos debates mais
+      > 8. acalorados, em que vários oradores falam ao mesmo tempo. De março a
+      > 9. agosto, a audiência das transmissões das sessões deliberativas
+      > 10. cresceu 40% em relação ao mesmo período do ano anterior, e a maior
+      > 11. parte desse público assistiu pelo celular.
+      > 12. Para a deputada que propôs o debate, os números mostram que a
+      > 13. demanda existia e estava “represada”. Ela atribuiu o crescimento à
+      > 14. divulgação nas redes sociais e à oferta de legenda nas sessões
+      > 15. noturnas, quando a audiência costuma ser maior. Representantes de
+      > 16. associações de pessoas surdas reconheceram o avanço, mas lembraram
+      > 17. que parte da comunidade surda tem o português como segunda língua e
+      > 18. não acompanha bem a legenda. Na avaliação deles, só a Libras garante
+      > 19. a essas pessoas o acesso ao debate.
+      > 20. A equipe técnica informou que ainda não há intérpretes em número
+      > 21. suficiente para cobrir as reuniões das comissões.
+
+      Com base nas ideias e nos aspectos linguísticos do texto, julgue o item.
+
+      Infere-se do texto que nem todas as reuniões das comissões contam com intérprete de Libras.
+  - id: q07
+    topico: conhecimentos-basicos/lp-compreensao-e-generos
+    enunciado: |-
+      Texto para o item: texto fictício, criado para este treino, em quatro parágrafos (linhas 1 a 5, 6 a 11, 12 a 19 e 20 e 21), com as linhas numeradas.
+
+      > **Audiência debate acessibilidade das transmissões do Plenário**
+      >
+      > 1. Uma comissão da Câmara debateu ontem, em audiência pública, a
+      > 2. acessibilidade das transmissões das sessões do Plenário. Desde
+      > 3. março, as sessões deliberativas passaram a contar com legenda gerada
+      > 4. em tempo real, e a janela com intérprete de Libras voltou a aparecer
+      > 5. na tela durante as votações.
+      > 6. Segundo a equipe técnica da Casa, a legenda reproduz corretamente
+      > 7. cerca de 94% das palavras nos discursos lidos e 81% nos debates mais
+      > 8. acalorados, em que vários oradores falam ao mesmo tempo. De março a
+      > 9. agosto, a audiência das transmissões das sessões deliberativas
+      > 10. cresceu 40% em relação ao mesmo período do ano anterior, e a maior
+      > 11. parte desse público assistiu pelo celular.
+      > 12. Para a deputada que propôs o debate, os números mostram que a
+      > 13. demanda existia e estava “represada”. Ela atribuiu o crescimento à
+      > 14. divulgação nas redes sociais e à oferta de legenda nas sessões
+      > 15. noturnas, quando a audiência costuma ser maior. Representantes de
+      > 16. associações de pessoas surdas reconheceram o avanço, mas lembraram
+      > 17. que parte da comunidade surda tem o português como segunda língua e
+      > 18. não acompanha bem a legenda. Na avaliação deles, só a Libras garante
+      > 19. a essas pessoas o acesso ao debate.
+      > 20. A equipe técnica informou que ainda não há intérpretes em número
+      > 21. suficiente para cobrir as reuniões das comissões.
+
+      Com base nas ideias e nos aspectos linguísticos do texto, julgue o item.
+
+      No trecho que vai de “Segundo a equipe técnica” (linha 6) a “pelo celular” (linha 11), predomina a tipologia descritiva, já que os dados numéricos caracterizam a legenda e o público das transmissões.
+  - id: q08
+    topico: conhecimentos-basicos/lp-compreensao-e-generos
+    enunciado: |-
+      Texto para o item: texto fictício, criado para este treino, em quatro parágrafos (linhas 1 a 5, 6 a 11, 12 a 19 e 20 e 21), com as linhas numeradas.
+
+      > **Audiência debate acessibilidade das transmissões do Plenário**
+      >
+      > 1. Uma comissão da Câmara debateu ontem, em audiência pública, a
+      > 2. acessibilidade das transmissões das sessões do Plenário. Desde
+      > 3. março, as sessões deliberativas passaram a contar com legenda gerada
+      > 4. em tempo real, e a janela com intérprete de Libras voltou a aparecer
+      > 5. na tela durante as votações.
+      > 6. Segundo a equipe técnica da Casa, a legenda reproduz corretamente
+      > 7. cerca de 94% das palavras nos discursos lidos e 81% nos debates mais
+      > 8. acalorados, em que vários oradores falam ao mesmo tempo. De março a
+      > 9. agosto, a audiência das transmissões das sessões deliberativas
+      > 10. cresceu 40% em relação ao mesmo período do ano anterior, e a maior
+      > 11. parte desse público assistiu pelo celular.
+      > 12. Para a deputada que propôs o debate, os números mostram que a
+      > 13. demanda existia e estava “represada”. Ela atribuiu o crescimento à
+      > 14. divulgação nas redes sociais e à oferta de legenda nas sessões
+      > 15. noturnas, quando a audiência costuma ser maior. Representantes de
+      > 16. associações de pessoas surdas reconheceram o avanço, mas lembraram
+      > 17. que parte da comunidade surda tem o português como segunda língua e
+      > 18. não acompanha bem a legenda. Na avaliação deles, só a Libras garante
+      > 19. a essas pessoas o acesso ao debate.
+      > 20. A equipe técnica informou que ainda não há intérpretes em número
+      > 21. suficiente para cobrir as reuniões das comissões.
+
+      Com base nas ideias e nos aspectos linguísticos do texto, julgue o item.
+
+      O texto pertence ao gênero notícia: sua finalidade predominante é informar o leitor sobre um acontecimento, e não defender um ponto de vista, ainda que relate avaliações feitas por participantes da audiência.
+  - id: q09
+    topico: conhecimentos-basicos/lp-compreensao-e-generos
+    enunciado: |-
+      Texto para o item: texto fictício, criado para este treino, em quatro parágrafos (linhas 1 a 5, 6 a 11, 12 a 19 e 20 e 21), com as linhas numeradas.
+
+      > **Audiência debate acessibilidade das transmissões do Plenário**
+      >
+      > 1. Uma comissão da Câmara debateu ontem, em audiência pública, a
+      > 2. acessibilidade das transmissões das sessões do Plenário. Desde
+      > 3. março, as sessões deliberativas passaram a contar com legenda gerada
+      > 4. em tempo real, e a janela com intérprete de Libras voltou a aparecer
+      > 5. na tela durante as votações.
+      > 6. Segundo a equipe técnica da Casa, a legenda reproduz corretamente
+      > 7. cerca de 94% das palavras nos discursos lidos e 81% nos debates mais
+      > 8. acalorados, em que vários oradores falam ao mesmo tempo. De março a
+      > 9. agosto, a audiência das transmissões das sessões deliberativas
+      > 10. cresceu 40% em relação ao mesmo período do ano anterior, e a maior
+      > 11. parte desse público assistiu pelo celular.
+      > 12. Para a deputada que propôs o debate, os números mostram que a
+      > 13. demanda existia e estava “represada”. Ela atribuiu o crescimento à
+      > 14. divulgação nas redes sociais e à oferta de legenda nas sessões
+      > 15. noturnas, quando a audiência costuma ser maior. Representantes de
+      > 16. associações de pessoas surdas reconheceram o avanço, mas lembraram
+      > 17. que parte da comunidade surda tem o português como segunda língua e
+      > 18. não acompanha bem a legenda. Na avaliação deles, só a Libras garante
+      > 19. a essas pessoas o acesso ao debate.
+      > 20. A equipe técnica informou que ainda não há intérpretes em número
+      > 21. suficiente para cobrir as reuniões das comissões.
+
+      Com base nas ideias e nos aspectos linguísticos do texto, julgue o item.
+
+      No terceiro período do terceiro parágrafo, os representantes de associações de pessoas surdas admitem que houve avanço na acessibilidade das transmissões, mas apontam que a legenda não atende bem a uma parte da comunidade surda.
+  - id: q10
+    topico: conhecimentos-basicos/lp-compreensao-e-generos
+    enunciado: |-
+      Texto para o item: texto fictício, criado para este treino, em quatro parágrafos (linhas 1 a 5, 6 a 11, 12 a 19 e 20 e 21), com as linhas numeradas.
+
+      > **Audiência debate acessibilidade das transmissões do Plenário**
+      >
+      > 1. Uma comissão da Câmara debateu ontem, em audiência pública, a
+      > 2. acessibilidade das transmissões das sessões do Plenário. Desde
+      > 3. março, as sessões deliberativas passaram a contar com legenda gerada
+      > 4. em tempo real, e a janela com intérprete de Libras voltou a aparecer
+      > 5. na tela durante as votações.
+      > 6. Segundo a equipe técnica da Casa, a legenda reproduz corretamente
+      > 7. cerca de 94% das palavras nos discursos lidos e 81% nos debates mais
+      > 8. acalorados, em que vários oradores falam ao mesmo tempo. De março a
+      > 9. agosto, a audiência das transmissões das sessões deliberativas
+      > 10. cresceu 40% em relação ao mesmo período do ano anterior, e a maior
+      > 11. parte desse público assistiu pelo celular.
+      > 12. Para a deputada que propôs o debate, os números mostram que a
+      > 13. demanda existia e estava “represada”. Ela atribuiu o crescimento à
+      > 14. divulgação nas redes sociais e à oferta de legenda nas sessões
+      > 15. noturnas, quando a audiência costuma ser maior. Representantes de
+      > 16. associações de pessoas surdas reconheceram o avanço, mas lembraram
+      > 17. que parte da comunidade surda tem o português como segunda língua e
+      > 18. não acompanha bem a legenda. Na avaliação deles, só a Libras garante
+      > 19. a essas pessoas o acesso ao debate.
+      > 20. A equipe técnica informou que ainda não há intérpretes em número
+      > 21. suficiente para cobrir as reuniões das comissões.
+
+      Com base nas ideias e nos aspectos linguísticos do texto, julgue o item.
+
+      No segundo período do segundo parágrafo, o crescimento de 40% da audiência é atribuído ao fato de a maior parte do público assistir às transmissões pelo celular.
