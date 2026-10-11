@@ -1,0 +1,85 @@
+materiais:
+  - tipo: texto
+    titulo: Coesão, coerência e uso de conectores
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: link
+    titulo: "EaDicas de Português, Dica 17 — Uso de conjunções"
+    url: https://ead.stj.jus.br/pluginfile.php/105436/mod_resource/content/11/assets/files/2dica-17.pdf
+    autor: Wanderson de Melo Gonçalves (NEAD/STJ)
+    descricao: >-
+      PDF de uma página, de 2014. Sete conectores que a banca usa como pegadinha, cada um com o
+      valor, o equivalente e um exemplo: a despeito de, à medida que, conquanto, na medida em
+      que, por conseguinte, porquanto e posto que. Não traz "não obstante", "contudo", "uma vez
+      que" nem "visto que": esses estão no texto da aula.
+  - tipo: video
+    titulo: Coesão e coerência [Prof. Noslen]
+    url: https://www.youtube.com/watch?v=IIU6i3UXyi0
+    autor: Professor Noslen (canal no YouTube)
+    duracao_min: 6
+    descricao: >-
+      Vídeo de março de 2018. Pela descrição, é uma introdução: as diferenças e as relações
+      entre coesão e coerência na construção do texto. Curto, para começar. Não é voltado a
+      concursos nem, pela descrição, entra nos mecanismos de retomada ou nos conectores: para
+      isso, use o texto da aula.
+  - tipo: video
+    titulo: "COESÃO e COERÊNCIA | Qualidade ESSENCIAIS de um TEXTO COESO e COERENTE! || Português do Zero"
+    url: https://www.youtube.com/watch?v=cHcFDNkxpmQ
+    autor: Português com Letícia (canal no YouTube)
+    duracao_min: 20
+    descricao: >-
+      Aula de abril de 2021, para concursos. Capítulos, pela descrição: o que é coesão e
+      coerência (0:39), tipos de coesão (3:43), coesão referencial (4:39), sequencial (13:37),
+      recorrencial (15:05) e fatores de coerência (17:15). A parte de coesão sequencial dura
+      cerca de um minuto e meio e não deve cobrir os conectores por valor; "coesão recorrencial"
+      é um nome que as outras fontes da aula não usam.
+  - tipo: video
+    titulo: "Anáfora e Catáfora: Domine a Coesão Textual em concursos!"
+    url: https://www.youtube.com/watch?v=S-G4IvyLiJo
+    autor: Professora Adriana Figueiredo (canal no YouTube)
+    duracao_min: 17
+    descricao: >-
+      Aula de junho de 2023, sem capítulos. Pela descrição, ensina a identificar anáfora e
+      catáfora em questões de concurso e mostra como as bancas cobram. A descrição não diz de
+      que bancas são os exemplos: treine depois com os itens do tópico, no formato de certo ou
+      errado da Quadrix.
+  - tipo: video
+    titulo: É isso que cai sobre CONJUÇÕES para concurso...
+    url: https://www.youtube.com/watch?v=tKJkDQSMdh0
+    autor: Prof. Álvaro Ferreira (canal no YouTube)
+    duracao_min: 24
+    descricao: >-
+      Aula de outubro de 2023 (o título original traz "CONJUÇÕES"). Pela descrição, reúne as
+      regras mais cobradas sobre conjunções em concursos, com teoria e questões anteriores. A
+      descrição não diz se trata de "posto que", "conquanto", "porquanto" e da troca de
+      conectores: esses pontos estão no texto da aula.
+  - tipo: podcast
+    titulo: "COESÃO e COERÊNCIA | Qualidade ESSENCIAIS de um TEXTO COESO e COERENTE!"
+    url: https://podcasts.apple.com/br/podcast/coes%C3%A3o-e-coer%C3%AAncia-qualidade-essenciais-de-um-texto/id1534371896?i=1000527278342
+    autor: Português com Letícia (podcast)
+    duracao_min: 20
+    descricao: >-
+      Episódio de junho de 2021: versão em áudio da videoaula da mesma professora indicada
+      acima, com os mesmos blocos. Como foi gravada para vídeo, pode depender do que aparece na
+      tela, e o volume da fala é mais baixo que o habitual: use fone.
+  - tipo: podcast
+    titulo: "'Posto que' tem sempre valor de 'embora'?"
+    url: https://podcasts.apple.com/br/podcast/posto-que-tem-sempre-valor-de-embora/id1227867522?i=1000736496142
+    autor: Pasquale Cipro Neto - A Nossa Língua de Todo Dia (CBN)
+    duracao_min: 13
+    descricao: >-
+      Episódio de novembro de 2025. Pela descrição, um ouvinte pergunta se "posto que" está
+      correto num verso de Vinicius de Moraes, já que a locução tem sentido de "embora". A
+      descrição não diz a que conclusão o professor chega: para a prova, fique com o texto da
+      aula (na norma-padrão, "posto que" vale por "embora"). Volume baixo e anúncios no meio.
+  - tipo: podcast
+    titulo: "#108 Dicas sobre conectivos (Língua Portuguesa)"
+    url: https://podcasts.apple.com/br/podcast/108-dicas-sobre-conectivos-l%C3%ADngua-portuguesa/id1495888330?i=1000534143972
+    autor: Qconcursos - Concursos Públicos (QC Cast)
+    duracao_min: 10
+    descricao: >-
+      Episódio de setembro de 2021. Pela descrição, o professor Alexandre Soares dá dicas sobre
+      os valores semânticos dos conectivos. Curto e no tema; a descrição não diz quais conectores
+      são tratados.

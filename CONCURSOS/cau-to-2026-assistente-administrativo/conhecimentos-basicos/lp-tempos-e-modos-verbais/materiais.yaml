@@ -1,0 +1,80 @@
+materiais:
+  - tipo: texto
+    titulo: Emprego de tempos e modos verbais
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: link
+    titulo: "Gotas da Língua Portuguesa nº 40 — O futuro do subjuntivo em português"
+    url: https://bd.tjmg.jus.br/bitstreams/f2db14ce-75c0-4ab4-b3ef-b7c288538fb3/download
+    autor: Tribunal de Justiça de Minas Gerais
+    descricao: >-
+      PDF de duas páginas, com dez frases para completar e as respostas no fim: bom para treinar
+      "vir/vier", "mantiver" e "propuser". Forma o futuro do subjuntivo a partir de "nós"
+      (fizemos, fizer); o texto da aula parte de "eles" (fizeram, fizer). O resultado é o mesmo:
+      fique com um método só.
+  - tipo: link
+    titulo: "Futuro do subjuntivo: como acertar sempre"
+    url: https://blogs.correiobraziliense.com.br/dad/futuro-do-subjuntivo-como-acertar-sempre/
+    autor: Dad Squarisi (Blog da Dad, Correio Braziliense)
+    descricao: >-
+      Leitura curta e leve sobre o mesmo método do texto da aula: pretérito perfeito com "eles",
+      menos o "-am" (puseram, puser; vieram, vier; viram, vir).
+  - tipo: video
+    titulo: TEMPOS e MODOS VERBAIS — alerta de tabelinha
+    url: https://www.youtube.com/watch?v=WK6WqY3iRU8
+    autor: Português com Letícia
+    duracao_min: 15
+    descricao: >-
+      Visão geral. Pelos capítulos da descrição, passa pelos modos, pelos tempos do indicativo e
+      do subjuntivo e pelo imperativo. Indicado pela descrição do vídeo, sem conferência do
+      conteúdo. Os capítulos não citam tempos compostos, formas nominais nem correlação verbal:
+      para esses pontos, use o texto da aula.
+  - tipo: video
+    titulo: Correlação de TEMPOS e MODOS verbais - APRENDA DE UMA VEZ!
+    url: https://www.youtube.com/watch?v=vJZI9v0ds-g
+    autor: Pablo Jamilk
+    duracao_min: 13
+    descricao: >-
+      Só correlação verbal: segundo a descrição, mostra as combinações corretas e as que as
+      bancas exploram como erro. Indicado pela descrição do vídeo, sem conferência do conteúdo.
+      Os exemplos são de outras bancas (FGV, Cebraspe, FCC e Fundatec), em formato diferente do
+      certo ou errado: aproveite as combinações e treine com os itens desta aula.
+  - tipo: video
+    titulo: Formação do IMPERATIVO (Português do Zero)
+    url: https://www.youtube.com/watch?v=xwPJ42egbaQ
+    autor: Português com Letícia
+    duracao_min: 15
+    descricao: >-
+      Pela descrição, mostra de onde sai o imperativo (presente do indicativo e presente do
+      subjuntivo) e tem um capítulo sobre segunda ou terceira pessoa, que é a mistura de "tu" com
+      "você". Indicado pela descrição do vídeo, sem conferência do conteúdo. Veja se o tempo
+      permitir: a figura do texto da aula resume a formação.
+  - tipo: podcast
+    titulo: Qual modo verbal deve acompanhar a conjunção 'se'?
+    url: https://podcasts.apple.com/br/podcast/qual-modo-verbal-deve-acompanhar-a-conjun%C3%A7%C3%A3o-se/id1227867522?i=1000714854904
+    autor: Pasquale Cipro Neto (A Nossa Língua de Todo Dia, rádio CBN)
+    duracao_min: 12
+    descricao: >-
+      Pela descrição, responde à dúvida de um ouvinte sobre o modo do verbo depois de "se", com
+      trechos de canções. Indicado pela descrição do episódio, sem conferência do conteúdo. Não é
+      voltado a concursos, e parte do tempo é de música.
+  - tipo: podcast
+    titulo: Está correto dizer 'se você se vir'?
+    url: https://podcasts.apple.com/br/podcast/est%C3%A1-correto-dizer-se-voc%C3%AA-se-vir/id1227867522?i=1000731223060
+    autor: Pasquale Cipro Neto (A Nossa Língua de Todo Dia, rádio CBN)
+    duracao_min: 17
+    descricao: >-
+      Pelo título e pela descrição, trata do verbo "ver" em "se você se vir", o ponto "ver × vir"
+      desta aula, com trechos de canções. Indicado pela descrição do episódio, sem conferência
+      do conteúdo. Não é voltado a concursos.
+  - tipo: podcast
+    titulo: "VERBOS | PRETÉRITO PERFEITO, IMPERFEITO e MAIS-QUE-PERFEITO – Entenda as DIFERENÇAS!"
+    url: https://podcasts.apple.com/br/podcast/verbos-pret%C3%A9rito-perfeito-imperfeito-e-mais-que-perfeito/id1534371896?i=1000680683787
+    autor: Português com Letícia
+    duracao_min: 13
+    descricao: >-
+      Pelo título, a diferença entre os três pretéritos do indicativo. Indicado pelo título e
+      pela duração, sem conferência do conteúdo. O programa costuma ser o áudio de videoaulas: se
+      a explicação depender do que aparece na tela, fique com a linha do tempo do texto da aula.

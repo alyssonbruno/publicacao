@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="418" viewBox="0 0 720 418" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="418" fill="#ffffff"/>
+
+  <!-- Teste 1: o qual -->
+  <g transform="translate(12 12)">
+    <rect width="342" height="342" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <rect width="342" height="58" rx="10" fill="#e3edf9"/>
+    <text x="18" y="25" font-size="13" fill="#1c5cab">Teste 1</text>
+    <text x="18" y="46" font-size="16" font-weight="700" fill="#1c5cab">Troque o “que” por “o qual”</text>
+
+    <text x="18" y="84" font-size="13" fill="#52514e">Frase</text>
+    <text font-size="15" fill="#0b0b0b">
+      <tspan x="18" y="106">Os pedidos <tspan font-weight="700" fill="#1c5cab">que</tspan> chegaram ontem</tspan>
+      <tspan x="18" dy="20">foram analisados.</tspan>
+    </text>
+
+    <text x="18" y="158" font-size="13" fill="#52514e">Troca</text>
+    <text font-size="15" fill="#0b0b0b">
+      <tspan x="18" y="180">Os pedidos <tspan font-weight="700" fill="#1c5cab">os quais</tspan> chegaram</tspan>
+      <tspan x="18" dy="20">ontem foram analisados.</tspan>
+    </text>
+
+    <line x1="18" y1="220" x2="324" y2="220" stroke="#e1e0d9"/>
+    <text x="18" y="246" font-size="15" font-weight="700" fill="#0b0b0b">Deu certo: pronome relativo</text>
+    <text font-size="13" fill="#52514e">
+      <tspan x="18" y="270">Retoma um termo anterior (“pedidos”).</tspan>
+      <tspan x="18" dy="19">A oração é <tspan font-weight="700" fill="#0b0b0b">adjetiva</tspan>: caracteriza</tspan>
+      <tspan x="18" dy="19">esse termo, como faria um adjetivo.</tspan>
+    </text>
+  </g>
+
+  <!-- Teste 2: isso -->
+  <g transform="translate(366 12)">
+    <rect width="342" height="342" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <rect width="342" height="58" rx="10" fill="#fdf1d6"/>
+    <text x="18" y="25" font-size="13" fill="#8a5a00">Teste 2</text>
+    <text x="18" y="46" font-size="16" font-weight="700" fill="#8a5a00">Troque a oração inteira por “isso”</text>
+
+    <text x="18" y="84" font-size="13" fill="#52514e">Frase</text>
+    <text font-size="15" fill="#0b0b0b">
+      <tspan x="18" y="106">A secretaria informou <tspan font-weight="700" fill="#8a5a00">que</tspan> o prazo</tspan>
+      <tspan x="18" dy="20">terminou.</tspan>
+    </text>
+
+    <text x="18" y="158" font-size="13" fill="#52514e">Troca</text>
+    <text font-size="15" fill="#0b0b0b">
+      <tspan x="18" y="180">A secretaria informou <tspan font-weight="700" fill="#8a5a00">isso</tspan>.</tspan>
+    </text>
+
+    <line x1="18" y1="220" x2="324" y2="220" stroke="#e1e0d9"/>
+    <text x="18" y="246" font-size="15" font-weight="700" fill="#0b0b0b">Deu certo: conjunção integrante</text>
+    <text font-size="13" fill="#52514e">
+      <tspan x="18" y="270">Não retoma termo nenhum.</tspan>
+      <tspan x="18" dy="19">A oração é <tspan font-weight="700" fill="#0b0b0b">substantiva</tspan>: tem a função</tspan>
+      <tspan x="18" dy="19">do “isso” (aqui, objeto direto de “informou”).</tspan>
+    </text>
+  </g>
+
+  <!-- Pé -->
+  <g transform="translate(12 366)">
+    <rect width="696" height="40" rx="10" fill="#fbe3e3"/>
+    <text x="20" y="25" font-size="13.5" fill="#b42727"><tspan font-weight="700">Só um dos dois testes funciona em cada frase.</tspan> Faça os dois antes de marcar.</text>
+  </g>
+</svg>

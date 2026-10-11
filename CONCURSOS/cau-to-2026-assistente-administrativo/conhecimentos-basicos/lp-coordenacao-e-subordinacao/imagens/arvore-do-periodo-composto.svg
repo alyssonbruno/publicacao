@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="470" viewBox="0 0 720 470" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="470" fill="#ffffff"/>
+
+  <!-- Raiz -->
+  <rect x="210" y="14" width="300" height="52" rx="10" fill="#fcfcfb" stroke="#52514e" stroke-width="1.5"/>
+  <text x="360" y="37" font-size="17" font-weight="700" fill="#0b0b0b" text-anchor="middle">Período composto</text>
+  <text x="360" y="56" font-size="13" fill="#52514e" text-anchor="middle">duas ou mais orações (conte os verbos)</text>
+
+  <!-- Ligações da raiz -->
+  <g stroke="#a3a29b" stroke-width="1.5" fill="none">
+    <path d="M360 66 V84 H170 V100"/>
+    <path d="M360 84 H550 V100"/>
+  </g>
+
+  <!-- Coordenação -->
+  <rect x="12" y="100" width="316" height="84" rx="10" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+  <text x="170" y="127" font-size="18" font-weight="700" fill="#1c5cab" text-anchor="middle">Coordenação</text>
+  <text font-size="13" fill="#0b0b0b" text-anchor="middle">
+    <tspan x="170" y="149">orações independentes:</tspan>
+    <tspan x="170" dy="18">nenhuma é termo da outra</tspan>
+  </text>
+
+  <!-- Subordinação -->
+  <rect x="392" y="100" width="316" height="84" rx="10" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+  <text x="550" y="127" font-size="18" font-weight="700" fill="#8a5a00" text-anchor="middle">Subordinação</text>
+  <text font-size="13" fill="#0b0b0b" text-anchor="middle">
+    <tspan x="550" y="149">a oração subordinada funciona</tspan>
+    <tspan x="550" dy="18">como um termo da oração principal</tspan>
+  </text>
+
+  <!-- Ligações do segundo nível -->
+  <g stroke="#a3a29b" stroke-width="1.5" fill="none">
+    <path d="M170 184 V204"/>
+    <path d="M550 184 V204"/>
+  </g>
+
+  <!-- Filhas da coordenação -->
+  <g transform="translate(12 204)">
+    <rect width="316" height="64" rx="8" fill="#fcfcfb" stroke="#256abf"/>
+    <text x="16" y="27" font-size="15" font-weight="700" fill="#1c5cab">Assindética</text>
+    <text x="16" y="48" font-size="13" fill="#52514e">sem conjunção: só vírgula ou ponto e vírgula</text>
+  </g>
+  <g transform="translate(12 278)">
+    <rect width="316" height="126" rx="8" fill="#fcfcfb" stroke="#256abf"/>
+    <text x="16" y="27" font-size="15" font-weight="700" fill="#1c5cab">Sindética</text>
+    <text x="16" y="48" font-size="13" fill="#52514e">com conjunção; são cinco:</text>
+    <text font-size="13" fill="#0b0b0b">
+      <tspan x="16" y="70">aditiva (e) · adversativa (mas)</tspan>
+      <tspan x="16" dy="19">alternativa (ou) · conclusiva (portanto)</tspan>
+      <tspan x="16" dy="19">explicativa (pois)</tspan>
+    </text>
+  </g>
+
+  <!-- Filhas da subordinação -->
+  <g transform="translate(392 204)">
+    <rect width="316" height="60" rx="8" fill="#fcfcfb" stroke="#c98500"/>
+    <text x="16" y="25" font-size="15" font-weight="700" fill="#8a5a00">Substantiva</text>
+    <text x="16" y="46" font-size="13" fill="#0b0b0b">vale por “isso”: sujeito, objeto, complemento…</text>
+  </g>
+  <g transform="translate(392 274)">
+    <rect width="316" height="60" rx="8" fill="#fcfcfb" stroke="#c98500"/>
+    <text x="16" y="25" font-size="15" font-weight="700" fill="#8a5a00">Adjetiva</text>
+    <text x="16" y="46" font-size="13" fill="#0b0b0b">vale por um adjetivo: adjunto adnominal</text>
+  </g>
+  <g transform="translate(392 344)">
+    <rect width="316" height="60" rx="8" fill="#fcfcfb" stroke="#c98500"/>
+    <text x="16" y="25" font-size="15" font-weight="700" fill="#8a5a00">Adverbial</text>
+    <text x="16" y="46" font-size="13" fill="#0b0b0b">indica circunstância: adjunto adverbial</text>
+  </g>
+
+  <!-- Pé -->
+  <g transform="translate(12 416)">
+    <rect width="696" height="42" rx="10" fill="#ece9f8"/>
+    <text x="20" y="26" font-size="13.5" fill="#4a3aa7"><tspan font-weight="700">Um período pode ter as duas relações:</tspan> é o período misto.</text>
+  </g>
+</svg>

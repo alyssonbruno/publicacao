@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="508" viewBox="0 0 720 508" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="508" fill="#ffffff"/>
+
+  <text x="12" y="28" font-size="15" font-weight="700" fill="#0b0b0b">Termo com preposição ligado a um nome: a que palavra ele se liga?</text>
+
+  <!-- Legenda -->
+  <g font-size="13" fill="#52514e">
+    <rect x="12" y="42" width="24" height="18" rx="4" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+    <text x="44" y="56">complemento nominal</text>
+    <rect x="200" y="42" width="24" height="18" rx="4" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+    <text x="232" y="56">adjunto adnominal</text>
+  </g>
+
+  <!-- Passo 1 -->
+  <g transform="translate(12 74)">
+    <rect width="696" height="88" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="20" y="38" font-size="24" font-weight="700" fill="#a3a29b">1</text>
+    <text x="52" y="32" font-size="15" font-weight="700" fill="#0b0b0b">Adjetivo ou advérbio</text>
+    <text font-size="13" fill="#52514e">
+      <tspan x="52" y="54">contrário <tspan font-weight="700" fill="#0b0b0b">à proposta</tspan></tspan>
+      <tspan x="52" dy="19">favoravelmente <tspan font-weight="700" fill="#0b0b0b">ao pedido</tspan></tspan>
+    </text>
+    <rect x="452" y="24" width="224" height="40" rx="8" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+    <text x="564" y="49" font-size="14.5" font-weight="700" fill="#1c5cab" text-anchor="middle">Complemento nominal</text>
+  </g>
+
+  <!-- Passo 2 -->
+  <g transform="translate(12 170)">
+    <rect width="696" height="88" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="20" y="38" font-size="24" font-weight="700" fill="#a3a29b">2</text>
+    <text x="52" y="32" font-size="15" font-weight="700" fill="#0b0b0b">Substantivo concreto (pessoa, lugar, objeto)</text>
+    <text font-size="13" fill="#52514e">
+      <tspan x="52" y="54">a porta <tspan font-weight="700" fill="#0b0b0b">da sala</tspan></tspan>
+      <tspan x="52" dy="19">o carro <tspan font-weight="700" fill="#0b0b0b">do fiscal</tspan></tspan>
+    </text>
+    <rect x="452" y="24" width="224" height="40" rx="8" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+    <text x="564" y="49" font-size="14.5" font-weight="700" fill="#8a5a00" text-anchor="middle">Adjunto adnominal</text>
+  </g>
+
+  <!-- Passo 3 -->
+  <g transform="translate(12 266)">
+    <rect width="696" height="178" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="20" y="38" font-size="24" font-weight="700" fill="#a3a29b">3</text>
+    <text x="52" y="32" font-size="15" font-weight="700" fill="#0b0b0b">Substantivo abstrato de ação ou de sentimento</text>
+    <text x="52" y="54" font-size="13" fill="#52514e">Transforme o substantivo em verbo e veja o papel do termo.</text>
+
+    <line x1="52" y1="68" x2="676" y2="68" stroke="#e1e0d9"/>
+    <text font-size="13" fill="#52514e">
+      <tspan x="52" y="92">O termo <tspan font-weight="700" fill="#0b0b0b">recebe</tspan> a ação (é o alvo)</tspan>
+      <tspan x="52" dy="19">a leitura <tspan font-weight="700" fill="#0b0b0b">da ata</tspan> → alguém lê a ata</tspan>
+    </text>
+    <rect x="452" y="76" width="224" height="40" rx="8" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+    <text x="564" y="101" font-size="14.5" font-weight="700" fill="#1c5cab" text-anchor="middle">Complemento nominal</text>
+
+    <line x1="52" y1="124" x2="676" y2="124" stroke="#e1e0d9"/>
+    <text font-size="13" fill="#52514e">
+      <tspan x="52" y="148">O termo <tspan font-weight="700" fill="#0b0b0b">pratica</tspan> a ação (ou é o dono)</tspan>
+      <tspan x="52" dy="19">a leitura <tspan font-weight="700" fill="#0b0b0b">do secretário</tspan> → o secretário lê</tspan>
+    </text>
+    <rect x="452" y="130" width="224" height="40" rx="8" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+    <text x="564" y="155" font-size="14.5" font-weight="700" fill="#8a5a00" text-anchor="middle">Adjunto adnominal</text>
+  </g>
+
+  <!-- Pé -->
+  <g transform="translate(12 456)">
+    <rect width="696" height="40" rx="10" fill="#fbe3e3"/>
+    <text x="20" y="25" font-size="13.5" fill="#b42727"><tspan font-weight="700">Nem todo termo com “de” é complemento nominal:</tspan> siga os três passos, nessa ordem.</text>
+  </g>
+</svg>
