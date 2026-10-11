@@ -1,12 +1,12 @@
 # Leitura: compreensão literal, coesão, coerência e relações coesivas
 
-![Um homem de uns sessenta anos, de óculos, liga com fios coloridos vários cartões em branco presos num grande quadro de cortiça; alguns fios voltam a cartões que ficaram para trás](imagens/abertura.webp)
+![Uma mulher de uns cinquenta anos, de óculos, tece num tear de madeira um tecido em faixas azuis, verdes e laranja; a mesma faixa de cor volta de tempos em tempos, e os fios da trama vão e voltam entre os fios esticados do tear](imagens/abertura.webp)
 
 O edital pede, no item 3 de Linguística, a leitura em quatro frentes: compreensão literal, coesão e coerência (3.1); ideia principal e detalhes de apoio (3.2); relações de comparação, de causa e efeito e de contraste (3.3); e as relações coesivas de referência, substituição, elipse e repetição (3.4).
 
 Esse trecho repete, palavra por palavra, o programa do Analista Legislativo da Câmara, atribuição Taquígrafo Legislativo, no concurso de 2012, também do Cebraspe (então Cespe/UnB). A prova daquele ano mostra o que esperar: itens longos, com remissão à linha, que juntam a **identificação de um mecanismo** a uma **justificativa**. Às vezes o mecanismo está certo e a justificativa, errada.
 
-Esta aula traz a teoria e o modo de aplicá-la ao texto. O uso prático de pronomes e conectores fica na aula de coesão textual da P1; inferência e leitura crítica, na de compreensão interpretativa e crítica; sinônimos e hiperônimos, na de relações de sentido.
+Esta aula traz a teoria e o modo de aplicá-la ao texto. O uso prático de pronomes e conectores fica na aula de Coesão textual, de Português (P1); inferência e leitura crítica, na de Compreensão interpretativa e crítica; sinônimos e hiperônimos, na de Formação de palavras e relações de sentido.
 
 ## Compreensão literal: o que o texto diz
 
@@ -63,7 +63,7 @@ Coesão é a ligação que se vê na superfície do texto: um elemento só se in
 
 O item 3.4 lista referência, substituição, elipse e repetição. As três primeiras são categorias de Halliday e Hasan; a **repetição** faz parte da coesão lexical. A conjunção, que liga orações, períodos e parágrafos, foi dividida pelos dois autores em quatro tipos: aditiva, adversativa, causal e temporal. A lista de conectores fica com a aula de coesão textual.
 
-![Quadro em duas colunas. À esquerda, as cinco categorias de coesão de Halliday e Hasan (1976), cada uma com um exemplo; as quatro com a etiqueta "item 3.4" são as citadas no edital. Referência: "A deputada pediu a palavra. Ela falou cinco minutos", em que "Ela" retoma "A deputada" e o leitor busca o referente. Substituição: "O relator votou contra, e o líder fez o mesmo", em que "fez o mesmo" ocupa o lugar de "votou contra". Elipse: "O relator votou pela aprovação; o revisor, pela rejeição", em que falta "votou" depois de "o revisor", uma substituição por zero. Coesão lexical, com a etiqueta "item 3.4: repetição": "O projeto chegou à CCJ. O projeto tem 12 artigos"; a reiteração usa a mesma palavra, um sinônimo ou um hiperônimo, e a colocação usa palavras do mesmo campo, como sessão, pauta e quórum. Conjunção: "Faltou quórum; por isso, a sessão caiu", em que "por isso" marca a relação de causa e efeito. À direita, os dois grupos de Koch (1989), pela função. Coesão referencial, em que um elemento do texto faz remissão a outro: recebe setas da referência, da substituição, da elipse e da coesão lexical, na reiteração que retoma um referente, como em "um projeto… o projeto". Coesão sequencial, que estabelece relações de sentido à medida que o texto progride: recebe a seta da conjunção (conexão por conectores) e uma seta tracejada da coesão lexical, para a recorrência, como em "falou, falou, falou". Nota no pé: a repetição que só dá ênfase ou ritmo é, para Koch, recorrência, da coesão sequencial; Fávero faz três grupos, referencial, recorrencial (onde fica essa repetição) e sequencial.](imagens/categorias-de-coesao.svg "Halliday e Hasan (1976), à esquerda, e Koch (1989), à direita")
+![Quadro em duas colunas. À esquerda, as cinco categorias de coesão de Halliday e Hasan (1976), cada uma com um exemplo; as quatro com a etiqueta "item 3.4" são as citadas no edital. Referência: "A deputada pediu a palavra. Ela falou cinco minutos", em que "Ela" retoma "A deputada" e o leitor busca o referente. Substituição: "O relator votou contra, e o líder fez o mesmo", em que "fez o mesmo" ocupa o lugar de "votou contra". Elipse: "O relator votou pela aprovação; o revisor, pela rejeição", em que falta "votou" depois de "o revisor", uma substituição por zero. Coesão lexical, com a etiqueta "item 3.4: repetição": "O projeto chegou à CCJ. O projeto tem 12 artigos"; a reiteração usa a mesma palavra, um sinônimo, um hiperônimo ou um nome genérico, e a colocação usa palavras do mesmo campo, como sessão, pauta e quórum. Conjunção: "Faltou quórum; por isso, a sessão caiu", em que "por isso" marca a relação de causa e efeito. À direita, os dois grupos de Koch (1989), pela função. Coesão referencial, em que um elemento do texto faz remissão a outro: recebe setas da referência, da substituição, da elipse e da coesão lexical, na reiteração que retoma um referente, como em "um projeto… o projeto". Coesão sequencial, que estabelece relações de sentido à medida que o texto progride: recebe a seta da conjunção (conexão por conectores) e uma seta tracejada da coesão lexical, para a recorrência, como em "falou, falou, falou". Nota no pé: a repetição que só dá ênfase ou ritmo é, para Koch, recorrência, da coesão sequencial; Fávero faz três grupos, referencial, recorrencial (onde fica essa repetição) e sequencial.](imagens/categorias-de-coesao.svg "Halliday e Hasan (1976), à esquerda, e Koch (1989), à direita")
 
 ## Referência
 
@@ -76,26 +76,41 @@ Halliday e Hasan distinguem três tipos:
 - **comparativa**, com palavras que remetem por semelhança ou diferença: ***Outro** deputado fez **a mesma** pergunta.* "Outro" só se entende diante de um deputado já citado; "a mesma", diante de uma pergunta anterior.
 
 > [!CAUTION]
-> A referência comparativa é a menos lembrada. *Outro*, *o mesmo*, *semelhante*, *diferente*, *tal*, *mais* e *menos* também são coesivos: dependem de um termo anterior para fazer sentido.
+> A referência comparativa é a menos lembrada. *Outro*, *o mesmo* (junto de um nome), *semelhante*, *diferente*, *tal*, *mais* e *menos* também são coesivos: dependem de um termo anterior para fazer sentido.
 
 ## Substituição
 
-Na substituição, uma forma-"coringa" ocupa o lugar de uma palavra, de um grupo de palavras ou de uma oração inteira. Halliday e Hasan a separam da referência por um critério fino: a referência é uma relação de **sentido**, em que o leitor busca o referente; a substituição é uma relação de **forma**, em que a palavra-coringa ocupa o lugar de uma expressão, que se "lê de novo" naquele ponto. Por isso, na substituição, o ser designado pode ser outro.
+Na substituição, uma forma substituta, uma espécie de "coringa", ocupa o lugar de uma expressão já dita. Halliday e Hasan a separam da referência por um critério fino: a referência é uma relação de **sentido**, em que o leitor busca o referente; a substituição é uma relação de **forma**, em que o coringa ocupa o lugar de uma expressão, que se "lê de novo" naquele ponto. Por isso, o que se retoma é a expressão, e o que ela designa pode ser outro.
 
-- *O deputado votou contra a urgência, e o líder **fez o mesmo**.* ("fez o mesmo" vale por "votou contra a urgência")
-- *O gravador da comissão quebrou; a secretaria vai comprar **um** novo.* ("um" substitui "gravador", mas o novo é outro aparelho)
-- *— A sessão será retomada amanhã? — Acho que **sim**.* ("sim" vale pela oração inteira)
+Em sentido estrito, há substituição só quando há forma substituta explícita. Em português, isso acontece em dois casos:
 
-O Manual de Redação da Presidência da República (3ª ed., item 3.4) usa "substituição" em sentido mais largo: inclui a troca de um nome por outro que designa o mesmo ser (*o Presidente* → *o Chefe do Poder Executivo federal*; *o memorando* → *o documento*), que, em Halliday e Hasan, é coesão lexical. E traz o caso típico da substituição verbal: *os prefeitos **fizeram o mesmo***.
+- **verbal**: o verbo *fazer*, com *o mesmo*, *-lo* ou *isso*, ocupa o lugar de toda a expressão verbal. *O deputado votou contra a urgência, e o líder **fez o mesmo**.* ("fez o mesmo" vale por "votou contra a urgência"; o voto do líder é outro voto, e o que se repete é a ação) / *A comissão deveria ouvir o ministro antes da votação, mas não **o fez**.* ("o fez" vale por "ouviu o ministro antes da votação")
+- **oracional**: *sim* e *não*, depois de verbos como *achar*, *esperar* e *crer*, valem por uma oração inteira. *— A sessão será retomada amanhã? — Acho que **sim**.* / *— Haverá nova obstrução? — Espero que **não**.*
+
+O inglês tem ainda a substituição nominal, com *one* (*a new one*). O português não tem essa forma: onde o inglês põe *one*, fica um vazio, como mostra Luiz Carlos Gonçalves em sua dissertação sobre o modelo de Halliday e Hasan (UFMG, 2000). O caso, em português, é de **elipse nominal** (ver a parte "Elipse").
+
+O Manual de Redação da Presidência da República (3ª ed., item 3.4) usa "substituição" em sentido mais largo: inclui a troca de um nome por outro que designa o mesmo ser (*o Presidente* → *o Chefe do Poder Executivo federal*; *o memorando* → *o documento*). Em Halliday e Hasan, sinônimo, hiperônimo, nome genérico e repetição do nome são **reiteração**, da coesão lexical (ver "Repetição e coesão lexical"). A aula de Coesão textual, de Português, adota o sentido largo, o do Manual: lá, sinônimos e hiperônimos aparecem como substituição. O Manual também traz o caso típico da substituição verbal: *os prefeitos **fizeram o mesmo***.
 
 > [!NOTE]
 > Os rótulos mudam de autor para autor. Leitura nossa: quando o item cita um autor ("segundo Halliday e Hasan", "na classificação de Koch"), julgue pelo rótulo daquele autor; quando não cita, o que conta é acertar **o que** a forma retoma.
 
+## "O mesmo": referência ou substituição?
+
+*O mesmo* aparece dos dois lados da fronteira.
+
+- **Junto de um nome** (*a mesma proposta*, *o mesmo erro*), é **referência comparativa**. O nome está ali, e *mesma* só diz que a proposta é idêntica a uma já citada: o leitor compara, não relê nenhum trecho.
+- **Com o verbo *fazer*** (*fez o mesmo*), é **substituição**. A expressão ocupa o lugar de um trecho verbal já dito, que se pode escrever de volta.
+
+O teste é tentar pôr no lugar o trecho retomado. Em *o líder fez o mesmo*, a troca funciona: *o líder votou contra a urgência*. Em *Outro deputado fez a mesma pergunta*, não há trecho para pôr no lugar de *a mesma*: o nome *pergunta* fica, e *mesma* só o compara com a pergunta anterior.
+
+> [!WARNING]
+> O item pode trocar os rótulos: chamar de substituição *a mesma proposta* ou de referência comparativa *fez o mesmo*. Veja primeiro se há um nome logo depois de *mesmo*.
+
 ## Elipse
 
-A elipse é a **substituição por zero**: o termo é omitido, e o leitor o recupera do contexto. Pode faltar um nome, um verbo ou uma oração; o caso mais frequente é o do sujeito:
+A elipse é a **substituição por zero**: o termo é omitido, e o leitor o recupera do contexto. Pode faltar um nome, um verbo ou uma oração; em português, é muito comum a omissão do sujeito:
 
-- **nominal**: *A comissão analisou três emendas e aprovou **duas** Ø.* (emendas)
+- **nominal**: *A comissão analisou três emendas e aprovou **duas** Ø.* (emendas) / *O gravador da comissão quebrou; a secretaria vai comprar **um** Ø novo.* (gravador; o novo é outro aparelho: a elipse retoma o nome, não o objeto)
 - **verbal**: *O relator votou pela aprovação; o revisor Ø, pela rejeição.* (votou) A vírgula marca o lugar do verbo omitido, como no exemplo do Manual: *O decreto regulamenta os casos gerais; a portaria, os particulares.*
 - **oracional**: *— Quem pediu a verificação de votação? — O líder do governo Ø.* (pediu a verificação de votação)
 - **do sujeito**: *A deputada subiu à tribuna e Ø leu o voto em separado.*
@@ -112,7 +127,9 @@ A coesão lexical tem dois mecanismos:
 - **reiteração**: a mesma palavra, um sinônimo, um hiperônimo ou um nome genérico (*o projeto… o projeto*; *o projeto… a proposição*; *o projeto… a matéria*);
 - **colocação**: palavras do mesmo campo, que costumam aparecer juntas (*sessão*, *quórum*, *pauta*, *plenário*).
 
-A "repetição" do edital é a reiteração da mesma palavra. Repetir não é defeito em si. No texto técnico, evita ambiguidade: num parecer, "o substitutivo" se repete para não ser confundido com "o projeto". No discurso, dá ênfase: *Votamos pela escola; votamos pelo posto de saúde; votamos pela estrada.*
+Leitura nossa: a "repetição" do edital é a reiteração da mesma palavra, um dos casos de reiteração da coesão lexical. Para Halliday e Hasan, sinônimo, hiperônimo e nome genérico também são reiteração, e não substituição.
+
+Repetir não é defeito em si. No texto técnico, evita ambiguidade: num parecer, "o substitutivo" se repete para não ser confundido com "o projeto". No discurso, dá ênfase: *Votamos pela escola; votamos pelo posto de saúde; votamos pela estrada.*
 
 > [!CAUTION]
 > "Anáfora" tem dois sentidos. Na coesão, é a retomada de um termo anterior. Na estilística, é a figura que repete a mesma palavra no início de frases seguidas, como em *votamos… votamos… votamos*. O item pode trocar um sentido pelo outro.
@@ -153,14 +170,33 @@ Koch e Travaglia (*Texto e coerência*, 1989; *A coerência textual*, 1990) trat
 - **Coeso e incoerente**: *O projeto foi aprovado por unanimidade. Por isso, a oposição votou contra ele.* Há conector e pronome, mas unanimidade e voto contrário não convivem.
 - **Coerente com pouca coesão**: *Sessão aberta às 14h. Quórum às 14h10. Pauta encerrada às 19h.* Sem conectores, o leitor reconstrói a sequência.
 
-Entre os fatores de coerência que os dois autores apresentam estão os elementos linguísticos, o **conhecimento de mundo** (saber o que é "pedir vista"), o **conhecimento partilhado** (o plenário sabe qual é "aquela votação de março"), as **inferências**, a situação, a **informatividade**, a **focalização** (o mesmo fato visto pelo governo e pela oposição), a intertextualidade, a intencionalidade e a aceitabilidade.
-
 > [!IMPORTANT]
 > Item que diga que "todo texto coeso é coerente" ou que "sem elementos coesivos não há coerência" está errado para Koch e Travaglia.
 
+## Os fatores de coerência
+
+Koch e Travaglia apontam como principais fatores de coerência:
+
+- os **elementos linguísticos**: as pistas do próprio texto, ponto de partida das inferências;
+- o **conhecimento de mundo**: saber, por exemplo, o que é "pedir vista";
+- o **conhecimento partilhado**: o que autor e leitor sabem em comum (o plenário sabe qual é "aquela votação de março");
+- as **inferências**: as relações que o leitor estabelece sem que o texto as diga;
+- os **fatores de contextualização**: o que liga o texto a uma situação determinada, como o cabeçalho que dá a data, a sessão e o orador de uma nota taquigráfica;
+- a **situacionalidade**: a mesma sequência pode ser coerente numa situação e incoerente em outra;
+- a **informatividade**: o equilíbrio entre o que o leitor já espera e o que é novo;
+- a **focalização**: a parte do conhecimento que cada um põe em foco (o mesmo fato visto pelo governo e pela oposição);
+- a **intertextualidade**: a remissão a outros textos;
+- a **intencionalidade** e a **aceitabilidade**: o modo como quem escreve organiza o texto para realizar sua intenção e o esforço de quem lê para calcular o sentido;
+- a **consistência** e a **relevância**: os enunciados não se contradizem e falam do mesmo tópico.
+
+Vários desses nomes vêm de antes. Robert de Beaugrande e Wolfgang Dressler (1981) propuseram sete **padrões de textualidade**: coesão, coerência, intencionalidade, aceitabilidade, informatividade, situacionalidade e intertextualidade. Os linguistas brasileiros partiram deles nos anos 1980, acrescentaram outros e deixaram de ver a coerência como um padrão entre os demais: passaram a vê-la como resultado da atuação conjunta de todos, segundo o balanço que a própria Koch fez em 1999.
+
+> [!TIP]
+> Confira o rótulo junto com o autor: "padrões (ou critérios) de textualidade" é de Beaugrande e Dressler; "fatores de coerência", de Koch e Travaglia; "metarregras", de Charolles.
+
 ## As metarregras de Charolles
 
-Michel Charolles (1978), em quem Koch e Travaglia se apoiam para definir a coerência, propôs quatro metarregras:
+Michel Charolles, no artigo "Introduction aux problèmes de la cohérence des textes" (1978), traduzido no Brasil como "Introdução aos problemas da coerência dos textos", propôs quatro metarregras de coerência:
 
 1. **Repetição**: o texto precisa retomar elementos ao longo do caminho, para haver continuidade. É aqui que entra a coesão.
 2. **Progressão**: precisa trazer informação nova; repetir a mesma ideia com outras palavras não leva adiante.
@@ -170,15 +206,15 @@ Michel Charolles (1978), em quem Koch e Travaglia se apoiam para definir a coer�
 No mundo legislativo: um parecer que defende a aprovação em todas as páginas e conclui pela rejeição fere a não contradição; um discurso que repete a mesma frase por dez minutos fere a progressão.
 
 > [!NOTE]
-> Charolles lembra também que o leitor coopera: diante de um texto, procura agir como se ele fizesse sentido. Por isso a coerência depende da situação e de quem lê.
+> Não misture os dois momentos de Charolles. As metarregras são do artigo de 1978. A coerência como **princípio de interpretação**, que Koch e Travaglia adotam, vem de um trabalho posterior dele, dos anos 1980. A ideia de que o leitor coopera (diante de um texto, procura agir como se ele fizesse sentido) já aparece no artigo das metarregras, segundo a leitura de Borges, Gomes e Melo (2019).
 
 ## Pegadinhas no estilo da banca
 
 - **Mecanismo certo, justificativa errada**: o item acerta o referente e erra o "visto que" ou o "o que demonstra".
 - **Referente encurtado**: dar como referente a última palavra, quando o pronome ou o nome encapsula um parágrafo.
 - **Elipse do termo errado**: o item diz que se omitiu X, mas, escrito no lugar, X não cabe.
-- **Substituição tratada como correferência**: dizer que "um", em "comprar um novo", retoma o mesmo objeto.
-- **Classificações misturadas**: "coesão recorrencial, segundo Koch"; "a repetição é coesão gramatical, segundo Halliday e Hasan".
+- **Rótulo trocado em "o mesmo"**: chamar de substituição *a mesma proposta* (referência comparativa) ou de referência *fez o mesmo* (substituição).
+- **Classificações misturadas**: "coesão recorrencial, segundo Koch"; "a repetição é coesão gramatical, segundo Halliday e Hasan"; "os padrões de textualidade de Koch e Travaglia".
 - **Coesão confundida com coerência**: "o texto é coerente porque tem conectores".
 - **Contraste lido como contradição**, ou o contrário.
 - **Comparação esticada**: atribuir ao termo comparado um traço que o autor não destacou.

@@ -4,9 +4,9 @@ simulado:
   tipo: treino
   estilo: certo_errado
   fontes:
-    - 'Questões próprias, sobre um texto próprio e fictício (notícia da reunião de uma comissão), no estilo de certo ou errado do Cebraspe: palavras do texto entre aspas, com remissão à linha, e uma afirmação por item, muitas vezes com uma classificação que vale para uma palavra e não para a outra.'
+    - 'Questões próprias, sobre um texto próprio e fictício (notícia da reunião de uma comissão), no estilo de certo ou errado do Cebraspe: palavras do texto entre aspas, com remissão à linha, e uma afirmação por item.'
     - 'Referências de estilo, sem reprodução de itens: cadernos de conhecimentos específicos do Cebraspe para Professor de Língua Portuguesa da SEE/DF (edital de 2016, aplicado em 2017) e da Fundação Inoversa Sul (edital de 2024, aplicado em 2025), com os gabaritos definitivos.'
-    - 'Bases do gabarito: Margotti e Margotti, Morfologia do Português (UFSC, 2011); Cardoso, Fonologia da Língua Portuguesa, aula 8 (CESAD/UFS); Amaral, slides de semântica lexical a partir de Henriques (UFMG); Santana, Dois olhares sobre as palavras cognatas (GMHP/USP); Regimento Interno da Câmara dos Deputados, texto atualizado no site da Câmara; PrePara ENEM, Campo semântico e campo lexical. Consultados em 11/10/2026.'
+    - 'Bases do gabarito: Margotti e Margotti, Morfologia do Português (UFSC, 2011); Cardoso, Fonologia da Língua Portuguesa, aula 8 (CESAD/UFS); Amaral, slides de semântica lexical a partir de Henriques (UFMG); Santana, Dois olhares sobre as palavras cognatas (GMHP/USP); Toda Matéria, Semântica: o que é; PrePara ENEM, Campo semântico e campo lexical; Regimento Interno da Câmara dos Deputados e Lei Complementar nº 95/1998, textos atualizados no site da Câmara. Consultados em 11/10/2026.'
 questoes:
   - id: q01
     topico: conhecimentos-especificos/ling-formacao-e-relacoes-de-sentido
@@ -91,7 +91,7 @@ questoes:
 
       Com base no texto e em seus aspectos linguísticos, julgue o item.
 
-      Há relação de paronímia entre “LDO” (linha 2) e a expressão lei de diretrizes orçamentárias.
+      No texto, o vocábulo “colegiado” (linha 5) é empregado como sinônimo de “reunião” (linha 1).
   - id: q05
     topico: conhecimentos-especificos/ling-formacao-e-relacoes-de-sentido
     enunciado: |-
@@ -217,4 +217,4 @@ questoes:
 
       Com base no texto e em seus aspectos linguísticos, julgue o item.
 
-      Os vocábulos “quórum” (linha 3), “votação” (linha 5) e “painel” (linha 7) integram, no texto, um mesmo campo semântico, relativo à deliberação da comissão.
+      Os vocábulos “quórum” (linha 3), “votação” (linha 5) e “painel” (linha 7) pertencem, no texto, a uma mesma área de sentido, relativa à deliberação da comissão.

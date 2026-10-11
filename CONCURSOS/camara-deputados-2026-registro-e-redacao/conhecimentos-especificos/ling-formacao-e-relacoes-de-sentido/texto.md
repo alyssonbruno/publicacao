@@ -26,9 +26,9 @@ Com isso, há três encontros:
 
 Na divisão silábica, a regra geral é simples: **ditongos e tritongos não se separam; hiatos se separam**. Assim: *lei*, *sa-guão*, mas *sa-ú-de*, *ju-í-zes*, *le-em*.
 
-A dificuldade está nos ditongos crescentes em fim de palavra, como em *plenário*, *série* e *língua*. Rocha Lima, citado na aula da UFS, chama esses encontros de **instáveis**: na fala, oscilam entre ditongo (*ple-ná-rio*) e hiato (*ple-ná-ri-o*). Os ditongos decrescentes, ao contrário, são estáveis.
+A dificuldade está nos ditongos crescentes átonos em fim de palavra, como em *plenário*, *série* e *árdua*. Rocha Lima, citado na aula da UFS, chama esses encontros de **instáveis**: na fala, oscilam entre ditongo (*ple-ná-rio*) e hiato (*ple-ná-ri-o*). Os ditongos decrescentes, ao contrário, são estáveis, e, segundo a mesma aula, também os crescentes em que o *u* vem depois do som de *q* ou de *g* (*quase*, *língua*).
 
-Na escrita, Bechara, também citado na aula da UFS, manda seguir a norma ortográfica, que mantém o ditongo final junto: *sé-rie*, *gló-ria*, *má-goa*. O Cebraspe seguiu essa linha numa prova aplicada em 2025, em que deu como certa, para *língua*, a regra de não separar ditongos.
+Na escrita, Bechara, também citado na aula da UFS, manda seguir a norma ortográfica, que mantém o ditongo final junto: *sé-rie*, *gló-ria*, *má-goa*. O Cebraspe cobrou a regra de não separar ditongos numa prova aplicada em 2025 e deu como certo o item que a aplicava a palavras do texto, entre elas *língua*.
 
 > [!WARNING]
 > *Ideia* e *praia* não têm tritongo. O ditongo decrescente (*ei*, *ai*) fica numa sílaba, e o *a* final, em outra: *i-dei-a*, *prai-a*.
@@ -95,7 +95,7 @@ Três processos sem afixo visível:
 - **Derivação imprópria** (ou conversão): a palavra muda de classe sem mudar de forma: *o parecer* (verbo que virou substantivo), *o sim* e *o não* do painel, *salvo* em "salvo disposição em contrário" (particípio que virou preposição).
 - **Abreviação** (redução ou braquissemia): usa-se uma parte da palavra pelo todo, **sem mudar a classe**: *vice* (por *vice-presidente*), *foto*, *pneu*, *cinema* (de *cinematógrafo*).
 
-A diferença entre regressiva e abreviação está na classe: na regressiva, o verbo vira substantivo; na abreviação, o substantivo continua substantivo. O livro da UFSC registra que alguns autores põem a abreviação dentro da regressiva, mas recomenda distinguir os dois processos.
+De modo geral, a diferença entre regressiva e abreviação está na classe: na regressiva, o verbo vira substantivo; na abreviação, a palavra encurtada continua na mesma classe (*vice*, *foto* e *pneu* seguem substantivos). O livro da UFSC registra que alguns autores põem a abreviação dentro da regressiva, mas recomenda distinguir os dois processos.
 
 > [!CAUTION]
 > "*Cinema* é derivação regressiva de *cinematógrafo*" é a confusão clássica: é abreviação. E *destaque* não abrevia palavra nenhuma: é regressiva de *destacar*.
@@ -121,7 +121,7 @@ Sigla não é **abreviatura**: em *art.* e *inc.*, lê-se a palavra inteira (*ar
 
 O quadro reúne os processos desta aula, com um exemplo de cada:
 
-![Quadro dos processos de formação de palavras, em três grupos. Derivação, com um radical só: prefixal, prefixo mais palavra, arquivar dá desarquivar; sufixal, palavra mais sufixo, votar dá votação; prefixal e sufixal, um afixo de cada vez, inconstitucional dá inconstitucionalidade; parassintética, prefixo e sufixo ao mesmo tempo, gaveta dá engavetar, e não existe gavetar; regressiva, verbo que vira substantivo de ação, debater dá debate; imprópria, muda a classe e não a forma, o verbo parecer dá o substantivo o parecer. Composição, com dois ou mais radicais: justaposição, partes inteiras, decreto mais lei dá decreto-lei; aglutinação, partes fundidas, plano mais alto dá planalto. Outros processos: abreviação, parte pelo todo na mesma classe, vice-presidente dá vice; sigla, iniciais da expressão, proposta de emenda à Constituição dá PEC; hibridismo, línguas diferentes, tele do grego mais visão do latim dá televisão; onomatopeia, imitação de som, tique-taque. No pé, o teste da parassíntese: tire o prefixo e depois o sufixo; se nunca sobra palavra, é parassintética, como engavetar; se sobra, como em desarquivamento, não é.](imagens/processos-de-formacao.svg "Os processos de formação, com um exemplo de cada")
+![Quadro dos processos de formação de palavras, em três grupos. Derivação, com um radical só: prefixal, prefixo mais palavra, arquivar dá desarquivar; sufixal, palavra mais sufixo, votar dá votação; prefixal e sufixal, um afixo de cada vez, constitucional dá inconstitucional, que dá inconstitucionalidade; parassintética, prefixo e sufixo ao mesmo tempo, gaveta dá engavetar, e não existe gavetar; regressiva, verbo que vira substantivo de ação, debater dá debate e destacar dá destaque; imprópria, muda a classe e não a forma, o verbo parecer dá o substantivo o parecer. Composição, com dois ou mais radicais: justaposição, partes inteiras, decreto mais lei dá decreto-lei; aglutinação, partes fundidas, plano mais alto dá planalto. Outros processos: abreviação, parte pelo todo na mesma classe, vice-presidente dá vice; sigla, iniciais da expressão, proposta de emenda à Constituição dá PEC; hibridismo, línguas diferentes, tele do grego mais visão do latim dá televisão; onomatopeia, imitação de som, tique-taque e blá-blá-blá. No pé, o teste da parassíntese: tire o prefixo e depois o sufixo; se nunca sobra palavra, é parassintética, como engavetar; se sobra, como em desarquivamento, não é.](imagens/processos-de-formacao.svg "Os processos de formação, com um exemplo de cada")
 
 > [!CAUTION]
 > Sigla e expressão por extenso não são **parônimos**: a sigla abrevia a expressão. Parônimos são duas palavras **diferentes** de forma parecida.
@@ -210,15 +210,16 @@ No texto, o hiperônimo serve para **retomar** sem repetir: citado um projeto de
 
 ## Campo semântico
 
-A expressão aparece em dois sentidos, e convém conhecer os dois:
+A expressão do edital tem pelo menos três acepções, e os autores não dão o mesmo nome às mesmas coisas:
 
-- na **linguística**, e no uso do Cebraspe, campo semântico é o conjunto de palavras ligadas a uma mesma área de sentido. *Orador*, *tribuna*, *aparte*, *discurso* e *pronunciamento* formam o campo semântico da fala em plenário. Numa prova aplicada em 2017 (SEE/DF), um item da banca falou em "campo semântico do movimento" e "campo semântico do transporte", nesse sentido;
-- em muitos materiais **escolares**, campo semântico é o conjunto de sentidos que **uma palavra** pode assumir (o "campo semântico de *partir*": ir embora, morrer, quebrar...). Nesses materiais, o conjunto de palavras de uma área recebe outro nome: **campo lexical**.
+- **área de sentido** (a acepção genérica, a mais difundida): o conjunto de palavras ligadas a um mesmo assunto ou experiência. *Orador*, *tribuna*, *aparte*, *discurso* e *pronunciamento* formam o campo da fala em plenário. Henriques chama esse agrupamento de **campo conceitual**; os slides da UFMG, a partir dele, avisam que é comum chamá-lo de "campo semântico", de modo genérico, e que outros o chamam de campo lexical;
+- **morfossemântica** (a de Henriques): para esse autor, **campo semântico**, em sentido estrito, reúne palavras ligadas pelo sentido **e pela forma**: as da mesma família (*votar*, *voto*, *votação*, *votante*) ou as de mesmo sufixo (*votação*, *aprovação*, *tramitação*);
+- **escolar**: em muitos materiais escolares, campo semântico é o conjunto de sentidos que **uma só palavra** assume conforme o contexto. O exemplo do PrePara ENEM é *partir*: ir embora, morrer, sair, quebrar... Nesses materiais, o conjunto de palavras de uma área se chama **campo lexical**.
 
-Os slides da UFMG, a partir de Henriques, avisam que "campo semântico" costuma ser usado de modo genérico, no lugar de campo conceitual ou lexical.
+Não há base para dizer qual dessas acepções o Cebraspe adota. A expressão apareceu num item da prova da SEE/DF, aplicada em 2017 ("campo semântico do movimento" e "campo semântico do transporte"), mas o item foi julgado errado, por motivo que não se pôde apurar.
 
 > [!TIP]
-> Leitura nossa: num item do Cebraspe, entenda "campo semântico de X" como a área de sentido X (o movimento, o transporte, a fala em plenário), a menos que o item fale claramente dos vários sentidos de uma só palavra.
+> Leitura nossa: diante de "campo semântico" num item, veja pelo próprio item de qual acepção ele trata (palavras de um mesmo assunto, palavras da mesma família ou sentidos de uma só palavra) e julgue a relação no texto. Se o certo ou o errado depender só do nome da acepção, o item é arriscado: na dúvida, deixe em branco.
 
 ## Como o Cebraspe cobra
 

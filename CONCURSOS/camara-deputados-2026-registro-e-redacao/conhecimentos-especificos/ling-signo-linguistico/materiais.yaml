@@ -11,41 +11,40 @@ materiais:
     autor: Rerisson Cavalcante (canal Linguística – Prof. Rerisson Cavalcante; licença Creative Commons Atribuição)
     duracao_min: 12
     descricao: >-
-      Comece por este. Pela descrição e pelos capítulos, aula de introdução aos estudos
-      linguísticos que mostra os equívocos comuns sobre o signo, o que é de fato a imagem
-      acústica e a separação entre o sistema linguístico e a realidade extralinguística (a partir
-      de 7:01), que é o referente fora do signo. Indicado pela descrição do vídeo, sem
-      conferência do conteúdo.
+      Comece por este. Aula de introdução aos estudos linguísticos sobre o signo de Saussure,
+      com ênfase na expressão "imagem acústica": os equívocos comuns sobre o signo (2:38), o que
+      é de fato a imagem acústica (5:34) e a separação entre o sistema linguístico e a realidade
+      extralinguística (7:01), que é o referente fora do signo. Depois de assistir, confira a
+      figura do signo "veto" no texto da aula.
   - tipo: video
     titulo: "Signo linguístico: Aristóteles versus Saussure"
     url: https://www.youtube.com/watch?v=eGv1kMmGoAo
     autor: Rerisson Cavalcante (canal Linguística – Prof. Rerisson Cavalcante; licença Creative Commons Atribuição)
     duracao_min: 11
     descricao: >-
-      Pela descrição, compara o signo de Aristóteles, que liga palavras, ideias e coisas, ao
-      signo de duas faces psíquicas de Saussure, com um capítulo sobre um erro comum (1:44).
-      Indicado pela descrição do vídeo, sem conferência do conteúdo. Serve de ponte entre o signo
-      saussuriano e o triângulo de Ogden e Richards.
+      Compara o signo de Aristóteles, que liga a escrita, a fala, as afecções da alma e as
+      coisas, ao signo de duas faces psíquicas de Saussure, com um erro comum (1:44) e a pergunta
+      "quem está certo?" (8:54). Serve de ponte entre o signo saussuriano e o triângulo de Ogden e
+      Richards: em seguida, leia a parte do texto sobre o referente.
   - tipo: video
     titulo: Introdução à Linguística - As dicotomias saussureanas
     url: https://www.youtube.com/watch?v=BVOHiqxi0LM
     autor: UNIVESP (disciplina Introdução à Linguística, Profa. Elaine Assolini)
     duracao_min: 19
     descricao: >-
-      Aula universitária sobre as dicotomias de Saussure, entre elas língua e fala e significante
-      e significado. Indicado pelo título e pela descrição, que só identifica a disciplina e a
-      professora, sem conferência do conteúdo. Não se sabe se trata da motivação relativa e da
-      linearidade: para esses pontos, fique com o texto da aula.
+      Aula da disciplina Introdução à Linguística, do ciclo básico da Univesp, sobre as
+      dicotomias saussureanas. Assista com o texto da aula ao lado e anote como aparece cada par;
+      para a motivação relativa e a linearidade, fique com o texto da aula.
   - tipo: video
     titulo: Sentido e referência
     url: https://www.youtube.com/watch?v=rB3y0ze4aEU
     autor: Roberlei Alves Bertucci (disciplina de Semântica e Pragmática, Letras, UTFPR)
     duracao_min: 16
     descricao: >-
-      Frege numa aula de semântica de curso de Letras, com exercícios no fim (a partir de
-      11:05). Indicado pela descrição e pelos capítulos, sem conferência do conteúdo. A descrição
-      não diz se trata da representação, a terceira noção do edital: para ela, use o texto da
-      aula (a analogia do telescópio).
+      A distinção de Frege numa aula de Semântica e Pragmática do curso de Letras da UTFPR:
+      sentido e referência (2:14), referência (6:13) e exercícios (11:05). Pause antes de cada
+      exercício e tente resolvê-lo sozinho. Para a representação, a terceira noção de Frege no
+      edital, use o texto da aula (a analogia do telescópio).
   - tipo: podcast
     titulo: Arbitrário do signo linguístico | Linguística em Foco
     url: https://podcasts.apple.com/br/podcast/arbitr%C3%A1rio-do-signo-lingu%C3%ADstico-lingu%C3%ADstica-em-foco/id1514532604?i=1000580780857
@@ -53,18 +52,17 @@ materiais:
     duracao_min: 9
     descricao: >-
       Leitura do verbete sobre o arbitrário do livro "Conceitos básicos de linguística: sistemas
-      conceituais" (Battisti, Othero e Flores, Contexto, 2021), pela própria organizadora.
-      Indicado pela descrição do episódio, sem conferência do conteúdo. Por ser leitura de texto
-      de manual, pede atenção; o volume é baixo, aumente o som.
+      conceituais" (Battisti, Othero e Flores, Contexto, 2021), pela professora Elisa Battisti,
+      uma das organizadoras. É texto de manual lido em voz alta: ouça com atenção, de preferência
+      duas vezes. O volume é baixo; aumente o som.
   - tipo: podcast
     titulo: Caráter Linear do Significante | Linguística em Foco
     url: https://podcasts.apple.com/br/podcast/car%C3%A1ter-linear-do-significante-lingu%C3%ADstica-em-foco/id1514532604?i=1000583097717
     autor: Sopa de Letras (PETcast Letras, UFRGS); leitura da Profa. Elisa Battisti
     duracao_min: 9
     descricao: >-
-      Leitura do verbete sobre a linearidade, do mesmo livro. Indicado pela descrição do episódio,
-      sem conferência do conteúdo. O título já marca o ponto que mais cai: a linearidade é do
-      significante.
+      Leitura do verbete sobre a linearidade, do mesmo livro, pela mesma professora. O título já
+      marca o ponto central: a linearidade é do significante, e não do significado.
   - tipo: link
     titulo: Cours de linguistique générale — Introdução (língua, fala e linguagem)
     url: https://fr.wikisource.org/wiki/Cours_de_linguistique_g%C3%A9n%C3%A9rale/Introduction

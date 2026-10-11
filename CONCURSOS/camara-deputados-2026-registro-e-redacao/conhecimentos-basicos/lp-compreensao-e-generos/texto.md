@@ -4,13 +4,13 @@
 
 O edital abre o programa de Português da P1 com dois itens: "1 Compreensão e interpretação de textos de gêneros variados. 2 Reconhecimento de tipos e gêneros textuais" (p. 50). Na prova, isso vira três perguntas: o que o texto diz, o que se pode tirar dele e que tipo de texto ele é.
 
-Esta aula é a prática da P1: como o Cebraspe transforma a leitura em itens de certo ou errado e onde estão as armadilhas. A teoria volta na P2, em duas aulas de Linguística: a leitura crítica (propósito do autor, fato e opinião, organização retórica), em 17/10, e os gêneros do discurso, com macro e microestrutura, em 26/10.
+Esta aula é a prática da P1: como o Cebraspe transforma a leitura em itens de certo ou errado e onde estão as armadilhas. A teoria volta na P2, em duas aulas de Linguística: Compreensão interpretativa e crítica (propósito do autor, fato e opinião, organização retórica) e Gêneros do discurso e tipos textuais (com macro e microestrutura).
 
 ## O que a banca faz com este tópico
 
-Na prova de nível superior da Câmara aplicada em 8/3/2026 (edital de 2025), que aqui chamamos de prova de 2026, nove dos 26 itens de Português eram deste tópico, pela nossa contagem, e seis deles tinham gabarito E. Os quatro textos eram de gêneros diferentes: um trecho de manual da própria Câmara, uma reportagem de divulgação científica, uma notícia e um trecho de livro.
+Na prova de nível superior do concurso anterior da Câmara (edital de 2025, aplicada em março de 2026), que aqui chamamos de Câmara 2025, nove dos 26 itens de Português eram deste tópico, pela nossa contagem, e seis deles tinham gabarito E. Os quatro textos eram de gêneros diferentes: um trecho de manual da própria Câmara, uma reportagem de divulgação científica, uma notícia e um trecho de livro.
 
-Cada item é uma afirmação sobre o texto. Não há alternativa melhor ou pior: você decide se aquela frase, inteira, se sustenta no texto. Nessa prova, os itens remetiam ao trecho por período e parágrafo ("no segundo período do terceiro parágrafo"); na prova de 2012 para taquígrafo legislativo, por linha. Conte os períodos com cuidado antes de julgar.
+Cada item é uma afirmação sobre o texto. Não há alternativa melhor ou pior: você decide se aquela frase, inteira, se sustenta no texto. Na Câmara 2025, os itens remetiam ao trecho por período e parágrafo ("no segundo período do terceiro parágrafo"); na prova de 2012 para taquígrafo legislativo, por linha. Conte os períodos com cuidado antes de julgar; o treino desta aula usa as duas formas.
 
 > [!IMPORTANT]
 > No seu concurso, cada item errado anula um certo. **A resposta se prova com o texto**: se você não consegue apontar o trecho (ou os trechos) que sustenta a afirmação, ela não está certa.
@@ -31,6 +31,8 @@ Uma notícia fictícia:
 - "A decisão da comissão não foi unânime." Interpretação: certo, porque houve 17 votos contrários.
 - "O projeto deve ser aprovado também no Plenário." Extrapolação: errado. O texto diz para onde a matéria vai, não o que acontecerá lá.
 
+Um item pode somar desvios. Na Câmara 2025, um item de "infere-se" deu a uma entidade a defesa da "proteção masculina às mulheres", quando o texto só dizia que um dirigente dela defendia o "engajamento ativo de homens", e ainda tirou disso uma conclusão sobre o machismo na sociedade que o texto não dava. Gabarito: E.
+
 > [!TIP]
 > Para separar inferência de extrapolação, pergunte: **o texto pode ser verdadeiro e o item, falso?** Se puder, o item não se infere do texto.
 
@@ -38,7 +40,7 @@ Uma notícia fictícia:
 
 Parte do que um texto comunica fica implícito. Os estudos da linguagem distinguem dois tipos de implícito: o **pressuposto**, que vem de uma marca linguística da frase, e o **subentendido**, que vem da situação de comunicação.
 
-O pressuposto está na frase e não depende da intenção de quem fala. Em "O relator **voltou a** pedir o adiamento", está pressuposto que ele já tinha pedido antes. A prova clássica é a negação: "O relator **não** voltou a pedir o adiamento" nega o pedido de agora, mas mantém o anterior. O pressuposto resiste também à pergunta: "O relator voltou a pedir o adiamento?".
+O pressuposto está na frase e não depende da intenção de quem fala. Em "O relator **voltou a** pedir o adiamento", está pressuposto que ele já tinha pedido antes. A prova clássica, um dos critérios de Ducrot, é a negação: "O relator **não** voltou a pedir o adiamento" nega o pedido de agora, mas mantém o anterior. O pressuposto resiste também à pergunta: "O relator voltou a pedir o adiamento?".
 
 O subentendido depende do contexto, e quem fala pode negá-lo. Um deputado que diz ao presidente, às 23h, "Já são onze da noite, Senhor Presidente" informa a hora e, conforme a situação, sugere que é hora de encerrar a sessão. Se cobrado, pode responder: "Só informei a hora".
 
@@ -51,12 +53,12 @@ Saber onde o pressuposto costuma estar ajuda a achar o item certo de "infere-se"
 - **Verbos de mudança ou de permanência de estado**: *deixar de*, *passar a*, *continuar*, *voltar a*, *tornar-se*. "A comissão **deixou de** se reunir às quartas" → antes, ela se reunia às quartas.
 - **Verbos factivos**, que dão o complemento como fato: *lamentar*, *saber*, *perceber*. "**Lamento** que a sessão tenha sido suspensa" → a sessão foi suspensa.
 - **Verbos implicativos**: *conseguir*, *esquecer*, *evitar*. "O relator **conseguiu** incluir a emenda" → ele tentou incluí-la.
-- **Advérbios e partículas**: *ainda*, *já*, *também*, *de novo*. "O resultado **ainda não** foi divulgado" → espera-se que seja.
+- **Advérbios e partículas**: *ainda*, *já*, *também*, *de novo*. "**Ainda não** há data para a votação" → espera-se que venha a haver.
 - **Conectivos de tempo no início do período**: "**Desde que** assumiu a liderança, o deputado..." → ele assumiu a liderança.
 - **Orações adjetivas explicativas e adjetivos**: "Os taquígrafos, **que acompanham toda a sessão**, ..." → todos eles acompanham a sessão inteira.
 
 > [!NOTE]
-> Na prova de 2012, um item de "infere-se" com gabarito C apoiava-se num pressuposto. O texto falava dos "primeiros séculos da história do Brasil" ao tratar dos documentos escritos aqui e da distância de Portugal; a banca deu como certo inferir que a autora fazia essa história começar com a chegada dos colonizadores.
+> Nem todo "infere-se" certo se apoia numa marca de pressuposto. Na prova de 2012, um item C dizia que a autora fazia a história do Brasil começar com a chegada dos colonizadores. Nenhuma marca do texto pressupõe isso: a conclusão vem da junção de passagens, porque os "primeiros séculos da história do Brasil" são, no texto, os dos documentos escritos aqui, quando a distância de Portugal dificultava obter papel e tinta. É inferência pelo cotexto, e não pressuposto.
 
 ## Os comandos não decidem sozinhos
 
@@ -64,7 +66,7 @@ Muitos materiais ensinam uma regra fixa: "de acordo com o texto", "segundo o tex
 
 - na prova de 2012, um item com "De acordo com o texto" estava certo, mas exigia juntar duas passagens e dizer com outras palavras o que o autor só sugeria ("cada qual no seu contexto" virou "adequação à situação");
 - na mesma prova, um item com "Depreende-se" pedia apenas o sentido de uma palavra do texto ("solecismos");
-- na prova de 2026, um item sem comando nenhum pedia a paráfrase de uma palavra figurada.
+- na Câmara 2025, um item sem comando nenhum pedia a paráfrase de uma palavra figurada.
 
 O comando diz onde olhar, não qual é a resposta. Julgue o conteúdo: a afirmação é paráfrase, inferência segura ou extrapolação?
 
@@ -73,16 +75,16 @@ O comando diz onde olhar, não qual é a resposta. Julgue o conteúdo: a afirma�
 
 ## Seis moldes do item errado
 
-Os materiais costumam falar em três erros clássicos de leitura: extrapolação, redução e contradição. Nos itens do Cebraspe, eles aparecem disfarçados em poucos moldes, que se repetem nas provas da Câmara de 2012 e de 2026. Dar nome ao molde ajuda a achar o ponto exato do erro.
+Os materiais costumam falar em três erros clássicos de leitura: extrapolação, redução e contradição. Nos itens do Cebraspe, eles aparecem disfarçados em poucos moldes, que se repetem na prova da Câmara de 2012 e na Câmara 2025. Dar nome ao molde ajuda a achar o ponto exato do erro.
 
-![Tabela com seis moldes de item errado, cada um com o que o texto diz e o que o item diz. 1. Generalização, ou troca de quantificador: o texto diz “Alguns líderes pediram o adiamento da votação”; o item, “Os líderes pediram o adiamento da votação”. 2. Hierarquia inventada: o texto diz “A sessão foi suspensa por falta de quórum e por uma falha no painel”; o item, “A sessão foi suspensa mais pela falha no painel do que pela falta de quórum”. 3. Voz trocada, ou opinião dada ao autor: o texto diz “Para o relator, a proposta reduz a burocracia”; o item, “O autor defende que a proposta reduz a burocracia”. 4. Meio e fim invertidos: o texto diz “A edição tira as hesitações do discurso para dar clareza ao registro”; o item, “A clareza é uma técnica usada para tirar as hesitações do discurso”. 5. Escala exagerada: o texto diz “O uso do celular é desaconselhado durante as votações”; o item, “O uso do celular é proibido durante as votações”. 6. Troca de predicado: o texto diz “Os servidores novos relatam menos dificuldades com o sistema”; o item, “Os servidores novos têm menos dificuldades com o sistema”. Todos os itens têm gabarito E.](imagens/moldes-do-item-errado.svg "Seis maneiras de o item se afastar do texto")
+![Tabela com seis moldes de item errado, cada um com o que o texto diz e o que o item diz. 1. Generalização, ou troca de quantificador: o texto diz “Alguns líderes pediram o adiamento da votação”; o item, “Os líderes pediram o adiamento da votação”. 2. Hierarquia inventada: o texto diz “A sessão foi suspensa por falta de quórum e por uma falha no painel”; o item, “A sessão foi suspensa mais pela falha no painel do que pela falta de quórum”. 3. Voz trocada, ou opinião dada ao autor: o texto diz “Para o relator, a proposta reduz a burocracia”; o item, “O autor do texto defende que a proposta reduz a burocracia”. 4. Meio e fim invertidos: o texto diz “A edição tira as hesitações do discurso para dar clareza ao registro”; o item, “A clareza é uma técnica usada para tirar as hesitações do discurso”. 5. Escala exagerada: o texto diz “O uso do celular é desaconselhado durante as votações”; o item, “O uso do celular é proibido durante as votações”. 6. Troca de predicado: o texto diz “Os servidores novos relatam menos dificuldades com o sistema”; o item, “Os servidores novos têm menos dificuldades com o sistema”. Todos os itens têm gabarito E.](imagens/moldes-do-item-errado.svg "Seis maneiras de o item se afastar do texto")
 
 1. **Generalização.** O item troca o quantificador: "alguns" vira "os", "em geral" vira "sempre", "parte" vira "todos". Basta uma palavra para o item sair do texto.
 2. **Hierarquia inventada.** O texto enumera causas; o item diz que uma pesou mais ("deveu-se mais a X do que a Y"). Foi o erro de um item de 2012 sobre as razões das abreviaturas nos documentos do Brasil Colônia.
-3. **Voz trocada.** O texto relata a opinião de alguém, e o item a atribui ao autor; ou o item dá ao autor uma defesa que ele não faz. Em 2012, a autora "defenderia o uso indiscriminado" de abreviaturas; em 2026, uma entidade "defenderia" uma medida que o texto não lhe atribui.
-4. **Meio e fim invertidos.** O texto diz que A serve para B; o item diz que B serve para A. Em 2026, a clareza, que o texto apresentava como a meta de uma técnica de redação, virou uma das ferramentas dessa técnica.
-5. **Escala exagerada.** "Desaconselhado" vira "proibido", "importante" vira "indispensável", ou o item cria uma gradação que o texto não tem: em 2026, uma escala que ia de "importante" a "irrelevante".
-6. **Troca de predicado.** O sujeito é o mesmo, o verbo muda pouco e o sentido muda muito: em 2026, quem "percebe menos" uma discriminação virou quem "é menos afetado" por ela.
+3. **Voz trocada.** O texto relata a opinião de alguém, e o item a atribui ao autor; ou o item dá ao autor uma defesa que ele não faz. Em 2012, um item dava à autora a defesa do "uso indiscriminado" de abreviaturas; outro, uma ideia que o texto atribuía às pessoas de uma sociedade competitiva.
+4. **Meio e fim invertidos.** O texto diz que A serve para B; o item diz que B serve para A. Na Câmara 2025, a clareza, que o texto apresentava como a meta de uma técnica de redação, virou uma das ferramentas dessa técnica.
+5. **Escala exagerada.** "Desaconselhado" vira "proibido", "importante" vira "indispensável", ou o item cria uma gradação que o texto não tem: na Câmara 2025, uma escala que ia de "importante" a "irrelevante".
+6. **Troca de predicado.** O sujeito é o mesmo, o verbo muda pouco e o sentido muda muito: na Câmara 2025, quem "percebe menos" uma discriminação virou quem "é menos afetado" por ela.
 
 > [!CAUTION]
 > Palavra absoluta não é sinônimo de item errado. Se o texto diz "todos", o item que repete "todos" está certo. O erro está na diferença entre o texto e o item.
@@ -91,10 +93,10 @@ Os materiais costumam falar em três erros clássicos de leitura: extrapolação
 
 O item C também tem formas recorrentes:
 
-- **Paráfrase de palavra figurada.** O texto usa uma imagem, e o item a traduz. Em 2026, estava certo o item que leu como "desalentador", na visão de uma dirigente, o ritmo que ela chamou de "glacial". Do mesmo modo, se um orador diz que "a pauta desta semana é um campo minado", é certo afirmar que ele vê riscos na pauta.
+- **Paráfrase de palavra figurada.** O texto usa uma imagem, e o item a traduz. Na Câmara 2025, estava certo o item que leu como "desalentador", na visão de uma dirigente, o ritmo que ela chamou de "glacial". Do mesmo modo, se um orador diz que "a pauta desta semana é um campo minado", é certo afirmar que ele vê riscos na pauta.
 - **Inferência de pressuposto.** O "infere-se" apoiado numa marca da frase: *voltou a*, *ainda*, *deixou de*.
-- **Contradição percebida.** Em 2026, num texto sobre uma pesquisa em que quase todos os entrevistados negavam ter preconceito racial e quase todos diziam conhecer racistas, foi dado como certo inferir que eles, implicitamente, se punham fora do grupo de que faziam parte.
-- **Aspecto do verbo.** Em 2026, de um texto que dizia que um bioma "está secando e ficando mais quente", com dados de quatro décadas, foi dado como certo que o fenômeno é um processo gradativo. Ritmo "acelerado" não é o contrário de processo gradual.
+- **Contradição percebida.** Na Câmara 2025, num texto sobre uma pesquisa em que quase todos os entrevistados negavam ter preconceito racial e quase todos diziam conhecer racistas, foi dado como certo inferir que eles, implicitamente, se punham fora do grupo de que faziam parte.
+- **Aspecto do verbo.** Na Câmara 2025, de um texto que dizia que um bioma "está secando e ficando mais quente", com dados de quatro décadas, foi dado como certo que o fenômeno é um processo gradativo. Ritmo "acelerado" não é o contrário de processo gradual.
 
 ## Cinco tipos textuais
 
@@ -124,7 +126,7 @@ Daí dois cuidados:
 
 ## Dado não é descrição
 
-Na prova de 2026, um item afirmava que predominava a tipologia descritiva num parágrafo de reportagem cheio de números: temperatura média por década, aumento acumulado, comparação do ritmo de aquecimento entre biomas. O gabarito foi E: o parágrafo informa e compara, e isso é exposição.
+Na Câmara 2025, um item afirmava que predominava a tipologia descritiva num parágrafo de reportagem cheio de números: temperatura média por década, aumento acumulado, comparação do ritmo de aquecimento entre biomas. O gabarito foi E, e a leitura mais provável é esta: o parágrafo informa e compara, e isso é exposição.
 
 A confusão vem do uso comum da palavra: dizemos que um relatório "descreve" os dados. Na tipologia, **descrever é retratar** (como algo é, como estava), em geral com adjetivos e com o tempo parado; **expor é informar e explicar**, com conceitos, números, comparações, causas e evolução.
 
@@ -136,9 +138,9 @@ A confusão vem do uso comum da palavra: dizemos que um relatório "descreve" os
 
 ## Gênero: o texto como ele circula
 
-Gênero textual é o texto como existe na vida social, com nome, finalidade e forma reconhecíveis: ata, parecer, projeto de lei, discurso, notícia, ofício, edital. Na distinção de Marcuschi (2002), muito difundida, os tipos são poucos e definidos por traços linguísticos; os gêneros são muitos, mudam com o tempo e se definem pela função que cumprem.
+Gênero textual é o texto como existe na vida social, com nome, finalidade e forma reconhecíveis: ata, parecer, projeto de lei, discurso, notícia, ofício, edital. Na distinção de Marcuschi (2008), muito difundida, o tipo é uma construção teórica, reconhecida por traços linguísticos (léxico, sintaxe, tempos verbais, relações lógicas); o gênero é o texto concreto, que circula em situações de comunicação recorrentes e se define pela função que cumpre. Os tipos são poucos (os cinco desta aula); os gêneros são muitos e mudam com o tempo. Para ele, tipo e gênero não se opõem: completam-se.
 
-Para Bakhtin, cada esfera da atividade humana, como o Parlamento ou a imprensa, elabora seus tipos relativamente estáveis de enunciados, os gêneros do discurso, que se reconhecem por três elementos: conteúdo temático, construção composicional e estilo. Os três termos estão no item 6.1 da P2 do edital e voltam na aula de 26/10.
+Para Bakhtin, cada campo da atividade humana, como o Parlamento ou a imprensa, elabora seus tipos relativamente estáveis de enunciados, os gêneros do discurso, que se reconhecem por três elementos: conteúdo temático, construção composicional e estilo. Os três termos estão no item 6.1 da P2 do edital e voltam na aula de Gêneros do discurso e tipos textuais.
 
 Um gênero costuma combinar vários tipos, com um predominante. A figura mostra gêneros do dia a dia de uma casa legislativa:
 
@@ -168,18 +170,17 @@ Um gênero costuma combinar vários tipos, com um predominante. A figura mostra 
 
 ## Fontes
 
-- Cebraspe, Câmara dos Deputados, Edital nº 1/2025 (cargos de nível superior), caderno de Conhecimentos Gerais aplicado em 8/3/2026, itens 1 a 26 (referência de estilo; nenhum item foi reproduzido): https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E61A04B682ABA7AF746F702D22B1516C4A4BC005855CE5CFFF5D2280F3E790CE.pdf
+- Cebraspe, Câmara dos Deputados, Edital nº 1/2025 (cargos de nível superior), caderno de Conhecimentos Gerais (a Câmara 2025 desta aula, prova aplicada em 8/3/2026), itens 1 a 26 (referência de estilo; nenhum item foi reproduzido): https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E61A04B682ABA7AF746F702D22B1516C4A4BC005855CE5CFFF5D2280F3E790CE.pdf
 - Cebraspe, gabarito oficial definitivo do mesmo caderno: https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/BE7F1F9B1F3F90750D44E63070FDE8505D71F1BADD7F9A2096BB953B32081694.pdf
 - CESPE/UnB (atual Cebraspe), Câmara dos Deputados 2012, Analista Legislativo, Taquígrafo Legislativo, caderno de Conhecimentos Específicos, itens 71 a 100 (referência de estilo; nenhum item foi reproduzido): https://cdn.cebraspe.org.br/concursos/CD_12_AT/arquivos/CAMARA12_006_22.pdf
 - CESPE/UnB, gabarito oficial definitivo do mesmo caderno: https://cdn.cebraspe.org.br/concursos/CD_12_AT/arquivos/Gab_definitivo_CAMARA12_006_22.pdf
 - Câmara dos Deputados e Cebraspe, Edital nº 1, de 2/10/2026, p. 50 e 64 (conteúdo programático): https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/BBE30D016054F40651E36AC7B302C3425BD148A39675CA840A5A0CCBFBB5F0F1.pdf
 - Isabel Cristina Michelan de Azevedo, "Estratégias argumentativas em perspectiva linguística e discursiva", Letramento Acadêmico, aula 5, CESAD/UFS, 2021 (subentendido × pressuposto e o quadro dos marcadores de pressuposição): https://cesad.ufs.br/ORBI/public/uploadCatalago/11173922072021Aula_05.pdf
-- Oswald Ducrot, *Princípios de semântica linguística (dizer e não dizer)*, São Paulo, Cultrix, 1977 (o pressuposto mantido na negação e na pergunta).
+- Roberta Maria Garcia Blasque e Esther Gomes de Oliveira, "As mensagens implícitas do texto e o delineamento conceitual do contrassentido", *Signum: Estudos da Linguagem*, UEL, v. 23, n. 2, 2020, p. 119-121 (pressuposto e subentendido; os critérios de Ducrot, em *O dizer e o dito*, 1987, citado pelas autoras: o pressuposto se mantém na negação e na interrogação): https://ojs.uel.br/revistas/uel/index.php/signum/article/view/41731
 - Rafaela Freitas, "Dicas de Interpretação textual – Português para iniciantes", Estratégia Concursos (extrapolação, redução e contradição): https://concursos.estrategia.com/portal/dicas-de-interpretacao-textual-portugues-para-iniciantes/
 - Warley Souza, "Tipologia textual: quais são, características", Brasil Escola (os cinco tipos e a predominância): https://brasilescola.uol.com.br/redacao/tipologia-textual.htm
 - Warley Souza, "Gêneros textuais: o que são, quais são, exemplos", Brasil Escola (função comunicativa; gênero textual × gênero literário): https://brasilescola.uol.com.br/redacao/generos-textuais.htm
 - Quero Bolsa, "Tipologia textual" (injunção instrucional e prescritiva): https://querobolsa.com.br/enem/redacao/tipologia-textual
-- Luiz Antônio Marcuschi, "Gêneros textuais: definição e funcionalidade", em Angela Paiva Dionisio, Anna Rachel Machado e Maria Auxiliadora Bezerra (orgs.), *Gêneros textuais e ensino*, Rio de Janeiro, Lucerna, 2002.
-- Mikhail Bakhtin, *Os gêneros do discurso*, tradução de Paulo Bezerra, São Paulo, Editora 34, 2016.
+- Sandra Aparecida Lima Silveira Farias e Luciano Amaral Oliveira, "Gêneros textuais e o livro didático: enfoque formal ou sociocultural?", *Eutomia*, UFPE, n. 12, v. 1, 2013, p. 486-492 (o conceito de gênero do discurso de Bakhtin, em *Estética da criação verbal*, e a distinção entre tipo e gênero de Marcuschi, em *Produção textual, análise de gêneros e compreensão*, 2008, citados pelos autores): https://periodicos.ufpe.br/revistas/EUTOMIA/article/view/422
 
 Os textos, as frases e os dados dos exemplos foram criados para esta aula e são fictícios.

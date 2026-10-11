@@ -66,7 +66,7 @@ As duas formas do advérbio são corretas. A forma em *-mente* é a mais comum n
 
 ### "Melhor" ou "mais bem"
 
-*Melhor* e *pior* são adjetivos quando servem de comparativo a *bom* e *mau* (*a melhor proposta*) e advérbios quando servem de comparativo a *bem* e *mal* (*o relator argumentou melhor*). Antes de particípio, o Manual de Comunicação do Senado recomenda *mais bem* e *mais mal*: *o texto mais bem redigido*, *os servidores mais mal pagos*.
+*Melhor* e *pior* são adjetivos quando servem de comparativo a *bom* e *mau* (*uma proposta melhor que a outra*) e advérbios quando servem de comparativo a *bem* e *mal* (*o relator argumentou melhor*). Antes de particípio, o Manual de Comunicação do Senado recomenda *mais bem* e *mais mal*: *o texto mais bem redigido*, *os servidores mais mal pagos*.
 
 ## Pronome ou advérbio
 
@@ -80,7 +80,7 @@ As palavras de quantidade mudam de classe sem mudar de forma, ou mudando pouco:
 
 - *Todo o plenário aplaudiu* é o plenário inteiro; *Todo plenário tem regras próprias* é qualquer plenário. Pôr ou tirar o artigo depois de "todo" muda o sentido.
 - *Algum*, depois do substantivo, tem valor negativo, mais forte que *nenhum*: *A proposta não recebeu emenda **alguma***.
-- *Muita boa vontade* ou "muito boa vontade"? Pasquale Cipro Neto, no episódio citado nas fontes, fica com *muita*: "boa vontade" vale por um substantivo, e "muita" é o pronome que acompanha o conjunto.
+- *Muita boa vontade* ou "muito boa vontade"? Pasquale Cipro Neto, na descrição do episódio citado nas fontes, fica com *muita*: "boa vontade" vale por um substantivo, e "muita" é o pronome que acompanha o conjunto.
 
 ## A posição muda a classe ou o sentido
 
@@ -90,15 +90,14 @@ O lugar comum do adjetivo é depois do substantivo. Anteposto, ele ganha ênfase
 - *funcionário alto* (de estatura) × *alto funcionário* (de cargo elevado);
 - *relator pobre* (sem recursos) × *pobre relator* (digno de pena).
 
-Com algumas palavras, muda também a classe:
+Com "certo", muda também a classe: ***Certo** deputado pediu a palavra* (pronome indefinido: um deputado, sem dizer qual) × *O presidente designou o relator **certo*** (adjetivo: o adequado).
 
-- ***Certo** deputado pediu a palavra* (pronome indefinido: um deputado, sem dizer qual) × *O presidente designou o relator **certo*** (adjetivo: o adequado);
-- *emenda **alguma*** (negativa) × ***alguma** emenda* (positiva).
+Com "algum", a classe fica e o valor se inverte: ***alguma** emenda* (positivo) × *emenda **alguma*** (negativo). É pronome indefinido nas duas posições.
 
 > [!CAUTION]
-> Diante de um item que desloca o adjetivo e afirma que "o sentido se preserva", leia as duas versões. Nesses pares, o sentido muda, e com "certo" e "algum" muda também a classe.
+> Diante de um item que desloca o adjetivo, "certo" ou "algum" e afirma que "o sentido se preserva", leia as duas versões. Nesses pares, o sentido muda; só com "certo" muda também a classe.
 
-## Artigo, numeral e o "o" que não é artigo
+## Artigo, numeral e o "o" (ou "a") que não é artigo
 
 **Definido ou indefinido.** *O substitutivo* fala de algo já conhecido do leitor; *um substitutivo*, de algo novo no texto. Cortar o indefinido muitas vezes não muda nada: o Manual de Comunicação do Senado prefere *O relator apresentou substitutivo* a *apresentou um substitutivo*.
 
@@ -107,6 +106,8 @@ Antes de numeral, porém, o indefinido indica aproximação: *A sessão durou **
 **Artigo ou numeral.** *Um deputado pediu vista* apresenta alguém: artigo. Em *Apenas um deputado votou contra*, a palavra conta: é numeral. Se a ideia é quantidade, em oposição a dois ou três, é numeral.
 
 **Artigo ou pronome.** Antes de "que", o "o" costuma valer por *aquilo* ou *aquele*: é pronome demonstrativo. *O relator repetiu **o** que a comissão aprovara* (= aquilo que). Junto do verbo, é pronome oblíquo: *O parecer? O relator **o** leu ontem.*
+
+**E o "a"?** Vale o mesmo raciocínio: artigo em *a emenda*; pronome oblíquo em *A emenda? O relator **a** retirou*; demonstrativo em *A emenda aprovada foi **a** que o líder apresentou* (= aquela). Ele pode ainda ser **preposição**, que liga um termo a outro e aparece até antes de masculino ou de plural, onde o artigo feminino singular não caberia: *O relator se referiu **a** dois projetos*.
 
 ### Numerais na lei
 
@@ -119,14 +120,16 @@ Para papas, reis, séculos e partes de uma obra, com o numeral depois do substan
 
 ## Os valores do "que"
 
-O "que" é a palavra de classificação múltipla mais lembrada. Cada valor tem um teste, resumido na figura.
+O "que" é a palavra de classificação múltipla mais lembrada. A figura reúne os valores mais cobrados, cada um com o seu teste e um exemplo.
 
-![Quadro dos valores do "que", com o teste e um exemplo de cada. Pronome relativo: retoma um termo e aceita a troca por "o qual"; exemplo: "O projeto que altera o Regimento voltou à pauta". Conjunção integrante: não retoma nada, e a oração vira "isso"; exemplo: "O relator afirmou que o texto tinha lacunas". Conjunção consecutiva: vem depois de "tão", "tanto" ou "tal"; exemplo: "A sessão foi tão longa que a pauta não terminou". Conjunção comparativa: vem depois de "mais" ou "menos" e equivale a "do que"; exemplo: "O substitutivo é mais curto que o original". Conjunção explicativa: equivale a "pois"; exemplo: "Aguardem, que a votação já começa". Pronome interrogativo: abre a pergunta, junto de um substantivo; exemplo: "Que emenda foi retirada?". Advérbio de intensidade: vem antes de adjetivo e o intensifica; exemplo: "Que longa foi a sessão!". Realce, na expressão "é que": sai junto com o "é" sem mudar o sentido; exemplo: "O Plenário é que decide" vira "O Plenário decide". Substantivo: tem determinante e acento; exemplo: "O discurso tinha um quê de despedida".](imagens/valores-do-que.svg "Os valores do “que”, com o teste de cada um")
+![Quadro dos valores do "que", com o teste e um exemplo de cada. Pronome relativo: retoma um termo e aceita a troca por "o qual"; exemplo: "O projeto que altera o Regimento voltou à pauta". Conjunção integrante: não retoma nada, e a oração vira "isso"; exemplo: "O relator afirmou que o texto tinha lacunas". Conjunção consecutiva: vem depois de "tão", "tanto", "tal" ou "tamanho"; exemplo: "A sessão foi tão longa que a pauta não terminou". Conjunção comparativa: vem depois de "mais", "menos", "melhor", "pior", "maior" ou "menor" e equivale a "do que"; exemplo: "O substitutivo é mais curto que o original e melhor que ele". Conjunção explicativa: equivale a "pois"; exemplo: "Aguardem, que a votação já começa". Pronome interrogativo: abre a pergunta, direta ou indireta, sozinho ("que", "o que") ou junto de um substantivo; exemplos: "Que houve?", "O que foi votado?", "Que emenda foi retirada?" e "Quis saber que emenda caiu". Advérbio de intensidade: vem antes de adjetivo ou de advérbio e o intensifica; exemplo: "Que longa foi a sessão!". Realce, na expressão "é que": sai junto com o "é" sem mudar o sentido; exemplo: "O Plenário é que decide" vira "O Plenário decide". Substantivo: tem determinante e acento; exemplo: "O discurso tinha um quê de despedida".](imagens/valores-do-que.svg "Os valores do “que”, com o teste de cada um")
+
+Dois valores raros ficaram fora da figura, e o vídeo do "que" indicado nos materiais da aula tem um capítulo para cada um: **preposição**, com o valor de *de* (*Temos **que** votar hoje* = temos de votar), e **interjeição**, com acento (***Quê!** Já encerraram a sessão?*).
 
 Os dois que mais se confundem:
 
 - **Pronome relativo**: retoma um termo anterior (o antecedente) e aceita a troca por *o qual* e flexões. *O projeto **que** altera o Regimento voltou à pauta* (= o qual). Por ser pronome, tem função na oração e pode vir com preposição: *a emenda **de que** o relator falou* (falou da emenda).
-- **Conjunção integrante**: abre uma oração que completa outra e não retoma nada. A oração inteira pode ser trocada por *isso*: *O relator afirmou **que** o texto tinha lacunas* → *afirmou isso*.
+- **Conjunção integrante**: abre uma oração que completa outra e não retoma nada. A oração inteira pode ser trocada por *isso*: *O relator afirmou **que** o texto tinha lacunas* → *afirmou isso*. Cuidado com a pergunta indireta: em *Quis saber **que** emenda caiu*, a oração também vira *isso*, mas o "que" acompanha o substantivo e é pronome interrogativo.
 
 Nas locuções, o valor é da locução inteira: *para que* (finalidade), *mesmo que* (concessão), *assim que* (tempo). As orações que essas palavras introduzem são assunto da aula de coordenação e subordinação.
 
@@ -135,9 +138,9 @@ Nas locuções, o valor é da locução inteira: *para que* (finalidade), *mesmo
 
 ## Os valores do "se"
 
-O "se" pode ser conjunção ou pronome. Primeiro, veja se ele liga orações ou se está preso a um verbo.
+O "se" pode ser conjunção ou pronome. Primeiro, veja se ele liga orações ou se está preso a um verbo. A figura traz os valores mais cobrados; o expletivo, mais raro, fecha a lista dos pronomes, logo abaixo dela.
 
-![Quadro dos valores do "se", com o teste e um exemplo de cada. Conjunções: condicional, que equivale a "caso", como em "Se houver quórum, a votação começa"; integrante, cuja oração vira "isso", como em "O presidente perguntou se havia acordo". Pronomes: apassivador, com verbo transitivo direto e sujeito sem preposição, com o qual o verbo concorda; teste: a passiva com "ser"; exemplo: "Aprovaram-se as emendas" vira "As emendas foram aprovadas". Índice de indeterminação do sujeito: o termo seguinte vem com preposição, ou não há termo, e o verbo fica no singular; exemplos: "Precisa-se de quórum" e "Trata-se de matéria urgente". Reflexivo: cabe "a si mesmo"; exemplo: "O deputado declarou-se impedido". Recíproco: cabe "um ao outro"; exemplo: "Os líderes cumprimentaram-se". Parte integrante do verbo: o verbo não se usa sem o pronome, e "a si mesmo" não cabe; exemplo: "O relator queixou-se do prazo".](imagens/valores-do-se.svg "Os valores do “se”, com o teste de cada um")
+![Quadro dos valores do "se", com o teste e um exemplo de cada. Conjunções: condicional, que equivale a "caso", como em "Se houver quórum, a votação começa" (= caso haja quórum); integrante, cuja oração vira "isso", como em "O presidente perguntou se havia acordo". Pronomes: apassivador, com verbo transitivo direto e sujeito sem preposição, com o qual o verbo concorda; teste: a passiva com "ser"; exemplo: "Aprovaram-se as emendas" vira "As emendas foram aprovadas". Índice de indeterminação do sujeito: com verbo transitivo indireto, intransitivo ou de ligação, o termo seguinte não é sujeito, e o verbo fica sempre no singular; exemplos: "Precisa-se de quórum", "Votou-se até tarde" e "Quando se é relator, o prazo parece curto". Reflexivo: cabe "a si mesmo"; exemplo: "O deputado declarou-se impedido". Recíproco: cabe "um ao outro"; exemplo: "Os líderes cumprimentaram-se". Parte integrante do verbo: o verbo não se usa sem o pronome, e "a si mesmo" não cabe; exemplo: "O relator queixou-se do prazo".](imagens/valores-do-se.svg "Os valores do “se”, com o teste de cada um")
 
 ### Conjunção
 
@@ -147,9 +150,10 @@ O "se" pode ser conjunção ou pronome. Primeiro, veja se ele liga orações ou 
 ### Pronome
 
 - **Apassivador**: com verbo transitivo direto, o termo sem preposição é o sujeito, e o verbo concorda com ele. Teste: a passiva com *ser*. *Aprovaram-**se** as emendas* → *As emendas foram aprovadas*. O sujeito pode ser uma oração: *Sabe-**se** que o prazo acabou* (= que o prazo acabou é sabido).
-- **Índice de indeterminação do sujeito**: com verbo que não é transitivo direto, o termo seguinte, quando existe, vem com preposição e não pode ser sujeito; o verbo fica no singular. *Trata-**se** de matéria urgente*; *Precisa-**se** de quórum qualificado*; *Votou-**se** até tarde*.
+- **Índice de indeterminação do sujeito**: com verbo transitivo indireto, intransitivo ou de ligação, nenhum termo da oração pode ser sujeito, e o verbo fica sempre no singular. O termo seguinte vem com preposição (*Trata-**se** de matéria urgente*; *Precisa-**se** de quórum qualificado*), não existe (*Votou-**se** até tarde*) ou é um predicativo, sem preposição (*Quando **se** é relator, o prazo parece curto*).
 - **Reflexivo**: o sujeito pratica e recebe a ação; cabe *a si mesmo*. *O deputado declarou-**se** impedido.* Se a ação é mútua, é **recíproco**: *Os líderes cumprimentaram-**se*** (um ao outro).
 - **Parte integrante do verbo**: o verbo não se usa sem o pronome, e *a si mesmo* não cabe. *O relator queixou-**se** do prazo*; *Ninguém **se** arrependeu do voto*.
+- **Expletivo** (de realce): pode sair sem mudar o sentido e não tem função na oração. *Os visitantes **se** foram antes do encerramento* (= foram).
 
 > [!WARNING]
 > Termo com preposição não é sujeito. Por isso, *Precisa-se de assessores* fica no singular: "Precisam-se de assessores" erra a concordância e a classificação do "se".
@@ -175,10 +179,11 @@ Junto ao infinitivo, o "se" muitas vezes pode sair sem prejuízo da correção: 
 O Manual de Comunicação do Senado e o Manual de Redação da Presidência separam os empregos:
 
 - depois de substantivo ou de pronome, vale por *próprio* e concorda: *Ela **mesma** redigiu o parecer*; *Elas **mesmas** assinaram a ata*;
+- antes de substantivo, vale por *idêntico* e também concorda: *As duas comissões enfrentam **os mesmos** problemas* (uso correto);
 - com sentido de *realmente*, *de fato*, não varia: *As bancadas votarão **mesmo** contra*;
 - substantivado, vale por *a mesma coisa*: *Aprovar não é **o mesmo** que promulgar*.
 
-O que os dois manuais condenam é *o mesmo*, *os mesmos* retomando nomes: *Os líderes leram as emendas, e os mesmos pediram votação* → *e pediram votação*; *Chamei a assessora, e a mesma não atendeu* → *e ela não atendeu*.
+O que os dois manuais condenam é *o mesmo*, *os mesmos* sem substantivo, no lugar de um nome já citado: *Os líderes leram as emendas, e os mesmos pediram votação* → *e pediram votação*; *Chamei a assessora, e a mesma não atendeu* → *e ela não atendeu*.
 
 ### Onde
 
@@ -209,3 +214,4 @@ O que os dois manuais condenam é *o mesmo*, *os mesmos* retomando nomes: *Os l�
 - Márcia Fernandes (Toda Matéria), "Funções do 'que'": https://www.todamateria.com.br/funcoes-do-que/
 - Elias Santana (blog do Gran Cursos Online), "O 'SE'": https://blog.grancursosonline.com.br/o-se-por-elias-santana/
 - Pasquale Cipro Neto (A Nossa Língua de Todo Dia, rádio CBN), "Qual é o certo?: 'muito boa vontade' ou 'muita boa vontade'; entenda" (pela descrição do episódio): https://podcasts.apple.com/br/podcast/qual-%C3%A9-o-certo-muito-boa-vontade-ou-muita-boa-vontade-entenda/id1227867522?i=1000757776154
+- Estude Grátis, questões de morfologia da banca Cespe/Cebraspe (itens de 2013 a 2021), referência para os formatos de item da parte "Como a banca pergunta": https://www.estudegratis.com.br/questoes-de-concurso/materia/portugues/assunto/morfologia/banca/cespe

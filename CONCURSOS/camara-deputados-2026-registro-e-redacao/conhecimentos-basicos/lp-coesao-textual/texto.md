@@ -4,22 +4,23 @@
 
 O edital pede o "domínio dos mecanismos de coesão textual" e o "emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual" (itens 4 e 4.1 da P1). Coesão é o que amarra uma parte do texto a outra: o pronome que aponta para um nome, a palavra omitida que o leitor recupera, o conector que diz que relação há entre duas ideias.
 
-Esta é a aula prática da P1: achar o referente, entender relativos e demonstrativos, recuperar a elipse e julgar a troca de conectores. A teoria (os mecanismos de Halliday e Hasan, a classificação de Koch, os fatores de coerência) fica para a aula de Linguística da P2 sobre leitura e coesão.
+Esta é a aula prática da P1: achar o referente, entender relativos e demonstrativos, recuperar a elipse, julgar a troca de conectores e o deslocamento dos advérbios que ordenam o texto. A teoria (os mecanismos de Halliday e Hasan, a classificação de Koch, os fatores de coerência) fica para a aula de Linguística sobre leitura, coesão e coerência, na P2.
 
 ## Como a banca transforma coesão em item
 
-No Cebraspe, o assunto quase nunca vem como pergunta de teoria. Vem preso a uma palavra do texto, com a linha ou o parágrafo indicados, em cinco formatos:
+No Cebraspe, o assunto quase nunca vem como pergunta de teoria. Vem preso a uma palavra do texto, com a linha ou o parágrafo indicados, em seis formatos:
 
 1. **Referente**: "o pronome 'os' tem como referente 'os projetos'".
 2. **Item composto**: o referente mais uma consequência ("…, motivo por que se classifica como pronome demonstrativo").
 3. **Elipse**: "depois de 'o segundo', está subentendido o vocábulo 'orador'".
 4. **Valor do conector**: "'enquanto' expressa circunstância de tempo".
 5. **Troca de conector**: "a substituição de 'porque' por 'posto que' manteria os sentidos e a correção gramatical do texto".
+6. **Outra reescrita**: a troca de um nome por sinônimo ou o deslocamento de um advérbio, sob o mesmo comando ("estariam mantidos os sentidos e a correção gramatical do texto caso…").
 
-Como cada erro anula um acerto, leia o item até o fim: nas provas recentes de nível superior, o erro costuma estar na segunda metade da frase.
+Como cada erro anula um acerto, leia o item até o fim antes de marcar: o erro pode estar em qualquer parte da frase, inclusive na premissa.
 
 > [!NOTE]
-> A incidência varia de prova para prova. No concurso do TCU de 2025 (prova de fevereiro de 2026), ao menos cinco dos vinte itens de Português eram de coesão. No da Câmara de 2025 (prova de março de 2026, nível superior), nenhum item perguntou "o termo X retoma Y": a coesão apareceu dentro da reescrita, como no deslocamento de um "Ainda" inicial. Prepare os cinco formatos.
+> A incidência varia de prova para prova. No concurso do TCU de 2025 (prova de fevereiro de 2026), ao menos cinco dos vinte itens de Português eram de coesão. No da Câmara de 2025 (prova de março de 2026, nível superior), nenhum item perguntou "o termo X retoma Y": a coesão apareceu dentro da reescrita, como no deslocamento de um "Ainda" inicial. Prepare os seis formatos.
 
 ## Achar o referente em quatro passos
 
@@ -72,7 +73,7 @@ Elipse é a omissão de um termo que o contexto permite recuperar. Pode faltar:
 
 - o **sujeito**: *A taquígrafa revisou as notas e enviou o texto à redação final* (quem enviou? a taquígrafa);
 - o **verbo**, com a vírgula marcando o lugar: *O primeiro orador defendeu o projeto; o segundo, a emenda* (o segundo orador defendeu a emenda);
-- o **nome**, depois de artigo ou demonstrativo: *Ouvimos três consultores, e o de maior experiência redigiu o voto* (o consultor de maior experiência).
+- o **nome**, depois de artigo, numeral ou adjetivo: *Ouvimos três consultores, e o de maior experiência redigiu o voto* (o consultor de maior experiência); *Dos cinco destaques, o Plenário aprovou dois* (dois destaques); *Entre a redação antiga e a nova, a comissão ficou com a nova* (a redação nova).
 
 O item de elipse afirma qual é a palavra omitida. Para julgar, **reescreva a frase com a palavra que o item propõe**: se ela não couber em gênero, número ou sentido, o item está errado. Desconfie também da afirmação de que outro trecho "explicita" o termo omitido: o termo elíptico, em geral, vem de algo já dito, e o trecho apontado pode estar desenvolvendo outra ideia.
 

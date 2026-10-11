@@ -4,7 +4,7 @@
 
 O edital pede, no item 2 de Linguística: "Categorias semânticas: gênero, número, pessoa, tempo, modo, aspecto e papéis semânticos". São sete assuntos com uma ideia em comum: **a forma gramatical e o sentido nem sempre andam juntos**. O feminino nem sempre indica mulher, o plural nem sempre indica mais de um, e o sujeito nem sempre é quem age.
 
-O Cebraspe raramente pede a definição solta. Ele aponta uma forma num trecho e pergunta que valor ela tem ali, ou propõe uma reescrita e pergunta se o sentido se mantém. Esta aula prepara para esses dois movimentos. O emprego normativo dos tempos e modos (conjugação, correlação) fica para a aula de Português de 15/10; a dêixis e a enunciação, para a de 22/10.
+O Cebraspe raramente pede a definição solta. Ele aponta uma forma num trecho e pergunta que valor ela tem ali, ou propõe uma reescrita e pergunta se o sentido se mantém. Esta aula prepara para esses dois movimentos. O emprego normativo dos tempos e modos (conjugação, correlação) fica para a aula de Português sobre tempos e modos verbais; a dêixis e a enunciação, para a de Teoria da enunciação e análise do discurso.
 
 ## Forma e sentido: dois planos
 
@@ -33,7 +33,7 @@ Os casos que a prova explora:
 
 Há um caso em que a concordância segue o sexo da pessoa, e não a palavra: os **pronomes de tratamento**. O Manual de Redação da Presidência da República (item 4.1.1) manda escrever *Vossa Excelência está atarefado* a um homem e *Vossa Excelência está atarefada* a uma mulher, embora *Excelência* seja palavra feminina.
 
-Outro ponto é o **masculino não marcado**. Para Mattoso, o masculino não tem marca (desinência zero) e o feminino é marcado pelo *-a*, assim como o singular não tem marca e o plural tem o *-s* (Kehdi, 1979). Por isso o masculino serve de forma geral: *os deputados* pode incluir as deputadas. Esse uso genérico, hoje discutido nas propostas de linguagem inclusiva, decorre da oposição entre forma marcada e não marcada.
+Outro ponto é o **masculino não marcado**. Para Mattoso, o masculino não tem marca (desinência zero) e o feminino é marcado pelo *-a*, assim como o singular não tem marca e o plural tem o *-s*. Kehdi (1979) expõe essa tese e, depois, a contesta. Nesta aula, a oposição entre forma marcada e não marcada serve para explicar por que o masculino funciona como forma geral: *os deputados* pode incluir as deputadas. Esse uso genérico é hoje discutido nas propostas de linguagem inclusiva.
 
 O português perdeu o neutro latino nos nomes, mas guardou um resto dele nos demonstrativos *isto*, *isso* e *aquilo*, que têm valor de "não humano". Daí o tom pejorativo de "Isso é o líder de vocês?" (Módolo e Braga, 2020).
 
@@ -43,7 +43,7 @@ Na forma, o singular não tem marca e o plural se marca com o *-s*. No sentido, 
 
 - **Nós de modéstia (ou de autor)**: o relator que escreve *entendemos que o projeto merece aprovação* pode estar falando só de si. Benveniste já observava que *nós* não é o plural de *eu*, como se houvesse vários *eus*, mas uma pessoa ampliada, que pode ser solene (o *nós* majestático) ou difusa (o *nós* do orador ou do autor) (Cordeiro, 2020).
 - **A gente**: veio do substantivo *gente* e hoje funciona como pronome de primeira pessoa do plural (eu + outros), com o verbo na terceira do singular: *a gente votou contra*. Pode ter referência específica (eu e meus colegas) ou genérica (qualquer um de nós) (Silva e Camacho, 2017).
-- **Número e repetição**: o número do complemento muda a leitura do verbo. *O relator apresentou um requerimento* descreve um fato único; *o relator apresentou requerimentos*, fatos repetidos. Castilho (2025) observa que o singular tende ao semelfactivo (uma ocorrência) e o plural, ao iterativo.
+- **Número e repetição**: o número do complemento muda a leitura do verbo. *O relator apresentou o requerimento da bancada* descreve um fato único; *o relator apresentou os requerimentos da bancada* tende a ser lido como uma série de fatos. Castilho (2025) observa que, com sintagmas nominais específicos (como *o requerimento da bancada*), o singular tende ao semelfactivo (uma ocorrência) e o plural, ao iterativo.
 
 > [!WARNING]
 > Com *a gente*, a concordância padrão é na terceira pessoa do singular: *a gente votou*. A forma *a gente votamos* aparece na fala, mas não é a da norma-padrão.
@@ -64,7 +64,7 @@ A pessoa do discurso e a pessoa gramatical também se separam:
 
 O tempo localiza o fato em relação ao **momento da fala**. Por isso é uma categoria **dêitica**: depende de quando se fala. Da mesma votação, quem fala na véspera diz que *ocorrerá*; quem fala no dia seguinte, que *ocorreu*. O aspecto, como se verá, não depende do momento da fala (Castilho, 2025; Barbosa e Longo, 2003).
 
-Uma descrição muito usada, que vem de Reichenbach (1947), trabalha com três momentos:
+Uma descrição muito usada, que vem de Reichenbach (1947), trabalha com três momentos (Barbosa e Longo, 2003; Vikner, 1985):
 
 - **momento da fala (MF)**: quando se fala ou se escreve;
 - **momento do evento (ME)**: quando o fato ocorre;
@@ -72,9 +72,12 @@ Uma descrição muito usada, que vem de Reichenbach (1947), trabalha com três m
 
 O terceiro momento explica os tempos "relativos". Em *Quando o relator chegou, a comissão já votara o parecer*, a votação (ME) é anterior à chegada do relator (MR), que é anterior ao momento em que se conta o fato (MF). A figura mostra a fórmula de cada tempo, na descrição de Corôa (1985) retomada por Barbosa e Longo (2003).
 
-![Esquema dos três momentos. No alto, uma linha do tempo com a frase "Quando o relator chegou, a comissão já votara o parecer": primeiro o momento do evento (ME, a votação), depois o momento de referência (MR, a chegada do relator), por fim o momento da fala (MF, agora, quando se conta o fato). Abaixo, cinco linhas do tempo menores, uma por tempo do indicativo. Presente, "a comissão vota": ME, MR e MF juntos. Pretérito perfeito, "a comissão votou": ME antes de MR e MF, que estão juntos. Pretérito imperfeito, "a comissão votava": ME e MR juntos, antes de MF. Mais-que-perfeito, "a comissão votara": ME antes de MR, e MR antes de MF. Futuro do presente, "a comissão votará": MR e MF juntos, antes de ME.](imagens/tres-momentos-do-tempo.svg "Os três momentos de Reichenbach, na descrição de Corôa (1985)")
+![Esquema dos três momentos. No alto, uma linha do tempo com a frase "Quando o relator chegou, a comissão já votara o parecer": primeiro o momento do evento (ME, a votação), depois o momento de referência (MR, a chegada do relator), por fim o momento da fala (MF, agora, quando se conta o fato). Abaixo, cinco linhas do tempo menores, uma por tempo do indicativo. Presente, "a comissão vota": ME, MR e MF juntos. Pretérito perfeito, "a comissão votou": ME antes de MR e MF, que estão juntos, com um asterisco: fórmula de Corôa. Pretérito imperfeito, "a comissão votava": ME e MR juntos, antes de MF. Mais-que-perfeito, "a comissão votara": ME antes de MR, e MR antes de MF. Futuro do presente, "a comissão votará": MR e MF juntos, antes de ME. No pé, a nota do asterisco: em Reichenbach, o passado simples é ME e MR juntos, antes de MF, e "ME antes de MR = MF" é o present perfect do inglês.](imagens/tres-momentos-do-tempo.svg "Os três momentos, nas fórmulas de Corôa (1985)")
 
-Repare na diferença entre perfeito e imperfeito: no perfeito, o fato passado é visto a partir do presente; no imperfeito, a partir de um ponto do passado. A própria Corôa admite que essa diferença se completa com outra, de aspecto. O futuro do pretérito situa o fato depois de um momento de referência passado: *O relator anunciou que votaria contra.*
+Repare na diferença entre perfeito e imperfeito, na leitura de Corôa: no perfeito, o fato passado é visto a partir do presente; no imperfeito, a partir de um ponto do passado. A própria Corôa admite que essa diferença se completa com outra, de aspecto. O futuro do pretérito situa o fato depois de um momento de referência passado: *O relator anunciou que votaria contra.*
+
+> [!NOTE]
+> A fórmula do perfeito na figura é de Corôa, não de Reichenbach. Em Reichenbach, o passado simples (*worked*, em inglês) tem ME e MR juntos, antes de MF, como o imperfeito da figura; "ME antes de MR = MF" é a fórmula do *present perfect* (*has worked*). Corôa a aplica ao perfeito português porque nele se contempla o resultado do evento, visto do presente (Barbosa e Longo, 2003; Vikner, 1985). Num item, siga a descrição que o enunciado adotar.
 
 ## O tempo da forma e o tempo do fato
 
@@ -93,24 +96,27 @@ O tempo gramatical da forma nem sempre coincide com o tempo do fato. O presente 
 
 Tempo responde a "quando?"; aspecto responde a "como o fato se desenrola?": se dura, se se repete, em que fase é mostrado. O aspecto **não é dêitico**: *estava discursando*, *está discursando* e *estará discursando* têm tempos diferentes e o mesmo aspecto, o discurso em curso.
 
-Travaglia (2016) define a oposição básica assim:
+Travaglia (2016, p. 85) define a oposição básica assim:
 
-- **Perfectivo**: o fato visto de fora, como um todo, com começo, meio e fim englobados. *O deputado discursou.*
-- **Imperfectivo**: o fato visto de dentro, numa de suas fases, sem o todo. *O deputado discursava quando a sessão foi suspensa.*
+- **Perfectivo**: apresenta a situação "como completa", "com começo, meio e fim englobados juntos"; "é como se a situação fosse vista de fora, em sua globalidade". *O deputado discursou.*
+- **Imperfectivo**: apresenta a situação "como incompleta", em geral numa de suas fases; é "como se a situação fosse vista de dentro". *O deputado discursava quando a sessão foi suspensa.*
+
+Travaglia lembra que Comrie (1976) também caracteriza o perfectivo pela situação vista em seu todo.
 
 > [!WARNING]
 > Perfectivo não quer dizer curto. Para Travaglia, *ouviu música o dia todo* é perfectivo: o fato durou, mas é apresentado como um todo concluído. Castilho (2025) usa outro quadro, em que o perfectivo é pensado como um ponto e *andaram durante três horas* fica no imperfectivo. Num item, siga a definição que o enunciado der.
 
 ## Fases, duração e repetição
 
-O fato também pode ser mostrado numa fase. Os nomes abaixo são de Travaglia (2016):
+O fato também pode ser mostrado numa fase. Travaglia (2016, p. 84) olha as fases de dois pontos de vista, com nomes diferentes. As **fases de desenvolvimento** dividem a situação em curso:
 
 - **inceptivo**: o começo. *A comissão começa a votar os destaques.*
 - **cursivo**: o meio, em pleno curso. *A comissão está votando os destaques.*
-- **terminativo**: os últimos momentos. *A comissão está terminando de votar os destaques.*
-- **acabado**: o fato já depois do término. *A comissão já votou os destaques.*
+- **terminativo**: o fim ou os últimos momentos. *A comissão está terminando de votar os destaques.*
 
-![Esquema das fases do aspecto com a situação "votar os destaques", desenhada como uma faixa horizontal entre o início e o fim. No começo da faixa, o inceptivo: "começa a votar". No meio, o cursivo: "está votando". Perto do fim, o terminativo: "está terminando de votar". Depois do fim, o acabado: "já votou" e "acaba de votar" (acabado para Travaglia; Castilho chama "acabou de fumar" de terminativo). Acima da faixa, um colchete que abraça a situação inteira: perfectivo, o fato visto de fora, como um todo ("a comissão votou os destaques"). Sobre o meio da faixa, uma janela tracejada: imperfectivo, o fato visto de dentro, numa fase, sem o todo ("a comissão votava os destaques quando faltou luz").](imagens/fases-do-aspecto.svg "Perfectivo, imperfectivo e as fases, com os nomes de Travaglia (2016)")
+As **fases de realização** dizem se a situação ainda não começou (**não começado**: *o parecer está por votar*), se já começou e não acabou (**começado** ou **não acabado**) ou se já terminou (**acabado**: *a comissão já votou os destaques*). Para Travaglia, as três fases de desenvolvimento são subdivisões da fase "começada ou não acabada".
+
+![Esquema das fases do aspecto com a situação "votar os destaques", desenhada como uma faixa horizontal entre o início e o fim. No começo da faixa, o inceptivo: "começa a votar". No meio, o cursivo: "está votando". Perto do fim, o terminativo: "está terminando de votar". Uma chave sob os três diz que são fases de desenvolvimento. Depois do fim, separado, o acabado: "já votou" e "acaba de votar", marcado como fase de realização (acabado para Travaglia; Castilho chama "acabou de fumar" de terminativo). Acima da faixa, um colchete que abraça a situação inteira: perfectivo, o fato visto de fora, como um todo ("a comissão votou os destaques"). Sobre o meio da faixa, uma janela tracejada: imperfectivo, o fato visto de dentro, numa fase, sem o todo ("a comissão votava os destaques quando faltou luz").](imagens/fases-do-aspecto.svg "Perfectivo, imperfectivo e as fases, com os nomes de Travaglia (2016)")
 
 Quanto à duração e à repetição, Travaglia distingue o **durativo** (duração contínua e limitada: *ficou discursando até as 20h*), o **iterativo** (repetição limitada: *tem pedido a palavra nas últimas sessões*) e o **habitual** (repetição sem limite definido: *costuma chegar cedo*).
 
@@ -127,7 +133,7 @@ Ilari (2020) resume o que o perfeito composto (*tem apresentado*, *tenho estado*
 - **continuidade**, com verbos de estado: *Tenho estado doente.*
 - em qualquer dos casos, um período que **começa no passado e chega ao momento da fala**.
 
-O perfeito simples, ao contrário, fecha o fato no passado: *O relator apresentou o requerimento* pode ter sido uma vez só, e já acabou.
+O perfeito simples, para a maioria dos autores que Barbosa e Longo (2003) resenham, exprime ação concluída: *O relator apresentou o requerimento* pode ter sido uma vez só, e já acabou. Não é regra absoluta: com *sempre*, o simples também chega ao presente (*O relator sempre morou em Brasília*).
 
 > [!CAUTION]
 > Trocar *apresentou* por *tem apresentado* (ou o contrário) mantém a correção, mas muda o sentido: um fato concluído passa a ser uma série que chega até agora.
@@ -159,7 +165,7 @@ Os auxiliares modais são ambíguos, e o contexto decide:
 Um teste prático, que é recomendação desta aula e não regra de autor: tente parafrasear. Se couber *tem a obrigação de* ou *tem permissão para*, a leitura é deôntica; se couber *provavelmente* ou *é possível que*, é epistêmica.
 
 > [!NOTE]
-> *Convém que* (*convém que o relator ouça os especialistas*) exprime conselho, recomendação de conduta. Nesta aula, fica com a deôntica, que é o eixo da conduta (Corbari, 2013). O emprego normativo de cada modo (subjuntivo depois de *convém que*, por exemplo) é assunto da aula de tempos e modos.
+> *Convém que* divide os autores. Duarte (2012, p. 78), que trata dos três primeiros meios da lista acima, põe *convém que não faltes a essa reunião* (exemplo de Rocha Lima) entre os de modalidade epistêmica. Esta aula lê *convém que o relator ouça os especialistas* como deôntico, porque exprime conselho, uma recomendação de conduta, e a deôntica é o eixo da conduta (Corbari, 2013). É uma leitura da aula, não consenso: num item, siga a definição que o enunciado der. O emprego normativo de cada modo (subjuntivo depois de *convém que*, por exemplo) é assunto da aula de tempos e modos.
 
 ## Papéis semânticos: quem faz o quê
 
@@ -183,7 +189,7 @@ Esta aula usa os nomes abaixo, que seguem em geral os de Perini (2010), conforme
 
 ## Agente ou causa: o teste do controle
 
-Cançado (2005) decompõe os papéis em propriedades. Uma delas é ser **desencadeador** do processo; outra é ter **controle**, que ela define como a capacidade de interromper a ação, o processo ou o estado. O agente típico reúne as duas. Na lista de Mira Mateus, o agente é a entidade "controladora", e a origem, a "não controladora" (Cunha, 2005). Em *A tempestade derrubou a energia do plenário*, a tempestade desencadeia o fato, mas não tem como interrompê-lo.
+Cançado (2005) decompõe os papéis em propriedades. Uma delas é ser **desencadeador** do processo; outra é ter **controle**, que ela define como "a capacidade de se interromper uma ação, um processo ou um estado". O agente típico reúne as duas. Na lista de Mira Mateus, o agente é a entidade "controladora", e a origem, a "não controladora" (Cunha, 2005). Em *A tempestade derrubou a energia do plenário*, a tempestade desencadeia o fato, mas não tem como interrompê-lo.
 
 Um teste prático (de novo, recomendação desta aula): acrescente *de propósito*. *O técnico desligou o microfone de propósito* é normal; *a queda de energia desligou o microfone de propósito* é absurdo. No primeiro caso há agente; no segundo, causa.
 
@@ -193,12 +199,12 @@ Cançado também lembra que nem todo objeto direto é afetado. Em *O relator leu
 
 A definição escolar de sujeito como "quem pratica a ação" falha em muitos casos. Na passiva, o sujeito nunca é agente; e mesmo na voz ativa o sujeito só é necessariamente agente com poucos tipos de verbo (Cunha, 2005). A figura reúne os casos que mais caem.
 
-![Quadro com oito frases, a função sintática do termo destacado e o papel semântico dele. "O relator retirou o requerimento": o sujeito "o relator" é agente. "A ata foi rasgada pelo servidor": o sujeito "a ata" é paciente; o agente é "pelo servidor", agente da passiva. "O microfone desligou": construção ergativa, o sujeito é paciente. "A queda de energia desligou o microfone": o sujeito é causa. "A chave abriu o armário": o sujeito é instrumento. "A deputada temia a derrota": o sujeito é experienciador. "O partido tem doze cadeiras": o sujeito é possuidor. "O ladrão apanhou do vigia": o sujeito é paciente, e o agente vem com a preposição "de". No pé: a função é do plano da forma, o papel é do plano do sentido; numa reescrita, em geral, a função muda e o papel fica.](imagens/sujeito-e-papel-semantico.svg "Mesma função, papéis diferentes")
+![Quadro com oito frases, a função sintática do termo destacado e o papel semântico dele. "O relator retirou o requerimento": o sujeito "o relator" é agente. "A ata foi rasgada pelo servidor": o sujeito "a ata" é paciente; o agente é "pelo servidor", agente da passiva. "O microfone desligou": construção ergativa, o sujeito é paciente. "A queda de energia desligou o microfone": o sujeito é causa. "A chave abriu o armário": o sujeito é instrumento. "A deputada temia a derrota": o sujeito é experienciador. "O partido tem doze cadeiras": o sujeito é possuidor. "O desafiante apanhou do campeão": o sujeito é paciente, e o agente vem com a preposição "de". No pé: a função é do plano da forma, o papel é do plano do sentido; numa reescrita, em geral, a função muda e o papel fica.](imagens/sujeito-e-papel-semantico.svg "Mesma função, papéis diferentes")
 
 Dois desses casos merecem atenção:
 
 - **Ergativas**: *O microfone desligou* tem sujeito afetado, não agente. Compare com a transitiva *O técnico desligou o microfone* (agente) e com *A queda de energia desligou o microfone* (causa). Na ergativa, o desencadeador simplesmente some da frase.
-- **"Apanhar de"**: Perini chama de construção de derrota a frase *O ladrão apanhou do vigia*: o sujeito sofre a ação, e quem a pratica vem com *de*.
+- **"Apanhar de"**: Perini, conforme Corrêa (2012), chama de construção de derrota o padrão de *O desafiante apanhou do campeão*: o sujeito sofre a ação, e quem a pratica vem com *de*.
 
 O sujeito também pode ser a meta de uma transferência: em *O deputado recebeu o ofício*, o sujeito não age sobre o ofício; é o destino dele.
 
@@ -208,7 +214,7 @@ As reescritas que a banca propõe mudam as funções e, em geral, mantêm os pap
 
 - **Ativa e passiva**: em *O Plenário aprovou a emenda* e *A emenda foi aprovada pelo Plenário*, "o Plenário" é agente nas duas, sujeito na primeira e agente da passiva na segunda.
 - **Transitiva e ergativa**: em *A queda de energia desligou o microfone* e *O microfone desligou*, "o microfone" continua afetado, mas passa de objeto a sujeito.
-- **Bater em e apanhar de**: em *O vigia bateu no ladrão* e *O ladrão apanhou do vigia*, os papéis ficam e as funções se invertem.
+- **Bater em e apanhar de**: em *O campeão bateu no desafiante* e *O desafiante apanhou do campeão*, os papéis ficam e as funções se invertem.
 
 > [!IMPORTANT]
 > Se o item disser que, na reescrita, um termo "passa a ser o agente" só porque virou sujeito, desconfie: a função mudou, o papel não.
@@ -228,8 +234,9 @@ As reescritas que a banca propõe mudam as funções e, em geral, mantêm os pap
 ## Fontes
 
 - Ataliba Teixeira de Castilho, "Português Brasileiro falado, abordagem multissistêmica e aspecto verbal", Revista do GEL, v. 22, n. 2, 2025: https://revistas.gel.org.br/rg/article/view/4070
-- Luiz Carlos Travaglia, "O aspecto verbal no português: a categoria e sua expressão", 5ª ed., EDUFU, 2016: https://repositorio.ufu.br/handle/123456789/29615
+- Luiz Carlos Travaglia, "O aspecto verbal no português: a categoria e sua expressão", 5ª ed., EDUFU, 2016 (Quadro III, p. 84; com Comrie, 1976, sobre o perfectivo): https://repositorio.ufu.br/handle/123456789/29615
 - Juliana Bertucci Barbosa e Beatriz Nunes de Oliveira Longo, "Um estudo do pretérito perfeito simples e composto no português brasileiro", Letras & Letras, v. 19, n. 2, 2003 (com a descrição de Corôa, 1985): https://seer.ufu.br/index.php/letraseletras/article/view/25151
+- Sten Vikner, "Reichenbach revisited: one, two, or three temporal relations?", Acta Linguistica Hafniensia, v. 19, n. 2, 1985 (com o sistema de tempos de Reichenbach, 1947): https://tildeweb.au.dk/au132769/papers/vikn85b.pdf
 - Rodolfo Ilari, "A semântica do passado composto em português (projeto de pesquisa)", Diadorim, v. 22, n. 2, 2020: https://revistas.ufrj.br/index.php/diadorim/article/view/39309
 - Marcelo Módolo e Henrique Braga, "Covid tem gênero?", Jornal da USP, 2020: https://jornal.usp.br/artigos/covid-tem-genero/
 - Antônio Sérgio Cavalcante da Cunha, "A flexão de gênero dos substantivos", Soletras, n. 15, 2008 (sobre Mattoso Câmara e Rocha): https://www.e-publicacoes.uerj.br/soletras/article/view/4736

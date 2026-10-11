@@ -52,9 +52,10 @@
     <tspan x="180"><tspan font-weight="700" fill="#1c5cab">Para o relator</tspan>, a proposta</tspan>
     <tspan x="180" dy="18">reduz a burocracia.</tspan>
   </text>
-  <text x="454" y="250.5" font-size="13" fill="#2b2a28">
-    <tspan x="454"><tspan font-weight="700" fill="#b8481f">O autor defende</tspan> que a</tspan>
-    <tspan x="454" dy="18">proposta reduz a burocracia.</tspan>
+  <text x="454" y="241.5" font-size="13" fill="#2b2a28">
+    <tspan x="454"><tspan font-weight="700" fill="#b8481f">O autor do texto defende</tspan></tspan>
+    <tspan x="454" dy="18">que a proposta reduz a</tspan>
+    <tspan x="454" dy="18">burocracia.</tspan>
   </text>
   <!-- 4. Meio e fim invertidos -->
   <rect x="12" y="298" width="696" height="74" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>

@@ -14,18 +14,19 @@
 ## Posição, artigo e numeral
 
 - *velho parlamentar* × *parlamentar velho*; *alto funcionário* × *funcionário alto*.
-- ***certo** deputado* (pronome indefinido) × *o relator **certo*** (adjetivo); *emenda **alguma*** (negativa).
+- ***certo** deputado* (pronome indefinido) × *o relator **certo*** (adjetivo): muda a classe.
+- ***alguma** emenda* (positiva) × *emenda **alguma*** (negativa): pronome indefinido nas duas, muda só o valor.
 - *todo o plenário* (inteiro) × *todo plenário* (qualquer).
 - *umas cinco horas*: o indefinido dá aproximação; sem ele, o número fica exato.
-- *o que a comissão aprovou*: "o" = *aquilo*, pronome demonstrativo.
+- *o que a comissão aprovou*: "o" = *aquilo*, pronome demonstrativo. O "a" também pode ser pronome (*o relator a leu*; *a que o líder apresentou*) ou preposição (*referiu-se a dois projetos*).
 - Lei: ordinal até o nono, cardinal depois (*art. 9º*, *art. 10*; *§ 9º*, *§ 10*). Datas: ordinal só no dia *1º*. Séculos e papas: ordinal até o décimo.
 
 ## "Que", "se", "como", "mesmo" e "onde"
 
-- **que** relativo (= *o qual*, retoma) × integrante (a oração vira *isso*). Também: consecutivo (*tão… que*), comparativo, explicativo, interrogativo, intensidade (*Que longa foi a sessão!*), realce (*é que*, sai sem mudar o sentido) e substantivo (*um quê*).
-- **se** conjunção: condicional (= *caso*), integrante (= *isso*). Pronome: apassivador (VTD; *Aprovaram-se as emendas* = *foram aprovadas*), indeterminação (termo com preposição, verbo no singular: *Precisa-se de quórum*), reflexivo (*a si mesmo*), recíproco (*um ao outro*), parte integrante (*queixou-se*).
+- **que** relativo (= *o qual*, retoma) × integrante (a oração vira *isso*). Também: consecutivo (*tão… que*), comparativo (depois de *mais*, *menos*, *melhor*, *pior*, *maior*, *menor*), explicativo, interrogativo (*Que houve?*, *O que foi votado?*, *Que emenda…?*), intensidade (*Que longa foi a sessão!*), realce (*é que*, sai sem mudar o sentido), substantivo (*um quê*) e, raros, preposição (*ter que* = *ter de*) e interjeição (*Quê!*).
+- **se** conjunção: condicional (= *caso*), integrante (= *isso*). Pronome: apassivador (VTD; *Aprovaram-se as emendas* = *foram aprovadas*), indeterminação (verbo transitivo indireto, intransitivo ou de ligação, sem sujeito e sempre no singular: *Precisa-se de quórum*, *Votou-se até tarde*, *Quando se é relator…*), reflexivo (*a si mesmo*), recíproco (*um ao outro*), parte integrante (*queixou-se*), expletivo (sai sem mudar o sentido: *se foram*).
 - **como**: conformativa (= *conforme*), causal (= *já que*, no início), comparativa, preposição (= *na qualidade de*), relativo (*o modo como*).
-- **mesmo**: = *próprio*, concorda; = *de fato*, invariável; nunca "os mesmos" para retomar nomes.
+- **mesmo**: = *próprio* ou *idêntico*, concorda (*ela mesma*; *os mesmos problemas*, correto); = *de fato*, invariável; nunca "os mesmos" sem substantivo, para retomar nomes.
 - **onde**: só lugar físico; fora disso, *em que*, *no qual*, *na qual*.
 
 > [!CAUTION]

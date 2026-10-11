@@ -71,10 +71,12 @@ As exclamações seguem a mesma lógica: *ai!* em português, *ouch!* em inglês
 
 Saussure evita chamar o signo linguístico de **símbolo**, porque o símbolo nunca é inteiramente arbitrário: há nele um rudimento de laço natural. A balança, símbolo da justiça, não poderia ser trocada por qualquer coisa, um carro, por exemplo.
 
-Em Peirce, a palavra tem outro uso. Ele distingue o **ícone** (liga-se ao objeto por semelhança, como um retrato), o **índice** (por uma conexão de fato, como o cata-vento e o vento) e o **símbolo** (por convenção ou lei, como as palavras).
+Em Peirce, a palavra tem outro uso. Para ele, todo signo envolve três elementos: o **representâmen** (aquilo que significa, como a palavra escrita ou a fumaça), o **objeto** (aquilo que é significado, como o fogo que a fumaça indica) e o **interpretante** (o entendimento que o signo produz da relação com o objeto, que é, ele mesmo, um novo signo, uma espécie de tradução do primeiro).
+
+Pela relação com o objeto, Peirce distingue o **ícone** (liga-se ao objeto por semelhança, como um retrato), o **índice** (por uma conexão de fato, como o cata-vento e o vento) e o **símbolo** (por convenção ou lei, como as palavras).
 
 > [!WARNING]
-> O símbolo de Saussure é motivado; o de Peirce é convencional. "Para Saussure, o símbolo é o signo arbitrário por excelência" mistura os dois autores.
+> O símbolo de Saussure é motivado; o de Peirce é convencional. "Para Saussure, o símbolo é o signo arbitrário por excelência" mistura os dois autores. E o **interpretante** não é o intérprete: não é a pessoa que lê o signo, mas o efeito que o signo produz, outro signo.
 
 ## Motivação relativa
 
@@ -117,16 +119,20 @@ Frege, em "Sobre o sentido e a referência" (1892), parte de um problema. Se "a 
 - **Sentido** (*Sinn*): o modo de apresentação desse objeto. É objetivo: qualquer pessoa que conheça a língua o apreende, e muitas podem partilhá-lo.
 - **Representação** (*Vorstellung*): a imagem interna, feita de lembranças e sentimentos. É subjetiva: um pintor, um cavaleiro e um zoólogo associam ao nome "Bucéfalo" representações bem diferentes.
 
+Nos termos de Frege, o nome **exprime** o seu sentido e **designa** a sua referência; ao sentido, por sua vez, corresponde uma referência. Quem designa o objeto é o nome; o sentido é o modo como o nome o apresenta.
+
+Frege admite, numa nota, que o sentido de um nome próprio pode variar de um falante para outro. Para um, "Aristóteles" quer dizer "o aluno de Platão e preceptor de Alexandre Magno"; para outro, "o preceptor de Alexandre Magno nascido em Estagira". Enquanto a referência for a mesma, diz ele, essa variação se tolera, embora uma ciência demonstrativa deva evitá-la. Isso não torna o sentido subjetivo: cada um desses sentidos pode ser apreendido e partilhado por qualquer pessoa. A representação, não: é de cada um.
+
 Frege compara a situação a quem observa a Lua por um telescópio. A Lua é a referência. A imagem formada pela lente do telescópio é o sentido: parcial, dependente do lugar de onde se olha, mas objetiva, porque vários observadores podem usá-la. A imagem na retina de cada um é a representação.
 
 A frase também tem sentido e referência. O sentido é o **pensamento**, conteúdo objetivo, e não o ato de pensar; a referência é o **valor de verdade**, o verdadeiro ou o falso. "Ulisses desembarcou em Ítaca dormindo profundamente" tem sentido, mas não se sabe se tem referência; diante de um poema, isso não importa.
 
 Um exemplo legislativo: "a Câmara dos Deputados" e "a casa em que começa a discussão dos projetos de lei de iniciativa do presidente da República" (Constituição, art. 64) têm a mesma referência e sentidos diferentes. Dizer que uma é a outra informa; dizer que a Câmara é a Câmara, não.
 
-![Dois esquemas lado a lado. À esquerda, o triângulo de Ogden e Richards (1923): no vértice de cima, pensamento ou referência; embaixo à esquerda, o símbolo, por exemplo a palavra "cão"; embaixo à direita, o referente, os cães da rua. Lado esquerdo: simboliza, relação causal. Lado direito: refere-se a, outras relações causais. Base tracejada: está por, relação apenas imputada, sem ligação direta. À direita, a tríade de Frege (1892), com o exemplo do telescópio. O nome, "a estrela da manhã" ou "a estrela da tarde", exprime um sentido: o modo de apresentação, um para cada nome, objetivo, comparado à imagem na lente do telescópio. O sentido designa a referência: o objeto, Vênus, o mesmo para os dois nomes, comparado à própria Lua. Num quadro tracejado, a representação: imagem interna e subjetiva, de cada pessoa, comparada à imagem na retina de cada observador; ela acompanha o nome, mas não é o sentido nem a referência. Faixa no pé: "referência" muda de lugar; em Ogden e Richards, referência é o pensamento, e o objeto é o referente; em Frege, na tradução brasileira, referência é o próprio objeto.](imagens/triangulo-e-triade.svg "Os termos de Ogden e Richards e os de Frege")
+![Dois esquemas lado a lado. À esquerda, o triângulo de Ogden e Richards (1923): no vértice de cima, pensamento ou referência; embaixo à esquerda, o símbolo, por exemplo a palavra "cão"; embaixo à direita, o referente, os cães da rua. Lado esquerdo: simboliza, relação causal. Lado direito: refere-se a, outras relações causais. Base tracejada: está por, relação apenas imputada, sem ligação direta. À direita, a tríade de Frege (1892), com o exemplo do telescópio. O nome, "a estrela da manhã" ou "a estrela da tarde", exprime um sentido: o modo de apresentação, um para cada nome, objetivo, comparado à imagem na lente do telescópio. Ao sentido corresponde a referência: o objeto, Vênus, o mesmo para os dois nomes, comparado à própria Lua. Uma seta à parte, que contorna o sentido, vai do nome à referência: o nome designa a referência. Num quadro tracejado, a representação: imagem interna e subjetiva, de cada pessoa, comparada à imagem na retina de cada observador; ela acompanha o nome, mas não é o sentido nem a referência. Faixa no pé: "referência" muda de lugar; em Ogden e Richards, referência é o pensamento, e o objeto é o referente; em Frege, na tradução brasileira, referência é o próprio objeto, que o nome designa, e o sentido é o modo de apresentá-lo.](imagens/triangulo-e-triade.svg "Os termos de Ogden e Richards e os de Frege")
 
 > [!CAUTION]
-> Sentido não é representação: o sentido é objetivo e partilhado; a representação é subjetiva e varia de pessoa para pessoa. E a referência de uma frase, em Frege, é o valor de verdade, não o pensamento.
+> Sentido não é representação: o sentido é objetivo e partilhado; a representação é subjetiva e varia de pessoa para pessoa. Quem designa a referência é o nome, e não o sentido. E a referência de uma frase, em Frege, é o valor de verdade, não o pensamento.
 
 ## A mesma palavra em autores diferentes
 
@@ -143,12 +149,17 @@ O par tem pelo menos quatro usos, e cada um exige uma leitura diferente do item.
 
 1. **Lógica (Stuart Mill, 1843)**: um nome conotativo **denota** os sujeitos e **conota** os atributos. "Branco" denota as coisas brancas (a neve, o papel) e conota a brancura. Nomes próprios denotam sem conotar. Aqui, a conotação faz parte do sentido literal.
 2. **Frege e Russell, em inglês**: *denotation* é a relação com o objeto, ou o próprio objeto; é a referência da parte anterior.
-3. **Hjelmslev (1943) e Barthes (1964)**: uma semiótica **denotativa** tem expressão e conteúdo, e nenhum dos dois planos é, ele mesmo, uma semiótica. Na **conotação**, um sistema inteiro, com expressão e conteúdo, vira o plano da expressão de um segundo sistema. Na **metalinguagem**, vira o plano do conteúdo.
+3. **Hjelmslev (1943)**, retomado por **Barthes (1964)**: uma semiótica **denotativa** tem expressão e conteúdo, e nenhum dos dois planos é, ele mesmo, uma semiótica. Na **conotação**, um sistema inteiro, com expressão e conteúdo, vira o plano da expressão de um segundo sistema. Na **metalinguagem**, vira o plano do conteúdo.
 4. **Gramática escolar e estilística**: **denotação** é o sentido literal, referencial, de dicionário; **conotação**, o sentido acrescentado pelo contexto: figurado, afetivo, social.
 
 Na conotação de Hjelmslev, o novo conteúdo são os "conotadores": o estilo, o registro, a fala ou a escrita, a própria língua. Não precisa haver figura de linguagem.
 
-![Três esquemas de caixas, no modelo de Hjelmslev e Barthes, com E para expressão e C para conteúdo. Denotação, um sistema só: E é "Vossa Excelência"; C é o deputado a quem se fala. Conotação: o sistema inteiro, "Vossa Excelência" com o seu conteúdo, o deputado a quem se fala, ocupa o lugar da expressão de um segundo sistema, cujo conteúdo é registro formal, linguagem parlamentar. Metalinguagem: o sistema inteiro ocupa o lugar do conteúdo de um segundo sistema, cuja expressão é o termo do gramático, "pronome de tratamento". No pé: na gramática escolar, conotação é o sentido figurado; em Hjelmslev e Barthes, é um segundo sistema, que pode existir sem figura nenhuma.](imagens/denotacao-conotacao-metalinguagem.svg "Denotação, conotação e metalinguagem no modelo de Hjelmslev e Barthes")
+> [!CAUTION]
+> "Conotador" muda de lado de um autor para o outro. Em Hjelmslev, os conotadores são o **conteúdo** da conotação (o registro formal, a oralidade, a própria língua). Barthes chama de "conotadores" os **significantes** da conotação, isto é, o que fica do lado da expressão do segundo sistema. Diante de um item com a palavra, veja primeiro de que autor é a afirmação.
+
+No exemplo da figura, o conteúdo de "Vossa Excelência" é o que a forma significa na língua, um tratamento de deferência ao interlocutor, e não a pessoa a quem se fala: esta é o referente e, como em Saussure, fica fora do signo.
+
+![Três esquemas de caixas, no modelo de Hjelmslev e Barthes, com E para expressão e C para conteúdo. Denotação, um sistema só: E é "Vossa Excelência"; C é tratamento de deferência ao interlocutor. Conotação: o sistema inteiro, "Vossa Excelência" com o seu conteúdo, tratamento de deferência ao interlocutor, ocupa o lugar da expressão de um segundo sistema, cujo conteúdo é registro formal, linguagem parlamentar. Metalinguagem: o sistema inteiro ocupa o lugar do conteúdo de um segundo sistema, cuja expressão é o termo do gramático, "pronome de tratamento". No pé: na gramática escolar, conotação é o sentido figurado; em Hjelmslev e Barthes, é um segundo sistema, que pode existir sem figura nenhuma. "Conotadores": em Hjelmslev, são o conteúdo; em Barthes, os significantes da conotação.](imagens/denotacao-conotacao-metalinguagem.svg "Denotação, conotação e metalinguagem no modelo de Hjelmslev e Barthes")
 
 > [!NOTE]
 > Qual uso o edital cobra? Leitura nossa: o par está no programa de Linguística, ao lado de signo, sentido e referência. Espere, no mínimo, o uso semântico (denotação referencial, conotação como valores associados) em nível de graduação, e talvez Hjelmslev e Barthes. Os usos de Mill e de Frege aparecem como armadilha de vocabulário.
@@ -169,11 +180,11 @@ A frase pode ser verdadeira e conotativa, ou literal e falsa. Denotação e cono
 - Arbitrário como "livre escolha do falante"; ou a motivação relativa (*dezenove*, *pereira*) como prova de que o signo é motivado.
 - Onomatopeias como refutação do princípio do arbitrário.
 - A linearidade atribuída ao significado.
-- O símbolo de Saussure tratado como convencional, como o de Peirce.
+- O símbolo de Saussure tratado como convencional, como o de Peirce; ou o interpretante de Peirce tomado pela pessoa que interpreta.
 - "Saussure excluiu o social": para ele, a língua é a parte social da linguagem.
 - Significação e valor tratados como sinônimos no *Curso*.
 - "Referência" de Ogden e Richards (o pensamento) trocada pela de Frege (o objeto).
-- Sentido de Frege descrito como subjetivo, ou a representação como objetiva.
+- Sentido de Frege descrito como subjetivo, ou a representação como objetiva; ou o sentido como o que designa o objeto, papel que é do nome.
 - A referência de uma frase descrita como o pensamento, e não o valor de verdade.
 - Conotação de Hjelmslev e Barthes reduzida ao sentido figurado; ou conotação trocada por metalinguagem.
 

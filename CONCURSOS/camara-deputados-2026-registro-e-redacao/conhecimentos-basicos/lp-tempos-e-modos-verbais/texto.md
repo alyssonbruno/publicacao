@@ -4,7 +4,7 @@
 
 O edital pede o "emprego de tempos e modos verbais" (item 4.2 de Língua Portuguesa) e o coloca dentro do item 4, "Domínio dos mecanismos de coesão textual". A posição diz muito: para o Cebraspe, o tempo verbal não é uma tabela de conjugação, e sim um recurso que amarra os fatos do texto, mostra a ordem entre eles e revela a posição de quem escreve.
 
-Esta aula se concentra no que a banca cobra em nível superior: o valor de cada tempo no contexto, as trocas "sem prejuízo da correção e dos sentidos", a correlação entre os verbos e o futuro do subjuntivo dos verbos irregulares. Os exemplos vêm do dia a dia legislativo: sessões, discursos, atas, pareceres e normas.
+Esta aula se concentra no que a banca cobra em nível superior: o valor de cada tempo no contexto, as trocas "sem prejuízo da correção e dos sentidos", a correlação entre os verbos e o futuro do subjuntivo de verbos como *ver*, *vir* e *manter*. Os exemplos vêm do dia a dia legislativo: sessões, discursos, atas, pareceres e normas.
 
 ## Como o assunto cai na prova
 
@@ -42,7 +42,7 @@ A banca gosta do item que reduz o presente do indicativo ao momento da fala. Ele
 - **histórico**, o passado contado como se fosse agora: *Em outubro de 1988, a Assembleia Nacional Constituinte **promulga** a nova Constituição.*
 - **futuro próximo e certo**: *O Plenário **vota** a matéria amanhã.*
 
-Numa prova de 2025 (TRF 6ª Região), segundo o gabarito publicado pela Direção Concursos, a banca considerou errado o item que lia o presente de um texto expositivo como relato de fatos em curso no momento em que o texto foi escrito. Num texto que define ou explica, o presente vale "sempre".
+Na prova de Conhecimentos Gerais do TRF da 6ª Região (Cebraspe, aplicada em janeiro de 2025), o item 14 lia o presente de um texto que define o discurso de ódio como relato de eventos em curso no momento em que o texto foi escrito. O gabarito definitivo deu errado. Num texto que define ou explica, o presente vale "sempre".
 
 ## O presente e o futuro nas leis
 
@@ -62,7 +62,7 @@ O **pretérito imperfeito** mostra o fato em curso, sem fim marcado. Ele serve p
 - a **intenção que não se cumpriu**: *O líder **ia** pedir verificação, mas desistiu.*
 - a **cortesia**: *Eu **queria** pedir um aparte a Vossa Excelência.*
 
-Trocar um pelo outro quase sempre muda o sentido. Em *O relator **leu** o parecer quando a sessão foi suspensa*, a leitura deixa de ser interrompida e vira um fato completo. A teoria por trás disso, o aspecto verbal, é tema da aula de categorias semânticas, na P2.
+Trocar um pelo outro quase sempre muda o sentido. Em *O relator **leu** o parecer quando a sessão foi suspensa*, a leitura deixa de ser interrompida e vira um fato completo. A teoria por trás disso, o aspecto verbal, é tema da aula de Categorias semânticas, na P2.
 
 > [!CAUTION]
 > O item que justifica a troca com "a noção de passado seria mantida" está, em geral, errado: os dois tempos são passados, mas o perfeito fecha o fato e o imperfeito o deixa em andamento.
@@ -117,7 +117,7 @@ Fora do mais-que-perfeito, o composto tem sentido próprio. Confira antes de ace
 O subjuntivo tem três tempos simples: presente (*que ele vote*), pretérito imperfeito (*se ele votasse*) e futuro (*quando ele votar*). A conjunção ajuda a escolher:
 
 - **concessivas** (*embora*, *ainda que*, *mesmo que*, *conquanto*): subjuntivo. *Ainda que **haja** acordo, a votação será nominal.* Autores clássicos usavam também o indicativo, mas o uso atual, que a prova segue, é o subjuntivo.
-- **caso**: presente ou imperfeito do subjuntivo (*caso **haja** acordo*; *caso **houvesse** acordo*). O futuro do subjuntivo fica com *se* e *quando* (*se **houver** acordo*).
+- **caso**: presente ou imperfeito do subjuntivo (*caso **haja** acordo*; *caso **houvesse** acordo*), e não o futuro: "caso houver acordo" foge à norma-padrão. O futuro do subjuntivo fica com *se* e *quando* (*se **houver** acordo*). As respostas do Ciberdúvidas sobre *caso*, na lista de fontes, mostram essas construções.
 - **desde que**: com valor de condição, subjuntivo (*poderá falar, desde que se **inscreva***); com valor de tempo, indicativo (*desde que **assumiu**, a presidente...*).
 - **para que**, **a fim de que**: subjuntivo. *A Mesa adiou a sessão para que os líderes **negociassem**.*
 
@@ -126,11 +126,11 @@ O subjuntivo tem três tempos simples: presente (*que ele vote*), pretérito imp
 
 ## Futuro do subjuntivo ou infinitivo?
 
-Nos verbos regulares, as duas formas são iguais: *quando o Plenário **votar*** (futuro do subjuntivo), *para o Plenário **votar*** (infinitivo). Nos irregulares, são diferentes, e a banca troca uma pela outra na reescrita.
+Há mais de um caminho para chegar ao futuro do subjuntivo. Esta aula usa um só: conjugue o pretérito perfeito com "eles" e tire o *-am* (*eles mantiveram* → *se ele **mantiver***; *eles leram* → *quando ele **ler***).
 
-Há mais de um caminho para chegar ao futuro do subjuntivo. Esta aula usa um só: conjugue o pretérito perfeito com "eles" e tire o *-am* (*eles mantiveram* → *se ele **mantiver***).
+A regra mostra quando o futuro do subjuntivo e o infinitivo se confundem. Se o pretérito perfeito é regular, as duas formas são iguais: *quando o Plenário **votar*** (futuro do subjuntivo), *para o Plenário **votar*** (infinitivo). Isso vale também para verbos que são irregulares em outros tempos, como *ler*, *ouvir* e *pedir*: *quando o relator **ler***, *se a Mesa **ouvir***. As formas só se separam nos verbos de **pretérito perfeito irregular**, como *ver*, *vir*, *manter* e *propor*, e é com eles que a banca troca uma pela outra na reescrita.
 
-![Tabela com os dois passos para formar o futuro do subjuntivo de verbos usados no trabalho legislativo. Primeiro, o pretérito perfeito com "eles"; depois, tira-se o "-am". Votar: votaram, votar (igual ao infinitivo). Ver: viram, vir. Vir: vieram, vier. Manter: mantiveram, mantiver. Intervir: intervieram, intervier. Prever: previram, previr. Propor: propuseram, propuser. Dispor: dispuseram, dispuser. Obter: obtiveram, obtiver. Reaver: reouveram, reouver. Cada linha traz um exemplo, como "se o Plenário mantiver o veto" e "quando o relator vir a emenda". No pé da figura, os erros correspondentes: "se o Plenário manter", "quando o relator ver", "se a Mesa intervir", "se o autor propor".](imagens/futuro-do-subjuntivo-dos-irregulares.svg "Pretérito perfeito com “eles”, menos o -am")
+![Tabela com os dois passos para formar o futuro do subjuntivo de verbos usados no trabalho legislativo. Primeiro, o pretérito perfeito com "eles"; depois, tira-se o "-am". Votar: votaram, votar. Ler: leram, ler. Nessas duas linhas, o futuro do subjuntivo é igual ao infinitivo. Nas demais, é diferente: ver: viram, vir; vir: vieram, vier; manter: mantiveram, mantiver; intervir: intervieram, intervier; prever: previram, previr; propor: propuseram, propuser; dispor: dispuseram, dispuser; obter: obtiveram, obtiver; reaver: reouveram, reouver. Cada linha traz um exemplo, como "quando o relator ler o voto", "se o Plenário mantiver o veto" e "quando o relator vir a emenda". No pé da figura, dois quadros. O primeiro: com pretérito perfeito regular (votaram, leram, ouviram), o futuro do subjuntivo é igual ao infinitivo, também em verbos irregulares no presente, como em "quando o relator ler" e "se a Mesa ouvir". O segundo: com pretérito perfeito irregular, o infinitivo depois de "se" e "quando" é erro, como em "se o Plenário manter", "quando o relator ver", "se a Mesa intervir" e "se o autor propor".](imagens/futuro-do-subjuntivo-em-dois-passos.svg "Pretérito perfeito com “eles”, menos o -am")
 
 Os verbos derivados seguem o verbo de origem:
 
@@ -170,7 +170,10 @@ Quem redige ata ou súmula transforma falas em discurso indireto, com o verbo de
 - pretérito perfeito → mais-que-perfeito: "***Li** o parecer*" → *disse que **lera** (tinha lido) o parecer*;
 - imperativo → imperfeito do subjuntivo: "***Retirem** o requerimento*" → *pediu que **retirassem** o requerimento*.
 
-Quando o conteúdo continua valendo no momento da redação, o presente pode ficar: *lembrou que o regimento **exige** quórum qualificado*.
+O recuo é a regra geral, mas não é obrigatório. Quando o conteúdo continua valendo no momento da redação, o tempo original pode ficar: *lembrou que o regimento **exige** quórum qualificado*; *disse que **votará** contra*, se a votação ainda não aconteceu.
+
+> [!NOTE]
+> As fontes desta parte, na lista do fim, seguem a nomenclatura de Portugal: "conjuntivo" para o subjuntivo e "condicional" para o futuro do pretérito. Uma delas é um estudo com exemplos de debates na Assembleia da República: o deputado que retoma a fala de outro tende a recuar o tempo quando não se compromete com o que relata (*disse que o relatório **tinha omitido** os custos*) e a manter o perfeito quando concorda (*disse que o relatório **omitiu** os custos*).
 
 ## Imperativo e formas de tratamento
 
@@ -197,6 +200,7 @@ Exemplo: *Se a comissão **aprovar** o parecer, a matéria **seguirá** ao Plen�
 - Dizer que o subjuntivo depois de *embora* indica dúvida do autor.
 - Deixar o verbo coordenado fora do modo pedido pela conjunção (*caso seja... e deseja*).
 - Infinitivo no lugar do futuro do subjuntivo: "se o Plenário manter", "quando o relator ver", "se a Mesa intervir".
+- O contrário: estranhar *quando o relator **ler*** ou *se a Mesa **ouvir***, que estão certos, porque o pretérito perfeito desses verbos é regular (*leram*, *ouviram*).
 - Cruzar os pares da correlação: *se fosse... será*; *tramitava há*.
 
 ## Fontes
@@ -213,7 +217,12 @@ Exemplo: *Se a comissão **aprovar** o parecer, a matéria **seguirá** ao Plen�
 - Tribunal de Justiça de Minas Gerais, "Gotas da Língua Portuguesa nº 152 — 'Quando ele vir' ou 'quando ele vier'": https://bd.tjmg.jus.br/bitstreams/99e14c82-82c2-433e-a343-54fe1d04cc15/download
 - Dad Squarisi (Blog da Dad, Correio Braziliense), "Futuro do subjuntivo: como acertar sempre": https://blogs.correiobraziliense.com.br/dad/futuro-do-subjuntivo-como-acertar-sempre/
 - Cynthia Cordeiro Chalegre (InfoEscola), "Modo indicativo", com base em Cunha & Cintra e em Cegalla: https://www.infoescola.com/portugues/modo-indicativo/
-- Ana Luiza Tibúrcio Guimarães (blog do Estratégia Concursos), "Verbos: dicas para ir do zero ao topo no tema flexão verbal!": https://www.estrategiaconcursos.com.br/blog/verbos/
+- Ana Luiza Tibúrcio Guimarães (Estratégia Concursos), "Verbos: dicas para ir do zero ao topo no tema flexão verbal!": https://concursos.estrategia.com/portal/verbos/
+- José Neves Henriques (Ciberdúvidas da Língua Portuguesa), "Caso", 1997 (*caso* não se usa com o futuro do subjuntivo, chamado em Portugal de futuro do conjuntivo): https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/caso/1263
+- Edite Prada (Ciberdúvidas da Língua Portuguesa), "Caso, em caso de, no caso de", 2004 (*caso possas*, *caso pudesses*): https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/caso-em-caso-de-no-caso-de/12916
+- Maria João Matos (Ciberdúvidas da Língua Portuguesa), "A passagem do discurso directo para o discurso indirecto", 2005 (quadro com a mudança dos tempos): https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/a-passagem-do-discurso-directo-para-o-discurso-indirecto/16346
+- Sara Leite (Ciberdúvidas da Língua Portuguesa), "O modo verbal depois do verbo dizer", 2008 (o imperativo passa ao subjuntivo: *disse ao menino que esperasse*): https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/o-modo-verbal-depois-do-verbo-dizer/23924
+- Ana Paula Loureiro, "Indirect speech in Portuguese: backshift or non-backshift", em *Língua e Linguagem no quotidiano* (UNTL, 2017), p. 87-102, em inglês, com exemplos de debates parlamentares em português: https://estudogeral.sib.uc.pt/bitstream/10316/94612/1/Livro_Vicente_Paulino_e_Miguel_Maia-paginas-88-103_Loureiro_Indirect_Speech_in_Portuguese.pdf
 - Cebraspe, prova de Conhecimentos Básicos do CNJ 2024 (caderno 979_CNJ_CB4_01) e gabarito definitivo, como referência do estilo de cobrança: https://cdn.cebraspe.org.br/concursos/CNJ_24/arquivos/979_CNJ_CB4_01.PDF
-- Rebeca Kemilly (Direção Concursos), "Língua Portuguesa em concurso público: 10 questões comentadas da banca Cebraspe", para o item do TRF 6ª Região (2025): https://www.direcaoconcursos.com.br/noticias/concurso-publico-questoes-portugues-cebraspe
+- Cebraspe, prova de Conhecimentos Gerais do TRF da 6ª Região (caderno 034_TRF6_CG1_01, item 14), aplicada em 19/1/2025: https://cdn.cebraspe.org.br/concursos/TRF6_24/arquivos/034_TRF6_CG1_01.PDF, e gabarito definitivo: https://cdn.cebraspe.org.br/concursos/TRF6_24/arquivos/Gab_Definitivo_034_TRF6_CG1_01.PDF
 - Professor José Maria (Direção Concursos), "Operação 104 — Emprego dos tempos e modos verbais" (slides com itens do Cespe), como mapa das pegadinhas: https://cdn.direcaoconcursos.com.br/uploads/2020/09/material-portugues-pf-3.pdf

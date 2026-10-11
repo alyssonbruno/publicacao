@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="612" viewBox="0 0 760 612" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
-  <rect width="760" height="612" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="650" viewBox="0 0 760 650" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="760" height="650" fill="#ffffff"/>
 
   <!-- Título -->
   <text x="24" y="32" font-size="17" font-weight="700" fill="#0b0b0b">Os três momentos do tempo</text>
@@ -50,7 +50,7 @@
     <rect x="16" y="0" width="728" height="56" rx="6" fill="#ffffff" stroke="#e6e3da"/>
     <text x="24" y="23" font-size="13.5" font-weight="700" fill="#0b0b0b">Pretérito perfeito</text>
     <text x="24" y="43" font-size="13" font-style="italic" fill="#52514e">a comissão votou</text>
-    <text x="250" y="33" font-size="13" fill="#0b0b0b">ME antes de MR = MF</text>
+    <text x="250" y="33" font-size="13" fill="#0b0b0b">ME antes de MR = MF <tspan font-weight="700" fill="#b24a1c">*</tspan></text>
     <line x1="420" y1="36" x2="712" y2="36" stroke="#8c8a83" stroke-width="1.5"/>
     <circle cx="480" cy="36" r="7" fill="#256abf"/>
     <circle cx="590" cy="36" r="7" fill="#12805a"/>
@@ -103,4 +103,6 @@
   <!-- Rodapé -->
   <text x="24" y="578" font-size="12" fill="#52514e">“=” quer dizer ao mesmo tempo; “antes de”, anterioridade.</text>
   <text x="24" y="596" font-size="12" fill="#52514e">Fórmulas de Corôa (1985), a partir de Reichenbach, como as resumem Barbosa e Longo (2003).</text>
+  <text x="24" y="616" font-size="12" fill="#52514e"><tspan font-weight="700" fill="#b24a1c">*</tspan> Fórmula de Corôa. Em Reichenbach, o passado simples é ME = MR, antes de MF (como o imperfeito acima);</text>
+  <text x="33" y="634" font-size="12" fill="#52514e">“ME antes de MR = MF” é a fórmula do present perfect do inglês (has worked).</text>
 </svg>
