@@ -161,6 +161,10 @@ No exemplo da figura, o conteúdo de "Vossa Excelência" é o que a forma signif
 
 ![Três esquemas de caixas, no modelo de Hjelmslev e Barthes, com E para expressão e C para conteúdo. Denotação, um sistema só: E é "Vossa Excelência"; C é tratamento de deferência ao interlocutor. Conotação: o sistema inteiro, "Vossa Excelência" com o seu conteúdo, tratamento de deferência ao interlocutor, ocupa o lugar da expressão de um segundo sistema, cujo conteúdo é registro formal, linguagem parlamentar. Metalinguagem: o sistema inteiro ocupa o lugar do conteúdo de um segundo sistema, cuja expressão é o termo do gramático, "pronome de tratamento". No pé: na gramática escolar, conotação é o sentido figurado; em Hjelmslev e Barthes, é um segundo sistema, que pode existir sem figura nenhuma. "Conotadores": em Hjelmslev, são o conteúdo; em Barthes, os significantes da conotação.](imagens/denotacao-conotacao-metalinguagem.svg "Denotação, conotação e metalinguagem no modelo de Hjelmslev e Barthes")
 
+## Qual uso esperar na prova
+
+O edital põe denotação e conotação ao lado de signo, sentido e referência, sem dizer de que autor.
+
 > [!NOTE]
 > Qual uso o edital cobra? Leitura nossa: o par está no programa de Linguística, ao lado de signo, sentido e referência. Espere, no mínimo, o uso semântico (denotação referencial, conotação como valores associados) em nível de graduação, e talvez Hjelmslev e Barthes. Os usos de Mill e de Frege aparecem como armadilha de vocabulário.
 
