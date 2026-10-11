@@ -1,0 +1,101 @@
+materiais:
+  - tipo: texto
+    titulo: Emprego de tempos e modos verbais
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: 30 Questões Cebraspe - Parte 9/10 - Língua Portuguesa - Tempos e Modos Verbais
+    url: https://www.youtube.com/watch?v=0g1huUT6nOI
+    autor: Yara Coeli
+    duracao_min: 39
+    descricao: >-
+      Questões do Cebraspe comentadas no formato certo ou errado. Pelos capítulos da descrição,
+      as cinco questões de tempos e modos verbais vão de 3:12 a 32:55: assista a esse trecho.
+      Indicado pela descrição do vídeo, sem conferência do conteúdo. É de 2021 e não traz itens
+      de provas da Câmara.
+  - tipo: video
+    titulo: Correlação de TEMPOS e MODOS verbais - APRENDA DE UMA VEZ!
+    url: https://www.youtube.com/watch?v=vJZI9v0ds-g
+    autor: Pablo Jamilk
+    duracao_min: 13
+    descricao: >-
+      Só correlação verbal: segundo a descrição, mostra as combinações corretas e as que as
+      bancas exploram como erro, com exemplos da FGV, do Cebraspe, da FCC e da Fundatec.
+      Indicado pela descrição do vídeo, sem conferência do conteúdo. Aproveite as combinações e
+      treine com os itens desta aula, que são no formato certo ou errado.
+  - tipo: video
+    titulo: TEMPOS e MODOS VERBAIS — alerta de tabelinha
+    url: https://www.youtube.com/watch?v=WK6WqY3iRU8
+    autor: Português com Letícia
+    duracao_min: 15
+    descricao: >-
+      Visão geral, para quem precisa rever a conjugação antes de estudar os valores: pelos
+      capítulos da descrição, um tempo por vez do indicativo, do subjuntivo e do imperativo.
+      Indicado pela descrição do vídeo, sem conferência do conteúdo. Os capítulos não citam
+      correlação nem os valores do futuro do pretérito (distância, polidez), que ficam com o
+      texto da aula e com o vídeo de questões.
+  - tipo: video
+    titulo: "ISSO PODE CUSTAR A SUA VAGA NA FGV: INFINITIVO x SUBJUNTIVO"
+    url: https://www.youtube.com/watch?v=8-RBWGxe66s
+    autor: Professor Mazziotti
+    duracao_min: 6
+    descricao: >-
+      Vídeo curto sobre a diferença entre o infinitivo e o futuro do subjuntivo ("vir" ×
+      "vier", "manter" × "mantiver"). Indicado pela descrição do vídeo, sem conferência do
+      conteúdo. É voltado a outra banca, mas o ponto é o mesmo que o Cebraspe cobra em
+      reescrita; se já domina a figura da aula, pode pular.
+  - tipo: podcast
+    titulo: "VERBOS | FUTURO DO PRESENTE e FUTURO DO PRETÉRITO – Entenda as DIFERENÇAS!"
+    url: https://podcasts.apple.com/br/podcast/verbos-futuro-do-presente-e-futuro-do-pret%C3%A9rito-entenda/id1534371896?i=1000683007361
+    autor: Português com Letícia
+    duracao_min: 11
+    descricao: >-
+      Pelo título, a diferença entre os dois futuros do indicativo; o futuro do pretérito é o
+      tempo que o Cebraspe mais explora. Indicado pelo título e pela duração, sem conferência do
+      conteúdo. O programa costuma ser o áudio de videoaulas: se a explicação depender do que
+      aparece na tela, fique com os quatro valores do texto da aula.
+  - tipo: podcast
+    titulo: "VERBOS | PRETÉRITO PERFEITO, IMPERFEITO e MAIS-QUE-PERFEITO – Entenda as DIFERENÇAS!"
+    url: https://podcasts.apple.com/br/podcast/verbos-pret%C3%A9rito-perfeito-imperfeito-e-mais-que-perfeito/id1534371896?i=1000680683787
+    autor: Português com Letícia
+    duracao_min: 13
+    descricao: >-
+      Pelo título, a diferença entre os três pretéritos do indicativo, base das trocas "sem
+      prejuízo dos sentidos" da prova. Indicado pelo título e pela duração, sem conferência do
+      conteúdo. Mesma ressalva do episódio dos futuros: se depender da tela, use a linha do tempo
+      do texto da aula.
+  - tipo: link
+    titulo: Consecução dos tempos verbais
+    url: https://www.migalhas.com.br/coluna/gramatigalhas/12606/consecucao-dos-tempos-verbais
+    autor: José Maria da Costa (Gramatigalhas, Migalhas)
+    descricao: >-
+      Coluna de um autor formado em Letras e em Direito, com exemplos de linguagem jurídica: os
+      três pares das frases com "se" ("se é clara", "se for clara", "se fosse clara") e a
+      correlação "havia dois dias que". Os itens 2 a 13 são o que interessa para a prova; o fim
+      da coluna discute "quis é" × "quis foi", ponto que vai além desta aula.
+  - tipo: link
+    titulo: Caso seja... e deseja...?
+    url: https://www.migalhas.com.br/coluna/gramatigalhas/20499/caso-seja--e-deseja-
+    autor: José Maria da Costa (Gramatigalhas, Migalhas)
+    descricao: >-
+      Coluna curta que parte de uma frase real e mostra que a conjunção "caso" rege também o
+      segundo verbo coordenado: "caso você seja... e deseje", e não "e deseja". É exatamente o
+      formato da pegadinha de reescrita do Cebraspe.
+  - tipo: link
+    titulo: "Gotas da Língua Portuguesa nº 40 — O futuro do subjuntivo em português"
+    url: https://bd.tjmg.jus.br/bitstreams/f2db14ce-75c0-4ab4-b3ef-b7c288538fb3/download
+    autor: Tribunal de Justiça de Minas Gerais
+    descricao: >-
+      PDF de duas páginas, com dez frases para completar e as respostas no fim: bom para treinar
+      "vier", "mantiver", "propuser" e "houver". Forma o futuro do subjuntivo a partir de "nós"
+      (fizemos, fizer); o texto da aula parte de "eles" (fizeram, fizer). O resultado é o mesmo:
+      fique com um método só.
+  - tipo: link
+    titulo: "Futuro do subjuntivo: como acertar sempre"
+    url: https://blogs.correiobraziliense.com.br/dad/futuro-do-subjuntivo-como-acertar-sempre/
+    autor: Dad Squarisi (Blog da Dad, Correio Braziliense)
+    descricao: >-
+      Leitura curta e leve sobre o mesmo método do texto da aula: pretérito perfeito com "eles",
+      menos o "-am" (puseram, puser; vieram, vier; viram, vir; retiveram, retiver).
