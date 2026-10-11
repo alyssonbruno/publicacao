@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="654" viewBox="0 0 760 654" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="760" height="654" fill="#ffffff"/>
+  <g font-size="13" font-weight="700" fill="#52514e">
+  <text x="28" y="34">Valor</text>
+  <text x="208" y="34">Teste</text>
+  <text x="464" y="34">Exemplo</text>
+  </g>
+  <line x1="16" y1="44" x2="744" y2="44" stroke="#0b0b0b" stroke-width="1.5"/>
+  <rect x="16" y="52" width="728" height="60" rx="6" fill="#dff3ea" stroke="#12805a" stroke-width="1.2"/>
+  <line x1="196" y1="60" x2="196" y2="104" stroke="#12805a" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="452" y1="60" x2="452" y2="104" stroke="#12805a" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="28" y="77.5" font-size="14" font-weight="700" fill="#0e6b4b">Pronome</text>
+  <text x="28" y="96.5" font-size="14" font-weight="700" fill="#0e6b4b">relativo</text>
+  <text x="208" y="77.4" font-size="13.5" fill="#0b0b0b">retoma um termo anterior;</text>
+  <text x="208" y="96.4" font-size="13.5" fill="#0b0b0b">troca por “o qual”</text>
+  <text x="464" y="77.5" font-size="14" fill="#0b0b0b">O projeto <tspan font-weight="700" fill="#0e6b4b">que</tspan> altera o Regimento</text>
+  <text x="464" y="96.5" font-size="14" fill="#0b0b0b">voltou à pauta. (= o qual)</text>
+  <rect x="16" y="118" width="728" height="60" rx="6" fill="#e3edf9" stroke="#256abf" stroke-width="1.2"/>
+  <line x1="196" y1="126" x2="196" y2="170" stroke="#256abf" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="452" y1="126" x2="452" y2="170" stroke="#256abf" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="28" y="143.5" font-size="14" font-weight="700" fill="#1c5cab">Conjunção</text>
+  <text x="28" y="162.5" font-size="14" font-weight="700" fill="#1c5cab">integrante</text>
+  <text x="208" y="143.4" font-size="13.5" fill="#0b0b0b">não retoma nada;</text>
+  <text x="208" y="162.4" font-size="13.5" fill="#0b0b0b">a oração vira “isso”</text>
+  <text x="464" y="143.5" font-size="14" fill="#0b0b0b">O relator afirmou <tspan font-weight="700" fill="#1c5cab">que</tspan> o texto</text>
+  <text x="464" y="162.5" font-size="14" fill="#0b0b0b">tinha lacunas. (= afirmou isso)</text>
+  <rect x="16" y="184" width="728" height="60" rx="6" fill="#fdf1d6" stroke="#c98500" stroke-width="1.2"/>
+  <line x1="196" y1="192" x2="196" y2="236" stroke="#c98500" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="452" y1="192" x2="452" y2="236" stroke="#c98500" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="28" y="209.5" font-size="14" font-weight="700" fill="#8a5a00">Conjunção</text>
+  <text x="28" y="228.5" font-size="14" font-weight="700" fill="#8a5a00">consecutiva</text>
+  <text x="208" y="209.4" font-size="13.5" fill="#0b0b0b">vem depois de “tão”,</text>
+  <text x="208" y="228.4" font-size="13.5" fill="#0b0b0b">“tanto” ou “tal”</text>
+  <text x="464" y="209.5" font-size="14" fill="#0b0b0b">A sessão foi tão longa <tspan font-weight="700" fill="#8a5a00">que</tspan> a pauta</text>
+  <text x="464" y="228.5" font-size="14" fill="#0b0b0b">não terminou.</text>
+  <rect x="16" y="250" width="728" height="60" rx="6" fill="#fdf1d6" stroke="#c98500" stroke-width="1.2"/>
+  <line x1="196" y1="258" x2="196" y2="302" stroke="#c98500" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="452" y1="258" x2="452" y2="302" stroke="#c98500" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="28" y="275.5" font-size="14" font-weight="700" fill="#8a5a00">Conjunção</text>
+  <text x="28" y="294.5" font-size="14" font-weight="700" fill="#8a5a00">comparativa</text>
+  <text x="208" y="275.4" font-size="13.5" fill="#0b0b0b">vem depois de “mais” ou</text>
+  <text x="208" y="294.4" font-size="13.5" fill="#0b0b0b">“menos”; = “do que”</text>
+  <text x="464" y="275.5" font-size="14" fill="#0b0b0b">O substitutivo é mais curto <tspan font-weight="700" fill="#8a5a00">que</tspan></text>
+  <text x="464" y="294.5" font-size="14" fill="#0b0b0b">o original.</text>
+  <rect x="16" y="316" width="728" height="60" rx="6" fill="#fdf1d6" stroke="#c98500" stroke-width="1.2"/>
+  <line x1="196" y1="324" x2="196" y2="368" stroke="#c98500" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="452" y1="324" x2="452" y2="368" stroke="#c98500" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="28" y="341.5" font-size="14" font-weight="700" fill="#8a5a00">Conjunção</text>
+  <text x="28" y="360.5" font-size="14" font-weight="700" fill="#8a5a00">explicativa</text>
+  <text x="208" y="350.9" font-size="13.5" fill="#0b0b0b">equivale a “pois”</text>
+  <text x="464" y="351.0" font-size="14" fill="#0b0b0b">Aguardem, <tspan font-weight="700" fill="#8a5a00">que</tspan> a votação já começa.</text>
+  <rect x="16" y="382" width="728" height="60" rx="6" fill="#f3f2ee" stroke="#8c8a84" stroke-width="1.2"/>
+  <line x1="196" y1="390" x2="196" y2="434" stroke="#8c8a84" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="452" y1="390" x2="452" y2="434" stroke="#8c8a84" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="28" y="407.5" font-size="14" font-weight="700" fill="#3d3c39">Pronome</text>
+  <text x="28" y="426.5" font-size="14" font-weight="700" fill="#3d3c39">interrogativo</text>
+  <text x="208" y="407.4" font-size="13.5" fill="#0b0b0b">abre a pergunta, junto</text>
+  <text x="208" y="426.4" font-size="13.5" fill="#0b0b0b">de um substantivo</text>
+  <text x="464" y="417.0" font-size="14" fill="#0b0b0b"><tspan font-weight="700" fill="#3d3c39">Que</tspan> emenda foi retirada?</text>
+  <rect x="16" y="448" width="728" height="60" rx="6" fill="#f3f2ee" stroke="#8c8a84" stroke-width="1.2"/>
+  <line x1="196" y1="456" x2="196" y2="500" stroke="#8c8a84" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="452" y1="456" x2="452" y2="500" stroke="#8c8a84" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="28" y="473.5" font-size="14" font-weight="700" fill="#3d3c39">Advérbio de</text>
+  <text x="28" y="492.5" font-size="14" font-weight="700" fill="#3d3c39">intensidade</text>
+  <text x="208" y="473.4" font-size="13.5" fill="#0b0b0b">vem antes de adjetivo</text>
+  <text x="208" y="492.4" font-size="13.5" fill="#0b0b0b">e o intensifica</text>
+  <text x="464" y="483.0" font-size="14" fill="#0b0b0b"><tspan font-weight="700" fill="#3d3c39">Que</tspan> longa foi a sessão!</text>
+  <rect x="16" y="514" width="728" height="60" rx="6" fill="#f3f2ee" stroke="#8c8a84" stroke-width="1.2"/>
+  <line x1="196" y1="522" x2="196" y2="566" stroke="#8c8a84" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="452" y1="522" x2="452" y2="566" stroke="#8c8a84" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="28" y="539.5" font-size="14" font-weight="700" fill="#3d3c39">Realce</text>
+  <text x="28" y="558.5" font-size="14" font-weight="700" fill="#3d3c39">(“é que”)</text>
+  <text x="208" y="539.4" font-size="13.5" fill="#0b0b0b">sai junto com o “é”,</text>
+  <text x="208" y="558.4" font-size="13.5" fill="#0b0b0b">sem mudar o sentido</text>
+  <text x="464" y="539.5" font-size="14" fill="#0b0b0b">O Plenário é <tspan font-weight="700" fill="#3d3c39">que</tspan> decide.</text>
+  <text x="464" y="558.5" font-size="14" fill="#0b0b0b">→ O Plenário decide.</text>
+  <rect x="16" y="580" width="728" height="60" rx="6" fill="#f3f2ee" stroke="#8c8a84" stroke-width="1.2"/>
+  <line x1="196" y1="588" x2="196" y2="632" stroke="#8c8a84" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="452" y1="588" x2="452" y2="632" stroke="#8c8a84" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="28" y="605.5" font-size="14" font-weight="700" fill="#3d3c39">Substantivo</text>
+  <text x="28" y="624.5" font-size="14" font-weight="700" fill="#3d3c39">(“quê”)</text>
+  <text x="208" y="605.4" font-size="13.5" fill="#0b0b0b">tem determinante</text>
+  <text x="208" y="624.4" font-size="13.5" fill="#0b0b0b">e acento</text>
+  <text x="464" y="605.5" font-size="14" fill="#0b0b0b">O discurso tinha um <tspan font-weight="700" fill="#3d3c39">quê</tspan></text>
+  <text x="464" y="624.5" font-size="14" fill="#0b0b0b">de despedida.</text>
+</svg>

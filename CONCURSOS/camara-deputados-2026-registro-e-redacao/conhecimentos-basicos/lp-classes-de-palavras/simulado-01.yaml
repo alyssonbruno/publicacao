@@ -1,0 +1,253 @@
+# Treino de classes de palavras — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Classes de palavras
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - >-
+      Questões próprias, sobre um texto próprio e fictício (relato de uma sessão legislativa),
+      no estilo de certo ou errado do Cebraspe: a palavra entre aspas, com remissão à linha, e
+      uma afirmação por item sobre a classe da palavra, a mesma classificação em duas
+      ocorrências, a mudança de classe, a troca e o deslocamento.
+    - >-
+      Referências de estilo, sem cópia de itens: itens de morfologia do Cespe/Cebraspe (2013 a
+      2021) listados no Estude Grátis, nos formatos “recebe a mesma classificação”, “pertencem
+      à mesma classe gramatical” e “foram empregados como substantivos”.
+    - >-
+      Bases do gabarito: Lei Complementar nº 95/1998 (art. 10) e Manual de Redação da
+      Presidência da República (3ª ed., 2018); Só Português (derivação imprópria, pronomes
+      demonstrativos, pronome relativo “que” e emprego dos numerais); PrePara ENEM (“que”
+      integrante × relativo, funções do “se”, morfossintaxe do “como”, pronomes indefinidos e
+      o pronome “todo”); Elias Santana, blog do Gran Cursos Online (“O SE”); Martin Hummel,
+      revista Confluência (adjetivo adverbializado). Consultados em 11/10/2026.
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-classes-de-palavras
+    enunciado: |-
+      Texto para o item: relato fictício de uma sessão legislativa, com as linhas numeradas.
+
+      > **Texto**
+      >
+      > 1. Na sessão de ontem, discutiu-se até tarde o projeto que altera as
+      > 2. regras de publicidade das reuniões de comissão. Como prevê o
+      > 3. Regimento, o relator leu o parecer antes da votação. Falou claro e
+      > 4. sem pressa, e os taquígrafos, atentos, registraram cada aparte.
+      > 5. Certo deputado pediu a palavra para dizer que o texto ainda tinha
+      > 6. lacunas; outro lembrou que o art. 10 do projeto repetia o que já
+      > 7. constava da lei em vigor. Aprovaram-se, ao fim, três emendas, e
+      > 8. dois parlamentares se queixaram do horário. O presidente encerrou
+      > 9. a sessão perto da meia-noite, e todo o plenário aplaudiu a decisão
+      > 10. de publicar as notas taquigráficas no mesmo dia. Para a equipe de
+      > 11. redação, o difícil não é transcrever: é preservar, no texto final,
+      > 12. o falar de cada orador.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      No trecho “discutiu-se até tarde o projeto” (linha 1), o vocábulo “se” é índice de indeterminação do sujeito.
+  - id: q02
+    topico: conhecimentos-basicos/lp-classes-de-palavras
+    enunciado: |-
+      Texto para o item: relato fictício de uma sessão legislativa, com as linhas numeradas.
+
+      > **Texto**
+      >
+      > 1. Na sessão de ontem, discutiu-se até tarde o projeto que altera as
+      > 2. regras de publicidade das reuniões de comissão. Como prevê o
+      > 3. Regimento, o relator leu o parecer antes da votação. Falou claro e
+      > 4. sem pressa, e os taquígrafos, atentos, registraram cada aparte.
+      > 5. Certo deputado pediu a palavra para dizer que o texto ainda tinha
+      > 6. lacunas; outro lembrou que o art. 10 do projeto repetia o que já
+      > 7. constava da lei em vigor. Aprovaram-se, ao fim, três emendas, e
+      > 8. dois parlamentares se queixaram do horário. O presidente encerrou
+      > 9. a sessão perto da meia-noite, e todo o plenário aplaudiu a decisão
+      > 10. de publicar as notas taquigráficas no mesmo dia. Para a equipe de
+      > 11. redação, o difícil não é transcrever: é preservar, no texto final,
+      > 12. o falar de cada orador.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      O vocábulo “que” recebe a mesma classificação gramatical em “o projeto que altera as regras” (linha 1) e em “para dizer que o texto ainda tinha lacunas” (linhas 5 e 6).
+  - id: q03
+    topico: conhecimentos-basicos/lp-classes-de-palavras
+    enunciado: |-
+      Texto para o item: relato fictício de uma sessão legislativa, com as linhas numeradas.
+
+      > **Texto**
+      >
+      > 1. Na sessão de ontem, discutiu-se até tarde o projeto que altera as
+      > 2. regras de publicidade das reuniões de comissão. Como prevê o
+      > 3. Regimento, o relator leu o parecer antes da votação. Falou claro e
+      > 4. sem pressa, e os taquígrafos, atentos, registraram cada aparte.
+      > 5. Certo deputado pediu a palavra para dizer que o texto ainda tinha
+      > 6. lacunas; outro lembrou que o art. 10 do projeto repetia o que já
+      > 7. constava da lei em vigor. Aprovaram-se, ao fim, três emendas, e
+      > 8. dois parlamentares se queixaram do horário. O presidente encerrou
+      > 9. a sessão perto da meia-noite, e todo o plenário aplaudiu a decisão
+      > 10. de publicar as notas taquigráficas no mesmo dia. Para a equipe de
+      > 11. redação, o difícil não é transcrever: é preservar, no texto final,
+      > 12. o falar de cada orador.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      A substituição de “Como” (linha 2) por “Conforme” preservaria a correção gramatical e o sentido do texto.
+  - id: q04
+    topico: conhecimentos-basicos/lp-classes-de-palavras
+    enunciado: |-
+      Texto para o item: relato fictício de uma sessão legislativa, com as linhas numeradas.
+
+      > **Texto**
+      >
+      > 1. Na sessão de ontem, discutiu-se até tarde o projeto que altera as
+      > 2. regras de publicidade das reuniões de comissão. Como prevê o
+      > 3. Regimento, o relator leu o parecer antes da votação. Falou claro e
+      > 4. sem pressa, e os taquígrafos, atentos, registraram cada aparte.
+      > 5. Certo deputado pediu a palavra para dizer que o texto ainda tinha
+      > 6. lacunas; outro lembrou que o art. 10 do projeto repetia o que já
+      > 7. constava da lei em vigor. Aprovaram-se, ao fim, três emendas, e
+      > 8. dois parlamentares se queixaram do horário. O presidente encerrou
+      > 9. a sessão perto da meia-noite, e todo o plenário aplaudiu a decisão
+      > 10. de publicar as notas taquigráficas no mesmo dia. Para a equipe de
+      > 11. redação, o difícil não é transcrever: é preservar, no texto final,
+      > 12. o falar de cada orador.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      Os vocábulos “claro” (linha 3) e “atentos” (linha 4) pertencem à mesma classe gramatical.
+  - id: q05
+    topico: conhecimentos-basicos/lp-classes-de-palavras
+    enunciado: |-
+      Texto para o item: relato fictício de uma sessão legislativa, com as linhas numeradas.
+
+      > **Texto**
+      >
+      > 1. Na sessão de ontem, discutiu-se até tarde o projeto que altera as
+      > 2. regras de publicidade das reuniões de comissão. Como prevê o
+      > 3. Regimento, o relator leu o parecer antes da votação. Falou claro e
+      > 4. sem pressa, e os taquígrafos, atentos, registraram cada aparte.
+      > 5. Certo deputado pediu a palavra para dizer que o texto ainda tinha
+      > 6. lacunas; outro lembrou que o art. 10 do projeto repetia o que já
+      > 7. constava da lei em vigor. Aprovaram-se, ao fim, três emendas, e
+      > 8. dois parlamentares se queixaram do horário. O presidente encerrou
+      > 9. a sessão perto da meia-noite, e todo o plenário aplaudiu a decisão
+      > 10. de publicar as notas taquigráficas no mesmo dia. Para a equipe de
+      > 11. redação, o difícil não é transcrever: é preservar, no texto final,
+      > 12. o falar de cada orador.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      O deslocamento do vocábulo “Certo” (linha 5) para imediatamente depois de “deputado” manteria a classe gramatical desse vocábulo e o sentido do trecho.
+  - id: q06
+    topico: conhecimentos-basicos/lp-classes-de-palavras
+    enunciado: |-
+      Texto para o item: relato fictício de uma sessão legislativa, com as linhas numeradas.
+
+      > **Texto**
+      >
+      > 1. Na sessão de ontem, discutiu-se até tarde o projeto que altera as
+      > 2. regras de publicidade das reuniões de comissão. Como prevê o
+      > 3. Regimento, o relator leu o parecer antes da votação. Falou claro e
+      > 4. sem pressa, e os taquígrafos, atentos, registraram cada aparte.
+      > 5. Certo deputado pediu a palavra para dizer que o texto ainda tinha
+      > 6. lacunas; outro lembrou que o art. 10 do projeto repetia o que já
+      > 7. constava da lei em vigor. Aprovaram-se, ao fim, três emendas, e
+      > 8. dois parlamentares se queixaram do horário. O presidente encerrou
+      > 9. a sessão perto da meia-noite, e todo o plenário aplaudiu a decisão
+      > 10. de publicar as notas taquigráficas no mesmo dia. Para a equipe de
+      > 11. redação, o difícil não é transcrever: é preservar, no texto final,
+      > 12. o falar de cada orador.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      No trecho “o art. 10 do projeto” (linha 6), o emprego do numeral cardinal está de acordo com a regra de numeração dos artigos das leis, segundo a qual o ordinal é empregado apenas até o nono artigo.
+  - id: q07
+    topico: conhecimentos-basicos/lp-classes-de-palavras
+    enunciado: |-
+      Texto para o item: relato fictício de uma sessão legislativa, com as linhas numeradas.
+
+      > **Texto**
+      >
+      > 1. Na sessão de ontem, discutiu-se até tarde o projeto que altera as
+      > 2. regras de publicidade das reuniões de comissão. Como prevê o
+      > 3. Regimento, o relator leu o parecer antes da votação. Falou claro e
+      > 4. sem pressa, e os taquígrafos, atentos, registraram cada aparte.
+      > 5. Certo deputado pediu a palavra para dizer que o texto ainda tinha
+      > 6. lacunas; outro lembrou que o art. 10 do projeto repetia o que já
+      > 7. constava da lei em vigor. Aprovaram-se, ao fim, três emendas, e
+      > 8. dois parlamentares se queixaram do horário. O presidente encerrou
+      > 9. a sessão perto da meia-noite, e todo o plenário aplaudiu a decisão
+      > 10. de publicar as notas taquigráficas no mesmo dia. Para a equipe de
+      > 11. redação, o difícil não é transcrever: é preservar, no texto final,
+      > 12. o falar de cada orador.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      Em “repetia o que já constava da lei em vigor” (linhas 6 e 7), o vocábulo “o” equivale a “aquilo” e classifica-se como pronome demonstrativo.
+  - id: q08
+    topico: conhecimentos-basicos/lp-classes-de-palavras
+    enunciado: |-
+      Texto para o item: relato fictício de uma sessão legislativa, com as linhas numeradas.
+
+      > **Texto**
+      >
+      > 1. Na sessão de ontem, discutiu-se até tarde o projeto que altera as
+      > 2. regras de publicidade das reuniões de comissão. Como prevê o
+      > 3. Regimento, o relator leu o parecer antes da votação. Falou claro e
+      > 4. sem pressa, e os taquígrafos, atentos, registraram cada aparte.
+      > 5. Certo deputado pediu a palavra para dizer que o texto ainda tinha
+      > 6. lacunas; outro lembrou que o art. 10 do projeto repetia o que já
+      > 7. constava da lei em vigor. Aprovaram-se, ao fim, três emendas, e
+      > 8. dois parlamentares se queixaram do horário. O presidente encerrou
+      > 9. a sessão perto da meia-noite, e todo o plenário aplaudiu a decisão
+      > 10. de publicar as notas taquigráficas no mesmo dia. Para a equipe de
+      > 11. redação, o difícil não é transcrever: é preservar, no texto final,
+      > 12. o falar de cada orador.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      Em “dois parlamentares se queixaram do horário” (linha 8), o vocábulo “se” é parte integrante do verbo.
+  - id: q09
+    topico: conhecimentos-basicos/lp-classes-de-palavras
+    enunciado: |-
+      Texto para o item: relato fictício de uma sessão legislativa, com as linhas numeradas.
+
+      > **Texto**
+      >
+      > 1. Na sessão de ontem, discutiu-se até tarde o projeto que altera as
+      > 2. regras de publicidade das reuniões de comissão. Como prevê o
+      > 3. Regimento, o relator leu o parecer antes da votação. Falou claro e
+      > 4. sem pressa, e os taquígrafos, atentos, registraram cada aparte.
+      > 5. Certo deputado pediu a palavra para dizer que o texto ainda tinha
+      > 6. lacunas; outro lembrou que o art. 10 do projeto repetia o que já
+      > 7. constava da lei em vigor. Aprovaram-se, ao fim, três emendas, e
+      > 8. dois parlamentares se queixaram do horário. O presidente encerrou
+      > 9. a sessão perto da meia-noite, e todo o plenário aplaudiu a decisão
+      > 10. de publicar as notas taquigráficas no mesmo dia. Para a equipe de
+      > 11. redação, o difícil não é transcrever: é preservar, no texto final,
+      > 12. o falar de cada orador.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      Em “todo o plenário aplaudiu a decisão” (linha 9), a supressão do artigo “o” preservaria o sentido do texto.
+  - id: q10
+    topico: conhecimentos-basicos/lp-classes-de-palavras
+    enunciado: |-
+      Texto para o item: relato fictício de uma sessão legislativa, com as linhas numeradas.
+
+      > **Texto**
+      >
+      > 1. Na sessão de ontem, discutiu-se até tarde o projeto que altera as
+      > 2. regras de publicidade das reuniões de comissão. Como prevê o
+      > 3. Regimento, o relator leu o parecer antes da votação. Falou claro e
+      > 4. sem pressa, e os taquígrafos, atentos, registraram cada aparte.
+      > 5. Certo deputado pediu a palavra para dizer que o texto ainda tinha
+      > 6. lacunas; outro lembrou que o art. 10 do projeto repetia o que já
+      > 7. constava da lei em vigor. Aprovaram-se, ao fim, três emendas, e
+      > 8. dois parlamentares se queixaram do horário. O presidente encerrou
+      > 9. a sessão perto da meia-noite, e todo o plenário aplaudiu a decisão
+      > 10. de publicar as notas taquigráficas no mesmo dia. Para a equipe de
+      > 11. redação, o difícil não é transcrever: é preservar, no texto final,
+      > 12. o falar de cada orador.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      Em “o difícil” (linha 11) e em “o falar” (linha 12), um adjetivo e um verbo foram empregados como substantivos.

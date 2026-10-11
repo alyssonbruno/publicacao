@@ -1,0 +1,78 @@
+materiais:
+  - tipo: texto
+    titulo: Classes de palavras
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: "MORFOLOGIA: CLASSES DE PALAVRAS (Para Concurso)"
+    url: https://www.youtube.com/watch?v=ltrzPijgKi4
+    autor: Prof. Álvaro Ferreira
+    duracao_min: 63
+    descricao: >-
+      Aula-base das dez classes. Pelos capítulos da descrição: substantivo (1:30), adjetivo
+      (8:30), artigos (14:18), pronome (19:40), advérbio e verbo (27:39), preposição (36:14),
+      conjunção (40:28), numeral (47:05) e questões de concurso de 50:10 até o fim. Indicado pela
+      descrição e pelos capítulos, sem conferência do conteúdo. Há propaganda de curso por volta
+      de 26:41, e as bancas das questões não são informadas. Não tem capítulo de "que", "se" nem
+      substantivação: para isso, use o texto da aula e os vídeos seguintes.
+  - tipo: video
+    titulo: Funções da palavra "QUE" (regras, funções e bizus)
+    url: https://www.youtube.com/watch?v=SKWpNseJhhQ
+    autor: Português para Concursos - com Diego Pureza
+    duracao_min: 23
+    descricao: >-
+      Todos os valores do "que" da aula. Pelos capítulos: interrogativo (1:03), exclamativo
+      (4:06), interjeição (4:33), preposição (5:24), partícula expletiva (8:00), substantivo e
+      acento (9:07), pronome relativo (11:18), conjunções (13:51), locuções conjuntivas (17:44) e
+      questões (19:03). Indicado pela descrição e pelos capítulos, sem conferência do conteúdo. A
+      descrição é promocional e não diz de que bancas são as questões.
+  - tipo: video
+    titulo: A PALAVRA "SE" (usos e funções) || Português do Zero
+    url: https://www.youtube.com/watch?v=Ww_1aBrhfYQ
+    autor: Português com Letícia
+    duracao_min: 26
+    descricao: >-
+      Os valores do "se", um por capítulo: apassivador (2:03), índice de indeterminação (6:18),
+      reflexivo (10:43), parte integrante do verbo (12:56), expletivo (15:38), conjunção
+      integrante (17:53) e condicional (19:31), com um "Não confunda!" em 20:19. Indicado pela
+      descrição e pelos capítulos, sem conferência do conteúdo. Os capítulos não mostram o
+      sujeito oracional ("Sabe-se que…"), que está no texto da aula, nem questões do Cebraspe.
+  - tipo: video
+    titulo: CESPE/CEBRASPE - QUESTÕES SINISTRAS DE MORFOLOGIA
+    url: https://www.youtube.com/watch?v=3rcsn8qgiyA
+    autor: Professor Mazziotti
+    duracao_min: 22
+    descricao: >-
+      Itens de classes de palavras do Cebraspe resolvidos um a um (capítulos de 2:02 a 19:47).
+      Indicado pela descrição e pelos capítulos, sem conferência do conteúdo; as provas exatas
+      dos itens não estão identificadas. Veja depois da aula e do treino: pause em cada item,
+      julgue e só então ouça a resolução.
+  - tipo: podcast
+    titulo: "'Justiça mais próximo do povo' ou 'mais próxima'?"
+    url: https://podcasts.apple.com/br/podcast/justi%C3%A7a-mais-pr%C3%B3ximo-do-povo-ou-mais-pr%C3%B3xima/id1227867522?i=1000767260453
+    autor: Pasquale Cipro Neto (A Nossa Língua de Todo Dia, rádio CBN)
+    duracao_min: 7
+    descricao: >-
+      Pela descrição, explica quando "próximo" é substantivo, adjetivo ou advérbio, o mesmo
+      raciocínio do teste da concordância da aula. Indicado pela descrição do episódio, sem
+      conferência do conteúdo. Programa de rádio, não voltado a concursos.
+  - tipo: podcast
+    titulo: Falando português - 008 - conjunções subordinativas integrantes
+    url: https://podcasts.apple.com/br/podcast/falando-portugu%C3%AAs-008-conjun%C3%A7%C3%B5es-subordinativas-integrantes/id1467274512?i=1000522095647
+    autor: Pablo Jamilk (Jamilkast)
+    duracao_min: 8
+    descricao: >-
+      Pela descrição, o papel das conjunções integrantes ("que" e "se") dentro das orações: o
+      par que mais se confunde com o pronome relativo. Indicado pela descrição do episódio, sem
+      conferência do conteúdo. Bom para ouvir depois da parte do "que"; o áudio tem qualidade
+      baixa.
+  - tipo: link
+    titulo: Mesmo — Manual de Comunicação da Secom
+    url: https://www12.senado.leg.br/manualdecomunicacao/estilos/mesmo
+    autor: Senado Federal (Secretaria de Comunicação Social)
+    descricao: >-
+      Verbete curto e confiável, lido inteiro: "mesmo" que concorda (= próprio), "mesmo" que não
+      varia (= de fato) e o "os mesmos" que não deve retomar nomes, com exemplos de notícias do
+      Senado. Leitura de dois minutos para fixar a parte do "mesmo".
