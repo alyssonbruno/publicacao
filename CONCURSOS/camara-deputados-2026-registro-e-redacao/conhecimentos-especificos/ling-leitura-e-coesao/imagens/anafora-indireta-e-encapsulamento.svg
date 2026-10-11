@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="ponta" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#4a3aa7"/>
+    </marker>
+  </defs>
+  <rect width="760" height="520" fill="#ffffff"/>
+
+  <!-- Legenda das cores -->
+  <g font-size="13" fill="#52514e">
+    <rect x="12" y="12" width="24" height="18" rx="4" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+    <text x="44" y="26">expressão que retoma, infere ou resume</text>
+    <rect x="320" y="12" width="24" height="18" rx="4" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+    <text x="352" y="26">termo ou trecho em que ela se apoia</text>
+  </g>
+
+  <!-- 1. Anáfora direta -->
+  <g transform="translate(12 44)">
+    <rect width="736" height="130" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="18" y="58" font-size="16" font-weight="700" fill="#0b0b0b">Anáfora direta</text>
+    <text font-size="13" fill="#52514e">
+      <tspan x="18" y="80">mesmo referente,</tspan>
+      <tspan x="18" dy="18">já citado</tspan>
+    </text>
+    <line x1="164" y1="16" x2="164" y2="114" stroke="#e1e0d9"/>
+    <path d="M485 74 C 485 30, 396 30, 396 68" fill="none" stroke="#4a3aa7" stroke-width="2" marker-end="url(#ponta)"/>
+    <text x="440" y="26" font-size="12.5" font-weight="600" fill="#4a3aa7" text-anchor="middle">é o mesmo relatório</text>
+    <g font-size="16">
+      <text x="182" y="98" fill="#0b0b0b">A comissão aprovou</text>
+      <rect x="344" y="74" width="104" height="34" rx="6" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+      <text x="396" y="97" fill="#1c5cab" font-weight="600" text-anchor="middle">o relatório</text>
+      <text x="452" y="98" fill="#0b0b0b">.</text>
+      <rect x="462" y="74" width="46" height="34" rx="6" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+      <text x="485" y="97" fill="#8a5a00" font-weight="600" text-anchor="middle">Ele</text>
+      <text x="516" y="98" fill="#0b0b0b">segue para o Plenário.</text>
+    </g>
+  </g>
+
+  <!-- 2. Anáfora indireta -->
+  <g transform="translate(12 184)">
+    <rect width="736" height="130" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="18" y="58" font-size="16" font-weight="700" fill="#0b0b0b">Anáfora indireta</text>
+    <text font-size="13" fill="#52514e">
+      <tspan x="18" y="80">referente novo,</tspan>
+      <tspan x="18" dy="18">inferido da âncora</tspan>
+    </text>
+    <line x1="164" y1="16" x2="164" y2="114" stroke="#e1e0d9"/>
+    <path d="M508 74 C 508 30, 396 30, 396 68" fill="none" stroke="#4a3aa7" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ponta)"/>
+    <text x="452" y="24" font-size="12.5" font-weight="600" fill="#4a3aa7" text-anchor="middle">âncora: todo relatório tem um relator</text>
+    <g font-size="16">
+      <text x="182" y="98" fill="#0b0b0b">A comissão aprovou</text>
+      <rect x="344" y="74" width="104" height="34" rx="6" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+      <text x="396" y="97" fill="#1c5cab" font-weight="600" text-anchor="middle">o relatório</text>
+      <text x="452" y="98" fill="#0b0b0b">.</text>
+      <rect x="462" y="74" width="92" height="34" rx="6" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5" stroke-dasharray="5 3"/>
+      <text x="508" y="97" fill="#8a5a00" font-weight="600" text-anchor="middle">O relator</text>
+      <text x="562" y="98" fill="#0b0b0b">agradeceu.</text>
+    </g>
+  </g>
+
+  <!-- 3. Encapsulamento -->
+  <g transform="translate(12 324)">
+    <rect width="736" height="184" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="18" y="70" font-size="16" font-weight="700" fill="#0b0b0b">Encapsulamento</text>
+    <text font-size="13" fill="#52514e">
+      <tspan x="18" y="92">um nome resume</tspan>
+      <tspan x="18" dy="18">um trecho inteiro</tspan>
+      <tspan x="18" dy="18">e pode avaliá-lo</tspan>
+    </text>
+    <line x1="164" y1="16" x2="164" y2="168" stroke="#e1e0d9"/>
+    <rect x="176" y="16" width="400" height="66" rx="8" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+    <g font-size="16" fill="#1c5cab" font-weight="600">
+      <text x="188" y="42">O líder pediu verificação, obstruiu a pauta</text>
+      <text x="188" y="68">e apresentou três requerimentos.</text>
+    </g>
+    <path d="M240 126 L240 88" fill="none" stroke="#4a3aa7" stroke-width="2" marker-end="url(#ponta)"/>
+    <text x="256" y="112" font-size="12.5" font-weight="600" fill="#4a3aa7">retoma as três ações e as chama de “manobra”</text>
+    <g font-size="16">
+      <rect x="176" y="130" width="128" height="34" rx="6" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+      <text x="240" y="153" fill="#8a5a00" font-weight="600" text-anchor="middle">Essa manobra</text>
+      <text x="312" y="154" fill="#0b0b0b">atrasou a sessão.</text>
+    </g>
+  </g>
+</svg>

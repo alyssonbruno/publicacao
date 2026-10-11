@@ -1,0 +1,281 @@
+# Treino de leitura: compreensão literal, coesão, coerência e relações coesivas — Câmara dos Deputados 2026, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Leitura, coesão e coerência
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre dois textos próprios e fictícios (um texto sobre a obstrução
+      parlamentar e um trecho de discurso em plenário), no estilo de certo ou errado do Cebraspe:
+      remissão à linha e item que junta a identificação do mecanismo a uma justificativa.'
+    - 'Referência de estilo, sem cópia de itens: caderno de conhecimentos específicos do Analista
+      Legislativo – Taquígrafo Legislativo da Câmara dos Deputados, 2012 (Cespe/UnB), itens 71 a 95,
+      e o gabarito definitivo.'
+    - 'Bases do gabarito: Koch, “O desenvolvimento da Linguística Textual no Brasil” (D.E.L.T.A.,
+      1999); Tavares, “Mecanismos de coesão no texto Aula de Inglês, de Rubem Braga” (Revista
+      Arredia, 2012); UFS/CESAD, Produção e Recepção de Texto I, aulas 5 e 20, e Fundamentos para o
+      Ensino da Leitura e da Escrita, aula 5; Manual de Redação da Presidência da República, 3ª ed.,
+      item 3.4; Brasil Escola, “Coesão textual”. Consultados em 11/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/ling-leitura-e-coesao
+    enunciado: |-
+      Texto para o item: texto fictício sobre a obstrução parlamentar, em três parágrafos (linhas 1 a 6, 7 a 13 e 14 a 18), com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Em dias de votação polêmica, a sessão pode atravessar a
+      > 2. madrugada. A minoria apresenta requerimentos de adiamento,
+      > 3. pede verificação de votação e inscreve oradores em série. Essa
+      > 4. estratégia tem nome no jargão parlamentar: obstrução. Ela não
+      > 5. impede a aprovação de matéria que tenha maioria; o que faz é
+      > 6. cobrar um preço em tempo, e tempo, no Parlamento, vale muito.
+      > 7. Para quem registra os debates, a obstrução é outra coisa.
+      > 8. Cada requerimento gera um encaminhamento, cada encaminhamento
+      > 9. gera uma réplica, e o texto cresce como uma maré que sobe sem
+      > 10. pressa. Os taquígrafos se revezam em turnos curtos; os
+      > 11. revisores, em turnos longos. Ao amanhecer, a ata registra
+      > 12. poucas decisões, mas as notas taquigráficas somam centenas de
+      > 13. páginas.
+      > 14. Há quem veja nisso um desperdício. Não é. Nas horas de
+      > 15. obstrução, a minoria expõe argumentos que não teria espaço
+      > 16. para expor numa votação rápida, e o registro guarda essas
+      > 17. razões para quem um dia quiser entender por que a lei foi
+      > 18. aprovada daquela forma.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      De acordo com o texto, a obstrução não impede a aprovação de matéria que conte com maioria, mas torna mais demorada a sua votação.
+  - id: q02
+    topico: conhecimentos-especificos/ling-leitura-e-coesao
+    enunciado: |-
+      Texto para o item: texto fictício sobre a obstrução parlamentar, em três parágrafos (linhas 1 a 6, 7 a 13 e 14 a 18), com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Em dias de votação polêmica, a sessão pode atravessar a
+      > 2. madrugada. A minoria apresenta requerimentos de adiamento,
+      > 3. pede verificação de votação e inscreve oradores em série. Essa
+      > 4. estratégia tem nome no jargão parlamentar: obstrução. Ela não
+      > 5. impede a aprovação de matéria que tenha maioria; o que faz é
+      > 6. cobrar um preço em tempo, e tempo, no Parlamento, vale muito.
+      > 7. Para quem registra os debates, a obstrução é outra coisa.
+      > 8. Cada requerimento gera um encaminhamento, cada encaminhamento
+      > 9. gera uma réplica, e o texto cresce como uma maré que sobe sem
+      > 10. pressa. Os taquígrafos se revezam em turnos curtos; os
+      > 11. revisores, em turnos longos. Ao amanhecer, a ata registra
+      > 12. poucas decisões, mas as notas taquigráficas somam centenas de
+      > 13. páginas.
+      > 14. Há quem veja nisso um desperdício. Não é. Nas horas de
+      > 15. obstrução, a minoria expõe argumentos que não teria espaço
+      > 16. para expor numa votação rápida, e o registro guarda essas
+      > 17. razões para quem um dia quiser entender por que a lei foi
+      > 18. aprovada daquela forma.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      A expressão “Essa estratégia” (linhas 3 e 4) constitui caso de anáfora indireta, pois introduz no texto um referente novo, ancorado por inferência num termo anterior, sem retomar nenhuma das informações já apresentadas.
+  - id: q03
+    topico: conhecimentos-especificos/ling-leitura-e-coesao
+    enunciado: |-
+      Texto para o item: texto fictício sobre a obstrução parlamentar, em três parágrafos (linhas 1 a 6, 7 a 13 e 14 a 18), com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Em dias de votação polêmica, a sessão pode atravessar a
+      > 2. madrugada. A minoria apresenta requerimentos de adiamento,
+      > 3. pede verificação de votação e inscreve oradores em série. Essa
+      > 4. estratégia tem nome no jargão parlamentar: obstrução. Ela não
+      > 5. impede a aprovação de matéria que tenha maioria; o que faz é
+      > 6. cobrar um preço em tempo, e tempo, no Parlamento, vale muito.
+      > 7. Para quem registra os debates, a obstrução é outra coisa.
+      > 8. Cada requerimento gera um encaminhamento, cada encaminhamento
+      > 9. gera uma réplica, e o texto cresce como uma maré que sobe sem
+      > 10. pressa. Os taquígrafos se revezam em turnos curtos; os
+      > 11. revisores, em turnos longos. Ao amanhecer, a ata registra
+      > 12. poucas decisões, mas as notas taquigráficas somam centenas de
+      > 13. páginas.
+      > 14. Há quem veja nisso um desperdício. Não é. Nas horas de
+      > 15. obstrução, a minoria expõe argumentos que não teria espaço
+      > 16. para expor numa votação rápida, e o registro guarda essas
+      > 17. razões para quem um dia quiser entender por que a lei foi
+      > 18. aprovada daquela forma.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      Na comparação do crescimento do texto com “uma maré que sobe sem pressa” (linhas 9 e 10), o autor sugere que o volume do registro produzido nas sessões de obstrução ameaça o trabalho dos taquígrafos, assim como a maré ameaça quem está na praia.
+  - id: q04
+    topico: conhecimentos-especificos/ling-leitura-e-coesao
+    enunciado: |-
+      Texto para o item: texto fictício sobre a obstrução parlamentar, em três parágrafos (linhas 1 a 6, 7 a 13 e 14 a 18), com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Em dias de votação polêmica, a sessão pode atravessar a
+      > 2. madrugada. A minoria apresenta requerimentos de adiamento,
+      > 3. pede verificação de votação e inscreve oradores em série. Essa
+      > 4. estratégia tem nome no jargão parlamentar: obstrução. Ela não
+      > 5. impede a aprovação de matéria que tenha maioria; o que faz é
+      > 6. cobrar um preço em tempo, e tempo, no Parlamento, vale muito.
+      > 7. Para quem registra os debates, a obstrução é outra coisa.
+      > 8. Cada requerimento gera um encaminhamento, cada encaminhamento
+      > 9. gera uma réplica, e o texto cresce como uma maré que sobe sem
+      > 10. pressa. Os taquígrafos se revezam em turnos curtos; os
+      > 11. revisores, em turnos longos. Ao amanhecer, a ata registra
+      > 12. poucas decisões, mas as notas taquigráficas somam centenas de
+      > 13. páginas.
+      > 14. Há quem veja nisso um desperdício. Não é. Nas horas de
+      > 15. obstrução, a minoria expõe argumentos que não teria espaço
+      > 16. para expor numa votação rápida, e o registro guarda essas
+      > 17. razões para quem um dia quiser entender por que a lei foi
+      > 18. aprovada daquela forma.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “os revisores, em turnos longos” (linhas 10 e 11), a vírgula marca a elipse da forma verbal “se revezam”, que se recupera na oração anterior.
+  - id: q05
+    topico: conhecimentos-especificos/ling-leitura-e-coesao
+    enunciado: |-
+      Texto para o item: texto fictício sobre a obstrução parlamentar, em três parágrafos (linhas 1 a 6, 7 a 13 e 14 a 18), com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Em dias de votação polêmica, a sessão pode atravessar a
+      > 2. madrugada. A minoria apresenta requerimentos de adiamento,
+      > 3. pede verificação de votação e inscreve oradores em série. Essa
+      > 4. estratégia tem nome no jargão parlamentar: obstrução. Ela não
+      > 5. impede a aprovação de matéria que tenha maioria; o que faz é
+      > 6. cobrar um preço em tempo, e tempo, no Parlamento, vale muito.
+      > 7. Para quem registra os debates, a obstrução é outra coisa.
+      > 8. Cada requerimento gera um encaminhamento, cada encaminhamento
+      > 9. gera uma réplica, e o texto cresce como uma maré que sobe sem
+      > 10. pressa. Os taquígrafos se revezam em turnos curtos; os
+      > 11. revisores, em turnos longos. Ao amanhecer, a ata registra
+      > 12. poucas decisões, mas as notas taquigráficas somam centenas de
+      > 13. páginas.
+      > 14. Há quem veja nisso um desperdício. Não é. Nas horas de
+      > 15. obstrução, a minoria expõe argumentos que não teria espaço
+      > 16. para expor numa votação rápida, e o registro guarda essas
+      > 17. razões para quem um dia quiser entender por que a lei foi
+      > 18. aprovada daquela forma.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      A expressão “outra coisa” (linha 7) funciona como elemento coesivo, pois só se interpreta por comparação com o que se disse da obstrução no primeiro parágrafo, caso do que Halliday e Hasan chamam de referência comparativa.
+  - id: q06
+    topico: conhecimentos-especificos/ling-leitura-e-coesao
+    enunciado: |-
+      Texto para o item: texto fictício sobre a obstrução parlamentar, em três parágrafos (linhas 1 a 6, 7 a 13 e 14 a 18), com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Em dias de votação polêmica, a sessão pode atravessar a
+      > 2. madrugada. A minoria apresenta requerimentos de adiamento,
+      > 3. pede verificação de votação e inscreve oradores em série. Essa
+      > 4. estratégia tem nome no jargão parlamentar: obstrução. Ela não
+      > 5. impede a aprovação de matéria que tenha maioria; o que faz é
+      > 6. cobrar um preço em tempo, e tempo, no Parlamento, vale muito.
+      > 7. Para quem registra os debates, a obstrução é outra coisa.
+      > 8. Cada requerimento gera um encaminhamento, cada encaminhamento
+      > 9. gera uma réplica, e o texto cresce como uma maré que sobe sem
+      > 10. pressa. Os taquígrafos se revezam em turnos curtos; os
+      > 11. revisores, em turnos longos. Ao amanhecer, a ata registra
+      > 12. poucas decisões, mas as notas taquigráficas somam centenas de
+      > 13. páginas.
+      > 14. Há quem veja nisso um desperdício. Não é. Nas horas de
+      > 15. obstrução, a minoria expõe argumentos que não teria espaço
+      > 16. para expor numa votação rápida, e o registro guarda essas
+      > 17. razões para quem um dia quiser entender por que a lei foi
+      > 18. aprovada daquela forma.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      O pronome “isso”, contido em “nisso” (linha 14), retoma apenas a expressão “centenas de páginas” (linhas 12 e 13), por ser esse o termo mais próximo dele.
+  - id: q07
+    topico: conhecimentos-especificos/ling-leitura-e-coesao
+    enunciado: |-
+      Texto para o item: texto fictício sobre a obstrução parlamentar, em três parágrafos (linhas 1 a 6, 7 a 13 e 14 a 18), com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Em dias de votação polêmica, a sessão pode atravessar a
+      > 2. madrugada. A minoria apresenta requerimentos de adiamento,
+      > 3. pede verificação de votação e inscreve oradores em série. Essa
+      > 4. estratégia tem nome no jargão parlamentar: obstrução. Ela não
+      > 5. impede a aprovação de matéria que tenha maioria; o que faz é
+      > 6. cobrar um preço em tempo, e tempo, no Parlamento, vale muito.
+      > 7. Para quem registra os debates, a obstrução é outra coisa.
+      > 8. Cada requerimento gera um encaminhamento, cada encaminhamento
+      > 9. gera uma réplica, e o texto cresce como uma maré que sobe sem
+      > 10. pressa. Os taquígrafos se revezam em turnos curtos; os
+      > 11. revisores, em turnos longos. Ao amanhecer, a ata registra
+      > 12. poucas decisões, mas as notas taquigráficas somam centenas de
+      > 13. páginas.
+      > 14. Há quem veja nisso um desperdício. Não é. Nas horas de
+      > 15. obstrução, a minoria expõe argumentos que não teria espaço
+      > 16. para expor numa votação rápida, e o registro guarda essas
+      > 17. razões para quem um dia quiser entender por que a lei foi
+      > 18. aprovada daquela forma.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No terceiro parágrafo, a ideia principal é a de que a minoria, nas horas de obstrução, expõe argumentos que não teria espaço para expor numa votação rápida; os períodos “Há quem veja nisso um desperdício. Não é.” (linha 14) funcionam como detalhe de apoio dessa ideia.
+  - id: q08
+    topico: conhecimentos-especificos/ling-leitura-e-coesao
+    enunciado: |-
+      Texto para o item: trecho fictício de discurso em plenário, como registrado nas notas taquigráficas, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Sr. Presidente, em 2019 esta Casa aprovou um fundo para as
+      > 2. escolas do campo; no ano seguinte, o Senado fez o mesmo.
+      > 3. O fundo existe no papel. Nas escolas, o telhado continua
+      > 4. furado, a merenda continua chegando atrasada, o ônibus
+      > 5. continua quebrado. Não peço um fundo novo: peço que o antigo
+      > 6. funcione. Venho de uma cidade de 8 mil habitantes; de lá até
+      > 7. a escola estadual mais próxima são 40 quilômetros de estrada
+      > 8. de terra. Quem percorre essa distância todos os dias não
+      > 9. precisa de discurso. Precisa de ônibus.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      Em “o Senado fez o mesmo” (linha 2), a expressão “fez o mesmo” ocupa o lugar do segmento “aprovou um fundo para as escolas do campo” (linhas 1 e 2), caso do mecanismo coesivo que Halliday e Hasan denominam substituição.
+  - id: q09
+    topico: conhecimentos-especificos/ling-leitura-e-coesao
+    enunciado: |-
+      Texto para o item: trecho fictício de discurso em plenário, como registrado nas notas taquigráficas, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Sr. Presidente, em 2019 esta Casa aprovou um fundo para as
+      > 2. escolas do campo; no ano seguinte, o Senado fez o mesmo.
+      > 3. O fundo existe no papel. Nas escolas, o telhado continua
+      > 4. furado, a merenda continua chegando atrasada, o ônibus
+      > 5. continua quebrado. Não peço um fundo novo: peço que o antigo
+      > 6. funcione. Venho de uma cidade de 8 mil habitantes; de lá até
+      > 7. a escola estadual mais próxima são 40 quilômetros de estrada
+      > 8. de terra. Quem percorre essa distância todos os dias não
+      > 9. precisa de discurso. Precisa de ônibus.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      A repetição da forma verbal “continua” (linhas 3 a 5) é recurso de ênfase que, na classificação de Koch, pertence à coesão referencial, uma vez que cada ocorrência do verbo retoma o mesmo referente.
+  - id: q10
+    topico: conhecimentos-especificos/ling-leitura-e-coesao
+    enunciado: |-
+      Texto para o item: trecho fictício de discurso em plenário, como registrado nas notas taquigráficas, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Sr. Presidente, em 2019 esta Casa aprovou um fundo para as
+      > 2. escolas do campo; no ano seguinte, o Senado fez o mesmo.
+      > 3. O fundo existe no papel. Nas escolas, o telhado continua
+      > 4. furado, a merenda continua chegando atrasada, o ônibus
+      > 5. continua quebrado. Não peço um fundo novo: peço que o antigo
+      > 6. funcione. Venho de uma cidade de 8 mil habitantes; de lá até
+      > 7. a escola estadual mais próxima são 40 quilômetros de estrada
+      > 8. de terra. Quem percorre essa distância todos os dias não
+      > 9. precisa de discurso. Precisa de ônibus.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      Entre os períodos “O fundo existe no papel.” e “Nas escolas, o telhado continua furado (...)” (linhas 3 a 5), há relação de contraste sem conector que a explicite, o que é compatível com a posição de Koch e Travaglia de que a coesão não é condição necessária da coerência.

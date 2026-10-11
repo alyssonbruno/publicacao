@@ -1,0 +1,78 @@
+materiais:
+  - tipo: texto
+    titulo: "Leitura: compreensão literal, coesão, coerência e relações coesivas"
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: Leitura e Produção de textos — A coesão textual
+    url: https://www.youtube.com/watch?v=N1F6Q-eSAUg
+    autor: UNIVESP (professora Vanessa Martins do Monte, segundo a descrição)
+    duracao_min: 19
+    descricao: >-
+      Aula de universidade pública que segue a sequência de Halliday e Hasan, pelos capítulos da
+      descrição: critérios de textualidade (1:38), coesão (2:35), coesão referencial (8:16),
+      substituição (11:00), conjunções (13:44) e coesão lexical (15:25). Indicado pela descrição
+      e pelos capítulos, sem conferência do conteúdo. O canal tem versões com Libras e com
+      audiodescrição.
+  - tipo: video
+    titulo: COESÃO referencial & sequencial
+    url: https://www.youtube.com/watch?v=Tyr3Ko3AlRE
+    autor: Daniel Glaydson & Grupo Cocares (Prof. Daniel Glaydson Ribeiro, IFPI)
+    duracao_min: 15
+    descricao: >-
+      A divisão de Koch (referencial e sequencial), com Halliday e Hasan, Koch e Beaugrande e
+      Dressler nas referências da descrição. Indicado pela descrição e pelos capítulos, sem
+      conferência do conteúdo. Aproveite o começo (até 8:45) e a coesão sequencial por
+      justaposição (11:35); os conectores do meio estão na aula de coesão textual da P1.
+  - tipo: video
+    titulo: "Coerência: o principal fator de textualidade"
+    url: https://www.youtube.com/watch?v=GAKbrrfU9DY
+    autor: Daniel Glaydson & Grupo Cocares (Prof. Daniel Glaydson Ribeiro, IFPI)
+    duracao_min: 15
+    descricao: >-
+      Coerência como fator central da textualidade e os tipos de coerência (sintática, semântica,
+      pragmática, estilística, temática), pelos capítulos da descrição. Indicado pela descrição e
+      pelos capítulos, sem conferência do conteúdo. Essa divisão em tipos é outra forma de
+      apresentar o assunto: na prova, valem os fatores de coerência de Koch e Travaglia e as
+      metarregras de Charolles, do texto da aula.
+  - tipo: video
+    titulo: "Interpretação de texto: ideia principal e ideia secundária"
+    url: https://www.youtube.com/watch?v=wdFrnEkV9V0
+    autor: Mario Tossan (Escola de Concursados)
+    duracao_min: 12
+    descricao: >-
+      O item 3.2 do edital: como achar e resumir a ideia principal, ideias secundárias e um
+      exemplo com notícia (3:41). Indicado pela descrição e pelos capítulos, sem conferência do
+      conteúdo. O trecho de 1:23 a 3:41 trata da redação; se o tempo for curto, comece em 3:41.
+      Ignore a venda de cursos da descrição.
+  - tipo: podcast
+    titulo: "COESÃO e COERÊNCIA | Qualidades essenciais de um texto coeso e coerente"
+    url: https://podcasts.apple.com/br/podcast/coes%C3%A3o-e-coer%C3%AAncia-qualidade-essenciais-de-um-texto/id1534371896?i=1000527278342
+    autor: Português com Letícia (professora Letícia Góes)
+    duracao_min: 20
+    descricao: >-
+      Áudio de videoaula: diferença entre coesão e coerência, coesão referencial e sequencial e
+      fatores de coerência. Indicado pela descrição, sem conferência do conteúdo. Bom para revisar
+      no caminho; não trata de Halliday e Hasan pelo nome nem da ideia principal. Segundo uma
+      medição feita em outra curadoria, o volume da gravação é baixo: aumente o som.
+  - tipo: podcast
+    titulo: "T1E11 — Coesão e Coerência Textuais, de Leonor Lopes Fávero"
+    url: https://podcasts.apple.com/br/podcast/t1e11-coes%C3%A3o-e-coer%C3%AAncia-textuais-de-leonor-lopes-f%C3%A1vero/id1607472962?i=1000558188919
+    autor: Onde a coruja lê (Rodolfo Rossi e Juliano Amaral)
+    duracao_min: 23
+    descricao: >-
+      Conversa sobre o livro de Fávero, que revê Halliday e Hasan e propõe a coesão referencial,
+      recorrencial e sequencial. Indicado pela descrição, sem conferência do conteúdo. É um
+      bate-papo, não uma aula: ouça depois do texto, para fixar a classificação de Fávero.
+  - tipo: link
+    titulo: "Mecanismos de coesão no texto Aula de Inglês, de Rubem Braga"
+    url: https://ojs.ufgd.edu.br/arredia/article/view/1744
+    autor: Marilze Tavares (Revista Arredia, UFGD, 2012)
+    descricao: >-
+      Artigo de aprofundamento, opcional. A parte teórica (p. 103 a 106) resume com clareza as
+      categorias de Halliday e Hasan, a crítica de Fávero e a divisão de Koch; depois, aplica a
+      de Koch a uma crônica de Rubem Braga, comentando elipses, repetições e pronomes como
+      "disso" e "nisso", que retomam trechos inteiros. Apresenta Halliday e Hasan por meio de
+      Koch, e não pelo livro original.

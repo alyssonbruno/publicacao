@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="664" viewBox="0 0 800 664" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="ponta" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#52514e"/>
+    </marker>
+  </defs>
+  <rect width="800" height="664" fill="#ffffff"/>
+
+  <!-- Títulos das colunas -->
+  <text x="12" y="30" font-size="18" font-weight="700" fill="#0b0b0b">Halliday e Hasan (1976)</text>
+  <text x="12" y="50" font-size="13" fill="#52514e">cinco categorias, cada uma com um exemplo</text>
+  <text x="548" y="30" font-size="18" font-weight="700" fill="#0b0b0b">Koch (1989)</text>
+  <text x="548" y="50" font-size="13" fill="#52514e">dois grupos, pela função</text>
+
+  <!-- Legenda -->
+  <g font-size="12.5" fill="#52514e">
+    <rect x="300" y="18" width="64" height="20" rx="10" fill="#fdf1d6" stroke="#c98500" stroke-width="1.2"/>
+    <text x="332" y="32" text-anchor="middle" font-weight="600" fill="#8a5a00">item 3.4</text>
+    <text x="372" y="32">citada no edital</text>
+  </g>
+
+  <!-- 1. Referência -->
+  <g transform="translate(12 68)">
+    <rect width="480" height="92" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="26" font-size="16" font-weight="700" fill="#0b0b0b">Referência</text>
+    <rect x="400" y="10" width="64" height="20" rx="10" fill="#fdf1d6" stroke="#c98500" stroke-width="1.2"/>
+    <text x="432" y="24" font-size="12.5" text-anchor="middle" font-weight="600" fill="#8a5a00">item 3.4</text>
+    <text x="16" y="52" font-size="14.5" fill="#0b0b0b"><tspan font-weight="700" fill="#1c5cab">A deputada</tspan> pediu a palavra. <tspan font-weight="700" fill="#4a3aa7">Ela</tspan> falou cinco minutos.</text>
+    <text x="16" y="76" font-size="12.5" fill="#52514e">“Ela” retoma “A deputada”: o leitor busca o referente.</text>
+  </g>
+
+  <!-- 2. Substituição -->
+  <g transform="translate(12 170)">
+    <rect width="480" height="92" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="26" font-size="16" font-weight="700" fill="#0b0b0b">Substituição</text>
+    <rect x="400" y="10" width="64" height="20" rx="10" fill="#fdf1d6" stroke="#c98500" stroke-width="1.2"/>
+    <text x="432" y="24" font-size="12.5" text-anchor="middle" font-weight="600" fill="#8a5a00">item 3.4</text>
+    <text x="16" y="52" font-size="14.5" fill="#0b0b0b">O relator <tspan font-weight="700" fill="#1c5cab">votou contra</tspan>, e o líder <tspan font-weight="700" fill="#4a3aa7">fez o mesmo</tspan>.</text>
+    <text x="16" y="76" font-size="12.5" fill="#52514e">“fez o mesmo” ocupa o lugar de “votou contra”.</text>
+  </g>
+
+  <!-- 3. Elipse -->
+  <g transform="translate(12 272)">
+    <rect width="480" height="92" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="26" font-size="16" font-weight="700" fill="#0b0b0b">Elipse</text>
+    <rect x="400" y="10" width="64" height="20" rx="10" fill="#fdf1d6" stroke="#c98500" stroke-width="1.2"/>
+    <text x="432" y="24" font-size="12.5" text-anchor="middle" font-weight="600" fill="#8a5a00">item 3.4</text>
+    <text x="16" y="52" font-size="14.5" fill="#0b0b0b">O relator <tspan font-weight="700" fill="#1c5cab">votou</tspan> pela aprovação; o revisor <tspan font-weight="700" fill="#4a3aa7">Ø</tspan>, pela rejeição.</text>
+    <text x="16" y="76" font-size="12.5" fill="#52514e">Falta “votou” depois de “o revisor”: substituição por zero.</text>
+  </g>
+
+  <!-- 4. Coesão lexical -->
+  <g transform="translate(12 374)">
+    <rect width="480" height="112" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="26" font-size="16" font-weight="700" fill="#0b0b0b">Coesão lexical</text>
+    <rect x="320" y="10" width="144" height="20" rx="10" fill="#fdf1d6" stroke="#c98500" stroke-width="1.2"/>
+    <text x="392" y="24" font-size="12.5" text-anchor="middle" font-weight="600" fill="#8a5a00">item 3.4: repetição</text>
+    <text x="16" y="52" font-size="14.5" fill="#0b0b0b"><tspan font-weight="700" fill="#1c5cab">O projeto</tspan> chegou à CCJ. <tspan font-weight="700" fill="#4a3aa7">O projeto</tspan> tem 12 artigos.</text>
+    <text x="16" y="76" font-size="12.5" fill="#52514e">Reiteração: a mesma palavra, um sinônimo, um hiperônimo.</text>
+    <text x="16" y="96" font-size="12.5" fill="#52514e">Colocação: palavras do mesmo campo (sessão, pauta, quórum).</text>
+  </g>
+
+  <!-- 5. Conjunção -->
+  <g transform="translate(12 496)">
+    <rect width="480" height="92" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="26" font-size="16" font-weight="700" fill="#0b0b0b">Conjunção</text>
+    <text x="16" y="52" font-size="14.5" fill="#0b0b0b">Faltou quórum; <tspan font-weight="700" fill="#4a3aa7">por isso</tspan>, a sessão caiu.</text>
+    <text x="16" y="76" font-size="12.5" fill="#52514e">“por isso” marca a relação de causa e efeito.</text>
+  </g>
+
+  <!-- Coluna de Koch: referencial -->
+  <g transform="translate(548 68)">
+    <rect width="240" height="370" rx="10" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+    <text x="16" y="28" font-size="16" font-weight="700" fill="#1c5cab">Coesão referencial</text>
+    <text font-size="12.5" fill="#52514e">
+      <tspan x="16" y="50">um elemento do texto faz</tspan>
+      <tspan x="16" dy="17">remissão a outro</tspan>
+    </text>
+    <text font-size="13.5" fill="#0b0b0b">
+      <tspan x="16" y="112">• referência</tspan>
+      <tspan x="16" dy="24">• substituição</tspan>
+      <tspan x="16" dy="24">• elipse</tspan>
+      <tspan x="16" dy="24">• reiteração que retoma</tspan>
+      <tspan x="28" dy="18">um referente</tspan>
+      <tspan x="28" dy="18">(um projeto… o projeto)</tspan>
+    </text>
+  </g>
+
+  <!-- Coluna de Koch: sequencial -->
+  <g transform="translate(548 448)">
+    <rect width="240" height="140" rx="10" fill="#e6f6ef" stroke="#1a8f63" stroke-width="1.5"/>
+    <text x="16" y="28" font-size="16" font-weight="700" fill="#137a53">Coesão sequencial</text>
+    <text font-size="12.5" fill="#52514e">
+      <tspan x="16" y="50">relações de sentido à medida</tspan>
+      <tspan x="16" dy="17">que o texto progride</tspan>
+    </text>
+    <text font-size="13.5" fill="#0b0b0b">
+      <tspan x="16" y="96">• conexão (conectores)</tspan>
+      <tspan x="16" dy="20">• recorrência: “falou, falou, falou”</tspan>
+    </text>
+  </g>
+
+  <!-- Setas -->
+  <g stroke="#52514e" stroke-width="1.6" fill="none">
+    <path d="M494 114 L544 114" marker-end="url(#ponta)"/>
+    <path d="M494 216 L544 216" marker-end="url(#ponta)"/>
+    <path d="M494 318 L544 318" marker-end="url(#ponta)"/>
+    <path d="M494 412 L544 412" marker-end="url(#ponta)"/>
+    <path d="M494 462 C 516 462, 522 520, 544 520" marker-end="url(#ponta)" stroke-dasharray="5 4"/>
+    <path d="M494 542 L544 542" marker-end="url(#ponta)"/>
+  </g>
+
+  <!-- Rodapé -->
+  <text x="12" y="618" font-size="12.5" fill="#52514e">Seta tracejada: a repetição que só dá ênfase ou ritmo é, para Koch, recorrência, um recurso da coesão sequencial.</text>
+  <text x="12" y="640" font-size="12.5" fill="#52514e">Fávero faz três grupos: referencial, recorrencial (onde fica essa repetição) e sequencial.</text>
+</svg>
