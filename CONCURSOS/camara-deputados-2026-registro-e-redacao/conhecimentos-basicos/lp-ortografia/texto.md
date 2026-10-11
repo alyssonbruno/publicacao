@@ -4,7 +4,7 @@
 
 O edital pede, na prova de Conhecimentos Básicos, "3 Domínio da ortografia" (p. 50). Parece o item mais fácil do programa de Português. A dificuldade está na cobrança: o Cebraspe quase nunca pergunta qual é a grafia certa de uma palavra solta. A grafia aparece escondida em itens de reescrita.
 
-Esta aula cobre a norma (o Acordo Ortográfico e o VOLP), o emprego de letras, a acentuação, o hífen, as grafias juntas ou separadas e as maiúsculas. A crase tem aula própria, e o sentido de parônimos e homônimos (mal e mau, sessão e cessão) fica para a aula de formação de palavras e relações de sentido, em 15/10. Aqui, só o lado da grafia.
+Esta aula cobre a norma (o Acordo Ortográfico e o VOLP), o emprego de letras, a acentuação, o hífen, as grafias juntas ou separadas e as maiúsculas. A crase tem aula própria, e o sentido de parônimos e homônimos (mal e mau, sessão e cessão) fica para a aula de Formação de palavras e relações de sentido. Aqui, só o lado da grafia.
 
 ## Como a ortografia aparece na prova
 
@@ -74,15 +74,17 @@ Duas consequências caem em prova. O plural pode mudar a regra: **hífen** tem a
 
 ## O que o Acordo mudou na acentuação
 
-O Acordo tirou o acento de cinco grupos e manteve outros que muita gente supõe abolidos.
+O Acordo tirou o acento de cinco grupos de palavras e manteve outros que muita gente supõe abolidos. Também aboliu o trema, que não é acento.
 
-![Quadro em três partes sobre os acentos depois do Acordo. À esquerda, os que perderam o acento: ei e oi abertos em paroxítona (ideia, assembleia, heroico, jiboia); ee e oo em hiato (creem, leem, veem, voo, enjoo); i e u tônicos depois de ditongo em paroxítona (feiura, baiuca); o diferencial que separava da palavra átona (para, do verbo parar, pelo, polo, pera); o trema (frequência, tranquilo, cinquenta), que só fica em nome estrangeiro, como mülleriano. À direita, os que continuam com acento: éi, éu e ói em oxítona e monossílabo (papéis, herói, chapéu, dói); i e u depois de ditongo em oxítona (Piauí, tuiuiú); pôr, verbo, diferente de por, e pôde, passado, diferente de pode; ter e vir no plural (eles têm, vêm; ele tem, vem); derivados de ter e vir no plural (eles mantêm; ele mantém). Embaixo, os acentos facultativos, fôrma ou forma (molde) e dêmos (subjuntivo) ou demos, e um alerta: eles veem (ver) o painel; eles vêm (vir) à sessão.](imagens/acentos-depois-do-acordo.svg "O que caiu e o que ficou")
+![Quadro em três partes sobre os acentos depois do Acordo. À esquerda, os cinco grupos que perderam o acento: ei e oi abertos em paroxítona (ideia, assembleia, heroico, jiboia); ee e oo em hiato (creem, leem, veem, voo, enjoo); i e u tônicos depois de ditongo em paroxítona (feiura, baiuca); o diferencial que separava da palavra átona (para, do verbo parar, pelo, polo, pera); o u tônico em gue, gui, que e qui, nos verbos (argui, arguem, apazigue, averigue). À direita, os que continuam com acento: éi, éu e ói em oxítona e monossílabo (papéis, herói, chapéu, dói); i e u depois de ditongo em oxítona (Piauí, tuiuiú); pôr, verbo, diferente de por, e pôde, passado, diferente de pode; ter e vir no plural (eles têm, vêm; ele tem, vem); derivados de ter e vir no plural (eles mantêm; ele mantém). Embaixo, os acentos facultativos, fôrma ou forma (molde) e dêmos (subjuntivo) ou demos; um alerta: eles veem (ver) o painel; eles vêm (vir) à sessão; e o trema, que não é acento, mas também saiu (frequência, tranquilo, cinquenta) e só fica em nome estrangeiro, como mülleriano.](imagens/acentos-depois-do-acordo.svg "O que caiu e o que ficou")
 
-- **Ditongos abertos ei e oi** perderam o acento nas paroxítonas e o mantiveram nas oxítonas e nos monossílabos: he-roi-co (sem acento) e he-rói (com acento).
+- **Ditongos abertos ei e oi** perderam o acento nas paroxítonas e o mantiveram nas oxítonas e nos monossílabos: he-roi-co (sem acento) e he-rói (com acento). Exceção: a paroxítona terminada em r mantém o acento, pela regra geral das terminadas em r: Méier, destróier (nota da ABL sobre o VOLP, item 1).
 - **Hiatos ee e oo**: creem, deem, leem, veem, preveem; voo, enjoo.
 - **I e u depois de ditongo**: sem acento em paroxítona (feiura), com acento em oxítona (Piauí).
+- **U tônico em gue, gui, que, qui**: argúi, apazigúe e averigúe passaram a **argui**, **apazigue** e **averigue** (Base X, 7º). Quem pronuncia a tônica no a ou no i acentua essa vogal: enxágue, averígue.
 - **Diferenciais**: caíram em para, pela, pelo, polo e pera. Ficaram obrigatórios em **pôr** (verbo), **pôde** (pretérito) e no plural de ter e vir: eles **têm**, eles **vêm**. Nos derivados, o singular leva agudo e o plural, circunflexo: ele **mantém**, eles **mantêm**; ele **intervém**, eles **intervêm**. Em fôrma e dêmos, o acento é facultativo.
-- **Trema**: saiu das palavras portuguesas (frequência, tranquilo), sem mudança de pronúncia.
+
+O **trema** não é acento: é sinal de diérese (Base XIV). Saiu das palavras portuguesas (frequência, tranquilo, aguentar), sem mudança de pronúncia, e só fica em derivados de nomes estrangeiros, como mülleriano, de Müller.
 
 > [!CAUTION]
 > **Eles veem** é do verbo ver (perdeu o acento); **eles vêm** é do verbo vir (manteve). Os deputados **vêm** à tribuna e **veem** o painel. Trocar um pelo outro na reescrita quebra a correção.
@@ -117,13 +119,13 @@ Nas palavras com prefixo (anti-, inter-, sub-) ou falso prefixo (auto-, micro-, 
 Onde o Acordo foi omisso ou pouco claro, a nota da ABL de 2009 decidiu, e o VOLP seguiu. São os casos em que quem decorou só a regra geral erra:
 
 - **co-, re-, pre- e pro- se juntam sempre**, mesmo diante de vogal igual: coautor, cooperar, reeleição, reedição, preencher, preexistente. Com co- e h, o h cai: **coerdeiro** (o próprio texto do Acordo trazia co-herdeiro). Com re-, também: reaver.
-- **não e quase**, com valor de prefixo, ficam **sem hífen**: organização não governamental, não fumante, quase irmão.
+- **não e quase**, com valor de prefixo, ficam **sem hífen**: organização não governamental, não fumante, quase irmão. A nota ressalva que, por expressividade estilística, se pode recorrer ao hífen nesses e em outros casos que o uso permitir, recurso que ela pede para não banalizar. O VOLP registra a forma sem hífen, e o hífen não é exigido.
 - **an-** diante de h: o h cai e não há hífen, **anistórico**; com **a-**, há hífen e o h fica, **a-histórico**. O h também cai com des- e in-: desumano, inábil.
 - **Duas grafias registradas**: pré-requisito e prerrequisito; pró-ativo e proativo.
 - **Divergência entre fontes**: o VOLP registra só **sub-humano**; o Manual de Comunicação do Senado aceita também subumano.
 
 > [!NOTE]
-> Seguir o VOLP quando os manuais divergem é recomendação nossa: ele é o registro oficial, e foi o critério da banca no item de variante citado no começo da aula.
+> Seguir o VOLP quando os manuais divergem é recomendação nossa: ele é o registro oficial, e o que ele registra coincide com o gabarito do item de variante citado no começo da aula (TJPA 2025, item 11).
 
 ## Hífen em compostos e locuções
 
@@ -144,7 +146,7 @@ O atalho "separado na pergunta, junto na resposta" falha justamente nos itens de
 
 Dois casos a mais: *não há por que adiar* (não há motivo para) é separado; e *porque* pode aparecer numa pergunta (*a sessão caiu porque faltou quórum?*).
 
-Outros pares em que a grafia depende da função (o sentido volta na aula de 15/10):
+Outros pares em que a grafia depende da função (o sentido volta na aula de Formação de palavras e relações de sentido):
 
 - **senão** (caso contrário; a não ser): *não havia saída senão adiar*. **Se não** (caso não): *se não houver quórum, a sessão será encerrada*.
 - **a fim de** (finalidade): *reuniram-se a fim de negociar*. **Afim** (semelhante): *temas afins*.

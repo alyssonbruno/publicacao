@@ -8,7 +8,7 @@
 - **Norma**: Acordo assinado em **16/12/1990**; Decreto nº 6.583/2008, com efeitos desde **1º/1/2009**; transição até **31/12/2015** (Decreto nº 7.875/2012); só a nova grafia desde **1º/1/2016**. Quem decide a grafia de cada palavra é o **VOLP** (ABL).
 - **Letras**: siga a família (análise, analisar; fiscal, fiscalizar; mas síntese, sintetizar). Suprimir, supressão; ceder, cessão. Exceção (ç), excesso (ss), extensão (x). Viagem (substantivo), viajem (verbo).
 - **Acentuação**: todas as proparoxítonas; paroxítonas em l, n, r, x, ps, ã, ão, i(s), us, um, uns, ei(s) e ditongo (relatório); oxítonas em a, e, o, em, ens e éi, éu, ói; hiato (saúde, juízes; mas juiz, raiz). Somente e cafezinho perdem o acento da base.
-- **O Acordo tirou**: ideia, heroico (paroxítonas); creem, veem, voo; feiura; para, pelo, polo; o trema.
+- **O Acordo tirou o acento de cinco grupos**: ideia, heroico (paroxítonas; em -r, o acento fica: Méier, destróier); creem, veem, voo; feiura; para, pelo, polo; argui, apazigue, averigue. E aboliu o **trema**, que não é acento: frequência, tranquilo.
 - **O Acordo manteve**: papéis, herói (oxítonas); **pôr**, **pôde**; eles **têm**, **vêm**; ele **mantém**, eles **mantêm**. Facultativo: fôrma, dêmos.
 - **Formas duplas no VOLP**: hieróglifo e hieroglifo; cota e quota; catorze e quatorze; presidenta.
 
@@ -16,7 +16,7 @@
 
 - **Com hífen**: antes de h (super-homem); vogais iguais (anti-inflamatório); hiper-, inter-, super- + r (inter-regional); sub- + b ou r (sub-reitor); sempre com ex-, vice-, recém-, sem- e pós-, pré-, pró- tônicos.
 - **Junto**: vogais diferentes (autoestima, infraestrutura); vogal + r ou s, dobrando (antissocial, minirreforma); consoante + letra diferente (interestadual).
-- **ABL**: co-, re-, pre-, pro- sempre juntos (coerdeiro, reeleição, preencher); **não** e **quase** sem hífen (não governamental); anistórico, mas a-histórico; só sub-humano no VOLP.
+- **ABL**: co-, re-, pre-, pro- sempre juntos (coerdeiro, reeleição, preencher); **não** e **quase** sem hífen (não governamental; o hífen fica só como recurso expressivo, que a ABL pede para não banalizar); anistórico, mas a-histórico; só sub-humano no VOLP.
 - **Locuções** sem hífen (mão de obra, dia a dia, pôr do sol), salvo cor-de-rosa, pé-de-meia e poucas outras.
 
 ## O que mais confunde

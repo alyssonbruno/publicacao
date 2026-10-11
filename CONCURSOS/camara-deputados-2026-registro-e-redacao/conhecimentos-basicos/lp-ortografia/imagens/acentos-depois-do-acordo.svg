@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
-  <rect width="760" height="480" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="540" viewBox="0 0 760 540" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+  <rect width="760" height="540" fill="#ffffff"/>
   <text x="16" y="34" font-size="17" font-weight="700" fill="#0b0b0b">Acentos depois do Acordo: o que caiu e o que ficou</text>
 
   <!-- Perderam o acento -->
@@ -17,14 +17,14 @@
       <text x="16" y="114">ee e oo (hiato)</text>
       <text x="16" y="166">i e u tônicos depois de ditongo, em paroxítona</text>
       <text x="16" y="218">o diferencial que separava da palavra átona</text>
-      <text x="16" y="270">trema (só fica em nome estrangeiro: mülleriano)</text>
+      <text x="16" y="270">u tônico em gue, gui, que, qui (verbos)</text>
     </g>
     <g font-size="15" fill="#0b0b0b">
       <text x="16" y="84">ideia, assembleia, heroico, jiboia</text>
       <text x="16" y="136">creem, leem, veem, voo, enjoo</text>
       <text x="16" y="188">feiura, baiuca</text>
       <text x="16" y="240">para (de parar), pelo, polo, pera</text>
-      <text x="16" y="292">frequência, tranquilo, cinquenta</text>
+      <text x="16" y="292">argui, arguem, apazigue, averigue</text>
     </g>
   </g>
 
@@ -56,11 +56,14 @@
 
   <!-- Faixa de baixo -->
   <g transform="translate(12 368)">
-    <rect width="736" height="100" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <rect width="736" height="160" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
     <text x="16" y="30" font-size="13" fill="#52514e">Acento facultativo</text>
     <text x="16" y="52" font-size="15" fill="#0b0b0b">fôrma ou forma (molde); dêmos (subjuntivo) ou demos</text>
     <line x1="16" y1="66" x2="720" y2="66" stroke="#e1e0d9"/>
     <text x="16" y="86" font-size="13" fill="#b4471b" font-weight="700">Não confunda</text>
-    <text x="120" y="86" font-size="15" fill="#0b0b0b">eles <tspan font-weight="700">veem</tspan> (ver) o painel  ×  eles <tspan font-weight="700">vêm</tspan> (vir) à sessão</text>
+    <text x="134" y="86" font-size="15" fill="#0b0b0b">eles <tspan font-weight="700">veem</tspan> (ver) o painel  ×  eles <tspan font-weight="700">vêm</tspan> (vir) à sessão</text>
+    <line x1="16" y1="100" x2="720" y2="100" stroke="#e1e0d9"/>
+    <text x="16" y="122" font-size="13" fill="#52514e">Não é acento, mas também saiu: o trema</text>
+    <text x="16" y="144" font-size="15" fill="#0b0b0b">frequência, tranquilo, cinquenta <tspan fill="#52514e">(fica só em nome estrangeiro: mülleriano)</tspan></text>
   </g>
 </svg>
