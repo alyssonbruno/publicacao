@@ -1,0 +1,107 @@
+# Treino de signo linguístico, língua e fala, sentido e referência, denotação e conotação — Câmara dos Deputados 2026, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Signo linguístico, língua e fala, sentido e referência, denotação e conotação
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (trecho de discurso no Plenário, como
+      nas notas taquigráficas, com as linhas numeradas) e sobre afirmações teóricas atribuídas a
+      autores, no estilo de certo ou errado do Cebraspe: uma afirmação por item, com o erro, quando
+      há, na troca de um termo entre autores ou entre as faces do signo.'
+    - 'Referência de estilo, sem cópia de itens: caderno de conhecimentos específicos de Analista
+      Legislativo – Taquígrafo Legislativo da Câmara dos Deputados 2012 (CESPE/UnB), com itens C/E
+      sobre textos de linhas numeradas. Não foi encontrada prova do Cebraspe com itens deste
+      tópico.'
+    - 'Bases do gabarito: Saussure, Cours de linguistique générale (Wikisource: Introdução, cap.
+      IV; Primeira parte, cap. I; Segunda parte, cap. VI); Frege, “Sobre o sentido e a
+      referência” (tradução de Sérgio R. N. Miranda); Ogden e Richards, The Meaning of Meaning
+      (1923), cap. I; Sémir Badir, “La hiérarchie sémiotique (Hjelmslev)”, Signo; Barthes,
+      Elementos de semiologia, cap. IV. Consultados em 11/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/ling-signo-linguistico
+    enunciado: |-
+      Texto para o item: trecho fictício de discurso no Plenário, como nas notas taquigráficas, com as linhas numeradas.
+
+      > **Texto**
+      >
+      > 1. Senhor Presidente, Senhoras e Senhores Deputados, esta Casa não
+      > 2. pode continuar de braços cruzados. O projeto que cria o cadastro
+      > 3. nacional de cuidadores dorme na gaveta da comissão há dois anos.
+      > 4. Há quem o chame de peça de ficção. Não é. Cada artigo nasceu de
+      > 5. audiências públicas, e quem as acompanhou guarda na memória o
+      > 6. rosto das famílias que vieram a Brasília. O relator do projeto é
+      > 7. o deputado que mais ouviu essas famílias, e o parecer dele está
+      > 8. pronto. Peço que o requerimento de urgência seja votado hoje.
+
+      Considerando as ideias e os aspectos linguísticos do texto, julgue o item.
+
+      Em “dorme na gaveta da comissão” (linha 3), a forma verbal “dorme” está empregada em sentido denotativo, uma vez que o projeto está, de fato, parado na comissão.
+  - id: q02
+    topico: conhecimentos-especificos/ling-signo-linguistico
+    enunciado: |-
+      Texto para o item: trecho fictício de discurso no Plenário, como nas notas taquigráficas, com as linhas numeradas.
+
+      > **Texto**
+      >
+      > 1. Senhor Presidente, Senhoras e Senhores Deputados, esta Casa não
+      > 2. pode continuar de braços cruzados. O projeto que cria o cadastro
+      > 3. nacional de cuidadores dorme na gaveta da comissão há dois anos.
+      > 4. Há quem o chame de peça de ficção. Não é. Cada artigo nasceu de
+      > 5. audiências públicas, e quem as acompanhou guarda na memória o
+      > 6. rosto das famílias que vieram a Brasília. O relator do projeto é
+      > 7. o deputado que mais ouviu essas famílias, e o parecer dele está
+      > 8. pronto. Peço que o requerimento de urgência seja votado hoje.
+
+      Considerando as ideias e os aspectos linguísticos do texto, julgue o item.
+
+      De acordo com a distinção de Frege entre sentido e referência, as expressões “O relator do projeto” (linha 6) e “o deputado que mais ouviu essas famílias” (linha 7) têm, no texto, a mesma referência e sentidos diferentes.
+  - id: q03
+    topico: conhecimentos-especificos/ling-signo-linguistico
+    enunciado: |-
+      Texto para o item: trecho fictício de discurso no Plenário, como nas notas taquigráficas, com as linhas numeradas.
+
+      > **Texto**
+      >
+      > 1. Senhor Presidente, Senhoras e Senhores Deputados, esta Casa não
+      > 2. pode continuar de braços cruzados. O projeto que cria o cadastro
+      > 3. nacional de cuidadores dorme na gaveta da comissão há dois anos.
+      > 4. Há quem o chame de peça de ficção. Não é. Cada artigo nasceu de
+      > 5. audiências públicas, e quem as acompanhou guarda na memória o
+      > 6. rosto das famílias que vieram a Brasília. O relator do projeto é
+      > 7. o deputado que mais ouviu essas famílias, e o parecer dele está
+      > 8. pronto. Peço que o requerimento de urgência seja votado hoje.
+
+      Considerando as ideias e os aspectos linguísticos do texto, julgue o item.
+
+      Na terminologia de Frege, a imagem do rosto das famílias que cada participante das audiências “guarda na memória” (linhas 5 e 6) e associa à palavra “famílias” corresponde ao sentido dessa palavra, o qual varia de uma pessoa para outra.
+  - id: q04
+    topico: conhecimentos-especificos/ling-signo-linguistico
+    enunciado: |-
+      Julgue o item a seguir, acerca da teoria do signo linguístico.
+
+      Segundo o Curso de linguística geral, um signo relativamente motivado, como “dezenove”, nunca é motivado por completo, pois os elementos que o compõem, como “dez” e “nove”, são, eles próprios, imotivados.
+  - id: q05
+    topico: conhecimentos-especificos/ling-signo-linguistico
+    enunciado: |-
+      Julgue o item a seguir, acerca da teoria do signo linguístico.
+
+      No Curso de linguística geral, o caráter linear é atribuído ao significado: os conceitos se sucedem no pensamento numa só dimensão, ao passo que o significante pode apresentar vários elementos simultâneos.
+  - id: q06
+    topico: conhecimentos-especificos/ling-signo-linguistico
+    enunciado: |-
+      Julgue o item a seguir, acerca da teoria do signo linguístico.
+
+      No Curso de linguística geral, língua e fala são objetos distintos, mas interdependentes: a língua é necessária para que a fala seja inteligível, e a fala é necessária para que a língua se estabeleça.
+  - id: q07
+    topico: conhecimentos-especificos/ling-signo-linguistico
+    enunciado: |-
+      Julgue o item a seguir, relativo às noções de referente, referência e sentido.
+
+      No triângulo semiótico de Ogden e Richards, o termo “referência” designa o objeto extralinguístico a que o símbolo se reporta, como os cães da rua em relação à palavra “cão”.
+  - id: q08
+    topico: conhecimentos-especificos/ling-signo-linguistico
+    enunciado: |-
+      Julgue o item a seguir, relativo à denotação e à conotação.
+
+      Na concepção de Hjelmslev, retomada por Barthes, há conotação quando um sistema de significação inteiro, com expressão e conteúdo, passa a funcionar como plano da expressão de um segundo sistema, o que pode ocorrer mesmo num enunciado sem nenhuma figura de linguagem.

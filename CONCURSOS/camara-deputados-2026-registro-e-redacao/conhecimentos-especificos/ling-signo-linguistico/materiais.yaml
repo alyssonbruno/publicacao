@@ -1,0 +1,92 @@
+materiais:
+  - tipo: texto
+    titulo: Signo linguístico, língua e fala, sentido e referência, denotação e conotação
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: 'Signo linguístico: o que é mesmo "imagem acústica"?'
+    url: https://www.youtube.com/watch?v=GVCe1Y82omU
+    autor: Rerisson Cavalcante (canal Linguística – Prof. Rerisson Cavalcante; licença Creative Commons Atribuição)
+    duracao_min: 12
+    descricao: >-
+      Comece por este. Pela descrição e pelos capítulos, aula de introdução aos estudos
+      linguísticos que mostra os equívocos comuns sobre o signo, o que é de fato a imagem
+      acústica e a separação entre o sistema linguístico e a realidade extralinguística (a partir
+      de 7:01), que é o referente fora do signo. Indicado pela descrição do vídeo, sem
+      conferência do conteúdo.
+  - tipo: video
+    titulo: "Signo linguístico: Aristóteles versus Saussure"
+    url: https://www.youtube.com/watch?v=eGv1kMmGoAo
+    autor: Rerisson Cavalcante (canal Linguística – Prof. Rerisson Cavalcante; licença Creative Commons Atribuição)
+    duracao_min: 11
+    descricao: >-
+      Pela descrição, compara o signo de Aristóteles, que liga palavras, ideias e coisas, ao
+      signo de duas faces psíquicas de Saussure, com um capítulo sobre um erro comum (1:44).
+      Indicado pela descrição do vídeo, sem conferência do conteúdo. Serve de ponte entre o signo
+      saussuriano e o triângulo de Ogden e Richards.
+  - tipo: video
+    titulo: Introdução à Linguística - As dicotomias saussureanas
+    url: https://www.youtube.com/watch?v=BVOHiqxi0LM
+    autor: UNIVESP (disciplina Introdução à Linguística, Profa. Elaine Assolini)
+    duracao_min: 19
+    descricao: >-
+      Aula universitária sobre as dicotomias de Saussure, entre elas língua e fala e significante
+      e significado. Indicado pelo título e pela descrição, que só identifica a disciplina e a
+      professora, sem conferência do conteúdo. Não se sabe se trata da motivação relativa e da
+      linearidade: para esses pontos, fique com o texto da aula.
+  - tipo: video
+    titulo: Sentido e referência
+    url: https://www.youtube.com/watch?v=rB3y0ze4aEU
+    autor: Roberlei Alves Bertucci (disciplina de Semântica e Pragmática, Letras, UTFPR)
+    duracao_min: 16
+    descricao: >-
+      Frege numa aula de semântica de curso de Letras, com exercícios no fim (a partir de
+      11:05). Indicado pela descrição e pelos capítulos, sem conferência do conteúdo. A descrição
+      não diz se trata da representação, a terceira noção do edital: para ela, use o texto da
+      aula (a analogia do telescópio).
+  - tipo: podcast
+    titulo: Arbitrário do signo linguístico | Linguística em Foco
+    url: https://podcasts.apple.com/br/podcast/arbitr%C3%A1rio-do-signo-lingu%C3%ADstico-lingu%C3%ADstica-em-foco/id1514532604?i=1000580780857
+    autor: Sopa de Letras (PETcast Letras, UFRGS); leitura da Profa. Elisa Battisti
+    duracao_min: 9
+    descricao: >-
+      Leitura do verbete sobre o arbitrário do livro "Conceitos básicos de linguística: sistemas
+      conceituais" (Battisti, Othero e Flores, Contexto, 2021), pela própria organizadora.
+      Indicado pela descrição do episódio, sem conferência do conteúdo. Por ser leitura de texto
+      de manual, pede atenção; o volume é baixo, aumente o som.
+  - tipo: podcast
+    titulo: Caráter Linear do Significante | Linguística em Foco
+    url: https://podcasts.apple.com/br/podcast/car%C3%A1ter-linear-do-significante-lingu%C3%ADstica-em-foco/id1514532604?i=1000583097717
+    autor: Sopa de Letras (PETcast Letras, UFRGS); leitura da Profa. Elisa Battisti
+    duracao_min: 9
+    descricao: >-
+      Leitura do verbete sobre a linearidade, do mesmo livro. Indicado pela descrição do episódio,
+      sem conferência do conteúdo. O título já marca o ponto que mais cai: a linearidade é do
+      significante.
+  - tipo: link
+    titulo: Cours de linguistique générale — Introdução (língua, fala e linguagem)
+    url: https://fr.wikisource.org/wiki/Cours_de_linguistique_g%C3%A9n%C3%A9rale/Introduction
+    autor: Ferdinand de Saussure (ed. Bally e Sechehaye; Wikisource)
+    descricao: >-
+      O original em francês. Leia o capítulo III (o objeto da linguística: a linguagem
+      "multiforme e heteróclita" e a língua como sua parte social) e o IV (linguística da língua
+      e linguística da fala). Opcional, para quem lê francês; em português, o livro tem as
+      traduções da Cultrix e da Parábola.
+  - tipo: link
+    titulo: Cours de linguistique générale — Primeira parte (a natureza do signo)
+    url: https://fr.wikisource.org/wiki/Cours_de_linguistique_g%C3%A9n%C3%A9rale/Premi%C3%A8re_partie
+    autor: Ferdinand de Saussure (ed. Bally e Sechehaye; Wikisource)
+    descricao: >-
+      O original em francês dos capítulos I (o signo, o arbitrário, as onomatopeias, o símbolo e
+      a linearidade) e II (imutabilidade e mutabilidade). São poucas páginas e decidem quase todos
+      os itens sobre Saussure. Opcional, para quem lê francês.
+  - tipo: link
+    titulo: Sobre o sentido e a referência (Frege, tradução de Sérgio R. N. Miranda)
+    url: https://seer.ufrgs.br/index.php/resseveraverumgaudium/article/view/147224
+    autor: Gottlob Frege; tradução de Sérgio R. N. Miranda (Res Severa Verum Gaudium, UFRGS)
+    descricao: >-
+      O artigo de 1892 em português, em PDF. Leia só as primeiras páginas: a estrela da manhã e
+      a da tarde, a representação (Bucéfalo) e a analogia do telescópio. O título e o resumo em
+      inglês são da revista, não de Frege, e há erros de digitação ("a estrela a manhã").
