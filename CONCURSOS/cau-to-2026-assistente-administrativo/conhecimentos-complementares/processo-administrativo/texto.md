@@ -142,7 +142,7 @@ As duas figuras protegem a imparcialidade de quem atua no processo.
 | Se descumprir | Omitir a comunicação é **falta grave** | Do indeferimento da alegação cabe recurso, **sem efeito suspensivo** |
 
 > [!TIP]
-> Impedimento é **objetivo** (um fato: tem interesse na matéria, foi perito ou testemunha, litiga com o interessado) e gera **dever**. Suspeição é **subjetiva** (amizade íntima ou inimizade notória) e gera **possibilidade** de alegação. Na lei: impedido "deve"; suspeição "pode". Ser parente do interessado, sozinho, **não é impedimento**.
+> Impedimento é **objetivo** (um fato: tem interesse na matéria, foi perito ou testemunha, litiga com o interessado) e gera **dever**. Suspeição é **subjetiva** (amizade íntima ou inimizade notória) e gera **possibilidade** de alegação. Na lei: impedido "deve"; suspeição "pode". Ser parente do interessado **não está, sozinho, na lista do art. 18**; mas o parentesco pode configurar interesse indireto na matéria (inciso I), e aí há impedimento.
 
 ## Forma dos atos, intimação e instrução
 

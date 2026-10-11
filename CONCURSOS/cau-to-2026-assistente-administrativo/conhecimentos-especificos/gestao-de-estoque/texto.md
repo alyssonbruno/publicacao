@@ -19,7 +19,7 @@ A prova cobra este assunto em itens de uma frase, que trocam um conceito pelo vi
 
 No setor público, o que o edital chama de "suprimentos de escritório" tem nome próprio: **material de expediente**. A Portaria STN nº 448/2002 o descreve como o material usado diretamente nos trabalhos administrativos, nos escritórios públicos, e dá exemplos: papéis, canetas, lápis, borrachas, clipes, grampos, envelopes, pastas, fita adesiva e carimbos.
 
-O material de expediente é um tipo de **material de consumo**: aquele que, com o uso, perde a identidade física ou tem utilização limitada a dois anos (art. 2º da mesma portaria). É o contrário do material permanente, como mesas e armários, que não perde a identidade física e dura mais de dois anos.
+O material de expediente é um tipo de **material de consumo**: aquele que, com o uso, perde a identidade física e/ou tem utilização limitada a dois anos (art. 2º da mesma portaria). É o contrário do material permanente, como mesas e armários, que não perde a identidade física e/ou dura mais de dois anos.
 
 A diferença muda o controle. O material de consumo é controlado **no estoque**: entra no almoxarifado, sai por requisição e acaba. O material permanente é controlado **um a um**, com número de patrimônio e termo de responsabilidade.
 
