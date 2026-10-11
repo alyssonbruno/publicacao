@@ -1,0 +1,56 @@
+materiais:
+  - tipo: texto
+    titulo: "Orações e períodos: coordenação e subordinação"
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: COMPLEMENTO NOMINAL X ADJUNTO ADNOMINAL
+    url: https://www.youtube.com/watch?v=vQI5jHEwCCI
+    autor: Prof. Álvaro Ferreira
+    duracao_min: 10
+    descricao: >-
+      Aula curta, de professor de concursos, sobre a diferença entre os dois termos: é o ponto
+      dos itens de sintaxe da prova de 2023 do cargo. Indicada pelo título, pela descrição e
+      pela duração; ainda não foi assistida por nós. Compare com os três passos do texto da
+      aula e, se algo divergir, fique com o texto.
+  - tipo: video
+    titulo: "Tudo sobre ORAÇÕES SUBORDINADAS (Substantiva, Adjetiva e Adverbial) #português #concurso"
+    url: https://www.youtube.com/watch?v=1C88RhbZjgg
+    autor: Professor Noslen
+    duracao_min: 15
+    descricao: >-
+      Visão geral das três famílias de orações subordinadas, com capítulos de conectivos e
+      funções, classificação na prática e questões de concurso, segundo a descrição do vídeo.
+      Ainda não foi assistida por nós. Em 15 minutos não deve detalhar as seis substantivas
+      nem as nove adverbiais: para isso, use as tabelas do texto da aula.
+  - tipo: video
+    titulo: "ORAÇÕES COORDENADAS SINDÉTICAS e ASSINDÉTICAS | Aprenda tudo! | Português do Zero"
+    url: https://www.youtube.com/watch?v=3oO_ejhW7yM
+    autor: Português com Letícia
+    duracao_min: 16
+    descricao: >-
+      Segundo a descrição, ensina a diferenciar as coordenadas sindéticas das assindéticas e
+      percorre as cinco sindéticas (aditivas, adversativas, alternativas, explicativas e
+      conclusivas), com marcação de tempo por parte. Ainda não foi assistida por nós.
+  - tipo: video
+    titulo: Coordenada explicativa X Subordinada adverbial causal [Prof. Noslen]
+    url: https://www.youtube.com/watch?v=Kwmj54TkbiM
+    autor: Professor Noslen
+    duracao_min: 9
+    descricao: >-
+      Capítulos, segundo a descrição: o que é a causal, o que é a explicativa, diferenças entre
+      as duas, relação de causa e consequência, relação de explicação e hipótese. Ainda não foi
+      assistida por nós: não sabemos se os testes do professor são os mesmos do texto da aula
+      (ordem ou suposição antes da vírgula; troca por "por" + infinitivo). Opcional: é um ponto
+      em que as gramáticas divergem.
+  - tipo: video
+    titulo: Orações Reduzidas - Pablo Jamilk
+    url: https://www.youtube.com/watch?v=mk5Nvyr8hUw
+    autor: Pablo Jamilk
+    duracao_min: 9
+    descricao: >-
+      Aula curta, de professor de concursos, sobre orações reduzidas. A descrição do vídeo não
+      detalha o conteúdo, e a aula ainda não foi assistida por nós: confira os exemplos com a
+      tabela de reduzidas do texto.

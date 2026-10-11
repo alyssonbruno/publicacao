@@ -1,0 +1,219 @@
+# Treino de coesão, coerência e uso de conectores — CAU/TO 2026, Assistente Administrativo. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Coesão, coerência e uso de conectores
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre dois textos próprios e fictícios (uma notícia e um comunicado de um conselho
+      profissional), com linhas numeradas, no estilo de certo ou errado do Instituto Quadrix: referente de
+      pronome com remissão à linha, valor de conector e substituição de conector.'
+    - 'Referências de estilo, sem cópia de itens: itens do Instituto Quadrix (2017 a 2025) listados no Estude
+      Grátis nos assuntos Conjunções e Coesão e coerência (https://www.estudegratis.com.br/questoes-de-concurso/materia/portugues/assunto/conjuncoes
+      e https://www.estudegratis.com.br/questoes-de-concurso/materia/portugues/assunto/coesao-e-coerencia);
+      caderno de Assistente Administrativo do CORE/RJ 2025 (Instituto Quadrix); caderno de Assistente
+      Administrativo do CAU/TO 2023 (Instituto Quadrix). Os gabaritos dessas provas não foram consultados.'
+    - 'Bases do gabarito: Manual de Redação da Presidência da República, 3ª ed. (itens 3.4 e 11.10 e verbetes
+      “à medida que/na medida em que”, “posto que” e “onde”); EaDicas de Português do STJ, dicas 17 e 29;
+      Só Português (conjunções coordenativas e subordinativas); Gramatigalhas, “Posto que” (Migalhas);
+      Estratégia Concursos, “O que é conjunção?”; Toda Matéria, “Pronomes Demonstrativos”. Consultados
+      em 10/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-coesao-e-coerencia
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho criou, em 2025, um serviço de atendimento itinerante,
+      > 2. cujo objetivo é orientar os profissionais que moram longe da
+      > 3. capital. Embora a equipe seja pequena, o serviço já passou por
+      > 4. doze municípios. Em cada cidade onde a unidade móvel estaciona,
+      > 5. os servidores recebem os profissionais e entregam-lhes as
+      > 6. certidões pedidas pelo portal. Muitos pedidos chegavam com
+      > 7. documentos incompletos; por isso, a coordenação publicou um guia
+      > 8. de preenchimento. Isso reduziu pela metade o número de
+      > 9. devoluções.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      O pronome “cujo” (linha 2) retoma “um serviço de atendimento itinerante” (linha 1) e indica que o objetivo mencionado é desse serviço.
+  - id: q02
+    topico: conhecimentos-basicos/lp-coesao-e-coerencia
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho criou, em 2025, um serviço de atendimento itinerante,
+      > 2. cujo objetivo é orientar os profissionais que moram longe da
+      > 3. capital. Embora a equipe seja pequena, o serviço já passou por
+      > 4. doze municípios. Em cada cidade onde a unidade móvel estaciona,
+      > 5. os servidores recebem os profissionais e entregam-lhes as
+      > 6. certidões pedidas pelo portal. Muitos pedidos chegavam com
+      > 7. documentos incompletos; por isso, a coordenação publicou um guia
+      > 8. de preenchimento. Isso reduziu pela metade o número de
+      > 9. devoluções.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      Mantido o restante do período, a substituição de “Embora” (linha 3) por “Contudo” preservaria a correção gramatical e a coerência do texto.
+  - id: q03
+    topico: conhecimentos-basicos/lp-coesao-e-coerencia
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho criou, em 2025, um serviço de atendimento itinerante,
+      > 2. cujo objetivo é orientar os profissionais que moram longe da
+      > 3. capital. Embora a equipe seja pequena, o serviço já passou por
+      > 4. doze municípios. Em cada cidade onde a unidade móvel estaciona,
+      > 5. os servidores recebem os profissionais e entregam-lhes as
+      > 6. certidões pedidas pelo portal. Muitos pedidos chegavam com
+      > 7. documentos incompletos; por isso, a coordenação publicou um guia
+      > 8. de preenchimento. Isso reduziu pela metade o número de
+      > 9. devoluções.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      A substituição de “Embora” (linha 3) por “Conquanto” manteria a correção gramatical e o sentido original do período.
+  - id: q04
+    topico: conhecimentos-basicos/lp-coesao-e-coerencia
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho criou, em 2025, um serviço de atendimento itinerante,
+      > 2. cujo objetivo é orientar os profissionais que moram longe da
+      > 3. capital. Embora a equipe seja pequena, o serviço já passou por
+      > 4. doze municípios. Em cada cidade onde a unidade móvel estaciona,
+      > 5. os servidores recebem os profissionais e entregam-lhes as
+      > 6. certidões pedidas pelo portal. Muitos pedidos chegavam com
+      > 7. documentos incompletos; por isso, a coordenação publicou um guia
+      > 8. de preenchimento. Isso reduziu pela metade o número de
+      > 9. devoluções.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      No trecho “Em cada cidade onde a unidade móvel estaciona” (linha 4), a substituição de “onde” por “em que” manteria a correção gramatical e o sentido original.
+  - id: q05
+    topico: conhecimentos-basicos/lp-coesao-e-coerencia
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho criou, em 2025, um serviço de atendimento itinerante,
+      > 2. cujo objetivo é orientar os profissionais que moram longe da
+      > 3. capital. Embora a equipe seja pequena, o serviço já passou por
+      > 4. doze municípios. Em cada cidade onde a unidade móvel estaciona,
+      > 5. os servidores recebem os profissionais e entregam-lhes as
+      > 6. certidões pedidas pelo portal. Muitos pedidos chegavam com
+      > 7. documentos incompletos; por isso, a coordenação publicou um guia
+      > 8. de preenchimento. Isso reduziu pela metade o número de
+      > 9. devoluções.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      Na linha 5, o pronome “lhes” refere-se a “os servidores”.
+  - id: q06
+    topico: conhecimentos-basicos/lp-coesao-e-coerencia
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho criou, em 2025, um serviço de atendimento itinerante,
+      > 2. cujo objetivo é orientar os profissionais que moram longe da
+      > 3. capital. Embora a equipe seja pequena, o serviço já passou por
+      > 4. doze municípios. Em cada cidade onde a unidade móvel estaciona,
+      > 5. os servidores recebem os profissionais e entregam-lhes as
+      > 6. certidões pedidas pelo portal. Muitos pedidos chegavam com
+      > 7. documentos incompletos; por isso, a coordenação publicou um guia
+      > 8. de preenchimento. Isso reduziu pela metade o número de
+      > 9. devoluções.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      A substituição de “por isso” (linha 7) por “posto que” preservaria a relação de sentido entre as orações do período.
+  - id: q07
+    topico: conhecimentos-basicos/lp-coesao-e-coerencia
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho criou, em 2025, um serviço de atendimento itinerante,
+      > 2. cujo objetivo é orientar os profissionais que moram longe da
+      > 3. capital. Embora a equipe seja pequena, o serviço já passou por
+      > 4. doze municípios. Em cada cidade onde a unidade móvel estaciona,
+      > 5. os servidores recebem os profissionais e entregam-lhes as
+      > 6. certidões pedidas pelo portal. Muitos pedidos chegavam com
+      > 7. documentos incompletos; por isso, a coordenação publicou um guia
+      > 8. de preenchimento. Isso reduziu pela metade o número de
+      > 9. devoluções.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      O pronome “Isso” (linha 8) retoma o fato de a coordenação ter publicado um guia de preenchimento, o que permite concluir que, depois da publicação, as devoluções deixaram de ocorrer.
+  - id: q08
+    topico: conhecimentos-basicos/lp-coesao-e-coerencia
+    enunciado: |-
+      Considere o texto a seguir, um comunicado fictício de um conselho profissional, com as linhas numeradas.
+      > 1. A partir de novembro, os pedidos de registro serão feitos apenas
+      > 2. pelo portal, pois o protocolo em papel será desativado. A mudança
+      > 3. preocupa parte dos profissionais, mas a direção garante que
+      > 4. ninguém ficará sem atendimento. À medida que os novos pedidos
+      > 5. chegarem, a equipe os analisará em ordem de entrada. A sede terá
+      > 6. dois computadores e dois atendentes: estes ajudarão quem tiver
+      > 7. dificuldade com o sistema. Caso o portal fique fora do ar, o
+      > 8. prazo será prorrogado, conforme prevê o regulamento.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      A substituição de “pois” (linha 2) por “porquanto” manteria a correção gramatical e o sentido original do período.
+  - id: q09
+    topico: conhecimentos-basicos/lp-coesao-e-coerencia
+    enunciado: |-
+      Considere o texto a seguir, um comunicado fictício de um conselho profissional, com as linhas numeradas.
+      > 1. A partir de novembro, os pedidos de registro serão feitos apenas
+      > 2. pelo portal, pois o protocolo em papel será desativado. A mudança
+      > 3. preocupa parte dos profissionais, mas a direção garante que
+      > 4. ninguém ficará sem atendimento. À medida que os novos pedidos
+      > 5. chegarem, a equipe os analisará em ordem de entrada. A sede terá
+      > 6. dois computadores e dois atendentes: estes ajudarão quem tiver
+      > 7. dificuldade com o sistema. Caso o portal fique fora do ar, o
+      > 8. prazo será prorrogado, conforme prevê o regulamento.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      Na linha 4, a locução “À medida que” introduz a causa do fato expresso na oração seguinte.
+  - id: q10
+    topico: conhecimentos-basicos/lp-coesao-e-coerencia
+    enunciado: |-
+      Considere o texto a seguir, um comunicado fictício de um conselho profissional, com as linhas numeradas.
+      > 1. A partir de novembro, os pedidos de registro serão feitos apenas
+      > 2. pelo portal, pois o protocolo em papel será desativado. A mudança
+      > 3. preocupa parte dos profissionais, mas a direção garante que
+      > 4. ninguém ficará sem atendimento. À medida que os novos pedidos
+      > 5. chegarem, a equipe os analisará em ordem de entrada. A sede terá
+      > 6. dois computadores e dois atendentes: estes ajudarão quem tiver
+      > 7. dificuldade com o sistema. Caso o portal fique fora do ar, o
+      > 8. prazo será prorrogado, conforme prevê o regulamento.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      Na linha 5, o pronome “os” retoma “os novos pedidos” (linha 4).
+  - id: q11
+    topico: conhecimentos-basicos/lp-coesao-e-coerencia
+    enunciado: |-
+      Considere o texto a seguir, um comunicado fictício de um conselho profissional, com as linhas numeradas.
+      > 1. A partir de novembro, os pedidos de registro serão feitos apenas
+      > 2. pelo portal, pois o protocolo em papel será desativado. A mudança
+      > 3. preocupa parte dos profissionais, mas a direção garante que
+      > 4. ninguém ficará sem atendimento. À medida que os novos pedidos
+      > 5. chegarem, a equipe os analisará em ordem de entrada. A sede terá
+      > 6. dois computadores e dois atendentes: estes ajudarão quem tiver
+      > 7. dificuldade com o sistema. Caso o portal fique fora do ar, o
+      > 8. prazo será prorrogado, conforme prevê o regulamento.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      Na linha 6, o pronome “estes” retoma “dois computadores”.
+  - id: q12
+    topico: conhecimentos-basicos/lp-coesao-e-coerencia
+    enunciado: |-
+      Considere o texto a seguir, um comunicado fictício de um conselho profissional, com as linhas numeradas.
+      > 1. A partir de novembro, os pedidos de registro serão feitos apenas
+      > 2. pelo portal, pois o protocolo em papel será desativado. A mudança
+      > 3. preocupa parte dos profissionais, mas a direção garante que
+      > 4. ninguém ficará sem atendimento. À medida que os novos pedidos
+      > 5. chegarem, a equipe os analisará em ordem de entrada. A sede terá
+      > 6. dois computadores e dois atendentes: estes ajudarão quem tiver
+      > 7. dificuldade com o sistema. Caso o portal fique fora do ar, o
+      > 8. prazo será prorrogado, conforme prevê o regulamento.
+
+      Com relação aos mecanismos de coesão e ao emprego dos conectores no texto, julgue o item.
+
+      No trecho “conforme prevê o regulamento” (linha 8), a substituição de “conforme” por “segundo” manteria a correção gramatical e o sentido original.

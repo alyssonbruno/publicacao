@@ -1,0 +1,246 @@
+# Treino de orações e períodos (coordenação e subordinação) — CAU/TO 2026, Assistente Administrativo. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Orações e períodos, coordenação e subordinação
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre dois textos próprios (notícia e aviso de um conselho profissional
+      fictício, com as linhas numeradas), no estilo de certo ou errado do Instituto Quadrix: a função
+      sintática de um termo ou de uma oração do texto, o valor de um conector e o número de orações
+      de um período, com remissão à linha.'
+    - 'Referências de estilo, sem cópia de itens: caderno de Assistente Administrativo do CAU/TO 2023
+      (Instituto Quadrix); cadernos de Assistente Administrativo do CRC-PR (Quadrix, aplicação em 2017)
+      e do CORE-SE (Quadrix, 2025); itens de sintaxe da Quadrix listados no Estude Grátis.'
+    - 'Bases do gabarito: Só Português (termos da oração, coordenação e subordinação); Toda Matéria
+      (frase, oração e período; adjunto adnominal e complemento nominal); PrePara ENEM (conjunção
+      integrante e pronome relativo); Norma Culta e Universidade Federal de Sergipe/CESAD (orações
+      reduzidas). Consultados em 10/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Considere a notícia a seguir, publicada no portal de um conselho profissional fictício, com as linhas numeradas.
+
+      > 1. O Conselho Regional de Arquitetura do Vale Azul informou,
+      > 2. na segunda-feira, que a análise dos pedidos de registro
+      > 3. será feita em até dez dias. A mudança atende a uma antiga
+      > 4. reivindicação dos profissionais do interior, que esperavam
+      > 5. mais de um mês pela resposta.
+      > 6. Como o número de solicitações dobrou em dois anos, a
+      > 7. autarquia contratou três assistentes e criou um canal de
+      > 8. atendimento virtual. Chegaram ao setor, só em setembro,
+      > 9. quatrocentos pedidos.
+      > 10. Segundo a presidente, a equipe está confiante no novo
+      > 11. sistema, mas precisa de mais treinamento. “É indispensável
+      > 12. que os servidores dominem a ferramenta”, afirmou.
+
+      Com base no texto e na estrutura sintática de seus períodos, julgue o item.
+
+      No primeiro período do texto (linhas 1 a 3), a oração iniciada pelo vocábulo “que” (linha 2) exerce a função de objeto direto da forma verbal “informou” (linha 1).
+  - id: q02
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Considere a notícia a seguir, publicada no portal de um conselho profissional fictício, com as linhas numeradas.
+
+      > 1. O Conselho Regional de Arquitetura do Vale Azul informou,
+      > 2. na segunda-feira, que a análise dos pedidos de registro
+      > 3. será feita em até dez dias. A mudança atende a uma antiga
+      > 4. reivindicação dos profissionais do interior, que esperavam
+      > 5. mais de um mês pela resposta.
+      > 6. Como o número de solicitações dobrou em dois anos, a
+      > 7. autarquia contratou três assistentes e criou um canal de
+      > 8. atendimento virtual. Chegaram ao setor, só em setembro,
+      > 9. quatrocentos pedidos.
+      > 10. Segundo a presidente, a equipe está confiante no novo
+      > 11. sistema, mas precisa de mais treinamento. “É indispensável
+      > 12. que os servidores dominem a ferramenta”, afirmou.
+
+      Com base no texto e na estrutura sintática de seus períodos, julgue o item.
+
+      Na linha 2, o termo “dos pedidos de registro” exerce a função de complemento nominal do substantivo “análise”.
+  - id: q03
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Considere a notícia a seguir, publicada no portal de um conselho profissional fictício, com as linhas numeradas.
+
+      > 1. O Conselho Regional de Arquitetura do Vale Azul informou,
+      > 2. na segunda-feira, que a análise dos pedidos de registro
+      > 3. será feita em até dez dias. A mudança atende a uma antiga
+      > 4. reivindicação dos profissionais do interior, que esperavam
+      > 5. mais de um mês pela resposta.
+      > 6. Como o número de solicitações dobrou em dois anos, a
+      > 7. autarquia contratou três assistentes e criou um canal de
+      > 8. atendimento virtual. Chegaram ao setor, só em setembro,
+      > 9. quatrocentos pedidos.
+      > 10. Segundo a presidente, a equipe está confiante no novo
+      > 11. sistema, mas precisa de mais treinamento. “É indispensável
+      > 12. que os servidores dominem a ferramenta”, afirmou.
+
+      Com base no texto e na estrutura sintática de seus períodos, julgue o item.
+
+      Na linha 4, o termo “dos profissionais do interior” exerce a função de complemento nominal do substantivo “reivindicação”.
+  - id: q04
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Considere a notícia a seguir, publicada no portal de um conselho profissional fictício, com as linhas numeradas.
+
+      > 1. O Conselho Regional de Arquitetura do Vale Azul informou,
+      > 2. na segunda-feira, que a análise dos pedidos de registro
+      > 3. será feita em até dez dias. A mudança atende a uma antiga
+      > 4. reivindicação dos profissionais do interior, que esperavam
+      > 5. mais de um mês pela resposta.
+      > 6. Como o número de solicitações dobrou em dois anos, a
+      > 7. autarquia contratou três assistentes e criou um canal de
+      > 8. atendimento virtual. Chegaram ao setor, só em setembro,
+      > 9. quatrocentos pedidos.
+      > 10. Segundo a presidente, a equipe está confiante no novo
+      > 11. sistema, mas precisa de mais treinamento. “É indispensável
+      > 12. que os servidores dominem a ferramenta”, afirmou.
+
+      Com base no texto e na estrutura sintática de seus períodos, julgue o item.
+
+      A oração “que esperavam mais de um mês pela resposta” (linhas 4 e 5) exerce a função de complemento nominal do substantivo “reivindicação” (linha 4).
+  - id: q05
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Considere a notícia a seguir, publicada no portal de um conselho profissional fictício, com as linhas numeradas.
+
+      > 1. O Conselho Regional de Arquitetura do Vale Azul informou,
+      > 2. na segunda-feira, que a análise dos pedidos de registro
+      > 3. será feita em até dez dias. A mudança atende a uma antiga
+      > 4. reivindicação dos profissionais do interior, que esperavam
+      > 5. mais de um mês pela resposta.
+      > 6. Como o número de solicitações dobrou em dois anos, a
+      > 7. autarquia contratou três assistentes e criou um canal de
+      > 8. atendimento virtual. Chegaram ao setor, só em setembro,
+      > 9. quatrocentos pedidos.
+      > 10. Segundo a presidente, a equipe está confiante no novo
+      > 11. sistema, mas precisa de mais treinamento. “É indispensável
+      > 12. que os servidores dominem a ferramenta”, afirmou.
+
+      Com base no texto e na estrutura sintática de seus períodos, julgue o item.
+
+      No período iniciado na linha 6, a oração introduzida pelo vocábulo “Como” exprime ideia de causa em relação ao restante do período.
+  - id: q06
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Considere a notícia a seguir, publicada no portal de um conselho profissional fictício, com as linhas numeradas.
+
+      > 1. O Conselho Regional de Arquitetura do Vale Azul informou,
+      > 2. na segunda-feira, que a análise dos pedidos de registro
+      > 3. será feita em até dez dias. A mudança atende a uma antiga
+      > 4. reivindicação dos profissionais do interior, que esperavam
+      > 5. mais de um mês pela resposta.
+      > 6. Como o número de solicitações dobrou em dois anos, a
+      > 7. autarquia contratou três assistentes e criou um canal de
+      > 8. atendimento virtual. Chegaram ao setor, só em setembro,
+      > 9. quatrocentos pedidos.
+      > 10. Segundo a presidente, a equipe está confiante no novo
+      > 11. sistema, mas precisa de mais treinamento. “É indispensável
+      > 12. que os servidores dominem a ferramenta”, afirmou.
+
+      Com base no texto e na estrutura sintática de seus períodos, julgue o item.
+
+      No período “Chegaram ao setor, só em setembro, quatrocentos pedidos.” (linhas 8 e 9), o termo “quatrocentos pedidos” exerce a função de objeto direto da forma verbal “Chegaram”.
+  - id: q07
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Considere a notícia a seguir, publicada no portal de um conselho profissional fictício, com as linhas numeradas.
+
+      > 1. O Conselho Regional de Arquitetura do Vale Azul informou,
+      > 2. na segunda-feira, que a análise dos pedidos de registro
+      > 3. será feita em até dez dias. A mudança atende a uma antiga
+      > 4. reivindicação dos profissionais do interior, que esperavam
+      > 5. mais de um mês pela resposta.
+      > 6. Como o número de solicitações dobrou em dois anos, a
+      > 7. autarquia contratou três assistentes e criou um canal de
+      > 8. atendimento virtual. Chegaram ao setor, só em setembro,
+      > 9. quatrocentos pedidos.
+      > 10. Segundo a presidente, a equipe está confiante no novo
+      > 11. sistema, mas precisa de mais treinamento. “É indispensável
+      > 12. que os servidores dominem a ferramenta”, afirmou.
+
+      Com base no texto e na estrutura sintática de seus períodos, julgue o item.
+
+      Nas linhas 10 e 11, o termo “no novo sistema” exerce a função de objeto indireto da forma verbal “está”.
+  - id: q08
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Considere a notícia a seguir, publicada no portal de um conselho profissional fictício, com as linhas numeradas.
+
+      > 1. O Conselho Regional de Arquitetura do Vale Azul informou,
+      > 2. na segunda-feira, que a análise dos pedidos de registro
+      > 3. será feita em até dez dias. A mudança atende a uma antiga
+      > 4. reivindicação dos profissionais do interior, que esperavam
+      > 5. mais de um mês pela resposta.
+      > 6. Como o número de solicitações dobrou em dois anos, a
+      > 7. autarquia contratou três assistentes e criou um canal de
+      > 8. atendimento virtual. Chegaram ao setor, só em setembro,
+      > 9. quatrocentos pedidos.
+      > 10. Segundo a presidente, a equipe está confiante no novo
+      > 11. sistema, mas precisa de mais treinamento. “É indispensável
+      > 12. que os servidores dominem a ferramenta”, afirmou.
+
+      Com base no texto e na estrutura sintática de seus períodos, julgue o item.
+
+      Nas linhas 11 e 12, a oração “que os servidores dominem a ferramenta” exerce a função de sujeito da oração “É indispensável”.
+  - id: q09
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Considere o aviso a seguir, enviado pela secretaria de um conselho profissional fictício, com as linhas numeradas.
+
+      > 1. Senhores conselheiros, a sessão que estava marcada para
+      > 2. quinta-feira foi adiada pela presidência. A secretaria
+      > 3. ainda não sabe se haverá quórum na nova data.
+      > 4. Encerrado o prazo de confirmação, enviaremos a pauta
+      > 5. para que todos possam preparar os votos. Há dois
+      > 6. processos urgentes na lista.
+
+      Com base no texto e na estrutura sintática de seus períodos, julgue o item.
+
+      Na linha 1, o termo “Senhores conselheiros” exerce a função de sujeito da forma verbal “foi adiada” (linha 2).
+  - id: q10
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Considere o aviso a seguir, enviado pela secretaria de um conselho profissional fictício, com as linhas numeradas.
+
+      > 1. Senhores conselheiros, a sessão que estava marcada para
+      > 2. quinta-feira foi adiada pela presidência. A secretaria
+      > 3. ainda não sabe se haverá quórum na nova data.
+      > 4. Encerrado o prazo de confirmação, enviaremos a pauta
+      > 5. para que todos possam preparar os votos. Há dois
+      > 6. processos urgentes na lista.
+
+      Com base no texto e na estrutura sintática de seus períodos, julgue o item.
+
+      Na linha 2, o termo “pela presidência” exerce a função de agente da passiva.
+  - id: q11
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Considere o aviso a seguir, enviado pela secretaria de um conselho profissional fictício, com as linhas numeradas.
+
+      > 1. Senhores conselheiros, a sessão que estava marcada para
+      > 2. quinta-feira foi adiada pela presidência. A secretaria
+      > 3. ainda não sabe se haverá quórum na nova data.
+      > 4. Encerrado o prazo de confirmação, enviaremos a pauta
+      > 5. para que todos possam preparar os votos. Há dois
+      > 6. processos urgentes na lista.
+
+      Com base no texto e na estrutura sintática de seus períodos, julgue o item.
+
+      O período “Encerrado o prazo de confirmação, enviaremos a pauta para que todos possam preparar os votos.” (linhas 4 e 5) é formado por três orações.
+  - id: q12
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Considere o aviso a seguir, enviado pela secretaria de um conselho profissional fictício, com as linhas numeradas.
+
+      > 1. Senhores conselheiros, a sessão que estava marcada para
+      > 2. quinta-feira foi adiada pela presidência. A secretaria
+      > 3. ainda não sabe se haverá quórum na nova data.
+      > 4. Encerrado o prazo de confirmação, enviaremos a pauta
+      > 5. para que todos possam preparar os votos. Há dois
+      > 6. processos urgentes na lista.
+
+      Com base no texto e na estrutura sintática de seus períodos, julgue o item.
+
+      No período “Há dois processos urgentes na lista.” (linhas 5 e 6), o termo “dois processos urgentes” exerce a função de sujeito da forma verbal “Há”.

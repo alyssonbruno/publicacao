@@ -1,0 +1,254 @@
+# Treino de emprego de tempos e modos verbais — CAU/TO 2026, Assistente Administrativo. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Emprego de tempos e modos verbais
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre dois textos próprios e fictícios (um comunicado de um conselho
+      profissional e um relato), no estilo de certo ou errado do Instituto Quadrix: a forma verbal
+      entre aspas, com remissão à linha, e uma afirmação por item sobre o verbo, o tempo ou o modo
+      da forma, a troca de tempo e a correlação verbal em reescrita.'
+    - 'Referências de estilo, sem cópia de itens: caderno de Assistente Administrativo do CAU/TO 2023
+      (Instituto Quadrix) e itens da Quadrix de 2016 a 2024 sobre flexão verbal de tempo e de modo
+      e sobre verbos listados no Aprova Concursos.'
+    - 'Bases do gabarito: Gotas da Língua Portuguesa nº 40 e nº 66 (TJMG); Blog da Dad, Correio
+      Braziliense (futuro do subjuntivo e verbos abundantes); Gramatigalhas, Migalhas (consecução
+      dos tempos verbais, “Vir” e futuro do pretérito); Só Português (modos, tempos, formação do
+      imperativo e tempos compostos); InfoEscola (modo indicativo e modo subjuntivo); Dicio (“se
+      eu ver ou se eu vir”). Consultados em 10/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: comunicado fictício de um conselho profissional, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. O Conselho informa que o novo portal de serviços entrará no ar na
+      > 2. segunda-feira. Quem mantiver o cadastro atualizado receberá a senha
+      > 3. por e-mail; quem não o fizer deverá comparecer à sede. Se o sistema
+      > 4. ficar indisponível, o profissional poderá protocolar o pedido no
+      > 5. balcão. Caso a equipe técnica intervenha a tempo, a espera será
+      > 6. curta. Guarde o número do protocolo e não o informe a terceiros.
+      > 7. Os profissionais que virem mensagens suspeitas devem avisar o
+      > 8. setor de atendimento. Gostaríamos de contar com a colaboração de
+      > 9. todos para que a mudança ocorra sem transtornos.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      No trecho “Quem mantiver o cadastro atualizado receberá a senha” (linha 2), a substituição de “mantiver” por “manter” preservaria a correção gramatical.
+  - id: q02
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: comunicado fictício de um conselho profissional, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. O Conselho informa que o novo portal de serviços entrará no ar na
+      > 2. segunda-feira. Quem mantiver o cadastro atualizado receberá a senha
+      > 3. por e-mail; quem não o fizer deverá comparecer à sede. Se o sistema
+      > 4. ficar indisponível, o profissional poderá protocolar o pedido no
+      > 5. balcão. Caso a equipe técnica intervenha a tempo, a espera será
+      > 6. curta. Guarde o número do protocolo e não o informe a terceiros.
+      > 7. Os profissionais que virem mensagens suspeitas devem avisar o
+      > 8. setor de atendimento. Gostaríamos de contar com a colaboração de
+      > 9. todos para que a mudança ocorra sem transtornos.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      No trecho “Se o sistema ficar indisponível” (linhas 3 e 4), a forma verbal “ficar” está flexionada no futuro do subjuntivo.
+  - id: q03
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: comunicado fictício de um conselho profissional, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. O Conselho informa que o novo portal de serviços entrará no ar na
+      > 2. segunda-feira. Quem mantiver o cadastro atualizado receberá a senha
+      > 3. por e-mail; quem não o fizer deverá comparecer à sede. Se o sistema
+      > 4. ficar indisponível, o profissional poderá protocolar o pedido no
+      > 5. balcão. Caso a equipe técnica intervenha a tempo, a espera será
+      > 6. curta. Guarde o número do protocolo e não o informe a terceiros.
+      > 7. Os profissionais que virem mensagens suspeitas devem avisar o
+      > 8. setor de atendimento. Gostaríamos de contar com a colaboração de
+      > 9. todos para que a mudança ocorra sem transtornos.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      A forma verbal “virem” (linha 7) é flexão do verbo “vir”.
+  - id: q04
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: comunicado fictício de um conselho profissional, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. O Conselho informa que o novo portal de serviços entrará no ar na
+      > 2. segunda-feira. Quem mantiver o cadastro atualizado receberá a senha
+      > 3. por e-mail; quem não o fizer deverá comparecer à sede. Se o sistema
+      > 4. ficar indisponível, o profissional poderá protocolar o pedido no
+      > 5. balcão. Caso a equipe técnica intervenha a tempo, a espera será
+      > 6. curta. Guarde o número do protocolo e não o informe a terceiros.
+      > 7. Os profissionais que virem mensagens suspeitas devem avisar o
+      > 8. setor de atendimento. Gostaríamos de contar com a colaboração de
+      > 9. todos para que a mudança ocorra sem transtornos.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      No período “Se o sistema ficar indisponível, o profissional poderá protocolar o pedido no balcão.” (linhas de 3 a 5), a substituição de “ficar” por “ficasse” e de “poderá” por “poderia” manteria a correção gramatical.
+  - id: q05
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: comunicado fictício de um conselho profissional, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. O Conselho informa que o novo portal de serviços entrará no ar na
+      > 2. segunda-feira. Quem mantiver o cadastro atualizado receberá a senha
+      > 3. por e-mail; quem não o fizer deverá comparecer à sede. Se o sistema
+      > 4. ficar indisponível, o profissional poderá protocolar o pedido no
+      > 5. balcão. Caso a equipe técnica intervenha a tempo, a espera será
+      > 6. curta. Guarde o número do protocolo e não o informe a terceiros.
+      > 7. Os profissionais que virem mensagens suspeitas devem avisar o
+      > 8. setor de atendimento. Gostaríamos de contar com a colaboração de
+      > 9. todos para que a mudança ocorra sem transtornos.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      A forma verbal “intervenha” (linha 5) está flexionada no futuro do subjuntivo.
+  - id: q06
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: comunicado fictício de um conselho profissional, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. O Conselho informa que o novo portal de serviços entrará no ar na
+      > 2. segunda-feira. Quem mantiver o cadastro atualizado receberá a senha
+      > 3. por e-mail; quem não o fizer deverá comparecer à sede. Se o sistema
+      > 4. ficar indisponível, o profissional poderá protocolar o pedido no
+      > 5. balcão. Caso a equipe técnica intervenha a tempo, a espera será
+      > 6. curta. Guarde o número do protocolo e não o informe a terceiros.
+      > 7. Os profissionais que virem mensagens suspeitas devem avisar o
+      > 8. setor de atendimento. Gostaríamos de contar com a colaboração de
+      > 9. todos para que a mudança ocorra sem transtornos.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      No período “Guarde o número do protocolo e não o informe a terceiros.” (linha 6), a substituição de “Guarde” por “Guarda” manteria a uniformidade do tratamento dado ao leitor.
+  - id: q07
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: comunicado fictício de um conselho profissional, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. O Conselho informa que o novo portal de serviços entrará no ar na
+      > 2. segunda-feira. Quem mantiver o cadastro atualizado receberá a senha
+      > 3. por e-mail; quem não o fizer deverá comparecer à sede. Se o sistema
+      > 4. ficar indisponível, o profissional poderá protocolar o pedido no
+      > 5. balcão. Caso a equipe técnica intervenha a tempo, a espera será
+      > 6. curta. Guarde o número do protocolo e não o informe a terceiros.
+      > 7. Os profissionais que virem mensagens suspeitas devem avisar o
+      > 8. setor de atendimento. Gostaríamos de contar com a colaboração de
+      > 9. todos para que a mudança ocorra sem transtornos.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      No trecho “Gostaríamos de contar com a colaboração de todos” (linhas 8 e 9), o emprego do futuro do pretérito atenua o pedido, como forma de polidez.
+  - id: q08
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: relato fictício, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Na semana passada, a assistente Marta encontrou na recepção um
+      > 2. envelope que alguém deixara sobre o balcão. Ela conferia a lista
+      > 3. de visitantes quando o telefone tocou: era o arquiteto que havia
+      > 4. esquecido os documentos. Marta pediu que ele viesse buscá-los no
+      > 5. mesmo dia, pois o setor fecharia mais cedo. Ele veio à tarde,
+      > 6. agradeceu e contou que já tinha entregado uma cópia ao fiscal.
+      > 7. Desde então, os colegas dizem que Marta resolve qualquer problema
+      > 8. e pedem que ela treine os novos atendentes.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      No trecho “um envelope que alguém deixara sobre o balcão” (linhas 1 e 2), a substituição de “deixara” por “tinha deixado” manteria a correção gramatical e o sentido original.
+  - id: q09
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: relato fictício, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Na semana passada, a assistente Marta encontrou na recepção um
+      > 2. envelope que alguém deixara sobre o balcão. Ela conferia a lista
+      > 3. de visitantes quando o telefone tocou: era o arquiteto que havia
+      > 4. esquecido os documentos. Marta pediu que ele viesse buscá-los no
+      > 5. mesmo dia, pois o setor fecharia mais cedo. Ele veio à tarde,
+      > 6. agradeceu e contou que já tinha entregado uma cópia ao fiscal.
+      > 7. Desde então, os colegas dizem que Marta resolve qualquer problema
+      > 8. e pedem que ela treine os novos atendentes.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      No trecho “Ela conferia a lista de visitantes quando o telefone tocou” (linhas 2 e 3), a forma verbal “conferia” indica ação que estava em andamento no passado quando outra ocorreu.
+  - id: q10
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: relato fictício, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Na semana passada, a assistente Marta encontrou na recepção um
+      > 2. envelope que alguém deixara sobre o balcão. Ela conferia a lista
+      > 3. de visitantes quando o telefone tocou: era o arquiteto que havia
+      > 4. esquecido os documentos. Marta pediu que ele viesse buscá-los no
+      > 5. mesmo dia, pois o setor fecharia mais cedo. Ele veio à tarde,
+      > 6. agradeceu e contou que já tinha entregado uma cópia ao fiscal.
+      > 7. Desde então, os colegas dizem que Marta resolve qualquer problema
+      > 8. e pedem que ela treine os novos atendentes.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      No trecho “contou que já tinha entregado uma cópia ao fiscal” (linha 6), a locução verbal “tinha entregado” indica fato posterior ao expresso por “contou”.
+  - id: q11
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: relato fictício, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Na semana passada, a assistente Marta encontrou na recepção um
+      > 2. envelope que alguém deixara sobre o balcão. Ela conferia a lista
+      > 3. de visitantes quando o telefone tocou: era o arquiteto que havia
+      > 4. esquecido os documentos. Marta pediu que ele viesse buscá-los no
+      > 5. mesmo dia, pois o setor fecharia mais cedo. Ele veio à tarde,
+      > 6. agradeceu e contou que já tinha entregado uma cópia ao fiscal.
+      > 7. Desde então, os colegas dizem que Marta resolve qualquer problema
+      > 8. e pedem que ela treine os novos atendentes.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      A forma verbal “viesse” (linha 4) é flexão do verbo “vir” no pretérito imperfeito do subjuntivo.
+  - id: q12
+    topico: conhecimentos-basicos/lp-tempos-e-modos-verbais
+    enunciado: |-
+      Texto para o item: relato fictício, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Na semana passada, a assistente Marta encontrou na recepção um
+      > 2. envelope que alguém deixara sobre o balcão. Ela conferia a lista
+      > 3. de visitantes quando o telefone tocou: era o arquiteto que havia
+      > 4. esquecido os documentos. Marta pediu que ele viesse buscá-los no
+      > 5. mesmo dia, pois o setor fecharia mais cedo. Ele veio à tarde,
+      > 6. agradeceu e contou que já tinha entregado uma cópia ao fiscal.
+      > 7. Desde então, os colegas dizem que Marta resolve qualquer problema
+      > 8. e pedem que ela treine os novos atendentes.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      No trecho “os colegas dizem que Marta resolve qualquer problema” (linha 7), a forma verbal “resolve” indica ação que ocorre apenas no momento em que o texto é escrito.

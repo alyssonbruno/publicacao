@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="388" viewBox="0 0 720 388" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="388" fill="#ffffff"/>
+
+  <!-- Legenda das cores -->
+  <g font-size="13" fill="#52514e">
+    <rect x="12" y="12" width="24" height="18" rx="4" fill="#ece9f8" stroke="#4a3aa7" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <text x="44" y="26">conector</text>
+    <rect x="118" y="12" width="24" height="18" rx="4" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+    <text x="150" y="26">obstáculo</text>
+    <rect x="232" y="12" width="24" height="18" rx="4" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+    <text x="264" y="26">fato que prevalece</text>
+  </g>
+
+  <!-- Concessão -->
+  <g transform="translate(12 44)">
+    <rect width="696" height="132" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="20" y="32" font-size="18" font-weight="700" fill="#0b0b0b">Concessão</text>
+    <text x="126" y="32" font-size="13" fill="#52514e">o conector abre a oração do <tspan font-weight="600" fill="#0b0b0b">obstáculo</tspan>, com verbo no <tspan font-weight="600" fill="#0b0b0b">subjuntivo</tspan></text>
+    <g font-size="16" font-weight="600" text-anchor="middle">
+      <rect x="20" y="52" width="82" height="36" rx="6" fill="#ece9f8" stroke="#4a3aa7" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <text x="61" y="76" fill="#4a3aa7">Embora</text>
+      <rect x="110" y="52" width="170" height="36" rx="6" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+      <text x="195" y="76" fill="#8a5a00">o prazo <tspan text-decoration="underline">seja</tspan> curto</text>
+      <text x="287" y="76" fill="#0b0b0b">,</text>
+      <rect x="298" y="52" width="278" height="36" rx="6" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+      <text x="437" y="76" fill="#1c5cab">a comissão concluiu o relatório</text>
+      <text x="583" y="76" fill="#0b0b0b">.</text>
+    </g>
+    <text x="20" y="114" font-size="13" fill="#52514e">Do mesmo grupo: ainda que, mesmo que, conquanto, posto que.</text>
+  </g>
+
+  <!-- Oposição -->
+  <g transform="translate(12 184)">
+    <rect width="696" height="132" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="20" y="32" font-size="18" font-weight="700" fill="#0b0b0b">Oposição</text>
+    <text x="114" y="32" font-size="13" fill="#52514e">o conector abre a oração do <tspan font-weight="600" fill="#0b0b0b">fato que prevalece</tspan>, com verbo no <tspan font-weight="600" fill="#0b0b0b">indicativo</tspan></text>
+    <g font-size="16" font-weight="600" text-anchor="middle">
+      <rect x="20" y="52" width="152" height="36" rx="6" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+      <text x="96" y="76" fill="#8a5a00">O prazo <tspan text-decoration="underline">é</tspan> curto</text>
+      <text x="179" y="76" fill="#0b0b0b">;</text>
+      <rect x="190" y="52" width="86" height="36" rx="6" fill="#ece9f8" stroke="#4a3aa7" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <text x="233" y="76" fill="#4a3aa7">contudo</text>
+      <text x="283" y="76" fill="#0b0b0b">,</text>
+      <rect x="294" y="52" width="278" height="36" rx="6" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+      <text x="433" y="76" fill="#1c5cab">a comissão concluiu o relatório</text>
+      <text x="579" y="76" fill="#0b0b0b">.</text>
+    </g>
+    <text x="20" y="114" font-size="13" fill="#52514e">Do mesmo grupo: mas, porém, todavia, no entanto, entretanto.</text>
+  </g>
+
+  <!-- A troca de uma palavra só -->
+  <g transform="translate(12 324)">
+    <rect width="696" height="52" rx="10" fill="#fbe3e3"/>
+    <text font-size="13.5" fill="#b42727">
+      <tspan x="20" y="22" font-weight="700">Trocar só a palavra quebra a frase:</tspan>
+      <tspan x="20" dy="19">“Contudo o prazo seja curto, a comissão concluiu o relatório.” está errado.</tspan>
+    </text>
+  </g>
+</svg>
