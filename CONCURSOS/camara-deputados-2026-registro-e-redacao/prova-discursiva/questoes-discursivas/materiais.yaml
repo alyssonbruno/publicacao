@@ -1,0 +1,71 @@
+materiais:
+  - tipo: texto
+    titulo: "Questões discursivas: como responder em até 20 linhas"
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: redacao
+    titulo: Proposta de redação 01 — Signo linguístico; linguagem, língua e fala
+    arquivo: proposta-01.md
+  - tipo: video
+    titulo: Cebraspe - Como desenvolver questões discursivas de curta extensão
+    url: https://www.youtube.com/watch?v=LxuPRr2jgLA
+    autor: Discursivas Júnia Andrade (professora Júnia Andrade)
+    duracao_min: 24
+    descricao: >-
+      Pelo título, o formato exato das duas questões: resposta curta, no estilo do Cebraspe, de
+      um canal dedicado a discursivas. Indicado pelo título e pela duração, sem conferência do
+      conteúdo (a descrição só traz contatos do curso). É de 2021: se o vídeo falar de
+      introdução e conclusão obrigatórias, lembre que em 20 linhas os aspectos vêm primeiro, e
+      confira qualquer regra de nota no edital de 2026.
+  - tipo: video
+    titulo: Câmara dos Deputados - Registro e Redação - A prova discursiva será assim
+    url: https://www.youtube.com/watch?v=7ldgY4oRtTc
+    autor: Discursivas Júnia Andrade (professora Júnia Andrade)
+    duracao_min: 26
+    descricao: >-
+      Feito para este cargo, um dia depois do edital. Pela descrição, explica o que esperar das
+      questões e da peça técnica de Registro e Redação e como direcionar a preparação. Indicado
+      pela descrição, sem conferência do conteúdo. Como não há discursiva anterior deste cargo
+      no formato atual, o que for dito sobre temas prováveis é previsão, não regra. Ignore as
+      ofertas de cursos da descrição.
+  - tipo: video
+    titulo: Concurso Câmara dos Deputados | Discursiva e Peça Técnica na Prática (Cebraspe 2026/2027)
+    url: https://www.youtube.com/watch?v=cYpaO22w9dI
+    autor: Você Concursado (professor Bruno Marques)
+    duracao_min: 31
+    descricao: >-
+      Pela descrição, trata das questões de 20 linhas e da peça de 50, de como achar os tópicos
+      que a banca espera, da organização dos parágrafos, do aproveitamento das linhas e do
+      desconto por erro. Indicado pela descrição, sem conferência do conteúdo. Cobre o edital de
+      todos os cargos: as questões de 30 linhas são dos engenheiros, não deste cargo. Ignore a
+      venda de curso.
+  - tipo: video
+    titulo: Como a Banca Cespe/Cebraspe corrige a prova discursiva?
+    url: https://www.youtube.com/watch?v=BsmXS3tjWJc
+    autor: Você Concursado (professor Bruno Marques)
+    duracao_min: 5
+    descricao: >-
+      Curto: pela descrição, mostra como a banca calcula a nota da discursiva e dá dicas para
+      ganhar pontos. Indicado pela descrição, sem conferência do conteúdo. É de 2019: se o
+      exemplo usar outro fator de desconto, fique com o do edital de 2026, que é 3 nas questões
+      (NQ = NC − 3 × NE ÷ TL).
+  - tipo: link
+    titulo: Câmara dos Deputados 2025 — caderno da prova discursiva (Analista, Processo Legislativo e Gestão)
+    url: https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/4536C347379F236B51C537AC0D040D50717F27BF79FE55B56E95C3E8DFB96839.pdf
+    autor: Cebraspe
+    descricao: >-
+      A prova real mais próxima da sua: duas questões de 20 linhas e 15 pontos e uma peça de 50
+      linhas, com o valor de cada aspecto entre colchetes e, no topo, quanto vale a
+      apresentação. O conteúdo (CPI, governança, créditos orçamentários) é de outro cargo:
+      leia pelo formato do comando, não pelo assunto.
+  - tipo: link
+    titulo: Câmara dos Deputados 2025 — padrão definitivo de respostas da prova discursiva (mesmo cargo)
+    url: https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/D5F3CAA9B8BAEA93D7B1750A43949FF94C88F2DA3F44ADAE978062F601A94FDD.pdf
+    autor: Cebraspe
+    descricao: >-
+      O padrão de resposta das questões do caderno acima: o texto com tudo o que a banca aceita
+      e os quesitos, com a escala de conceitos de cada aspecto. Leia depois do caderno, para ver
+      o que vale ponto e por que citar a regra sem explicá-la dá conceito parcial. O texto do
+      padrão passa de 20 linhas: é a lista do que se aceita, não um modelo de tamanho.

@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 780" width="1100" height="780" font-family="Inter, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif">
+  <title>Anatomia de uma resposta de até 20 linhas</title>
+  <desc>Folha de 20 linhas dividida em abertura (linhas 1 e 2), aspecto 1 de 6,00 pontos (linhas 3 a 9), aspecto 2 de 5,00 pontos (linhas 10 a 15), aspecto 3 de 3,30 pontos (linhas 16 a 19) e folga (linha 20). A linha 21 é desconsiderada. Linhas por aspecto: valor dividido por 14,30 e multiplicado por 17.</desc>
+  <rect x="0" y="0" width="1100" height="780" fill="#f9f9f7"/>
+
+  <text x="40" y="46" font-size="26" font-weight="700" fill="#1f2937">Anatomia de uma resposta de até 20 linhas</text>
+  <text x="40" y="74" font-size="15" fill="#4b5563">Exemplo: a questão sobre denotação e conotação desta aula (aspectos de 6,00, 5,00 e 3,30 pontos)</text>
+
+  <!-- folha -->
+  <rect x="40" y="92" width="600" height="556" rx="6" fill="#ffffff" stroke="#9aa3ad" stroke-width="1.5"/>
+
+  <!-- blocos -->
+  <rect x="84" y="100" width="548" height="54" fill="#e3edf9"/>
+  <rect x="84" y="154" width="548" height="189" fill="#ddf4ea"/>
+  <rect x="84" y="343" width="548" height="162" fill="#fde6dc"/>
+  <rect x="84" y="505" width="548" height="108" fill="#fdf1d3"/>
+  <rect x="85" y="614" width="546" height="25" fill="none" stroke="#9aa3ad" stroke-width="1.5" stroke-dasharray="6 4"/>
+
+  <!-- margem -->
+  <line x1="82" y1="96" x2="82" y2="644" stroke="#d98080" stroke-width="1"/>
+
+  <!-- pautas -->
+  <g stroke="#cfd4da" stroke-width="1">
+    <line x1="84" y1="127" x2="632" y2="127"/>
+    <line x1="84" y1="154" x2="632" y2="154"/>
+    <line x1="84" y1="181" x2="632" y2="181"/>
+    <line x1="84" y1="208" x2="632" y2="208"/>
+    <line x1="84" y1="235" x2="632" y2="235"/>
+    <line x1="84" y1="262" x2="632" y2="262"/>
+    <line x1="84" y1="289" x2="632" y2="289"/>
+    <line x1="84" y1="316" x2="632" y2="316"/>
+    <line x1="84" y1="343" x2="632" y2="343"/>
+    <line x1="84" y1="370" x2="632" y2="370"/>
+    <line x1="84" y1="397" x2="632" y2="397"/>
+    <line x1="84" y1="424" x2="632" y2="424"/>
+    <line x1="84" y1="451" x2="632" y2="451"/>
+    <line x1="84" y1="478" x2="632" y2="478"/>
+    <line x1="84" y1="505" x2="632" y2="505"/>
+    <line x1="84" y1="532" x2="632" y2="532"/>
+    <line x1="84" y1="559" x2="632" y2="559"/>
+    <line x1="84" y1="586" x2="632" y2="586"/>
+    <line x1="84" y1="613" x2="632" y2="613"/>
+    <line x1="84" y1="640" x2="632" y2="640"/>
+  </g>
+
+  <!-- números das linhas -->
+  <g font-size="13" fill="#6b7280" text-anchor="end">
+    <text x="72" y="119">1</text>
+    <text x="72" y="146">2</text>
+    <text x="72" y="173">3</text>
+    <text x="72" y="200">4</text>
+    <text x="72" y="227">5</text>
+    <text x="72" y="254">6</text>
+    <text x="72" y="281">7</text>
+    <text x="72" y="308">8</text>
+    <text x="72" y="335">9</text>
+    <text x="72" y="362">10</text>
+    <text x="72" y="389">11</text>
+    <text x="72" y="416">12</text>
+    <text x="72" y="443">13</text>
+    <text x="72" y="470">14</text>
+    <text x="72" y="497">15</text>
+    <text x="72" y="524">16</text>
+    <text x="72" y="551">17</text>
+    <text x="72" y="578">18</text>
+    <text x="72" y="605">19</text>
+    <text x="72" y="632">20</text>
+  </g>
+
+  <!-- texto escrito: começo de cada parágrafo -->
+  <g font-size="14" fill="#1f2937">
+    <text x="112" y="119">A distinção entre denotação e conotação explica como uma mesma</text>
+    <text x="96" y="146">expressão pode ter sentidos diferentes no discurso parlamentar.</text>
+    <text x="112" y="173">A denotação é o sentido literal e referencial de uma expressão…</text>
+    <text x="112" y="362">Na fala do deputado, “cheque em branco” foi empregado em sentido</text>
+    <text x="96" y="389">conotativo. Em sentido literal, a expressão designa um cheque…</text>
+    <text x="112" y="524">O contexto é decisivo porque a mesma sequência de palavras…</text>
+  </g>
+  <text x="112" y="632" font-size="14" font-style="italic" fill="#6b7280">(folga, ou um fechamento de uma linha)</text>
+
+  <!-- resto das linhas: traços que imitam a letra -->
+  <g stroke="#b9c0c8" stroke-width="3" stroke-linecap="round">
+    <line x1="96" y1="196" x2="612" y2="196"/>
+    <line x1="96" y1="223" x2="606" y2="223"/>
+    <line x1="96" y1="250" x2="614" y2="250"/>
+    <line x1="96" y1="277" x2="600" y2="277"/>
+    <line x1="96" y1="304" x2="610" y2="304"/>
+    <line x1="96" y1="331" x2="400" y2="331"/>
+    <line x1="96" y1="412" x2="612" y2="412"/>
+    <line x1="96" y1="439" x2="604" y2="439"/>
+    <line x1="96" y1="466" x2="610" y2="466"/>
+    <line x1="96" y1="493" x2="360" y2="493"/>
+    <line x1="96" y1="547" x2="608" y2="547"/>
+    <line x1="96" y1="574" x2="612" y2="574"/>
+    <line x1="96" y1="601" x2="430" y2="601"/>
+  </g>
+
+  <!-- linha 21, fora da folha -->
+  <text x="72" y="675" font-size="13" fill="#c0392b" text-anchor="end">21</text>
+  <rect x="85" y="657" width="546" height="26" fill="#fdecea" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <line x1="96" y1="672" x2="560" y2="672" stroke="#e4a49c" stroke-width="3" stroke-linecap="round"/>
+  <line x1="92" y1="663" x2="624" y2="678" stroke="#c0392b" stroke-width="2"/>
+
+  <!-- chaves -->
+  <g stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M646 104 L654 104 L654 150 L646 150" stroke="#256abf"/>
+    <path d="M646 158 L654 158 L654 339 L646 339" stroke="#1baf7a"/>
+    <path d="M646 347 L654 347 L654 501 L646 501" stroke="#eb6834"/>
+    <path d="M646 509 L654 509 L654 609 L646 609" stroke="#eda100"/>
+    <path d="M646 616 L654 616 L654 637 L646 637" stroke="#9aa3ad"/>
+    <path d="M646 660 L654 660 L654 680 L646 680" stroke="#c0392b"/>
+  </g>
+
+  <!-- notas -->
+  <g font-size="15" fill="#1f2937">
+    <text x="666" y="120" font-weight="700" fill="#1d5aa6">Abertura · linhas 1 e 2</text>
+    <text x="666" y="142">Entra direto no tema. Sem “desde os primórdios”.</text>
+
+    <text x="666" y="222" font-weight="700" fill="#11865c">Aspecto 1 · 6,00 pontos · linhas 3 a 9</text>
+    <text x="666" y="246">Tópico frasal que retoma o aspecto e já</text>
+    <text x="666" y="268">responde; depois, os elementos que o</text>
+    <text x="666" y="290">padrão de resposta conta.</text>
+
+    <text x="666" y="400" font-weight="700" fill="#c4501f">Aspecto 2 · 5,00 pontos · linhas 10 a 15</text>
+    <text x="666" y="424">“Esclareça se”: a posição na primeira</text>
+    <text x="666" y="446">frase, o fundamento logo depois.</text>
+
+    <text x="666" y="550" font-weight="700" fill="#9a6800">Aspecto 3 · 3,30 pontos · linhas 16 a 19</text>
+    <text x="666" y="574">Vale menos, ocupa menos linhas.</text>
+
+    <text x="666" y="626" font-weight="700" fill="#4b5563">Linha 20 · folga</text>
+    <text x="666" y="646" font-size="14" fill="#4b5563">Fechamento só se sobrar espaço.</text>
+
+    <text x="666" y="676" font-weight="700" fill="#c0392b">Linha 21: desconsiderada (9.8.5.1, c)</text>
+  </g>
+
+  <!-- conta -->
+  <line x1="40" y1="706" x2="1060" y2="706" stroke="#d5d9de" stroke-width="1"/>
+  <text x="40" y="734" font-size="16" font-weight="700" fill="#1f2937">Linhas por aspecto ≈ valor do aspecto ÷ 14,30 × 17</text>
+  <text x="40" y="758" font-size="14" fill="#4b5563">6,00 → 7 linhas · 5,00 → 6 linhas · 3,30 → 4 linhas. As 2 linhas da abertura e a de folga ficam fora da conta. Recomendação da aula, não regra do edital.</text>
+</svg>

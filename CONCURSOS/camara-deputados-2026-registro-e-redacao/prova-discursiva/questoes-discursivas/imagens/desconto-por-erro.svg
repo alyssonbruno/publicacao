@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 660" width="1100" height="660" font-family="Inter, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif">
+  <title>O desconto por erro nas questões discursivas</title>
+  <desc>Dois textos com NC de 12,00 e 4 erros. Em 20 linhas, o desconto é 3 vezes 4 dividido por 20, igual a 0,60, e a nota é 11,40; cada erro custa 0,15. Em 10 linhas, o desconto é 1,20, e a nota é 10,80; cada erro custa 0,30.</desc>
+  <rect x="0" y="0" width="1100" height="660" fill="#f9f9f7"/>
+
+  <text x="40" y="46" font-size="26" font-weight="700" fill="#1f2937">O desconto por erro: NQ = NC − 3 × NE ÷ TL</text>
+  <text x="40" y="74" font-size="15" fill="#4b5563">Mesma nota de conteúdo (NC = 12,00) e os mesmos 4 erros (NE = 4). Muda só o número de linhas escritas (TL).</text>
+
+  <!-- painel: 20 linhas -->
+  <rect x="40" y="94" width="490" height="330" rx="8" fill="#ffffff" stroke="#c9ced5" stroke-width="1.5"/>
+  <rect x="60" y="114" width="160" height="290" rx="4" fill="#ffffff" stroke="#9aa3ad" stroke-width="1"/>
+  <g stroke="#b9c0c8" stroke-width="3" stroke-linecap="round">
+    <line x1="72" y1="130" x2="208" y2="130"/>
+    <line x1="72" y1="143" x2="204" y2="143"/>
+    <line x1="72" y1="156" x2="208" y2="156"/>
+    <line x1="72" y1="169" x2="206" y2="169"/>
+    <line x1="72" y1="182" x2="140" y2="182"/>
+    <line x1="72" y1="195" x2="208" y2="195"/>
+    <line x1="72" y1="208" x2="202" y2="208"/>
+    <line x1="72" y1="221" x2="208" y2="221"/>
+    <line x1="72" y1="234" x2="206" y2="234"/>
+    <line x1="72" y1="247" x2="208" y2="247"/>
+    <line x1="72" y1="260" x2="130" y2="260"/>
+    <line x1="72" y1="273" x2="206" y2="273"/>
+    <line x1="72" y1="286" x2="208" y2="286"/>
+    <line x1="72" y1="299" x2="204" y2="299"/>
+    <line x1="72" y1="312" x2="208" y2="312"/>
+    <line x1="72" y1="325" x2="150" y2="325"/>
+    <line x1="72" y1="338" x2="208" y2="338"/>
+    <line x1="72" y1="351" x2="206" y2="351"/>
+    <line x1="72" y1="364" x2="208" y2="364"/>
+    <line x1="72" y1="377" x2="160" y2="377"/>
+  </g>
+  <g fill="none" stroke="#c0392b" stroke-width="2.5">
+    <circle cx="120" cy="156" r="7"/>
+    <circle cx="176" cy="221" r="7"/>
+    <circle cx="98" cy="286" r="7"/>
+    <circle cx="150" cy="351" r="7"/>
+  </g>
+  <text x="140" y="398" font-size="13" fill="#6b7280" text-anchor="middle">20 linhas, 4 erros</text>
+
+  <text x="250" y="132" font-size="21" font-weight="700" fill="#1f2937">Texto de 20 linhas</text>
+  <text x="250" y="172" font-size="17" fill="#1f2937">TL = 20 · NE = 4</text>
+  <text x="250" y="212" font-size="17" fill="#1f2937">Desconto: 3 × 4 ÷ 20 = <tspan font-weight="700" fill="#c0392b">0,60</tspan></text>
+  <text x="250" y="256" font-size="20" font-weight="700" fill="#11865c">NQ = 12,00 − 0,60 = 11,40</text>
+  <text x="250" y="300" font-size="17" fill="#1f2937">Cada erro custa 3 ÷ 20 = 0,15</text>
+
+  <!-- painel: 10 linhas -->
+  <rect x="570" y="94" width="490" height="330" rx="8" fill="#ffffff" stroke="#c9ced5" stroke-width="1.5"/>
+  <rect x="590" y="114" width="160" height="160" rx="4" fill="#ffffff" stroke="#9aa3ad" stroke-width="1"/>
+  <g stroke="#b9c0c8" stroke-width="3" stroke-linecap="round">
+    <line x1="602" y1="130" x2="738" y2="130"/>
+    <line x1="602" y1="143" x2="734" y2="143"/>
+    <line x1="602" y1="156" x2="738" y2="156"/>
+    <line x1="602" y1="169" x2="680" y2="169"/>
+    <line x1="602" y1="182" x2="738" y2="182"/>
+    <line x1="602" y1="195" x2="736" y2="195"/>
+    <line x1="602" y1="208" x2="738" y2="208"/>
+    <line x1="602" y1="221" x2="660" y2="221"/>
+    <line x1="602" y1="234" x2="736" y2="234"/>
+    <line x1="602" y1="247" x2="690" y2="247"/>
+  </g>
+  <g fill="none" stroke="#c0392b" stroke-width="2.5">
+    <circle cx="660" cy="143" r="7"/>
+    <circle cx="630" cy="182" r="7"/>
+    <circle cx="700" cy="208" r="7"/>
+    <circle cx="640" cy="247" r="7"/>
+  </g>
+  <text x="670" y="268" font-size="13" fill="#6b7280" text-anchor="middle">10 linhas, 4 erros</text>
+
+  <text x="780" y="132" font-size="21" font-weight="700" fill="#1f2937">Texto de 10 linhas</text>
+  <text x="780" y="172" font-size="17" fill="#1f2937">TL = 10 · NE = 4</text>
+  <text x="780" y="212" font-size="17" fill="#1f2937">Desconto: 3 × 4 ÷ 10 = <tspan font-weight="700" fill="#c0392b">1,20</tspan></text>
+  <text x="780" y="256" font-size="20" font-weight="700" fill="#11865c">NQ = 12,00 − 1,20 = 10,80</text>
+  <text x="780" y="300" font-size="17" fill="#1f2937">Cada erro custa 3 ÷ 10 = 0,30</text>
+  <text x="780" y="340" font-size="15" fill="#4b5563">Metade das linhas, com os mesmos</text>
+  <text x="780" y="362" font-size="15" fill="#4b5563">erros: o desconto dobra.</text>
+
+  <!-- barras -->
+  <text x="40" y="468" font-size="16" font-weight="700" fill="#1f2937">Nota na questão, numa escala de 0 a 15</text>
+  <line x1="810" y1="480" x2="810" y2="572" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="810" y="476" font-size="13" fill="#4b5563" text-anchor="middle">NC = 12,00</text>
+
+  <text x="198" y="505" font-size="15" fill="#1f2937" text-anchor="end">20 linhas</text>
+  <rect x="210" y="487" width="570" height="26" fill="#1baf7a"/>
+  <rect x="780" y="487" width="30" height="26" fill="#eb6834"/>
+  <text x="830" y="505" font-size="15" fill="#1f2937"><tspan font-weight="700">11,40</tspan> (desconto de 0,60)</text>
+
+  <text x="198" y="547" font-size="15" fill="#1f2937" text-anchor="end">10 linhas</text>
+  <rect x="210" y="529" width="540" height="26" fill="#1baf7a"/>
+  <rect x="750" y="529" width="60" height="26" fill="#eb6834"/>
+  <text x="830" y="547" font-size="15" fill="#1f2937"><tspan font-weight="700">10,80</tspan> (desconto de 1,20)</text>
+
+  <g stroke="#6b7280" stroke-width="1">
+    <line x1="210" y1="566" x2="960" y2="566"/>
+    <line x1="210" y1="562" x2="210" y2="570"/>
+    <line x1="460" y1="562" x2="460" y2="570"/>
+    <line x1="710" y1="562" x2="710" y2="570"/>
+    <line x1="960" y1="562" x2="960" y2="570"/>
+  </g>
+  <g font-size="13" fill="#4b5563" text-anchor="middle">
+    <text x="210" y="586">0</text>
+    <text x="460" y="586">5</text>
+    <text x="710" y="586">10</text>
+    <text x="960" y="586">15</text>
+  </g>
+
+  <line x1="40" y1="606" x2="1060" y2="606" stroke="#d5d9de" stroke-width="1"/>
+  <text x="40" y="634" font-size="15" fill="#1f2937">Um erro por linha custa 3 pontos, qualquer que seja o tamanho do texto. Nota negativa vira zero (edital, 9.8.5.1, e).</text>
+</svg>
