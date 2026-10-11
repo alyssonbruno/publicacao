@@ -21,8 +21,8 @@ Para Mattoso Câmara, todo substantivo tem gênero, inclusive os que nomeiam coi
 
 Os casos que a prova explora:
 
-- **Sobrecomuns**: um só gênero para pessoas dos dois sexos. *A testemunha* é feminino mesmo quando é um homem; *o cônjuge* é masculino mesmo quando é a esposa. O mesmo vale para *a criança*, *a vítima* e *o indivíduo*.
-- **Epicenos**: nomes de animais com um só gênero. *A cobra macho* continua feminino; *o jacaré fêmea*, masculino.
+- **Sobrecomuns**: um só gênero para pessoas dos dois sexos. *Testemunha* é substantivo feminino mesmo quando designa um homem; *cônjuge* é masculino mesmo quando designa a esposa. O mesmo vale para *criança*, *vítima* e *indivíduo*.
+- **Epicenos**: nomes de animais com um só gênero. *Cobra* continua feminino em *a cobra macho*; *jacaré* continua masculino em *o jacaré fêmea*.
 - **Comuns de dois gêneros**: a palavra não muda, e o determinante mostra o gênero: *o* ou *a estudante*, *o* ou *a jovem*.
 - **Heterônimos**: *homem* e *mulher* são duas palavras, uma de cada gênero, e não a flexão de uma só. *Imperatriz* (sufixo *-triz*) e *galinha* (*-inha*) vêm de derivação, não de flexão.
 
@@ -41,7 +41,7 @@ O português perdeu o neutro latino nos nomes, mas guardou um resto dele nos dem
 
 Na forma, o singular não tem marca e o plural se marca com o *-s*. No sentido, a correspondência com a quantidade de seres falha em vários pontos:
 
-- **Nós de modéstia (ou de autor)**: o relator que escreve *entendemos que o projeto merece aprovação* pode estar falando só de si. Benveniste já observava que *nós* não é o plural de *eu* (não é "eu + eu"), mas uma pessoa ampliada, que pode ser solene (o *nós* majestático) ou difusa (o *nós* do orador ou do autor) (Cordeiro, 2020).
+- **Nós de modéstia (ou de autor)**: o relator que escreve *entendemos que o projeto merece aprovação* pode estar falando só de si. Benveniste já observava que *nós* não é o plural de *eu*, como se houvesse vários *eus*, mas uma pessoa ampliada, que pode ser solene (o *nós* majestático) ou difusa (o *nós* do orador ou do autor) (Cordeiro, 2020).
 - **A gente**: veio do substantivo *gente* e hoje funciona como pronome de primeira pessoa do plural (eu + outros), com o verbo na terceira do singular: *a gente votou contra*. Pode ter referência específica (eu e meus colegas) ou genérica (qualquer um de nós) (Silva e Camacho, 2017).
 - **Número e repetição**: o número do complemento muda a leitura do verbo. *O relator apresentou um requerimento* descreve um fato único; *o relator apresentou requerimentos*, fatos repetidos. Castilho (2025) observa que o singular tende ao semelfactivo (uma ocorrência) e o plural, ao iterativo.
 
@@ -57,16 +57,14 @@ A pessoa do discurso e a pessoa gramatical também se separam:
 - *Vossa Excelência*, *você* e *o senhor* designam o interlocutor (segunda pessoa do discurso), mas levam o verbo e os possessivos à terceira: *Vossa Senhoria designará seu substituto* (MRPR, 4.1.1).
 - O orador que diz *este parlamentar* ou *esta relatoria* fala de si mesmo pela terceira pessoa.
 
-A dêixis (de pessoa, de lugar e de tempo) volta com mais detalhe na aula de enunciação e discurso.
-
 > [!TIP]
 > Faça duas perguntas separadas: quem é a pessoa designada (quem fala, quem ouve ou de quem se fala)? Em que pessoa está o verbo? Os itens erram de propósito quando misturam as duas respostas.
 
 ## Tempo: uma categoria dêitica
 
-O tempo localiza o fato em relação ao **momento da fala**. Por isso é uma categoria **dêitica**: depende de quando se fala. A mesma votação é *ocorrerá* para quem fala na véspera e *ocorreu* para quem fala no dia seguinte. O aspecto, como se verá, não depende do momento da fala (Castilho, 2025; Barbosa e Longo, 2003).
+O tempo localiza o fato em relação ao **momento da fala**. Por isso é uma categoria **dêitica**: depende de quando se fala. Da mesma votação, quem fala na véspera diz que *ocorrerá*; quem fala no dia seguinte, que *ocorreu*. O aspecto, como se verá, não depende do momento da fala (Castilho, 2025; Barbosa e Longo, 2003).
 
-A descrição mais usada, que vem de Reichenbach (1947), trabalha com três momentos:
+Uma descrição muito usada, que vem de Reichenbach (1947), trabalha com três momentos:
 
 - **momento da fala (MF)**: quando se fala ou se escreve;
 - **momento do evento (ME)**: quando o fato ocorre;
@@ -86,7 +84,7 @@ O tempo gramatical da forma nem sempre coincide com o tempo do fato. O presente 
 - **presente pelo futuro**: *A sessão começa amanhã às 14h.*
 - **presente atemporal**: *A Câmara dos Deputados compõe-se de representantes do povo* (Constituição, art. 45). Vale para qualquer momento.
 
-Até o advérbio pode ser arrastado pelo verbo. Ilari, citado por Barbosa e Longo (2003), mostra que *agora* indica um momento passado em *Agora, o paciente já não sentia dores*: é o agora da cena narrada, não o de quem escreve.
+Às vezes, é o verbo que determina o valor do advérbio. Ilari, citado por Barbosa e Longo (2003), mostra que *agora* indica um momento passado em *Agora, o paciente já não sentia dores*: é o agora da cena narrada, não o de quem escreve.
 
 > [!CAUTION]
 > Num trecho que narra a votação de 1988, dizer que *aprova* "indica fato simultâneo ao momento da fala" é errado: a forma é presente, mas o fato é passado.
@@ -116,7 +114,7 @@ O fato também pode ser mostrado numa fase. Os nomes abaixo são de Travaglia (2
 
 Quanto à duração e à repetição, Travaglia distingue o **durativo** (duração contínua e limitada: *ficou discursando até as 20h*), o **iterativo** (repetição limitada: *tem pedido a palavra nas últimas sessões*) e o **habitual** (repetição sem limite definido: *costuma chegar cedo*).
 
-Os adjuntos ajudam a reconhecer o aspecto. Castilho (2025) mostra que *durante três horas* confirma a duração de uma atividade (*discursou durante três horas*), mas, com um fato instantâneo, produz repetição (*o painel piscou durante três horas*) ou estranheza (*achei o documento durante três minutos*).
+Os adjuntos ajudam. Castilho (2025) mostra que *durante três horas* confirma a duração de uma atividade (*discursou durante três horas*), mas, com um fato instantâneo, produz repetição (*o painel piscou durante três horas*) ou estranheza (*achei o documento durante três minutos*).
 
 > [!NOTE]
 > Os autores não concordam em tudo. Travaglia diz que *acabar de* + infinitivo (*acaba de reconhecer*) é acabado, e não terminativo; Castilho chama *acabou de fumar* de terminativo. Travaglia chama *adoecer* e *engordar* de verbos incoativos (começo de um estado) e avisa que eles, sozinhos, não bastam para haver aspecto inceptivo; outros autores, como Mattoso Câmara, tratam *incoativo* como sinônimo de *inceptivo*. Em prova, vale a definição do item.
@@ -125,7 +123,7 @@ Os adjuntos ajudam a reconhecer o aspecto. Castilho (2025) mostra que *durante t
 
 Ilari (2020) resume o que o perfeito composto (*tem apresentado*, *tenho estado*) exprime:
 
-- **repetição**, com verbos de ação: *O relator tem apresentado requerimentos* (mais de uma vez). Não cabe *uma vez*, nem um número exato de vezes: *tem apresentado três requerimentos* soa estranho; *tem apresentado muitos*, não.
+- **repetição**, com verbos de ação: *O relator tem apresentado requerimentos* (mais de uma vez). Não cabe *uma vez*, nem um número exato de vezes: *tem pedido a palavra três vezes* soa estranho; *tem pedido a palavra muitas vezes*, não.
 - **continuidade**, com verbos de estado: *Tenho estado doente.*
 - em qualquer dos casos, um período que **começa no passado e chega ao momento da fala**.
 
@@ -136,7 +134,7 @@ O perfeito simples, ao contrário, fecha o fato no passado: *O relator apresento
 
 ## Modo e modalidade
 
-**Modo** é a categoria flexional: indicativo, subjuntivo e imperativo, que exprimem a atitude de quem fala diante do fato (certeza, hipótese, ordem). **Modalidade** é a noção mais ampla, e chega por muitos meios (Duarte, 2012):
+**Modo** é a categoria flexional: indicativo, subjuntivo e imperativo, que exprimem a atitude de quem fala diante do fato (certeza, hipótese, ordem). **Modalidade** é a noção mais ampla e chega por muitos meios. Duarte (2012) trata dos três primeiros da lista:
 
 - auxiliares modais: *poder*, *dever*, *ter de* (ou *ter que*);
 - verbos: *cumprir*, *convir*;
@@ -181,11 +179,11 @@ Esta aula usa os nomes abaixo, que seguem em geral os de Perini (2010), conforme
 - **Possuidor e possuído**: *O partido tem doze cadeiras.*
 
 > [!CAUTION]
-> Os rótulos mudam de autor para autor. Em Mira Mateus e outros (1989), "paciente" é a entidade de que se diz uma propriedade estável ou uma localização (*Paulo mora em Coimbra*), e o afetado se chama "objeto"; "origem" é a causa sem controle (*A tempestade destruiu as colheitas*). Num item, vale a definição dada no enunciado, não o rótulo.
+> Os rótulos mudam de autor para autor. Em Mira Mateus e outros (1989), "paciente" é a entidade a que se atribui uma propriedade não dinâmica ou uma localização (*Paulo mora em Coimbra*), e o afetado se chama "objeto"; "origem" é a entidade não controladora que dá origem ao processo (*A tempestade destruiu as colheitas*). Num item, vale a definição dada no enunciado, não o rótulo.
 
 ## Agente ou causa: o teste do controle
 
-Cançado (2005) decompõe os papéis em propriedades. Uma delas é ser **desencadeador** do processo; outra é ter **controle**, que ela define como a capacidade de interromper a ação, o processo ou o estado. O agente típico reúne as duas. Na lista de Mira Mateus, o agente já era a entidade "controladora", e a causa, a "não controladora" (Cunha, 2005). Em *A tempestade derrubou a energia do plenário*, a tempestade desencadeia o fato, mas não tem como interrompê-lo.
+Cançado (2005) decompõe os papéis em propriedades. Uma delas é ser **desencadeador** do processo; outra é ter **controle**, que ela define como a capacidade de interromper a ação, o processo ou o estado. O agente típico reúne as duas. Na lista de Mira Mateus, o agente é a entidade "controladora", e a origem, a "não controladora" (Cunha, 2005). Em *A tempestade derrubou a energia do plenário*, a tempestade desencadeia o fato, mas não tem como interrompê-lo.
 
 Um teste prático (de novo, recomendação desta aula): acrescente *de propósito*. *O técnico desligou o microfone de propósito* é normal; *a queda de energia desligou o microfone de propósito* é absurdo. No primeiro caso há agente; no segundo, causa.
 
@@ -202,7 +200,7 @@ Dois desses casos merecem atenção:
 - **Ergativas**: *O microfone desligou* tem sujeito afetado, não agente. Compare com a transitiva *O técnico desligou o microfone* (agente) e com *A queda de energia desligou o microfone* (causa). Na ergativa, o desencadeador simplesmente some da frase.
 - **"Apanhar de"**: Perini chama de construção de derrota a frase *O ladrão apanhou do vigia*: o sujeito sofre a ação, e quem a pratica vem com *de*.
 
-O sujeito também pode ser a meta de uma transferência: em *O deputado recebeu o ofício*, quem recebe não pratica ação nenhuma.
+O sujeito também pode ser a meta de uma transferência: em *O deputado recebeu o ofício*, o sujeito não age sobre o ofício; é o destino dele.
 
 ## Papel é sentido; função é forma
 
