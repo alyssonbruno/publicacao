@@ -46,24 +46,6 @@ materiais:
       hiperonímia e a hiponímia como relações reversas, com exemplos e os problemas comuns na
       identificação dessas relações. Veja depois da parte de hiperonímia do texto, para fixar o
       teste "X é um tipo de Y" antes dos itens de treino. Licença Creative Commons Atribuição.
-  - tipo: podcast
-    titulo: PROCESSO DE FORMAÇÃO DE PALAVRAS I
-    url: https://podcasts.apple.com/br/podcast/processo-de-forma%C3%A7%C3%A3o-de-palavras-i/id1584593874?i=1000587544103
-    autor: Tribo Concursos
-    duracao_min: 26
-    descricao: >-
-      Aula de cursinho em áudio sobre os processos de formação de palavras, primeira de duas
-      partes. Serve para revisar fora da mesa, depois do texto. Se alguma classificação diferir da
-      do texto (hibridismo e abreviação, por exemplo, variam entre autores), fique com o que a
-      aula explica.
-  - tipo: podcast
-    titulo: PROCESSO DE FORMAÇÃO DE PALAVRAS II
-    url: https://podcasts.apple.com/br/podcast/processo-de-forma%C3%A7%C3%A3o-de-palavras-ii/id1584593874?i=1000587544172
-    autor: Tribo Concursos
-    duracao_min: 21
-    descricao: >-
-      Continuação da parte I, sobre os processos de formação de palavras. Ouça depois da parte I,
-      com o mesmo cuidado: nas classificações em que os autores divergem, vale o texto da aula.
   - tipo: link
     titulo: Morfologia do Português (livro-texto de Letras a distância, UFSC)
     url: https://legado.moodle.ufsc.br/pluginfile.php/2057323/mod_resource/content/1/Livro%20Completo%20de%20Morfologia.PDF
