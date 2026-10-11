@@ -1,0 +1,266 @@
+# Treino de ortografia — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Domínio da ortografia
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (notícia de uma sessão da Câmara dos
+      Deputados), no formato de certo ou errado do Cebraspe: remissão à linha e uma afirmação por item
+      sobre grafia, acentuação, hífen e grafias juntas ou separadas, quase sempre na forma de
+      substituição que mantém ou não a correção gramatical.'
+    - 'Referências de estilo, sem cópia de itens: provas objetivas de Conhecimentos Gerais da Câmara dos
+      Deputados (Cebraspe, nível superior, aplicada em 8/3/2026) e do TJPA (Cebraspe, 2025).'
+    - 'Bases do gabarito: Acordo Ortográfico da Língua Portuguesa (Decreto nº 6.583/2008, Bases IX e XVI);
+      nota explicativa da ABL sobre a 5ª edição do VOLP; busca no VOLP (ABL); Manual de Comunicação da
+      Secom do Senado (hífen, acentuação, porquês e se não/senão). Consultados em 11/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-ortografia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão deliberativa de ontem, o Plenário da Câmara dos Deputados
+      > 2. aprovou, em primeiro turno, a proposta que cria o cadastro nacional
+      > 3. de organizações não governamentais. Antes da votação, o relator
+      > 4. explicou por que havia acolhido a emenda supressiva da oposição: o
+      > 5. trecho retirado permitia a cessão de dados dos dirigentes das
+      > 6. entidades sem a autorização deles. Os líderes que ainda mantêm
+      > 7. reservas ao texto vêm anunciando destaques para o segundo turno,
+      > 8. porque consideram excessivo o recadastramento anual. Também ficou
+      > 9. para depois a proposta de reservar uma cota das vagas do conselho
+      > 10. gestor a entidades do interior. Como a lista de oradores era longa,
+      > 11. o presidente da sessão não pôde atender a todos os pedidos de
+      > 12. palavra e não teve alternativa senão encerrar as inscrições; os
+      > 13. deputados que não discursaram têm até amanhã para enviar o
+      > 14. pronunciamento por escrito.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      Conforme o Vocabulário Ortográfico da Língua Portuguesa, a correção gramatical do texto exigiria o emprego de hífen em “não governamentais” (linha 3).
+  - id: q02
+    topico: conhecimentos-basicos/lp-ortografia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão deliberativa de ontem, o Plenário da Câmara dos Deputados
+      > 2. aprovou, em primeiro turno, a proposta que cria o cadastro nacional
+      > 3. de organizações não governamentais. Antes da votação, o relator
+      > 4. explicou por que havia acolhido a emenda supressiva da oposição: o
+      > 5. trecho retirado permitia a cessão de dados dos dirigentes das
+      > 6. entidades sem a autorização deles. Os líderes que ainda mantêm
+      > 7. reservas ao texto vêm anunciando destaques para o segundo turno,
+      > 8. porque consideram excessivo o recadastramento anual. Também ficou
+      > 9. para depois a proposta de reservar uma cota das vagas do conselho
+      > 10. gestor a entidades do interior. Como a lista de oradores era longa,
+      > 11. o presidente da sessão não pôde atender a todos os pedidos de
+      > 12. palavra e não teve alternativa senão encerrar as inscrições; os
+      > 13. deputados que não discursaram têm até amanhã para enviar o
+      > 14. pronunciamento por escrito.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      Seriam mantidos a correção gramatical e o sentido do texto caso a expressão “por que” (linha 4) fosse grafada porque.
+  - id: q03
+    topico: conhecimentos-basicos/lp-ortografia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão deliberativa de ontem, o Plenário da Câmara dos Deputados
+      > 2. aprovou, em primeiro turno, a proposta que cria o cadastro nacional
+      > 3. de organizações não governamentais. Antes da votação, o relator
+      > 4. explicou por que havia acolhido a emenda supressiva da oposição: o
+      > 5. trecho retirado permitia a cessão de dados dos dirigentes das
+      > 6. entidades sem a autorização deles. Os líderes que ainda mantêm
+      > 7. reservas ao texto vêm anunciando destaques para o segundo turno,
+      > 8. porque consideram excessivo o recadastramento anual. Também ficou
+      > 9. para depois a proposta de reservar uma cota das vagas do conselho
+      > 10. gestor a entidades do interior. Como a lista de oradores era longa,
+      > 11. o presidente da sessão não pôde atender a todos os pedidos de
+      > 12. palavra e não teve alternativa senão encerrar as inscrições; os
+      > 13. deputados que não discursaram têm até amanhã para enviar o
+      > 14. pronunciamento por escrito.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      A forma “porque” (linha 8) poderia ser substituída por pois, sem prejuízo da correção gramatical e do sentido do texto.
+  - id: q04
+    topico: conhecimentos-basicos/lp-ortografia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão deliberativa de ontem, o Plenário da Câmara dos Deputados
+      > 2. aprovou, em primeiro turno, a proposta que cria o cadastro nacional
+      > 3. de organizações não governamentais. Antes da votação, o relator
+      > 4. explicou por que havia acolhido a emenda supressiva da oposição: o
+      > 5. trecho retirado permitia a cessão de dados dos dirigentes das
+      > 6. entidades sem a autorização deles. Os líderes que ainda mantêm
+      > 7. reservas ao texto vêm anunciando destaques para o segundo turno,
+      > 8. porque consideram excessivo o recadastramento anual. Também ficou
+      > 9. para depois a proposta de reservar uma cota das vagas do conselho
+      > 10. gestor a entidades do interior. Como a lista de oradores era longa,
+      > 11. o presidente da sessão não pôde atender a todos os pedidos de
+      > 12. palavra e não teve alternativa senão encerrar as inscrições; os
+      > 13. deputados que não discursaram têm até amanhã para enviar o
+      > 14. pronunciamento por escrito.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      O prefixo presente em “recadastramento” (linha 8) dispensa o hífen também diante de palavra iniciada pela vogal e, como na grafia reeleição, registrada no Vocabulário Ortográfico da Língua Portuguesa.
+  - id: q05
+    topico: conhecimentos-basicos/lp-ortografia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão deliberativa de ontem, o Plenário da Câmara dos Deputados
+      > 2. aprovou, em primeiro turno, a proposta que cria o cadastro nacional
+      > 3. de organizações não governamentais. Antes da votação, o relator
+      > 4. explicou por que havia acolhido a emenda supressiva da oposição: o
+      > 5. trecho retirado permitia a cessão de dados dos dirigentes das
+      > 6. entidades sem a autorização deles. Os líderes que ainda mantêm
+      > 7. reservas ao texto vêm anunciando destaques para o segundo turno,
+      > 8. porque consideram excessivo o recadastramento anual. Também ficou
+      > 9. para depois a proposta de reservar uma cota das vagas do conselho
+      > 10. gestor a entidades do interior. Como a lista de oradores era longa,
+      > 11. o presidente da sessão não pôde atender a todos os pedidos de
+      > 12. palavra e não teve alternativa senão encerrar as inscrições; os
+      > 13. deputados que não discursaram têm até amanhã para enviar o
+      > 14. pronunciamento por escrito.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      Seriam mantidos a correção gramatical e o sentido do texto caso o vocábulo “cessão” (linha 5) fosse substituído por sessão.
+  - id: q06
+    topico: conhecimentos-basicos/lp-ortografia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão deliberativa de ontem, o Plenário da Câmara dos Deputados
+      > 2. aprovou, em primeiro turno, a proposta que cria o cadastro nacional
+      > 3. de organizações não governamentais. Antes da votação, o relator
+      > 4. explicou por que havia acolhido a emenda supressiva da oposição: o
+      > 5. trecho retirado permitia a cessão de dados dos dirigentes das
+      > 6. entidades sem a autorização deles. Os líderes que ainda mantêm
+      > 7. reservas ao texto vêm anunciando destaques para o segundo turno,
+      > 8. porque consideram excessivo o recadastramento anual. Também ficou
+      > 9. para depois a proposta de reservar uma cota das vagas do conselho
+      > 10. gestor a entidades do interior. Como a lista de oradores era longa,
+      > 11. o presidente da sessão não pôde atender a todos os pedidos de
+      > 12. palavra e não teve alternativa senão encerrar as inscrições; os
+      > 13. deputados que não discursaram têm até amanhã para enviar o
+      > 14. pronunciamento por escrito.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      A supressão do acento circunflexo em “pôde” (linha 11) alteraria o tempo da forma verbal, que passaria a ser a do presente do indicativo.
+  - id: q07
+    topico: conhecimentos-basicos/lp-ortografia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão deliberativa de ontem, o Plenário da Câmara dos Deputados
+      > 2. aprovou, em primeiro turno, a proposta que cria o cadastro nacional
+      > 3. de organizações não governamentais. Antes da votação, o relator
+      > 4. explicou por que havia acolhido a emenda supressiva da oposição: o
+      > 5. trecho retirado permitia a cessão de dados dos dirigentes das
+      > 6. entidades sem a autorização deles. Os líderes que ainda mantêm
+      > 7. reservas ao texto vêm anunciando destaques para o segundo turno,
+      > 8. porque consideram excessivo o recadastramento anual. Também ficou
+      > 9. para depois a proposta de reservar uma cota das vagas do conselho
+      > 10. gestor a entidades do interior. Como a lista de oradores era longa,
+      > 11. o presidente da sessão não pôde atender a todos os pedidos de
+      > 12. palavra e não teve alternativa senão encerrar as inscrições; os
+      > 13. deputados que não discursaram têm até amanhã para enviar o
+      > 14. pronunciamento por escrito.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      Sem prejuízo da correção gramatical do texto, a forma verbal “vêm” (linha 7) poderia ser grafada veem, já que o Acordo Ortográfico eliminou o acento circunflexo das formas terminadas em -eem.
+  - id: q08
+    topico: conhecimentos-basicos/lp-ortografia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão deliberativa de ontem, o Plenário da Câmara dos Deputados
+      > 2. aprovou, em primeiro turno, a proposta que cria o cadastro nacional
+      > 3. de organizações não governamentais. Antes da votação, o relator
+      > 4. explicou por que havia acolhido a emenda supressiva da oposição: o
+      > 5. trecho retirado permitia a cessão de dados dos dirigentes das
+      > 6. entidades sem a autorização deles. Os líderes que ainda mantêm
+      > 7. reservas ao texto vêm anunciando destaques para o segundo turno,
+      > 8. porque consideram excessivo o recadastramento anual. Também ficou
+      > 9. para depois a proposta de reservar uma cota das vagas do conselho
+      > 10. gestor a entidades do interior. Como a lista de oradores era longa,
+      > 11. o presidente da sessão não pôde atender a todos os pedidos de
+      > 12. palavra e não teve alternativa senão encerrar as inscrições; os
+      > 13. deputados que não discursaram têm até amanhã para enviar o
+      > 14. pronunciamento por escrito.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      A substituição de “cota” (linha 9) por quota manteria a correção gramatical do texto.
+  - id: q09
+    topico: conhecimentos-basicos/lp-ortografia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão deliberativa de ontem, o Plenário da Câmara dos Deputados
+      > 2. aprovou, em primeiro turno, a proposta que cria o cadastro nacional
+      > 3. de organizações não governamentais. Antes da votação, o relator
+      > 4. explicou por que havia acolhido a emenda supressiva da oposição: o
+      > 5. trecho retirado permitia a cessão de dados dos dirigentes das
+      > 6. entidades sem a autorização deles. Os líderes que ainda mantêm
+      > 7. reservas ao texto vêm anunciando destaques para o segundo turno,
+      > 8. porque consideram excessivo o recadastramento anual. Também ficou
+      > 9. para depois a proposta de reservar uma cota das vagas do conselho
+      > 10. gestor a entidades do interior. Como a lista de oradores era longa,
+      > 11. o presidente da sessão não pôde atender a todos os pedidos de
+      > 12. palavra e não teve alternativa senão encerrar as inscrições; os
+      > 13. deputados que não discursaram têm até amanhã para enviar o
+      > 14. pronunciamento por escrito.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      O emprego de ss em “supressiva” (linha 4) segue a mesma correspondência observada entre imprimir e impressão.
+  - id: q10
+    topico: conhecimentos-basicos/lp-ortografia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão da Câmara dos Deputados, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão deliberativa de ontem, o Plenário da Câmara dos Deputados
+      > 2. aprovou, em primeiro turno, a proposta que cria o cadastro nacional
+      > 3. de organizações não governamentais. Antes da votação, o relator
+      > 4. explicou por que havia acolhido a emenda supressiva da oposição: o
+      > 5. trecho retirado permitia a cessão de dados dos dirigentes das
+      > 6. entidades sem a autorização deles. Os líderes que ainda mantêm
+      > 7. reservas ao texto vêm anunciando destaques para o segundo turno,
+      > 8. porque consideram excessivo o recadastramento anual. Também ficou
+      > 9. para depois a proposta de reservar uma cota das vagas do conselho
+      > 10. gestor a entidades do interior. Como a lista de oradores era longa,
+      > 11. o presidente da sessão não pôde atender a todos os pedidos de
+      > 12. palavra e não teve alternativa senão encerrar as inscrições; os
+      > 13. deputados que não discursaram têm até amanhã para enviar o
+      > 14. pronunciamento por escrito.
+
+      Com base no texto e em seus aspectos gramaticais, julgue o item.
+
+      A palavra “senão” (linha 12) poderia ser grafada se não, sem prejuízo da correção gramatical do texto.

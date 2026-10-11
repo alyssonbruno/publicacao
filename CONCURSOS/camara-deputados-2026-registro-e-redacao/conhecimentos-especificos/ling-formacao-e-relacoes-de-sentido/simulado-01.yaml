@@ -1,0 +1,220 @@
+# Treino de formação de palavras, homônimos, parônimos e relações de sentido — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Formação de palavras, homônimos, parônimos e relações de sentido
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (notícia da reunião de uma comissão), no estilo de certo ou errado do Cebraspe: palavras do texto entre aspas, com remissão à linha, e uma afirmação por item, muitas vezes com uma classificação que vale para uma palavra e não para a outra.'
+    - 'Referências de estilo, sem reprodução de itens: cadernos de conhecimentos específicos do Cebraspe para Professor de Língua Portuguesa da SEE/DF (edital de 2016, aplicado em 2017) e da Fundação Inoversa Sul (edital de 2024, aplicado em 2025), com os gabaritos definitivos.'
+    - 'Bases do gabarito: Margotti e Margotti, Morfologia do Português (UFSC, 2011); Cardoso, Fonologia da Língua Portuguesa, aula 8 (CESAD/UFS); Amaral, slides de semântica lexical a partir de Henriques (UFMG); Santana, Dois olhares sobre as palavras cognatas (GMHP/USP); Regimento Interno da Câmara dos Deputados, texto atualizado no site da Câmara; PrePara ENEM, Campo semântico e campo lexical. Consultados em 11/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/ling-formacao-e-relacoes-de-sentido
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão examinou um projeto de lei e um
+      > 2. requerimento de audiência pública sobre a LDO. A oposição tentou
+      > 3. esvaziar a reunião, alegando falta de quórum; em consequência, os
+      > 4. líderes trouxeram uma proposta de acordo, e os deputados com assento
+      > 5. no colegiado retomaram a votação. O relator pediu o cumprimento do
+      > 6. prazo regimental e propôs nova redação para a ementa do projeto.
+      > 7. Conferido o painel, os votos favoráveis superaram os contrários, e o
+      > 8. requerimento foi aprovado. O projeto ainda depende do Plenário, e a
+      > 9. reapresentação de outros dois, arquivados no fim da legislatura
+      > 10. passada, será discutida na próxima semana.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      Os vocábulos “requerimento” (linha 2) e “consequência” (linha 3) apresentam ditongo crescente, em que a letra u representa uma semivogal.
+  - id: q02
+    topico: conhecimentos-especificos/ling-formacao-e-relacoes-de-sentido
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão examinou um projeto de lei e um
+      > 2. requerimento de audiência pública sobre a LDO. A oposição tentou
+      > 3. esvaziar a reunião, alegando falta de quórum; em consequência, os
+      > 4. líderes trouxeram uma proposta de acordo, e os deputados com assento
+      > 5. no colegiado retomaram a votação. O relator pediu o cumprimento do
+      > 6. prazo regimental e propôs nova redação para a ementa do projeto.
+      > 7. Conferido o painel, os votos favoráveis superaram os contrários, e o
+      > 8. requerimento foi aprovado. O projeto ainda depende do Plenário, e a
+      > 9. reapresentação de outros dois, arquivados no fim da legislatura
+      > 10. passada, será discutida na próxima semana.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      Na forma verbal “trouxeram” (linha 4), o radical apresenta forma diferente da que se verifica no infinitivo trazer, fenômeno denominado alomorfia.
+  - id: q03
+    topico: conhecimentos-especificos/ling-formacao-e-relacoes-de-sentido
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão examinou um projeto de lei e um
+      > 2. requerimento de audiência pública sobre a LDO. A oposição tentou
+      > 3. esvaziar a reunião, alegando falta de quórum; em consequência, os
+      > 4. líderes trouxeram uma proposta de acordo, e os deputados com assento
+      > 5. no colegiado retomaram a votação. O relator pediu o cumprimento do
+      > 6. prazo regimental e propôs nova redação para a ementa do projeto.
+      > 7. Conferido o painel, os votos favoráveis superaram os contrários, e o
+      > 8. requerimento foi aprovado. O projeto ainda depende do Plenário, e a
+      > 9. reapresentação de outros dois, arquivados no fim da legislatura
+      > 10. passada, será discutida na próxima semana.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      Os vocábulos “esvaziar” (linha 3) e “reapresentação” (linha 9) são formados pelo mesmo processo: a derivação parassintética.
+  - id: q04
+    topico: conhecimentos-especificos/ling-formacao-e-relacoes-de-sentido
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão examinou um projeto de lei e um
+      > 2. requerimento de audiência pública sobre a LDO. A oposição tentou
+      > 3. esvaziar a reunião, alegando falta de quórum; em consequência, os
+      > 4. líderes trouxeram uma proposta de acordo, e os deputados com assento
+      > 5. no colegiado retomaram a votação. O relator pediu o cumprimento do
+      > 6. prazo regimental e propôs nova redação para a ementa do projeto.
+      > 7. Conferido o painel, os votos favoráveis superaram os contrários, e o
+      > 8. requerimento foi aprovado. O projeto ainda depende do Plenário, e a
+      > 9. reapresentação de outros dois, arquivados no fim da legislatura
+      > 10. passada, será discutida na próxima semana.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      Há relação de paronímia entre “LDO” (linha 2) e a expressão lei de diretrizes orçamentárias.
+  - id: q05
+    topico: conhecimentos-especificos/ling-formacao-e-relacoes-de-sentido
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão examinou um projeto de lei e um
+      > 2. requerimento de audiência pública sobre a LDO. A oposição tentou
+      > 3. esvaziar a reunião, alegando falta de quórum; em consequência, os
+      > 4. líderes trouxeram uma proposta de acordo, e os deputados com assento
+      > 5. no colegiado retomaram a votação. O relator pediu o cumprimento do
+      > 6. prazo regimental e propôs nova redação para a ementa do projeto.
+      > 7. Conferido o painel, os votos favoráveis superaram os contrários, e o
+      > 8. requerimento foi aprovado. O projeto ainda depende do Plenário, e a
+      > 9. reapresentação de outros dois, arquivados no fim da legislatura
+      > 10. passada, será discutida na próxima semana.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      Os vocábulos “Plenário” (linha 8) e pleno são cognatos.
+  - id: q06
+    topico: conhecimentos-especificos/ling-formacao-e-relacoes-de-sentido
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão examinou um projeto de lei e um
+      > 2. requerimento de audiência pública sobre a LDO. A oposição tentou
+      > 3. esvaziar a reunião, alegando falta de quórum; em consequência, os
+      > 4. líderes trouxeram uma proposta de acordo, e os deputados com assento
+      > 5. no colegiado retomaram a votação. O relator pediu o cumprimento do
+      > 6. prazo regimental e propôs nova redação para a ementa do projeto.
+      > 7. Conferido o painel, os votos favoráveis superaram os contrários, e o
+      > 8. requerimento foi aprovado. O projeto ainda depende do Plenário, e a
+      > 9. reapresentação de outros dois, arquivados no fim da legislatura
+      > 10. passada, será discutida na próxima semana.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      O vocábulo “assento” (linha 4) e o substantivo acento, que designa o sinal gráfico, são homônimos homófonos.
+  - id: q07
+    topico: conhecimentos-especificos/ling-formacao-e-relacoes-de-sentido
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão examinou um projeto de lei e um
+      > 2. requerimento de audiência pública sobre a LDO. A oposição tentou
+      > 3. esvaziar a reunião, alegando falta de quórum; em consequência, os
+      > 4. líderes trouxeram uma proposta de acordo, e os deputados com assento
+      > 5. no colegiado retomaram a votação. O relator pediu o cumprimento do
+      > 6. prazo regimental e propôs nova redação para a ementa do projeto.
+      > 7. Conferido o painel, os votos favoráveis superaram os contrários, e o
+      > 8. requerimento foi aprovado. O projeto ainda depende do Plenário, e a
+      > 9. reapresentação de outros dois, arquivados no fim da legislatura
+      > 10. passada, será discutida na próxima semana.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “O relator pediu o cumprimento do prazo regimental” (linhas 5 e 6), a substituição de “cumprimento” por comprimento preservaria o sentido original do texto.
+  - id: q08
+    topico: conhecimentos-especificos/ling-formacao-e-relacoes-de-sentido
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão examinou um projeto de lei e um
+      > 2. requerimento de audiência pública sobre a LDO. A oposição tentou
+      > 3. esvaziar a reunião, alegando falta de quórum; em consequência, os
+      > 4. líderes trouxeram uma proposta de acordo, e os deputados com assento
+      > 5. no colegiado retomaram a votação. O relator pediu o cumprimento do
+      > 6. prazo regimental e propôs nova redação para a ementa do projeto.
+      > 7. Conferido o painel, os votos favoráveis superaram os contrários, e o
+      > 8. requerimento foi aprovado. O projeto ainda depende do Plenário, e a
+      > 9. reapresentação de outros dois, arquivados no fim da legislatura
+      > 10. passada, será discutida na próxima semana.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “os votos favoráveis superaram os contrários” (linha 7), os vocábulos “favoráveis” e “contrários” são empregados como antônimos.
+  - id: q09
+    topico: conhecimentos-especificos/ling-formacao-e-relacoes-de-sentido
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão examinou um projeto de lei e um
+      > 2. requerimento de audiência pública sobre a LDO. A oposição tentou
+      > 3. esvaziar a reunião, alegando falta de quórum; em consequência, os
+      > 4. líderes trouxeram uma proposta de acordo, e os deputados com assento
+      > 5. no colegiado retomaram a votação. O relator pediu o cumprimento do
+      > 6. prazo regimental e propôs nova redação para a ementa do projeto.
+      > 7. Conferido o painel, os votos favoráveis superaram os contrários, e o
+      > 8. requerimento foi aprovado. O projeto ainda depende do Plenário, e a
+      > 9. reapresentação de outros dois, arquivados no fim da legislatura
+      > 10. passada, será discutida na próxima semana.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No texto, o vocábulo “ementa” (linha 6) é hipônimo de “projeto” (linha 6).
+  - id: q10
+    topico: conhecimentos-especificos/ling-formacao-e-relacoes-de-sentido
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão examinou um projeto de lei e um
+      > 2. requerimento de audiência pública sobre a LDO. A oposição tentou
+      > 3. esvaziar a reunião, alegando falta de quórum; em consequência, os
+      > 4. líderes trouxeram uma proposta de acordo, e os deputados com assento
+      > 5. no colegiado retomaram a votação. O relator pediu o cumprimento do
+      > 6. prazo regimental e propôs nova redação para a ementa do projeto.
+      > 7. Conferido o painel, os votos favoráveis superaram os contrários, e o
+      > 8. requerimento foi aprovado. O projeto ainda depende do Plenário, e a
+      > 9. reapresentação de outros dois, arquivados no fim da legislatura
+      > 10. passada, será discutida na próxima semana.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      Os vocábulos “quórum” (linha 3), “votação” (linha 5) e “painel” (linha 7) integram, no texto, um mesmo campo semântico, relativo à deliberação da comissão.

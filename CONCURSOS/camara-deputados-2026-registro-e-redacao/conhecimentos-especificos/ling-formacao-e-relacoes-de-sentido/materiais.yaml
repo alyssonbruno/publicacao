@@ -1,0 +1,79 @@
+materiais:
+  - tipo: texto
+    titulo: Formação de palavras, homônimos, parônimos e relações de sentido
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: Encontros Vocálicos e Consonantais || Português para Concursos
+    url: https://www.youtube.com/watch?v=NIe8rsNExp0
+    autor: Português para Concursos - com Diego Pureza
+    duracao_min: 15
+    descricao: >-
+      Pelos capítulos da descrição: vogal e semivogal, ditongo crescente e decrescente, as
+      pegadinhas de "pão" e de "ideia", tritongo, hiato e separação silábica, como as bancas cobram
+      e questões comentadas (a descrição cita Cespe, FGV e Vunesp). Indicado pela descrição e pelos
+      capítulos, sem conferência do conteúdo. Os encontros consonantais (a partir de 8:52) não
+      estão no edital; a oscilação dos ditongos crescentes finais fica só no texto da aula.
+  - tipo: video
+    titulo: ESTRUTURA e FORMAÇÃO de PALAVRAS (composição e derivação) || Português do Zero
+    url: https://www.youtube.com/watch?v=Gjv44CgF68Y
+    autor: Português com Letícia
+    duracao_min: 23
+    descricao: >-
+      Pelos capítulos: estrutura das palavras (radical, afixos, desinência, vogal temática),
+      primitivas e derivadas, composição por justaposição e aglutinação, hibridismo e os tipos de
+      derivação, inclusive parassintética, regressiva e imprópria. Indicado pela descrição e pelos
+      capítulos, sem conferência do conteúdo. Põe o hibridismo dentro da composição, o que nem
+      todos os autores fazem, e não trata de abreviação, sigla e onomatopeia: para esses pontos,
+      use o texto da aula.
+  - tipo: video
+    titulo: HOMÔNIMOS e PARÔNIMOS || Português para Concursos
+    url: https://www.youtube.com/watch?v=G-mVUDQ13fo
+    autor: Português para Concursos - com Diego Pureza
+    duracao_min: 18
+    descricao: >-
+      Pelos capítulos: homônimos perfeitos, homógrafos e homófonos, parônimos e questões de várias
+      bancas, entre elas uma do Cespe sobre sessão e seção (12:05). Indicado pela descrição e pelos
+      capítulos, sem conferência do conteúdo. Não trata de palavras cognatas, que ficam no texto da
+      aula.
+  - tipo: video
+    titulo: "Semântica lexical (5): hiperônimos e hipônimos."
+    url: https://www.youtube.com/watch?v=8yhEr7X4tMM
+    autor: Linguística – Prof. Rerisson Cavalcante
+    duracao_min: 15
+    descricao: >-
+      Aula de linguista (doutor em Linguística pela USP), no nível da prova de Linguística: segundo
+      a descrição, trata a hiperonímia e a hiponímia como relações reversas, com exemplos e os
+      problemas comuns na identificação. Indicado pela descrição, sem conferência do conteúdo.
+      Bom para fixar o teste "X é um tipo de Y" antes dos itens de treino. Licença Creative
+      Commons Atribuição, segundo a página do vídeo.
+  - tipo: podcast
+    titulo: PROCESSO DE FORMAÇÃO DE PALAVRAS I
+    url: https://podcasts.apple.com/br/podcast/processo-de-forma%C3%A7%C3%A3o-de-palavras-i/id1584593874?i=1000587544103
+    autor: Tribo Concursos
+    duracao_min: 26
+    descricao: >-
+      Aula de cursinho em áudio, primeira de duas partes; a descrição só diz que trata do processo
+      de formação de palavras, e o professor não é identificado. Indicado pela descrição e pela
+      duração, sem conferência do conteúdo (o arquivo toca, com volume adequado). Serve para revisar
+      fora da mesa, depois do texto; nas classificações em que os autores divergem (hibridismo,
+      abreviação), fique com o que a aula explica.
+  - tipo: podcast
+    titulo: PROCESSO DE FORMAÇÃO DE PALAVRAS II
+    url: https://podcasts.apple.com/br/podcast/processo-de-forma%C3%A7%C3%A3o-de-palavras-ii/id1584593874?i=1000587544172
+    autor: Tribo Concursos
+    duracao_min: 21
+    descricao: >-
+      Continuação da parte I, com a mesma descrição genérica. Indicado pela descrição e pela
+      duração, sem conferência do conteúdo. Ouça depois da parte I.
+  - tipo: link
+    titulo: Morfologia do Português (livro-texto de Letras a distância, UFSC)
+    url: https://legado.moodle.ufsc.br/pluginfile.php/2057323/mod_resource/content/1/Livro%20Completo%20de%20Morfologia.PDF
+    autor: Felício Wessling Margotti e Rita de Cássia Mello Ferreira Margotti (UFSC)
+    descricao: >-
+      PDF de 174 páginas (2011), base desta aula. Para aprofundar, leia só duas partes: no capítulo
+      2, raiz, radical, vogal temática e alomorfia; no capítulo 5 (p. 111 a 146 do livro), os tipos
+      de derivação, a composição e os outros processos (braquissemia, acrossemia, onomatopeia,
+      hibridismo). Nível de graduação, acima do que a banca costuma pedir.
