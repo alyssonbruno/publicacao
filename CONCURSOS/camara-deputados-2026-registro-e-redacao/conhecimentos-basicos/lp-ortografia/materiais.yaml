@@ -57,6 +57,7 @@ materiais:
   - tipo: podcast
     titulo: "NOVO ACORDO ORTOGRÁFICO: as principais mudanças!"
     url: https://podcasts.apple.com/br/podcast/novo-acordo-ortogr%C3%A1fico-as-principais-mudan%C3%A7as/id1534371896?i=1000550828029
+    audio: https://anchor.fm/s/3950d1cc/podcast/play/46824739/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-28%2F29abe317-b263-cd26-066e-f2d007b93885.mp3
     autor: Português com Letícia
     duracao_min: 23
     descricao: >-
@@ -66,6 +67,7 @@ materiais:
   - tipo: podcast
     titulo: Quando usar cada 'porquê'?
     url: https://podcasts.apple.com/br/podcast/quando-usar-cada-porqu%C3%AA/id1227867522?i=1000725773903
+    audio: https://traffic.megaphone.fm/GLOBO7286564797.mp3
     autor: Pasquale Cipro Neto (A Nossa Língua de Todo Dia, rádio CBN)
     duracao_min: 15
     descricao: >-

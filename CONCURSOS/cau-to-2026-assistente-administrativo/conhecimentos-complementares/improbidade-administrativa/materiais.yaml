@@ -28,6 +28,7 @@ materiais:
   - tipo: podcast
     titulo: "#EP192 - Supremo na Semana"
     url: https://podcasts.apple.com/br/podcast/ep192-supremo-na-semana/id1572243037?i=1000770326037
+    audio: https://anchor.fm/s/5f4dd230/podcast/play/120740325/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-29%2F425156615-44100-2-6499309413e0d.mp3
     autor: Supremo Tribunal Federal (podcast Supremo na Semana)
     duracao_min: 40
     descricao: >-
@@ -42,6 +43,7 @@ materiais:
   - tipo: podcast
     titulo: "#EP196 - Supremo na Semana"
     url: https://podcasts.apple.com/br/podcast/ep196-supremo-na-semana/id1572243037?i=1000775442479
+    audio: https://anchor.fm/s/5f4dd230/podcast/play/122362022/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-3%2F427323499-44100-2-8639acd176481.mp3
     autor: Supremo Tribunal Federal (podcast Supremo na Semana)
     duracao_min: 46
     descricao: >-
