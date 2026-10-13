@@ -55,8 +55,8 @@
     <g transform="translate(150 280)">
       <rect width="174" height="96" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
       <text x="12" y="26" font-size="14" font-weight="700">Bilhete a um amigo</text>
-      <text x="12" y="52">"Te espero na saída</text>
-      <text x="12" y="72">pra gente almoçar."</text>
+      <text x="12" y="52">"Guardei teu guarda-chuva.</text>
+      <text x="12" y="72">Pega comigo amanhã!"</text>
     </g>
     <g transform="translate(338 280)">
       <rect width="174" height="96" rx="10" fill="#f8efe6" stroke="#e6cdb9"/>

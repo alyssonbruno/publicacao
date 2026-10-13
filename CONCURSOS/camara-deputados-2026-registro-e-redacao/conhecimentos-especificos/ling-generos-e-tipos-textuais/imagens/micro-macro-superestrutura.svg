@@ -44,11 +44,10 @@
   <rect x="654" y="76" width="322" height="452" rx="10" fill="#fdf0e6" stroke="#b4501f" stroke-dasharray="6 4"/>
   <text x="674" y="106" font-size="18" font-weight="700" fill="#b4501f">Superestrutura</text>
   <g font-size="14" fill="#0b0b0b">
-    <text x="674" y="134">O esquema próprio de um tipo de</text>
-    <text x="674" y="154">discurso (narração, exposição,</text>
-    <text x="674" y="174">argumentação): uma “sintaxe</text>
-    <text x="674" y="194">global”, com categorias que o</text>
-    <text x="674" y="214">conteúdo vem preencher.</text>
+    <text x="674" y="134">O esquema global de organização</text>
+    <text x="674" y="154">do texto: uma “sintaxe global”,</text>
+    <text x="674" y="174">com categorias que o conteúdo</text>
+    <text x="674" y="194">vem preencher.</text>
     <text x="674" y="252" font-weight="700">Exemplo, na narrativa</text>
     <rect x="674" y="266" width="282" height="92" rx="8" fill="#ffffff" stroke="#f0c9a8"/>
     <text x="690" y="292">categoria <tspan font-weight="700">cenário</tspan>:</text>
@@ -57,12 +56,12 @@
     <text x="674" y="392">Organiza as macroproposições</text>
     <text x="674" y="412">pela função de cada parte</text>
     <text x="674" y="432">no conjunto.</text>
-    <text x="674" y="470" font-weight="700" fill="#b4501f">É do tipo, não do gênero.</text>
-    <text x="674" y="492">Há textos sem superestrutura</text>
-    <text x="674" y="512">convencional.</text>
+    <text x="674" y="462" font-weight="700" fill="#b4501f">Van Dijk a descreve para a</text>
+    <text x="674" y="482" font-weight="700" fill="#b4501f">narrativa, a argumentação e</text>
+    <text x="674" y="502" font-weight="700" fill="#b4501f">a notícia de jornal.</text>
   </g>
 
   <!-- Pé -->
   <text x="24" y="556" font-size="15" fill="#0b0b0b"><tspan font-weight="700">Micro e macro</tspan> são níveis de <tspan font-weight="700">sentido</tspan>; a <tspan font-weight="700">superestrutura</tspan> é de <tspan font-weight="700">forma</tspan>.</text>
-  <text x="24" y="582" font-size="12" fill="#52514e">Fontes: Farias (2000) e Giraldello (2017), sobre Kintsch e van Dijk. Exemplo criado para esta aula.</text>
+  <text x="24" y="582" font-size="12" fill="#52514e">Fontes: Farias (2000), Giraldello (2017) e Rodrigues (1991), sobre Kintsch e van Dijk. Exemplo criado para esta aula.</text>
 </svg>

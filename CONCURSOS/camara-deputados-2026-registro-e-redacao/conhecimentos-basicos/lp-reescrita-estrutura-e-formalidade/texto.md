@@ -69,11 +69,13 @@ Quando o adjunto deslocado é curto, a vírgula pode faltar, e os guias não tra
 
 Mudar um termo de lugar pode mudar **a palavra a que ele se liga**. Três situações merecem atenção.
 
-**Palavras de alcance curto**, como *não*, *só*, *apenas*, *também* e *até*, agem sobre o que vem logo depois delas:
+**Palavras de alcance curto**, como *não*, *só*, *apenas* e *até*, em geral agem sobre o que vem logo depois delas:
 
 - *Só o relator leu o parecer ontem.* (ninguém mais leu)
 - *O relator só leu o parecer ontem.* (não fez outra coisa com ele, ou leu só ontem)
 - *O relator leu só o parecer ontem.* (não leu outros documentos)
+
+*Também* é mais solto: pode ligar-se ao termo que vem antes dele (*O relator também leu o parecer*: outros leram, e ele também). Com essa palavra, leia a frase inteira antes de decidir.
 
 **O *não*** segue a mesma lógica: *O mérito do projeto não está em criar cargos* (está em outra coisa) é diferente de *O mérito do projeto está em não criar cargos* (o mérito é justamente não criar). Na prova do TCU de 2025, um item que propunha levar um *não* para depois de uma preposição, dizendo que as relações de sentido se manteriam, foi dado como errado.
 
@@ -167,7 +169,7 @@ Ao **dividir**, os riscos são outros. O pedaço que sobra precisa ficar de pé 
 
 ## Oração reduzida e oração desenvolvida
 
-A oração **desenvolvida** tem conector e verbo conjugado: *quando a discussão se encerrou*. A **reduzida** não tem conector, e o verbo vem no infinitivo, no gerúndio ou no particípio: *encerrada a discussão*. A reescrita troca uma pela outra:
+A oração **desenvolvida** tem conector e verbo conjugado: *quando a discussão se encerrou*. A **reduzida** não tem conjunção nem pronome relativo, e o verbo vem no infinitivo, no gerúndio ou no particípio: *encerrada a discussão*. Ela pode vir com preposição (*ao encerrar a discussão*, *antes de votar*). A reescrita troca uma pela outra:
 
 - *Encerrada a discussão, o presidente abriu a votação.* → *Depois que a discussão foi encerrada, o presidente abriu a votação.*
 - *É necessário aprovar o requerimento.* → *É necessário que se aprove o requerimento.*
@@ -175,7 +177,7 @@ A oração **desenvolvida** tem conector e verbo conjugado: *quando a discussão
 
 Na passagem para a desenvolvida, confira o **conector** (a relação é a mesma?) e o **tempo e o modo** do verbo que apareceu.
 
-O gerúndio pede cuidado extra, porque não diz sozinho qual é a relação: *Não havendo quórum, o presidente encerrou a sessão* pode ser lido como causa (*como não havia*) ou como tempo (*quando não havia*). Desenvolver obriga a escolher. A aula de orações reduzidas da UFS avisa que o desdobramento é um recurso didático e que, em algumas reduzidas de gerúndio, ele soa forçado.
+O gerúndio pede cuidado extra, porque não diz sozinho qual é a relação: *Não havendo quórum, o presidente encerrou a sessão* pode ser lido como causa (*como não havia*) ou como tempo (*quando não havia*). Desenvolver obriga a escolher. A aula de orações reduzidas da UFS avisa que o desdobramento é só um recurso didático: certas reduzidas de uso consagrado soam estranhas quando desenvolvidas, e outras nem têm forma desenvolvida, como a de gerúndio que indica modo (exemplo nosso: *O deputado deixou a tribuna sorrindo*).
 
 No infinitivo com sujeito próprio, o Manual da Presidência, seguindo a gramática normativa, não aceita a preposição contraída com o artigo do sujeito: *antes **de o** relator ler o parecer*, e não "antes do relator ler o parecer".
 
@@ -206,6 +208,8 @@ No **discurso direto**, a fala vem como foi dita, entre aspas ou depois de trave
 | *isto*, *este* | *aquilo*, *aquele* |
 | *aqui*, *agora*, *amanhã* | *lá*, *naquele momento*, *no dia seguinte* |
 
+Leitura nossa sobre as duas últimas linhas: elas valem para o relato feito **em outro dia ou em outro lugar**, que é o caso comum na ata, na notícia e nos textos de prova. Quem relata no mesmo dia e no mesmo lugar da fala pode manter *aqui*, *amanhã* e *este*, que continuam apontando para o mesmo lugar, o mesmo dia e a mesma coisa.
+
 — *Apresentarei meu parecer amanhã, nesta comissão* — disse o relator. → *O relator disse que apresentaria seu parecer no dia seguinte, naquela comissão.*
 
 — *Há acordo?* — perguntou o presidente. → *O presidente perguntou se havia acordo.*
@@ -213,7 +217,7 @@ No **discurso direto**, a fala vem como foi dita, entre aspas ou depois de trave
 O recuo dos tempos e os casos em que ele não é obrigatório estão na aula de tempos e modos verbais, na parte sobre a ata. O verbo que introduz a fala também pesa: o Manual de Comunicação do Senado manda preferir os neutros (*dizer*, *afirmar*, *declarar*) e evitar os que embutem opinião de quem relata, como *disparar* e *ironizar*.
 
 > [!CAUTION]
-> A reescrita em discurso indireto que mantém "eu", "aqui" ou "amanhã" da fala original muda quem fala, onde e quando. Confira pessoa, tempo, lugar e demonstrativo, um por um.
+> A reescrita em discurso indireto que mantém o "eu" da fala original troca quem fala. Se o relato é feito em outro dia ou em outro lugar, manter "aqui" ou "amanhã" troca também o onde e o quando. Confira pessoa, tempo, lugar e demonstrativo, um por um.
 
 ## Nível de formalidade: adequação, não acerto e erro
 
@@ -233,15 +237,17 @@ Nos documentos oficiais, a escolha está feita: o Manual da Presidência exige a
 
 O edital fala em reescrita "de diferentes níveis de formalidade". Veja o mesmo aviso em duas versões. A primeira é a mensagem de um assessor no grupo dos colegas:
 
-> Pessoal, a reunião de amanhã caiu. O relator não vai conseguir terminar o parecer a tempo. Fica pra quinta, 10h, no mesmo plenário. Se mudar de novo, eu aviso.
+> Pessoal, a reunião de amanhã caiu, porque o relator não vai conseguir terminar o parecer a tempo. Fica pra quinta, 10h, no mesmo plenário. Se mudar de novo, eu aviso.
 
 A segunda é o comunicado aos membros da comissão:
 
-> Comunicamos que a reunião prevista para amanhã foi adiada para quinta-feira, às 10 horas, no mesmo plenário, porque o relator não concluirá o parecer a tempo. Qualquer nova alteração será informada.
+> Comunicamos que a reunião prevista para amanhã foi adiada para quinta-feira, às 10 horas, no mesmo plenário, porque o relator não concluirá o parecer a tempo. Se houver nova alteração, avisaremos.
 
-![Quadro com o mesmo recado em dois níveis de formalidade. À esquerda, a versão informal, mensagem no grupo dos colegas de gabinete: Pessoal, a reunião de amanhã caiu. O relator não vai conseguir terminar o parecer a tempo. Fica pra quinta, 10h, no mesmo plenário. Se mudar de novo, eu aviso. À direita, a versão formal, comunicado aos membros da comissão: Comunicamos que a reunião prevista para amanhã foi adiada para quinta-feira, às 10 horas, no mesmo plenário, porque o relator não concluirá o parecer a tempo. Qualquer nova alteração será informada. Abaixo, o que mudou. Tratamento: Pessoal e eu aviso viram texto sem vocativo, com comunicamos e será informada. Palavras: caiu, pra, quinta e 10h viram foi adiada, para, quinta-feira e às 10 horas. Verbo: não vai conseguir terminar vira não concluirá. Períodos: frases curtas, sem conector, viram um período, com a causa em porque. O que não pode mudar: o fato, a reunião de amanhã foi adiada; o motivo, o parecer não fica pronto; o novo dia, a hora e o lugar, quinta-feira, 10 horas, mesmo plenário; e o aviso de que outra mudança será comunicada. No pé: informal não é errado; a mensagem informal está adequada ao grupo de colegas e ficaria inadequada num comunicado oficial; formal também não é rebuscado, pois o comunicado usa palavras comuns e frases completas.](imagens/mesmo-recado-dois-niveis.svg "Exemplo nosso: o que muda e o que não pode mudar")
+![Quadro com o mesmo recado em dois níveis de formalidade. À esquerda, a versão informal, mensagem no grupo dos colegas de gabinete: Pessoal, a reunião de amanhã caiu, porque o relator não vai conseguir terminar o parecer a tempo. Fica pra quinta, 10h, no mesmo plenário. Se mudar de novo, eu aviso. À direita, a versão formal, comunicado aos membros da comissão: Comunicamos que a reunião prevista para amanhã foi adiada para quinta-feira, às 10 horas, no mesmo plenário, porque o relator não concluirá o parecer a tempo. Se houver nova alteração, avisaremos. Abaixo, o que mudou. Tratamento: Pessoal e eu aviso viram texto sem vocativo, com comunicamos e avisaremos. Palavras: caiu, pra, quinta e 10h viram foi adiada, para, quinta-feira e às 10 horas. Verbo: não vai conseguir terminar vira não concluirá. Períodos: três períodos, com o novo dia em frase à parte, Fica pra quinta, viram dois períodos; o porque já estava na mensagem. O que não pode mudar: o fato, a reunião de amanhã foi adiada; o motivo, o parecer não fica pronto; o novo dia, a hora e o lugar, quinta-feira, 10 horas, mesmo plenário; e a promessa de quem escreve de avisar outra mudança. No pé: informal não é errado; a mensagem informal está adequada ao grupo de colegas e ficaria inadequada num comunicado oficial; formal também não é rebuscado, pois o comunicado usa palavras comuns e frases completas.](imagens/mesmo-recado-dois-niveis.svg "Exemplo nosso: o que muda e o que não pode mudar")
 
-Mudaram o tratamento, as palavras de conversa (*caiu*, *pra*), a forma do verbo e a amarração das frases. Não mudaram o fato, o motivo, o dia, a hora e o lugar. É esse o teste de qualquer reescrita entre níveis: **a forma se ajusta, a informação fica**.
+Mudaram o tratamento, as palavras de conversa (*caiu*, *pra*), a forma do verbo e o número de períodos (três viraram dois). Não mudaram o fato, o motivo, o dia, a hora, o lugar e quem promete avisar. É esse o teste de qualquer reescrita entre níveis: **a forma se ajusta, a informação fica**.
+
+Dois cuidados da versão formal: o *porque* já estava na mensagem, de modo que ela não criou uma causa; e *eu aviso* virou *avisaremos*, e não "será informada", para não apagar quem avisa.
 
 Repare que a versão formal não usa "outrossim", "supracitado" nem frases enroladas. E que a informal não tem erro de concordância nem de ortografia: informalidade se faz com escolhas de palavra e de tratamento, não com erros.
 
@@ -273,11 +279,11 @@ O terceiro tipo de reescrita do item 6.4 troca o leitor: o texto escrito para es
 
 Um exemplo nosso, com todas elas:
 
-> Fica vedada aos visitantes, quando não previamente autorizada pela administração, a realização de registros fotográficos nas dependências do Plenário.
+> Fica vedada aos visitantes, quando não previamente autorizada pela administração, a realização de registros fotográficos no interior do Plenário.
 
-> Os visitantes só podem fotografar o Plenário com autorização prévia da administração.
+> Os visitantes só podem fotografar dentro do Plenário com autorização prévia da administração.
 
-A ordem voltou a ser direta (o sujeito *os visitantes* na frente), a intercalada sumiu, a dupla negação (*vedada* e *não autorizada*) virou afirmação com *só*, e *realização de registros fotográficos* virou *fotografar*. A regra é a mesma: quem pode, o quê, com que condição.
+A ordem voltou a ser direta (o sujeito *os visitantes* na frente), a intercalada sumiu, a dupla negação (*vedada* e *não autorizada*) virou afirmação com *só*, e *realização de registros fotográficos* virou *fotografar*. A regra é a mesma: quem pode, o quê, onde (*no interior do Plenário*, *dentro do Plenário*) e com que condição. Se a versão simples dissesse "fotografar o Plenário", a regra já seria outra: passaria a tratar do que aparece na foto, e não do lugar em que ela é tirada.
 
 O manual ensina a escrever melhor; a prova pergunta outra coisa. Em vários dos pares "antes e depois" do manual, a versão nova **corta informação de propósito**, porque o autor a julgou desnecessária para aquele leitor. É boa prática de redação, mas uma reescrita assim não "mantém os sentidos" do original.
 
@@ -300,7 +306,7 @@ Os moldes de reescrita errada que resultam desta aula (os quatro primeiros saem 
 10. **a caracterização trocada**: chamar de "informal" um texto apenas claro e direto, ou tratar marca de informalidade como erro gramatical.
 
 > [!TIP]
-> Um conselho de professor de cursinho que vale para esta banca: diante de uma reescrita, comece perguntando "o que há de errado aqui?". Se, depois de conferir tudo, você não achar nada, o item pode estar certo.
+> Elias Santana, professor de cursinho, sugere olhar para o item de reescrita com esta pergunta: "o que há de errado nessa reescrita?". O complemento é nosso: se, depois de conferir tudo, você não achar nada, o item pode estar certo.
 
 ## Roteiro para julgar uma reescrita
 

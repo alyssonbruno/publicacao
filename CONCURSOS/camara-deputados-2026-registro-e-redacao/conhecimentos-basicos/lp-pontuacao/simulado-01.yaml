@@ -6,7 +6,7 @@ simulado:
   fontes:
     - 'Questões próprias, sobre um texto próprio e fictício (notícia de uma sessão do Plenário), no estilo de certo ou errado do Cebraspe: o sinal é localizado pela palavra que o antecede e pela linha, e o item trata da justificativa do sinal, de sua supressão ou de sua troca.'
     - 'Referências de estilo, sem reprodução de itens: cadernos do Cebraspe da Câmara dos Deputados 2025 (nível superior, Conhecimentos Gerais, aplicado em 8/3/2026), do TCU 2025 (Auditor Federal de Controle Externo), da Polícia Federal 2025 e do Concurso Nacional Unificado da Justiça Eleitoral 2024 (Conhecimentos Básicos), e do Cespe/UnB da Câmara dos Deputados 2012 (Taquígrafo Legislativo, Conhecimentos Específicos).'
-    - 'Bases do gabarito: Manual de Redação da Presidência da República, 3ª ed. (2018), seções 10.1, 10.5 e 11.9; Manual de Padronização de Textos do STJ, 2ª ed. (2016), verbete "pontuação"; Manual de Comunicação da Secom do Senado Federal, verbetes "Vírgula", "Travessão", "Aspas" e "Ponto e vírgula". Consultados em 12/10/2026.'
+    - 'Bases do gabarito: Manual de Redação da Presidência da República, 3ª ed. (2018), seções 10.1, 10.5 e 11.9; Manual de Padronização de Textos do STJ, 2ª ed. (2016), verbete "pontuação"; Manual de Comunicação da Secom do Senado Federal, verbetes "Vírgula", "Vírgula antes da conjunção e", "Travessão", "Aspas" e "Ponto e vírgula". Consultados em 12/10/2026 e 13/10/2026.'
 questoes:
   - id: q01
     topico: conhecimentos-basicos/lp-pontuacao

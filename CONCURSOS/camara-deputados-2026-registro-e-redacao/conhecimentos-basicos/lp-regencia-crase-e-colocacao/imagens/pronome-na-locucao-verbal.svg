@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="912" height="640" viewBox="0 0 912 640" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
-  <rect width="912" height="640" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="664" viewBox="0 0 912 664" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="664" fill="#ffffff"/>
 
   <!-- Título -->
   <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">O pronome átono na locução verbal</text>
-  <text x="24" y="62" font-size="14" fill="#52514e">Posições registradas no Manual de Padronização de Textos do STJ</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Posições admitidas pelo Manual de Padronização de Textos do STJ (colocação pronominal, itens 4.2.1 a 4.2.3)</text>
 
   <!-- Cabeçalhos das colunas -->
   <g font-size="15" font-weight="700" fill="#52514e" text-anchor="middle">
@@ -15,10 +15,13 @@
   <g font-size="15" font-weight="700" fill="#52514e" text-anchor="middle">
     <text x="92" y="168">auxiliar +</text>
     <text x="92" y="188">infinitivo</text>
+    <text x="92" y="208" font-size="13" font-weight="400">STJ, 4.2.1</text>
     <text x="92" y="310">auxiliar +</text>
     <text x="92" y="330">gerúndio</text>
+    <text x="92" y="350" font-size="13" font-weight="400">STJ, 4.2.2</text>
     <text x="92" y="452">auxiliar +</text>
     <text x="92" y="472">particípio</text>
+    <text x="92" y="492" font-size="13" font-weight="400">STJ, 4.2.3</text>
   </g>
 
   <!-- Infinitivo, sem atração -->
@@ -90,6 +93,7 @@
   <!-- Pé -->
   <line x1="24" y1="550" x2="888" y2="550" stroke="#e1e0d9"/>
   <text x="24" y="576" font-size="14" fill="#0b0b0b"><tspan font-weight="700">Depois de particípio, nunca.</tspan> Depois de infinitivo e de gerúndio, o pronome pode ficar.</text>
-  <text x="24" y="600" font-size="14" fill="#0b0b0b">A forma sem hífen (<tspan font-weight="700">vai se reunir</tspan>) não está no manual do STJ: as fontes divergem sobre ela,</text>
-  <text x="24" y="620" font-size="14" fill="#0b0b0b">como o texto da aula explica.</text>
+  <text x="24" y="600" font-size="14" fill="#0b0b0b"><tspan font-weight="700" fill="#a32a2a">✗</tspan> = fora das posições do manual. A ênclise ao auxiliar depois de palavra atrativa também fica fora</text>
+  <text x="24" y="620" font-size="14" fill="#0b0b0b">no minicurso da UNIFAL-MG, baseado em Cunha e Cintra.</text>
+  <text x="24" y="644" font-size="14" fill="#0b0b0b">A forma sem hífen (<tspan font-weight="700">vai se reunir</tspan>) não está no manual do STJ: as fontes divergem, e o texto da aula explica.</text>
 </svg>

@@ -11,22 +11,22 @@ materiais:
     autor: UNIVESP
     duracao_min: 18
     descricao: >-
-      Videoaula de uma disciplina de graduação da Univesp cujo título traz as três normas da parte
-      "Norma-padrão, norma gramatical e norma culta" do texto. Não conseguimos assistir a ela antes
-      de publicar: veja depois dessa parte e compare as definições com as do texto. Se o vídeo
-      usar os nomes de outro jeito, lembre que os autores divergem (parte "Onde os autores não
-      coincidem"). Não trata de fala e escrita.
+      Indicada pelo título e pela descrição do canal, sem ter sido assistida: é uma videoaula de
+      disciplina de graduação da Univesp, e o título traz os três nomes da parte "Norma-padrão,
+      norma gramatical e norma culta" do texto. Não sabemos o que há dentro. Veja depois dessa
+      parte e compare as definições com as do texto; se os nomes vierem de outro jeito, lembre que
+      os autores divergem (parte "Onde os autores não coincidem").
   - tipo: video
     titulo: Minicurso - Norma culta brasileira - aula 1
     url: https://www.youtube.com/watch?v=Qo3XUQNu_7w
     autor: Parábola Editorial
     duracao_min: 13
     descricao: >-
-      Primeira aula de um minicurso da editora que publica o livro Norma culta brasileira, de
-      Carlos Alberto Faraco, de onde vem a divisão das normas usada no texto. Não conseguimos
-      assistir a ela antes de publicar, e não sabemos quem apresenta: use como segunda explicação
-      de norma culta e norma-padrão, depois do texto. As outras aulas do minicurso não fazem parte
-      desta aula.
+      Indicada pelo título e pela descrição do canal, sem ter sido assistida: é a primeira aula
+      de um minicurso da editora que publica o livro Norma culta brasileira, de Carlos Alberto
+      Faraco, de onde vem a divisão das normas usada no texto. Não sabemos quem apresenta nem o
+      que há dentro. Veja depois da parte "Norma-padrão, norma gramatical e norma culta" e
+      compare com o texto. As outras aulas do minicurso não foram indicadas.
   - tipo: podcast
     titulo: Você sabe o que é HIPERCORREÇÃO?
     url: https://podcasts.apple.com/br/podcast/voc%C3%AA-sabe-o-que-%C3%A9-hipercorre%C3%A7%C3%A3o/id1700332316?i=1000625236153
@@ -34,13 +34,15 @@ materiais:
     autor: Português em Meia Hora (Thiago Godoy, o prof. Manga)
     duracao_min: 32
     descricao: >-
-      Parte de uma crônica de Vinicius de Moraes para explicar a hipercorreção (o erro de quem
-      tenta imitar a forma de prestígio), com a definição do dicionário de sociolinguística de
-      Marcos Bagno, o prestígio e o estigma das formas e o exemplo dos particípios (pego e pegado,
-      chego e chegado). Conferimos por transcrição automática até o minuto 22; o fim não foi
-      ouvido. O episódio fala em "língua padrão" sem a divisão entre norma-padrão e norma culta do
-      texto, e não trata de fala e escrita. Ouça depois da parte "Adequação no lugar de certo e
-      errado".
+      Conferimos por transcrição automática até o minuto 22; o fim não foi ouvido. Nesse trecho,
+      o episódio parte de uma crônica de Vinicius de Moraes para explicar a hipercorreção (o erro
+      de quem tenta imitar a forma de prestígio), lê a definição do dicionário de
+      sociolinguística de Marcos Bagno e fala do prestígio e do estigma das formas. Os
+      particípios pego e pegado entram para mostrar que a avaliação de uma forma muda com o
+      tempo, e não como exemplo de hipercorreção; a pergunta "tinha chego ou tinha chegado?"
+      ainda não tinha sido respondida. Nesse trecho, fala-se em "língua padrão", sem a divisão
+      entre norma-padrão e norma culta do texto. Ouça depois da parte "Adequação no lugar de
+      certo e errado".
   - tipo: link
     titulo: Fala e escrita (livro do CEEL/UFPE para professores)
     url: https://www.serdigital.com.br/gerenciador/clientes/ceel/arquivos/29.pdf

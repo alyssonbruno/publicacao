@@ -18,17 +18,17 @@
 ## Crase
 
 - **Crase = preposição a + artigo a** (ou *aquele*, *a qual*, *a* = aquela). Testes: masculino dá *ao*; outro regente dá *da*, *na*.
-- **Acento incorreto**: masculino, verbo, *uma*, pronomes pessoais e de tratamento, *esta*, *essa*, indefinidos, *que* e *quem*, *a* singular + plural, palavras repetidas, depois de outra preposição (*desde as*, *após as*) e depois de verbo que não pede preposição.
+- **Acento incorreto**: masculino, verbo, artigo *uma*, pronomes pessoais e de tratamento, *esta*, *essa*, indefinidos (menos *outra*), *que* e *quem*, *a* singular + plural, palavras repetidas, depois de outra preposição (*desde as*, *após as*) e depois de verbo que não pede preposição.
 - **Sempre**: horas (*às 14 horas*), locuções femininas (*às vezes*, *à medida que*, *à revelia*), *à moda de* (*à Rui Barbosa*), lugar com artigo (*volto da Bahia* → *vou à Bahia*; *vou a Brasília*).
 - **Facultativa, três casos**: possessivo feminino singular + substantivo (*a* ou *à minha proposta*); nome próprio feminino de pessoa (*a* ou *à Marta*); depois de *até* (*até as* ou *até às 22 horas*).
 - Limites: *a suas emendas* ou *às suas emendas*; possessivo sem substantivo é obrigatória (*prefiro a sua emenda à minha*).
 - Tirar *todas* de *a todas as servidoras* torna a crase obrigatória: *às servidoras*.
-- *A distância* (indeterminada): STJ sem acento; Senado com acento. Não aposte nisso.
+- *A distância* (indeterminada): STJ sem acento, salvo ambiguidade; Senado com acento. Não aposte nisso.
 
 ## Colocação dos pronomes átonos
 
 - Três proibições: **não começar frase** com pronome átono; **nunca depois de particípio**; **futuro sem ênclise** (*realizar-se-á* ou *a sessão se realizará*).
-- **Atraem a próclise**: negativas, advérbios sem vírgula, conjunções subordinativas, relativos, indefinidos, *ou... ou*, perguntas, exclamações, desejos, *em* + gerúndio. Vírgula depois do advérbio desfaz a atração.
+- **Atraem a próclise**: negativas, advérbios sem vírgula (seguro com os curtos, como *já* e *hoje*; com *-mente* ou locução longa, não aposte), conjunções subordinativas, relativos, indefinidos, *ou... ou*, perguntas, exclamações, desejos, *em* + gerúndio. Vírgula depois do advérbio desfaz a atração.
 - Sem atração e com sujeito expresso: próclise ou ênclise (*o relator se manifestou* ou *manifestou-se*).
 - **Locução com infinitivo ou gerúndio**: sem atração, três posições (*vai-se reunir*, *vai reunir-se*, *se vai reunir*); com atração, duas (*não se vai reunir*, *não vai reunir-se*).
 - **Locução com particípio**: só junto do auxiliar (*tinha-se manifestado*, *se tinha manifestado*; com atração, *já se tinha manifestado*).

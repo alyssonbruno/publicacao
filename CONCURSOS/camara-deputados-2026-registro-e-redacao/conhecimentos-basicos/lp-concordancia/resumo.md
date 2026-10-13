@@ -15,16 +15,16 @@
 - **Nome próprio no plural**: com artigo, plural (*Os Estados Unidos **enviaram***); sem artigo, singular (*Minas Gerais **aprovou***).
 - **Vossa Excelência**: verbo e possessivo na 3ª pessoa (*concluiu*, *seu*); adjetivo conforme o sexo da pessoa (*enganado*/*enganada*).
 
-## Onde as fontes divergem
+## O que cada fonte diz
 
 - **"Um dos que"**: Presidência admite singular ou plural (prevalece o plural); Senado manda plural; Só Português prefere plural. **O plural atende às três.**
-- **"Um ou outro" e "nem um nem outro"**: Presidência e Senado, singular; Só Português registra que o plural também é praticado. **O singular atende às três.**
+- **"Um ou outro" e "nem um nem outro"**: singular. Os dois manuais (Presidência e Senado) coincidem; só o Só Português registra que o plural "também é praticado". **Use o singular.**
 - **"Um e outro"**: substantivo no singular, verbo no singular ou no plural (Presidência).
 
 ## Haver, fazer, "se" e "ser"
 
 - **Haver** (existir, tempo) e **fazer** (tempo) não têm sujeito: singular, inclusive o auxiliar (***Deve haver** emendas*; ***Vai fazer** dois anos*). **Existir** tem sujeito: ***Existiam** dúvidas*; ***Devem existir** emendas*.
-- **"Se" sem preposição depois**: o termo é sujeito, o verbo concorda (***Aprovaram-se** as emendas*). **Com preposição**: singular (***Trata-se** de emendas*; ***Precisa-se** de taquígrafos*).
+- **"Se"**: teste a passiva com *ser*. Aceita (verbo transitivo direto): o termo é sujeito, o verbo concorda (***Aprovaram-se** as emendas*). Não aceita (verbo com preposição, intransitivo ou de ligação): singular (***Trata-se** de emendas*; ***Trabalha-se** todas as noites*). Verbo pronominal com sujeito segue a regra geral (*Os deputados **queixaram-se***).
 - **Ser** concorda com o predicativo em horas, datas e distâncias (***São** dez horas*), com *tudo/isso/aquilo* (*Tudo **são** hipóteses*), com coisa no singular + plural (*O problema **são** as emendas*) e com pronome pessoal (*O relator **sou** eu*). *É muito*, *é pouco*: singular.
 - **Infinitivo**: flexiona com sujeito próprio (*afirma não **existirem** obstáculos*); em locução, não (*podem **apresentar***).
 
@@ -43,6 +43,6 @@
 > [!TIP]
 > Faça a revisão sem abrir o texto da aula primeiro: tente lembrar, e só depois confira.
 
-- **24 horas**: diga em voz alta as quatro perguntas do roteiro do verbo e aplique-as a *Havia dúvidas*, *Trata-se de emendas*, *Aprovaram-se as emendas* e *Faltam três assinaturas*; troque *haver* por *existir* nas duas primeiras que aceitarem a troca.
+- **24 horas**: diga em voz alta as quatro perguntas do roteiro do verbo e aplique-as a *Havia dúvidas*, *Trata-se de emendas*, *Aprovaram-se as emendas* e *Faltam três assinaturas*; na primeira, troque *haver* por *existir* e diga o que muda no verbo.
 - **7 dias**: escreva de memória o que cada fonte diz sobre "um dos que" e "um ou outro"; monte o quadro do que varia e do que não varia (*anexo*, *meio*, *bastante*, *só*, *menos*); refaça os itens que errou no treino.
 - **30 dias**: numa ata ou em notas taquigráficas da Câmara, sublinhe dez verbos e aponte o sujeito de cada um; ache um "Vossa Excelência" e confira verbo, possessivo e adjetivo; ache um verbo com "se" e diga se ele concorda ou fica no singular, e por quê.

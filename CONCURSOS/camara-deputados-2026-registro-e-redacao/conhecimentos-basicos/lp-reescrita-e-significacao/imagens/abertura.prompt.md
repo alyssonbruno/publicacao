@@ -11,6 +11,6 @@ mesa clara e simples. Diante dela, duas folhas de papel postas lado a lado, cada
 algumas linhas horizontais abstratas. Com uma das mãos, ela encaixa uma tira de papel laranja
 sobre uma das linhas da folha da direita; a outra mão aponta a linha correspondente na folha da
 esquerda, como quem compara as duas. Ao lado, mais duas ou três tiras de papel coloridas, verde
-e amarela, e um lápis. As folhas e as tiras mostram só linhas abstratas, sem letras. Bastante
+e amarela, e uma caneta. As folhas e as tiras mostram só linhas abstratas, sem letras. Bastante
 espaço livre dos dois lados.
 ```

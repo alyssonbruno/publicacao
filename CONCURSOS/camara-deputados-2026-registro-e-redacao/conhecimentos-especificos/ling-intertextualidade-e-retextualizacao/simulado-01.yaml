@@ -6,7 +6,7 @@ simulado:
   fontes:
     - 'Questões próprias, sobre textos próprios e fictícios (a transcrição de um trecho de fala em plenário, o registro escrito feito a partir dela e um trecho de crônica), no estilo de certo ou errado do Cebraspe: trechos entre aspas, com remissão à linha, e itens que julgam uma reescrita ou a relação entre textos.'
     - 'Referências de estilo, sem reprodução de itens: cadernos do Cebraspe de conhecimentos gerais da Câmara dos Deputados (edital de 2025, aplicado em 8/3/2026), de conhecimentos específicos de Taquígrafo Legislativo da Câmara dos Deputados (2012) e de Professor de Língua Portuguesa da SEDUC-AL (edital de 2017, aplicado em 2018), com os gabaritos definitivos.'
-    - 'Bases do gabarito: Dikson, A retextualização escrita-escrita (RBLA, 2018); d''Andrea e Ribeiro, Retextualizar e reescrever, editar e revisar (Veredas, UFJF, 2010); Santos, Cabrera e Góes, Retextualização de texto oral (Anagrama, USP, 2008); Araujo, Retextualização, estratégias de condensação e estruturação argumentativa (CONEL/UFES); Produção e Recepção de Texto I, aula 10 (CESAD/UFS); Santos, resenha de Intertextualidade: diálogos possíveis, de Koch, Bentes e Cavalcante (Nuances, FCT/UNESP); Ferraz, Conto popular, estória oral e conto literário (Estudos Linguísticos, GEL, 2014); Souza-Santos e Araújo, O ensino de intertextualidade nos anos finais do ensino fundamental (Educação em Revista, UFMG, 2022). Consultados em 12/10/2026. O verso citado no Texto III é de soneto de Luís de Camões (domínio público); o provérbio é de uso popular.'
+    - 'Bases do gabarito: Dikson, A retextualização escrita-escrita (RBLA, 2018); d''Andrea e Ribeiro, Retextualizar e reescrever, editar e revisar (Veredas, UFJF, 2010); Santos, Cabrera e Góes, Retextualização de texto oral (Anagrama, USP, 2008); Araujo, Retextualização, estratégias de condensação e estruturação argumentativa (CONEL/UFES); Produção e Recepção de Texto I, aula 10 (CESAD/UFS); Santos, resenha de Intertextualidade: diálogos possíveis, de Koch, Bentes e Cavalcante (Nuances, FCT/UNESP); Ferraz, Conto popular, estória oral e conto literário (Estudos Linguísticos, GEL, 2014); Souza-Santos e Araújo, O ensino de intertextualidade nos anos finais do ensino fundamental (Educação em Revista, UFMG, 2022); Souza Santos, As intertextualidades explícita e implícita no discurso político (Ao Pé da Letra, UFPE, 2016). Consultados em 12 e 13/10/2026. O verso citado no Texto III é de soneto de Luís de Camões (domínio público); o provérbio é de uso popular.'
 questoes:
   - id: q01
     topico: conhecimentos-especificos/ling-intertextualidade-e-retextualizacao
@@ -28,9 +28,9 @@ questoes:
       > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
       > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
       > 3. acesso à internet. As outras duas quase não abrem, porque não têm
-      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
-      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
-      > 6. dos colegas.
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo.
+      > 5. Mas eles ajudam pelo menos a contratar pessoal. Por isso, peço o
+      > 6. apoio dos colegas.
 
       Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
 
@@ -55,9 +55,9 @@ questoes:
       > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
       > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
       > 3. acesso à internet. As outras duas quase não abrem, porque não têm
-      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
-      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
-      > 6. dos colegas.
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo.
+      > 5. Mas eles ajudam pelo menos a contratar pessoal. Por isso, peço o
+      > 6. apoio dos colegas.
 
       Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
 
@@ -82,9 +82,9 @@ questoes:
       > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
       > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
       > 3. acesso à internet. As outras duas quase não abrem, porque não têm
-      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
-      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
-      > 6. dos colegas.
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo.
+      > 5. Mas eles ajudam pelo menos a contratar pessoal. Por isso, peço o
+      > 6. apoio dos colegas.
 
       Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
 
@@ -109,9 +109,9 @@ questoes:
       > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
       > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
       > 3. acesso à internet. As outras duas quase não abrem, porque não têm
-      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
-      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
-      > 6. dos colegas.
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo.
+      > 5. Mas eles ajudam pelo menos a contratar pessoal. Por isso, peço o
+      > 6. apoio dos colegas.
 
       Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
 
@@ -136,13 +136,13 @@ questoes:
       > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
       > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
       > 3. acesso à internet. As outras duas quase não abrem, porque não têm
-      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
-      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
-      > 6. dos colegas.
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo.
+      > 5. Mas eles ajudam pelo menos a contratar pessoal. Por isso, peço o
+      > 6. apoio dos colegas.
 
       Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
 
-      Uma versão do registro em que o quarto período do Texto II terminasse em “tudo” (linha 4), sem a oração iniciada por “mas”, apenas condensaria a fala, pois diminuiria o número de palavras sem eliminar informação dada pelo orador.
+      Uma versão do registro da qual se retirasse o período “Mas eles ajudam pelo menos a contratar pessoal” (linha 5 do Texto II) apenas condensaria a fala, pois diminuiria o número de palavras sem eliminar informação dada pelo orador.
   - id: q06
     topico: conhecimentos-especificos/ling-intertextualidade-e-retextualizacao
     enunciado: |-
@@ -163,9 +163,9 @@ questoes:
       > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
       > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
       > 3. acesso à internet. As outras duas quase não abrem, porque não têm
-      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
-      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
-      > 6. dos colegas.
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo.
+      > 5. Mas eles ajudam pelo menos a contratar pessoal. Por isso, peço o
+      > 6. apoio dos colegas.
 
       Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
 
@@ -190,9 +190,9 @@ questoes:
       > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
       > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
       > 3. acesso à internet. As outras duas quase não abrem, porque não têm
-      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
-      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
-      > 6. dos colegas.
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo.
+      > 5. Mas eles ajudam pelo menos a contratar pessoal. Por isso, peço o
+      > 6. apoio dos colegas.
 
       Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
 
@@ -217,9 +217,9 @@ questoes:
       > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
       > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
       > 3. acesso à internet. As outras duas quase não abrem, porque não têm
-      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
-      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
-      > 6. dos colegas.
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo.
+      > 5. Mas eles ajudam pelo menos a contratar pessoal. Por isso, peço o
+      > 6. apoio dos colegas.
 
       Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
 
@@ -244,9 +244,9 @@ questoes:
       > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
       > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
       > 3. acesso à internet. As outras duas quase não abrem, porque não têm
-      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
-      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
-      > 6. dos colegas.
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo.
+      > 5. Mas eles ajudam pelo menos a contratar pessoal. Por isso, peço o
+      > 6. apoio dos colegas.
 
       Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
 
@@ -267,7 +267,7 @@ questoes:
 
       Com base no texto e nas relações de intertextualidade, julgue o item.
 
-      No texto, o verso de Camões é retomado de dois modos: na linha 1, por citação, com as palavras do original entre aspas e a indicação do autor; nas linhas 5 e 6, por paráfrase, com outras palavras e manutenção do sentido.
+      O verso de Camões é retomado mais de uma vez no texto; entre essas retomadas, a da linha 1 é citação, com as palavras do original entre aspas e a indicação do autor, e a das linhas 5 e 6 é paráfrase, com outras palavras e manutenção do sentido.
   - id: q11
     topico: conhecimentos-especificos/ling-intertextualidade-e-retextualizacao
     enunciado: |-

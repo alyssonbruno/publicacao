@@ -10,20 +10,22 @@ materiais:
     url: https://www.youtube.com/watch?v=DS5r3S_jGY0
     autor: Professor Noslen
     descricao: >-
-      Videoaula de professor conhecido do ensino médio; pelo título, trata de intertextualidade e
-      de paráfrase. Veja depois das partes de intertextualidade do texto e compare as definições
-      com as da aula: se "explícita" e "implícita" aparecerem com outro critério, vale o aviso da
-      parte "Outras classificações e uma divergência". Retextualização e reescritura no estilo do
-      Cebraspe ficam no texto.
+      Vídeo de professor conhecido do ensino médio; não foi assistido por quem preparou a aula.
+      Pelo título e pela descrição do canal, o assunto é intertextualidade e paráfrase. Veja
+      depois das partes de intertextualidade do texto e compare as definições com as da aula: se
+      "explícita" e "implícita" aparecerem com outro critério, vale o aviso da parte "Outras
+      classificações e uma divergência". Retextualização e reescritura no estilo do Cebraspe
+      ficam no texto.
   - tipo: video
     titulo: Português Cebraspe 012 - Reescrita de frases
     url: https://www.youtube.com/watch?v=Z_dvw9b0xT0
     autor: OPG - Português para concursos!
     descricao: >-
-      Aula de um canal de Português para concursos, numa série dedicada ao Cebraspe; pelo título,
-      trata dos itens de reescrita de frases. Veja depois da parte "Como o Cebraspe cobra" e, a
-      cada item comentado, diga antes do professor o que o comando pede: correção, sentido ou
-      coerência. Intertextualidade e retextualização ficam no texto.
+      Vídeo de um canal de Português para concursos; não foi assistido por quem preparou a aula.
+      Pelo título e pela descrição do canal, o assunto é a reescrita de frases nas provas do
+      Cebraspe. Veja depois da parte "Como o Cebraspe cobra". Se o vídeo trouxer itens, diga,
+      antes de ouvir a resposta, o que o comando pede: correção, sentido ou coerência.
+      Intertextualidade e retextualização ficam no texto.
   - tipo: podcast
     titulo: "Missão ENEM #9 - Intertextualidade"
     url: https://podcasts.apple.com/br/podcast/miss%C3%A3o-enem-9-intertextualidade/id1539105888?i=1000501760695
@@ -49,7 +51,7 @@ materiais:
       reescritura.
   - tipo: link
     titulo: "Reescritura de frases: desvendando questões Cebraspe (Estratégia)"
-    url: https://www.estrategiaconcursos.com.br/blog/reescritura-de-frases-desvendando-questoes-cebraspe/
+    url: https://concursos.estrategia.com/portal/reescritura-de-frases-desvendando-questoes-cebraspe/
     autor: Luiz Felipe Durval (Estratégia Concursos)
     descricao: >-
       Artigo curto (2021) que ensina a ler o comando dos itens de reescritura: o que conferir

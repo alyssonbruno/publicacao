@@ -4,9 +4,9 @@ simulado:
   tipo: treino
   estilo: certo_errado
   fontes:
-    - 'Questões próprias, sobre dois textos próprios e fictícios (as falas de uma consultora legislativa em duas situações e um trecho de roteiro de treinamento de um setor de registro de debates) e sobre conceitos, no estilo de certo ou errado do Cebraspe: marcas do texto entre aspas, com remissão à linha, e uma afirmação por item.'
+    - 'Questões próprias, sobre dois textos próprios e fictícios (as falas de uma consultora legislativa em duas situações e um trecho de roteiro de treinamento de um setor de registro de debates) e sobre conceitos, no estilo de certo ou errado do Cebraspe: marcas do texto entre aspas, com remissão à linha, e uma afirmação por item (um dos itens tem duas partes).'
     - 'Referências de estilo, sem reprodução de itens: cadernos de conhecimentos específicos do CESPE/Cebraspe para Taquígrafo Legislativo da Câmara dos Deputados (2012), com o gabarito definitivo, e para Professor de Língua Portuguesa da SEDUC/AL (edital de 2017, aplicado em 2018) e da SEE/DF (edital de 2016, aplicado em 2017); padrão de resposta da prova discursiva da Prefeitura de São Luís (edital de 2016, aplicada em 2017).'
-    - 'Bases do gabarito: Coelho, Görski, May e Souza, Sociolinguística (UFSC, 2010), item 2.2, capítulo 4 e glossário; Marinho e Costa Val, Variação lingüística e ensino: caderno do professor (Ceale/UFMG e MEC, 2006), seção 3. Consultados em 12/10/2026.'
+    - 'Bases do gabarito: Coelho, Görski, May e Souza, Sociolinguística (UFSC, 2010), item 2.2, capítulo 4 e glossário; Marinho e Costa Val, Variação lingüística e ensino: caderno do professor (Ceale/UFMG e MEC, 2006), seção 3; Paiva, Variação linguística: um desafio no ensino de língua materna (dissertação, Unesp, 2023), item 1.3, pelo resumo da classificação de Travaglia. Consultados em 12 e 13/10/2026.'
 questoes:
   - id: q01
     topico: conhecimentos-especificos/ling-variacao-linguistica
@@ -26,7 +26,7 @@ questoes:
 
       Com base no texto e nos conceitos de variação linguística, julgue o item.
 
-      O emprego de “substitutivo” e “emendas” (linha 4) e de “pedido de vista” (linha 5), termos próprios da atividade legislativa, constitui marca de variação diafásica, pois identifica o grupo profissional a que a falante pertence.
+      A passagem de “agradeço o convite” (linhas 2 e 3), na situação A, para “Nossa, que sufoco!” (linha 7), na situação B, exemplifica a variação diatópica, uma vez que a falante ajusta a linguagem ao lugar em que se encontra.
   - id: q02
     topico: conhecimentos-especificos/ling-variacao-linguistica
     enunciado: |-
@@ -45,7 +45,7 @@ questoes:
 
       Com base no texto e nos conceitos de variação linguística, julgue o item.
 
-      As diferenças entre a fala da situação A e a da situação B exemplificam a variação diafásica, uma vez que a mesma falante ajusta a linguagem ao interlocutor e ao ambiente.
+      O emprego de “vista” na situação B (linha 8), depois de “pedido de vista” na situação A (linha 5), indica que o vocabulário próprio da atividade legislativa não é exclusivo das situações formais.
   - id: q03
     topico: conhecimentos-especificos/ling-variacao-linguistica
     enunciado: |-
@@ -165,7 +165,7 @@ questoes:
 
       Com base no texto e nos conceitos de variação linguística, julgue o item.
 
-      As formas de tratamento e as construções em desuso encontradas nos anais de um século atrás (linhas 7 e 8) ilustram a variação diastrática, que é a decorrente da passagem do tempo.
+      As formas de tratamento e as construções em desuso encontradas nos anais de um século atrás (linhas 7 e 8) exemplificam a variação diacrônica, a qual, por decorrer da passagem do tempo, só se manifesta em textos escritos.
   - id: q09
     topico: conhecimentos-especificos/ling-variacao-linguistica
     enunciado: |-
@@ -190,24 +190,9 @@ questoes:
   - id: q10
     topico: conhecimentos-especificos/ling-variacao-linguistica
     enunciado: |-
-      Texto para o item: trecho fictício de um roteiro de treinamento de um setor de registro de debates, com as linhas numeradas.
+      Julgue o item, relativo à variação linguística.
 
-      > **Texto II**
-      >
-      > 1. Ao comparar a gravação de um discurso com o texto revisado, o servidor
-      > 2. nota diferenças previsíveis: na fala, há hesitações, repetições e
-      > 3. frases refeitas; no texto escrito, elas desaparecem. Nota também que um
-      > 4. mesmo orador conserva, na tribuna e na entrevista de corredor, a
-      > 5. pronúncia e certas palavras da região onde cresceu, mas troca o
-      > 6. tratamento cerimonioso por formas mais próximas quando deixa o plenário.
-      > 7. Nos anais de um século atrás, por fim, encontra formas de tratamento e
-      > 8. construções que já não se usam. Nada disso é desordem: quem ouve ou lê
-      > 9. continua entendendo, e cabe apenas perguntar se cada forma convém à
-      > 10. situação em que foi usada.
-
-      Com base no texto e nos conceitos de variação linguística, julgue o item.
-
-      O trecho final do texto (linhas 8 a 10) é compatível com o entendimento de que a variação é própria do funcionamento da língua e de que as formas se avaliam pela adequação à situação.
+      O fato de o aparelho que regula o trânsito nos cruzamentos ser chamado, conforme a localidade do país, de “sinal”, “farol” ou “sinaleira” constitui exemplo de variação diatópica.
   - id: q11
     topico: conhecimentos-especificos/ling-variacao-linguistica
     enunciado: |-
@@ -219,4 +204,4 @@ questoes:
     enunciado: |-
       Julgue o item, relativo à variação linguística.
 
-      Na Sociolinguística, o termo dialeto equivale a variedade e aplica-se tanto às variedades regionais quanto às sociais, incluída a de prestígio.
+      No uso técnico, o termo dialeto aplica-se tanto às variedades regionais quanto às variedades sociais de uma língua, entre as quais se inclui a de prestígio.

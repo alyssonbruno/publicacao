@@ -15,10 +15,10 @@ Os autores separam dois pares de termos:
 - **oralidade** e **letramento** são **práticas sociais**: os usos que uma sociedade faz da língua falada e da língua escrita;
 - **fala** e **escrita** são as **modalidades**: os dois modos de produzir o texto, um pelo som, outro pela grafia.
 
-O **meio** é, para eles, a única distinção que divide em dois: o som passa, a grafia fica. Mas essa diferença não chega à sintaxe, à fonologia nem à organização do texto. Nenhuma preposição, nenhum pronome, nenhuma forma verbal é exclusiva da fala ou da escrita.
+O **meio** é, para eles, "em certo sentido", a única distinção dicotômica, isto é, a única que divide em dois: o som passa, a grafia fica. Mas essa diferença não chega à sintaxe, à fonologia nem à organização do texto. Nenhuma preposição, nenhum pronome, nenhuma forma verbal é exclusiva da fala ou da escrita.
 
 > [!IMPORTANT]
-> Fala e escrita não são dois sistemas nem duas gramáticas: são dois modos de uso do mesmo sistema. Dicotômico, só o meio (som ou grafia).
+> Fala e escrita não são dois sistemas nem duas gramáticas: são dois modos de uso do mesmo sistema. Dicotômico, e só "em certo sentido", é o meio (som ou grafia).
 
 ## O contínuo fala–escrita
 
@@ -47,7 +47,7 @@ Daí a frase do livro: não se pode confundir **oralização** com **oralidade**
 
 Para dar conta desses casos, Marcuschi separa, em outro livro (*Da fala para a escrita*, de 2001), o **meio** (sonoro ou gráfico) da **concepção** (oral ou escrita). A conferência acadêmica tem meio sonoro e concepção escrita; a carta pessoal, meio gráfico e concepção oral. Conhecemos essa parte pela exposição de Gilson Freire.
 
-No trabalho do cargo, os dois casos aparecem todo dia: o discurso lido na tribuna é escrita oralizada; a nota taquigráfica publicada é fala editada. A passagem de um texto falado para um escrito, com suas operações, é assunto da aula de retextualização.
+O livro não fala da Câmara; a aproximação com o trabalho do cargo é leitura nossa: o discurso lido na tribuna se parece com a notícia de telejornal (escrita oralizada), e a nota taquigráfica publicada, com a entrevista impressa (fala editada). A passagem de um texto falado para um escrito, com suas operações, é assunto da aula de retextualização.
 
 > [!TIP]
 > Diante de um texto, faça duas perguntas separadas: por que meio ele chega (som ou grafia)? E como foi concebido (no improviso da conversa ou com planejamento e revisão)?
@@ -130,7 +130,7 @@ Carlos Alberto Faraco separa três coisas que o uso comum mistura. Seguimos aqui
 
 Faraco fala ainda em **"norma curta"**: regras estreitas de certo e errado, repetidas em colunas e páginas de consultoria gramatical, que condenam usos que nem as gramáticas de referência condenam.
 
-![Quadro das normas linguísticas em duas colunas, segundo a divisão de Faraco exposta por Freire. À esquerda, o normativo, o que se prescreve: norma-padrão, codificação abstrata tirada de usos do passado para servir de referência, fixada no Brasil no fim do século XIX, um modelo e não a fala de alguém; norma gramatical, as prescrições das gramáticas da segunda metade do século XX em diante, que flexibilizaram alguns pontos da norma-padrão; e, em quadro tracejado, norma curta, regras estreitas de certo e errado que nem as gramáticas de referência abonam, crítica de Faraco e não uma norma a seguir. À direita, o normal, o que se usa de fato: norma culta, os usos habituais dos falantes letrados em situações mais monitoradas de fala e de escrita, que varia, fica perto da norma-padrão sem coincidir com ela e por isso recebe também o plural normas cultas; e normas populares, os usos habituais dos grupos menos escolarizados, com regras próprias e tão estruturadas quanto as cultas, que diferem pelo prestígio, valor social e não qualidade da língua, sem fronteira rígida com as cultas. No pé: nem todos os autores fazem essa divisão; o Manual de Redação da Presidência usa padrão culto, língua culta e norma padrão como equivalentes.](imagens/normas-linguisticas.svg "As normas: o que se prescreve e o que se usa")
+![Quadro das normas linguísticas em duas colunas, segundo a divisão de Faraco exposta por Freire. À esquerda, o normativo, o que se prescreve: norma-padrão, codificação abstrata tirada de usos do passado para servir de referência, fixada no Brasil no fim do século XIX, um modelo e não a fala de alguém; norma gramatical, as prescrições das gramáticas da segunda metade do século XX em diante, que flexibilizaram alguns pontos da norma-padrão; e, em quadro tracejado, norma curta, regras estreitas de certo e errado que nem as gramáticas de referência abonam, crítica de Faraco e não uma norma a seguir. À direita, o normal, o que se usa de fato: norma culta, os usos habituais dos falantes letrados em situações mais monitoradas de fala e de escrita, que varia, fica perto da norma-padrão sem coincidir com ela e por isso recebe também o plural normas cultas; e normas populares, os usos habituais dos grupos menos escolarizados, com regras próprias e tão estruturadas quanto as cultas; as formas diferem e o prestígio também, mas prestígio é valor social, não qualidade da língua; não há fronteira rígida com as cultas. No pé: nem todos os autores fazem essa divisão; o Manual de Redação da Presidência usa padrão culto, língua culta e norma padrão como equivalentes.](imagens/normas-linguisticas.svg "As normas: o que se prescreve e o que se usa")
 
 > [!IMPORTANT]
 > Norma-padrão é modelo prescrito; norma culta é uso real de falantes letrados. Uma fica do lado do normativo; a outra, do lado do normal.
@@ -152,11 +152,11 @@ Há também divergência sobre quem é o falante "culto": para o Projeto NURC, q
 
 ## Norma culta, normas populares e prestígio
 
-A definição operacional de **norma culta** mais usada no Brasil é a do Projeto NURC (Norma Urbana Culta), que gravou falantes de formação superior em cinco capitais: Recife, Salvador, Rio de Janeiro, São Paulo e Porto Alegre. Ao lado dela, os linguistas falam em **norma popular**, a dos grupos menos escolarizados.
+A definição operacional de **norma culta** que Conceição adota é a do Projeto NURC (Norma Urbana Culta), que gravou falantes de formação superior em cinco capitais: Recife, Salvador, Rio de Janeiro, São Paulo e Porto Alegre. Ao lado dela, os linguistas falam em **norma popular**, a dos grupos menos escolarizados.
 
 Três pontos que rendem item:
 
-1. **O prestígio não é da língua.** Uma variedade ganha prestígio quando seus falantes têm prestígio. No livro da UFSC, todas as variedades são igualmente bem estruturadas, e as avaliações de "prestígio" e "estigma" são de natureza social.
+1. **O prestígio não é da língua.** Uma variedade ganha prestígio quando seus falantes têm prestígio: a ideia é de James Milroy, citado por Conceição. No livro da UFSC, todas as variedades são igualmente bem estruturadas, e as avaliações de "prestígio" e "estigma" são de natureza social.
 2. **Não há norma pura.** Segundo Faraco, citado por Conceição, as normas absorvem características umas das outras. Ataliba de Castilho, citado por Freire, conclui que não há oposição categórica entre fala popular e fala culta.
 3. **O plural é mais exato.** Um falante culto do Recife não fala como um de Porto Alegre (o exemplo é de Marcos Bagno): daí o plural que Conceição adota, "normas cultas" e "normas populares".
 
@@ -173,7 +173,7 @@ O edital pede a variação "no português do Brasil". O livro da UFSC reúne os 
 | --- | --- | --- |
 | Pronomes pessoais | *tu*, *nós*, *vós* | *você*, *a gente*, *vocês* |
 | Sujeito | oculto: *Votamos ontem* | expresso: *Nós votamos ontem*; *A gente votou ontem* |
-| Colocação do pronome | ênclise: *O relator apresentou-o* | próclise: *O relator o apresentou* |
+| Colocação do pronome | no início do período, só a ênclise: *Parece-me que o texto está pronto* | próclise também no início do período: *Me parece que o texto está pronto* |
 | Oração relativa | com preposição: *o projeto a que me referi* | **cortadora**: *o projeto que me referi*; com **pronome lembrete**: *o projeto que me referi a ele* |
 | Verbo com *se* | no plural: *Votam-se os destaques* | no singular: *Vota-se os destaques* |
 | Objeto direto retomado | pronome átono: *O relator o leu* | *O relator leu ele*; *O relator leu o parecer*; ou nada: *O relator leu* |
@@ -183,12 +183,12 @@ Alguns resultados que o livro registra:
 
 - com *você* e *a gente*, que pedem verbo na terceira pessoa, o paradigma verbal em uso passou de seis formas para três ou quatro (*eu ando*; *você, ele, a gente anda*; *nós andamos*; *vocês, eles andam*);
 - a relativa padrão parece estar saindo da fala espontânea, substituída pela cortadora; a relativa com pronome lembrete é usada sobretudo por falantes menos escolarizados e sofre estigma;
-- a próclise é o padrão brasileiro, embora a ênclise seja mais bem vista do ponto de vista normativo;
-- com o *se*, o verbo no singular é o uso mais frequente mesmo em situações formais;
+- a próclise é o padrão brasileiro. Com sujeito expresso antes do verbo (*O relator o apresentou* ou *apresentou-o*), as gramáticas atuais aceitam as duas posições, como está na aula de regência, crase e colocação; a distância para a norma fica no início do período, em que a tradição só admite a ênclise (o levantamento das gramáticas é de Freire);
+- com o *se*, o livro diz que, mesmo em situações formais, o verbo no singular é o uso mais frequente. Na escrita de jornal, os números da parte "A variação entra no texto escrito" mostram outro quadro;
 - nos estudos de Naro e Lemle e de Scherre, a marca de plural na concordância aparece mais nas situações formais do que nas informais.
 
 > [!IMPORTANT]
-> Esses fenômenos não separam "quem sabe" de "quem não sabe" português. Vários deles (*a gente*, a próclise, a relativa cortadora) estão na fala dos brasileiros escolarizados.
+> Esses fenômenos não separam "quem sabe" de "quem não sabe" português. Vários deles (*a gente*, a próclise no início da frase, a relativa cortadora) estão na fala dos brasileiros escolarizados.
 
 ## Três contínuos para o português do Brasil
 
@@ -209,9 +209,11 @@ Faraco, segundo Freire, situa as variedades cultas no cruzamento do polo urbano 
 
 A última parte do edital é "a variação linguística e a construção do texto escrito". O ponto de partida está no *Fala e escrita*: **a escrita também varia**. Fora a ortografia, que é oficial, não há grande homogeneidade nos modos de escrever. A norma pesa mais na escrita, mas não é obedecida sem exceção, e a fala "impõe" tendências à escrita, como certas mudanças de regência.
 
-Freire reuniu pesquisas que medem isso em textos de jornal e da universidade. O gráfico mostra dois fenômenos do quadro anterior: a forma prescrita é mais frequente nos gêneros mais próximos do polo da escrita, mas só chega a 100% num dos gêneros do gráfico.
+Freire reuniu pesquisas que medem isso em textos de jornal e da universidade. O gráfico mostra dois fenômenos do quadro anterior. Em geral, a forma prescrita é mais frequente nos gêneros do polo da escrita do que nos do meio do contínuo (crônica, entrevista, notícia). Mas a subida não é regular: o artigo científico (64%) fica bem abaixo do editorial (100%).
 
-![Gráfico de barras em dois painéis sobre a presença da forma prescrita pela norma-padrão na escrita culta. Painel 1, verbo no plural em frases como quando se acionam as usinas, em jornais cearenses, pesquisa de Magalhães, 2018: notícia, 43 por cento, 15 de 35; artigo de opinião, 63 por cento, 30 de 48; editorial, 71 por cento, 27 de 38. Painel 2, relativa com a preposição, como em uma opinião de que discordo, em jornais cariocas e textos acadêmicos, pesquisa de Mallmann, Garcia e Escobar, 2019: crônica, 37 por cento, 6 de 16; entrevista, 59 por cento, 29 de 49; artigo científico, 64 por cento, 98 de 154; tese ou dissertação, 78 por cento, 18 de 23; editorial, 100 por cento, 21 de 21. No pé: quanto mais o gênero se aproxima do polo da escrita, mais perto da norma-padrão; dados reunidos por Freire, 2020.](imagens/escrita-por-genero.svg "A forma prescrita na escrita culta, por gênero (dados reunidos por Freire, 2020)")
+![Gráfico de barras em dois painéis sobre a presença da forma prescrita pela norma-padrão na escrita culta. Painel 1, verbo no plural em frases como quando se acionam as usinas, em jornais cearenses, pesquisa de Magalhães, 2018: notícia, 43 por cento, 15 de 35; artigo de opinião, 63 por cento, 30 de 48; editorial, 71 por cento, 27 de 38. Painel 2, relativa com a preposição, como em uma opinião de que discordo, em jornais cariocas e textos acadêmicos, pesquisa de Mallmann, Garcia e Escobar, 2019: crônica, 37 por cento, 6 de 16; entrevista, 59 por cento, 29 de 49; artigo científico, 64 por cento, 98 de 154; tese ou dissertação, 78 por cento, 18 de 23; editorial, 100 por cento, 21 de 21. No pé: os gêneros do polo da escrita ficam mais perto da norma-padrão, mas não por igual, pois o artigo científico, com 64 por cento, fica abaixo do editorial, com 100 por cento; dados reunidos por Freire, 2020.](imagens/escrita-por-genero.svg "A forma prescrita na escrita culta, por gênero (dados reunidos por Freire, 2020)")
+
+No painel 1, o verbo no plural é maioria no artigo de opinião e no editorial; o singular, que o livro da UFSC dá como o mais frequente mesmo em situações formais, só passa da metade na notícia (57%). Freire observa que a falta da concordância tende a ser maior na fala e que a escrita de jornal ainda converge para o plural.
 
 No painel 2, as quatro relativas achadas em notícias também eram da forma padrão; as autoras supõem a ação de revisores. A relativa com pronome lembrete não apareceu em nenhum gênero, o que confirma o estigma. E a retomada do objeto pelo pronome átono (*as pesquisas o louvavam*), quase ausente da fala, foi de 44% nas crônicas e entrevistas e de 73% nos editoriais, artigos de opinião e reportagens.
 
@@ -240,7 +242,7 @@ O fio que une a aula é a troca de uma pergunta por outra. A tradição pergunta
 
 Isso não é vale-tudo. Marcuschi e Dionisio avisam que a variação tem limite e que há regras a seguir na fala e na escrita. E o texto de Mattoso Câmara usado na prova de 2012 admite que se corrija um uso por três motivos: ele marca desfavoravelmente a pessoa, prejudica a clareza ou rompe com o uso geral.
 
-Há ainda o erro de quem tenta acertar. Na **hipercorreção**, o falante inseguro, querendo imitar a forma de prestígio, produz uma forma que não é do uso corrente nem do padrão das gramáticas (a definição é do *Dicionário crítico de sociolinguística*, de Marcos Bagno, lida no podcast indicado nesta aula). É a variação agindo sobre quem escreve.
+Há ainda o erro de quem tenta acertar. Na **hipercorreção**, o falante inseguro, querendo imitar a forma de prestígio, produz uma forma que não é do uso corrente nem do padrão das gramáticas (a definição é do *Dicionário crítico de sociolinguística*, de Marcos Bagno, lida no podcast indicado nesta aula). O caderno *Variação lingüística e ensino*, do Ceale/UFMG, dá um exemplo de pronúncia: o falante que não diz o *lh* em certas palavras e, para "corrigir" a fala, passa a pô-lo onde ele não existe, como em *telha de aranha* (por *teia*) e *pilha de cozinha* (por *pia*). É a pressão da forma de prestígio agindo sobre quem tenta acertar.
 
 Para o cargo, a consequência é direta: reconhecer que *a gente votou* é português legítimo não impede de saber que um parecer pede *votamos* ou *votou-se*. Conhecer a variação e dominar a norma-padrão andam juntos.
 
@@ -255,7 +257,7 @@ Nas provas lidas (Taquígrafo da Câmara, aplicada em 2012, e professor de Líng
 2. **generalização**: o item estende a posição do autor com "todas", "sempre", "em vez de". Em 2012, foi dado como errado um item que fazia o linguista mandar os gramáticos abandonar as regras;
 3. **adequação**: itens que ligam a análise ou a correção de uma forma à situação de uso foram dados como certos;
 4. **o registro do próprio texto**: em 2025, um item afirmava que um texto de dois linguistas sobre o ensino da variação adota o nível formal e a norma padrão, e foi dado como certo;
-5. **variação contra norma**: em 2025, foi dado como errado um item segundo o qual, na Base Nacional Comum Curricular, o estudo da variação ficaria desligado do aprendizado da norma-padrão.
+5. **variação contra norma**: em 2025, foi dado como errado um item segundo o qual, na Base Nacional Comum Curricular, o estudo da variação e do sistema da língua seria atividade teórica e metalinguística e, por isso, desligada do aprendizado da norma-padrão.
 
 O motivo de cada gabarito é leitura nossa: a banca só justifica item anulado.
 
@@ -268,6 +270,7 @@ O motivo de cada gabarito é leitura nossa: a banca só justifica item anulado.
 - Sociolinguística (Licenciatura em Letras-Português a distância): capítulo 3, seções 4.2.3 e 4.2.4 e Unidade E. Izete Lehmkuhl Coelho, Edair Maria Görski, Guilherme Henrique May e Christiane Maria Nunes de Souza, UFSC. https://ppglin.posgrad.ufsc.br/files/2013/04/Sociolingu%C3%ADstica_UFSC.pdf
 - Norma-padrão, norma gramatical e norma culta no Brasil: convergências, divergências e implicações para o ensino da escrita. Gilson Costa Freire, Revista (Con)Textos Linguísticos, v. 14, n. 29, 2020. https://periodicos.ufes.br/contextoslinguisticos/article/view/32219
 - Normas linguísticas do português do Brasil. Roberta Bohrer da Conceição, Web-Revista Sociodialeto, v. 7, n. 20, 2017. https://periodicosonline.uems.br/sociodialeto/article/view/7800
+- Variação lingüística e ensino: caderno do professor (Coleção Alfabetização e Letramento, 2006): seção 3.1.2, p. 29. Janice Helena Chaves Marinho e Maria da Graça Costa Val, Ceale/UFMG e MEC. https://webmail.cake.ceale.fae.ufmg.br/files/uploads/Col.%20Alfabetiza%C3%A7%C3%A3o%20e%20Letramento/Col%20Alf.Let.%2015%20Variacao_Linguistica.pdf
 - A eliminação no discurso parlamentar: uma estratégia de retextualização. Maria Rodrigues de Oliveira, Domínios de Lingu@gem, v. 7, n. 2, 2013. https://seer.ufu.br/index.php/dominiosdelinguagem/article/view/23488
 - Você sabe o que é HIPERCORREÇÃO? Português em Meia Hora (Thiago Godoy), episódio de 22/8/2023, ouvido por transcrição automática até o minuto 22. https://podcasts.apple.com/br/podcast/voc%C3%AA-sabe-o-que-%C3%A9-hipercorre%C3%A7%C3%A3o/id1700332316?i=1000625236153
 - Manual de Redação da Presidência da República, 3ª ed., 2018: item 3.6 e a parte de regência verbal (cópia hospedada pelo ICMBio). https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf

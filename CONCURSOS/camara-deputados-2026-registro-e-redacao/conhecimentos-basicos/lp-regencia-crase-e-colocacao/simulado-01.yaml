@@ -5,7 +5,7 @@ simulado:
   estilo: certo_errado
   fontes:
     - 'Questões próprias, sobre um texto próprio e fictício (trecho da ata de uma reunião de comissão), no estilo de certo ou errado do Cebraspe: trecho do texto entre aspas, com remissão à linha, e uma afirmação por item sobre a regência, o sinal indicativo de crase ou a posição do pronome.'
-    - 'Referências de estilo, sem reprodução de itens: cadernos de conhecimentos gerais do Cebraspe para a Câmara dos Deputados (Edital nº 1/2025, nível superior, aplicado em 8/3/2026) e de conhecimentos básicos para Auditor Federal de Controle Externo do TCU (edital de 2025), com os gabaritos definitivos, pela descrição registrada na curadoria do tópico.'
+    - 'Referências de estilo, sem reprodução de itens: cadernos de conhecimentos gerais do Cebraspe para a Câmara dos Deputados (Edital nº 1/2025, nível superior, aplicado em 8/3/2026) e de conhecimentos básicos para Auditor Federal de Controle Externo do TCU (edital de 2025, aplicado em 22/2/2026), com os gabaritos definitivos, pela descrição registrada na curadoria do tópico.'
     - 'Bases do gabarito: Manual de Redação da Presidência da República, 3ª ed. (2018), item 11.8 (Regência); Manual de Padronização de Textos do STJ, verbetes “colocação pronominal” e “crase”; Só Português, séries de regência verbal e nominal, de crase e de colocação dos pronomes átonos; Manual de Comunicação da Secom do Senado Federal, verbete “crase”. Consultados em 12/10/2026.'
 questoes:
   - id: q01
@@ -49,7 +49,7 @@ questoes:
 
       Com base no texto e em seus aspectos linguísticos, julgue o item.
 
-      Dado o sentido com que o verbo aspirar é empregado no texto, o complemento “à liderança da bancada” (linhas 2 e 3) poderia ser corretamente substituído por a ela, mas não pelo pronome lhe.
+      No sentido em que está empregada no trecho “que aspirava à liderança da bancada” (linhas 2 e 3), a forma verbal “aspirava” exige complemento introduzido pela preposição a, o que justifica o emprego do sinal indicativo de crase em “à liderança”.
   - id: q03
     topico: conhecimentos-basicos/lp-regencia-crase-e-colocacao
     enunciado: |-

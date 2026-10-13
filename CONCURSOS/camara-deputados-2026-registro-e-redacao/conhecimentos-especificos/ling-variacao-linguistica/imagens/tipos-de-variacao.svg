@@ -59,8 +59,8 @@
     <text x="16" y="60" font-size="13" fill="#52514e">fala e escrita</text>
     <text x="198" y="36" font-size="15" font-weight="700" fill="#0b0b0b">Por que meio se diz?</text>
     <text x="198" y="60" font-size="13" fill="#52514e">falando ou escrevendo</text>
-    <text x="438" y="36" font-size="14" fill="#0b0b0b">o discurso falado em plenário</text>
-    <text x="438" y="60" font-size="14" fill="#0b0b0b">e a ata escrita da mesma sessão</text>
+    <text x="438" y="36" font-size="14" fill="#0b0b0b">explicar um caminho ao telefone</text>
+    <text x="438" y="60" font-size="14" fill="#0b0b0b">e escrever o mesmo caminho</text>
     <text x="688" y="36" font-size="14" fill="#0b0b0b"><tspan font-weight="700">mésica</tspan> lembra meio</text>
     <text x="688" y="60" font-size="13" fill="#52514e">o meio: fala ou escrita</text>
   </g>
@@ -80,6 +80,6 @@
 
   <!-- Pé -->
   <line x1="24" y1="580" x2="888" y2="580" stroke="#e1e0d9"/>
-  <text x="24" y="604" font-size="14" fill="#0b0b0b">Só na <tspan font-weight="700">diafásica</tspan> quem fala é a mesma pessoa. Nas outras, comparam-se falantes, meios ou épocas.</text>
+  <text x="24" y="604" font-size="14" fill="#0b0b0b">Divisão do livro da UFSC e do caderno do Ceale. Em Coseriu, idade, sexo e profissão podem ser <tspan font-weight="700">diafásicas</tspan>.</text>
   <text x="24" y="626" font-size="14" fill="#0b0b0b">Os tipos <tspan font-weight="700">se combinam</tspan>: a mesma fala tem marcas de lugar, de grupo e de situação.</text>
 </svg>

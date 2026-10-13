@@ -10,10 +10,10 @@
     <text x="16" y="30" font-size="16" font-weight="700" fill="#8a5a00">Informal</text>
     <text x="16" y="52" font-size="13" fill="#52514e">mensagem no grupo dos colegas de gabinete</text>
     <g font-size="15" fill="#0b0b0b">
-      <text x="16" y="88">Pessoal, a reunião de amanhã caiu.</text>
-      <text x="16" y="112">O relator não vai conseguir terminar</text>
-      <text x="16" y="136">o parecer a tempo. Fica pra quinta, 10h,</text>
-      <text x="16" y="160">no mesmo plenário.</text>
+      <text x="16" y="88">Pessoal, a reunião de amanhã caiu, porque o</text>
+      <text x="16" y="112">relator não vai conseguir terminar o parecer</text>
+      <text x="16" y="136">a tempo. Fica pra quinta, 10h, no mesmo</text>
+      <text x="16" y="160">plenário.</text>
       <text x="16" y="184">Se mudar de novo, eu aviso.</text>
     </g>
   </g>
@@ -28,7 +28,7 @@
       <text x="16" y="112">amanhã foi adiada para quinta-feira, às</text>
       <text x="16" y="136">10 horas, no mesmo plenário, porque o relator</text>
       <text x="16" y="160">não concluirá o parecer a tempo.</text>
-      <text x="16" y="184">Qualquer nova alteração será informada.</text>
+      <text x="16" y="184">Se houver nova alteração, avisaremos.</text>
     </g>
   </g>
 
@@ -39,7 +39,7 @@
     <text x="40" y="368" font-weight="700" fill="#52514e">Tratamento</text>
     <text x="230" y="368" fill="#0b0b0b">"Pessoal", "eu aviso"</text>
     <text x="500" y="368" fill="#52514e">→</text>
-    <text x="530" y="368" fill="#0b0b0b">sem vocativo; "comunicamos", "será informada"</text>
+    <text x="530" y="368" fill="#0b0b0b">sem vocativo; "comunicamos", "avisaremos"</text>
 
     <rect x="24" y="380" width="864" height="34" fill="#ffffff" stroke="#dddcd6"/>
     <text x="40" y="402" font-weight="700" fill="#52514e">Palavras</text>
@@ -55,16 +55,16 @@
 
     <rect x="24" y="448" width="864" height="34" fill="#ffffff" stroke="#dddcd6"/>
     <text x="40" y="470" font-weight="700" fill="#52514e">Períodos</text>
-    <text x="230" y="470" fill="#0b0b0b">frases curtas, sem conector</text>
+    <text x="230" y="470" fill="#0b0b0b">três; "Fica pra quinta" à parte</text>
     <text x="500" y="470" fill="#52514e">→</text>
-    <text x="530" y="470" fill="#0b0b0b">um período, com a causa em "porque"</text>
+    <text x="530" y="470" fill="#0b0b0b">dois; o "porque" já estava na mensagem</text>
   </g>
 
   <!-- O que não mudou -->
   <rect x="24" y="502" width="864" height="84" rx="8" fill="#dff4ea" stroke="#a9dcc4"/>
   <text x="40" y="528" font-size="15" font-weight="700" fill="#0f7a54">O que não pode mudar</text>
   <text x="40" y="552" font-size="14" fill="#0b0b0b">O fato (a reunião de amanhã foi adiada), o motivo (o parecer não fica pronto), o novo dia, a hora</text>
-  <text x="40" y="572" font-size="14" fill="#0b0b0b">e o lugar (quinta-feira, 10 horas, mesmo plenário) e o aviso de que outra mudança será comunicada.</text>
+  <text x="40" y="572" font-size="14" fill="#0b0b0b">e o lugar (quinta-feira, 10 horas, mesmo plenário) e a promessa de quem escreve de avisar outra mudança.</text>
 
   <!-- Pé -->
   <rect x="24" y="600" width="864" height="84" rx="8" fill="#fbe9e2" stroke="#f1bfae"/>

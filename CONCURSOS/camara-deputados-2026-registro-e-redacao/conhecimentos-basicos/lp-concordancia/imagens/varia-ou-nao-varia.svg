@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="912" height="610" viewBox="0 0 912 610" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
-  <rect width="912" height="610" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="632" viewBox="0 0 912 632" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="632" fill="#ffffff"/>
 
   <!-- Título -->
   <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Concordância nominal: varia ou não varia?</text>
@@ -59,11 +59,12 @@
 
   <!-- Pé: duas expressões -->
   <g transform="translate(24 428)">
-    <rect width="864" height="158" rx="10" fill="#f4f3ee" stroke="#e1e0d9"/>
+    <rect width="864" height="180" rx="10" fill="#f4f3ee" stroke="#e1e0d9"/>
     <text x="16" y="30" font-size="16" font-weight="700" fill="#0b0b0b">“É proibido”, “é necessário”, “é permitido”</text>
     <text x="16" y="56" font-size="14" fill="#0b0b0b">Sem artigo, invariável: <tspan font-weight="700">É proibido</tspan> entrada   ·   <tspan font-weight="700">É necessário</tspan> paciência</text>
     <text x="16" y="78" font-size="14" fill="#0b0b0b">Com artigo, concorda: <tspan font-weight="700">É proibida a</tspan> entrada   ·   <tspan font-weight="700">São necessárias as</tspan> assinaturas</text>
-    <text x="16" y="114" font-size="16" font-weight="700" fill="#0b0b0b">“O mais... possível”</text>
-    <text x="16" y="140" font-size="14" fill="#0b0b0b">As duas formas: as redações mais claras <tspan font-weight="700">possíveis</tspan> ou <tspan font-weight="700">possível</tspan> <tspan font-size="13" fill="#52514e">(Manual da Presidência prefere o plural)</tspan></text>
+    <text x="16" y="114" font-size="16" font-weight="700" fill="#0b0b0b">“Possível” em superlativo</text>
+    <text x="16" y="140" font-size="14" fill="#0b0b0b">Artigo no plural, duas formas: as mais claras <tspan font-weight="700">possíveis</tspan> ou <tspan font-weight="700">possível</tspan> <tspan font-size="13" fill="#52514e">(Manual da Presidência: hoje se prefere o plural)</tspan></text>
+    <text x="16" y="162" font-size="14" fill="#0b0b0b">Artigo no singular, só o singular: o mais claras <tspan font-weight="700">possível</tspan> <tspan font-size="13" fill="#52514e">(leitura nossa)</tspan></text>
   </g>
 </svg>

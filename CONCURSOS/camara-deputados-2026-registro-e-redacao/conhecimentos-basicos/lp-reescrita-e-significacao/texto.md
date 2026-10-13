@@ -30,7 +30,7 @@ Cada palavra do comando manda conferir uma coisa diferente. A divisão abaixo é
 Veja como o comando muda o julgamento. No texto: *O relator apresentou um parecer sucinto sobre a medida provisória.* A proposta: trocar *sucinto* por *superficial*.
 
 - "Manteria a **correção gramatical**": verdadeiro. *Superficial* é adjetivo e concorda com *parecer*.
-- "Manteria a **coerência**": verdadeiro. A frase continua fazendo sentido.
+- "Manteria a **coerência**": verdadeiro. A frase continua lógica: nada nela se contradiz.
 - "Manteria o **sentido**": falso. *Sucinto* é o que diz muito em poucas palavras; *superficial* é o que não se aprofunda. A segunda palavra traz uma crítica que a primeira não tem.
 
 ![Quadro com três colunas, uma para cada palavra do comando. Correção gramatical: a pergunta é se a frase nova respeita a norma-padrão; confira concordância, regência, crase e pontuação. Sentido: a pergunta é se a frase nova diz a mesma coisa; confira sinônimos, conectores e tempo e modo do verbo. Coerência: a pergunta é se as ideias continuam combinando, sem contradição; confira a lógica do trecho com o resto do texto. Abaixo, o exemplo da aula: em O relator apresentou um parecer sucinto, a troca de sucinto por superficial mantém a correção, não mantém o sentido e mantém a coerência. No pé: quando o comando junta dois critérios com a conjunção e, basta um falhar para o item estar errado.](imagens/comando-do-item.svg "O que cada palavra do comando manda conferir")
@@ -41,18 +41,20 @@ Quando o comando junta dois critérios ("os sentidos **e** a correção gramatic
 
 É o ponto que mais derruba candidatos. Durval é direto: mudar o sentido não torna o texto incoerente. O texto pode dizer **outra coisa** e continuar lógico.
 
-A coerência só se quebra quando a troca cria uma contradição ou um absurdo. Em *A sessão foi encerrada porque faltou quórum*, trocar *faltou* por *sobrou* dá uma frase gramatical e sem lógica: ninguém encerra a sessão por excesso de presentes. Aí, sim, a coerência se perde.
+Para ele, a coerência é a relação lógica entre as ideias do texto e a compatibilidade delas com a realidade. O caso mais claro de quebra é o da troca que cria uma contradição ou um absurdo. Em *A sessão foi encerrada porque faltou quórum*, trocar *faltou* por *sobrou* dá uma frase gramatical e sem lógica: ninguém encerra a sessão por excesso de presentes.
 
-Por isso, o comando "sem comprometer a coerência" é **mais fácil de satisfazer** do que "sem alterar o sentido". Uma palavra que não é sinônimo exato pode passar no primeiro e ser reprovada no segundo. A aula de coesão mostrou o mesmo com os conectores; aqui, vale para qualquer palavra.
+Por isso, o comando "sem comprometer a coerência" **tende a ser menos exigente** do que "sem alterar o sentido": uma palavra que não é sinônimo exato pode passar no primeiro e ser reprovada no segundo. A aula de coesão mostrou o mesmo com os conectores.
+
+É uma **tendência, não uma regra**. A banca já deu como errada uma reescrita sem erro aparente de gramática e sem absurdo, num item que falava em correção e coerência (veja a observação abaixo). Então, não pare na pergunta "ficou absurdo?": compare a frase nova com o que o resto do texto afirma e veja se a ligação entre as ideias continua a mesma.
 
 > [!NOTE]
-> Na prova da Câmara de 2025 (aplicada em março de 2026), o item 19 propunha trocar um adjetivo por outro que não é sinônimo exato dele e pedia só que não se comprometesse "a coerência das ideias do texto". O gabarito definitivo foi *certo*. A banca não publica o motivo: a explicação pelo comando é leitura nossa.
+> Dois itens da prova da Câmara de 2025 (aplicada em março de 2026) mostram os dois lados. O item 19 propunha trocar um adjetivo por outro que não é sinônimo exato dele e pedia só que não se comprometesse "a coerência das ideias do texto": gabarito definitivo *certo*. O item 26 propunha juntar dois períodos em um só, "sem prejuízo da correção gramatical e da coerência do texto"; a nosso ver, a reescrita não tem erro de gramática nem absurdo, e o gabarito definitivo foi *errado*. A banca não publicou o motivo de nenhum dos dois: as explicações são leitura nossa.
 
 ## Quando o item afirma que o sentido muda
 
 Nem todo item diz que a troca "mantém" alguma coisa. Um molde frequente afirma o contrário: a troca **alteraria** o sentido, às vezes com a ressalva de que "manteria a correção gramatical". Se a troca de fato muda o sentido, e a gramática continua correta quando o item diz que continua, o item está **certo**.
 
-O Cebraspe usou esse molde nas provas da Polícia Federal de 2025 (item 8), da Justiça Eleitoral de 2024 (item 16) e da Câmara de 2025 (item 4), e os três itens foram dados como certos. No da Câmara, a proposta invertia a ordem de um substantivo e de um adjetivo, e o item afirmava que isso "alteraria o sentido" e "poderia comprometer a coerência".
+O Cebraspe usou esse molde nas provas da Polícia Federal de 2025 (item 8), da Justiça Eleitoral de 2024 (item 16) e da Câmara de 2025 (item 4), e os três itens foram dados como certos. No da Câmara, a proposta invertia a ordem de um substantivo e de um adjetivo, e o item afirmava que isso "alteraria o sentido" e "poderia comprometer a coerência". Repare: ali, a própria banca ligou a mudança de sentido a um possível prejuízo à coerência. Os dois critérios são diferentes, mas não vivem em gavetas separadas.
 
 A posição do adjetivo muda mesmo o sentido de alguns pares:
 
@@ -117,7 +119,7 @@ Já o discurso parlamentar e o noticiário político usam muito o sentido figura
 Trocar a palavra figurada por uma literal exige cuidado com o que se acrescenta. *Naufragou* → *fracassou* conserva a ideia. *Naufragou* → *foi rejeitada* diz mais do que o texto disse: a proposta pode ter fracassado sem ir a voto, por falta de acordo ou de prazo.
 
 > [!NOTE]
-> Leitura nossa: quando a troca apaga uma imagem (*engavetado* → *paralisado*), a informação se mantém e o efeito expressivo muda. Se o comando fala em "ideia central" ou em "coerência", a troca tende a passar; se fala em "sentidos" do texto, pese se a imagem dizia algo a mais, como ironia ou crítica.
+> Leitura nossa: quando a troca apaga uma imagem (*engavetado* → *paralisado*), a informação se mantém e o efeito expressivo muda. Se o comando fala em "ideia central" ou em "coerência", a troca tende a passar, sem garantia (veja a parte sobre sentido e coerência); se fala em "sentidos" do texto, pese se a imagem dizia algo a mais, como ironia ou crítica.
 
 ## Sinônimos: parecidos, quase nunca iguais
 
@@ -138,9 +140,9 @@ Diante de "X poderia ser substituído por Y, sem alteração de sentido", faça 
 3. **A intensidade é a mesma?** *Pedir* não é *exigir*; *criticar* não é *atacar*; *preocupante* não é *alarmante*.
 4. **A avaliação é a mesma?** Há palavras neutras e palavras que julgam: *sucinto* × *superficial*; *afirmou* × *alegou* (apresentou como justificativa ou defesa) × *admitiu* (reconheceu algo contra si).
 
-![Quadro com quatro perguntas, cada uma com um par de exemplo. Um, a precisão é a mesma: furto e roubo; sessão, do Plenário, e reunião, de comissão. Dois, o alcance é o mesmo: deputados e parlamentares, palavra que inclui os senadores. Três, a intensidade é a mesma: pedir e exigir; criticar e atacar. Quatro, a avaliação é a mesma: sucinto e superficial; afirmou, alegou e admitiu. No pé: quatro respostas sim, o sentido se mantém; um não basta para o sentido mudar.](imagens/quatro-perguntas-do-sinonimo.svg "Quatro perguntas antes de aceitar um sinônimo")
+![Quadro com quatro perguntas, cada uma com um par de exemplo. Um, a precisão é a mesma: furto e roubo; sessão, do Plenário, e reunião, de comissão. Dois, o alcance é o mesmo: deputados e parlamentares, palavra que inclui os senadores. Três, a intensidade é a mesma: pedir e exigir; criticar e atacar. Quatro, a avaliação é a mesma: sucinto e superficial; afirmou, alegou e admitiu. No pé: um não basta para o sentido mudar; quatro respostas sim ainda não garantem a troca, porque a lista é nossa e há outras diferenças, como a de formalidade.](imagens/quatro-perguntas-do-sinonimo.svg "Quatro perguntas antes de aceitar um sinônimo")
 
-Um "não" basta para o sentido mudar. Para quem vai registrar debates, a quarta pergunta é trabalho diário: escrever que o deputado *admitiu* o que ele apenas *afirmou* muda o que ficou registrado.
+Um "não" basta para o sentido mudar. Quatro "sim" ainda não garantem a troca: a lista não esgota as diferenças entre duas palavras. Para quem vai registrar debates, a quarta pergunta é trabalho diário: escrever que o deputado *admitiu* o que ele apenas *afirmou* muda o que ficou registrado.
 
 > [!NOTE]
 > As quatro perguntas são organização nossa, para a prova; as gramáticas e a banca não usam essa lista. Há ainda uma quinta diferença, a de **formalidade** (*falar* × *proferir*), que é assunto da outra aula de reescrita.
@@ -207,6 +209,11 @@ A aula da UFS chama de **paráfrase** essa sinonímia entre frases e avisa, com 
 - *o relatório do mês* (o deste mês) não é *o relatório mensal* (o que sai todo mês);
 - *O deputado afirmou que o projeto será aprovado* não é *O deputado afirmou a aprovação do projeto*: o nome *aprovação* não tem tempo verbal, e o que era previsão passa a soar como fato.
 
+Quando, então, a troca de **oração por nome** mantém o sentido? Um teste nosso: veja se a oração trazia uma informação **só dela**, de tempo, de dúvida ou de negação, que o nome não consegue carregar.
+
+- **Não trazia, e o sentido se mantém**: em *A comissão recomendou que o prazo fosse ampliado*, o verbo da oração está no subjuntivo e só diz o que foi recomendado; o tempo dele acompanha o de *recomendou*. *A comissão recomendou a ampliação do prazo* diz o mesmo. É o que costuma acontecer depois de verbos de pedido, ordem, sugestão e desejo.
+- **Trazia, e o sentido muda**: o futuro de *afirmou que o projeto será aprovado*; a dúvida de *disse que talvez haja recurso* (× *anunciou o recurso*); a negação de *admitiu que não houve acordo*, que só se conserva com um nome que também negue (*a falta de acordo*, e não *o acordo*).
+
 > [!WARNING]
 > A troca de locução por adjetivo não é automática. Na prova da Justiça Eleitoral de 2024 (item 12), a afirmação de que uma locução com *de* podia virar adjetivo "sem prejuízo da correção gramatical e do sentido original" foi dada como errada.
 
@@ -260,7 +267,7 @@ A quantidade varia muito: na prova do TCU de 2025, só dois dos vinte itens de P
 
 - Julgar a **proposta** ("ficou boa", "ficou estranha") em vez da **afirmação** do comando.
 - Marcar *errado* por reflexo quando o item diz que a troca "alteraria o sentido", e ela de fato altera.
-- Tratar **sentido** e **coerência** como a mesma coisa: a troca que muda o sentido pode manter a coerência.
+- Tratar **sentido** e **coerência** como a mesma coisa (a troca que muda o sentido pode manter a coerência) ou, no outro extremo, dar por certo todo item que só fala em coerência.
 - Aceitar o sinônimo do dicionário sem voltar ao texto: a palavra tinha **outro sentido** naquele trecho.
 - Trocar termo técnico por palavra comum (*sessão* por *reunião*) ou palavra neutra por palavra que julga (*afirmou* por *admitiu*).
 - Não ver o **parônimo** na proposta: *ratificar* por *retificar*, *deferir* por *diferir*, *infligir* por *infringir*.

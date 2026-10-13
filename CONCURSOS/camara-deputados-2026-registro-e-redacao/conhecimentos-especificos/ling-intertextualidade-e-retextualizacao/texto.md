@@ -31,8 +31,10 @@ Na Linguística Textual brasileira, a obra de referência é *Intertextualidade:
 
 A intertextualidade depende do leitor: quem não conhece o texto de origem não percebe a retomada e pode perder parte do sentido.
 
+O intertexto **não precisa ter autor conhecido**. Provérbios e ditos populares também foram produzidos antes e estão na memória de todos. José Elderson de Souza Santos, ao aplicar a classificação de Koch a discursos políticos, fala em intertextos de "enunciadores genéricos", como as passagens religiosas e os ditos populares. Quem defende um cronograma longo dizendo que "devagar se vai ao longe" retoma um texto, embora ninguém saiba quem o disse primeiro.
+
 > [!IMPORTANT]
-> No sentido estrito, só há intertextualidade se existe um **texto anterior efetivamente produzido** a que o novo remete. Parecer com "o jeito de falar dos políticos" não basta: é preciso apontar o texto retomado.
+> No sentido estrito, só há intertextualidade se existe um **texto anterior efetivamente produzido** a que o novo remete. Parecer com "o jeito de falar dos políticos" não basta: é preciso apontar o texto retomado, ainda que ele seja anônimo, como um provérbio.
 
 ## Os quatro tipos de Koch, Bentes e Cavalcante
 
@@ -43,9 +45,11 @@ No sentido estrito, as autoras distinguem quatro tipos, que podem aparecer junto
 - **explícita**: o autor do texto novo **expõe a fonte** do intertexto. "Como disse Ulysses Guimarães ao promulgar a Constituição, em 1988...";
 - **implícita**: o intertexto entra **sem citação expressa da fonte**. Cabe ao leitor ou ouvinte reconhecê-lo.
 
-Na implícita, o autor pode seguir a direção do texto de origem (a **captação**) ou contrariá-lo, ironizá-lo, pô-lo em dúvida (a **subversão**). Affonso Romano de Sant'Anna chama esses dois movimentos de intertextualidade das semelhanças e das diferenças. É o par que a escola ensina como paráfrase e paródia.
+Na implícita, o autor pode seguir a direção do texto de origem (a **captação**) ou contrariá-lo, ironizá-lo, pô-lo em dúvida (a **subversão**). Affonso Romano de Sant'Anna chama esses dois movimentos de intertextualidade das semelhanças e das diferenças. É o par que a escola ensina como paráfrase e paródia. Repare: a captação é uma paráfrase que vem **sem a fonte**.
 
 Um exemplo de subversão: "Todo o poder emana do povo, e contra ele tem sido exercido", dito num discurso de oposição. A frase da Constituição está lá, sem a fonte e com o final trocado. Quando o texto de origem é alterado para produzir sentido novo, as autoras usam o termo francês *détournement*.
+
+O mesmo se faz com provérbios. "Devagar se vai ao longe, e devagar demais não se chega" guarda a forma do dito popular e contraria o que ele ensina: é subversão, e não captação.
 
 > [!WARNING]
 > O critério de explícita e implícita, em Koch, é a **fonte**: mencionada ou não. Nem todos usam esse critério, como mostra a próxima parte.
@@ -74,9 +78,12 @@ Compare, a partir do art. 5º da Constituição ("Todos são iguais perante a le
 - paráfrase: *Segundo a Constituição, a lei trata todas as pessoas da mesma maneira.*
 - paródia: *Todos são iguais perante a lei; uns, mais iguais que os outros.*
 
-Na **citação**, as palavras são as do original, entre aspas. Na paráfrase, segundo Souza-Santos e Araújo, somam-se reprodução e adaptação, **com a fonte indicada**. Retire a fonte de uma citação ou de uma paráfrase e apresente o conteúdo como seu: é **plágio**.
+Na **citação**, as palavras são as do original, entre aspas, com a indicação do autor. Na **paráfrase**, as palavras mudam e o sentido fica. Quanto à fonte, depende de onde a paráfrase aparece:
 
-Para esses autores, a paráfrase pode ser copresença (um trecho parafraseado dentro de um artigo ou de uma reportagem) ou derivação (um texto inteiro feito de outro, como o **resumo**). Guarde o resumo: ele volta na retextualização.
+- **na escrita acadêmica e na jornalística**, ela pede a **indicação da fonte**. É o caso que Souza-Santos e Araújo descrevem: a paráfrase de um trecho dentro de um artigo ou de uma reportagem soma reprodução e adaptação e explicita a fonte do intertexto. Ali, quem se apropria do texto alheio, com ou sem modificações, e o propõe como seu, sem referência ao autor, comete **plágio**;
+- **na intertextualidade implícita**, a paráfrase vem **sem a fonte** e não é plágio: é a captação da parte anterior. O autor não se apropria do texto: conta com que o leitor o reconheça (é o que diz Koch, citada por Souza Santos).
+
+Para Souza-Santos e Araújo, a paráfrase pode ser copresença (um trecho parafraseado dentro de um artigo ou de uma reportagem) ou derivação (um texto inteiro feito de outro, como o **resumo**). Guarde o resumo: ele volta na retextualização.
 
 Uma fronteira vizinha: a **polifonia** (as vozes dentro de um texto) é mais ampla que a intertextualidade, porque não exige um texto anterior efetivamente existente. O assunto é da aula de enunciação e discurso.
 
@@ -103,10 +110,10 @@ Duas ideias de Marcuschi, citadas por Dikson, sustentam o resto da aula:
 - a retextualização **não é mecânica**: envolve operações que "interferem tanto no código como no sentido";
 - antes de transformar, é preciso **compreender**: toda retextualização implica uma interpretação prévia, e a compreensão malfeita é fonte de problemas de coerência no texto final.
 
-E uma terceira, que derruba um preconceito: a passagem da fala para a escrita "não é a passagem do caos para a ordem, mas de uma ordem para outra". A fala não é uma escrita com defeito (o contínuo entre fala e escrita é assunto da aula de oralidade e escrita).
+E uma terceira, que derruba um preconceito: passar da fala para a escrita não é sair do caos e chegar à ordem; é trocar uma ordem por outra. A ideia é de Marcuschi, aqui com as nossas palavras, a partir da aula da UFS e do artigo de Camila Sarti Ferreira. A fala não é uma escrita com defeito (o contínuo entre fala e escrita é assunto da aula de oralidade e escrita).
 
 > [!WARNING]
-> Retextualizar não é **transcrever**. A transcrição passa o som para o papel, com as hesitações e repetições; a retextualização parte dela (ou da escuta) e produz outro texto. A resenha do livro registra que Marcuschi separa retextualização de transcrição e de transcodificação.
+> Retextualizar não é **transcrever**. Transcrever é passar o texto do som para a forma gráfica, por convenções, com o **mínimo de intervenção** de quem transcreve: as hesitações e as repetições ficam. Não sai uma cópia perfeita (a entoação e os gestos se perdem), mas o que se busca é a fidelidade à fala. A retextualização parte daí e adapta o texto à escrita. Segundo a resenha de Cruz e o artigo de Sarti Ferreira, Marcuschi trata a transcrição como transcodificação e a separa da retextualização.
 
 ## Da fala para a escrita: as nove operações
 
@@ -210,14 +217,14 @@ O deputado que revisa o próprio discurso antes da publicação, o consultor que
 
 É nesse sentido que as bancas usam a palavra. O item apresenta um trecho, propõe outra redação e pergunta se ela mantém a correção gramatical, o sentido ou a coerência. As técnicas (trocar conectivo, mudar a ordem, passar para a voz passiva) estão nas duas aulas de reescrita de Língua Portuguesa, da P1.
 
-> [!IMPORTANT]
-> Reescrever é mexer **no mesmo texto**, por adição, substituição, supressão ou deslocamento. Retextualizar é produzir **outro texto**, em outra modalidade, outro gênero ou com outro propósito.
+> [!NOTE]
+> Critério prático desta aula (leitura nossa, a partir de Matencio): reescrever é mexer **no mesmo texto**, por adição, substituição, supressão ou deslocamento; retextualizar é produzir **outro texto**, em outra modalidade, outro gênero ou com outro propósito. Nem todo autor separa assim: para d'Andrea e Ribeiro, toda retextualização é reescrita. A divergência está na parte "As confusões típicas".
 
 ## Paráfrase: três usos da mesma palavra
 
 A palavra já apareceu três vezes nesta aula, e não com o mesmo alcance:
 
-1. **como tipo de intertextualidade**: um texto retoma outro, de autor diferente, mantendo o sentido e indicando a fonte. *Segundo o relator, a proposta não aumenta despesas* parafraseia o parecer;
+1. **como tipo de intertextualidade**: um texto retoma outro, de autor diferente, mantendo o sentido. Com a fonte, como em *Segundo o relator, a proposta não aumenta despesas*, que parafraseia o parecer; ou sem ela, na captação;
 2. **como equivalência entre frases**: duas redações que dizem o mesmo. Santos, Cabrera e Góes falam em sinonímia no plano da sintaxe: dizer com outras palavras o que já foi dito. É o que um item de reescritura testa quando pergunta se o sentido foi mantido;
 3. **como marca da fala**: o orador que se repete com outras palavras (*ou seja*, *quer dizer*, *em outras palavras*). Na operação 3 do modelo de Marcuschi, essas paráfrases são retiradas.
 
@@ -233,19 +240,21 @@ Em todos os usos, o teste é o mesmo: **o sentido se manteve?** Uma "paráfrase"
 - d'Andrea e Ribeiro, lendo Marcuschi, propõem que "toda retextualização é reescrita, mas nem toda reescrita gera uma retextualização", e restringem a reescrita à passagem do escrito para o escrito;
 - Matencio separa pelo propósito: novo texto de um lado, nova versão de outro;
 - Dell'Isola define a retextualização como "refacção e reescrita de um texto para outro";
-- para Marcuschi, a mudança de modalidade basta: a entrevista oral que vira entrevista impressa foi retextualizada, embora o gênero seja o mesmo. E há retextualização do escrito para o escrito (o resumo).
+- para Marcuschi, a mudança de modalidade basta: a entrevista oral que vira entrevista impressa foi retextualizada, embora o gênero seja o mesmo. E há retextualização do escrito para o escrito (o resumo). O próprio Marcuschi, citado por d'Andrea e Ribeiro, admite que no lugar de "retextualização" "igualmente poderíamos usar as expressões refacção e reescrita".
 
-O critério mais seguro combina os dois: houve mudança de **modalidade**, de **gênero** ou de **propósito**? É retextualização. O texto continua o mesmo, melhorado? É reescritura.
+Não há, portanto, uma fronteira que todos aceitem. O critério prático desta aula é **leitura nossa**, e não de um autor: houve mudança de **modalidade**, de **gênero** ou de **propósito**? Trate como retextualização. O texto continua o mesmo, melhorado? Trate como reescritura.
+
+As duas respostas não se excluem para todo autor: para d'Andrea e Ribeiro, quem retextualiza também reescreve.
 
 **Retextualização × paráfrase.** A retextualização pretende conservar o conteúdo, como a paráfrase, mas o produto é um texto de outra modalidade ou de outro gênero, e as operações vão além de trocar palavras.
 
 **Intertextualidade × retextualização.** Na intertextualidade, o texto de origem **aparece dentro** do novo e continua existindo ao lado dele. Na retextualização, o novo texto **ocupa o lugar** do texto-base para outro público ou outra situação. Matencio lembra que retextualizar envolve relações entre textos e gêneros, isto é, intertextualidade: as noções não se excluem.
 
-**Paráfrase × citação × plágio.** Citação: as mesmas palavras, com aspas e fonte. Paráfrase: outras palavras, com fonte. Plágio: palavras ou ideias alheias, sem fonte.
+**Paráfrase × citação × plágio.** Citação: as mesmas palavras, com aspas e fonte. Paráfrase: outras palavras, mesmo sentido; com a fonte indicada na escrita acadêmica e na jornalística, sem ela na captação (intertextualidade implícita). Plágio: texto alheio proposto como próprio, sem referência ao autor.
 
-**Transcrição × retextualização.** Transcrever não transforma; retextualizar transforma.
+**Transcrição × retextualização.** A transcrição busca a fidelidade à fala, com o mínimo de intervenção; a retextualização adapta o texto a outra modalidade ou a outro gênero.
 
-![Quadro comparativo de quatro noções. Intertextualidade: um texto traz outro dentro dele; pergunta: há um texto anterior retomado?; exemplo: o discurso que cita o artigo 1º da Constituição. Retextualização: um novo texto feito de outro, com mudança de modalidade, de gênero ou de propósito; pergunta: mudou de fala para escrita, de gênero ou de finalidade?; exemplo: o discurso falado que vira registro escrito, as notas que viram ata. Reescritura: nova versão do mesmo texto, por adição, substituição, supressão ou deslocamento; pergunta: o texto continua o mesmo, melhorado?; exemplo: o revisor que corrige a ata. Paráfrase: o mesmo sentido com outras palavras; pergunta: o sentido se manteve?; exemplo: segundo a Constituição, a lei trata todos da mesma maneira. No pé, três pares que não se confundem: paráfrase mantém o sentido e paródia o subverte; citação repete as palavras com a fonte e plágio esconde a fonte; transcrever não é retextualizar.](imagens/quatro-nocoes.svg "As quatro noções do edital, cada uma com a sua pergunta")
+![Quadro comparativo de quatro noções. Intertextualidade: um texto traz outro dentro dele; pergunta: há um texto anterior retomado?; exemplo: o discurso que cita o artigo 1º da Constituição. Retextualização: um novo texto feito de outro, com mudança de modalidade, de gênero ou de propósito; pergunta: mudou de fala para escrita, de gênero ou de finalidade?; exemplo: o discurso falado que vira registro, as notas que viram ata. Reescritura: nova versão do mesmo texto, por adição, substituição, supressão ou deslocamento; pergunta: o texto continua o mesmo, melhorado?; exemplo: o revisor que corrige a ata. Paráfrase: o mesmo sentido com outras palavras; pergunta: o sentido se manteve?; exemplo: segundo a Constituição, a lei trata todos da mesma maneira. No pé, três pares que não se confundem: paráfrase mantém o sentido e paródia o subverte; citação repete as palavras, com a fonte, e plágio propõe como seu o texto alheio, sem a fonte; transcrever busca a fidelidade à fala e retextualizar adapta o texto. Duas notas: a paráfrase vem com a fonte na escrita acadêmica e na jornalística e sem a fonte na captação, que não é plágio; a separação entre retextualização e reescritura é critério prático desta aula, e há autores para quem toda retextualização é reescrita.](imagens/quatro-nocoes.svg "As quatro noções do edital, cada uma com a sua pergunta")
 
 > [!WARNING]
 > Há material de curso preparatório que trata os três termos do edital (retextualização, reescritura e paráfrase) como um só: a reescrita "cujo nome é retextualização" e que consiste em fazer uma paráfrase. A Linguística os distingue, e é a distinção que uma prova de Linguística tende a cobrar.
@@ -282,8 +291,10 @@ Não foi encontrado item da banca que use "retextualização" ou "paráfrase" co
 - Intertextualidade: diálogos possíveis (resenha do livro de Koch, Bentes e Cavalcante). Caroline Cassiana Silva dos Santos, *Nuances* (FCT/UNESP). https://revista.fct.unesp.br/index.php/Nuances/article/download/380/415/1180
 - Conto popular, estória oral e conto literário: uma análise intertextual. Luana Ferraz, *Estudos Linguísticos* (GEL), 43 (3), 2014. https://revistadogel.emnuvens.com.br/estudos-linguisticos/article/download/529/404/1342
 - O ensino de intertextualidade nos anos finais do ensino fundamental. José Elderson de Souza-Santos e Helena de Lima Marinho Rodrigues Araújo, *Educação em Revista* (UFMG), v. 38, 2022 (CC BY 4.0). https://www.redalyc.org/journal/3993/399371145001/399371145001.pdf
+- As intertextualidades explícita e implícita no discurso político. José Elderson de Souza Santos, *Ao Pé da Letra* (UFPE), v. 18.2, 2016. https://periodicos.ufpe.br/revistas/pedaletra/article/download/231894/26077/78911
+- O processo de retextualização das entrevistas no programa Roda Viva. Camila Sarti Ferreira, *Revista EntreLetras* (Araguaína), v. 12, n. 1, 2021. https://periodicos.ufnt.edu.br/index.php/entreletras/article/download/11460/18727/56454
 - Intertextualidade: o que é, tipos, exemplos. Talliandre Matos (Brasil Escola). https://brasilescola.uol.com.br/redacao/intertextualidade-.htm
-- Reescritura de frases: desvendando questões Cebraspe. Luiz Felipe Durval (Estratégia Concursos), 2021. https://www.estrategiaconcursos.com.br/blog/reescritura-de-frases-desvendando-questoes-cebraspe/
+- Reescritura de frases: desvendando questões Cebraspe. Luiz Felipe Durval (Estratégia Concursos), 2021. https://concursos.estrategia.com/portal/reescritura-de-frases-desvendando-questoes-cebraspe/
 - Ato da Mesa nº 251, de 16/3/2026 (publicação original), art. 2º. Câmara dos Deputados. https://www2.camara.leg.br/legin/int/atomes/2026/atodamesa-251-16-marco-2026-798819-publicacaooriginal-178493-cd-mesa.html
 - Regimento Interno da Câmara dos Deputados (Resolução nº 17, de 1989), texto atualizado: arts. 57, XVIII, e 73, VI. Câmara dos Deputados. https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html
 - Constituição da República Federativa do Brasil de 1988, art. 1º, parágrafo único, e art. 5º, *caput*. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm

@@ -10,14 +10,14 @@
 - **Retórica**: teoria da persuasão pela argumentação (Aristóteles: descobrir, em cada caso, o que serve para persuadir). **Oratória**: a prática de falar em público, a eloquência.
 - **Orador**, **auditório** (quem o orador quer influenciar) e **acordo** (as premissas que o auditório já aceita, como a Constituição).
 - **Auditório universal**: no manual do Senado, virtualmente todo o país; em Perelman (por Mateus), um ideal, as pessoas razoáveis. **Particular**: o grupo a que o orador de fato se dirige.
-- **Convencer × persuadir**: no manual do Senado, razões × afetos; em Fiorin, persuadir é o termo geral (convencendo ou comovendo). As fontes divergem.
+- **Convencer × persuadir**: no manual do Senado, razões × afetos; em Fiorin, persuadir é o termo geral (convencendo ou comovendo); em Perelman, o critério é o auditório (particular × universal). As fontes divergem.
 
 ## Provas
 
 - **Ethos**: a imagem de credibilidade que o orador constrói no discurso ("fui professora por vinte anos"). Não é a ética da vida real.
 - **Pathos**: as emoções despertadas no auditório ("nenhuma criança deve escolher entre a sede e a escola").
-- **Logos**: o raciocínio, por **exemplo** (indução) ou **entimema** (dedução com premissa subentendida). Dados e números são logos.
-- Fora do trio, as provas que já existem (extra-artísticas): leis, testemunhos, documentos.
+- **Logos**: o raciocínio, por **exemplo** (indução) ou **entimema** (dedução com uma premissa omitida).
+- Fora do trio, as provas que **já existem** antes do discurso (extra-artísticas): leis, contratos, testemunhos, documentos. O orador só as usa; logos é o que ele conclui a partir delas.
 
 ## Gêneros
 
@@ -28,7 +28,8 @@
 ## Operações e partes
 
 - **Cinco operações**: invenção (achar os argumentos), disposição (ordenar), elocução (redigir, com estilo e figuras), memória, ação (voz e gesto).
-- **Quatro partes**: **exórdio** (abre, ganha atenção e boa vontade), **narração** (expõe os fatos), **confirmação** (argumenta: prova e refutação), **peroração** (fecha: amplificação, paixão, recapitulação).
+- **Partes** (esquema mais difundido, de quatro): **exórdio** (abre, ganha atenção e boa vontade), **narração** (expõe os fatos), **confirmação** (argumenta: prova e refutação), **peroração** (fecha: amplificação, paixão, recapitulação).
+- A contagem varia: Aristóteles (duas necessárias, quatro no máximo), *Retórica a Herênio* (seis), Quintiliano (cinco).
 - O manual do Senado lista exórdio, narração, provas e peroração e chama a narração de "argumentação"; em Mateus, *argumentatio* é a confirmação.
 - **Lugares**: quantidade, qualidade, ordem, essência, pessoa, existente.
 
@@ -47,5 +48,5 @@
 > Faça a revisão sem abrir o texto da aula primeiro: tente lembrar, e só depois confira.
 
 - **24 horas**: monte de memória a tabela dos três gêneros clássicos (tempo, ato e valores) e diga o que muda na lista do manual do Senado; classifique os quatro parágrafos do discurso da aula pelas partes e pelas provas.
-- **7 dias**: escreva as cinco operações e as quatro partes do discurso, com a função de cada uma; explique a divergência sobre a narração; refaça os itens que errou no treino.
-- **30 dias**: abra um discurso antigo no acervo de debates históricos do portal da Câmara e responda às seis perguntas da análise (quem fala e para quem, gênero, parte, prova, lugar, marcas de oralidade).
+- **7 dias**: escreva as cinco operações e as partes do discurso no esquema de quatro, com a função de cada uma; explique a divergência sobre a narração; refaça os itens que errou no treino.
+- **30 dias**: releia só o discurso fictício da aula (a deputada e a água nas escolas rurais) e responda por escrito às seis perguntas da análise (quem fala e para quem, gênero, parte, prova, lugar, marcas de oralidade); depois confira com o texto.

@@ -23,10 +23,11 @@
   </g>
   <g transform="translate(668 116)">
     <rect width="220" height="118" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
-    <text x="14" y="26" font-size="13" font-weight="700" fill="#b4501f">EVITA</text>
-    <text x="14" y="50" font-size="14" fill="#0b0b0b">manda usar as palavras</text>
-    <text x="14" y="72" font-size="14" fill="#0b0b0b">em seu sentido comum</text>
-    <text x="14" y="94" font-size="14" fill="#0b0b0b">(LC 95, art. 11, I, a)</text>
+    <text x="14" y="26" font-size="13" font-weight="700" fill="#b4501f">EVITA (leitura nossa)</text>
+    <text x="14" y="48" font-size="14" fill="#0b0b0b">a lei não fala em figuras;</text>
+    <text x="14" y="68" font-size="14" fill="#0b0b0b">pede sentido comum e</text>
+    <text x="14" y="88" font-size="14" fill="#0b0b0b">nada de preciosismo</text>
+    <text x="14" y="108" font-size="14" fill="#0b0b0b">(LC 95, art. 11, I, a e c)</text>
   </g>
   <g font-size="15" font-weight="700" fill="#0b0b0b"><text x="24" y="296">Adjetivos e</text><text x="24" y="316">avaliação</text></g>
   <g transform="translate(196 244)">
@@ -72,6 +73,6 @@
   </g>
   <line x1="24" y1="512" x2="888" y2="512" stroke="#e1e0d9"/>
   <text x="24" y="540" font-size="14" fill="#0b0b0b">Manual = Manual de Redação da Câmara (expediente administrativo). LC 95 = Lei Complementar nº 95/1998.</text>
-  <text x="24" y="562" font-size="14" fill="#0b0b0b">A coluna do discurso é leitura desta aula. Mesmo no discurso há limite: o Regimento proíbe</text>
+  <text x="24" y="562" font-size="14" fill="#0b0b0b">A coluna do discurso e o quadro “ironia e figuras” na lei são leitura desta aula. No discurso há limite: o Regimento proíbe</text>
   <text x="24" y="582" font-size="14" fill="#0b0b0b">a referência <tspan font-weight="700">descortês ou injuriosa</tspan> a membros do Legislativo e a autoridades (art. 73, XII).</text>
 </svg>

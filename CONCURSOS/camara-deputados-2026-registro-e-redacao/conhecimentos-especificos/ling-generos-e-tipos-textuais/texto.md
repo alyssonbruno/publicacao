@@ -16,7 +16,7 @@ O ponto de partida é o ensaio *Os gêneros do discurso*, de Mikhail Bakhtin, es
 
 Repare na divisão: o **enunciado é individual** e não se repete; o **gênero é social e histórico**. O discurso que uma deputada fez ontem é um enunciado; "discurso parlamentar" é o gênero.
 
-As traduções variam numa palavra: a edição brasileira mais antiga (*Estética da criação verbal*, 1997) fala em **esfera** da atividade humana; a tradução de Paulo Bezerra (2003 e 2016) fala em **campo**. É o mesmo conceito.
+As traduções variam numa palavra: a tradução brasileira anterior, em *Estética da criação verbal*, fala em **esfera** da atividade humana; a de Paulo Bezerra (2003 e 2016) fala em **campo**. É o mesmo conceito.
 
 > [!IMPORTANT]
 > Gênero do discurso, para Bakhtin, é um **tipo relativamente estável de enunciado**, elaborado por um campo da atividade humana. Não é o texto individual, nem uma lista fechada de formas.
@@ -45,14 +45,14 @@ Na mesma passagem do ensaio, Bakhtin diz por onde o enunciado mostra as condiç�
 Dois detalhes da passagem rendem item:
 
 - os três elementos estão ligados **de modo indissolúvel** no todo do enunciado. Separá-los é recurso de análise;
-- Bakhtin dá relevo à construção composicional: o enunciado reflete o campo pelo conteúdo, pelo estilo e, na tradução de Paulo Bezerra, "acima de tudo" pela construção composicional (a edição de 1997 traz "sobretudo").
+- Bakhtin dá relevo à construção composicional: o enunciado reflete o campo pelo conteúdo, pelo estilo e, na tradução de Paulo Bezerra, "acima de tudo" pela construção composicional (a tradução anterior traz "sobretudo").
 
 > [!WARNING]
 > O relevo dado à construção composicional não autoriza dizer que o gênero se define **só** pela forma. Um item que reduza o gênero ao formato, ou só à finalidade, corta dois dos três elementos.
 
 ## Conteúdo temático não é o assunto do dia
 
-O erro mais comum é tomar conteúdo temático por "assunto do texto". Os slides de Grillo separam três degraus de sentido:
+O erro mais comum é tomar conteúdo temático por "assunto do texto". Bakhtin, no ensaio, nomeia o conteúdo temático; a escada abaixo, com três degraus de sentido, é a síntese que os slides de Grillo fazem a partir das obras do Círculo de Bakhtin (o slide seguinte cita Medviédev):
 
 - **tema**: é do enunciado, **singular**. A ata da reunião de terça-feira trata do que aconteceu naquela terça;
 - **conteúdo temático**: é do gênero, **relativamente estável**. Toda ata registra o que ocorreu numa reunião: presenças, matérias apreciadas, resultados;
@@ -65,7 +65,7 @@ Assim, dois pareceres sobre projetos diferentes têm temas diferentes e o mesmo 
 
 ## Estilo: o do gênero e o de quem escreve
 
-Estilo, aqui, não é "escrever bonito". É escolha de palavras, de expressões feitas e de construções gramaticais. E o estilo está **ligado ao gênero**: o requerimento pede o verbo na primeira pessoa (*requeiro*), o pronome de tratamento e fórmulas como *nos termos regimentais*; a lei pede *fica instituído*, *é vedado*, frases impessoais e artigos numerados.
+Estilo, aqui, não é "escrever bonito". É escolha de palavras, de expressões feitas e de construções gramaticais. E o estilo está **ligado ao gênero**: o requerimento pede o verbo na primeira pessoa (*requeiro*), o pronome de tratamento e fórmulas como *nos termos regimentais*; a lei pede *fica instituído*, *é vedado* e frases impessoais. Já a divisão da lei em artigos numerados é do terceiro elemento, a construção composicional.
 
 Bakhtin também trata do **estilo individual**: o enunciado é o lugar em que a língua comum encontra o jeito de cada um (slides de Grillo). A aula de Pedrosa mostra isso com duas pessoas que escrevem o mesmo gênero de modos bem diferentes. No ensaio, os gêneros não dão o mesmo espaço à individualidade: os mais padronizados, como os documentos oficiais, deixam pouco; os literários, muito.
 
@@ -137,14 +137,14 @@ Na formulação de Marcuschi (2008), reproduzida na aula de Mary Jane da Silva (
 
 - **tipo textual** é uma **construção teórica**, em geral uma sequência que está por baixo dos textos, definida pela **natureza linguística** da composição: aspectos lexicais, sintáticos, tempos verbais, relações lógicas, estilo. A rigor, os tipos são **modos textuais**, e não textos prontos;
 - **gênero textual** é o **texto materializado** em situações comunicativas recorrentes, com padrões sociocomunicativos próprios: composição funcional, objetivo, estilo;
-- **domínio discursivo** é a esfera de atividade em que os gêneros circulam (jurídico, jornalístico, religioso), no sentido da esfera de Bakhtin. Não é um princípio para classificar textos nem abrange um gênero em particular: no domínio jornalístico estão a notícia, o editorial e o artigo de opinião.
+- **domínio discursivo** é a esfera de atividade em que os gêneros circulam (jurídico, jornalístico, religioso), no sentido da esfera de Bakhtin. Não é um princípio para classificar textos nem abrange um gênero em particular: no domínio jornalístico estão a notícia, o editorial e o artigo de opinião. Os três exemplos de domínio são os de Marcuschi; por analogia nossa, a ata, o parecer e o requerimento desta aula circulam na esfera legislativa.
 
 | | Tipo textual | Gênero | Domínio discursivo |
 |---|---|---|---|
 | O que é | construção teórica; modo de organizar | texto materializado, que circula | esfera de atividade |
 | Critério | traços linguísticos | função, situação, composição e estilo | campo social |
 | Quantos | poucos; lista limitada, sem tendência a crescer | muitos; listagem aberta | vários |
-| Exemplos | narração, argumentação, exposição, descrição, injunção | ata, parecer, requerimento, notícia | legislativo, jurídico, jornalístico |
+| Exemplos | narração, argumentação, exposição, descrição, injunção | ata, parecer, requerimento, notícia | jurídico, jornalístico, religioso |
 
 Marcuschi insiste em que **não há dicotomia** entre tipo e gênero: a relação é de complementaridade. Na frase dele, citada por Farias e Oliveira, todos os textos realizam um gênero, e todos os gêneros realizam sequências tipológicas diversificadas.
 
@@ -202,20 +202,22 @@ Num texto, uma sequência é a **dominante**, e as outras se encaixam nela. Acim
 
 ## Macro e microestrutura em van Dijk
 
-A expressão do edital tem duas acepções. A primeira é a da Linguística Textual. Koch registra que, no Brasil, a influência mais forte no estudo dos tipos de texto foi a de Teun van Dijk, com o conceito de **superestrutura**, e que o conceito de **macroestrutura** foi aplicado ao estudo da compreensão e do resumo.
+A expressão do edital tem mais de uma acepção. A primeira é a da Linguística Textual. Koch registra que, no Brasil, a influência mais forte no estudo dos tipos de texto foi a de Teun van Dijk, com o conceito de **superestrutura**, e que o conceito de **macroestrutura** foi aplicado ao estudo da compreensão e do resumo.
 
-No modelo de Kintsch e van Dijk, a estrutura de sentido do texto tem três níveis (apresentação de Farias):
+No modelo de Kintsch e van Dijk, o texto é representado em três níveis (apresentação de Farias): dois de sentido, a micro e a macroestrutura, e um de forma, a superestrutura.
 
 - **microestrutura**: as proposições das frases e das sequências de frases, com as ligações entre elas. Responde pela organização sequencial e pela **coerência local**;
 - **macroestrutura**: o significado **global** do texto, a organização temática. Responde pela **coerência global**. É o que sobra num bom resumo;
-- **superestrutura**: a forma própria de certos tipos de discurso (narração, exposição, argumentação). É uma espécie de **sintaxe global**, um esquema de categorias que o conteúdo vem preencher.
+- **superestrutura**: o esquema global de organização do texto. Farias dá como exemplos as formas da narração, da exposição e da argumentação. É uma espécie de **sintaxe global**, um conjunto de categorias que o conteúdo vem preencher.
 
 A unidade é a **proposição**, o correspondente de sentido de uma frase. As proposições locais são **microproposições**; as que condensam um parágrafo ou um trecho são **macroproposições**, e a rede delas forma a macroestrutura (Giraldello).
 
 Títulos, subtítulos, mudança de parágrafo e resumos de abertura ou de fecho são sinais que o texto dá da sua macroestrutura.
 
+Circula ainda uma versão simplificada do par, que liga a **coesão à microestrutura** e a **coerência, em grande parte, à macroestrutura**. É assim que Sartorelli e colegas resumem o livro de Fávero, *Coesão e coerência textuais*. Ela não coincide ponto a ponto com o modelo acima, em que também há coerência no nível local: num item, veja de que quadro o enunciado fala.
+
 > [!IMPORTANT]
-> Micro é **local** (frase a frase); macro é **global** (o sentido do todo); super é o **esquema** do tipo de texto. Micro e macro são de sentido; a superestrutura é de forma.
+> Micro é **local** (frase a frase); macro é **global** (o sentido do todo); super é o **esquema** global de organização. Micro e macro são de sentido; a superestrutura é de forma.
 
 ## As macrorregras: da micro à macro
 
@@ -230,20 +232,21 @@ As fontes contam as regras de modos diferentes: segundo Giraldello, o artigo de 
 
 A figura reúne os três níveis e as quatro regras:
 
-![Esquema dos três níveis de van Dijk e Kintsch, de baixo para cima. Microestrutura: proposições de frases e sequências de frases; coerência local; exemplo com quatro proposições de uma notícia fictícia: os líderes orientaram as bancadas, o painel foi aberto, os deputados votaram, o resultado foi proclamado. Macroestrutura: significado global, organização temática, coerência global; exemplo: o Plenário aprovou o crédito emergencial contra a seca; é o que o título e o resumo dizem. Entre as duas, uma seta com as quatro macrorregras: apagamento, seleção, generalização e construção. Ao lado, a superestrutura: o esquema do tipo de texto, uma sintaxe global com categorias a preencher; na narrativa, por exemplo, o cenário, com tempo, lugar e participantes. No pé: micro e macro são níveis de sentido; a superestrutura é de forma.](imagens/micro-macro-superestrutura.svg "Os três níveis no modelo de Kintsch e van Dijk")
+![Esquema dos três níveis de van Dijk e Kintsch, de baixo para cima. Microestrutura: proposições de frases e sequências de frases; coerência local; exemplo com quatro proposições de uma notícia fictícia: os líderes orientaram as bancadas, o painel foi aberto, os deputados votaram, o resultado foi proclamado. Macroestrutura: significado global, organização temática, coerência global; exemplo: o Plenário aprovou o crédito emergencial contra a seca; é o que o título e o resumo dizem. Entre as duas, uma seta com as quatro macrorregras: apagamento, seleção, generalização e construção. Ao lado, a superestrutura: o esquema global de organização do texto, uma sintaxe global com categorias a preencher; na narrativa, por exemplo, o cenário, com tempo, lugar e participantes; van Dijk a descreve para a narrativa, a argumentação e a notícia de jornal. No pé: micro e macro são níveis de sentido; a superestrutura é de forma.](imagens/micro-macro-superestrutura.svg "Os três níveis no modelo de Kintsch e van Dijk")
 
 > [!TIP]
 > As macrorregras são o método do resumo. Ao resumir um discurso, você apaga o acidental, seleciona o fato, generaliza as listas e constrói o que ficou implícito.
 
-## Superestrutura: a ponte para os tipos
+## Superestrutura: o esquema global
 
-A superestrutura é o nível que liga esta parte da aula à anterior. Ela organiza as macroproposições em **categorias esquemáticas**, que dizem a função de cada porção do texto no conjunto.
+A superestrutura é o nível que liga esta parte da aula à dos tipos e das sequências. Ela organiza as macroproposições em **categorias esquemáticas**, que dizem a função de cada porção do texto no conjunto.
 
 O exemplo de Farias é o da narrativa: as macroproposições iniciais que dão tempo, lugar, participantes e situação preenchem a categoria **cenário**. Uma fórmula como "Era uma vez" já avisa o leitor de que a categoria começou. Quanto mais estereotipada a superestrutura, mais fácil a compreensão; e há textos sem superestrutura convencional, mais difíceis de ler.
 
-Três cuidados:
+Quatro cuidados:
 
-- a superestrutura é do **tipo de discurso** (narração, exposição, argumentação), e não do gênero. Há autores que igualam gênero e superestrutura, mas isso confunde o que o edital separa;
+- a superestrutura é o **esquema global de organização** do texto. Van Dijk a descreve para tipos como a narrativa e a argumentação e também para a **notícia de jornal**, que, no quadro de Marcuschi visto nesta aula, é gênero (Rodrigues discute essa proposta e registra que o próprio van Dijk trata a notícia como tipo de texto). Por isso, **não julgue um item de superestrutura pela oposição tipo × gênero**: veja se ele fala do esquema de organização (super) ou do sentido global (macro);
+- van Dijk não foi lido no original para esta aula: o que está aqui vem das apresentações de Farias, Giraldello, Koch e Rodrigues;
 - "macroproposição" não quer dizer o mesmo em van Dijk e em Adam. Em van Dijk, é uma unidade de **sentido global**, obtida pelas macrorregras. Em Adam, é uma **parte da sequência** (a complicação, a conclusão);
 - a aula anterior *Leitura: compreensão literal, coesão, coerência e relações coesivas* tratou da coerência; micro e macroestrutura são o modo de van Dijk descrever a coerência local e a global.
 
@@ -258,7 +261,7 @@ O edital do seu concurso não usa essas duas palavras, mas divide a nota do mesm
 
 A figura põe as duas acepções lado a lado:
 
-![Quadro comparativo de duas acepções de macro e microestrutura. Na coluna da Linguística Textual, de van Dijk e Kintsch: microestrutura é o nível local do sentido, as proposições e as ligações entre frases, a coerência local; macroestrutura é o sentido global, o tema e o resumo do texto, a coerência global; há um terceiro nível, a superestrutura, o esquema do tipo de texto; serve para descrever como se compreende e se resume um texto. Na coluna da correção de provas discursivas, segundo material de curso preparatório sobre o Cebraspe: aspectos microestruturais são a ortografia, a morfossintaxe e a propriedade vocabular, que geram desconto por erro; aspectos macroestruturais são a apresentação e o desenvolvimento do tema, que formam a nota de conteúdo; não há terceiro nível; serve para dar nota a um texto. No pé: nas duas, micro é o miúdo e macro é o todo, mas a coerência local é micro só na primeira; o edital não diz qual acepção cobra no item 6.1.](imagens/duas-acepcoes-de-macro-e-micro.svg "Macro e microestrutura: duas acepções")
+![Quadro comparativo de duas acepções de macro e microestrutura. Na coluna da Linguística Textual, de van Dijk e Kintsch: microestrutura é o nível local do sentido, as proposições e as ligações entre frases, a coerência local; macroestrutura é o sentido global, o tema e o resumo do texto, a coerência global; há um terceiro nível, a superestrutura, o esquema global de organização, como o da narrativa; serve para descrever como se compreende e se resume um texto. Na coluna da correção de provas discursivas, segundo material de curso preparatório sobre o Cebraspe: aspectos microestruturais são a ortografia, a morfossintaxe e a propriedade vocabular, que geram desconto por erro; aspectos macroestruturais são a apresentação e o desenvolvimento do tema, que formam a nota de conteúdo; não há terceiro nível; serve para dar nota a um texto. No pé: nas duas, micro é o miúdo e macro é o todo, mas a coerência local é micro só na primeira; há ainda um uso simplificado, que põe a coesão na microestrutura e a coerência, em grande parte, na macroestrutura; o edital não diz qual acepção cobra no item 6.1.](imagens/duas-acepcoes-de-macro-e-micro.svg "Macro e microestrutura: duas acepções")
 
 > [!NOTE]
 > Leitura nossa: o edital não diz qual acepção cobra. Como o item 6.1 está no bloco de Linguística, ao lado de gêneros e tipos, a de van Dijk é a mais provável; a outra é a que você encontrará na correção da sua discursiva. Não achamos documento da banca que defina os dois termos: a segunda acepção vem de material de curso preparatório.
@@ -298,8 +301,11 @@ Para a teoria, o molde provável (leitura nossa) é o item de conceito com um de
 - Sandra Aparecida da Silva Peixoto, Diogo Fernando dos Santos e Luana Aparecida Galvão. Do lembrete ao poema: de um gênero primário para um secundário numa perspectiva bakhtiniana. *Palimpsesto*, UERJ, 2018 (só o resumo). https://www.e-publicacoes.uerj.br/palimpsesto/article/view/36542
 - Guilherme Delgado Oliveira. Sequências textuais e sua estrutura macroproposicional em corpora pré-selecionados. *Missangas*, UNEB, ano 4, n. 8, 2023 (Werlich e as sequências de Adam). https://revistas.uneb.br/index.php/missangas/article/view/18901
 - Evandro de Melo Catelão e Mônica Magalhães Cavalcante. A proposta de plano(s) pré-formatado(s) para um gênero aplicada a um caso de intertextualidade. *Calidoscópio*, Unisinos, v. 16, n. 3, 2018, p. 395-396 (sequências, injunção e plano de texto em Adam). https://repositorio.ufc.br/handle/riufc/52901
+- Teun A. van Dijk e Walter Kintsch: obras **não lidas no original**; os conceitos de micro, macro e superestrutura e as macrorregras são citados pelas quatro fontes seguintes e pelo artigo de Koch.
 - Washington Silva de Farias. Compreensão e resumo de textos: alguns aspectos teóricos e experimentais. *Revista de Letras*, UFC, n. 22, v. 1/2, 2000, p. 103-105 (os três níveis e as macrorregras de Kintsch e van Dijk). https://repositorio.ufc.br/handle/riufc/16566
 - Ademir Paulo Giraldello. Compreensão leitora: como se (re)constrói a significação textual? *Unoesc & Ciência – ACHS*, v. 8, n. 1, 2017, p. 23-28. https://periodicos.unoesc.edu.br/achs/article/view/10747
+- Cristina Carneiro Rodrigues. A notícia de jornal: tipo ou atualização do tipo narrativo. *Alfa*, Unesp, v. 35, 1991, p. 135-141 (as superestruturas em van Dijk, a da narrativa e a da notícia de jornal). https://periodicos.fclar.unesp.br/alfa/article/download/3866/3559/9484
+- Soraya Rozana Sartorelli e outros. O estado da arte da produção textual. *UNOPAR Científica: Ciências Humanas e Educação*, v. 6, n. 1, 2005, p. 25-28 (o resumo do livro de Leonor Lopes Fávero, *Coesão e coerência textuais*, que não foi lido). https://revistaensinoeeducacao.pgsscogna.com.br/ensino/article/view/1088
 - Ingedore G. Villaça Koch. O desenvolvimento da Linguística Textual no Brasil. *D.E.L.T.A.*, v. 15, n. especial, 1999 (seção 1.1). https://revistas.pucsp.br/index.php/delta/article/download/40330/27088/112853
 - Carlos Roberto Correa. Discursivas: recursos p/ Cebraspe (Cespe). O que você precisa saber? Estratégia Concursos, 2018 (aspectos macroestruturais e microestruturais na correção). https://concursos.estrategia.com/portal/discursivas-recursos-p-cebraspe-cespe-o-que-voce-precisa-saber/
 - Cebraspe. Câmara dos Deputados, Edital nº 1/2025 (nível superior), caderno de Conhecimentos Gerais, aplicado em 8/3/2026, e gabarito definitivo; SEE/DF 2016, cargo 21, caderno de Conhecimentos Específicos, aplicado em 29/1/2017, e gabarito definitivo; STM 2025, Polícia Federal 2025, TCU 2025 e CPNUJE 2024, cadernos de conhecimentos gerais ou básicos (só o vocabulário dos itens de tipologia; gabaritos não conferidos). Referência de estilo; nenhum item foi reproduzido. https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/E61A04B682ABA7AF746F702D22B1516C4A4BC005855CE5CFFF5D2280F3E790CE.pdf e https://cdn.cebraspe.org.br/concursos/SEE_16_DF/arquivos/290_SEEDF_021_01.pdf

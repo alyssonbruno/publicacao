@@ -24,9 +24,9 @@
 - **Subordinadas**: a oração no lugar de um termo.
   - **Substantivas** (teste do *isso*): subjetiva (*É necessário que…*, *Convém que…*, *Sabe-se que…*), objetiva direta, objetiva indireta (*insistiu em que…*), completiva nominal (*certeza de que…*), predicativa, apositiva.
   - **Adjetivas** (pronome relativo): restritiva, sem vírgulas (só uma parte); explicativa, entre vírgulas (todos). O relativo tem função própria: reescreva com o antecedente.
-  - **Adverbiais**: causal, consecutiva, condicional, concessiva, comparativa (verbo subentendido), conformativa, final, proporcional, temporal. Há fontes que somam as modais.
-- **Explicativa × causal**: a causal diz a causa do fato (aceita *por* + infinitivo e a troca por *como*, no início); a explicativa justifica a afirmação ou a ordem (aceita dois-pontos, costuma vir depois de imperativo). As fontes divergem nos detalhes.
-- **Reduzidas**: verbo no infinitivo, gerúndio ou particípio, sem conjunção. Desenvolva para classificar. *Para* + infinitivo pode ligar-se a um nome (*o pedido para adiar*), e aí não indica a finalidade do verbo. *É hora de o Plenário votar.*
+  - **Adverbiais**: causal, consecutiva, condicional, concessiva, comparativa (verbo subentendido depois de *do que*, *como*), conformativa, final, proporcional, temporal. Há fontes que somam as modais.
+- **Explicativa × causal**: a causal diz a causa do fato (aceita *por* + infinitivo e a troca por *como*, no início); a explicativa justifica a afirmação ou a ordem (aceita dois-pontos, costuma vir depois de imperativo).
+- **Reduzidas**: verbo no infinitivo, gerúndio ou particípio, sem conjunção. Desenvolva para classificar. *Para* + infinitivo pode ligar-se a um nome (*o pedido para adiar*), e aí não indica a finalidade do verbo.
 - **Período misto**: uma oração pode ser coordenada a uma e principal de outra; subordinadas de mesma função podem ser coordenadas entre si (*disse que… e que…*).
 
 > [!CAUTION]

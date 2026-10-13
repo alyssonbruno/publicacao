@@ -6,7 +6,7 @@ O edital pede, em Língua Portuguesa (item 5.5 da P1): "Concordância verbal e n
 
 O Cebraspe quase nunca pergunta a regra. Ele propõe uma troca ou uma reescrita e pergunta se a "correção gramatical" se mantém. Por isso, esta aula trabalha com um gesto só, repetido em cada caso: **achar a palavra que manda** (o sujeito ou o substantivo) antes de olhar a palavra que obedece.
 
-Três pontos desta aula não têm resposta única nos manuais: "um dos que", "um ou outro" e "nem um nem outro". Neles, o texto mostra o que cada fonte diz.
+Num ponto desta aula, "um dos que", os dois manuais oficiais não dizem a mesma coisa. Em "um ou outro" e "nem um nem outro", eles coincidem, e só a página didática consultada registra uma segunda forma. Nos três, o texto mostra o que cada fonte diz.
 
 ## A regra do verbo: ache o sujeito
 
@@ -54,14 +54,14 @@ Com pares como *tanto... quanto* e *não só... mas também*, a página do Só P
 São três expressões parecidas, com tratamento diferente:
 
 - **"um e outro"**: o substantivo que vem depois fica no singular, e o verbo pode ficar no singular ou no plural (Manual da Presidência): *Um e outro **requerimento trata** (ou **tratam**) do mesmo assunto*;
-- **"um ou outro"** e **"nem um nem outro"**: aqui as fontes não dizem a mesma coisa.
+- **"um ou outro"** e **"nem um nem outro"**: o verbo fica no singular. *Um ou outro deputado **pediu** a palavra.* *Nem uma nem outra emenda **foi** aprovada.*
 
-Para o Manual de Redação da Presidência, essas duas locuções "exigem o verbo no singular". O Manual de Comunicação do Senado também manda usar o singular. Já a página do Só Português diz que a concordância "costuma ser feita no singular, embora o plural também seja praticado".
+Nessas duas locuções, os dois manuais oficiais dizem o mesmo. Para o Manual de Redação da Presidência, elas "exigem o verbo no singular". O Manual de Comunicação do Senado também manda usar o singular. Não há, portanto, divergência entre os manuais.
 
-Com o singular, as três fontes concordam: *Um ou outro deputado **pediu** a palavra.* *Nem uma nem outra emenda **foi** aprovada.*
+O que existe é um registro a mais na página do Só Português: a concordância "costuma ser feita no singular, embora o plural também seja praticado". Ela descreve um uso; não diz que os manuais o aceitam.
 
 > [!NOTE]
-> Leitura nossa: ao escrever (na discursiva, por exemplo), use o singular, que atende às três fontes. Num item que dependa só de saber se o plural é erro nessas duas locuções, as fontes não fecham a questão: pese o risco antes de marcar.
+> Leitura nossa: use o singular, ao escrever e ao julgar. É a forma que os dois manuais oficiais mandam e a única que as três fontes aceitam. O plural só tem a seu favor o registro de uso do Só Português.
 
 ## "Um dos que"
 
@@ -73,9 +73,9 @@ Em frases como "Ele foi um dos deputados que...", o verbo depois do "que" fica n
 
 O plural tem uma lógica fácil de testar. Inverta a frase: *Dos deputados que **votaram** contra, ele foi um.* Quem votou contra foram vários; ele é um desse grupo. Por isso: *Ele foi um dos deputados que **votaram** contra.* *Esta é uma das emendas que **alteram** o prazo.*
 
-A figura compara as fontes nos pontos em que elas não coincidem:
+A figura põe lado a lado o que cada fonte diz sobre as quatro expressões. Os manuais oficiais só divergem na primeira:
 
-![Tabela com três colunas, uma para cada fonte: Manual de Redação da Presidência, Manual de Comunicação do Senado e Só Português. Linha "um dos que": Presidência, singular ou plural, com o plural prevalecendo no uso atual; Senado, plural; Só Português, plural de preferência, com o registro de que alguns gramáticos consideram facultativo. Linha "um ou outro": Presidência, singular, a locução exige; Senado, singular; Só Português, costuma ser singular e o plural também é praticado. Linha "nem um nem outro": o mesmo da linha anterior nas três fontes. Linha "um e outro": Presidência, substantivo no singular e verbo no singular ou no plural; Senado e Só Português não tratam. No pé: o que atende às três fontes é o plural em "um dos que" e o singular em "um ou outro" e "nem um nem outro"; em azul, as células com uma forma só, e em laranja, as que admitem ou registram duas formas.](imagens/onde-os-manuais-divergem.svg "O que cada fonte diz nos pontos de divergência")
+![Tabela com três colunas, uma para cada fonte: Manual de Redação da Presidência, Manual de Comunicação do Senado e Só Português. Linha "um dos que": Presidência, singular ou plural, com o plural prevalecendo no uso atual; Senado, plural; Só Português, plural de preferência, com o registro de que alguns gramáticos consideram facultativo. Linha "um ou outro": Presidência, singular, a locução exige; Senado, singular; Só Português, costuma ser singular e o plural também é praticado. Linha "nem um nem outro": o mesmo da linha anterior nas três fontes. Linha "um e outro": Presidência, substantivo no singular e verbo no singular ou no plural; Senado e Só Português não tratam. No pé: os manuais oficiais só divergem em "um dos que", em que o plural atende às três fontes; em "um ou outro" e "nem um nem outro", os dois manuais mandam o singular; em azul, as células com uma forma só, e em laranja, as que admitem ou registram duas formas.](imagens/onde-os-manuais-divergem.svg "O que cada fonte diz sobre as quatro expressões")
 
 > [!NOTE]
 > Leitura nossa: o plural é aceito pelas três fontes; o singular, só por uma. Ao escrever, use o plural. Um item que dê o singular como erro se apoia no manual do Senado, mas contraria o da Presidência: é item de risco.
@@ -131,19 +131,23 @@ E *haver* só é impessoal nesses sentidos. Como auxiliar (igual a *ter*), conco
 
 ## O "se": o verbo concorda ou fica no singular?
 
-Diante de verbo com "se", veja se o termo seguinte tem preposição:
+O que decide é o **tipo de verbo**, e o teste é a passiva com *ser*:
 
-- **sem preposição** (verbo transitivo direto): o "se" é apassivador, o termo é o **sujeito**, e o verbo concorda com ele. ***Aprovaram-se** as emendas.* ***Discutiu-se** a matéria.* Teste: a frase aceita a passiva com *ser* (*As emendas foram aprovadas*);
-- **com preposição** (verbo transitivo indireto): não há passiva, o sujeito é indeterminado, e o verbo fica no **singular**. ***Trata-se** de emendas de redação.* ***Precisa-se** de taquígrafos.* ***Assiste-se** a mudanças no rito.*
+- **verbo transitivo direto** (a frase aceita a passiva: *As emendas foram aprovadas*): o "se" é apassivador, o termo que sofre a ação é o **sujeito**, e o verbo concorda com ele. ***Aprovaram-se** as emendas.* ***Discutiu-se** a matéria*;
+- **verbo transitivo indireto** (que rege preposição), **intransitivo** ou **de ligação** (a frase não aceita a passiva): o sujeito é indeterminado, e o verbo fica no **singular**. ***Trata-se** de emendas de redação.* ***Precisa-se** de taquígrafos.* ***Assiste-se** a mudanças no rito.* ***Trabalha-se** todas as noites.*
+
+A preposição depois do verbo é um bom sinal de verbo transitivo indireto, mas não é o teste. Em *Trabalha-se todas as noites*, não há preposição, e "todas as noites" só indica tempo: ninguém diz "todas as noites são trabalhadas". O verbo fica no singular.
+
+O roteiro também não vale quando o "se" faz parte do verbo (*queixar-se*, *referir-se*, *abster-se*) e a oração tem sujeito: *Os deputados **queixaram-se** da demora.* Há preposição depois do verbo, mas quem se queixou está na frase, e o verbo concorda com esse sujeito, pela regra geral.
 
 Com verbo auxiliar, o Só Português dá o modelo *Não se **devem** poupar esforços*: o auxiliar acompanha o sujeito. Assim: *Não se **devem** alterar as notas.*
 
 Os outros valores do "se" estão na aula anterior de classes de palavras. O roteiro junta as partes vistas até aqui:
 
-![Roteiro em quatro perguntas, de cima para baixo. Primeira: o verbo é haver, com sentido de existir ou de tempo, ou fazer, indicando tempo? Se sim, singular, inclusive o auxiliar: "Havia dúvidas", "Deve haver emendas", "Faz dois anos"; existir tem sujeito e concorda com ele: "Existiam dúvidas", "Devem existir emendas". Segunda: há "se" junto do verbo? Se o termo seguinte tem preposição, singular: "Trata-se de emendas", "Precisa-se de taquígrafos"; se não tem preposição, o termo é o sujeito e o verbo concorda: "Aprovaram-se as emendas". Terceira: qual é o núcleo do sujeito? Pergunte "o que" ou "quem" ao verbo, ignore o que vem com preposição e olhe também depois do verbo: "Os destaques da bancada foram rejeitados", "Faltam três assinaturas", "Foram os deputados que pediram vista". Quarta: o sujeito admite duas concordâncias? "A maioria dos deputados votou" ou "votaram"; sujeito composto depois do verbo: "Falaram" ou "Falou o líder e os vice-líderes"; "Fui eu quem redigiu" ou "redigi". No pé: fora desses casos, vale a regra geral: o verbo concorda com o núcleo do sujeito, em pessoa e número.](imagens/roteiro-do-verbo.svg "Quatro perguntas antes de julgar o verbo")
+![Roteiro em quatro perguntas, de cima para baixo. Primeira: o verbo é haver, com sentido de existir ou de tempo, ou fazer, indicando tempo? Se sim, singular, inclusive o auxiliar: "Havia dúvidas", "Deve haver emendas", "Faz dois anos"; existir tem sujeito e concorda com ele: "Existiam dúvidas", "Devem existir emendas". Segunda: há "se" junto do verbo? Se o verbo é pronominal e tem sujeito, como em "Os deputados queixaram-se da demora", vá à terceira pergunta. Nos outros casos, teste a passiva com ser: se a frase aceita, como em "As emendas foram aprovadas", o termo é o sujeito e o verbo concorda: "Aprovaram-se as emendas"; se não aceita, singular: "Trata-se de emendas", "Precisa-se de taquígrafos", "Trabalha-se todas as noites". Terceira: qual é o núcleo do sujeito? Pergunte "o que" ou "quem" ao verbo, ignore o que vem com preposição e olhe também depois do verbo: "Os destaques da bancada foram rejeitados", "Faltam três assinaturas", "Foram os deputados que pediram vista". Quarta: o sujeito admite duas concordâncias? "A maioria dos deputados votou" ou "votaram"; sujeito composto depois do verbo: "Falaram" ou "Falou o líder e os vice-líderes"; "Fui eu quem redigiu" ou "redigi". No pé: fora desses casos, vale a regra geral: o verbo concorda com o núcleo do sujeito, em pessoa e número.](imagens/roteiro-do-verbo.svg "Quatro perguntas antes de julgar o verbo")
 
 > [!CAUTION]
-> "Tratam-se de emendas" é o erro clássico: "de emendas" tem preposição, não é sujeito, e o verbo fica no singular.
+> "Tratam-se de emendas" é o erro clássico: *tratar de* rege preposição, a frase não aceita a passiva, "de emendas" não é sujeito, e o verbo fica no singular.
 
 ## O verbo "ser"
 
@@ -210,7 +214,7 @@ Estas palavras são adjetivos e concordam com o nome ou o pronome a que se refer
 - **quite**: *O servidor está **quite**; os servidores estão **quites***;
 - **leso**: *crime de **lesa**-pátria*, *crime de **leso**-patriotismo*.
 
-Um caso à parte é **possível** em expressões superlativas (*o mais... possível*). O Manual da Presidência registra as duas formas, com preferência atual pelo plural: *as redações mais claras **possíveis*** ou *as redações mais claras **possível***.
+Um caso à parte é **possível** em expressões superlativas. O Manual da Presidência registra que o adjetivo "ora aparece invariável, ora flexionado" e que hoje se prefere o plural. Os dois exemplos dele trazem o artigo no plural (*as mais*); no mesmo molde: *As redações são as mais claras **possíveis*** ou *as mais claras **possível***. Com o artigo no singular (*redações o mais claras **possível***), o manual não dá exemplo; leitura nossa: aí só cabe *possível*, no singular, como o artigo.
 
 ## "É proibido", "é necessário", "é permitido"
 
@@ -221,7 +225,7 @@ Nessas expressões (verbo *ser* + adjetivo), tudo depende de o substantivo vir o
 
 O quadro reúne os casos de concordância nominal desta aula:
 
-![Quadro em três blocos. Primeiro bloco, sempre concordam com o nome: anexo, "Seguem anexas as notas"; incluso, "Remeto inclusas as cópias"; mesmo e próprio, "Elas próprias assinaram"; obrigado, "Muito obrigada, disse a deputada"; quite, "Os servidores estão quites". Segundo bloco, depende da classe: meio, "meia hora" varia e "meio cansada" não varia; bastante, "bastantes emendas" varia e "bastante longas" não varia; só, "ficaram sós" varia e "só pediram a palavra" não varia. Terceiro bloco, nunca variam: menos, "menos emendas"; alerta, "ficaram alerta". No pé, a regra de "é proibido": sem artigo, invariável, "É proibido entrada"; com artigo, concorda, "É proibida a entrada"; e possível: "as mais claras possíveis" ou "possível".](imagens/varia-ou-nao-varia.svg "Concordância nominal: o que varia e o que não varia")
+![Quadro em três blocos. Primeiro bloco, sempre concordam com o nome: anexo, "Seguem anexas as notas"; incluso, "Remeto inclusas as cópias"; mesmo e próprio, "Elas próprias assinaram"; obrigado, "Muito obrigada, disse a deputada"; quite, "Os servidores estão quites". Segundo bloco, depende da classe: meio, "meia hora" varia e "meio cansada" não varia; bastante, "bastantes emendas" varia e "bastante longas" não varia; só, "ficaram sós" varia e "só pediram a palavra" não varia. Terceiro bloco, nunca variam: menos, "menos emendas"; alerta, "ficaram alerta". No pé, a regra de "é proibido": sem artigo, invariável, "É proibido entrada"; com artigo, concorda, "É proibida a entrada"; e possível em superlativo: com o artigo no plural, o Manual da Presidência registra as duas formas, "as mais claras possíveis" ou "possível", com preferência atual pelo plural; com o artigo no singular, "o mais claras possível", só o singular, leitura nossa.](imagens/varia-ou-nao-varia.svg "Concordância nominal: o que varia e o que não varia")
 
 > [!CAUTION]
 > "É proibido a entrada" mistura as duas construções: com o artigo "a", o adjetivo tem de concordar (*é proibida a entrada*).

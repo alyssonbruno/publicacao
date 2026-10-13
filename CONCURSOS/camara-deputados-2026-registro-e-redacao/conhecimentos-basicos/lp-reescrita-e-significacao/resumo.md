@@ -11,6 +11,7 @@
 - **Sentido**: diz a mesma coisa? Sinônimos, conectores, tempo e modo do verbo, adjetiva restritiva × explicativa.
 - **Coerência**: as ideias continuam combinando, sem contradição?
 - **Sentido não é coerência**: *parecer sucinto* → *parecer superficial* mantém a correção e a coerência, mas muda o sentido.
+- O comando de coerência **tende** a exigir menos que o de sentido; não é regra (Câmara 2025, item 26: reescrita sem absurdo, dada como errada).
 - Dois critérios ligados por "e": basta um falhar para o item estar errado.
 - Item que afirma "manteria a correção, **mas alteraria** o sentido" está **certo** se a troca de fato altera.
 
@@ -26,7 +27,7 @@ O que o comando não pede não entra no julgamento.
 - **Polissemia**: uma palavra, vários sentidos. *Relevar* é perdoar ou destacar; *sanção* é aprovação ou pena.
 - **Literal** (denotativo) × **figurado** (conotativo): *o projeto foi engavetado*, *a proposta naufragou*. Trocar a figura por palavra literal pode acrescentar informação (*naufragou* → *foi rejeitada*).
 - **Sinônimos perfeitos não existem** (Oliveira, na aula da UFS): a troca vale num contexto e não em outro. Em texto técnico, menos ainda (*furto* × *roubo*).
-- Quatro perguntas (organização nossa): a **precisão** é a mesma (*sessão* × *reunião*)? O **alcance** (*deputados* × *parlamentares*)? A **intensidade** (*pedir* × *exigir*)? A **avaliação** (*afirmou* × *alegou* × *admitiu*)?
+- Quatro perguntas (organização nossa): a **precisão** é a mesma (*sessão* × *reunião*)? O **alcance** (*deputados* × *parlamentares*)? A **intensidade** (*pedir* × *exigir*)? A **avaliação** (*afirmou* × *alegou* × *admitiu*)? Um "não" basta; quatro "sim" não garantem.
 - **Parônimos** disfarçados de sinônimos: *ratificar* (confirmar) × *retificar* (corrigir); *deferir* (atender) × *diferir* (adiar); *infligir* (aplicar pena) × *infringir* (violar); *elidir* (suprimir) × *ilidir* (refutar); *prescrever* × *proscrever*; *descriminar* × *discriminar*.
 - Expressões: *a princípio* (no começo) × *em princípio* (em tese); *ao nível de* (à altura de) × *em nível de* (na instância); *a fim de* (para) × *afim* (semelhante); *onde* só para lugar.
 
@@ -35,6 +36,7 @@ O que o comando não pede não entra no julgamento.
 - A palavra nova **arrasta a gramática**: gênero e número (*o problema foi resolvido* → *a questão foi resolvida*), preposição (*precisa de* → *requer*), crase (*assistiram à sessão* → *presenciaram a sessão*).
 - Trechos: oração por nome (*que há divergências* → *a existência de divergências*), locução por adjetivo (*do governo* → *governamental*), palavra rara por expressão comum.
 - Nem sempre equivalem: *o relatório do mês* × *o relatório mensal*; *afirmou que o projeto será aprovado* × *afirmou a aprovação do projeto* (o tempo sumiu).
+- Oração por nome mantém o sentido se a oração não trazia tempo, dúvida nem negação só dela: *recomendou que o prazo fosse ampliado* → *a ampliação do prazo*.
 - **Palavras pequenas**: confira quantidade (*a maioria*), certeza e obrigação (*pode*, *deve*, *talvez*), restrição (*só*), negação e tempo do verbo.
 - No texto legal, a LC nº 95/1998 (art. 11, II, *b*) manda repetir a ideia com as mesmas palavras, sem sinônimo de enfeite.
 

@@ -72,14 +72,20 @@ A conjunção também pode mudar de lugar. Se *porém*, *contudo*, *portanto* v�
 
 O *e* já faz a ligação, e por isso, em regra, dispensa a vírgula: *O relator leu o parecer e pediu vista.* As duas orações têm o mesmo sujeito.
 
-O manual do STJ lista quando a vírgula aparece antes de *e*:
+A vírgula pode aparecer antes de *e* em quatro situações, todas registradas no manual do STJ:
 
-1. **sujeitos diferentes**: *O relator leu o parecer, e o Plenário aprovou o requerimento.*
-2. ***e* com valor de *mas***: *A matéria estava na pauta, e não foi votada.*
-3. ***e* repetido para dar ênfase**: *O Plenário discutiu, e emendou, e votou.*
-4. **vírgula que fecha uma intercalação**: *O parecer, lido ontem, e as emendas serão publicados.* Aqui a vírgula pertence ao termo intercalado, e não ao *e*.
+1. ***e* com valor de *mas***: *A matéria estava na pauta, e não foi votada.*
+2. ***e* repetido para dar ênfase**: *O Plenário discutiu, e emendou, e votou.*
+3. **vírgula que fecha uma intercalação**: *O parecer, lido ontem, e as emendas serão publicados.* Aqui a vírgula pertence ao termo intercalado, e não ao *e*.
+4. **orações de sujeitos diferentes**: *A comissão ouviu o ministro, e os deputados apresentaram requerimentos.*
 
-No caso dos sujeitos diferentes, Carneiro e Cavalcante encontraram a mesma regra em quatro das gramáticas que compararam. Luft, segundo os mesmos autores, vai além e considera a vírgula facultativa antes de *e* quando o trecho anterior é muito longo, sem dizer quanto.
+O quarto caso é o menos firme, porque as fontes não lhe dão a mesma força. O manual do STJ o põe entre os usos da vírgula, e Carneiro e Cavalcante encontraram a recomendação em quatro das gramáticas que compararam; nas outras duas obras que examinaram (Cegalla e Luft), não a apontam.
+
+O manual do Senado é mais restrito. Só pede essa vírgula quando há **duas condições juntas**: os sujeitos são diferentes e, sem a vírgula, a leitura pode ficar ambígua. No exemplo acima, sem ela, *os deputados* pareceria, de início, um segundo complemento de *ouviu*. Quando não há esse risco, o manual a dá como desnecessária.
+
+Na prática (leitura nossa): "sujeitos diferentes" é uma justificativa aceita para a vírgula antes de *e*, mas as fontes não autorizam dizer que ela é obrigatória sempre que os sujeitos mudam.
+
+Para o caso do mesmo sujeito, em que a regra é não usar a vírgula, há uma ressalva de Luft, segundo Carneiro e Cavalcante: ele a considera facultativa antes de *e* quando o trecho anterior é muito longo, sem dizer quanto.
 
 Uma prova do Cebraspe para a própria Câmara, aplicada em 8/3/2026, trouxe um item que dava certa vírgula como obrigatória e a justificava por separar duas orações de mesmo sujeito. O gabarito definitivo deu o item como errado. No texto da prova, a vírgula fechava uma oração adverbial posta antes da principal (leitura nossa), caso da parte sobre orações adverbiais, mais adiante.
 
@@ -96,12 +102,14 @@ O adjunto adverbial (a circunstância de tempo, lugar, modo) tem lugar natural n
 
 O tamanho conta. O manual do STJ diz que, quando o adjunto é "de pequeno porte", a vírgula pode ser dispensada, e que ela volta quando se quer realçá-lo: *Hoje haverá sessão solene* ou *Hoje, haverá sessão solene*. O manual do Senado diz o mesmo com outras palavras: isolam-se os adjuntos deslocados "e, em geral, longos"; se o adjunto for curto, a vírgula é facultativa.
 
-O problema é que **nenhuma fonte mede o "curto"**. Carneiro e Cavalcante mostram que as gramáticas dão como curto o adjunto formado por um advérbio ou por uma locução, mas trazem exemplos que se contradizem; para os dois autores, essa é uma das regras mais imprecisas.
+O problema é que **as gramáticas não medem o "curto"**. Carneiro e Cavalcante mostram que elas dão como curto o adjunto formado por um advérbio ou por uma locução, mas trazem exemplos que se contradizem; para os dois autores, essa é uma das regras mais imprecisas.
 
-Os professores de concurso costumam resolver a dúvida contando palavras, mas não chegam ao mesmo número: nos podcasts indicados nesta aula, um trata como longo o adjunto com mais de duas palavras, e outro dá a vírgula como facultativa até três. São convenções de quem ensina, não regras das gramáticas.
+Das fontes consultadas, só o manual do Senado dá um número, no verbete "Adjunto adverbial deslocado": a vírgula é opcional depois do adjunto deslocado de **até três palavras** e é sempre usada com o adjunto de mais de três. É a norma de estilo de uma casa, não uma regra das gramáticas.
+
+Os professores de concurso também contam palavras, e não chegam ao mesmo número: nos podcasts indicados nesta aula, um trata como longo o adjunto com mais de duas palavras, e outro dá a vírgula como facultativa até três, a mesma medida do manual do Senado.
 
 > [!NOTE]
-> Leitura nossa: um advérbio sozinho (*hoje*, *ontem*, *aqui*, *depois*) é o caso seguro de vírgula facultativa; uma expressão de muitas palavras é o caso seguro de vírgula. Entre os dois (*ontem à tarde*, *na comissão*), as fontes não dão medida. Item que dependa só disso é arriscado.
+> Leitura nossa: um advérbio sozinho (*hoje*, *ontem*, *aqui*, *depois*) é o caso seguro de vírgula facultativa; uma expressão de muitas palavras é o caso seguro de vírgula. Entre os dois (*ontem à tarde*, *na comissão*), só o manual do Senado dá medida, e as gramáticas não a confirmam. Item que dependa só disso é arriscado.
 
 ## Orações adverbiais: antes, no meio ou depois
 
@@ -147,7 +155,7 @@ Três usos menores completam a lista.
 
 ***Etc.*** O manual do Senado considera facultativa a vírgula antes de *etc.* e recomenda não usá-la.
 
-![Quadro em três colunas sobre a vírgula. Primeira coluna, não se usa, entre termos ligados pela sintaxe: sujeito e verbo, mesmo com sujeito longo ou oracional; verbo e complemento; nome e complemento; antes de oração restritiva; antes de e com o mesmo sujeito, em regra; e uma vírgula só do par, porque na intercalação são duas ou nenhuma. Segunda coluna, usa-se: termos e orações em série; intercalação, em par, como aposto, vocativo, ou seja e porém; oração adjetiva explicativa; oração adverbial antes da principal ou no meio dela; adjunto adverbial longo deslocado; antes de mas, porém, portanto e pois; antes de e com sujeitos diferentes. Terceira coluna, facultativa: adjunto adverbial curto deslocado, como em Hoje haverá sessão, sem que nenhuma fonte meça o curto; oração adverbial depois da principal, como em A sessão foi suspensa porque faltou quórum, caso em que Rocha Lima manda usar a vírgula; depois de conjunção que vem após ponto e vírgula ou ponto, como portanto; e antes de etc., que o manual do Senado prefere sem vírgula. No pé, onde os autores divergem: a vírgula que marca o verbo omitido, que os manuais mandam usar e Luft trata como facultativa.](imagens/virgula-tres-situacoes.svg "O mapa da vírgula: onde não se usa, onde se usa e onde é facultativa")
+![Quadro em três colunas sobre a vírgula. Primeira coluna, não se usa, entre termos ligados pela sintaxe: sujeito e verbo, mesmo com sujeito longo ou oracional; verbo e complemento; nome e complemento; antes de oração restritiva; antes de e com o mesmo sujeito, em regra; e uma vírgula só do par, porque na intercalação nunca fica uma só. Segunda coluna, usa-se: termos e orações em série; intercalação, em par, como aposto, vocativo, ou seja e porém; oração adjetiva explicativa; oração adverbial antes da principal ou no meio dela; adjunto adverbial longo deslocado; antes de mas, porém, portanto e pois. Terceira coluna, facultativa: adjunto adverbial curto deslocado, como em Hoje haverá sessão, com a observação de que as gramáticas não medem o curto e o manual do Senado fala em até três palavras; oração adverbial depois da principal, como em A sessão foi suspensa porque faltou quórum, caso em que Rocha Lima manda usar a vírgula; depois de conjunção que vem após ponto e vírgula ou ponto, como portanto; e antes de etc., que o manual do Senado prefere sem vírgula. No pé, onde as fontes divergem: a vírgula que marca o verbo omitido, que os manuais mandam usar e Luft trata como facultativa; e a vírgula antes de e com sujeitos diferentes, como em O relator leu, e o Plenário votou, que pode aparecer: o manual do STJ a lista entre os usos, e o manual do Senado só a pede quando, sem ela, a leitura fica ambígua.](imagens/virgula-tres-situacoes.svg "O mapa da vírgula: onde não se usa, onde se usa e onde é facultativa")
 
 > [!TIP]
 > Diante de uma vírgula do texto, faça três perguntas, nesta ordem: ela separa sujeito e verbo ou verbo e complemento? Ela tem par? O que ela isola foi deslocado, intercalado ou está em série?
@@ -197,7 +205,7 @@ Travessões e parênteses fazem o mesmo trabalho das vírgulas em par: isolam um
 
 O que muda é o peso. O manual do STJ indica o travessão duplo também para isolar palavras ou orações a que se quer dar **ênfase**; os parênteses guardam a explicação posta à parte.
 
-![Quadro com a mesma frase isolada de três jeitos. Com vírgulas, a forma neutra: A relatora, deputada há três mandatos, pediu o adiamento da votação. Com travessões, que dão realce ao trecho: A relatora, travessão, deputada há três mandatos, travessão, pediu o adiamento da votação. Com parênteses, para a explicação à parte: A relatora, abre parêntese, deputada há três mandatos, fecha parêntese, pediu o adiamento da votação. Abaixo, três regras para quando os sinais se encontram. Um: se a frase já pedia vírgula naquele ponto, ela fica depois do segundo travessão ou do parêntese, como em Ouvida a relatora, travessão, deputada há três mandatos, travessão, vírgula, a comissão votou o parecer. Dois: no fim do período, basta um travessão, e o ponto fecha a frase, como em A comissão ouviu quem pediu o adiamento, travessão, a relatora. Três: tirar um só sinal do par deixa a frase errada; são dois ou nenhum.](imagens/tres-jeitos-de-isolar.svg "Vírgulas, travessões e parênteses isolando o mesmo trecho")
+![Quadro com a mesma frase isolada de três jeitos. Com vírgulas, a forma neutra: A relatora, deputada há três mandatos, pediu o adiamento da votação. Com travessões, que dão realce ao trecho: A relatora, travessão, deputada há três mandatos, travessão, pediu o adiamento da votação. Com parênteses, para a explicação à parte: A relatora, abre parêntese, deputada há três mandatos, fecha parêntese, pediu o adiamento da votação. Abaixo, três regras para quando os sinais se encontram. Um: se a frase já pedia vírgula naquele ponto, ela fica depois do segundo travessão ou do parêntese, como em Ouvida a relatora, travessão, deputada há três mandatos, travessão, vírgula, a comissão votou o parecer. Dois: no fim do período, basta um travessão, e o ponto fecha a frase, como em A comissão ouviu quem pediu o adiamento, travessão, a relatora. Três: os sinais do par ficam juntos; tirar um só deixa a frase errada.](imagens/tres-jeitos-de-isolar.svg "Vírgulas, travessões e parênteses isolando o mesmo trecho")
 
 Três detalhes aparecem em prova:
 
@@ -262,6 +270,8 @@ A prova de Taquígrafo da Câmara de 2012, do cargo que antecedeu o de Registro 
 
 - Manual de Redação da Presidência da República, 3ª edição (2018), seções 10.1 (aspas), 10.4 (parênteses), 10.5 (travessão) e 11.9 (pontuação). Presidência da República, Casa Civil. Cópia hospedada pelo ICMBio: https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf
 - Manual de Comunicação da Secom, verbetes "Vírgula", "Travessão", "Aspas" e "Ponto e vírgula". Senado Federal. https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula
+- Manual de Comunicação da Secom, verbete "Vírgula antes da conjunção e". Senado Federal. https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula-antes-da-conjuncao-e
+- Manual de Comunicação da Secom, verbete "Adjunto adverbial deslocado". Senado Federal. https://www12.senado.leg.br/manualdecomunicacao/estilos/adjunto-adverbial-deslocado
 - Manual de Padronização de Textos do STJ, 2ª edição (2016), verbete "pontuação". Superior Tribunal de Justiça. https://scon.stj.jus.br/docs_intranet/comunicacao/interna/Manual_atualizado.pdf
 - Tinha uma vírgula no meio da frase: considerações sobre as prescrições do emprego do sinal. Leandro Vidal Carneiro e Mônica Magalhães Cavalcante, *Domínios de Lingu@gem*, v. 9, n. 5, 2015. https://seer.ufu.br/index.php/dominiosdelinguagem/article/download/29237/17088
 - Sinais de pontuação: quais são, funções. Guilherme Viana (Mundo Educação). https://mundoeducacao.uol.com.br/gramatica/pontuacao.htm

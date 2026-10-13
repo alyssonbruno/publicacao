@@ -10,7 +10,7 @@
 - Gênero é um **tipo relativamente estável de enunciado**, elaborado por um **campo** (ou esfera) da atividade humana. O enunciado é individual; o gênero é social e histórico.
 - **Estável**: ninguém cria um gênero a cada fala. **Relativamente**: os gêneros mudam com o tempo. Quanto maior o domínio do gênero, maior a liberdade.
 - Três elementos, **inseparáveis** no enunciado: **conteúdo temático** (o que o gênero pode dizer), **estilo** (seleção de recursos lexicais, fraseológicos e gramaticais) e **construção composicional** (arquitetura e acabamento, incluída a relação com os participantes). Bakhtin dá relevo à construção composicional, mas o gênero não se define só pela forma.
-- **Tema** é do enunciado (singular); **conteúdo temático** é do gênero (relativamente estável); **significação** é da língua (estável).
+- Na leitura do Círculo de Bakhtin (síntese de Grillo): **tema** é do enunciado (singular); **conteúdo temático** é do gênero (relativamente estável); **significação** é da língua (estável).
 - **Primários** (simples, do cotidiano) e **secundários** (complexos, de campos organizados, principalmente escritos). Os secundários absorvem e reelaboram os primários. Primário não é sinônimo de oral.
 - *Gênero do discurso* é o termo de Bakhtin; *gênero textual*, o da Linguística Textual. Marcuschi usa os dois sem distinção; Rojo vê duas vertentes. Gênero do discurso não é gênero literário.
 
@@ -23,7 +23,9 @@
 
 ## Macro e microestrutura
 
-- **Van Dijk e Kintsch**: **microestrutura** = proposições e ligações entre frases, coerência **local**; **macroestrutura** = sentido global, coerência **global**, o que fica no resumo; **superestrutura** = esquema do tipo de texto (forma), como o cenário na narrativa.
+- **Van Dijk e Kintsch**: **microestrutura** = proposições e ligações entre frases, coerência **local**; **macroestrutura** = sentido global, coerência **global**, o que fica no resumo; **superestrutura** = esquema global de organização (forma), com categorias como o cenário na narrativa.
+- Van Dijk descreve superestruturas da narrativa, da argumentação e também da notícia de jornal: não julgue item de superestrutura pela oposição tipo × gênero.
+- Uso simplificado, corrente: coesão na **micro**; coerência, em grande parte, na **macro**. Não coincide com van Dijk, que tem coerência local.
 - **Macrorregras** (da micro à macro): apagamento, seleção, generalização e construção. As duas primeiras cortam; as duas últimas substituem.
 - **Outra acepção**, da correção de discursivas (segundo material de curso preparatório): macroestruturais = apresentação e desenvolvimento do tema; microestruturais = ortografia, morfossintaxe e propriedade vocabular. O edital não diz qual acepção cobra no item 6.1.
 

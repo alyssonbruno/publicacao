@@ -109,7 +109,7 @@ Alguns nomes comuns em textos da Câmara, com a preposição que a tabela do Só
 
 Os advérbios em *-mente* tendem a seguir o adjetivo: *relativo a* → *relativamente a*.
 
-É aqui que a regência encontra a crase. Em *parecer favorável **à** emenda*, o acento existe porque *favorável* pede *a* e *emenda* vem com artigo. Em provas de nível superior, a banca pergunta **quem** pede a preposição: dois itens da prova de 2025 para auditor do TCU atribuíam a preposição de um trecho à regência de adjetivos ou de um verbo vizinhos, e a banca deu os dois como errados (ela não publica o motivo).
+É aqui que a regência encontra a crase. Em *parecer favorável **à** emenda*, o acento existe porque *favorável* pede *a* e *emenda* vem com artigo. Em provas de nível superior, a banca pergunta **quem** pede a preposição: dois itens da prova para auditor do TCU (edital de 2025, aplicada em 22/2/2026) atribuíam a preposição de um trecho à regência de adjetivos ou de um verbo vizinhos, e a banca deu os dois como errados (ela não publica o motivo).
 
 ## Crase: preposição mais artigo
 
@@ -134,8 +134,8 @@ A aula de classes de palavras mostrou como separar o *a* artigo, o pronome e a p
 Se falta o artigo ou falta a preposição, o acento é **erro**, e não escolha. Não há crase:
 
 - antes de **palavra masculina** e de **verbo**: *a critério do relator*, *a prazo*, *começou a votar*;
-- antes de **uma**, de pronomes **pessoais** e de **tratamento**: *assistiu a uma sessão*, *entregou a ela*, *peço a Vossa Excelência*. Exceção registrada no manual do STJ: *senhora* e *senhorita* aceitam artigo (*agradeço à senhora*);
-- antes de **esta** e **essa** e da maioria dos **indefinidos**: *chegou a essa conclusão*, *a qualquer pessoa*, *a nenhuma crítica*, *a todas as servidoras*;
+- antes do artigo indefinido **uma** e de pronomes **pessoais** e de **tratamento**: *assistiu a uma sessão*, *entregou a ela*, *peço a Vossa Excelência*. A hora é outro caso, porque ali não há artigo indefinido (*à 1 hora*, na grafia do manual do STJ). Exceção registrada no mesmo manual: *senhora* e *senhorita* aceitam artigo (*agradeço à senhora*);
+- antes de **esta** e **essa** e da maioria dos **indefinidos**: *chegou a essa conclusão*, *a qualquer pessoa*, *a nenhuma crítica*, *a todas as servidoras*. O manual do STJ registra uma exceção: *outra* aceita artigo quando se fala de duas coisas determinadas (*Prefiro esta emenda **à** outra*);
 - antes dos relativos **que**, **quem** e **cuja**, quando o *a* é só preposição: *o benefício a que têm direito*, *a quem interessar* (em *igual à que foi rejeitada*, da parte anterior, há também o *a* que vale por *aquela*);
 - com **a no singular antes de plural**: *não comparece a sessões secretas*;
 - **entre palavras repetidas**: *frente a frente*, *página a página*;
@@ -155,7 +155,7 @@ O último caso é o que mais engana: o *as* depois de verbo transitivo direto é
 - **Nomes de lugar**: use o teste da volta. *Volto **da** Bahia* → *vou **à** Bahia*. *Volto **de** Brasília* → *vou **a** Brasília*. Se o nome vier especificado, ganha artigo: *à Brasília dos anos 1960*.
 - **Casa** (o próprio lar) e **terra** (oposta a bordo), sem complemento, não levam artigo: *voltou a casa*. Com complemento, levam: *foi **à** casa do líder*.
 
-Em **distância**, as fontes divergem. O manual do STJ acentua quando a distância vem determinada (*à distância de 5 metros*), não acentua quando não vem (*observou a cena a distância*) e admite o acento para evitar ambiguidade. O verbete de crase do manual do Senado lista *à distância* entre as locuções que levam o acento.
+Em **distância**, as fontes divergem. O manual do STJ acentua quando a distância vem determinada (*à distância de 5 metros*), não acentua quando não vem (*observou a cena a distância*) e manda acentuar se, sem a determinação, a frase ficar ambígua (*observava à distância*, isto é, de longe). O verbete de crase do manual do Senado lista *à distância* entre as locuções que levam o acento.
 
 > [!NOTE]
 > O manual do Senado explica que em *à noite*, *à força* e *à mão* não há crase de verdade, e que o acento é usado "por motivos de clareza". O manual do STJ e o Só Português tratam essas locuções como casos de crase. A grafia é a mesma nas três fontes; o que muda é a explicação. Não julgue um item por ela.
@@ -177,7 +177,7 @@ Cada caso tem um limite, e é no limite que a banca monta o item:
 ![Esquema da crase em duas perguntas. Primeira pergunta: o termo anterior pede a preposição a? Se não, só há artigo e o acento é incorreto, como em a comissão ouviu as testemunhas. Se sim, segunda pergunta: a palavra seguinte aceita o artigo a? Se não aceita, só há preposição e o acento é incorreto, como em referiu-se a emendas antigas, a essa emenda, a votar. Se aceita sempre, há preposição e artigo e a crase é obrigatória, como em referiu-se à emenda, favorável à emenda, às 14 horas. Se o artigo é opcional, a crase é facultativa, em três casos: possessivo feminino singular com substantivo, a ou à minha proposta; nome próprio feminino de pessoa, a ou à Marta; depois de até, em que o opcional é a preposição, até as ou até às 22 horas. No pé: limites dos facultativos: a suas emendas ou às suas emendas, nunca acento em a singular antes de plural; possessivo sem substantivo, crase obrigatória, prefiro a sua emenda à minha.](imagens/crase-em-duas-perguntas.svg "A crase em duas perguntas: incorreta, obrigatória ou facultativa")
 
 > [!NOTE]
-> Algumas listas trazem mais casos facultativos (locuções de instrumento, como *a bala* ou *à bala*, e certos nomes de lugar), sem consenso entre os autores. Os três acima são os que o Só Português, o Brasil Escola e o podcast indicado registram; o manual do Senado traz os dois primeiros, e o do STJ, só o de *até*.
+> Os três casos acima são os que o Só Português e o podcast indicado registram; o manual do Senado traz os dois primeiros, e o do STJ, só o de *até*. O Brasil Escola traz os três e acrescenta outros dois, sem consenso entre os autores: as locuções de instrumento (*a bala* ou *à bala*; a própria página diz que, em regra, não se acentua) e certos nomes de lugar.
 
 ## Mexer na frase muda a crase
 
@@ -224,7 +224,7 @@ Certas palavras, quando vêm **antes do verbo**, atraem o pronome para a prócli
 - frases **interrogativas**, **exclamativas** e de **desejo**: *Quem **o** indicou?* *Deus **nos** ajude!*
 - **em + gerúndio**: *Em **se** tratando de matéria urgente...*
 
-A **vírgula** depois do advérbio desfaz a atração: *Hoje, vota-**se** a medida provisória.* E, quando uma expressão entre vírgulas separa a palavra atrativa do verbo, o STJ aceita as duas posições: *É preciso que, encerrada a votação, **se** retirem* (ou *retirem-**se***) *do plenário.*
+A **vírgula** depois do advérbio desfaz a atração: *Hoje, vota-**se** a medida provisória.* Leitura nossa: a atração é segura com advérbio curto (*já*, *sempre*, *aqui*, *talvez*). Com advérbio em *-mente* ou locução adverbial longa, o manual do STJ também registra a próclise (*Eles certamente **a** impedirão*), mas é fácil haver pausa depois deles, e com pausa vem a ênclise: não condene a ênclise só por causa de um advérbio desses. E, quando uma expressão entre vírgulas separa a palavra atrativa do verbo, o STJ aceita as duas posições: *É preciso que, encerrada a votação, **se** retirem* (ou *retirem-**se***) *do plenário.*
 
 > [!CAUTION]
 > O item acerta a posição do pronome e erra a causa: atribui a próclise ao tempo do verbo ou a um advérbio qualquer, quando quem atrai é o *que* ou o *não*. Ache a palavra atrativa antes de aceitar a justificativa.
@@ -250,11 +250,11 @@ Na **locução verbal** (auxiliar + verbo principal), há mais lugares possívei
 - *A comissão vai **reunir-se** amanhã.* (depois do principal)
 - *A comissão **se vai** reunir amanhã.* (antes do auxiliar)
 
-**Principal no infinitivo ou no gerúndio, com palavra atrativa**: duas posições. O pronome vai para antes do auxiliar ou fica depois do principal: *A comissão não **se** vai reunir* ou *não vai reunir-**se***. Fica fora a ênclise ao auxiliar depois da palavra atrativa: *não vai-se reunir* e *em que pode-se ver* não seguem a norma.
+**Principal no infinitivo ou no gerúndio, com palavra atrativa**: duas posições. Nos itens 4.2.1 e 4.2.2 do verbete, o manual do STJ põe o pronome antes do auxiliar ou depois do principal: *A comissão não **se** vai reunir* ou *não vai reunir-**se***. A ênclise ao auxiliar só aparece ali no caso sem atração, e o minicurso da UNIFAL-MG, feito com base nas gramáticas de Cunha e Cintra e de Cegalla, também a reserva para quando não há o que peça a próclise. Por isso, *não vai-se reunir* e *em que pode-se ver* ficam fora da norma.
 
-**Principal no particípio**: o pronome só se liga ao **auxiliar**. Sem atração, *O líder **tinha-se** manifestado* ou ***se tinha** manifestado*; com atração, *O líder já **se** tinha manifestado*.
+**Principal no particípio** (item 4.2.3 do verbete): o pronome só se liga ao **auxiliar**. Sem atração, *O líder **tinha-se** manifestado* ou ***se tinha** manifestado*; com atração, só antes do auxiliar: *O líder já **se** tinha manifestado*, e não *já tinha-se manifestado*.
 
-![Quadro com as posições do pronome átono na locução verbal, segundo o manual do STJ. Auxiliar mais infinitivo ou gerúndio, sem palavra atrativa, três posições: a comissão vai-se reunir, vai reunir-se, se vai reunir; a Mesa está-lhes enviando, está enviando-lhes, lhes está enviando os avulsos. Auxiliar mais infinitivo ou gerúndio, com palavra atrativa, duas posições: não se vai reunir, não vai reunir-se; não lhes está enviando, não está enviando-lhes; incorreto: não vai-se reunir. Auxiliar mais particípio, sem atração: tinha-se manifestado ou se tinha manifestado; com atração: já se tinha manifestado; incorreto em qualquer caso: tinha manifestado-se. No pé: a forma sem hífen, vai se reunir, não está no manual do STJ; as fontes divergem, e o texto da aula explica.](imagens/pronome-na-locucao-verbal.svg "O pronome na locução verbal, segundo o manual do STJ")
+![Quadro com as posições do pronome átono na locução verbal admitidas pelo manual do STJ, itens 4.2.1 a 4.2.3 do verbete de colocação pronominal. Auxiliar mais infinitivo ou gerúndio, sem palavra atrativa, três posições: a comissão vai-se reunir, vai reunir-se, se vai reunir; a Mesa está-lhes enviando, está enviando-lhes, lhes está enviando os avulsos. Auxiliar mais infinitivo ou gerúndio, com palavra atrativa, duas posições: não se vai reunir, não vai reunir-se; não lhes está enviando, não está enviando-lhes; fora das posições do manual: não vai-se reunir, não está-lhes enviando. Auxiliar mais particípio, sem atração: tinha-se manifestado ou se tinha manifestado; com atração: já se tinha manifestado; fora das posições do manual: já tinha-se manifestado e, em qualquer caso, tinha manifestado-se. No pé: depois de particípio, nunca; as formas marcadas com xis ficam fora das posições do manual, e a ênclise ao auxiliar depois de palavra atrativa também fica fora no minicurso da UNIFAL-MG, baseado em Cunha e Cintra; a forma sem hífen, vai se reunir, não está no manual do STJ, as fontes divergem, e o texto da aula explica.](imagens/pronome-na-locucao-verbal.svg "O pronome na locução verbal, segundo o manual do STJ")
 
 > [!IMPORTANT]
 > Depois de infinitivo e de gerúndio, o pronome pode ficar; depois de particípio, nunca.
@@ -266,7 +266,7 @@ Falta uma forma muito comum no Brasil: o pronome **entre os dois verbos, sem hí
 - o manual do **STJ** não a registra: entre os verbos, só traz a forma com hífen (*devo-lhe solicitar*);
 - o **Brasil Escola** diz que ela é aceita apenas em contextos informais;
 - o minicurso da **UNIFAL-MG**, feito com base nas gramáticas de Cunha e Cintra e de Cegalla, lista a "próclise ao verbo principal nas locuções verbais" entre as marcas da colocação dos pronomes no Brasil;
-- o **Só Português** dá a colocação como facultativa quando há preposição entre os verbos (*há de se encontrar*) e registra, com particípio, que a forma é comum na língua falada (*haviam me avisado*).
+- o **Só Português** dá a colocação como facultativa quando há preposição entre os verbos (*há de se encontrar*) e registra, com particípio, que a forma é comum na língua falada (*haviam me convencido*).
 
 E a banca? Na prova da Câmara aplicada em março de 2026, o próprio texto de apoio trazia uma locução desse tipo. O item não perguntava se ela estava certa: propunha passar o pronome para depois do infinitivo, com hífen, e a banca deu o item como certo.
 
@@ -280,7 +280,7 @@ Na prova da Câmara aplicada em março de 2026 (mesmo órgão, mesma banca, nív
 1. **obrigatório, facultativo ou incorreto**: o item aponta um *a* ou um *as* do texto e afirma uma das três coisas;
 2. **inserir ou suprimir**: o item afirma que inserir o acento não prejudicaria a correção, ou que, suprimida certa palavra, ele passaria a ser obrigatório;
 3. **justificativa embutida**: o acento ou a preposição são atribuídos à regência de um termo que não é o regente;
-4. **quem rege o quê**: na prova de 2025 para auditor do TCU, a regência veio dentro da análise sintática (a que termo se liga o complemento com preposição), e não numa lista de verbos;
+4. **quem rege o quê**: na prova para auditor do TCU (edital de 2025, aplicada em 22/2/2026), a regência veio dentro da análise sintática (a que termo se liga o complemento com preposição), e não numa lista de verbos;
 5. **deslocar o pronome**: o item propõe outra posição e pergunta se a correção se mantém;
 6. **causa da próclise**: o item diz por que o pronome está antes do verbo;
 7. **colocação e variedade**: o item diz que certa posição é própria do português brasileiro coloquial ou da escrita formal.
@@ -292,7 +292,7 @@ Como todo item composto da banca, basta uma parte errada para o item ser errado.
 
 ## Fontes
 
-- Manual de Redação da Presidência da República, 3ª ed., 2018, item 11.8 (Regência), p. 72 a 77. Presidência da República, Casa Civil. Cópia hospedada pelo ICMBio: https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf
+- Manual de Redação da Presidência da República, 3ª ed., 2018, item 11.8 (Regência), p. 73 a 78. Presidência da República, Casa Civil. Cópia hospedada pelo ICMBio: https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf
 - Manual de Padronização de Textos do STJ, verbetes "colocação pronominal" e "crase". Superior Tribunal de Justiça. Lidos no PDF aberto da 2ª ed., 2016 (p. 57 a 60 e 69 a 70): https://scon.stj.jus.br/docs_intranet/comunicacao/interna/Manual_atualizado.pdf. A edição vigente é a 3ª, de 2024: https://bdjur.stj.jus.br/handle/2011/192484
 - Crase — Manual de Comunicação da Secom. Senado Federal. https://www12.senado.leg.br/manualdecomunicacao/estilos/crase
 - Regência verbal e regência nominal (série de páginas). Só Português. https://www.soportugues.com.br/secoes/sint/sint61.php
@@ -303,4 +303,4 @@ Como todo item composto da banca, basta uma parte errada para o item ser errado.
 - Regência verbal: o que é, como ocorre, exemplos. Guilherme Viana (Brasil Escola). https://brasilescola.uol.com.br/gramatica/regencia-verbal.htm
 - Colocação pronominal: o que é, tipos, exemplos. Guilherme Viana (Brasil Escola). https://brasilescola.uol.com.br/gramatica/colocacao-pronominal.htm
 - Cebraspe. Câmara dos Deputados, Edital nº 1/2025 (nível superior), caderno de Conhecimentos Gerais, aplicado em 8/3/2026, e gabarito definitivo. https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/E61A04B682ABA7AF746F702D22B1516C4A4BC005855CE5CFFF5D2280F3E790CE.pdf
-- Cebraspe. TCU, Auditor Federal de Controle Externo (edital de 2025), caderno de Conhecimentos Básicos, e gabarito definitivo. https://cdn.cebraspe.org.br/concursos/TCU_25_AUFC/arquivos/E853346980B6093207C3ECF8630F11E71C8F39D74F9D7881E2AB5DE760FB5366.pdf
+- Cebraspe. TCU, Auditor Federal de Controle Externo (edital de 2025), caderno de Conhecimentos Básicos, aplicado em 22/2/2026, e gabarito definitivo. https://cdn.cebraspe.org.br/concursos/TCU_25_AUFC/arquivos/E853346980B6093207C3ECF8630F11E71C8F39D74F9D7881E2AB5DE760FB5366.pdf

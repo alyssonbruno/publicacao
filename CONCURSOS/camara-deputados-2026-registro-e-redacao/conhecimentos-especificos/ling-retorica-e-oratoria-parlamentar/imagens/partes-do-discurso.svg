@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="652" viewBox="0 0 1000 652" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="704" viewBox="0 0 1000 704" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
   <defs>
     <marker id="seta" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
       <path d="M0,0 L10,5 L0,10 z" fill="#8c8b85"/>
     </marker>
   </defs>
-  <rect width="1000" height="652" fill="#ffffff"/>
+  <rect width="1000" height="704" fill="#ffffff"/>
 
   <!-- Título -->
-  <text x="24" y="36" font-size="21" font-weight="700" fill="#0b0b0b">As quatro partes do discurso (disposição)</text>
-  <text x="24" y="60" font-size="14" fill="#52514e">Na ordem em que o ouvinte as recebe, com o discurso da aula como exemplo.</text>
+  <text x="24" y="36" font-size="21" font-weight="700" fill="#0b0b0b">As partes do discurso (disposição): o esquema de quatro partes</text>
+  <text x="24" y="60" font-size="14" fill="#52514e">É o esquema mais difundido; a contagem varia por autor. Na ordem em que o ouvinte as recebe, com o discurso da aula.</text>
 
   <!-- Setas -->
   <g stroke="#8c8b85" stroke-width="2" marker-end="url(#seta)">
@@ -101,20 +101,22 @@
     <rect x="744" y="420" width="232" height="38" rx="8" fill="#e4f5ee" stroke="#aedbc8"/>
     <text x="860" y="444">conclusão</text>
   </g>
-  <text x="24" y="478" font-size="12.5" fill="#52514e">Faixa verde: as três partes dos manuais de redação de hoje, que condensam as quatro clássicas.</text>
+  <text x="24" y="478" font-size="12.5" fill="#52514e">Faixa verde: as três partes dos manuais de redação de hoje, que condensam as quatro do esquema.</text>
 
   <!-- Divergência -->
   <g transform="translate(24 494)">
-    <rect width="952" height="104" rx="10" fill="#fdf0e6" stroke="#b4501f" stroke-dasharray="6 4"/>
+    <rect width="952" height="156" rx="10" fill="#fdf0e6" stroke="#b4501f" stroke-dasharray="6 4"/>
     <text x="16" y="26" font-size="15" font-weight="700" fill="#b4501f">Onde as fontes divergem</text>
     <g font-size="14" fill="#0b0b0b">
       <text x="16" y="52">O manual do Senado (2006) lista exórdio, narração, provas e peroração, e diz que a narração é “também</text>
       <text x="16" y="72">conhecida como argumentação”. No livro de Mateus (2018), <tspan font-weight="700">argumentatio</tspan> é o nome latino da <tspan font-weight="700">confirmação</tspan>:</text>
       <text x="16" y="92">a narração só expõe os fatos; quem argumenta é a parte seguinte.</text>
+      <text x="16" y="120">O número de partes também varia: Aristóteles, duas necessárias (exposição e prova) e quatro no máximo;</text>
+      <text x="16" y="140">Retórica a Herênio, seis (com divisão e refutação); Quintiliano, cinco no discurso forense.</text>
     </g>
   </g>
 
   <!-- Fonte -->
-  <text x="24" y="622" font-size="12" fill="#52514e">Fontes: Samuel Mateus, Introdução à Retórica no Séc. XXI (2018), cap. 4; Senado Federal, Manual de Redação Parlamentar e Legislativa</text>
-  <text x="24" y="640" font-size="12" fill="#52514e">(2006), p. 39. Exemplo próprio.</text>
+  <text x="24" y="674" font-size="12" fill="#52514e">Fontes: Samuel Mateus, Introdução à Retórica no Séc. XXI (2018), cap. 4; Senado Federal, Manual de Redação Parlamentar e Legislativa</text>
+  <text x="24" y="692" font-size="12" fill="#52514e">(2006), p. 39; Aristóteles, Retórica, III.13; Rhetorica ad Herennium, I.4; Quintiliano, Institutio Oratoria, III.9. Exemplo próprio.</text>
 </svg>

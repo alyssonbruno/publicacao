@@ -30,7 +30,7 @@
     <path d="M506 37 l-8 -5 v10 z" fill="#1c5cab"/>
     <rect x="514" width="350" height="74" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
     <text x="530" y="25" font-size="16" font-weight="700" fill="#1c5cab">Especificação</text>
-    <text x="530" y="45" font-size="13" fill="#3d3c39">Torna preciso o que foi dito por alto.</text>
+    <text x="530" y="45" font-size="13" fill="#3d3c39">Torna preciso “das mais longas do ano”.</text>
     <text x="530" y="63" font-size="13" fill="#3d3c39">Marcas: dois-pontos e números.</text>
   </g>
   <!-- Frase 3: Descrição -->
@@ -57,8 +57,8 @@
     <path d="M506 37 l-8 -5 v10 z" fill="#3d3c39"/>
     <rect x="514" width="350" height="74" rx="10" fill="#f3f2ee" stroke="#d6d4cb"/>
     <text x="530" y="25" font-size="16" font-weight="700" fill="#3d3c39">Dado</text>
-    <text x="530" y="45" font-size="13" fill="#3d3c39">Informa; não descreve.</text>
-    <text x="530" y="63" font-size="13" fill="#3d3c39">Não é um dos cinco recursos.</text>
+    <text x="530" y="45" font-size="13" fill="#3d3c39">Informa quanto; não mostra como algo é.</text>
+    <text x="530" y="63" font-size="13" fill="#3d3c39">Leitura nossa: não chega a ser descrição.</text>
   </g>
   <!-- Frase 5: Definição -->
   <g transform="translate(24 428)">
@@ -80,7 +80,7 @@
     <circle cx="28" cy="37" r="14" fill="#b4501f"/>
     <text x="28" y="42" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
     <text x="54" y="31" font-size="14" fill="#0b0b0b">Alguns foram úteis; um deles, por exemplo, corrigiu</text>
-    <text x="54" y="52" font-size="14" fill="#0b0b0b">a data de uma audiência…</text>
+    <text x="54" y="52" font-size="14" fill="#0b0b0b">uma data que o relator havia citado errado.</text>
     <line x1="478" y1="37" x2="506" y2="37" stroke="#b4501f" stroke-width="2"/>
     <path d="M506 37 l-8 -5 v10 z" fill="#b4501f"/>
     <rect x="514" width="350" height="74" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>

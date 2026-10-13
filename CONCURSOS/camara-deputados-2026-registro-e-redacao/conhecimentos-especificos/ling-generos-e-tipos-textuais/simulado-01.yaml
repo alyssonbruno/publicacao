@@ -6,7 +6,7 @@ simulado:
   fontes:
     - 'Questões próprias, sobre um texto próprio e fictício (trecho da ata de uma reunião de comissão), no estilo de certo ou errado do Cebraspe: remissão à linha, autor nomeado no item de teoria e, em parte dos itens, uma classificação seguida de uma consequência.'
     - 'Referências de estilo, sem reprodução de itens: cadernos do Cebraspe de Conhecimentos Gerais dos cargos de nível superior da Câmara dos Deputados (Edital nº 1/2025, aplicado em março de 2026) e de Conhecimentos Específicos de Professor de Língua Portuguesa da SEE/DF (edital de 2016, aplicado em 2017), com os gabaritos definitivos; caderno de Conhecimentos Gerais do STM 2025 (só a formulação do item de tipologia; gabarito não conferido).'
-    - 'Bases do gabarito: Grillo, Gêneros do discurso: contribuições do Círculo de Bakhtin (slides, FFLCH-USP); CESAD/UFS, Introdução às Teorias do Discurso, aula 5; Farias e Oliveira, Gêneros textuais e o livro didático (Eutomia, UFPE, 2013); Silva, Produção e Recepção de Texto II, aula 1 (CESAD/UFS); Farias, Compreensão e resumo de textos (Revista de Letras, UFC, 2000); Giraldello, Compreensão leitora (Unoesc & Ciência, 2017). Consultados em 12/10/2026.'
+    - 'Bases do gabarito: Grillo, Gêneros do discurso: contribuições do Círculo de Bakhtin (slides, FFLCH-USP); CESAD/UFS, Introdução às Teorias do Discurso, aula 5; Farias e Oliveira, Gêneros textuais e o livro didático (Eutomia, UFPE, 2013); Silva, Produção e Recepção de Texto II, aula 1 (CESAD/UFS); Farias, Compreensão e resumo de textos (Revista de Letras, UFC, 2000); Giraldello, Compreensão leitora (Unoesc & Ciência, 2017). Consultados em 12/10/2026. Revisão de 13/10/2026: Rodrigues, A notícia de jornal: tipo ou atualização do tipo narrativo (Alfa, Unesp, 1991), para a superestrutura em van Dijk, autor não lido no original.'
 questoes:
   - id: q01
     topico: conhecimentos-especificos/ling-generos-e-tipos-textuais
@@ -53,7 +53,7 @@ questoes:
 
       Considerando o texto e os conceitos de gênero do discurso, tipo textual e níveis de estrutura do texto, julgue o item.
 
-      Na perspectiva de Bakhtin, se a comissão tivesse apreciado, na mesma reunião, matéria inteiramente diversa da que se lê nas linhas 5 a 7, mudaria o tema do enunciado, mas não o conteúdo temático do gênero a que o texto pertence.
+      Na leitura do Círculo de Bakhtin que distingue o tema do enunciado do conteúdo temático do gênero, se a comissão tivesse apreciado, na mesma reunião, matéria inteiramente diversa da que se lê nas linhas 5 a 7, mudaria o tema do enunciado, mas não o conteúdo temático do gênero a que o texto pertence.
   - id: q03
     topico: conhecimentos-especificos/ling-generos-e-tipos-textuais
     enunciado: |-
@@ -122,7 +122,7 @@ questoes:
 
       Considerando o texto e os conceitos de gênero do discurso, tipo textual e níveis de estrutura do texto, julgue o item.
 
-      Na formulação de Marcuschi, o texto materializa o gênero ata, que circula no domínio discursivo legislativo; esse domínio não constitui um gênero, mas a esfera de atividade em que circulam também outros gêneros, como o parecer e o requerimento.
+      A esfera de atividade em que circulam gêneros como a ata e o parecer mencionado na linha 5 corresponde ao que Marcuschi denomina domínio discursivo, o qual não constitui, ele próprio, um gênero.
   - id: q06
     topico: conhecimentos-especificos/ling-generos-e-tipos-textuais
     enunciado: |-
@@ -191,4 +191,4 @@ questoes:
 
       Considerando o texto e os conceitos de gênero do discurso, tipo textual e níveis de estrutura do texto, julgue o item.
 
-      Na perspectiva de van Dijk, a substituição do trecho “o primeiro tratou do custo dos equipamentos; o segundo, do salário dos técnicos; o terceiro, das despesas de manutenção” (linhas 7 a 9) por os três trataram dos gastos do programa exemplifica a macrorregra da generalização.
+      Na perspectiva de van Dijk, a substituição do trecho “o primeiro tratou do custo dos equipamentos; o segundo, do salário dos técnicos; o terceiro, das despesas de manutenção” (linhas 7 a 9) por “os três trataram dos gastos do programa” exemplifica a macrorregra da generalização.

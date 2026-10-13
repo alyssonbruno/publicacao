@@ -4,140 +4,130 @@ simulado:
   tipo: treino
   estilo: certo_errado
   fontes:
-    - 'Questões próprias, cinco delas sobre um texto próprio e fictício (trecho do pronunciamento de um deputado, sem pessoa nem partido reais) e três conceituais, no estilo de certo ou errado do Cebraspe: remissão às linhas do texto e uma afirmação por item.'
+    - 'Questões próprias, cinco delas sobre um texto próprio e fictício (trecho do pronunciamento de uma deputada em sessão solene, sem pessoa, partido nem município reais) e três conceituais, no estilo de certo ou errado do Cebraspe: remissão às linhas do texto e uma afirmação por item.'
     - 'Não há item do Cebraspe sobre retórica e oratória parlamentar nas provas levantadas. O estilo segue o molde geral de certo ou errado da banca, em que o item nomeia um recurso do texto e afirma a sua função, como no caderno de conhecimentos específicos de Analista Legislativo, Taquígrafo Legislativo, da Câmara dos Deputados (CESPE/UnB, 2012), referência de estilo, sem reprodução de itens.'
-    - 'Bases do gabarito, pela aula do tópico: Manual de Redação Parlamentar e Legislativa (Consultoria Legislativa do Senado Federal, 2006), seção Pronunciamentos; Mateus, Introdução à Retórica no Séc. XXI (LabCom.IFP, Universidade da Beira Interior, 2018); Fiorin, Argumentação e discurso (Bakhtiniana, v. 9, n. 1, 2014). Aula consultada em 12/10/2026.'
+    - 'Bases do gabarito, pela aula do tópico: Manual de Redação Parlamentar e Legislativa (Consultoria Legislativa do Senado Federal, 2006), seção Pronunciamentos; Mateus, Introdução à Retórica no Séc. XXI (LabCom.IFP, Universidade da Beira Interior, 2018); Aristóteles, Retórica, livro I, cap. 2 (tradução inglesa de W. Rhys Roberts, edição em hipertexto de Lee Honeycutt); Regimento Interno da Câmara dos Deputados, art. 68. Aula consultada em 13/10/2026.'
 questoes:
   - id: q01
     topico: conhecimentos-especificos/ling-retorica-e-oratoria-parlamentar
     enunciado: |-
-      Texto para o item: trecho fictício do pronunciamento de um deputado sobre projeto que cria um programa de conservação de pontes em estradas rurais, com as linhas numeradas.
+      Texto para o item: trecho fictício do pronunciamento de uma deputada em sessão solene pelo centenário de uma biblioteca pública municipal, com as linhas numeradas.
 
       > **Texto I**
       >
-      > 1. Senhor Presidente, Senhoras e Senhores Deputados, antes de chegar a
-      > 2. esta Casa, trabalhei dezoito anos como engenheiro de estradas no
-      > 3. interior. Conheço de perto as pontes de que vou falar.
-      > 4. Em março do ano passado, a ponte de madeira de um distrito rural
-      > 5. cedeu depois de uma semana de chuva. Durante quarenta dias, o ônibus
-      > 6. escolar não passou, e o leite das propriedades ficou do outro lado
-      > 7. do rio.
-      > 8. O laudo da defesa civil do município, que tenho em mãos, atesta que
-      > 9. a ponte estava havia doze anos sem manutenção. Conservar custa uma
-      > 10. fração do que custa reconstruir. Dirão que os municípios já têm essa
-      > 11. obrigação; têm a obrigação, mas não têm o engenheiro nem a máquina,
-      > 12. e é isso que o programa oferece.
-      > 13. Por isso, peço a este Plenário: aprovemos o projeto. Ponte que cai
-      > 14. isola. Ponte que cai empobrece. Que nenhuma família volte a esperar,
-      > 15. na margem, por um socorro que não consegue atravessar.
+      > 1. Senhor Presidente, Senhoras e Senhores Deputados, esta sessão solene
+      > 2. celebra os cem anos da biblioteca pública de um pequeno município de
+      > 3. serra.
+      > 4. A ata de fundação, de que trago cópia, registra que ela abriu com
+      > 5. trezentos livros doados, numa sala emprestada pela estação de trem.
+      > 6. Fechou-se a ferrovia; a biblioteca continuou. Veio a enchente; a
+      > 7. biblioteca continuou. Mudaram as gerações; a biblioteca continuou.
+      > 8. Foi nela que aprendi a ler, aos seis anos, pela mão de uma
+      > 9. bibliotecária que nunca me perguntou de que família eu vinha.
+      > 10. Honramos hoje quem guardou esses livros por um século: gente que
+      > 11. abriu a porta todos os dias, sem plateia e sem aplauso.
+      > 12. Que o exemplo nos sirva. Cada cidade deste País merece uma porta
+      > 13. assim, aberta a quem chega.
 
       Com base no texto e nos conceitos de retórica e de oratória parlamentar, julgue o item.
 
-      Ao mencionar a própria experiência profissional (linhas 1 a 3), o orador constrói, no discurso, a imagem de pessoa competente para tratar do assunto, o que caracteriza a prova que a retórica clássica denomina ethos.
+      Ao louvar, no presente, as pessoas que mantiveram a biblioteca (linhas 10 e 11), a oradora pratica o ato próprio do gênero que a retórica clássica denomina epidítico.
   - id: q02
     topico: conhecimentos-especificos/ling-retorica-e-oratoria-parlamentar
     enunciado: |-
-      Texto para o item: trecho fictício do pronunciamento de um deputado sobre projeto que cria um programa de conservação de pontes em estradas rurais, com as linhas numeradas.
+      Texto para o item: trecho fictício do pronunciamento de uma deputada em sessão solene pelo centenário de uma biblioteca pública municipal, com as linhas numeradas.
 
       > **Texto I**
       >
-      > 1. Senhor Presidente, Senhoras e Senhores Deputados, antes de chegar a
-      > 2. esta Casa, trabalhei dezoito anos como engenheiro de estradas no
-      > 3. interior. Conheço de perto as pontes de que vou falar.
-      > 4. Em março do ano passado, a ponte de madeira de um distrito rural
-      > 5. cedeu depois de uma semana de chuva. Durante quarenta dias, o ônibus
-      > 6. escolar não passou, e o leite das propriedades ficou do outro lado
-      > 7. do rio.
-      > 8. O laudo da defesa civil do município, que tenho em mãos, atesta que
-      > 9. a ponte estava havia doze anos sem manutenção. Conservar custa uma
-      > 10. fração do que custa reconstruir. Dirão que os municípios já têm essa
-      > 11. obrigação; têm a obrigação, mas não têm o engenheiro nem a máquina,
-      > 12. e é isso que o programa oferece.
-      > 13. Por isso, peço a este Plenário: aprovemos o projeto. Ponte que cai
-      > 14. isola. Ponte que cai empobrece. Que nenhuma família volte a esperar,
-      > 15. na margem, por um socorro que não consegue atravessar.
+      > 1. Senhor Presidente, Senhoras e Senhores Deputados, esta sessão solene
+      > 2. celebra os cem anos da biblioteca pública de um pequeno município de
+      > 3. serra.
+      > 4. A ata de fundação, de que trago cópia, registra que ela abriu com
+      > 5. trezentos livros doados, numa sala emprestada pela estação de trem.
+      > 6. Fechou-se a ferrovia; a biblioteca continuou. Veio a enchente; a
+      > 7. biblioteca continuou. Mudaram as gerações; a biblioteca continuou.
+      > 8. Foi nela que aprendi a ler, aos seis anos, pela mão de uma
+      > 9. bibliotecária que nunca me perguntou de que família eu vinha.
+      > 10. Honramos hoje quem guardou esses livros por um século: gente que
+      > 11. abriu a porta todos os dias, sem plateia e sem aplauso.
+      > 12. Que o exemplo nos sirva. Cada cidade deste País merece uma porta
+      > 13. assim, aberta a quem chega.
 
       Com base no texto e nos conceitos de retórica e de oratória parlamentar, julgue o item.
 
-      O trecho das linhas 4 a 7 corresponde à parte do discurso que a retórica clássica denomina confirmação, na qual o orador apresenta os argumentos favoráveis à sua tese e responde aos contrários.
+      As linhas 12 e 13 correspondem à parte do discurso que a retórica denomina exórdio, na qual o orador prepara o auditório e busca obter dele atenção e boa vontade.
   - id: q03
     topico: conhecimentos-especificos/ling-retorica-e-oratoria-parlamentar
     enunciado: |-
-      Texto para o item: trecho fictício do pronunciamento de um deputado sobre projeto que cria um programa de conservação de pontes em estradas rurais, com as linhas numeradas.
+      Texto para o item: trecho fictício do pronunciamento de uma deputada em sessão solene pelo centenário de uma biblioteca pública municipal, com as linhas numeradas.
 
       > **Texto I**
       >
-      > 1. Senhor Presidente, Senhoras e Senhores Deputados, antes de chegar a
-      > 2. esta Casa, trabalhei dezoito anos como engenheiro de estradas no
-      > 3. interior. Conheço de perto as pontes de que vou falar.
-      > 4. Em março do ano passado, a ponte de madeira de um distrito rural
-      > 5. cedeu depois de uma semana de chuva. Durante quarenta dias, o ônibus
-      > 6. escolar não passou, e o leite das propriedades ficou do outro lado
-      > 7. do rio.
-      > 8. O laudo da defesa civil do município, que tenho em mãos, atesta que
-      > 9. a ponte estava havia doze anos sem manutenção. Conservar custa uma
-      > 10. fração do que custa reconstruir. Dirão que os municípios já têm essa
-      > 11. obrigação; têm a obrigação, mas não têm o engenheiro nem a máquina,
-      > 12. e é isso que o programa oferece.
-      > 13. Por isso, peço a este Plenário: aprovemos o projeto. Ponte que cai
-      > 14. isola. Ponte que cai empobrece. Que nenhuma família volte a esperar,
-      > 15. na margem, por um socorro que não consegue atravessar.
+      > 1. Senhor Presidente, Senhoras e Senhores Deputados, esta sessão solene
+      > 2. celebra os cem anos da biblioteca pública de um pequeno município de
+      > 3. serra.
+      > 4. A ata de fundação, de que trago cópia, registra que ela abriu com
+      > 5. trezentos livros doados, numa sala emprestada pela estação de trem.
+      > 6. Fechou-se a ferrovia; a biblioteca continuou. Veio a enchente; a
+      > 7. biblioteca continuou. Mudaram as gerações; a biblioteca continuou.
+      > 8. Foi nela que aprendi a ler, aos seis anos, pela mão de uma
+      > 9. bibliotecária que nunca me perguntou de que família eu vinha.
+      > 10. Honramos hoje quem guardou esses livros por um século: gente que
+      > 11. abriu a porta todos os dias, sem plateia e sem aplauso.
+      > 12. Que o exemplo nos sirva. Cada cidade deste País merece uma porta
+      > 13. assim, aberta a quem chega.
 
       Com base no texto e nos conceitos de retórica e de oratória parlamentar, julgue o item.
 
-      Por reconstituir um fato passado, a queda de uma ponte, o pronunciamento enquadra-se, pelos critérios da retórica clássica, no gênero judiciário.
+      Ao relatar a própria experiência com a biblioteca (linhas 8 e 9), a oradora desenvolve um raciocínio dedutivo, que parte de um princípio geral aceito pelo auditório, o que caracteriza a prova denominada logos.
   - id: q04
     topico: conhecimentos-especificos/ling-retorica-e-oratoria-parlamentar
     enunciado: |-
-      Texto para o item: trecho fictício do pronunciamento de um deputado sobre projeto que cria um programa de conservação de pontes em estradas rurais, com as linhas numeradas.
+      Texto para o item: trecho fictício do pronunciamento de uma deputada em sessão solene pelo centenário de uma biblioteca pública municipal, com as linhas numeradas.
 
       > **Texto I**
       >
-      > 1. Senhor Presidente, Senhoras e Senhores Deputados, antes de chegar a
-      > 2. esta Casa, trabalhei dezoito anos como engenheiro de estradas no
-      > 3. interior. Conheço de perto as pontes de que vou falar.
-      > 4. Em março do ano passado, a ponte de madeira de um distrito rural
-      > 5. cedeu depois de uma semana de chuva. Durante quarenta dias, o ônibus
-      > 6. escolar não passou, e o leite das propriedades ficou do outro lado
-      > 7. do rio.
-      > 8. O laudo da defesa civil do município, que tenho em mãos, atesta que
-      > 9. a ponte estava havia doze anos sem manutenção. Conservar custa uma
-      > 10. fração do que custa reconstruir. Dirão que os municípios já têm essa
-      > 11. obrigação; têm a obrigação, mas não têm o engenheiro nem a máquina,
-      > 12. e é isso que o programa oferece.
-      > 13. Por isso, peço a este Plenário: aprovemos o projeto. Ponte que cai
-      > 14. isola. Ponte que cai empobrece. Que nenhuma família volte a esperar,
-      > 15. na margem, por um socorro que não consegue atravessar.
+      > 1. Senhor Presidente, Senhoras e Senhores Deputados, esta sessão solene
+      > 2. celebra os cem anos da biblioteca pública de um pequeno município de
+      > 3. serra.
+      > 4. A ata de fundação, de que trago cópia, registra que ela abriu com
+      > 5. trezentos livros doados, numa sala emprestada pela estação de trem.
+      > 6. Fechou-se a ferrovia; a biblioteca continuou. Veio a enchente; a
+      > 7. biblioteca continuou. Mudaram as gerações; a biblioteca continuou.
+      > 8. Foi nela que aprendi a ler, aos seis anos, pela mão de uma
+      > 9. bibliotecária que nunca me perguntou de que família eu vinha.
+      > 10. Honramos hoje quem guardou esses livros por um século: gente que
+      > 11. abriu a porta todos os dias, sem plateia e sem aplauso.
+      > 12. Que o exemplo nos sirva. Cada cidade deste País merece uma porta
+      > 13. assim, aberta a quem chega.
 
       Com base no texto e nos conceitos de retórica e de oratória parlamentar, julgue o item.
 
-      O laudo da defesa civil a que o orador se refere (linhas 8 e 9) exemplifica o tipo de prova que, na retórica clássica, existe antes do discurso e é apenas utilizada pelo orador, diferentemente das provas que ele constrói ao falar.
+      A ata de fundação mencionada pela oradora (linhas 4 e 5) exemplifica o tipo de prova que, na retórica clássica, existe antes do discurso e é apenas utilizado pelo orador, diferentemente das provas que ele constrói ao falar.
   - id: q05
     topico: conhecimentos-especificos/ling-retorica-e-oratoria-parlamentar
     enunciado: |-
-      Texto para o item: trecho fictício do pronunciamento de um deputado sobre projeto que cria um programa de conservação de pontes em estradas rurais, com as linhas numeradas.
+      Texto para o item: trecho fictício do pronunciamento de uma deputada em sessão solene pelo centenário de uma biblioteca pública municipal, com as linhas numeradas.
 
       > **Texto I**
       >
-      > 1. Senhor Presidente, Senhoras e Senhores Deputados, antes de chegar a
-      > 2. esta Casa, trabalhei dezoito anos como engenheiro de estradas no
-      > 3. interior. Conheço de perto as pontes de que vou falar.
-      > 4. Em março do ano passado, a ponte de madeira de um distrito rural
-      > 5. cedeu depois de uma semana de chuva. Durante quarenta dias, o ônibus
-      > 6. escolar não passou, e o leite das propriedades ficou do outro lado
-      > 7. do rio.
-      > 8. O laudo da defesa civil do município, que tenho em mãos, atesta que
-      > 9. a ponte estava havia doze anos sem manutenção. Conservar custa uma
-      > 10. fração do que custa reconstruir. Dirão que os municípios já têm essa
-      > 11. obrigação; têm a obrigação, mas não têm o engenheiro nem a máquina,
-      > 12. e é isso que o programa oferece.
-      > 13. Por isso, peço a este Plenário: aprovemos o projeto. Ponte que cai
-      > 14. isola. Ponte que cai empobrece. Que nenhuma família volte a esperar,
-      > 15. na margem, por um socorro que não consegue atravessar.
+      > 1. Senhor Presidente, Senhoras e Senhores Deputados, esta sessão solene
+      > 2. celebra os cem anos da biblioteca pública de um pequeno município de
+      > 3. serra.
+      > 4. A ata de fundação, de que trago cópia, registra que ela abriu com
+      > 5. trezentos livros doados, numa sala emprestada pela estação de trem.
+      > 6. Fechou-se a ferrovia; a biblioteca continuou. Veio a enchente; a
+      > 7. biblioteca continuou. Mudaram as gerações; a biblioteca continuou.
+      > 8. Foi nela que aprendi a ler, aos seis anos, pela mão de uma
+      > 9. bibliotecária que nunca me perguntou de que família eu vinha.
+      > 10. Honramos hoje quem guardou esses livros por um século: gente que
+      > 11. abriu a porta todos os dias, sem plateia e sem aplauso.
+      > 12. Que o exemplo nos sirva. Cada cidade deste País merece uma porta
+      > 13. assim, aberta a quem chega.
 
       Com base no texto e nos conceitos de retórica e de oratória parlamentar, julgue o item.
 
-      A retomada de “Ponte que cai” em duas frases curtas e seguidas (linhas 13 e 14) é recurso compatível com um texto escrito para ser ouvido, uma vez que o ouvinte, ao contrário do leitor, não pode voltar ao que já foi dito.
+      A retomada de “a biblioteca continuou” ao fim de três períodos seguidos (linhas 6 e 7) é recurso compatível com um texto escrito para ser ouvido, uma vez que o ouvinte, ao contrário do leitor, não pode voltar ao que já foi dito.
   - id: q06
     topico: conhecimentos-especificos/ling-retorica-e-oratoria-parlamentar
     enunciado: |-
@@ -149,10 +139,10 @@ questoes:
     enunciado: |-
       Acerca dos conceitos de retórica e de oratória parlamentar, julgue o item.
 
-      Na origem, a retórica ocupa-se da argumentação como um todo, isto é, do que dizer, em que ordem e de que modo, de sorte que sua identificação com um repertório de figuras de linguagem resulta de redução ocorrida ao longo da história.
+      A lista de tipos de pronunciamento adotada no Manual de Redação Parlamentar e Legislativa do Senado Federal (deliberativo, de propaganda e epidítico) não coincide com a classificação da retórica clássica, da qual faz parte o gênero judiciário.
   - id: q08
     topico: conhecimentos-especificos/ling-retorica-e-oratoria-parlamentar
     enunciado: |-
       Acerca dos conceitos de retórica e de oratória parlamentar, julgue o item.
 
-      Entre as cinco operações em que a tradição retórica divide o trabalho do orador, a invenção é aquela em que se dá forma ao texto, com a escolha das palavras, do estilo e das figuras.
+      Em retórica, o auditório de um pronunciamento restringe-se às pessoas presentes no recinto em que o orador fala.

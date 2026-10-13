@@ -9,31 +9,31 @@
 
 - **Variável**: o ponto da gramática em que há variação (como dizer a primeira pessoa do plural).
 - **Variante**: cada forma que disputa esse ponto (*nós* e *a gente*). A padrão costuma ter prestígio; a não padrão, estigma.
-- **Variedade**: a fala de uma comunidade inteira; o mesmo que **dialeto** ou falar.
+- **Variedade**: a fala de uma comunidade inteira. No livro da UFSC, o mesmo que **dialeto** ou falar; em Travaglia, o termo geral (dialetos e registros).
 
 ## Os cinco nomes
 
 - **Diatópica** (regional, geográfica): o lugar. *Topos*, como em topografia. *Mandioca*, *aipim*, *macaxeira*.
 - **Diastrática** (social): o grupo. Lembra estrato. Escolaridade, nível socioeconômico, sexo, faixa etária, profissão; jargão e gíria.
-- **Diafásica** (estilística, de registro): a situação. Lembra fala: a fala de cada ocasião. **A mesma pessoa** na tribuna e no corredor.
-- **Diamésica**: o meio, fala ou escrita. O discurso falado e a ata.
+- **Diafásica** (estilística, de registro): a situação (interlocutor, ambiente, assunto). Lembra fala: a fala de cada ocasião. **A mesma pessoa** na tribuna e no corredor.
+- **Diamésica**: o meio, fala ou escrita. A mesma pessoa explica um caminho ao telefone e depois o escreve.
 - **Diacrônica** (histórica): o tempo. *Cronos*, como em cronologia. *Vossa mercê* deu *você*.
-- Os tipos **se combinam** na mesma fala. As listas mudam de autor para autor (quatro, cinco, ou dois grupos); o que não muda é o fator de cada nome.
+- Os tipos **se combinam** na mesma fala. As listas mudam de autor para autor (quatro, cinco, ou dois grupos), e o lugar dos fatores também: a divisão acima é a do livro da UFSC e do caderno do Ceale; em Coseriu, as variedades de idade, de sexo e de profissão, no mesmo estrato social, podem ser **diafásicas**.
 
 ## Dialeto × registro
 
-- **Dialeto**: depende de **quem usa** a língua (região, grupo, idade, sexo, geração, função). Acompanha a pessoa em qualquer situação. Na Sociolinguística, é sinônimo de variedade e vale para o regional e para o social. **Idioleto**: o dialeto de um indivíduo.
+- **Dialeto**: depende de **quem usa** a língua. Acompanha a pessoa em qualquer situação. Vale para o regional e para o social, e a variedade de prestígio também é dialeto. **Idioleto**: o dialeto de um indivíduo.
 - **Registro**: depende **do uso**, da situação (interlocutor, ambiente, assunto). Vai do informal ao formal num **contínuo**, conforme o monitoramento.
-- Quadro atribuído a Travaglia (por resumos de terceiros): dialetos em seis dimensões (territorial, social, de idade, de sexo, de geração, de função); registros em três (grau de formalismo, modo, sintonia).
+- Quadro atribuído a Travaglia (por resumos de terceiros): dialetos em seis dimensões (territorial, social, de idade, de sexo, de geração, que é a histórica, e de função, que é o papel de quem fala); registros em três (grau de formalismo; modo, fala ou escrita; sintonia, o ajuste ao ouvinte em status, tecnicidade, cortesia e norma).
 - **Teste**: mude a situação. A marca continua? Dialeto. A marca muda? Registro.
 
 > [!CAUTION]
-> Diatópica é lugar; diafásica é situação: não troque. Formal não é o mesmo que escrito (há fala formal e escrita informal) nem o mesmo que norma-padrão. Informal não é errado. "Dialeto" não é língua inferior.
+> Diatópica é a região de onde a pessoa vem; diafásica é a situação (o ambiente entra aqui): não troque. Formal não é o mesmo que escrito (há fala formal e escrita informal) nem o mesmo que norma-padrão. Informal não é errado. "Dialeto" não é língua inferior. **Preconceito linguístico** é julgar a pessoa pela fala: nenhuma variedade é inferior.
 
 ## Na prova
 
 - O Cebraspe cobra a partir de um texto: o que o texto diz sobre variação e norma, a adequação de uma forma à situação, os fatores da variação, a marca que torna um trecho informal.
-- Item em duas partes: julgue cada uma. Um nome técnico no item: traduza ("lugar", "grupo", "situação", "meio", "tempo") antes de marcar.
+- Item em duas partes: julgue cada uma. Um nome técnico no item: traduza ("lugar", "grupo", "situação", "meio", "tempo") antes de marcar. Jargão, gíria, idade: veja que classificação o item segue.
 
 ## O que rever
 

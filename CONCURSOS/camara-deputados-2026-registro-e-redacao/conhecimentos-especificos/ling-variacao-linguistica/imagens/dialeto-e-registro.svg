@@ -15,15 +15,15 @@
     <text x="20" y="128" font-size="14" font-weight="700" fill="#52514e">Seis dimensões</text>
     <g font-size="15" fill="#0b0b0b">
       <text x="20" y="158"><tspan font-weight="700">1.</tspan> territorial <tspan font-size="13" fill="#52514e">(a região)</tspan></text>
-      <text x="20" y="186"><tspan font-weight="700">2.</tspan> social <tspan font-size="13" fill="#52514e">(a classe, o grupo)</tspan></text>
-      <text x="20" y="214"><tspan font-weight="700">3.</tspan> de idade</text>
+      <text x="20" y="186"><tspan font-weight="700">2.</tspan> social <tspan font-size="13" fill="#52514e">(a classe, o grupo; jargão e gíria)</tspan></text>
+      <text x="20" y="214"><tspan font-weight="700">3.</tspan> de idade <tspan font-size="13" fill="#52514e">(as faixas etárias)</tspan></text>
       <text x="20" y="242"><tspan font-weight="700">4.</tspan> de sexo</text>
-      <text x="20" y="270"><tspan font-weight="700">5.</tspan> de geração</text>
-      <text x="20" y="298"><tspan font-weight="700">6.</tspan> de função <tspan font-size="13" fill="#52514e">(a profissão)</tspan></text>
+      <text x="20" y="270"><tspan font-weight="700">5.</tspan> de geração <tspan font-size="13" fill="#52514e">(os estágios da língua no tempo)</tspan></text>
+      <text x="20" y="298"><tspan font-weight="700">6.</tspan> de função <tspan font-size="13" fill="#52514e">(o papel de quem fala: plural majestático)</tspan></text>
     </g>
     <line x1="20" y1="316" x2="404" y2="316" stroke="#b8cfee"/>
-    <text x="20" y="340" font-size="13" fill="#52514e">Leitura nossa: a 1 é a diatópica;</text>
-    <text x="20" y="358" font-size="13" fill="#52514e">as de grupo (2, 3, 4 e 6) são a diastrática.</text>
+    <text x="20" y="340" font-size="13" fill="#52514e">Leitura nossa, pela divisão do livro da UFSC: a 1 é a diatópica;</text>
+    <text x="20" y="358" font-size="13" fill="#52514e">a 2, a 3 e a 4 são a diastrática; a 5 é a diacrônica.</text>
   </g>
 
   <!-- Registro -->
@@ -40,7 +40,7 @@
       <text x="20" y="214"><tspan font-weight="700">2.</tspan> modo</text>
       <text x="38" y="234" font-size="13" fill="#52514e">língua falada ou língua escrita</text>
       <text x="20" y="270"><tspan font-weight="700">3.</tspan> sintonia</text>
-      <text x="38" y="290" font-size="13" fill="#52514e">ligada à tecnicidade e à cortesia</text>
+      <text x="38" y="290" font-size="13" fill="#52514e">ajuste ao ouvinte: status, tecnicidade, cortesia e norma</text>
     </g>
     <line x1="20" y1="316" x2="404" y2="316" stroke="#f0c3a6"/>
     <text x="20" y="340" font-size="13" fill="#52514e">Leitura nossa: a 1 é a diafásica;</text>

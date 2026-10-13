@@ -3,7 +3,7 @@
 ## O essencial
 
 > [!IMPORTANT]
-> O item se prova **no trecho do texto**, e não no que você sabe do assunto. Volte ao trecho, compare pedaço por pedaço e, sem prova, deixe em branco: em 2026, cada erro anula um acerto.
+> O item se prova **no trecho do texto**, e não no que você sabe do assunto. Volte ao trecho, compare pedaço por pedaço e, sem prova, deixe em branco: na sua prova (prevista para 17/1/2027), cada erro anula um acerto.
 
 ## Como ler
 
@@ -14,11 +14,11 @@
 
 ## Vocabulário e estrutura
 
-- **Cognatos** ajudam e são maioria. **Falsos cognatos** da aula: *actually* (na verdade), *eventually* e *ultimately* (por fim), *to attend* (comparecer), *to assist* (ajudar), *to pretend* (fingir), *to realize* (perceber), *to resume* (retomar), *comprehensive* (abrangente), *policy* (política, diretriz), *agenda* (pauta), *minutes* (ata), *legislature* (o parlamento).
+- **Cognatos** ajudam e são maioria. **Falsos cognatos** da aula: *actually* (na verdade), *eventually* e *ultimately* (por fim), *to attend* (comparecer), *to assist* (ajudar), *to pretend* (fingir), *to realize* (perceber), *to resume* (retomar), *comprehensive* (abrangente), *advocacy* (defesa de uma causa), *policy* (política, diretriz), *agenda* (pauta; objetivos de alguém), *minutes* (ata), *legislature* (o parlamento).
 - *Discretion*: discrição ou, em texto jurídico, liberdade para decidir. O contexto decide.
 - **Pistas de contexto** (Excelsior OWL, adaptado): definição, sinônimo, contraste, exemplo, experiência e frase vizinha.
 - **Afixos**: *un-*, *dis-*, *mis-*, *non-* (negação); *-ful* (com) × *-less* (sem); *-er/-or* (quem faz). *Hardly* = quase não.
-- **Grupo nominal**: o núcleo é o último substantivo; leia de trás para a frente (*speech recognition software* = software de reconhecimento de fala).
+- **Grupo nominal**: sem preposição, o núcleo é o último substantivo; leia de trás para a frente (*speech recognition software* = software de reconhecimento de fala). Com preposição, o núcleo vem antes dela (*the chair of the committee*).
 - Palavras que calibram: *all*, *most*, *some*, *few* × *a few*; *often*, *rarely*; *must*, *may*, *might*.
 
 ## Ideias
@@ -29,7 +29,7 @@
 
 ## Relações
 
-- **Intratextuais**: *it/its* (singular), *they/them/their* (plural, pessoas ou coisas), *this/that* sozinhos (muitas vezes, a ideia inteira), *these/such* + nome, *the former* (o primeiro) × *the latter* (o último). O inglês não marca gênero no substantivo: use o número e o sentido. *His/her* concordam com o dono.
+- **Intratextuais**: *it/its* (singular), *they/them/their* (quase sempre plural, pessoas ou coisas; às vezes, uma pessoa de sexo não dito), *this/that* sozinhos (muitas vezes, a ideia inteira), *these/such* + nome geral (pode reembalar um termo no singular), *the former* (o primeiro) × *the latter* (o último). O inglês não marca gênero no substantivo: use o número e o sentido. *His/her* concordam com o dono.
 - Quatro passos: veja o número; procure para trás; troque e releia; se nenhum nome serve, teste a frase inteira ou olhe para a frente.
 - *Since* pode ser causa ou tempo; o valor dos conectivos está na aula de gramática.
 - **Intertextuais**: o texto cita outros (*according to*, *in the words of*, *argues*, *claims*, aspas). Pergunte sempre **quem diz**: o autor ou alguém citado.

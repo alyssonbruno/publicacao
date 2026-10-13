@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="912" height="600" viewBox="0 0 912 600" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
-  <rect width="912" height="600" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="684" viewBox="0 0 912 684" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="684" fill="#ffffff"/>
 
   <!-- Título -->
   <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Quatro noções, quatro perguntas</text>
@@ -54,12 +54,18 @@
 
   <!-- Pé: pares -->
   <g transform="translate(24 498)">
-    <rect width="864" height="86" rx="10" fill="#ffffff" stroke="#8a8985" stroke-dasharray="6 4"/>
+    <rect width="864" height="170" rx="10" fill="#ffffff" stroke="#8a8985" stroke-dasharray="6 4"/>
     <text x="16" y="24" font-size="13" font-weight="700" fill="#52514e">TRÊS PARES QUE NÃO SE CONFUNDEM</text>
     <g font-size="14" fill="#0b0b0b">
       <text x="16" y="48"><tspan font-weight="700">Paráfrase</tspan> mantém o sentido · <tspan font-weight="700">paródia</tspan> o subverte</text>
-      <text x="16" y="70"><tspan font-weight="700">Citação</tspan> repete as palavras, com a fonte · <tspan font-weight="700">plágio</tspan> esconde a fonte</text>
-      <text x="560" y="48"><tspan font-weight="700">Transcrever</tspan> não é <tspan font-weight="700">retextualizar</tspan></text>
+      <text x="16" y="70"><tspan font-weight="700">Citação</tspan> repete as palavras, com a fonte · <tspan font-weight="700">plágio</tspan> propõe como seu o texto alheio, sem a fonte</text>
+      <text x="16" y="92"><tspan font-weight="700">Transcrever</tspan> busca a fidelidade à fala · <tspan font-weight="700">retextualizar</tspan> adapta o texto</text>
+    </g>
+    <line x1="16" y1="106" x2="848" y2="106" stroke="#d9d7d0"/>
+    <g font-size="13" fill="#52514e">
+      <text x="16" y="126">A paráfrase vem com a fonte na escrita acadêmica e na jornalística; sem a fonte na captação, que não é plágio.</text>
+      <text x="16" y="146">Retextualização × reescritura: a separação dos quadros é critério prático desta aula.</text>
+      <text x="16" y="162">Há autores para quem toda retextualização é reescrita.</text>
     </g>
   </g>
 </svg>

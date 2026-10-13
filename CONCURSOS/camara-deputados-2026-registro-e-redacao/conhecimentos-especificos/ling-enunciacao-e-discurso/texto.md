@@ -19,7 +19,7 @@ O título do item junta nomes que não são da mesma teoria. Convém separá-los
 As linhas discordam entre si. Cabral (2012) mostra que a Análise do Discurso critica Benveniste por tratar a enunciação como ato de um indivíduo que escolhe: para ela, quem fala já fala de dentro de uma história e de um gênero. Guarde a consequência prática: **a mesma palavra muda de definição conforme o autor**.
 
 > [!WARNING]
-> Muitos resumos atribuem a Bakhtin o livro *Marxismo e filosofia da linguagem* (1929). A tradução brasileira antiga saiu com o nome dele; a edição atual (Editora 34, 2017) dá como autor **Valentin Volóchinov**, do Círculo de Bakhtin. De Bakhtin são *Problemas da poética de Dostoiévski* e o ensaio "Os gêneros do discurso".
+> A autoria de *Marxismo e filosofia da linguagem* (1929) é **disputada**. Conforme a edição e quem a cita, a obra aparece como de Bakhtin, de Bakhtin/Volóchinov ou de Valentin Volóchinov, do Círculo de Bakhtin (é o nome que traz a edição da Editora 34, de 2017). As três formas estão nas fontes desta aula: **não julgue um item por esse detalhe**. *Problemas da poética de Dostoiévski* e o ensaio "Os gêneros do discurso" são de Bakhtin.
 
 ## Situação de comunicação
 
@@ -74,12 +74,14 @@ Para marcar sua posição, o locutor usa, na síntese de Flores (2018):
 
 *Eu* e *tu* são as **pessoas** da enunciação. *Ele* é o que Benveniste chama de **não pessoa**: aquele ou aquilo de que se fala, ausente da troca. E os índices se renovam a cada enunciação: *eu* é quem está falando agora; quando o outro toma a palavra, *eu* passa a ser ele.
 
+Essas formas têm nome. **Dêixis** é a remissão do que se diz à própria situação em que se diz, e **dêiticos** são as formas que fazem essa remissão: *eu*, *tu*, *este*, *aqui*, *agora*, *hoje*, *ontem*, *amanhã*. A palavra vem do grego e significa "mostrar". Para Benveniste, porém, na leitura de Ciulla (2020), o que faz um dêitico não é apontar para um objeto: é remeter à instância de discurso em que alguém diz *eu*, e por isso sua referência é única a cada vez.
+
 ![Esquema da enunciação com uma frase de exemplo. No alto, a frase dita por uma relatora numa comissão: "Eu apresento hoje, nesta Casa, o parecer que Vossas Excelências me pediram". Abaixo, cinco caixas, cada uma com uma parte da frase: "Eu" é o locutor, quem enuncia; "Vossas Excelências" é o alocutário, a quem a enunciação se dirige; "hoje" e o presente "apresento" são o agora, o momento da enunciação; "nesta Casa" é o aqui, o lugar da enunciação; e, numa caixa tracejada, "o parecer" é a não pessoa, aquilo de que se fala. Depois, duas faixas: a enunciação é o ato de dizer a frase naquele dia, naquele lugar, para aquelas pessoas, e não se repete; o enunciado é o produto, o que foi dito e fica nas notas taquigráficas, e pode ser lido depois. No pé: índices específicos são pessoa, espaço e tempo; procedimentos acessórios são interrogação, intimação, asserção e modalidades; fora da situação, não se sabe quem é "eu", que dia é "hoje" nem onde é "nesta Casa".](imagens/quadro-da-enunciacao.svg "A enunciação e suas marcas numa frase")
 
-O tempo como categoria que depende do momento da fala já apareceu na aula de categorias semânticas; aqui interessa o conjunto: pessoa, tempo e espaço se definem juntos, a partir de quem enuncia.
+O tempo como categoria **dêitica**, que depende do momento da fala, já apareceu na aula de categorias semânticas; aqui interessa o conjunto: pessoa, tempo e espaço se definem juntos, a partir de quem enuncia.
 
 > [!IMPORTANT]
-> *Eu*, *tu*, *aqui*, *agora*, *hoje* e *este* não têm referente fixo: só se preenchem na enunciação. Fora da situação, não se sabe quem é "eu" nem que dia é "hoje".
+> *Eu*, *tu*, *aqui*, *agora*, *hoje* e *este* são **dêiticos**: não têm referente fixo e só se preenchem na enunciação. Fora da situação, não se sabe quem é "eu" nem que dia é "hoje".
 
 ## Marcas que aparecem e marcas que somem
 
@@ -100,7 +102,7 @@ Apagar as marcas não elimina quem enuncia. Cabral (2012) resume a crítica de B
 
 No fim do artigo "O aparelho formal da enunciação" (1970), Benveniste diz que é preciso distinguir a enunciação falada da **enunciação escrita** e que esta se situa em **dois planos**: "o que escreve se enuncia ao escrever e, no interior de sua escrita, ele faz os indivíduos se enunciarem".
 
-A ata de uma reunião mostra os dois planos. No primeiro, quem redige enuncia: organiza, resume, escolhe os verbos de dizer. No segundo, dentro do texto, os deputados falam: *o relator afirmou que…*, *a deputada respondeu que…*. Flores (2018) observa que pode haver mais de dois planos e que a ideia não vale só para a narrativa literária.
+Benveniste não fala de atas. Aplicar os dois planos à ata de uma reunião é **leitura nossa**, e fica assim: no primeiro plano, quem redige enuncia: organiza, resume, escolhe os verbos de dizer; no segundo, dentro do texto, os deputados falam: *o relator afirmou que…*, *a deputada respondeu que…*. O que autoriza a aproximação é uma observação de Flores (2018): pode haver mais de dois planos, e a ideia não vale só para a narrativa literária.
 
 Do mesmo artigo de Flores saem dois pontos que interessam a quem escreve:
 
@@ -109,25 +111,31 @@ Do mesmo artigo de Flores saem dois pontos que interessam a quem escreve:
 
 Na fala, locutor e alocutário partilham o aqui e o agora. Na escrita, não. Daí a tarefa de quem produz o texto escrito: pôr no texto o que a situação dava de graça. *Ontem* vira data; *aqui*, o nome do lugar; *eu*, o nome ou o cargo de quem falou.
 
-![Quadro em duas colunas que compara a fala de uma relatora na comissão com o registro na ata. À esquerda, a fala, em que locutor e ouvintes partilham o aqui e o agora: "Eu recebi ontem, aqui, o pedido de Vossas Excelências e apresento hoje o parecer". À direita, a ata, em que o leitor está em outro tempo e lugar: "A relatora declarou que recebera o pedido dos membros da comissão em 20 de outubro de 2026, na Câmara dos Deputados, e apresentou o parecer em 21 de outubro de 2026". Entre as colunas, cinco linhas de correspondência: "eu" passa a "a relatora"; "Vossas Excelências" passa a "os membros da comissão"; "ontem" passa a "20 de outubro de 2026"; "aqui" passa a "na Câmara dos Deputados"; "hoje" e o presente "apresento" passam a "21 de outubro de 2026" e ao passado "apresentou". Embaixo, os dois planos da enunciação escrita: plano 1, quem redige a ata enuncia ao escrever; plano 2, dentro do texto, a relatora é posta a falar.](imagens/da-tribuna-a-ata.svg "Da fala à ata: as marcas da situação viram informação no texto")
+![Quadro em duas colunas que compara a fala de uma relatora na comissão com o registro na ata. À esquerda, a fala, em que locutor e ouvintes partilham o aqui e o agora: "Eu recebi ontem, aqui, o pedido de Vossas Excelências e apresento hoje o parecer". À direita, a ata, em que o leitor está em outro tempo e lugar: "A relatora declarou que recebera o pedido dos membros da comissão em 20 de outubro de 2026, na Câmara dos Deputados, e apresentou o parecer em 21 de outubro de 2026". Entre as colunas, cinco linhas de correspondência: "eu" passa a "a relatora"; "Vossas Excelências" passa a "os membros da comissão"; "ontem" passa a "20 de outubro de 2026"; "aqui" passa a "na Câmara dos Deputados"; "hoje" e o presente "apresento" passam a "21 de outubro de 2026" e ao passado "apresentou". Embaixo, os dois planos da enunciação escrita, de Benveniste, aplicados à ata, o que é leitura desta aula: plano 1, quem redige a ata enuncia ao escrever; plano 2, dentro do texto, a relatora é posta a falar. No pé: exemplo e datas fictícios; a reunião do exemplo é a de 21 de outubro de 2026.](imagens/da-tribuna-a-ata.svg "Da fala à ata: as marcas da situação viram informação no texto")
 
 A troca dos tempos verbais nessa passagem foi vista na aula de tempos e modos; as operações de passar da fala para a escrita são da aula de intertextualidade e retextualização.
 
 > [!NOTE]
-> Benveniste só indicou a enunciação escrita, sem desenvolvê-la; Flores apresenta seus pontos como proposta de pesquisa. A aplicação à ata e a regra prática de trocar *ontem* e *aqui* por data e lugar são leitura nossa.
+> Benveniste só indicou a enunciação escrita, sem desenvolvê-la; Flores apresenta seus pontos como proposta de pesquisa. A aplicação dos dois planos à ata, na figura e no texto, e a regra prática de trocar *ontem* e *aqui* por data e lugar são leitura nossa.
 
 ## Texto e discurso
 
 O edital pede "conceitos", no plural, e com razão: não há uma definição única. Cada linha recorta os dois termos de um jeito.
 
-**Texto.** Na Linguística Textual, vista na aula de leitura e coesão, o texto é estudado como um todo de sentido, e não como soma de frases; e a coerência depende também de quem o interpreta. Na linha de Bakhtin, conforme o Brasil Escola, o texto, verbal ou não, é um exemplo de enunciado concreto. Benveniste, como se viu, não toma o texto como objeto: interessa-lhe o ato.
+**Texto.** Três recortes:
+
+- na **Linguística Textual**, vista na aula de leitura e coesão, o texto é um todo de sentido, e não uma soma de frases; e a coerência depende também de quem o interpreta;
+- em **Bakhtin**, no ensaio "O problema do texto", lido por Gonçalves e Alves (2016), texto é, em sentido amplo, "qualquer conjunto coerente de signos", verbal ou não. "Todo texto tem um sujeito, um autor", e o que interessa é o texto **como enunciado**, incluído na comunicação discursiva de um campo;
+- na **Análise do Discurso**, Orlandi, citada por Dantas (2013), separa os dois termos: "discurso é conceito teórico e metodológico e texto é conceito analítico". No resumo de Dantas, o discurso é o objeto teórico; o texto é o objeto empírico, a unidade de que a análise parte.
+
+Benveniste, como se viu, não toma o texto como objeto: interessa-lhe o ato.
 
 **Discurso.** Para Benveniste, é a língua assumida por quem fala: a enunciação converte a língua em discurso. Para Bakhtin, citado por Marcuzzo (2008), é "a língua em sua integridade concreta e viva", e não a língua como sistema abstrato; por isso não é individual: constrói-se entre interlocutores e em relação com outros discursos. Na Análise do Discurso, é "efeito de sentido entre locutores" (Pêcheux, citado por Cabral) ou "palavra em movimento, prática de linguagem" (Orlandi, citada por Alós).
 
 O que essas definições de discurso têm em comum é o que elas recusam: tratar a língua só como sistema, fora do uso. Orlandi, na resenha de Alós, liga o discurso às **condições de produção**: em sentido estrito, o contexto imediato da enunciação; em sentido amplo, o contexto sócio-histórico e ideológico.
 
 > [!NOTE]
-> Leitura nossa, para organizar o estudo: o **texto** é o que se pode apontar (a ata, o parecer, a fala transcrita); o **discurso** é esse texto visto com suas condições de produção (quem, a quem, onde, quando, para quê, a partir de que posição). Nenhuma fonte desta aula dá essa fórmula como definição: não a tome como "a do Cebraspe".
+> Leitura nossa, para organizar o estudo: o **texto** é o que se pode apontar (a ata, o parecer, a fala transcrita); o **discurso** é o que se estuda nesse texto quando entram as condições de produção (quem, a quem, onde, quando, para quê, a partir de que posição). A fórmula se apoia na distinção da Análise do Discurso, mas não é a definição de todas as linhas: não a tome como "a do Cebraspe".
 
 ## Três sentidos de "discurso" que não se misturam
 
@@ -154,27 +162,49 @@ Três cuidados, tirados de Marcuzzo (2008) e de Maciel (2016):
 - dialogismo **não é concordância**: as relações dialógicas incluem acordo e polêmica. Faraco, citado por Maciel, diz que elas "não apontam somente na direção das consonâncias, mas também das multissonâncias e das dissonâncias";
 - dialogismo **não é só citação** de um texto por outro: a relação existe mesmo quando não aparece na superfície. A citação reconhecível é assunto da aula de intertextualidade.
 
-Maciel lembra ainda que o termo mais frequente em Bakhtin é "relações dialógicas", e não "dialogismo". O contrário de dialógico, quando se fala de um tipo de discurso, é **monológico**: o que se apresenta como único e definitivo e não deixa ver os outros discursos que o atravessam.
+Maciel lembra ainda que o termo mais frequente em Bakhtin é "relações dialógicas", e não "dialogismo". O contrário de dialógico, quando se fala de um tipo de discurso, é **monológico**. A definição é de Marcuzzo (2008): o monologismo é o discurso único, definitivo e uniforme, que não deixa ver os outros discursos que o atravessam.
 
 > [!IMPORTANT]
 > O dialogismo é propriedade de **todo** enunciado, e não uma qualidade de alguns textos. Um texto de uma voz só, autoritário, continua sendo resposta a outros dizeres.
 
 ## Polifonia: dois sentidos
 
-Aqui as fontes se dividem, e a aula mostra os dois lados.
+Aqui as fontes se dividem. Esta parte mostra os dois sentidos que partem de Bakhtin; a seguinte, um terceiro uso do termo, o de Ducrot.
 
 **Sentido estrito.** Bakhtin tomou a palavra da música para descrever uma inovação dos romances de Dostoiévski: as personagens têm vozes **plenas e independentes**, em pé de igualdade com a do autor, que não dá a última palavra; o diálogo fica **inconcluso**. Para Maciel (2016), é o conjunto dessas condições que faz a polifonia, ligada ao gênero romance. Não bastam "várias vozes", nem vozes em conflito, nem vozes citadas de modo explícito.
 
 **Sentido largo.** Diana Barros, citada por Maciel e por Marcuzzo, usa o termo para caracterizar um tipo de texto: aquele em que as vozes **se mostram**, em oposição ao texto **monofônico**, em que elas se escondem sob a aparência de uma voz só. Nas palavras dela, "monofonia e polifonia são, portanto, efeitos de sentido", produzidos em discursos que são sempre dialógicos. A aula da UFS segue essa linha, e Marcuzzo conclui com ela: "todo texto é, por essência, dialógico, mas nem todo texto é polifônico".
 
-Maciel discorda expressamente de Barros: para ele, a polifonia não é questão de as vozes serem explícitas nem de quantas são. Faraco, citado por Marcuzzo, chega a dizer que o conceito não recebeu acabamento. E Marcuzzo registra, com Barros, que foram os estudos de Oswald Ducrot que levaram essas ideias de Bakhtin à análise linguística; a teoria dele não é desenvolvida nesta aula.
+Maciel discorda expressamente de Barros: para ele, a polifonia não é questão de as vozes serem explícitas nem de quantas são. Faraco, citado por Marcuzzo, chega a dizer que o conceito não recebeu acabamento. E Marcuzzo registra, com Barros, que foram os estudos de Oswald Ducrot que levaram essas ideias de Bakhtin à análise linguística: é o assunto da próxima parte.
 
-![Quadro comparativo em três colunas. Primeira coluna, dialogismo: princípio constitutivo da linguagem; está em todo enunciado; inclui acordo e polêmica; não depende de citação visível. Segunda coluna, polifonia em sentido estrito, de Bakhtin sobre Dostoiévski, na leitura de Maciel: modo de compor o romance, com vozes plenas e independentes, em igualdade com a do autor; ninguém dá a última palavra, o diálogo fica inconcluso; ligada ao romance; não basta haver várias vozes. Terceira coluna, polifonia em sentido largo, de Barros, seguida pela aula da UFS: efeito de sentido de certos textos; as vozes se mostram; exemplo, as notas taquigráficas de um debate; o oposto é o texto monofônico, em que as vozes se escondem sob uma só, como na ementa de uma lei. No pé, o que os dois sentidos têm em comum: todo texto é dialógico, mas nem todo texto é polifônico; e um aviso: dialogismo e polifonia não são sinônimos.](imagens/dialogismo-e-polifonia.svg "Dialogismo e os dois sentidos de polifonia")
+![Quadro comparativo em três colunas. Primeira coluna, dialogismo: princípio constitutivo da linguagem; está em todo enunciado; inclui acordo e polêmica; não depende de citação visível. Segunda coluna, polifonia em sentido estrito, de Bakhtin sobre Dostoiévski, na leitura de Maciel: modo de compor o romance, com vozes plenas e independentes, em igualdade com a do autor; ninguém dá a última palavra, o diálogo fica inconcluso; ligada ao romance; não basta haver várias vozes. Terceira coluna, polifonia em sentido largo, de Barros, seguida pela aula da UFS: efeito de sentido de certos textos; as vozes se mostram; exemplo, as notas taquigráficas de um debate; o oposto é o texto monofônico, em que as vozes se escondem sob uma só, como na ementa de uma lei. Abaixo das colunas, o que esses dois sentidos têm em comum: todo texto é dialógico, mas nem todo texto é polifônico; e um aviso: dialogismo e polifonia não são sinônimos. Por fim, uma faixa com o terceiro uso do termo, a polifonia em Ducrot, que não é de Bakhtin: ela está no enunciado; o locutor é o responsável pelo enunciado e os enunciadores são pontos de vista postos em cena, sem que sejam palavras de alguém; aparece na negação, na pressuposição e na ironia; a frase "nem todo texto é polifônico" não foi feita para ela.](imagens/dialogismo-e-polifonia.svg "Dialogismo e os usos do termo polifonia")
 
 No sentido largo, a comparação é fácil de fazer. As notas taquigráficas de um debate deixam ver muitas vozes: oradores, apartes, a presidência. A ementa de uma lei fala com uma voz só, embora a lei tenha saído de uma longa disputa. As duas são dialógicas; só a primeira seria chamada de polifônica.
 
 > [!CAUTION]
-> Nos dois sentidos, **dialogismo e polifonia não são sinônimos**, e a polifonia é a noção mais restrita. Item que diga "todo texto é polifônico, pois todo texto é dialógico" confunde os dois. Se o acerto depender de qual sentido de polifonia vale e o item não citar autor, o risco é alto.
+> Nesses dois sentidos, **dialogismo e polifonia não são sinônimos**, e a polifonia é a noção mais restrita. Item que diga "todo texto é polifônico, pois todo texto é dialógico" confunde os dois. Se o acerto depender de qual sentido de polifonia vale e o item não citar autor nem perspectiva, o risco é alto.
+
+## Polifonia em Ducrot: locutor e enunciadores
+
+O terceiro uso do termo não é de Bakhtin. O linguista francês Oswald Ducrot levou a ideia para dentro do enunciado. Na leitura de Costa (2013), ele contesta a tese de que cada enunciado faz ouvir uma voz só e nota que Bakhtin não chegou a pôr essa tese em dúvida para o enunciado isolado.
+
+Ducrot separa duas figuras (Frossard, 2012; Costa, 2013):
+
+- o **locutor** é aquele que o enunciado apresenta como seu responsável; a ele se referem *eu* e as outras marcas de primeira pessoa;
+- os **enunciadores** são os pontos de vista que o enunciado põe em cena. Não é preciso que alguém os tenha dito: a enunciação expressa a posição deles, "mas não, no sentido material do termo, suas palavras".
+
+Diante de cada ponto de vista, o locutor pode assumi-lo, aceitá-lo ou recusá-lo. Os casos que as duas fontes trazem:
+
+- **negação**: na maior parte dos enunciados negativos, chocam-se duas atitudes, uma positiva e a recusa dela. *A medida não aumenta a despesa* põe em cena o ponto de vista de que ela aumenta e o rejeita;
+- **pressuposição**: *A comissão voltou a adiar a votação* afirma o adiamento e traz, como coisa sabida, que já houve outro;
+- **ironia**: o locutor faz ouvir um ponto de vista insustentável, com o qual não concorda.
+
+Costa registra ainda que Ducrot distingue essa polifonia de enunciadores da **polifonia de locutores**, em que uma enunciação atribuída a outro locutor aparece dentro da primeira, como no discurso relatado.
+
+Como o enunciador é um ponto de vista, e não um texto, essa polifonia dispensa texto anterior. Koch, Bentes e Cavalcante, segundo a resenha de Santos, dizem que a polifonia é mais ampla que a intertextualidade justamente porque não exige textos efetivamente existentes. A resenha não diz de qual noção de polifonia as autoras partem; a ligação com os enunciadores de Ducrot é leitura nossa. Também é leitura nossa a consequência: aqui a polifonia é um fato comum, do enunciado, e a frase "nem todo texto é polifônico", feita para os dois sentidos da parte anterior, não se aplica.
+
+> [!WARNING]
+> Em Ducrot, **enunciador** é termo técnico: é um ponto de vista, e não a pessoa que fala. E o **locutor** dele é o responsável pelo enunciado, que pode pôr em cena pontos de vista que não assume. No resto desta aula, "quem enuncia" é o locutor de Benveniste.
 
 ## Esferas sociais de comunicação
 
@@ -205,24 +235,30 @@ Não foi encontrado item da banca sobre enunciação e enunciado, dialogismo e p
 
 O item composto é comum na banca: identifica um mecanismo e tira dele uma consequência. Basta uma das partes estar errada.
 
-Com base nesses moldes, as trocas que esta aula ensina a evitar (leitura nossa): enunciação dada como produto; texto impessoal dado como texto sem enunciador; dialogismo dado como conversa ou como concordância; polifonia dada como sinônimo de dialogismo; esfera dada como gênero; *Marxismo e filosofia da linguagem* como obra de Bakhtin; o discurso da teoria confundido com discurso direto e indireto.
+Com base nesses moldes, as trocas que esta aula ensina a evitar (leitura nossa): enunciação dada como produto; texto impessoal dado como texto sem enunciador; dialogismo dado como conversa ou como concordância; polifonia dada como sinônimo de dialogismo; esfera dada como gênero; o discurso da teoria confundido com discurso direto e indireto.
 
 > [!TIP]
-> Cada erro anula um acerto. Marque quando o item se resolver por uma distinção firme (ato e produto; todo enunciado é dialógico; quem fala, a quem, onde e quando). Se depender de um conceito em que os autores divergem e o item não disser de quem é, deixar em branco é uma opção.
+> Cada erro anula um acerto. Marque quando o item se resolver por uma distinção firme (ato e produto; todo enunciado é dialógico; quem fala, a quem, onde e quando). Se depender de um conceito em que os autores divergem (polifonia, sobretudo) e o item não disser de quem é, deixar em branco é uma opção.
 
 ## Fontes
 
 - Valdir do Nascimento Flores, "A enunciação escrita em Benveniste: notas para uma precisão conceitual", *D.E.L.T.A.*, v. 34, n. 1, 2018, p. 395-417 (as citações de Benveniste, *Problemas de linguística geral II*, e a enunciação escrita): https://www.scielo.br/j/delta/a/M7NWvrwmcmxh9GrTSsKYQhF/?lang=pt
 - Luis Rodolfo Cabral, "Enunciação: entraves para os estudos discursivos", *Littera on line* (UFMA), n. 5, 2012 (Benveniste; a enunciação na Análise do Discurso; Ducrot, Brandão e Pêcheux): https://periodicoseletronicos.ufma.br/index.php/littera/article/view/1273
+- Alena Ciulla, "A dêixis: fenômeno referencial ou enunciativo?", *Revista Investigações* (UFPE), v. 33, n. especial, 2020, p. 200-216 (a dêixis em Benveniste): https://periodicos.ufpe.br/revistas/INV/article/view/244455
 - Patrícia Marcuzzo, "Diálogo inconcluso: os conceitos de dialogismo e polifonia na obra de Mikhail Bakhtin", *Cadernos do IL* (UFRGS), n. 36, 2008 (discurso, dialogismo, monologismo e polifonia; Barros, Faraco, Fiorin): https://seer.ufrgs.br/cadernosdoil/article/view/18908
 - Lucas Vinício de Carvalho Maciel, "Diferenças entre dialogismo e polifonia", *Revista de Estudos da Linguagem* (UFMG), v. 24, n. 2, 2016, p. 580-601 (o sentido estrito de polifonia e a crítica a Barros): https://periodicos.ufmg.br/index.php/relin/article/view/28368
+- Elaine Cristina Medeiros Frossard, "Vozes que revelam: como entender a manipulação em um gênero midiático através da polifonia", *PERcursos Linguísticos* (UFES), v. 2, n. 6, 2012, p. 18-28, seção 2.2 (a teoria polifônica de Ducrot: locutor e enunciadores; pressuposição, negação e ironia): https://periodicos.ufes.br/percursos/article/view/3181
+- Adriana Aparecida Vaz da Costa, "Polifonia: negação e resistência no texto escrito", *Acta Scientiarum. Language and Culture* (UEM), v. 35, n. 4, 2013, p. 337-344 (Ducrot: locutor e enunciador; polifonia de locutores e de enunciadores; a negação): https://periodicos.uem.br/ojs/index.php/ActaSciLangCult/article/view/16169
+- Caroline Cassiana Silva dos Santos, resenha de Koch, Bentes e Cavalcante, *Intertextualidade: diálogos possíveis*, *Nuances* (FCT/UNESP) (polifonia e intertextualidade): https://revista.fct.unesp.br/index.php/Nuances/article/download/380/415/1180
 - Universidade Federal de Sergipe (CESAD), *Produção e Recepção de Texto I*, aula 18 (dialogia e polifonia; textos polifônicos e monofônicos): https://cesad.ufs.br/ORBI/public/uploadCatalago/23114110052020Producao_e_Recepcao_de_Texto_I_Aula_18.pdf
 - Sheila Vieira de Camargo Grillo, "Divulgação científica na esfera midiática", *Intercâmbio* (LAEL/PUC-SP), v. XV, 2006, seção 1 (esfera e campo no Círculo de Bakhtin): https://revistas.pucsp.br/index.php/intercambio/article/view/3691
 - Sheila Vieira de Camargo Grillo, "Gêneros do discurso: contribuições do Círculo de Bakhtin", slides da disciplina Teorias do texto (FFLCH-USP) (enunciado e oração; esferas e gêneros; o destinatário): https://dialogo.fflch.usp.br/sites/dialogo.fflch.usp.br/files/upload/paginas/Ge%CC%82neros%20do%20discurso.pdf
 - Sandra Aparecida Lima Silveira Farias e Luciano Amaral Oliveira, "Gêneros textuais e o livro didático: enfoque formal ou sociocultural?", *Eutomia* (UFPE), n. 12, v. 1, 2013 (a citação de Bakhtin sobre os campos e os gêneros do discurso): https://periodicos.ufpe.br/revistas/EUTOMIA/article/view/422
+- João Batista Costa Gonçalves e Benedito Francisco Alves, "O texto como enunciado na perspectiva translinguística bakhtiniana: uma análise da capa da revista IstoÉ", *Revista Intersecções* (UniAnchieta), ed. 18, ano 9, n. 1, 2016, p. 219-239 (o conceito de texto em Bakhtin): https://revistas.anchieta.br/index.php/RevistaInterseccoes/article/view/1263
+- Aloísio de Medeiros Dantas, "Procedimentos de análise de discurso em romance", *Leia Escola* (UFCG), v. 13, n. 2, 2013, p. 36-45 (texto e discurso em Orlandi): https://ch.revistas.ufcg.edu.br/index.php/Leia/article/view/261
 - Luciana Kuchenbecker Araújo (Brasil Escola), "O que é enunciado?" (o enunciado em Bakhtin e o exemplo da manga): https://brasilescola.uol.com.br/o-que-e/portugues/o-que-e-enunciado.htm
 - Anselmo Peres Alós, resenha de Eni Orlandi, *Análise de Discurso: princípios & procedimentos*, *Signum: Estudos da Linguagem* (UEL), v. 15, n. 3, 2012, p. 389-394 (discurso e condições de produção em Orlandi): https://ojs.uel.br/revistas/uel/index.php/signum/article/view/13004
-- Maria Helena Cruz Pistori, resenha de Valentin Volóchinov, *Marxismo e filosofia da linguagem* (Editora 34, 2017), *Bakhtiniana*, v. 13, n. 2, 2018 (a autoria na edição atual): https://revistas.pucsp.br/index.php/bakhtiniana/article/view/36646
+- Maria Helena Cruz Pistori, resenha de Valentin Volóchinov, *Marxismo e filosofia da linguagem* (Editora 34, 2017), *Bakhtiniana*, v. 13, n. 2, 2018 (o nome de autor que a edição de 2017 traz): https://revistas.pucsp.br/index.php/bakhtiniana/article/view/36646
 - Presidência da República, *Manual de Redação da Presidência da República*, 3ª ed. (2018), Parte I, capítulo 1 e item 3.5 (cópia hospedada pelo ICMBio): https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf
 - Cespe/UnB, Câmara dos Deputados 2012, Analista Legislativo – Taquígrafo Legislativo, caderno de conhecimentos específicos e gabarito definitivo (referência de estilo): https://cdn.cebraspe.org.br/concursos/CD_12_AT/arquivos/CAMARA12_006_22.pdf
 - Cebraspe, SEDUC/AL 2017, cargo 11, prova objetiva de conhecimentos específicos (referência de estilo): https://cdn.cebraspe.org.br/concursos/SEDUC_AL_17/arquivos/MATRIZ_376_SEDUCAL011__PAG_6.PDF

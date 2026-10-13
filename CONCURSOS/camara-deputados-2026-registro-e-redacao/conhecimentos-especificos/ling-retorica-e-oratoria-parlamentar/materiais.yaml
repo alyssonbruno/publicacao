@@ -7,17 +7,18 @@ materiais:
     arquivo: resumo.md
   - tipo: video
     titulo: 20 - A Retórica de Aristóteles | UFPE
-    url: https://www.youtube.com/watch?v=QsQ0HaxjBKo&t=19m30s
+    url: https://www.youtube.com/watch?v=QsQ0HaxjBKo&t=12m28s
     autor: Cedric Ayres
-    duracao_min: 43
+    duracao_min: 31
     descricao: >-
-      Aula gravada numa disciplina de Introdução à Filosofia do curso de Direito da UFPE. O
-      endereço já abre em 19:30; daí até o fim são 24 minutos. Pelos capítulos da descrição do
-      vídeo, esse trecho trata de exemplo e entimema, de ethos, pathos e logos e dos três gêneros
-      (político ou deliberativo, jurídico e epidítico). Não conferimos o conteúdo (o vídeo não pôde
-      ser assistido nem lido por legenda): se algo divergir do texto da aula, vale o texto. As
-      partes do discurso, a lista do manual do Senado e a oratória parlamentar não estão entre os
-      capítulos: ficam no texto.
+      Aula gravada numa disciplina de Introdução à Filosofia do curso de Direito da UFPE. O vídeo
+      inteiro tem 43 minutos; o endereço já abre em 12:28, e daí até o fim são cerca de 31
+      minutos. Pelos títulos dos capítulos na descrição do canal, esse trecho começa nas provas
+      da técnica retórica e segue por exemplo e entimema, ethos, pathos e logos e os três
+      discursos (político ou deliberativo, jurídico e epidítico). Não assistimos ao vídeo nem o
+      lemos por legenda: não sabemos o que há dentro de cada capítulo, e, se algo divergir do
+      texto da aula, vale o texto. As partes do discurso, a lista do manual do Senado e a
+      oratória parlamentar não aparecem entre os capítulos: ficam no texto.
   - tipo: video
     titulo: Nova Retórica, com Prof. Filipe Mantovani (IFSP), parte 1
     url: https://www.youtube.com/watch?v=OsST6rOho3I
@@ -49,11 +50,3 @@ materiais:
       "O sistema retórico" (p. 89 a 123): gêneros, com o quadro comparativo, provas (logos, ethos e
       pathos), os cinco cânones e as partes do discurso. Português de Portugal (género, epidíctico,
       acção). Não trata de parlamento.
-  - tipo: link
-    titulo: Debates históricos (discursos do Plenário da Câmara)
-    url: https://www2.camara.leg.br/atividade-legislativa/plenario/discursos/escrevendohistoria
-    autor: Câmara dos Deputados
-    descricao: >-
-      Acervo oficial de discursos em destaque do Plenário, para o exercício da revisão de 30 dias.
-      Não é texto de estudo. Escolha um discurso antigo, de preferência de comemoração ou de
-      homenagem, e responda às seis perguntas da análise que estão no fim do texto da aula.

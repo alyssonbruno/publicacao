@@ -81,9 +81,6 @@ Para o substantivo, o critério do Só Português é o do valor: o **complemento
 - *a insistência **na votação nominal*** (insiste-se nela): complemento nominal, como o objeto indireto de *insistir*;
 - *o gabinete **do deputado***, *a ata **de ontem***: adjuntos adnominais (posse, caracterização).
 
-> [!NOTE]
-> O par "alvo ou agente" é um critério prático, e nem todo exemplo cabe nele sem discussão. Há páginas didáticas muito lidas que classificam como complemento nominal termos com valor de agente ou de posse: diante de um substantivo, confie no teste do valor, e não na primeira página que a busca trouxer.
-
 ## Coordenação entre termos
 
 Termos coordenados ocupam **a mesma casa** da oração: dois núcleos no sujeito, dois objetos, dois adjuntos.
@@ -112,11 +109,6 @@ Se os elementos coordenados têm a mesma função, a redação formal pede que t
 - **"e que" sem "que" anterior**: *É um projeto antigo, **e que** já recebeu vinte emendas.* Correção: *é um projeto antigo, que já recebeu…* ou *é um projeto antigo e já recebeu…*.
 
 O Manual aponta ainda o defeito inverso, o **falso paralelismo**: dar forma paralela a coisas de natureza diferente. O exemplo dele é *O Presidente visitou Paris, Bonn, Roma e o Papa*, em que três cidades e uma pessoa aparecem no mesmo nível.
-
-O Manual de Comunicação do Senado aplica a mesma ideia à preposição dos termos coordenados: *O relatório refere-se **à** tramitação, **à** votação e **à** sanção*, e não "à tramitação, a votação e a sanção". Os detalhes (quando repetir a preposição, quando há crase) ficam para a aula de regência, crase e colocação.
-
-> [!NOTE]
-> Há aqui uma diferença de exigência. Sandra Bernardo (UERJ) registra que, para os gramáticos, se coordenam **funções**, não formas, e que construções como "quero sossego e que não me amolem" são rejeitadas nos manuais de redação e estilo. Leitura nossa: num item que pergunte pelo "paralelismo sintático", vale o padrão do Manual da Presidência (formas iguais).
 
 ## Correlações: cada metade no seu lugar
 
@@ -148,8 +140,6 @@ As sindéticas recebem o nome da conjunção. São cinco tipos:
 | conclusiva | conclusão | logo, portanto, por isso, por conseguinte, pois (depois do verbo) | *Não há quórum; a sessão está, **pois**, encerrada.* |
 | explicativa | justificativa do que se disse | que, porque, pois (antes do verbo), porquanto | *Votem logo, **que** o prazo termina hoje.* |
 
-A assindética também exprime relações. A aula da UFS usada aqui, com base em Azeredo, mostra que a simples justaposição pode indicar contraste, causa e efeito ou adição. Em *O painel travou, a votação foi suspensa*, não há conjunção, mas há causa e consequência.
-
 > [!WARNING]
 > "Oração coordenada tem sentido completo" é uma simplificação comum. O artigo de Sandra Bernardo mostra que os gramáticos oscilam entre esse critério de sentido e o critério sintático, e que orações como "mas ninguém o encontrou" não se sustentam sozinhas. Fique com o critério sintático: é coordenada a oração que **não exerce função sintática** em outra.
 
@@ -161,8 +151,6 @@ O nome da oração vem da relação que ela estabelece ali, e uma mesma conjunç
 - ***mas*** com valor de adição, na correlação *não só… mas também*. No *mas* que opõe duas ideias, a troca por *e* muda o sentido;
 - ***pois*** antes do verbo explica; depois do verbo, entre vírgulas, conclui (está nas duas linhas da tabela);
 - ***que*** e ***porque*** podem abrir coordenada explicativa ou subordinada causal, assunto de uma parte adiante.
-
-Há também locuções que mudam de gaveta conforme a fonte: o Só Português põe *de modo que* entre as conclusivas (coordenação) e *de sorte que* e *de forma que* entre as consecutivas (subordinação). Um item que dependa só dessa etiqueta é arriscado.
 
 > [!IMPORTANT]
 > Diante de "a conjunção X liga por adição" ou "estabelece relação de oposição", releia as duas orações e dê nome à relação com as suas palavras. Só depois olhe para a conjunção.
@@ -178,8 +166,6 @@ Daí as três famílias:
 - **substantivas**: valem por um substantivo e são sujeito, objeto, complemento nominal, predicativo ou aposto da principal;
 - **adjetivas**: valem por um adjetivo e são adjunto adnominal de um nome da principal;
 - **adverbiais**: valem por um advérbio e são adjunto adverbial da principal.
-
-A subordinada sozinha, pontuada como frase, é o que o Manual da Presidência chama de **frase fragmentada**, a evitar no texto oficial: *A sessão foi suspensa. Porque faltou quórum.* O certo é manter as duas orações no mesmo período.
 
 ## Orações substantivas
 
@@ -223,7 +209,7 @@ O pronome relativo, além de ligar, **tem função dentro da oração adjetiva**
 
 ## Orações adverbiais
 
-Indicam uma circunstância do que se diz na principal e levam o nome dessa circunstância. O Só Português lista nove; a aula da UFS, dez, porque inclui as **modais** (as que indicam o modo).
+Indicam uma circunstância do que se diz na principal e levam o nome dessa circunstância. São nove tipos (há fontes que somam as modais, de modo):
 
 | Tipo | Conjunções mais comuns | Exemplo |
 | --- | --- | --- |
@@ -237,10 +223,7 @@ Indicam uma circunstância do que se diz na principal e levam o nome dessa circu
 | proporcional | à medida que, à proporção que, quanto mais… mais | ***À medida que** os destaques caíam, o plenário esvaziava.* |
 | temporal | quando, enquanto, assim que, logo que | ***Assim que** o painel abriu, os líderes orientaram as bancadas.* |
 
-Dois detalhes que rendem item:
-
-- na **comparativa**, o verbo repetido costuma ficar subentendido: *mais vetos do que a Câmara (apreciou)*. Há oração mesmo sem verbo à vista;
-- na **concessiva**, o fato contrário não impede o da principal (*embora*); na **condicional**, o fato da principal depende do outro (*se*). *Desde que* com subjuntivo é condição, nunca concessão.
+Na **comparativa**, o verbo repetido costuma ficar subentendido: *mais vetos do que a Câmara (apreciou)*. Há oração sem verbo à vista, mas não sem conectivo (*que*, *do que*, *como*, *quanto*): em *O prazo da Câmara é superior ao do Senado*, o período é simples, e a comparação está num termo, o complemento de *superior*.
 
 Os valores de cada conector e as trocas possíveis estão no quadro da aula de coesão textual.
 
@@ -262,8 +245,6 @@ A aula da UFS reproduz cinco recursos práticos de Adriano da Gama Kury para sep
 4. a oração anterior à explicativa costuma ter verbo no **imperativo** (*Suspendam a votação, que o painel travou*);
 5. a causal aceita a troca por ***como*** (no início do período) ou ***uma vez que***; a explicativa, não.
 
-As fontes não coincidem nos detalhes. A aula da UFS inclui *pois* e *que* também entre as conjunções causais, e o Só Português registra *pois* nas duas listas. Antônio Suarez Abreu (UNESP) sustenta que a diferença entre as duas orações é de grau, e não um corte nítido.
-
 > [!NOTE]
 > Leitura nossa: se o item pede o **valor** ("expressa a causa de…", "justifica a ordem anterior"), aplique os testes e marque. Se o gabarito depender só do rótulo "coordenada" ou "subordinada" numa frase em que os testes não decidem, é item para deixar em branco.
 
@@ -278,13 +259,12 @@ A oração **reduzida** tem o verbo numa forma nominal (infinitivo, gerúndio ou
 | gerúndio | ***Havendo acordo**, a votação será simbólica.* | se houver acordo | adverbial condicional |
 | particípio | ***Encerrada a discussão**, passou-se à votação.* | depois que a discussão foi encerrada | adverbial temporal |
 
-Segundo a aula da UFS, as substantivas só se reduzem de infinitivo. Para as adjetivas, as fontes divergem: a UFS cita o infinitivo e o gerúndio; o Só Português e o Norma Culta incluem o particípio (*o texto **aprovado pela comissão*** = que foi aprovado pela comissão). A mesma aula da UFS classifica como coordenadas algumas orações de gerúndio que apenas somam um fato (*O Plenário aprovou o texto, rejeitando os destaques* = e rejeitou os destaques).
+As substantivas só se reduzem de infinitivo; as adjetivas, de infinitivo, de gerúndio ou de particípio (*o texto **aprovado pela comissão*** = que foi aprovado pela comissão); as adverbiais, de qualquer das três formas.
 
-Três cuidados no estilo da banca:
+Dois cuidados no estilo da banca:
 
 - **o sujeito da reduzida**: em *O relator leu o parecer, **destacando** os pontos polêmicos*, quem destaca é o relator. Em *Encerrada a discussão*, o sujeito é *a discussão*, e o particípio concorda com ele;
-- **a que termo ela se liga**: nem todo *para* + infinitivo é adjunto adverbial de finalidade. Em *O deputado correu **para votar***, a oração liga-se ao verbo (finalidade). Em *O Plenário rejeitou o pedido **para adiar a votação***, liga-se ao substantivo *pedido* (era um pedido de adiamento), e não indica a finalidade de *rejeitou*;
-- **sujeito com preposição**: o Manual da Presidência manda evitar a contração da preposição com o sujeito do infinitivo: *É hora **de o** Plenário votar*, e não "do Plenário votar". A preposição rege a oração inteira, não o sujeito dela.
+- **a que termo ela se liga**: nem todo *para* + infinitivo é adjunto adverbial de finalidade. Em *O deputado correu **para votar***, a oração liga-se ao verbo (finalidade). Em *O Plenário rejeitou o pedido **para adiar a votação***, liga-se ao substantivo *pedido* (era um pedido de adiamento), e não indica a finalidade de *rejeitou*.
 
 > [!CAUTION]
 > "As duas orações exercem função adverbial e expressam finalidade": confira uma por uma a que palavra cada oração se liga. Se uma delas completa ou caracteriza um nome, a afirmação cai, ainda que as duas comecem por *para*.
@@ -313,15 +293,10 @@ Orações subordinadas também podem ser **coordenadas entre si**, quando têm a
 
 As trocas que os moldes do Cebraspe exploram neste assunto (os motivos são leitura nossa: a banca só publica justificativa de item anulado ou alterado):
 
-1. **mesma preposição, funções diferentes**: agente da passiva, objeto indireto, complemento nominal e adjunto adnominal podem começar todos por *de* ou *por*;
-2. **classes diferentes dadas como de mesma função**: em *o plenário lotado*, o adjetivo caracteriza o nome (adjunto adnominal); em *o Plenário Ulysses Guimarães*, o nome próprio apenas o identifica (aposto). Os dois se ligam a um substantivo, mas não com o mesmo papel;
-3. **justificativa falsa para fato verdadeiro**: a vírgula está certa, mas não pela razão que o item dá (por exemplo, "separar orações de mesmo sujeito");
-4. **finalidade em bloco**: dois *para* + infinitivo, um ligado ao verbo e outro ligado a um nome;
-5. **descrição errada do conectivo**: o item acerta que o *e* soma duas orações, mas erra ao dizer de que tipo elas são ou o que as introduz;
-6. **valor trocado**: *desde que* dado como concessivo; *mas* dado como aditivo fora da correlação;
-7. **sujeito único**: "todas as orações do período têm o mesmo sujeito", quando uma delas tem outro;
-8. **função do relativo**: o *que* dado como sujeito nas duas adjetivas;
-9. **nome inteiro da oração**: raro, mas existe (um item do TCU aplicado em 2026 classificava uma oração como "subordinada adverbial comparativa", e o gabarito foi *errado*).
+1. **classes diferentes dadas como de mesma função**: em *o plenário lotado*, o adjetivo caracteriza o nome (adjunto adnominal); em *o Plenário Ulysses Guimarães*, o nome próprio diz qual é o plenário (**aposto especificativo**: individualiza o nome e vem sem vírgula). Os dois se ligam a um substantivo, mas não com o mesmo papel;
+2. **justificativa falsa para fato verdadeiro**: a vírgula está certa, mas não pela razão que o item dá (por exemplo, "separar orações de mesmo sujeito");
+3. **descrição errada do conectivo**: o item acerta que o *e* soma duas orações, mas erra ao dizer de que tipo elas são ou o que as introduz;
+4. **nome inteiro da oração**: raro, mas existe. Um item do TCU aplicado em 2026 dava como "subordinada adverbial comparativa" a oração única de um período simples, em que a comparação vinha no complemento de um adjetivo (do tipo *superior a*); o gabarito foi *errado*.
 
 No paralelismo, o molde é o da reescrita: troca-se uma oração por um substantivo (*que há* por *a existência de*) **nas duas ocorrências** e pergunta-se se a correção e o paralelismo se mantêm. Se a troca é feita dos dois lados e a regência continua certa, mantêm-se; se é feita de um lado só, o paralelismo se quebra.
 
@@ -330,14 +305,12 @@ No paralelismo, o molde é o da reescrita: troca-se uma oração por um substant
 
 ## Fontes
 
-- Manual de Redação da Presidência da República, 3ª ed., 2018: seções 11.2 (sujeito preposicionado), 11.3 (frases fragmentadas), 11.4 (erros de paralelismo), 11.8 (regência) e 11.9.1 (vírgula). Cópia hospedada pelo ICMBio. https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf
-- Paralelismo sintático. Manual de Comunicação da Secom, Senado Federal. https://www12.senado.leg.br/manualdecomunicacao/estilos/paralelismo-sintatico
+- Manual de Redação da Presidência da República, 3ª ed., 2018: seções 11.4 (erros de paralelismo) e 11.8 (regência). Cópia hospedada pelo ICMBio. https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf
 - Língua Portuguesa III — Aula 2: orações coordenadas. José Araújo Filho, CESAD/UFS. https://cesad.ufs.br/ORBI/public/uploadCatalago/17261316022012Lingua_Portuguesa_III_Aula_2.pdf
 - Língua Portuguesa III — Aula 7: as orações subordinadas adverbiais I (com os recursos de Adriano da Gama Kury, *Novas lições de análise sintática*). José Araújo Filho, CESAD/UFS. https://cesad.ufs.br/ORBI/public/uploadCatalago/17262616022012Lingua_Portuguesa_III_Aula_7.pdf
 - Língua Portuguesa III — Aula 9: as orações reduzidas. José Araújo Filho, CESAD/UFS. https://cesad.ufs.br/ORBI/public/uploadCatalago/17263216022012Lingua_Portuguesa_III_Aula_9.pdf
 - Reflexões sobre coordenação e subordinação. Sandra Bernardo, revista *Soletras*, UERJ, ano IV, n. 7, 2004. https://www.e-publicacoes.uerj.br/soletras/article/download/4482/3284/17193
 - Subordinação e coordenação de termos (resumo de Flávia Carone, *Subordinação e coordenação: confrontos e contrastes*). Alexandra Soares de Oliveira e Paula Fernanda Eick Cardoso, UFPel, 2016. https://anais-siiepe.ufpel.edu.br/2016/LA_03130.pdf
-- Coordenação e subordinação: uma proposta de descrição gramatical. Antônio Suarez Abreu, revista *Alfa*, v. 41, 1997 (resumo e introdução). https://periodicos.fclar.unesp.br/alfa/article/download/4009/3679/9769
 - Só Português: período composto e coordenação (sint24 e sint27), subordinação (sint29 a sint36 e sint41 a sint43) e adjunto adnominal × complemento nominal (sint21). https://www.soportugues.com.br/secoes/sint/sint24.php
 - Orações reduzidas. Flávia Neves, Norma Culta. https://www.normaculta.com.br/oracoes-reduzidas/
 - Cebraspe. Câmara dos Deputados, Edital nº 1/2025, nível superior: caderno de conhecimentos gerais, aplicado em 8/3/2026, e gabarito definitivo. https://cdn.cebraspe.org.br/concursos/CD_25_NS/arquivos/E61A04B682ABA7AF746F702D22B1516C4A4BC005855CE5CFFF5D2280F3E790CE.pdf

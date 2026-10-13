@@ -8,7 +8,7 @@
 ## Compreensão interpretativa (3.6)
 
 - **Propósito do autor**: a finalidade do texto (informar, convencer, criticar, valorizar). Não é o assunto nem a tese. Pistas: título, palavras de avaliação, fecho, o que predomina, gênero.
-- **De quem é a opinião**: *segundo*, *para*, verbos de dizer, aspas e futuro do pretérito marcam a voz de outro. Relatar uma opinião não é adotá-la.
+- **De quem é a opinião**: *segundo*, *para*, verbos de dizer e aspas costumam marcar a voz de outro; o futuro do pretérito, muitas vezes (em outros usos, é modalizador do próprio autor). Relatar uma opinião não é adotá-la.
 - **Informações implícitas**: **posto** (o que está dito), **pressuposto** (vem de uma marca da frase: *voltou a*, *ainda*, *deixou de*; é estável) e **subentendido** (depende da situação; é incerto, e quem fala pode negá-lo).
 - Teste da emenda: "aliás, não". Se a frase segue fazendo sentido, era subentendido ("alguns foram úteis; aliás, todos"); se vira contradição, era pressuposto.
 - **Fato × opinião**: fato é acontecimento, afirmação que se pode conferir ("durou seis horas"); opinião é modo de ver ("trabalho admirável"). Teste: como eu comprovaria isso?
@@ -27,7 +27,7 @@
 - **Especificação**: torna preciso o que foi dito por alto (dois-pontos, *isto é*, números, nomes).
 - **Exemplificação**: um caso entre outros, para esclarecer ou sustentar (*por exemplo*, *como*). Não esgota; pode vir sem marca.
 - **Definição**: diz o que a coisa é: termo + classe + traços (*é*, *consiste em*, *considera-se*). Vale para todos os casos.
-- **Descrição**: diz como algo é ou estava: partes, atributos, estado; o tempo não avança. Número não é descrição.
+- **Descrição**: diz como algo é ou estava: partes, atributos, estado; o tempo não avança. Dar um número não é, por si só, descrever (leitura nossa de um item da banca).
 
 > [!CAUTION]
 > Nem todo "é" define: "é um trabalho admirável" avalia. E "o autor defende" só vale para o que o autor diz com a própria voz.

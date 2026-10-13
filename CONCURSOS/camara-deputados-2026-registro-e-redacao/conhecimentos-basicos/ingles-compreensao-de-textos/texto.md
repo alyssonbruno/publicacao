@@ -1,6 +1,6 @@
 # Inglês: compreensão de textos
 
-![Uma mulher lê uma folha impressa numa mesa clara e liga com um lápis dois trechos do texto por uma linha curva; ao lado, um caderno aberto e uma xícara](imagens/abertura.webp)
+![Uma mulher lê uma folha impressa numa mesa clara e aponta com o dedo um trecho no alto do texto, com a outra mão pousada sobre outro trecho mais abaixo; ao lado, um caderno aberto e uma xícara](imagens/abertura.webp)
 
 O edital pede, em Língua Inglesa (item 1, p. 51): "Compreensão de textos variados: domínio do vocabulário e da estrutura da língua, ideias principais e secundárias, explícitas e implícitas, relações intratextuais e intertextuais". Em resumo: ler um texto em inglês e julgar afirmações sobre ele.
 
@@ -15,11 +15,11 @@ O texto, o comando e os itens vêm **em inglês**. Nas provas que lemos, o coman
 Pela nossa leitura dos nove itens válidos (um foi anulado), quase todos eram deste tópico: sentido de uma expressão, referência de um pronome, ideia geral, ideia principal, conclusão autorizada pelo texto, informação parafraseada e atitude do autor. Só um tratava de tempo verbal.
 
 > [!IMPORTANT]
-> Em 2026, cada item errado **anula** um certo (+1 e −1). Em inglês, isso muda a conta: item que você não consegue provar no texto fica em branco.
+> Na sua prova (edital de 2026, prevista para 17/1/2027), cada item errado **anula** um certo (+1 e −1). Em inglês, isso muda a conta: item que você não consegue provar no texto fica em branco.
 
 ## Antes de ler: o que os itens pedem
 
-A expressão que abre o item diz que tipo de leitura ele exige. Vale a pena reconhecer de longe expressões como estas (as de inferência, de ideia principal, de retomada e de troca apareceram nas provas de 2025):
+A expressão que abre o item diz que tipo de leitura ele exige. Vale a pena reconhecer de longe expressões como estas (as de inferência, de ideia principal, de retomada e de troca apareceram nas provas da Câmara 2025 e do TCU, ambas de editais de 2025 e aplicadas em 2026):
 
 | O item diz | O que ele quer | Onde está nesta aula |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ A expressão que abre o item diz que tipo de leitura ele exige. Vale a pena reco
 O item também aponta o lugar pelo número de ordem: *the second sentence of the third paragraph* é a segunda frase do terceiro parágrafo. Os ordinais são *first*, *second*, *third*, *fourth*, *fifth* e *last* (a última).
 
 > [!TIP]
-> Conte as frases pelo ponto final e marque o trecho a lápis antes de julgar. Metade do erro em item com endereço é ler a frase errada.
+> Conte as frases pelo ponto final e localize o trecho antes de julgar. Metade do erro em item com endereço é ler a frase errada.
 
 ## Duas leituras: a rápida e a de busca
 
@@ -72,7 +72,7 @@ No texto da aula, muitas das palavras de conteúdo são cognatas: *parliaments*,
 Textos acadêmicos e jurídicos, como os da Câmara 2025, usam muito vocabulário de origem latina. Por isso, em geral, são **mais transparentes** para quem lê português do que um diálogo informal.
 
 > [!TIP]
-> Na primeira leitura, sublinhe os cognatos e os nomes próprios. Com eles, você já tem o esqueleto do assunto antes de se preocupar com o resto.
+> Na primeira leitura, repare nos cognatos e nos nomes próprios. Com eles, você já tem o esqueleto do assunto antes de se preocupar com o resto.
 
 ## Falsos cognatos: parecem, mas não são
 
@@ -89,19 +89,20 @@ Textos acadêmicos e jurídicos, como os da Câmara 2025, usam muito vocabulári
 | *to realize* | perceber, dar-se conta (o sentido mais comum) | realizar (fazer) | *to carry out* |
 | *to resume* | retomar, recomeçar | resumir | *to summarize* |
 | *comprehensive* | abrangente, completo | compreensivo | *understanding* |
+| *advocacy* | defesa de uma causa ou de um interesse (o sentido mais comum) | advocacia, a profissão | *the practice of law*, *the legal profession* |
 | *policy* | política (diretriz), norma de conduta | polícia; a política como atividade | *police*; *politics* |
-| *agenda* (de reunião) | pauta, lista de assuntos | só a agenda de compromissos | *diary*, *planner* |
+| *agenda* | pauta de uma reunião; também o conjunto de objetivos de alguém (*a political agenda*) | a agenda de papel, em que se anotam compromissos | *diary*, *planner* |
 | *minutes* (de reunião) | ata | só "minutos" | — |
 | *legislature* | o órgão legislativo, o parlamento | legislatura (período) | *term*, *legislative term* |
 
 Um trecho inventado, com seis deles:
 
-> The House eventually passed the bill, but only a few members actually attended the sitting. The Speaker then resumed the debate on the next item of the agenda, and the clerk recorded the decision in the minutes.
+> The Speaker suspended the sitting at noon and resumed the debate an hour later. Few members actually attended the rest of the sitting, but the House eventually passed the bill, the last item on the agenda, and the clerk recorded the decision in the minutes.
 
-A Câmara **por fim** aprovou o projeto, mas só alguns membros **de fato compareceram** à sessão. O presidente então **retomou** o debate do item seguinte da **pauta**, e o servidor registrou a decisão na **ata**. *Speaker*, com maiúscula, é quem preside a casa, e não um orador qualquer; *bill* é o projeto de lei, e *sitting*, a sessão.
+O presidente suspendeu a sessão ao meio-dia e **retomou** o debate uma hora depois (o debate que tinha parado, e não um resumo dele). Poucos membros **de fato compareceram** ao resto da sessão, mas a Câmara **por fim** aprovou o projeto, último item da **pauta**, e o servidor registrou a decisão na **ata**. *Speaker*, com maiúscula, é quem preside a casa, e não um orador qualquer; *bill* é o projeto de lei, e *sitting*, a sessão.
 
 > [!CAUTION]
-> Algumas palavras têm os dois sentidos, e só o contexto decide. *Discretion* é discrição, mas, em textos jurídicos, *to have discretion* é ter **liberdade para decidir** (discricionariedade). A Câmara 2025 teve um item errado que trocava uma expressão por outra de som parecido para o leitor brasileiro.
+> Algumas palavras têm os dois sentidos, e só o contexto decide. *Discretion* é discrição, mas, em textos jurídicos, *to have discretion* é ter **liberdade para decidir** (discricionariedade). A Câmara 2025 teve um item errado que trocava uma expressão por outra de som parecido para o leitor brasileiro. O mesmo texto falava da *advocacy agenda* de quem redige projetos de lei: nem advocacia nem pauta, e sim os objetivos que a pessoa defende.
 
 ## Palavra desconhecida: use as pistas do contexto
 
@@ -137,11 +138,13 @@ Cuidado com dois advérbios em *-ly* que não seguem o adjetivo: *hardly* é "qu
 
 ## Estrutura da língua: o grupo nominal
 
-Em inglês, os modificadores vêm **antes** do substantivo principal. O livro da CAPES/UAB chama o conjunto de **grupo nominal**: um núcleo (o último substantivo) e as palavras que o modificam. Para entender, leia **de trás para a frente**.
+Em inglês, os modificadores vêm **antes** do substantivo principal. O livro da CAPES/UAB chama o conjunto de **grupo nominal**: um núcleo (o substantivo principal) e as palavras que o modificam. Quando os modificadores vêm enfileirados, sem preposição, o núcleo é o **último substantivo**: leia **de trás para a frente**.
 
-![Três grupos nominais em inglês, cada um com uma seta da direita para a esquerda, que mostra a ordem de leitura. Speech recognition software: o núcleo é software, a última palavra; lê-se software de reconhecimento de fala. Committee meeting minutes: o núcleo é minutes; lê-se atas das reuniões da comissão. The official parliamentary record: o núcleo é record; lê-se o registro parlamentar oficial. No pé, o cuidado: speech recognition software é um software, e não uma fala; committee meeting minutes são atas, e não uma comissão.](imagens/grupo-nominal.svg "Grupo nominal: comece pelo último substantivo")
+![Três grupos nominais em inglês, sem preposição, cada um com uma seta da direita para a esquerda, que mostra a ordem de leitura. Speech recognition software: o núcleo é software, a última palavra; lê-se software de reconhecimento de fala. Committee meeting minutes: o núcleo é minutes; lê-se atas das reuniões da comissão. The official parliamentary record: o núcleo é record; lê-se o registro parlamentar oficial. No pé, o cuidado: speech recognition software é um software, e não uma fala; committee meeting minutes são atas, e não uma comissão; com preposição, como em the chair of the finance committee, o núcleo vem antes dela: chair.](imagens/grupo-nominal.svg "Grupo nominal sem preposição: comece pelo último substantivo")
 
 *Speech recognition software* não é uma "fala" de alguma coisa: é um *software*. *Committee meeting minutes* são atas (das reuniões da comissão), e não uma comissão.
+
+Com **preposição** (*of*, *for*, *in*), a ordem é a do português, e o núcleo vem **antes** dela. Em *the chair of the finance committee*, o núcleo é *chair* (quem preside a comissão de finanças), e não *committee*. Esse caso não está no livro: é da gramática geral do inglês.
 
 Em frase longa, ache primeiro o **sujeito e o verbo principal**; o resto é detalhe. Em *The bill that the committee amended last week was rejected by the House*, o esqueleto é *The bill was rejected* (o projeto foi rejeitado). Quem emendou foi a comissão; quem rejeitou foi a Câmara.
 
@@ -229,13 +232,13 @@ Relações intratextuais são as ligações **dentro** do texto. A que mais apar
 As palavras que retomam:
 
 - *it*, *its*: uma coisa ou uma ideia no **singular**;
-- *they*, *them*, *their*: um **plural**, de pessoas ou de **coisas** (em português, "eles" faz pensar em gente; em inglês, não);
+- *they*, *them*, *their*: quase sempre um **plural**, de pessoas ou de **coisas** (em português, "eles" faz pensar em gente; em inglês, não). Também retomam **uma pessoa só**, quando o texto não diz se é homem ou mulher: *Each member signs their own report*;
 - *this*, *that*: sozinhos, muitas vezes retomam **uma ideia inteira**, e não uma palavra só;
-- *these* / *those* / *such* + substantivo (*these tools*, *such measures*): um nome geral que reembala algo já dito;
+- *these* / *those* / *such* + substantivo (*these tools*, *such measures*): um nome geral que reembala algo já dito, que pode estar no singular;
 - *the former* (o primeiro citado) e *the latter* (o último citado);
 - *who*, *which*, *that*: em geral, o nome que vem logo antes.
 
-![Quadro com sete linhas; em cada uma, um trecho do texto da aula com a palavra de retomada sublinhada e, à direita, o que ela retoma. Although it is often described as verbatim: it aponta para a frente, para the official report, que vem depois na mesma frase. And they correct grammatical mistakes: they retoma Reporters, plural. When leaving them in would distract readers: them retoma grammatical mistakes, plural. This does not mean that they are free: This retoma a frase anterior inteira, o fato de os taquígrafos editarem. Its meaning must stay exactly the same: its retoma a speech, singular. Supporters argue that these tools save time: these tools retoma speech recognition software, um nome geral que reembala o termo. Review every draft before it is published: it retoma every draft, singular. No pé, os passos: veja o número, procure os candidatos, troque e releia; se nenhum nome serve, teste a frase inteira.](imagens/quem-retoma-quem.svg "As retomadas do texto da aula")
+![Quadro com sete linhas; em cada uma, um trecho do texto da aula com a palavra de retomada sublinhada e, à direita, o que ela retoma. Although it is often described as verbatim: it aponta para a frente, para the official report, que vem depois na mesma frase. And they correct grammatical mistakes: they retoma Reporters, plural. When leaving them in would distract readers: them retoma grammatical mistakes, plural. This does not mean that they are free: This retoma a frase anterior inteira, o fato de os taquígrafos editarem. Its meaning must stay exactly the same: its retoma a speech, singular. Supporters argue that these tools save time: these tools retoma speech recognition software, um nome geral, no plural, que reembala um termo no singular; decide o sentido. Review every draft before it is published: it retoma every draft, singular. No pé, os passos: veja o número, procure os candidatos, troque e releia (com nome geral, decide o sentido); se nenhum nome serve, teste a frase inteira.](imagens/quem-retoma-quem.svg "As retomadas do texto da aula")
 
 Duas diferenças em relação ao português ajudam:
 
@@ -243,13 +246,13 @@ Duas diferenças em relação ao português ajudam:
 - *his* e *her* concordam com o **dono**, e não com a coisa possuída: *her speech* é o discurso **dela**.
 
 > [!NOTE]
-> Esta parte e a seguinte são construção nossa, a partir do modo como a banca cobrou a referência nas provas de 2025 e da gramática geral do inglês: as fontes de leitura que consultamos não tratam do assunto.
+> Esta parte e a seguinte são construção nossa, a partir do modo como a banca cobrou a referência nas provas dos editais de 2025 (Câmara e TCU) e da gramática geral do inglês: as fontes de leitura que consultamos não tratam do assunto.
 
 ## Achar o referente em inglês: quatro passos
 
 É o roteiro da aula de Coesão textual, ajustado ao inglês:
 
-1. **Veja o número.** *It* e *its* pedem singular; *they*, *them*, *their* e *these* pedem plural.
+1. **Veja o número.** *It* e *its* pedem singular; *they*, *them* e *their*, quase sempre plural (a exceção é a pessoa de sexo não dito). Com *these* ou *those* + nome geral, o número não decide: *these tools* retoma *speech recognition software*, que está no singular.
 2. **Procure para trás**, na mesma frase e na anterior, os candidatos que combinam.
 3. **Troque e releia.** Ponha o candidato no lugar do pronome: a frase tem de fazer sentido.
 4. **Nenhum nome serve?** Teste a ideia inteira da frase anterior (comum com *this* e *that*) ou olhe para a frente.
@@ -297,7 +300,7 @@ O mesmo vale para o texto da aula. *The author argues that these tools save time
 
 Na Câmara 2025, nenhum dos quatro itens errados de inglês negava o texto de frente: o erro estava num desvio pequeno. Os moldes que vimos nessa prova e na do TCU, com exemplos sobre o texto da aula:
 
-1. **Exagero.** *Reporters are free to rewrite speeches.* O texto diz que eles cortam e corrigem; daí a reescrever vai um exagero, que a quarta frase afasta.
+1. **Exagero.** *Critics say that the software cannot understand regional accents.* O texto diz que ele ainda tem dificuldade (*still struggles with*); daí a não entender vai um exagero.
 2. **Detalhe na circunstância errada.** *Reporters correct every grammatical mistake.* Falta a condição.
 3. **Quantificador trocado.** *Most legislatures use the software.* O texto diz *some*.
 4. **Voz ou atitude trocada.** *The author is sceptical about technology in parliaments.* O autor relata; não avalia.
@@ -310,7 +313,7 @@ O item certo, por sua vez, costuma ser uma paráfrase fiel, uma inferência curt
 ## Um roteiro para o dia da prova
 
 1. Leia a linha da fonte e passe os olhos pelo texto: qual é o assunto?
-2. Leia o texto inteiro uma vez. Sublinhe nomes, números e palavras de oposição (*but*, *however*, *although*).
+2. Leia o texto inteiro uma vez. Repare nos nomes, nos números e nas palavras de oposição (*but*, *however*, *although*).
 3. Para cada item, descubra pelo comando o que ele pede e **volte ao trecho**.
 4. Compare pedaço por pedaço: quem, o quê, quanto, quando, em que condição, na voz de quem.
 5. Em item de inferência, passe as cinco perguntas. Em item de pronome, troque e releia.

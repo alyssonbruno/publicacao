@@ -5,27 +5,6 @@ materiais:
   - tipo: resumo
     titulo: Resumo em uma página
     arquivo: resumo.md
-  - tipo: video
-    titulo: CONCORDÂNCIA VERBAL || Aula de Português para concursos, vestibulares, ENEM
-    url: https://www.youtube.com/watch?v=s2T9Ap2J7u0
-    autor: Português com Letícia
-    duracao_min: 29
-    descricao: >-
-      Aula de teoria sobre concordância verbal, de um canal já indicado em outras aulas deste
-      concurso. Não foi possível conferir quais casos o vídeo cobre nem como os explica: veja
-      depois de ler as partes do verbo no texto da aula e, onde o vídeo disser algo diferente
-      (em "um dos que" e "um ou outro", por exemplo), fique com o texto, que mostra o que cada
-      manual diz. Não é um vídeo de questões do Cebraspe.
-  - tipo: video
-    titulo: CONCORDÂNCIA NOMINAL || Aula de Português para concursos, vestibulares, ENEM
-    url: https://www.youtube.com/watch?v=Ssb7v6KIYt8
-    autor: Português com Letícia
-    duracao_min: 20
-    descricao: >-
-      Aula de teoria sobre concordância nominal, par do vídeo anterior. Não foi possível conferir
-      quais casos o vídeo cobre: veja depois das partes de concordância nominal do texto da aula
-      e use o quadro "varia ou não varia" para acompanhar. Não é um vídeo de questões do
-      Cebraspe.
   - tipo: podcast
     titulo: Concordância Verbal (pt.1)
     url: https://podcasts.apple.com/br/podcast/concord%C3%A2ncia-verbal-pt-1/id1468750752?i=1000532005155

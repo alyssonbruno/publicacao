@@ -9,12 +9,12 @@
   <g transform="translate(24 84)">
     <rect width="280" height="290" rx="10" fill="#f3f2ee" stroke="#d6d4cb"/>
     <text x="16" y="32" font-size="17" font-weight="700" fill="#3d3c39">Compreensão literal</text>
-    <text x="16" y="54" font-size="13" fill="#52514e">item 3.1 · aula de leitura e coesão</text>
+    <text x="16" y="54" font-size="13" fill="#52514e">itens 3.1 a 3.3 · aula de leitura e coesão</text>
     <line x1="16" y1="68" x2="264" y2="68" stroke="#d6d4cb"/>
     <text x="16" y="98" font-size="16" font-weight="700" fill="#0b0b0b">O que o texto diz?</text>
     <g font-size="14" fill="#0b0b0b">
       <text x="16" y="136">Reconhecer o que está escrito:</text>
-      <text x="16" y="158">ideias principais, detalhes,</text>
+      <text x="16" y="158">ideia principal, detalhes,</text>
       <text x="16" y="180">comparação, causa e efeito.</text>
     </g>
     <text x="16" y="262" font-size="14" fill="#52514e">Item certo: <tspan font-weight="700" fill="#0b0b0b">paráfrase</tspan>.</text>

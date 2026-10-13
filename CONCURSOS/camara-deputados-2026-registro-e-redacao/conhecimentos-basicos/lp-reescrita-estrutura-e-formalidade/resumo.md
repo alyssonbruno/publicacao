@@ -9,7 +9,7 @@
 
 - **Ordem direta**: (sujeito) – verbo – (complementos) – (adjunto adverbial); no período, a principal antes da adverbial. A ordem inversa não é erro.
 - **Adjunto adverbial deslocado**: no começo, seguido de vírgula; no meio, entre vírgulas. Com adjunto curto, a vírgula pode faltar (os guias divergem sobre o tamanho). **Sujeito e objeto** não se separam do verbo por vírgula, e o verbo concorda com o sujeito mesmo depois dele (*Chegaram os relatórios*).
-- ***Não*, *só*, *apenas*, *também***: agem sobre o que vem depois. Mudou de lugar, mudou o alcance (*não está em criar* × *está em não criar*).
+- ***Não*, *só*, *apenas***: em geral agem sobre o que vem depois (*também* pode ligar-se ao termo anterior). Mudou de lugar, mudou o alcance (*não está em criar* × *está em não criar*).
 - **Adjunto de oração subordinada** levado ao começo do período troca de verbo: *informou que a sessão seria retomada às 14 horas* × *Às 14 horas, informou que...*
 - **Oração adverbial** antes ou no meio da principal: isolada por vírgula. **Oração adjetiva**: a vírgula muda o sentido (restritiva × explicativa), não a correção.
 
@@ -19,9 +19,9 @@
 - **Passiva com *se***: o verbo concorda com o sujeito (*aprovaram-se as emendas*) e **não há agente**. Agente que some ou aparece muda a informação.
 - **Verbo ↔ substantivo**: confira quem faz, a regência do nome e o tempo.
 - **Juntar períodos** acrescenta uma relação (causa, tempo, condição); o gerúndio pode trocar o sujeito. **Dividir**: nada de oração subordinada sozinha entre pontos (frase fragmentada).
-- **Reduzida ↔ desenvolvida**: confira o conector e o tempo e modo do verbo. *Antes de o relator ler*, e não "antes do relator ler" (Manual da Presidência).
+- **Reduzida ↔ desenvolvida** (a reduzida não tem conjunção, mas pode ter preposição): confira o conector e o tempo e modo do verbo. *Antes de o relator ler*, e não "antes do relator ler" (Manual da Presidência).
 - **Paralelismo**: mesma função, mesma forma. *Analisa não só o mérito como também a constitucionalidade*.
-- **Direto → indireto**: 1ª → 3ª pessoa; presente → imperfeito; perfeito → mais-que-perfeito; futuro do presente → futuro do pretérito; imperativo → subjuntivo; *isto* → *aquilo*; *aqui* → *lá*; pergunta → *se*.
+- **Direto → indireto**: 1ª → 3ª pessoa; presente → imperfeito; perfeito → mais-que-perfeito; futuro do presente → futuro do pretérito; imperativo → subjuntivo; *isto* → *aquilo* e *aqui* → *lá* (em relato feito em outro dia ou lugar); pergunta → *se*.
 
 ## Gênero e formalidade
 

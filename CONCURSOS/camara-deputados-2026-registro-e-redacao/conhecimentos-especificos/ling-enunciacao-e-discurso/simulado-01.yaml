@@ -4,9 +4,9 @@ simulado:
   tipo: treino
   estilo: certo_errado
   fontes:
-    - 'Questões próprias, sobre um texto próprio e fictício (fala da presidente de uma comissão e trecho da ata que a registra) e sobre conceitos do edital, no estilo de certo ou errado do Cebraspe: palavras do texto entre aspas, com remissão à linha, e uma afirmação por item.'
-    - 'Não foi achado item do Cebraspe que cobre diretamente enunciação e enunciado, dialogismo ou esferas: o estilo segue o molde geral de certo ou errado da banca. Referências de estilo, sem reprodução de itens: cadernos de conhecimentos específicos da Câmara dos Deputados 2012, Analista Legislativo – Taquígrafo Legislativo (Cespe/UnB), e da Fundação Inoversa Sul (edital de 2024, aplicado em 2025), cargo de Professor de Língua Portuguesa, com os gabaritos definitivos.'
-    - 'Bases do gabarito: Flores, A enunciação escrita em Benveniste (D.E.L.T.A., 2018); Cabral, Enunciação: entraves para os estudos discursivos (Littera on line, UFMA, 2012); Marcuzzo, Diálogo inconcluso: os conceitos de dialogismo e polifonia na obra de Mikhail Bakhtin (Cadernos do IL, UFRGS, 2008); Grillo, Divulgação científica na esfera midiática (Intercâmbio, PUC-SP, 2006); Farias e Oliveira, Gêneros textuais e o livro didático (Eutomia, UFPE, 2013); Manual de Redação da Presidência da República, 3ª ed. (2018). Consultados em 12/10/2026.'
+    - 'Questões próprias, sobre um texto próprio e fictício (fala da presidente de uma comissão e trecho da ata que a registra) e sobre conceitos do edital, no estilo de certo ou errado do Cebraspe: palavras do texto entre aspas, com remissão à linha. Há itens de uma afirmação só e itens compostos, que identificam um mecanismo e tiram dele uma consequência, como é comum na banca.'
+    - 'Não foi achado item do Cebraspe que cobre diretamente enunciação e enunciado, dialogismo, polifonia ou esferas: o estilo segue o molde geral de certo ou errado da banca. Referências de estilo, sem reprodução de itens: cadernos de conhecimentos específicos da Câmara dos Deputados 2012, Analista Legislativo – Taquígrafo Legislativo (Cespe/UnB), e da Fundação Inoversa Sul (edital de 2024, aplicado em 2025), cargo de Professor de Língua Portuguesa, com os gabaritos definitivos.'
+    - 'Bases do gabarito: Flores, A enunciação escrita em Benveniste (D.E.L.T.A., 2018); Cabral, Enunciação: entraves para os estudos discursivos (Littera on line, UFMA, 2012); Marcuzzo, Diálogo inconcluso: os conceitos de dialogismo e polifonia na obra de Mikhail Bakhtin (Cadernos do IL, UFRGS, 2008); Maciel, Diferenças entre dialogismo e polifonia (Revista de Estudos da Linguagem, UFMG, 2016); Dantas, Procedimentos de análise de discurso em romance (Leia Escola, UFCG, 2013); Grillo, Divulgação científica na esfera midiática (Intercâmbio, PUC-SP, 2006); Farias e Oliveira, Gêneros textuais e o livro didático (Eutomia, UFPE, 2013); Manual de Redação da Presidência da República, 3ª ed. (2018). Consultados em 12 e 13/10/2026.'
 questoes:
   - id: q01
     topico: conhecimentos-especificos/ling-enunciacao-e-discurso
@@ -105,30 +105,13 @@ questoes:
     enunciado: |-
       Acerca dos conceitos da teoria da enunciação e da análise do discurso, julgue o item.
 
-      No que se refere à enunciação escrita, a leitura que Flores faz de Benveniste sustenta que a situação de produção e a situação de leitura não coincidem: quem escreve e quem lê estão separados em tempo, espaço e pessoa.
+      Na acepção em que Bakhtin empregou o termo ao estudar os romances de Dostoiévski, a polifonia não se confunde com o dialogismo: este é constitutivo de todo enunciado, ao passo que aquela caracteriza obras em que as vozes das personagens se mantêm independentes da voz do autor e em igualdade com ela.
   - id: q06
     topico: conhecimentos-especificos/ling-enunciacao-e-discurso
     enunciado: |-
-      Texto para o item: registros fictícios de uma mesma reunião de comissão, realizada em 7 de outubro de 2026, com as linhas numeradas. Linhas 1 a 5: fala da presidente da comissão, como consta das notas taquigráficas. Linhas 6 a 12: trecho da ata da reunião.
+      Acerca dos conceitos da teoria da enunciação e da análise do discurso, julgue o item.
 
-      > **Texto I**
-      >
-      > 1. Eu recebi anteontem, neste plenário, o abaixo-assinado dos
-      > 2. bibliotecários. Eles pedem um debate sobre a acessibilidade dos
-      > 3. acervos, e comunico agora a Vossas Excelências que a audiência pública
-      > 4. será realizada amanhã, aqui mesmo. Sei que haverá quem reclame da
-      > 5. demora, mas o pedido foi lido e vai ser atendido.
-      > 6. A Presidente da Comissão informou que recebera, em 5 de outubro de
-      > 7. 2026, no Plenário 10 do Anexo II, abaixo-assinado de bibliotecários
-      > 8. que pediam debate sobre a acessibilidade dos acervos e comunicou aos
-      > 9. membros do colegiado que a audiência pública seria realizada em 8 de
-      > 10. outubro de 2026, também no Plenário 10. Disse saber que haveria
-      > 11. reclamações quanto à demora e declarou que o pedido fora lido e
-      > 12. seria atendido.
-
-      Com base no texto e nos conceitos da teoria da enunciação e da análise do discurso, julgue o item.
-
-      No âmbito da teoria da enunciação e da análise do discurso, o termo “discurso” designa o modo de reproduzir, em um texto, a fala de outra pessoa, como se observa nas linhas 6 a 12, em que a fala da presidente é relatada de forma indireta.
+      Na Análise do Discurso de linha francesa, texto e discurso designam o mesmo objeto: ambos correspondem ao dado empírico de que a análise parte, sem que se distinga entre um conceito teórico e um conceito analítico.
   - id: q07
     topico: conhecimentos-especificos/ling-enunciacao-e-discurso
     enunciado: |-
