@@ -1,0 +1,44 @@
+materiais:
+  - tipo: texto
+    titulo: "Inglês: compreensão de textos"
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: "Questões Cebraspe: Inglês para Concursos"
+    url: https://www.youtube.com/watch?v=64Z8RFeCQuw
+    autor: Aprova Concursos
+    duracao_min: 15
+    descricao: >-
+      Vídeo curto que não assistimos: pelo título e pela descrição do canal, é de resolução de
+      questões de inglês do Cebraspe; a página não diz de que prova elas são. Veja depois do texto
+      da aula, como treino: pause antes de cada resposta, volte ao trecho que o item aponta e
+      tente dizer qual é o desvio, com os moldes da aula (exagero, detalhe trocado, voz trocada,
+      referente trocado). O vídeo é de cerca de 2022; na sua prova (edital de 2026, prevista para
+      17/1/2027), lembre que cada erro anula um acerto.
+  - tipo: podcast
+    titulo: Starting Up | Episode 80 - Os Falsos Cognatos
+    url: https://podcasts.apple.com/br/podcast/starting-up-episode-80-os-falsos-cognatos/id1543023362?i=1000570000772
+    audio: https://anchor.fm/s/4299f2b8/podcast/play/54850919/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-15%2F5a710a9d-c564-1101-cdf6-cf0f44c9c72d.mp3
+    autor: English in Brazil Podcasts
+    duracao_min: 9
+    descricao: >-
+      Episódio curto, em português, para iniciantes: dez falsos cognatos, cada um com o sentido
+      certo e a palavra que o brasileiro queria dizer (actually, cafeteria, baton, genial,
+      lecture, balcony, journal, cigar, adept e deception). Para a prova, guarde sobretudo
+      actually (na verdade), lecture (palestra), journal (periódico, revista especializada) e
+      deception (engano). Cobre só uma fatia do vocabulário: não fala de leitura, de inferência
+      nem de concurso, e os falsos cognatos do Legislativo (agenda, minutes, to resume) estão no
+      texto da aula.
+  - tipo: link
+    titulo: Inglês Instrumental (livro-texto a distância, CAPES/UAB)
+    url: https://educapes.capes.gov.br/handle/capes/717878
+    autor: Mariangela Braga Norte (CAPES/UAB e UFRJ)
+    descricao: >-
+      Livro de 98 páginas (2018), em português, com textos e atividades em inglês; base desta
+      aula. Para aprofundar, baixe o arquivo "Ingles-Instrumental-LIVRO.pdf" e leia só as
+      unidades 2 (estratégias de leitura: predição, skimming e scanning) e 3 (cognatos, falsos
+      cognatos, dedução pelo contexto, prefixos e sufixos), com as atividades. Os textos de
+      prática são de jornal e de Biblioteconomia, mais fáceis que os da prova, e o livro não trata
+      de pronomes nem de inferência de ideias: esses pontos estão no texto da aula.

@@ -1,0 +1,194 @@
+# Treino de gêneros do discurso e tipos textuais; macro e microestrutura — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Gêneros do discurso e tipos textuais; macro e microestrutura
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (trecho da ata de uma reunião de comissão), no estilo de certo ou errado do Cebraspe: remissão à linha, autor nomeado no item de teoria e, em parte dos itens, uma classificação seguida de uma consequência.'
+    - 'Referências de estilo, sem reprodução de itens: cadernos do Cebraspe de Conhecimentos Gerais dos cargos de nível superior da Câmara dos Deputados (Edital nº 1/2025, aplicado em março de 2026) e de Conhecimentos Específicos de Professor de Língua Portuguesa da SEE/DF (edital de 2016, aplicado em 2017), com os gabaritos definitivos; caderno de Conhecimentos Gerais do STM 2025 (só a formulação do item de tipologia; gabarito não conferido).'
+    - 'Bases do gabarito: Grillo, Gêneros do discurso: contribuições do Círculo de Bakhtin (slides, FFLCH-USP); CESAD/UFS, Introdução às Teorias do Discurso, aula 5; Farias e Oliveira, Gêneros textuais e o livro didático (Eutomia, UFPE, 2013); Silva, Produção e Recepção de Texto II, aula 1 (CESAD/UFS); Farias, Compreensão e resumo de textos (Revista de Letras, UFC, 2000); Giraldello, Compreensão leitora (Unoesc & Ciência, 2017). Consultados em 12/10/2026. Revisão de 13/10/2026: Rodrigues, A notícia de jornal: tipo ou atualização do tipo narrativo (Alfa, Unesp, 1991), para a superestrutura em van Dijk, autor não lido no original.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/ling-generos-e-tipos-textuais
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, criado para este treino, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Aos quatorze dias do mês de abril de dois mil e vinte e seis, às dez
+      > 2. horas, no Plenário 5 do Anexo II, reuniu-se a Comissão de Cultura.
+      > 3. Verificado o quórum, o presidente declarou abertos os trabalhos e
+      > 4. submeteu à apreciação a ata da reunião anterior, que foi aprovada
+      > 5. sem restrições. Passou-se à ordem do dia. O relator leu o parecer
+      > 6. favorável ao projeto que cria o programa de restauração de arquivos
+      > 7. sonoros. Usaram da palavra três deputados: o primeiro tratou do custo
+      > 8. dos equipamentos; o segundo, do salário dos técnicos; o terceiro, das
+      > 9. despesas de manutenção. Em votação, o parecer foi aprovado, contra
+      > 10. um voto. Nada mais havendo a tratar, o presidente encerrou a reunião
+      > 11. às onze horas e quarenta minutos. E, para constar, eu, secretário,
+      > 12. lavrei a presente ata.
+
+      Considerando o texto e os conceitos de gênero do discurso, tipo textual e níveis de estrutura do texto, julgue o item.
+
+      A recorrência, no texto, de fórmulas consagradas, como “para constar” (linha 11), confirma a tese de Bakhtin de que os gêneros do discurso são tipos fixos e imutáveis de enunciados, que o falante recebe prontos do campo de atividade em que atua.
+  - id: q02
+    topico: conhecimentos-especificos/ling-generos-e-tipos-textuais
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, criado para este treino, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Aos quatorze dias do mês de abril de dois mil e vinte e seis, às dez
+      > 2. horas, no Plenário 5 do Anexo II, reuniu-se a Comissão de Cultura.
+      > 3. Verificado o quórum, o presidente declarou abertos os trabalhos e
+      > 4. submeteu à apreciação a ata da reunião anterior, que foi aprovada
+      > 5. sem restrições. Passou-se à ordem do dia. O relator leu o parecer
+      > 6. favorável ao projeto que cria o programa de restauração de arquivos
+      > 7. sonoros. Usaram da palavra três deputados: o primeiro tratou do custo
+      > 8. dos equipamentos; o segundo, do salário dos técnicos; o terceiro, das
+      > 9. despesas de manutenção. Em votação, o parecer foi aprovado, contra
+      > 10. um voto. Nada mais havendo a tratar, o presidente encerrou a reunião
+      > 11. às onze horas e quarenta minutos. E, para constar, eu, secretário,
+      > 12. lavrei a presente ata.
+
+      Considerando o texto e os conceitos de gênero do discurso, tipo textual e níveis de estrutura do texto, julgue o item.
+
+      Na leitura do Círculo de Bakhtin que distingue o tema do enunciado do conteúdo temático do gênero, se a comissão tivesse apreciado, na mesma reunião, matéria inteiramente diversa da que se lê nas linhas 5 a 7, mudaria o tema do enunciado, mas não o conteúdo temático do gênero a que o texto pertence.
+  - id: q03
+    topico: conhecimentos-especificos/ling-generos-e-tipos-textuais
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, criado para este treino, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Aos quatorze dias do mês de abril de dois mil e vinte e seis, às dez
+      > 2. horas, no Plenário 5 do Anexo II, reuniu-se a Comissão de Cultura.
+      > 3. Verificado o quórum, o presidente declarou abertos os trabalhos e
+      > 4. submeteu à apreciação a ata da reunião anterior, que foi aprovada
+      > 5. sem restrições. Passou-se à ordem do dia. O relator leu o parecer
+      > 6. favorável ao projeto que cria o programa de restauração de arquivos
+      > 7. sonoros. Usaram da palavra três deputados: o primeiro tratou do custo
+      > 8. dos equipamentos; o segundo, do salário dos técnicos; o terceiro, das
+      > 9. despesas de manutenção. Em votação, o parecer foi aprovado, contra
+      > 10. um voto. Nada mais havendo a tratar, o presidente encerrou a reunião
+      > 11. às onze horas e quarenta minutos. E, para constar, eu, secretário,
+      > 12. lavrei a presente ata.
+
+      Considerando o texto e os conceitos de gênero do discurso, tipo textual e níveis de estrutura do texto, julgue o item.
+
+      O emprego de expressões feitas como “Usaram da palavra” (linha 7) e “Nada mais havendo a tratar” (linha 10) é aspecto do estilo do gênero ata, entendido, na perspectiva de Bakhtin, como seleção de recursos lexicais, fraseológicos e gramaticais da língua.
+  - id: q04
+    topico: conhecimentos-especificos/ling-generos-e-tipos-textuais
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, criado para este treino, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Aos quatorze dias do mês de abril de dois mil e vinte e seis, às dez
+      > 2. horas, no Plenário 5 do Anexo II, reuniu-se a Comissão de Cultura.
+      > 3. Verificado o quórum, o presidente declarou abertos os trabalhos e
+      > 4. submeteu à apreciação a ata da reunião anterior, que foi aprovada
+      > 5. sem restrições. Passou-se à ordem do dia. O relator leu o parecer
+      > 6. favorável ao projeto que cria o programa de restauração de arquivos
+      > 7. sonoros. Usaram da palavra três deputados: o primeiro tratou do custo
+      > 8. dos equipamentos; o segundo, do salário dos técnicos; o terceiro, das
+      > 9. despesas de manutenção. Em votação, o parecer foi aprovado, contra
+      > 10. um voto. Nada mais havendo a tratar, o presidente encerrou a reunião
+      > 11. às onze horas e quarenta minutos. E, para constar, eu, secretário,
+      > 12. lavrei a presente ata.
+
+      Considerando o texto e os conceitos de gênero do discurso, tipo textual e níveis de estrutura do texto, julgue o item.
+
+      Na distinção de Bakhtin entre gêneros primários e gêneros secundários, o critério é o canal do enunciado: são primários os gêneros orais e secundários os escritos, entre os quais se inclui a ata.
+  - id: q05
+    topico: conhecimentos-especificos/ling-generos-e-tipos-textuais
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, criado para este treino, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Aos quatorze dias do mês de abril de dois mil e vinte e seis, às dez
+      > 2. horas, no Plenário 5 do Anexo II, reuniu-se a Comissão de Cultura.
+      > 3. Verificado o quórum, o presidente declarou abertos os trabalhos e
+      > 4. submeteu à apreciação a ata da reunião anterior, que foi aprovada
+      > 5. sem restrições. Passou-se à ordem do dia. O relator leu o parecer
+      > 6. favorável ao projeto que cria o programa de restauração de arquivos
+      > 7. sonoros. Usaram da palavra três deputados: o primeiro tratou do custo
+      > 8. dos equipamentos; o segundo, do salário dos técnicos; o terceiro, das
+      > 9. despesas de manutenção. Em votação, o parecer foi aprovado, contra
+      > 10. um voto. Nada mais havendo a tratar, o presidente encerrou a reunião
+      > 11. às onze horas e quarenta minutos. E, para constar, eu, secretário,
+      > 12. lavrei a presente ata.
+
+      Considerando o texto e os conceitos de gênero do discurso, tipo textual e níveis de estrutura do texto, julgue o item.
+
+      A esfera de atividade em que circulam gêneros como a ata e o parecer mencionado na linha 5 corresponde ao que Marcuschi denomina domínio discursivo, o qual não constitui, ele próprio, um gênero.
+  - id: q06
+    topico: conhecimentos-especificos/ling-generos-e-tipos-textuais
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, criado para este treino, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Aos quatorze dias do mês de abril de dois mil e vinte e seis, às dez
+      > 2. horas, no Plenário 5 do Anexo II, reuniu-se a Comissão de Cultura.
+      > 3. Verificado o quórum, o presidente declarou abertos os trabalhos e
+      > 4. submeteu à apreciação a ata da reunião anterior, que foi aprovada
+      > 5. sem restrições. Passou-se à ordem do dia. O relator leu o parecer
+      > 6. favorável ao projeto que cria o programa de restauração de arquivos
+      > 7. sonoros. Usaram da palavra três deputados: o primeiro tratou do custo
+      > 8. dos equipamentos; o segundo, do salário dos técnicos; o terceiro, das
+      > 9. despesas de manutenção. Em votação, o parecer foi aprovado, contra
+      > 10. um voto. Nada mais havendo a tratar, o presidente encerrou a reunião
+      > 11. às onze horas e quarenta minutos. E, para constar, eu, secretário,
+      > 12. lavrei a presente ata.
+
+      Considerando o texto e os conceitos de gênero do discurso, tipo textual e níveis de estrutura do texto, julgue o item.
+
+      No trecho que vai de “Verificado o quórum” (linha 3) a “sem restrições” (linha 5), sucedem-se ações expressas por verbos no pretérito perfeito, o que caracteriza sequência narrativa; daí se conclui, na formulação de Marcuschi, que o gênero ata pertence ao tipo narrativo e não comporta sequências de outros tipos.
+  - id: q07
+    topico: conhecimentos-especificos/ling-generos-e-tipos-textuais
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, criado para este treino, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Aos quatorze dias do mês de abril de dois mil e vinte e seis, às dez
+      > 2. horas, no Plenário 5 do Anexo II, reuniu-se a Comissão de Cultura.
+      > 3. Verificado o quórum, o presidente declarou abertos os trabalhos e
+      > 4. submeteu à apreciação a ata da reunião anterior, que foi aprovada
+      > 5. sem restrições. Passou-se à ordem do dia. O relator leu o parecer
+      > 6. favorável ao projeto que cria o programa de restauração de arquivos
+      > 7. sonoros. Usaram da palavra três deputados: o primeiro tratou do custo
+      > 8. dos equipamentos; o segundo, do salário dos técnicos; o terceiro, das
+      > 9. despesas de manutenção. Em votação, o parecer foi aprovado, contra
+      > 10. um voto. Nada mais havendo a tratar, o presidente encerrou a reunião
+      > 11. às onze horas e quarenta minutos. E, para constar, eu, secretário,
+      > 12. lavrei a presente ata.
+
+      Considerando o texto e os conceitos de gênero do discurso, tipo textual e níveis de estrutura do texto, julgue o item.
+
+      Na perspectiva de van Dijk, a frase “Em reunião, a Comissão de Cultura aprovou o parecer favorável ao projeto de restauração de arquivos sonoros”, que resume o sentido global do texto, expressaria a sua superestrutura.
+  - id: q08
+    topico: conhecimentos-especificos/ling-generos-e-tipos-textuais
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, criado para este treino, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Aos quatorze dias do mês de abril de dois mil e vinte e seis, às dez
+      > 2. horas, no Plenário 5 do Anexo II, reuniu-se a Comissão de Cultura.
+      > 3. Verificado o quórum, o presidente declarou abertos os trabalhos e
+      > 4. submeteu à apreciação a ata da reunião anterior, que foi aprovada
+      > 5. sem restrições. Passou-se à ordem do dia. O relator leu o parecer
+      > 6. favorável ao projeto que cria o programa de restauração de arquivos
+      > 7. sonoros. Usaram da palavra três deputados: o primeiro tratou do custo
+      > 8. dos equipamentos; o segundo, do salário dos técnicos; o terceiro, das
+      > 9. despesas de manutenção. Em votação, o parecer foi aprovado, contra
+      > 10. um voto. Nada mais havendo a tratar, o presidente encerrou a reunião
+      > 11. às onze horas e quarenta minutos. E, para constar, eu, secretário,
+      > 12. lavrei a presente ata.
+
+      Considerando o texto e os conceitos de gênero do discurso, tipo textual e níveis de estrutura do texto, julgue o item.
+
+      Na perspectiva de van Dijk, a substituição do trecho “o primeiro tratou do custo dos equipamentos; o segundo, do salário dos técnicos; o terceiro, das despesas de manutenção” (linhas 7 a 9) por “os três trataram dos gastos do programa” exemplifica a macrorregra da generalização.

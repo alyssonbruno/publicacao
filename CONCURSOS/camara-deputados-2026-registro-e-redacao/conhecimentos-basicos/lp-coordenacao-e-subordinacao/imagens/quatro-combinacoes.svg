@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="960" height="640" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Duas relações, dois níveis</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Coordenar é pôr lado a lado; subordinar é prender um elemento a outro.</text>
+
+  <!-- Cabeçalhos das colunas -->
+  <g font-size="15" font-weight="700" fill="#52514e" text-anchor="middle">
+    <text x="345" y="100">Entre termos da oração</text>
+    <text x="750" y="100">Entre orações</text>
+  </g>
+
+  <!-- Cabeçalhos das linhas -->
+  <g font-size="15" font-weight="700" text-anchor="middle">
+    <text x="80" y="212" fill="#1c5cab">Coordenação</text>
+    <text x="80" y="232" font-size="12" font-weight="400" fill="#52514e">mesma função</text>
+    <text x="80" y="432" fill="#12805a">Subordinação</text>
+    <text x="80" y="452" font-size="12" font-weight="400" fill="#52514e">um depende do outro</text>
+  </g>
+
+  <!-- Coordenação entre termos -->
+  <g transform="translate(150 114)">
+    <rect width="390" height="205" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#1c5cab">Termos coordenados</text>
+    <text x="16" y="52" font-size="13" fill="#52514e">termos de mesma função, lado a lado</text>
+    <text x="16" y="90" font-size="15" fill="#0b0b0b"><tspan font-weight="700">O relator e a presidente</tspan> assinaram a ata.</text>
+    <text x="16" y="114" font-size="13" fill="#52514e">dois núcleos no sujeito, ligados por “e”</text>
+    <line x1="16" y1="136" x2="374" y2="136" stroke="#b8cfee"/>
+    <text x="16" y="162" font-size="13" fill="#0b0b0b"><tspan font-weight="700">Teste:</tspan> deixe um de cada vez, sem a conjunção.</text>
+    <text x="16" y="182" font-size="13" fill="#0b0b0b">Cada um cabe sozinho na mesma casa.</text>
+  </g>
+
+  <!-- Coordenação entre orações -->
+  <g transform="translate(555 114)">
+    <rect width="390" height="205" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#1c5cab">Orações coordenadas</text>
+    <text x="16" y="52" font-size="13" fill="#52514e">nenhuma oração é termo da outra</text>
+    <text x="16" y="90" font-size="15" fill="#0b0b0b">O relator leu o parecer, <tspan font-weight="700">e</tspan> o Plenário</text>
+    <text x="16" y="112" font-size="15" fill="#0b0b0b">aprovou o texto.</text>
+    <line x1="16" y1="136" x2="374" y2="136" stroke="#b8cfee"/>
+    <text x="16" y="162" font-size="13" fill="#0b0b0b"><tspan font-weight="700">Teste:</tspan> nenhuma das duas é sujeito,</text>
+    <text x="16" y="182" font-size="13" fill="#0b0b0b">complemento ou adjunto da outra.</text>
+  </g>
+
+  <!-- Subordinação entre termos -->
+  <g transform="translate(150 334)">
+    <rect width="390" height="205" rx="10" fill="#e4f5ee" stroke="#a9dcc6"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#12805a">Termo regente e termo regido</text>
+    <text x="16" y="52" font-size="13" fill="#52514e">um termo depende de outro, que é o núcleo</text>
+    <text x="16" y="88" font-size="15" fill="#0b0b0b"><tspan font-weight="700">aprovou</tspan> → o parecer</text>
+    <text x="210" y="88" font-size="13" fill="#52514e">o verbo rege o objeto</text>
+    <text x="16" y="114" font-size="15" fill="#0b0b0b">o <tspan font-weight="700">parecer</tspan> → do relator</text>
+    <text x="210" y="114" font-size="13" fill="#52514e">o nome rege o adjunto</text>
+    <line x1="16" y1="136" x2="374" y2="136" stroke="#a9dcc6"/>
+    <text x="16" y="162" font-size="13" fill="#0b0b0b"><tspan font-weight="700">Teste:</tspan> pergunte a que palavra o termo se liga</text>
+    <text x="16" y="182" font-size="13" fill="#0b0b0b">e o que ele faz ali.</text>
+  </g>
+
+  <!-- Subordinação entre orações -->
+  <g transform="translate(555 334)">
+    <rect width="390" height="205" rx="10" fill="#e4f5ee" stroke="#a9dcc6"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#12805a">Oração principal e oração subordinada</text>
+    <text x="16" y="52" font-size="13" fill="#52514e">uma oração inteira funciona como termo da outra</text>
+    <text x="16" y="90" font-size="15" fill="#0b0b0b">O relator disse <tspan font-weight="700">que o prazo era curto</tspan>.</text>
+    <text x="16" y="114" font-size="13" fill="#52514e">a segunda oração é o objeto direto de “disse”</text>
+    <line x1="16" y1="136" x2="374" y2="136" stroke="#a9dcc6"/>
+    <text x="16" y="162" font-size="13" fill="#0b0b0b"><tspan font-weight="700">Teste:</tspan> troque a oração por um termo simples,</text>
+    <text x="16" y="182" font-size="13" fill="#0b0b0b">como “isso”: O relator disse isso.</text>
+  </g>
+
+  <!-- Pé -->
+  <rect x="24" y="556" width="921" height="62" rx="10" fill="#f6f5f1" stroke="#dcdad3"/>
+  <text x="40" y="582" font-size="14" fill="#0b0b0b"><tspan font-weight="700">As duas relações convivem.</tspan> No sujeito “o relator e a presidente”, os dois núcleos são coordenados</text>
+  <text x="40" y="603" font-size="14" fill="#0b0b0b">entre si e, juntos, ligam-se ao verbo “assinaram”.</text>
+</svg>

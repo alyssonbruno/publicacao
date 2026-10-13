@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="664" viewBox="0 0 912 664" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="664" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">A vírgula em três situações</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Primeiro ache o sujeito, o verbo e os complementos. Depois veja em qual coluna o caso cai.</text>
+
+  <!-- Coluna 1: não se usa -->
+  <g transform="translate(24 84)">
+    <rect width="280" height="424" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#b4501f">Não se usa</text>
+    <text x="16" y="51" font-size="13" fill="#52514e">entre termos ligados pela sintaxe</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="86" font-weight="700">Sujeito e verbo</text>
+      <text x="16" y="105" font-size="13" fill="#52514e">mesmo com sujeito longo ou oracional</text>
+
+      <text x="16" y="142" font-weight="700">Verbo e complemento</text>
+      <text x="16" y="161" font-size="13" fill="#52514e">informou ao Plenário que votará</text>
+
+      <text x="16" y="198" font-weight="700">Nome e complemento</text>
+      <text x="16" y="217" font-size="13" fill="#52514e">a leitura do parecer</text>
+
+      <text x="16" y="254" font-weight="700">Antes de oração restritiva</text>
+      <text x="16" y="273" font-size="13" fill="#52514e">os deputados que assinaram</text>
+
+      <text x="16" y="310" font-weight="700">Antes de “e”, mesmo sujeito</text>
+      <text x="16" y="329" font-size="13" fill="#52514e">O relator leu o parecer e pediu vista.</text>
+      <text x="16" y="348" font-size="13" fill="#52514e">(em regra: veja as exceções no texto)</text>
+
+      <text x="16" y="385" font-weight="700">Uma vírgula só do par</text>
+      <text x="16" y="404" font-size="13" fill="#52514e">na intercalação, nunca uma só</text>
+    </g>
+  </g>
+
+  <!-- Coluna 2: usa-se -->
+  <g transform="translate(316 84)">
+    <rect width="280" height="424" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#1c5cab">Usa-se</text>
+    <text x="16" y="51" font-size="13" fill="#52514e">série, intercalação, deslocamento</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="86" font-weight="700">Termos e orações em série</text>
+      <text x="16" y="105" font-size="13" fill="#52514e">leu, discutiu, votou</text>
+
+      <text x="16" y="138" font-weight="700">Intercalação, em par</text>
+      <text x="16" y="157" font-size="13" fill="#52514e">aposto, vocativo, “ou seja”, “porém”</text>
+
+      <text x="16" y="190" font-weight="700">Oração adjetiva explicativa</text>
+      <text x="16" y="209" font-size="13" fill="#52514e">os deputados, que assinaram, ...</text>
+
+      <text x="16" y="242" font-weight="700">Oração adverbial antes ou no meio</text>
+      <text x="16" y="261" font-size="13" fill="#52514e">Quando a sessão acabou, saíram.</text>
+
+      <text x="16" y="294" font-weight="700">Adjunto adverbial longo deslocado</text>
+      <text x="16" y="313" font-size="13" fill="#52514e">Na tarde desta terça-feira, votaram.</text>
+
+      <text x="16" y="346" font-weight="700">Antes de mas, porém, portanto, pois</text>
+      <text x="16" y="365" font-size="13" fill="#52514e">Houve acordo, mas falta o prazo.</text>
+    </g>
+  </g>
+
+  <!-- Coluna 3: facultativa -->
+  <g transform="translate(608 84)">
+    <rect width="280" height="424" rx="10" fill="#e6f6ef" stroke="#a9dcc6"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#12784f">Facultativa</text>
+    <text x="16" y="51" font-size="13" fill="#52514e">com ou sem vírgula, está correto</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="86" font-weight="700">Adjunto adverbial curto deslocado</text>
+      <text x="16" y="105" font-size="13" fill="#52514e">Hoje(,) haverá sessão.</text>
+      <text x="16" y="124" font-size="13" fill="#52514e">As gramáticas não medem o “curto”;</text>
+      <text x="16" y="143" font-size="13" fill="#52514e">o manual do Senado: até três palavras.</text>
+
+      <text x="16" y="184" font-weight="700">Oração adverbial depois da principal</text>
+      <text x="16" y="203" font-size="13" fill="#52514e">A sessão foi suspensa(,) porque</text>
+      <text x="16" y="222" font-size="13" fill="#52514e">faltou quórum.</text>
+      <text x="16" y="241" font-size="13" fill="#52514e">Rocha Lima manda usar a vírgula.</text>
+
+      <text x="16" y="287" font-weight="700">Depois de conjunção que vem</text>
+      <text x="16" y="306" font-weight="700">após ponto e vírgula ou ponto</text>
+      <text x="16" y="325" font-size="13" fill="#52514e">...; portanto(,) não haverá sessão.</text>
+
+      <text x="16" y="371" font-weight="700">Antes de “etc.”</text>
+      <text x="16" y="390" font-size="13" fill="#52514e">O manual do Senado prefere sem.</text>
+    </g>
+  </g>
+
+  <!-- Pé -->
+  <line x1="24" y1="528" x2="888" y2="528" stroke="#e1e0d9"/>
+  <text x="24" y="552" font-size="14" font-weight="700" fill="#0b0b0b">Onde as fontes divergem</text>
+  <text x="24" y="574" font-size="14" fill="#0b0b0b"><tspan font-weight="700">Verbo omitido</tspan> (O decreto regula os casos gerais; a portaria, os particulares): os manuais mandam</text>
+  <text x="24" y="593" font-size="14" fill="#0b0b0b">usar a vírgula; Luft a trata como facultativa.</text>
+  <text x="24" y="617" font-size="14" fill="#0b0b0b"><tspan font-weight="700">Antes de “e”, sujeitos diferentes</tspan> (O relator leu, e o Plenário votou.): a vírgula pode aparecer. O manual</text>
+  <text x="24" y="636" font-size="14" fill="#0b0b0b">do STJ a lista entre os usos; o do Senado só a pede quando, sem ela, a leitura fica ambígua.</text>
+  <text x="24" y="656" font-size="13" fill="#52514e">Fontes: Manual de Redação da Presidência, manuais do STJ e do Senado; Carneiro e Cavalcante (2015).</text>
+</svg>

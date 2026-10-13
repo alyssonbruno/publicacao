@@ -1,0 +1,210 @@
+# Treino de pontuação (emprego dos sinais) — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: 'Treino — Pontuação: o emprego dos sinais'
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (notícia de uma sessão do Plenário), no estilo de certo ou errado do Cebraspe: o sinal é localizado pela palavra que o antecede e pela linha, e o item trata da justificativa do sinal, de sua supressão ou de sua troca.'
+    - 'Referências de estilo, sem reprodução de itens: cadernos do Cebraspe da Câmara dos Deputados 2025 (nível superior, Conhecimentos Gerais, aplicado em 8/3/2026), do TCU 2025 (Auditor Federal de Controle Externo), da Polícia Federal 2025 e do Concurso Nacional Unificado da Justiça Eleitoral 2024 (Conhecimentos Básicos), e do Cespe/UnB da Câmara dos Deputados 2012 (Taquígrafo Legislativo, Conhecimentos Específicos).'
+    - 'Bases do gabarito: Manual de Redação da Presidência da República, 3ª ed. (2018), seções 10.1, 10.5 e 11.9; Manual de Padronização de Textos do STJ, 2ª ed. (2016), verbete "pontuação"; Manual de Comunicação da Secom do Senado Federal, verbetes "Vírgula", "Vírgula antes da conjunção e", "Travessão", "Aspas" e "Ponto e vírgula". Consultados em 12/10/2026 e 13/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Encerrada a discussão, o Plenário aprovou ontem o projeto que
+      > 2. reorganiza o arquivo sonoro da Casa. A relatora, deputada em
+      > 3. segundo mandato, defendeu o texto com um argumento: sem
+      > 4. catalogação, os registros antigos se perdem. Os deputados da
+      > 5. comissão especial, que haviam examinado a matéria por três meses,
+      > 6. acompanharam o voto da relatora. O líder da minoria — único orador
+      > 7. inscrito para falar contra a proposta — criticou a “modernização”
+      > 8. prometida pelo projeto, que, a seu ver, apenas reduz o quadro de
+      > 9. pessoal, e perguntou quando o impacto orçamentário seria
+      > 10. apresentado. Falaram ainda a presidente da comissão, autora do
+      > 11. requerimento de urgência; o primeiro-secretário, que respondeu
+      > 12. pela Mesa; e dois vice-líderes. A relatora acolheu três emendas, e
+      > 13. o líder do governo retirou o destaque que apresentara. A matéria
+      > 14. segue para o Senado.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      Sem prejuízo da correção gramatical do texto, os dois-pontos empregados logo após “argumento” (linha 3) poderiam ser substituídos por travessão.
+  - id: q02
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Encerrada a discussão, o Plenário aprovou ontem o projeto que
+      > 2. reorganiza o arquivo sonoro da Casa. A relatora, deputada em
+      > 3. segundo mandato, defendeu o texto com um argumento: sem
+      > 4. catalogação, os registros antigos se perdem. Os deputados da
+      > 5. comissão especial, que haviam examinado a matéria por três meses,
+      > 6. acompanharam o voto da relatora. O líder da minoria — único orador
+      > 7. inscrito para falar contra a proposta — criticou a “modernização”
+      > 8. prometida pelo projeto, que, a seu ver, apenas reduz o quadro de
+      > 9. pessoal, e perguntou quando o impacto orçamentário seria
+      > 10. apresentado. Falaram ainda a presidente da comissão, autora do
+      > 11. requerimento de urgência; o primeiro-secretário, que respondeu
+      > 12. pela Mesa; e dois vice-líderes. A relatora acolheu três emendas, e
+      > 13. o líder do governo retirou o destaque que apresentara. A matéria
+      > 14. segue para o Senado.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      Por isolar adjunto adverbial de pequena extensão, a vírgula empregada logo após “discussão” (linha 1) é de emprego facultativo.
+  - id: q03
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Encerrada a discussão, o Plenário aprovou ontem o projeto que
+      > 2. reorganiza o arquivo sonoro da Casa. A relatora, deputada em
+      > 3. segundo mandato, defendeu o texto com um argumento: sem
+      > 4. catalogação, os registros antigos se perdem. Os deputados da
+      > 5. comissão especial, que haviam examinado a matéria por três meses,
+      > 6. acompanharam o voto da relatora. O líder da minoria — único orador
+      > 7. inscrito para falar contra a proposta — criticou a “modernização”
+      > 8. prometida pelo projeto, que, a seu ver, apenas reduz o quadro de
+      > 9. pessoal, e perguntou quando o impacto orçamentário seria
+      > 10. apresentado. Falaram ainda a presidente da comissão, autora do
+      > 11. requerimento de urgência; o primeiro-secretário, que respondeu
+      > 12. pela Mesa; e dois vice-líderes. A relatora acolheu três emendas, e
+      > 13. o líder do governo retirou o destaque que apresentara. A matéria
+      > 14. segue para o Senado.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “A relatora, deputada em segundo mandato, defendeu o texto” (linhas 2 e 3), a correção gramatical seria mantida caso se suprimisse apenas a vírgula empregada logo após “mandato”.
+  - id: q04
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Encerrada a discussão, o Plenário aprovou ontem o projeto que
+      > 2. reorganiza o arquivo sonoro da Casa. A relatora, deputada em
+      > 3. segundo mandato, defendeu o texto com um argumento: sem
+      > 4. catalogação, os registros antigos se perdem. Os deputados da
+      > 5. comissão especial, que haviam examinado a matéria por três meses,
+      > 6. acompanharam o voto da relatora. O líder da minoria — único orador
+      > 7. inscrito para falar contra a proposta — criticou a “modernização”
+      > 8. prometida pelo projeto, que, a seu ver, apenas reduz o quadro de
+      > 9. pessoal, e perguntou quando o impacto orçamentário seria
+      > 10. apresentado. Falaram ainda a presidente da comissão, autora do
+      > 11. requerimento de urgência; o primeiro-secretário, que respondeu
+      > 12. pela Mesa; e dois vice-líderes. A relatora acolheu três emendas, e
+      > 13. o líder do governo retirou o destaque que apresentara. A matéria
+      > 14. segue para o Senado.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      A supressão das duas vírgulas que isolam o trecho “que haviam examinado a matéria por três meses” (linha 5) manteria a correção gramatical do texto, mas alteraria o seu sentido original.
+  - id: q05
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Encerrada a discussão, o Plenário aprovou ontem o projeto que
+      > 2. reorganiza o arquivo sonoro da Casa. A relatora, deputada em
+      > 3. segundo mandato, defendeu o texto com um argumento: sem
+      > 4. catalogação, os registros antigos se perdem. Os deputados da
+      > 5. comissão especial, que haviam examinado a matéria por três meses,
+      > 6. acompanharam o voto da relatora. O líder da minoria — único orador
+      > 7. inscrito para falar contra a proposta — criticou a “modernização”
+      > 8. prometida pelo projeto, que, a seu ver, apenas reduz o quadro de
+      > 9. pessoal, e perguntou quando o impacto orçamentário seria
+      > 10. apresentado. Falaram ainda a presidente da comissão, autora do
+      > 11. requerimento de urgência; o primeiro-secretário, que respondeu
+      > 12. pela Mesa; e dois vice-líderes. A relatora acolheu três emendas, e
+      > 13. o líder do governo retirou o destaque que apresentara. A matéria
+      > 14. segue para o Senado.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      O emprego das aspas em “modernização” (linha 7) deve-se ao fato de o vocábulo constituir termo técnico do processo legislativo.
+  - id: q06
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Encerrada a discussão, o Plenário aprovou ontem o projeto que
+      > 2. reorganiza o arquivo sonoro da Casa. A relatora, deputada em
+      > 3. segundo mandato, defendeu o texto com um argumento: sem
+      > 4. catalogação, os registros antigos se perdem. Os deputados da
+      > 5. comissão especial, que haviam examinado a matéria por três meses,
+      > 6. acompanharam o voto da relatora. O líder da minoria — único orador
+      > 7. inscrito para falar contra a proposta — criticou a “modernização”
+      > 8. prometida pelo projeto, que, a seu ver, apenas reduz o quadro de
+      > 9. pessoal, e perguntou quando o impacto orçamentário seria
+      > 10. apresentado. Falaram ainda a presidente da comissão, autora do
+      > 11. requerimento de urgência; o primeiro-secretário, que respondeu
+      > 12. pela Mesa; e dois vice-líderes. A relatora acolheu três emendas, e
+      > 13. o líder do governo retirou o destaque que apresentara. A matéria
+      > 14. segue para o Senado.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      Os sinais de ponto e vírgula empregados nas linhas 11 e 12 separam os termos de uma enumeração em que há elementos com vírgulas em seu interior.
+  - id: q07
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Encerrada a discussão, o Plenário aprovou ontem o projeto que
+      > 2. reorganiza o arquivo sonoro da Casa. A relatora, deputada em
+      > 3. segundo mandato, defendeu o texto com um argumento: sem
+      > 4. catalogação, os registros antigos se perdem. Os deputados da
+      > 5. comissão especial, que haviam examinado a matéria por três meses,
+      > 6. acompanharam o voto da relatora. O líder da minoria — único orador
+      > 7. inscrito para falar contra a proposta — criticou a “modernização”
+      > 8. prometida pelo projeto, que, a seu ver, apenas reduz o quadro de
+      > 9. pessoal, e perguntou quando o impacto orçamentário seria
+      > 10. apresentado. Falaram ainda a presidente da comissão, autora do
+      > 11. requerimento de urgência; o primeiro-secretário, que respondeu
+      > 12. pela Mesa; e dois vice-líderes. A relatora acolheu três emendas, e
+      > 13. o líder do governo retirou o destaque que apresentara. A matéria
+      > 14. segue para o Senado.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      A vírgula empregada logo após “emendas” (linha 12) justifica-se por separar orações coordenadas que têm sujeitos diferentes.
+  - id: q08
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Encerrada a discussão, o Plenário aprovou ontem o projeto que
+      > 2. reorganiza o arquivo sonoro da Casa. A relatora, deputada em
+      > 3. segundo mandato, defendeu o texto com um argumento: sem
+      > 4. catalogação, os registros antigos se perdem. Os deputados da
+      > 5. comissão especial, que haviam examinado a matéria por três meses,
+      > 6. acompanharam o voto da relatora. O líder da minoria — único orador
+      > 7. inscrito para falar contra a proposta — criticou a “modernização”
+      > 8. prometida pelo projeto, que, a seu ver, apenas reduz o quadro de
+      > 9. pessoal, e perguntou quando o impacto orçamentário seria
+      > 10. apresentado. Falaram ainda a presidente da comissão, autora do
+      > 11. requerimento de urgência; o primeiro-secretário, que respondeu
+      > 12. pela Mesa; e dois vice-líderes. A relatora acolheu três emendas, e
+      > 13. o líder do governo retirou o destaque que apresentara. A matéria
+      > 14. segue para o Senado.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      A substituição dos travessões empregados nas linhas 6 e 7 por vírgulas prejudicaria a correção gramatical do texto.

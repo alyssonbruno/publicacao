@@ -1,0 +1,170 @@
+# Treino de concordância verbal e nominal — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Concordância verbal e nominal
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (notícia de uma reunião de comissão), no estilo de certo ou errado do Cebraspe: trecho do texto entre aspas, com remissão à linha, e uma afirmação por item, sobre a troca de uma forma e a correção gramatical ou sobre o termo com que uma forma concorda.'
+    - 'Referências de estilo, sem reprodução de itens: provas objetivas de Conhecimentos Gerais do Cebraspe para a Câmara dos Deputados (Edital nº 1/2025, nível superior, aplicada em 2026) e para Analista Judiciário do TRF da 6ª Região (edital de 2024, aplicada em 2025), com os gabaritos definitivos.'
+    - 'Bases do gabarito: Manual de Redação da Presidência da República, 3ª ed. (2018), item 11.7; Manual de Comunicação da Secom do Senado Federal, verbete Concordância verbal; Só Português, Sintaxe de concordância e Concordância nominal (casos particulares). Consultados em 12/10/2026 e relidos em 13/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem da comissão, grande parte das sugestões enviadas
+      > 2. pelos cidadãos foi lida em voz alta. Entrou na pauta, em seguida, o
+      > 3. relatório do grupo de trabalho e duas emendas de redação. A consultora,
+      > 4. meio cansada depois de bastantes horas de debate, apresentou um
+      > 5. gráfico e uma tabela atualizados e informou que vão inclusas no
+      > 6. processo as planilhas de custos. O prazo fixado pelos líderes para a
+      > 7. entrega dos destaques termina amanhã. Segundo a assessoria, deve
+      > 8. haver novas audiências públicas até o fim do mês. Definiram-se, por
+      > 9. fim, os critérios de escolha dos convidados.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “grande parte das sugestões enviadas pelos cidadãos foi lida em voz alta” (linhas 1 e 2), a substituição de “foi lida” por foram lidas manteria a correção gramatical do texto.
+  - id: q02
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem da comissão, grande parte das sugestões enviadas
+      > 2. pelos cidadãos foi lida em voz alta. Entrou na pauta, em seguida, o
+      > 3. relatório do grupo de trabalho e duas emendas de redação. A consultora,
+      > 4. meio cansada depois de bastantes horas de debate, apresentou um
+      > 5. gráfico e uma tabela atualizados e informou que vão inclusas no
+      > 6. processo as planilhas de custos. O prazo fixado pelos líderes para a
+      > 7. entrega dos destaques termina amanhã. Segundo a assessoria, deve
+      > 8. haver novas audiências públicas até o fim do mês. Definiram-se, por
+      > 9. fim, os critérios de escolha dos convidados.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “deve haver novas audiências públicas” (linhas 7 e 8), a substituição de “haver” por existir manteria a correção gramatical do texto.
+  - id: q03
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem da comissão, grande parte das sugestões enviadas
+      > 2. pelos cidadãos foi lida em voz alta. Entrou na pauta, em seguida, o
+      > 3. relatório do grupo de trabalho e duas emendas de redação. A consultora,
+      > 4. meio cansada depois de bastantes horas de debate, apresentou um
+      > 5. gráfico e uma tabela atualizados e informou que vão inclusas no
+      > 6. processo as planilhas de custos. O prazo fixado pelos líderes para a
+      > 7. entrega dos destaques termina amanhã. Segundo a assessoria, deve
+      > 8. haver novas audiências públicas até o fim do mês. Definiram-se, por
+      > 9. fim, os critérios de escolha dos convidados.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “vão inclusas no processo as planilhas de custos” (linhas 5 e 6), o vocábulo “inclusas” está flexionado no feminino plural porque concorda com “as planilhas de custos”.
+  - id: q04
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem da comissão, grande parte das sugestões enviadas
+      > 2. pelos cidadãos foi lida em voz alta. Entrou na pauta, em seguida, o
+      > 3. relatório do grupo de trabalho e duas emendas de redação. A consultora,
+      > 4. meio cansada depois de bastantes horas de debate, apresentou um
+      > 5. gráfico e uma tabela atualizados e informou que vão inclusas no
+      > 6. processo as planilhas de custos. O prazo fixado pelos líderes para a
+      > 7. entrega dos destaques termina amanhã. Segundo a assessoria, deve
+      > 8. haver novas audiências públicas até o fim do mês. Definiram-se, por
+      > 9. fim, os critérios de escolha dos convidados.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “O prazo fixado pelos líderes para a entrega dos destaques termina amanhã” (linhas 6 e 7), a forma verbal “termina” está no singular porque concorda com “entrega”, núcleo do sujeito da oração.
+  - id: q05
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem da comissão, grande parte das sugestões enviadas
+      > 2. pelos cidadãos foi lida em voz alta. Entrou na pauta, em seguida, o
+      > 3. relatório do grupo de trabalho e duas emendas de redação. A consultora,
+      > 4. meio cansada depois de bastantes horas de debate, apresentou um
+      > 5. gráfico e uma tabela atualizados e informou que vão inclusas no
+      > 6. processo as planilhas de custos. O prazo fixado pelos líderes para a
+      > 7. entrega dos destaques termina amanhã. Segundo a assessoria, deve
+      > 8. haver novas audiências públicas até o fim do mês. Definiram-se, por
+      > 9. fim, os critérios de escolha dos convidados.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “depois de bastantes horas de debate” (linha 4), a substituição de “bastantes” por bastante manteria a correção gramatical do texto.
+  - id: q06
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem da comissão, grande parte das sugestões enviadas
+      > 2. pelos cidadãos foi lida em voz alta. Entrou na pauta, em seguida, o
+      > 3. relatório do grupo de trabalho e duas emendas de redação. A consultora,
+      > 4. meio cansada depois de bastantes horas de debate, apresentou um
+      > 5. gráfico e uma tabela atualizados e informou que vão inclusas no
+      > 6. processo as planilhas de custos. O prazo fixado pelos líderes para a
+      > 7. entrega dos destaques termina amanhã. Segundo a assessoria, deve
+      > 8. haver novas audiências públicas até o fim do mês. Definiram-se, por
+      > 9. fim, os critérios de escolha dos convidados.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “Entrou na pauta, em seguida, o relatório do grupo de trabalho e duas emendas de redação” (linhas 2 e 3), a substituição de “Entrou” por Entraram manteria a correção gramatical do texto.
+  - id: q07
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem da comissão, grande parte das sugestões enviadas
+      > 2. pelos cidadãos foi lida em voz alta. Entrou na pauta, em seguida, o
+      > 3. relatório do grupo de trabalho e duas emendas de redação. A consultora,
+      > 4. meio cansada depois de bastantes horas de debate, apresentou um
+      > 5. gráfico e uma tabela atualizados e informou que vão inclusas no
+      > 6. processo as planilhas de custos. O prazo fixado pelos líderes para a
+      > 7. entrega dos destaques termina amanhã. Segundo a assessoria, deve
+      > 8. haver novas audiências públicas até o fim do mês. Definiram-se, por
+      > 9. fim, os critérios de escolha dos convidados.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “apresentou um gráfico e uma tabela atualizados” (linhas 4 e 5), a substituição de “atualizados” por atualizada manteria a correção gramatical do texto.
+  - id: q08
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem da comissão, grande parte das sugestões enviadas
+      > 2. pelos cidadãos foi lida em voz alta. Entrou na pauta, em seguida, o
+      > 3. relatório do grupo de trabalho e duas emendas de redação. A consultora,
+      > 4. meio cansada depois de bastantes horas de debate, apresentou um
+      > 5. gráfico e uma tabela atualizados e informou que vão inclusas no
+      > 6. processo as planilhas de custos. O prazo fixado pelos líderes para a
+      > 7. entrega dos destaques termina amanhã. Segundo a assessoria, deve
+      > 8. haver novas audiências públicas até o fim do mês. Definiram-se, por
+      > 9. fim, os critérios de escolha dos convidados.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      A correção gramatical do texto seria mantida caso a forma verbal “Definiram-se” (linha 8) fosse substituída por Definiu-se.

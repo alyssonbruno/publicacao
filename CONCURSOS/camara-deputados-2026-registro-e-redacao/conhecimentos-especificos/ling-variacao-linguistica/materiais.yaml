@@ -1,0 +1,53 @@
+materiais:
+  - tipo: texto
+    titulo: 'Variação linguística: tipos, dialetos e registros'
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: podcast
+    titulo: 'Gramática #1: Variedades linguísticas no Brasil (Brasil Escola Podcasts)'
+    url: https://podcasts.apple.com/br/podcast/gram%C3%A1tica-1-variedades-lingu%C3%ADsticas-no-brasil/id1512784221?i=1000475699129
+    audio: https://s2.static.brasilescola.uol.com.br/be/2020/05/gramatica-1-variedades-linguisticas-no-brasil.mp3
+    autor: Brasil Escola (professora Maria Beatriz)
+    duracao_min: 18
+    descricao: >-
+      Os tempos e o conteúdo abaixo vêm de uma transcrição automática do áudio, e não de escuta
+      por uma pessoa: podem ter pequenas diferenças. Ouça a partir de 10:59: em sete minutos, os
+      quatro tipos com os nomes técnicos e exemplos (diatópica em 11:17, diacrônica em 13:03,
+      diastrática em 14:19 e diafásica em 15:24). Antes disso, o episódio fala de norma-padrão e preconceito linguístico (assunto da aula de
+      oralidade e escrita) e de exemplos de pronúncia. Nível de ensino médio. Não trata da
+      variação diamésica nem de dialeto e registro, e junta "formal" com "padrão": para esses
+      pontos, vale o texto da aula. As regiões atribuídas a cada palavra não precisam ser
+      decoradas.
+  - tipo: podcast
+    titulo: A Linguagem e suas Variações - Dialetos e Sociolinguística (UFOP Entrevista)
+    url: https://podcasts.apple.com/br/podcast/a-linguagem-e-suas-varia%C3%A7%C3%B5es-dialetos-e-sociolingu%C3%ADstica/id1498803548?i=1000709592523
+    audio: https://anchor.fm/s/13a44454/podcast/play/103101755/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-4-23%2F9a5c2a32-78dd-2e1c-d13e-536d7df94010.mp3
+    autor: Rádio UFOP (entrevista com a professora Soélis Mendes, do Departamento de Letras da UFOP)
+    duracao_min: 48
+    descricao: >-
+      Escuta complementar, em tom de conversa. Os tempos e o conteúdo abaixo vêm de uma
+      transcrição automática, lida inteira só até 10:50, e não de escuta por uma pessoa. O trecho
+      que interessa a esta aula vai de 1:25 a 9:07: os tipos de variação com os nomes diatópica, diacrônica, diastrática e diafásica, e
+      a diferença entre língua, dialeto e sotaque. O restante, conferido só por amostragem, parece tratar do falar mineiro, da
+      identidade, do preconceito linguístico, da escola e, perto de 40:40, de fala e escrita,
+      assuntos da aula de oralidade e escrita. A entrevista não usa a palavra registro e liga a
+      situação formal ao português padrão, dois pontos que o texto da aula separa.
+  - tipo: link
+    titulo: Sociolinguística (livro-texto de Letras a distância, UFSC)
+    url: https://ppglin.posgrad.ufsc.br/files/2013/04/Sociolingu%C3%ADstica_UFSC.pdf
+    autor: Izete Lehmkuhl Coelho, Edair Maria Görski, Guilherme Henrique May e Christiane Maria Nunes de Souza (UFSC)
+    descricao: >-
+      PDF de 172 páginas (2010), base desta aula. Para aprofundar, leia só duas partes: o item
+      2.2 (p. 23 a 27 do livro), sobre variedade, variável e variante, e o item 4.2 (p. 76 a 86),
+      sobre a variação diatópica, a diastrática, a diafásica e a diamésica. Nível de graduação em
+      Letras. O livro não usa a divisão em dialetos e registros: essa parte está no texto da aula.
+  - tipo: link
+    titulo: 'Variação lingüística e ensino: caderno do professor (Ceale/UFMG)'
+    url: https://cake.ceale.fae.ufmg.br/files/uploads/Col.%20Alfabetiza%C3%A7%C3%A3o%20e%20Letramento/Col%20Alf.Let.%2015%20Variacao_Linguistica.pdf
+    autor: Janice Helena Chaves Marinho e Maria da Graça Costa Val (Ceale, UFMG)
+    descricao: >-
+      Caderno de 2006 escrito para professores. Leia só a seção 3 (p. 25 a 41): é a leitura aberta
+      que usa a divisão do edital, variação dialetal e variação de registro, com exemplos. Não usa
+      os nomes diatópica, diastrática e diafásica, e a grafia é anterior ao Acordo Ortográfico.

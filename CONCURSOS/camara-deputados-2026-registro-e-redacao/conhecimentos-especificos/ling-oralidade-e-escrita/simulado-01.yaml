@@ -1,0 +1,78 @@
+# Treino de oralidade e escrita, formalidade, normas linguísticas e variação no português do Brasil — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Oralidade e escrita, normas linguísticas e a variação no português do Brasil
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no estilo de certo ou errado do Cebraspe, com uma afirmação por item: dois itens sobre um texto próprio e fictício (trecho de ensaio de divulgação linguística, sem autor real) e seis itens conceituais.'
+    - 'Referências de estilo, sem reprodução de itens: caderno de conhecimentos específicos do CESPE/UnB (atual Cebraspe) para Analista Legislativo, atribuição Taquígrafo Legislativo, da Câmara dos Deputados (aplicado em 2012) e caderno do Cebraspe para Professor de Língua Portuguesa da Fundação Inoversa Sul (edital de 2024, aplicado em 2025), com os gabaritos definitivos.'
+    - 'Bases do gabarito: Marcuschi e Dionisio (orgs.), Fala e escrita (CEEL/UFPE e MEC, Autêntica, 2007); Coelho, Görski, May e Souza, Sociolinguística (UFSC); Conceição, Normas linguísticas do português do Brasil (Web-Revista Sociodialeto, 2017); Freire, Norma-padrão, norma gramatical e norma culta no Brasil (Revista (Con)Textos Linguísticos, 2020). Consultados em 12 e 13/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/ling-oralidade-e-escrita
+    enunciado: |-
+      Texto para o item: trecho de ensaio fictício de divulgação linguística, escrito para este treino.
+
+      > **Texto I**
+      >
+      > Quem acompanha uma sessão legislativa pelo rádio e depois lê o registro impresso costuma concluir que ouviu uma língua e leu outra. A impressão é enganosa. O orador que retoma a frase, se corrige e chama o ouvinte com um “veja bem” não está falando mal: está compondo o texto diante de quem o escuta, sem a borracha de que dispõe quem escreve. Tampouco é a voz que faz a fala: o comunicado lido ao microfone foi redigido e revisto antes, e só a pronúncia o separa do papel. Entre a conversa de corredor e o texto de lei, estende-se uma escala de gêneros, e é nela, não em dois blocos, que os textos se distribuem.
+      >
+      > Outra confusão envolve a palavra norma. Ora ela designa o que os falantes de um grupo costumam fazer, ora o que os manuais mandam fazer. Nossa sociedade atribui às formas dos grupos mais escolarizados um valor que nega às demais; esse valor, porém, vem da posição de quem as usa, e não de alguma qualidade de sua gramática. Reconhecê-lo não equivale a aplaudi-lo.
+      >
+      > Tampouco a escrita está a salvo da variação. Quem compara a crônica e o editorial de um mesmo jornal percebe que construções correntes na conversa frequentam a primeira e rareiam no segundo. O redator que as admite numa página e as evita na outra não desaprendeu a língua no caminho: mede o que cada texto lhe cobra.
+
+      Com base nas ideias do texto, julgue o item.
+
+      Depreende-se do terceiro parágrafo que, para o autor, a diferença de linguagem entre a crônica e o editorial decorre do ajuste de quem escreve ao gênero, e não de domínio desigual da língua.
+  - id: q02
+    topico: conhecimentos-especificos/ling-oralidade-e-escrita
+    enunciado: |-
+      Julgue o item, relativo à variação linguística no português do Brasil.
+
+      A oração relativa sem a preposição pedida pelo verbo, como em “a emenda que o plenário discordou”, não é exclusiva de falantes pouco escolarizados: ocorre também em textos escritos por pessoas letradas.
+  - id: q03
+    topico: conhecimentos-especificos/ling-oralidade-e-escrita
+    enunciado: |-
+      Texto para o item: trecho de ensaio fictício de divulgação linguística, escrito para este treino.
+
+      > **Texto I**
+      >
+      > Quem acompanha uma sessão legislativa pelo rádio e depois lê o registro impresso costuma concluir que ouviu uma língua e leu outra. A impressão é enganosa. O orador que retoma a frase, se corrige e chama o ouvinte com um “veja bem” não está falando mal: está compondo o texto diante de quem o escuta, sem a borracha de que dispõe quem escreve. Tampouco é a voz que faz a fala: o comunicado lido ao microfone foi redigido e revisto antes, e só a pronúncia o separa do papel. Entre a conversa de corredor e o texto de lei, estende-se uma escala de gêneros, e é nela, não em dois blocos, que os textos se distribuem.
+      >
+      > Outra confusão envolve a palavra norma. Ora ela designa o que os falantes de um grupo costumam fazer, ora o que os manuais mandam fazer. Nossa sociedade atribui às formas dos grupos mais escolarizados um valor que nega às demais; esse valor, porém, vem da posição de quem as usa, e não de alguma qualidade de sua gramática. Reconhecê-lo não equivale a aplaudi-lo.
+      >
+      > Tampouco a escrita está a salvo da variação. Quem compara a crônica e o editorial de um mesmo jornal percebe que construções correntes na conversa frequentam a primeira e rareiam no segundo. O redator que as admite numa página e as evita na outra não desaprendeu a língua no caminho: mede o que cada texto lhe cobra.
+
+      Com base nas ideias do texto, julgue o item.
+
+      No segundo parágrafo, o autor endossa o valor que a sociedade atribui às formas linguísticas dos grupos mais escolarizados.
+  - id: q04
+    topico: conhecimentos-especificos/ling-oralidade-e-escrita
+    enunciado: |-
+      Julgue o item, relativo às normas linguísticas.
+
+      Na descrição sociolinguística do português do Brasil, a norma culta e as normas populares são conjuntos de usos sem traços em comum, de modo que nenhuma forma corrente entre falantes pouco escolarizados aparece na fala de pessoas com curso superior.
+  - id: q05
+    topico: conhecimentos-especificos/ling-oralidade-e-escrita
+    enunciado: |-
+      Julgue o item, relativo às relações entre oralidade e escrita.
+
+      De acordo com a noção de contínuo entre fala e escrita, um recado escrito às pressas para um familiar, por se realizar no meio gráfico, está mais próximo de um relatório técnico do que de um recado dado de viva voz.
+  - id: q06
+    topico: conhecimentos-especificos/ling-oralidade-e-escrita
+    enunciado: |-
+      Julgue o item, relativo às relações entre oralidade e escrita.
+
+      Na perspectiva que entende fala e escrita como modos de uso de um mesmo sistema linguístico, a oposição entre o meio sonoro e o meio gráfico é, em certo sentido, a única distinção dicotômica entre as duas modalidades.
+  - id: q07
+    topico: conhecimentos-especificos/ling-oralidade-e-escrita
+    enunciado: |-
+      Julgue o item, relativo às normas linguísticas.
+
+      Na frase “O uso de *a gente* no lugar de *nós* é a norma na conversa entre brasileiros”, a palavra “norma” designa um modelo de correção que se recomenda aos falantes.
+  - id: q08
+    topico: conhecimentos-especificos/ling-oralidade-e-escrita
+    enunciado: |-
+      Julgue o item, relativo à formalidade e à informalidade.
+
+      A arguição oral de um candidato por uma banca examinadora e a mensagem escrita trocada entre amigos íntimos são exemplos de que o grau de formalidade de um texto não é determinado pela modalidade, falada ou escrita, em que ele se realiza.

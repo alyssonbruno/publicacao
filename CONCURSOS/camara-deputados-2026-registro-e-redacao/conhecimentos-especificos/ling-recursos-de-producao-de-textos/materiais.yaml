@@ -1,0 +1,82 @@
+materiais:
+  - tipo: texto
+    titulo: Recursos de produção de textos e adequação ao gênero
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: Leitura e Produção de textos - Os efeitos de sentido
+    url: https://www.youtube.com/watch?v=Hk-Z466EYzE
+    autor: UNIVESP (professora Vanessa Martins do Monte)
+    duracao_min: 24
+    descricao: >-
+      O mesmo vídeo da aula de compreensão interpretativa e crítica, agora com outro foco: os
+      recursos. Não assistimos ao vídeo: o que segue vem dos slides da aula e da transcrição
+      automática do podcast abaixo, que é o áudio desta videoaula, e os minutos são desse áudio,
+      aproximados. Repare em três recursos: a ambiguidade entre sentido literal e figurado que
+      faz o humor de uma tirinha (mais ou menos até 4:30), o valor dos conectivos "e" e "mas",
+      que muda com o texto (por volta de 7:00 a 13:00), e a repetição usada de propósito, na
+      tirinha e num artigo de opinião (de 13:00 em diante). Aviso: os exemplos são de 2020 e
+      tocam na política da época da pandemia; aqui interessam os recursos, não as posições dos
+      textos analisados. Aula de primeiro ano de graduação, sem questões. Adequação ao gênero e
+      convenções da escrita ficam com o texto da aula.
+  - tipo: podcast
+    titulo: Leitura e produção de textos - S6 - Os efeitos do sentido
+    url: https://podcasts.apple.com/br/podcast/leitura-e-produ%C3%A7%C3%A3o-de-textos-s6-os-efeitos-do-sentido/id1524312043?i=1000488706462
+    audio: https://anchor.fm/s/2c853140/podcast/play/18328259/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-7-20%2Fef8f983c-b775-6c90-5e81-150d9cb5d34a.mp3
+    autor: Aulas Univesp (professora Vanessa Martins do Monte)
+    duracao_min: 23
+    descricao: >-
+      É o áudio da videoaula acima, para quem prefere ouvir (também indicado na aula de
+      compreensão interpretativa e crítica). Não ouvimos o episódio: lemos a transcrição
+      automática dele, inteira. Por ela, a professora lê em voz alta as falas das tirinhas e os
+      trechos do artigo de opinião, o que permite acompanhar sem a imagem. Preste atenção aos
+      recursos: sentido literal e figurado, conectivos e repetição; os minutos indicados no vídeo
+      acima são os deste áudio. Aviso: os exemplos são de 2020 e tocam na política da época da
+      pandemia; interessam os recursos, não as posições dos textos analisados. Escolha um dos
+      dois, o vídeo ou o áudio.
+  - tipo: video
+    titulo: Gramática de Língua Portuguesa II - Os modalizadores
+    url: https://www.youtube.com/watch?v=aNsMexhCOos
+    autor: UNIVESP (professora Lúcia Regiane Lopes-Damasio)
+    duracao_min: 11
+    descricao: >-
+      Videoaula curta do curso de Letras da Univesp, que não assistimos. Pelo título e pela
+      descrição do canal, apresenta os modalizadores como marcas linguísticas da argumentação,
+      com a definição e o funcionamento dos indicadores modais. Veja depois da parte de
+      modalização do texto. É a sexta semana de uma disciplina e pode supor conceitos de aulas
+      anteriores; não sabemos se trata de tempos verbais: o valor do futuro do pretérito, que a
+      banca já cobrou, está no texto da aula.
+  - tipo: video
+    titulo: PASSO A PASSO para entender as FIGURAS DE LINGUAGEM!
+    url: https://www.youtube.com/watch?v=n0e75nRstcU
+    autor: Professor Noslen
+    duracao_min: 15
+    descricao: >-
+      Para quem não lembra as figuras. Não assistimos ao vídeo: pelo título e pelos capítulos
+      que o canal lista, passa por denotação e conotação, comparação, metáfora, metonímia,
+      antítese, paradoxo, personificação, hipérbole, eufemismo e ironia. É de um canal de
+      revisão escolar. Os capítulos não trazem anáfora, paralelismo nem pergunta retórica, nem
+      a ligação entre figura e gênero: para isso, use o texto da aula. Nesta prova, importa
+      mais o efeito do que o nome da figura.
+  - tipo: link
+    titulo: "Manual de redação: documentos administrativos (Câmara dos Deputados, 2ª ed., 2023)"
+    url: https://bd.camara.leg.br/bd/bitstreams/53dcada1-41d5-47f9-b404-8a616fe55284/download
+    autor: Câmara dos Deputados, Edições Câmara
+    descricao: >-
+      PDF de 106 páginas do órgão do concurso. Leia só duas partes: o capítulo 1, "A linguagem
+      na comunicação oficial" (p. 9 a 13), que mostra um gênero impondo escolhas de linguagem
+      (impessoalidade, formalidade, clareza, concisão), e o item 2.2, "Destaques" (p. 23 a 31),
+      sobre aspas, itálico, negrito e maiúsculas. Os modelos de documentos do capítulo 3 são
+      assunto da aula de redação oficial.
+  - tipo: link
+    titulo: Leitura e Produção de Texto (fascículo da UFMT, no portal eduCAPES)
+    url: https://educapes.capes.gov.br/handle/capes/430003
+    autor: Mariângela Sólla López (UFMT/UAB)
+    descricao: >-
+      Fascículo de licenciatura, de 2018, com licença Creative Commons (o arquivo é um .docx,
+      baixado pela página). Para aprofundar, leia na unidade 1 o item 1.4, "Tipologia ou
+      sequência textual", com o quadro das cinco sequências e as marcas de cada uma. Escrito
+      para futuros professores, com muitas citações; não trata de figuras, registro nem
+      convenções da escrita.

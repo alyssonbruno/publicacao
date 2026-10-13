@@ -1,0 +1,199 @@
+# Treino de regência, crase e colocação dos pronomes átonos — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Regência, crase e colocação dos pronomes átonos
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (trecho da ata de uma reunião de comissão), no estilo de certo ou errado do Cebraspe: trecho do texto entre aspas, com remissão à linha, e uma afirmação por item sobre a regência, o sinal indicativo de crase ou a posição do pronome.'
+    - 'Referências de estilo, sem reprodução de itens: cadernos de conhecimentos gerais do Cebraspe para a Câmara dos Deputados (Edital nº 1/2025, nível superior, aplicado em 8/3/2026) e de conhecimentos básicos para Auditor Federal de Controle Externo do TCU (edital de 2025, aplicado em 22/2/2026), com os gabaritos definitivos, pela descrição registrada na curadoria do tópico.'
+    - 'Bases do gabarito: Manual de Redação da Presidência da República, 3ª ed. (2018), item 11.8 (Regência); Manual de Padronização de Textos do STJ, verbetes “colocação pronominal” e “crase”; Só Português, séries de regência verbal e nominal, de crase e de colocação dos pronomes átonos; Manual de Comunicação da Secom do Senado Federal, verbete “crase”. Consultados em 12/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-regencia-crase-e-colocacao
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Convocada para discutir o projeto, a reunião estendeu-se desde as
+      > 2. 14 horas até as 22 horas. A relatora, que aspirava à liderança da
+      > 3. bancada, emitiu parecer contrário à emenda da oposição e fez alusão
+      > 4. a sua proposta de 2019, com base nos dados de que a consultoria
+      > 5. dispunha. O líder da minoria tinha-se comprometido a retirar o
+      > 6. requerimento de adiamento, mas dois vice-líderes pediram a palavra
+      > 7. para protestar. A Mesa não lhes podia negar esse direito. Antes de
+      > 8. encerrar os trabalhos, o presidente comunicou o novo prazo para
+      > 9. destaques a todas as lideranças e determinou que se registrasse o
+      > 10. protesto em ata.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      É facultativo o emprego do sinal indicativo de crase nas duas ocorrências de “as” no trecho “desde as 14 horas até as 22 horas” (linhas 1 e 2).
+  - id: q02
+    topico: conhecimentos-basicos/lp-regencia-crase-e-colocacao
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Convocada para discutir o projeto, a reunião estendeu-se desde as
+      > 2. 14 horas até as 22 horas. A relatora, que aspirava à liderança da
+      > 3. bancada, emitiu parecer contrário à emenda da oposição e fez alusão
+      > 4. a sua proposta de 2019, com base nos dados de que a consultoria
+      > 5. dispunha. O líder da minoria tinha-se comprometido a retirar o
+      > 6. requerimento de adiamento, mas dois vice-líderes pediram a palavra
+      > 7. para protestar. A Mesa não lhes podia negar esse direito. Antes de
+      > 8. encerrar os trabalhos, o presidente comunicou o novo prazo para
+      > 9. destaques a todas as lideranças e determinou que se registrasse o
+      > 10. protesto em ata.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No sentido em que está empregada no trecho “que aspirava à liderança da bancada” (linhas 2 e 3), a forma verbal “aspirava” exige complemento introduzido pela preposição a, o que justifica o emprego do sinal indicativo de crase em “à liderança”.
+  - id: q03
+    topico: conhecimentos-basicos/lp-regencia-crase-e-colocacao
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Convocada para discutir o projeto, a reunião estendeu-se desde as
+      > 2. 14 horas até as 22 horas. A relatora, que aspirava à liderança da
+      > 3. bancada, emitiu parecer contrário à emenda da oposição e fez alusão
+      > 4. a sua proposta de 2019, com base nos dados de que a consultoria
+      > 5. dispunha. O líder da minoria tinha-se comprometido a retirar o
+      > 6. requerimento de adiamento, mas dois vice-líderes pediram a palavra
+      > 7. para protestar. A Mesa não lhes podia negar esse direito. Antes de
+      > 8. encerrar os trabalhos, o presidente comunicou o novo prazo para
+      > 9. destaques a todas as lideranças e determinou que se registrasse o
+      > 10. protesto em ata.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “emitiu parecer contrário à emenda da oposição” (linha 3), o emprego do sinal indicativo de crase justifica-se pela regência da forma verbal “emitiu”, que exige complemento introduzido pela preposição a.
+  - id: q04
+    topico: conhecimentos-basicos/lp-regencia-crase-e-colocacao
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Convocada para discutir o projeto, a reunião estendeu-se desde as
+      > 2. 14 horas até as 22 horas. A relatora, que aspirava à liderança da
+      > 3. bancada, emitiu parecer contrário à emenda da oposição e fez alusão
+      > 4. a sua proposta de 2019, com base nos dados de que a consultoria
+      > 5. dispunha. O líder da minoria tinha-se comprometido a retirar o
+      > 6. requerimento de adiamento, mas dois vice-líderes pediram a palavra
+      > 7. para protestar. A Mesa não lhes podia negar esse direito. Antes de
+      > 8. encerrar os trabalhos, o presidente comunicou o novo prazo para
+      > 9. destaques a todas as lideranças e determinou que se registrasse o
+      > 10. protesto em ata.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      A correção gramatical do texto seria mantida caso se empregasse o sinal indicativo de crase no vocábulo “a” em “fez alusão a sua proposta de 2019” (linhas 3 e 4).
+  - id: q05
+    topico: conhecimentos-basicos/lp-regencia-crase-e-colocacao
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Convocada para discutir o projeto, a reunião estendeu-se desde as
+      > 2. 14 horas até as 22 horas. A relatora, que aspirava à liderança da
+      > 3. bancada, emitiu parecer contrário à emenda da oposição e fez alusão
+      > 4. a sua proposta de 2019, com base nos dados de que a consultoria
+      > 5. dispunha. O líder da minoria tinha-se comprometido a retirar o
+      > 6. requerimento de adiamento, mas dois vice-líderes pediram a palavra
+      > 7. para protestar. A Mesa não lhes podia negar esse direito. Antes de
+      > 8. encerrar os trabalhos, o presidente comunicou o novo prazo para
+      > 9. destaques a todas as lideranças e determinou que se registrasse o
+      > 10. protesto em ata.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      A correção gramatical do texto seria mantida caso se suprimisse a preposição “de” no trecho “nos dados de que a consultoria dispunha” (linhas 4 e 5).
+  - id: q06
+    topico: conhecimentos-basicos/lp-regencia-crase-e-colocacao
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Convocada para discutir o projeto, a reunião estendeu-se desde as
+      > 2. 14 horas até as 22 horas. A relatora, que aspirava à liderança da
+      > 3. bancada, emitiu parecer contrário à emenda da oposição e fez alusão
+      > 4. a sua proposta de 2019, com base nos dados de que a consultoria
+      > 5. dispunha. O líder da minoria tinha-se comprometido a retirar o
+      > 6. requerimento de adiamento, mas dois vice-líderes pediram a palavra
+      > 7. para protestar. A Mesa não lhes podia negar esse direito. Antes de
+      > 8. encerrar os trabalhos, o presidente comunicou o novo prazo para
+      > 9. destaques a todas as lideranças e determinou que se registrasse o
+      > 10. protesto em ata.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “O líder da minoria tinha-se comprometido” (linha 5), o pronome “se” poderia ser deslocado para imediatamente depois do particípio, escrevendo-se tinha comprometido-se, sem prejuízo da correção gramatical do texto.
+  - id: q07
+    topico: conhecimentos-basicos/lp-regencia-crase-e-colocacao
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Convocada para discutir o projeto, a reunião estendeu-se desde as
+      > 2. 14 horas até as 22 horas. A relatora, que aspirava à liderança da
+      > 3. bancada, emitiu parecer contrário à emenda da oposição e fez alusão
+      > 4. a sua proposta de 2019, com base nos dados de que a consultoria
+      > 5. dispunha. O líder da minoria tinha-se comprometido a retirar o
+      > 6. requerimento de adiamento, mas dois vice-líderes pediram a palavra
+      > 7. para protestar. A Mesa não lhes podia negar esse direito. Antes de
+      > 8. encerrar os trabalhos, o presidente comunicou o novo prazo para
+      > 9. destaques a todas as lideranças e determinou que se registrasse o
+      > 10. protesto em ata.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “A Mesa não lhes podia negar esse direito” (linha 7), o pronome “lhes” poderia ser deslocado para depois do infinitivo, escrevendo-se não podia negar-lhes, sem prejuízo da correção gramatical do texto.
+  - id: q08
+    topico: conhecimentos-basicos/lp-regencia-crase-e-colocacao
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Convocada para discutir o projeto, a reunião estendeu-se desde as
+      > 2. 14 horas até as 22 horas. A relatora, que aspirava à liderança da
+      > 3. bancada, emitiu parecer contrário à emenda da oposição e fez alusão
+      > 4. a sua proposta de 2019, com base nos dados de que a consultoria
+      > 5. dispunha. O líder da minoria tinha-se comprometido a retirar o
+      > 6. requerimento de adiamento, mas dois vice-líderes pediram a palavra
+      > 7. para protestar. A Mesa não lhes podia negar esse direito. Antes de
+      > 8. encerrar os trabalhos, o presidente comunicou o novo prazo para
+      > 9. destaques a todas as lideranças e determinou que se registrasse o
+      > 10. protesto em ata.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      Caso fosse suprimido o vocábulo “todas” no trecho “a todas as lideranças” (linha 9), o emprego do sinal indicativo de crase passaria a ser obrigatório, devendo-se escrever às lideranças.
+  - id: q09
+    topico: conhecimentos-basicos/lp-regencia-crase-e-colocacao
+    enunciado: |-
+      Texto para o item: trecho fictício da ata de uma reunião de comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Convocada para discutir o projeto, a reunião estendeu-se desde as
+      > 2. 14 horas até as 22 horas. A relatora, que aspirava à liderança da
+      > 3. bancada, emitiu parecer contrário à emenda da oposição e fez alusão
+      > 4. a sua proposta de 2019, com base nos dados de que a consultoria
+      > 5. dispunha. O líder da minoria tinha-se comprometido a retirar o
+      > 6. requerimento de adiamento, mas dois vice-líderes pediram a palavra
+      > 7. para protestar. A Mesa não lhes podia negar esse direito. Antes de
+      > 8. encerrar os trabalhos, o presidente comunicou o novo prazo para
+      > 9. destaques a todas as lideranças e determinou que se registrasse o
+      > 10. protesto em ata.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “determinou que se registrasse o protesto em ata” (linhas 9 e 10), a colocação do pronome “se” antes do verbo deve-se ao fato de a forma verbal “registrasse” estar flexionada no modo subjuntivo.

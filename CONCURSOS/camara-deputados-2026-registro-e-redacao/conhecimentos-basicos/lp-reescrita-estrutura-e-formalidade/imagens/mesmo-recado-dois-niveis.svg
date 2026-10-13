@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="702" viewBox="0 0 912 702" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="702" fill="#ffffff"/>
+
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">O mesmo recado em dois níveis de formalidade</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Muda a forma, conforme o leitor e a situação. A informação tem de ser a mesma.</text>
+
+  <!-- Informal -->
+  <g transform="translate(24 82)">
+    <rect width="424" height="214" rx="10" fill="#fdecd2" stroke="#f0c98a"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#8a5a00">Informal</text>
+    <text x="16" y="52" font-size="13" fill="#52514e">mensagem no grupo dos colegas de gabinete</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="88">Pessoal, a reunião de amanhã caiu, porque o</text>
+      <text x="16" y="112">relator não vai conseguir terminar o parecer</text>
+      <text x="16" y="136">a tempo. Fica pra quinta, 10h, no mesmo</text>
+      <text x="16" y="160">plenário.</text>
+      <text x="16" y="184">Se mudar de novo, eu aviso.</text>
+    </g>
+  </g>
+
+  <!-- Formal -->
+  <g transform="translate(464 82)">
+    <rect width="424" height="214" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#1c5cab">Formal</text>
+    <text x="16" y="52" font-size="13" fill="#52514e">comunicado aos membros da comissão</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="88">Comunicamos que a reunião prevista para</text>
+      <text x="16" y="112">amanhã foi adiada para quinta-feira, às</text>
+      <text x="16" y="136">10 horas, no mesmo plenário, porque o relator</text>
+      <text x="16" y="160">não concluirá o parecer a tempo.</text>
+      <text x="16" y="184">Se houver nova alteração, avisaremos.</text>
+    </g>
+  </g>
+
+  <!-- O que mudou -->
+  <text x="24" y="334" font-size="15" font-weight="700" fill="#52514e">O que mudou</text>
+  <g font-size="14">
+    <rect x="24" y="346" width="864" height="34" fill="#f9f9f7" stroke="#dddcd6"/>
+    <text x="40" y="368" font-weight="700" fill="#52514e">Tratamento</text>
+    <text x="230" y="368" fill="#0b0b0b">"Pessoal", "eu aviso"</text>
+    <text x="500" y="368" fill="#52514e">→</text>
+    <text x="530" y="368" fill="#0b0b0b">sem vocativo; "comunicamos", "avisaremos"</text>
+
+    <rect x="24" y="380" width="864" height="34" fill="#ffffff" stroke="#dddcd6"/>
+    <text x="40" y="402" font-weight="700" fill="#52514e">Palavras</text>
+    <text x="230" y="402" fill="#0b0b0b">"caiu", "pra", "quinta", "10h"</text>
+    <text x="500" y="402" fill="#52514e">→</text>
+    <text x="530" y="402" fill="#0b0b0b">"foi adiada", "para", "quinta-feira", "às 10 horas"</text>
+
+    <rect x="24" y="414" width="864" height="34" fill="#f9f9f7" stroke="#dddcd6"/>
+    <text x="40" y="436" font-weight="700" fill="#52514e">Verbo</text>
+    <text x="230" y="436" fill="#0b0b0b">"não vai conseguir terminar"</text>
+    <text x="500" y="436" fill="#52514e">→</text>
+    <text x="530" y="436" fill="#0b0b0b">"não concluirá"</text>
+
+    <rect x="24" y="448" width="864" height="34" fill="#ffffff" stroke="#dddcd6"/>
+    <text x="40" y="470" font-weight="700" fill="#52514e">Períodos</text>
+    <text x="230" y="470" fill="#0b0b0b">três; "Fica pra quinta" à parte</text>
+    <text x="500" y="470" fill="#52514e">→</text>
+    <text x="530" y="470" fill="#0b0b0b">dois; o "porque" já estava na mensagem</text>
+  </g>
+
+  <!-- O que não mudou -->
+  <rect x="24" y="502" width="864" height="84" rx="8" fill="#dff4ea" stroke="#a9dcc4"/>
+  <text x="40" y="528" font-size="15" font-weight="700" fill="#0f7a54">O que não pode mudar</text>
+  <text x="40" y="552" font-size="14" fill="#0b0b0b">O fato (a reunião de amanhã foi adiada), o motivo (o parecer não fica pronto), o novo dia, a hora</text>
+  <text x="40" y="572" font-size="14" fill="#0b0b0b">e o lugar (quinta-feira, 10 horas, mesmo plenário) e a promessa de quem escreve de avisar outra mudança.</text>
+
+  <!-- Pé -->
+  <rect x="24" y="600" width="864" height="84" rx="8" fill="#fbe9e2" stroke="#f1bfae"/>
+  <text x="40" y="626" font-size="15" font-weight="700" fill="#a8401b">Informal não é errado</text>
+  <text x="40" y="650" font-size="14" fill="#0b0b0b">A mensagem informal está adequada ao grupo de colegas. Ficaria inadequada num comunicado oficial.</text>
+  <text x="40" y="670" font-size="14" fill="#0b0b0b">Formal também não é rebuscado: o comunicado usa palavras comuns e frases completas.</text>
+</svg>

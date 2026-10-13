@@ -1,0 +1,207 @@
+# Treino de variação linguística (tipos de variação; dialetos e registros) — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Variação linguística, tipos de variação, dialetos e registros
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre dois textos próprios e fictícios (as falas de uma consultora legislativa em duas situações e um trecho de roteiro de treinamento de um setor de registro de debates) e sobre conceitos, no estilo de certo ou errado do Cebraspe: marcas do texto entre aspas, com remissão à linha, e uma afirmação por item (um dos itens tem duas partes).'
+    - 'Referências de estilo, sem reprodução de itens: cadernos de conhecimentos específicos do CESPE/Cebraspe para Taquígrafo Legislativo da Câmara dos Deputados (2012), com o gabarito definitivo, e para Professor de Língua Portuguesa da SEDUC/AL (edital de 2017, aplicado em 2018) e da SEE/DF (edital de 2016, aplicado em 2017); padrão de resposta da prova discursiva da Prefeitura de São Luís (edital de 2016, aplicada em 2017).'
+    - 'Bases do gabarito: Coelho, Görski, May e Souza, Sociolinguística (UFSC, 2010), item 2.2, capítulo 4 e glossário; Marinho e Costa Val, Variação lingüística e ensino: caderno do professor (Ceale/UFMG e MEC, 2006), seção 3; Paiva, Variação linguística: um desafio no ensino de língua materna (dissertação, Unesp, 2023), item 1.3, pelo resumo da classificação de Travaglia. Consultados em 12 e 13/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/ling-variacao-linguistica
+    enunciado: |-
+      Texto para o item: falas fictícias de uma mesma consultora legislativa, no mesmo dia, em duas situações, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Situação A — exposição oral, sem leitura, em audiência pública:
+      > 2. “Senhor Presidente, senhoras e senhores deputados, agradeço o
+      > 3. convite. Passo a resumir a nota técnica da consultoria. O
+      > 4. substitutivo do relator acolhe três emendas e rejeita as demais; a
+      > 5. matéria ainda está sujeita a pedido de vista.”
+      > 6. Situação B — minutos depois, no café, com um colega de equipe:
+      > 7. “Nossa, que sufoco! A gente quase estourou o tempo. Me avisa se
+      > 8. pedirem vista, tá? Aí eu refaço a nota rapidinho.”
+
+      Com base no texto e nos conceitos de variação linguística, julgue o item.
+
+      A passagem de “agradeço o convite” (linhas 2 e 3), na situação A, para “Nossa, que sufoco!” (linha 7), na situação B, exemplifica a variação diatópica, uma vez que a falante ajusta a linguagem ao lugar em que se encontra.
+  - id: q02
+    topico: conhecimentos-especificos/ling-variacao-linguistica
+    enunciado: |-
+      Texto para o item: falas fictícias de uma mesma consultora legislativa, no mesmo dia, em duas situações, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Situação A — exposição oral, sem leitura, em audiência pública:
+      > 2. “Senhor Presidente, senhoras e senhores deputados, agradeço o
+      > 3. convite. Passo a resumir a nota técnica da consultoria. O
+      > 4. substitutivo do relator acolhe três emendas e rejeita as demais; a
+      > 5. matéria ainda está sujeita a pedido de vista.”
+      > 6. Situação B — minutos depois, no café, com um colega de equipe:
+      > 7. “Nossa, que sufoco! A gente quase estourou o tempo. Me avisa se
+      > 8. pedirem vista, tá? Aí eu refaço a nota rapidinho.”
+
+      Com base no texto e nos conceitos de variação linguística, julgue o item.
+
+      O emprego de “vista” na situação B (linha 8), depois de “pedido de vista” na situação A (linha 5), indica que o vocabulário próprio da atividade legislativa não é exclusivo das situações formais.
+  - id: q03
+    topico: conhecimentos-especificos/ling-variacao-linguistica
+    enunciado: |-
+      Texto para o item: falas fictícias de uma mesma consultora legislativa, no mesmo dia, em duas situações, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Situação A — exposição oral, sem leitura, em audiência pública:
+      > 2. “Senhor Presidente, senhoras e senhores deputados, agradeço o
+      > 3. convite. Passo a resumir a nota técnica da consultoria. O
+      > 4. substitutivo do relator acolhe três emendas e rejeita as demais; a
+      > 5. matéria ainda está sujeita a pedido de vista.”
+      > 6. Situação B — minutos depois, no café, com um colega de equipe:
+      > 7. “Nossa, que sufoco! A gente quase estourou o tempo. Me avisa se
+      > 8. pedirem vista, tá? Aí eu refaço a nota rapidinho.”
+
+      Com base no texto e nos conceitos de variação linguística, julgue o item.
+
+      A fala da situação A mostra que o registro formal pode realizar-se oralmente, não sendo exclusivo dos textos escritos.
+  - id: q04
+    topico: conhecimentos-especificos/ling-variacao-linguistica
+    enunciado: |-
+      Texto para o item: falas fictícias de uma mesma consultora legislativa, no mesmo dia, em duas situações, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Situação A — exposição oral, sem leitura, em audiência pública:
+      > 2. “Senhor Presidente, senhoras e senhores deputados, agradeço o
+      > 3. convite. Passo a resumir a nota técnica da consultoria. O
+      > 4. substitutivo do relator acolhe três emendas e rejeita as demais; a
+      > 5. matéria ainda está sujeita a pedido de vista.”
+      > 6. Situação B — minutos depois, no café, com um colega de equipe:
+      > 7. “Nossa, que sufoco! A gente quase estourou o tempo. Me avisa se
+      > 8. pedirem vista, tá? Aí eu refaço a nota rapidinho.”
+
+      Com base no texto e nos conceitos de variação linguística, julgue o item.
+
+      A diferença entre a fala da situação A e a da situação B é de natureza diamésica, uma vez que, em B, a falante planeja menos o que diz do que em A.
+  - id: q05
+    topico: conhecimentos-especificos/ling-variacao-linguistica
+    enunciado: |-
+      Texto para o item: falas fictícias de uma mesma consultora legislativa, no mesmo dia, em duas situações, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Situação A — exposição oral, sem leitura, em audiência pública:
+      > 2. “Senhor Presidente, senhoras e senhores deputados, agradeço o
+      > 3. convite. Passo a resumir a nota técnica da consultoria. O
+      > 4. substitutivo do relator acolhe três emendas e rejeita as demais; a
+      > 5. matéria ainda está sujeita a pedido de vista.”
+      > 6. Situação B — minutos depois, no café, com um colega de equipe:
+      > 7. “Nossa, que sufoco! A gente quase estourou o tempo. Me avisa se
+      > 8. pedirem vista, tá? Aí eu refaço a nota rapidinho.”
+
+      Com base no texto e nos conceitos de variação linguística, julgue o item.
+
+      As formas “Me avisa” (linha 7) e “tá” (linha 8) são marcas do dialeto da falante, visto que decorrem de características dela que independem da situação de uso.
+  - id: q06
+    topico: conhecimentos-especificos/ling-variacao-linguistica
+    enunciado: |-
+      Texto para o item: trecho fictício de um roteiro de treinamento de um setor de registro de debates, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Ao comparar a gravação de um discurso com o texto revisado, o servidor
+      > 2. nota diferenças previsíveis: na fala, há hesitações, repetições e
+      > 3. frases refeitas; no texto escrito, elas desaparecem. Nota também que um
+      > 4. mesmo orador conserva, na tribuna e na entrevista de corredor, a
+      > 5. pronúncia e certas palavras da região onde cresceu, mas troca o
+      > 6. tratamento cerimonioso por formas mais próximas quando deixa o plenário.
+      > 7. Nos anais de um século atrás, por fim, encontra formas de tratamento e
+      > 8. construções que já não se usam. Nada disso é desordem: quem ouve ou lê
+      > 9. continua entendendo, e cabe apenas perguntar se cada forma convém à
+      > 10. situação em que foi usada.
+
+      Com base no texto e nos conceitos de variação linguística, julgue o item.
+
+      As diferenças descritas nas linhas 1 a 3, entre a gravação do discurso e o texto revisado, correspondem à variação diamésica.
+  - id: q07
+    topico: conhecimentos-especificos/ling-variacao-linguistica
+    enunciado: |-
+      Texto para o item: trecho fictício de um roteiro de treinamento de um setor de registro de debates, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Ao comparar a gravação de um discurso com o texto revisado, o servidor
+      > 2. nota diferenças previsíveis: na fala, há hesitações, repetições e
+      > 3. frases refeitas; no texto escrito, elas desaparecem. Nota também que um
+      > 4. mesmo orador conserva, na tribuna e na entrevista de corredor, a
+      > 5. pronúncia e certas palavras da região onde cresceu, mas troca o
+      > 6. tratamento cerimonioso por formas mais próximas quando deixa o plenário.
+      > 7. Nos anais de um século atrás, por fim, encontra formas de tratamento e
+      > 8. construções que já não se usam. Nada disso é desordem: quem ouve ou lê
+      > 9. continua entendendo, e cabe apenas perguntar se cada forma convém à
+      > 10. situação em que foi usada.
+
+      Com base no texto e nos conceitos de variação linguística, julgue o item.
+
+      No texto, a pronúncia e as palavras que o orador conserva na tribuna e no corredor (linhas 3 a 5) são marcas de dialeto, ao passo que a troca do tratamento (linhas 5 e 6) constitui mudança de registro.
+  - id: q08
+    topico: conhecimentos-especificos/ling-variacao-linguistica
+    enunciado: |-
+      Texto para o item: trecho fictício de um roteiro de treinamento de um setor de registro de debates, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Ao comparar a gravação de um discurso com o texto revisado, o servidor
+      > 2. nota diferenças previsíveis: na fala, há hesitações, repetições e
+      > 3. frases refeitas; no texto escrito, elas desaparecem. Nota também que um
+      > 4. mesmo orador conserva, na tribuna e na entrevista de corredor, a
+      > 5. pronúncia e certas palavras da região onde cresceu, mas troca o
+      > 6. tratamento cerimonioso por formas mais próximas quando deixa o plenário.
+      > 7. Nos anais de um século atrás, por fim, encontra formas de tratamento e
+      > 8. construções que já não se usam. Nada disso é desordem: quem ouve ou lê
+      > 9. continua entendendo, e cabe apenas perguntar se cada forma convém à
+      > 10. situação em que foi usada.
+
+      Com base no texto e nos conceitos de variação linguística, julgue o item.
+
+      As formas de tratamento e as construções em desuso encontradas nos anais de um século atrás (linhas 7 e 8) exemplificam a variação diacrônica, a qual, por decorrer da passagem do tempo, só se manifesta em textos escritos.
+  - id: q09
+    topico: conhecimentos-especificos/ling-variacao-linguistica
+    enunciado: |-
+      Texto para o item: trecho fictício de um roteiro de treinamento de um setor de registro de debates, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Ao comparar a gravação de um discurso com o texto revisado, o servidor
+      > 2. nota diferenças previsíveis: na fala, há hesitações, repetições e
+      > 3. frases refeitas; no texto escrito, elas desaparecem. Nota também que um
+      > 4. mesmo orador conserva, na tribuna e na entrevista de corredor, a
+      > 5. pronúncia e certas palavras da região onde cresceu, mas troca o
+      > 6. tratamento cerimonioso por formas mais próximas quando deixa o plenário.
+      > 7. Nos anais de um século atrás, por fim, encontra formas de tratamento e
+      > 8. construções que já não se usam. Nada disso é desordem: quem ouve ou lê
+      > 9. continua entendendo, e cabe apenas perguntar se cada forma convém à
+      > 10. situação em que foi usada.
+
+      Com base no texto e nos conceitos de variação linguística, julgue o item.
+
+      De acordo com o texto, o fato de o orador conservar na tribuna a pronúncia da região onde cresceu (linhas 3 a 5) indica que ele emprega, nessa situação, registro informal.
+  - id: q10
+    topico: conhecimentos-especificos/ling-variacao-linguistica
+    enunciado: |-
+      Julgue o item, relativo à variação linguística.
+
+      O fato de o aparelho que regula o trânsito nos cruzamentos ser chamado, conforme a localidade do país, de “sinal”, “farol” ou “sinaleira” constitui exemplo de variação diatópica.
+  - id: q11
+    topico: conhecimentos-especificos/ling-variacao-linguistica
+    enunciado: |-
+      Julgue o item, relativo à variação linguística.
+
+      Na alternância entre “Tem sessão hoje” e “Há sessão hoje”, as formas “tem” e “há” são duas variedades de uma mesma variante.
+  - id: q12
+    topico: conhecimentos-especificos/ling-variacao-linguistica
+    enunciado: |-
+      Julgue o item, relativo à variação linguística.
+
+      No uso técnico, o termo dialeto aplica-se tanto às variedades regionais quanto às variedades sociais de uma língua, entre as quais se inclui a de prestígio.

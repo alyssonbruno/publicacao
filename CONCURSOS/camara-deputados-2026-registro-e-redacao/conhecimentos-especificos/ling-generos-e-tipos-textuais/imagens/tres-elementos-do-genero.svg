@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1000" height="560" fill="#ffffff"/>
+  <text x="24" y="36" font-size="21" font-weight="700" fill="#0b0b0b">Os três elementos de Bakhtin num requerimento (fictício)</text>
+
+  <!-- O enunciado -->
+  <rect x="24" y="54" width="952" height="86" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <g font-size="14" fill="#0b0b0b">
+    <text x="40" y="78">Senhor Presidente,</text>
+    <text x="40" y="100">Requeiro a Vossa Excelência, nos termos regimentais, a realização de audiência pública para debater</text>
+    <text x="40" y="120">a acessibilidade das transmissões das reuniões desta Comissão.   Sala da Comissão, 3 de março de 2026.   Deputada Fulana de Tal</text>
+  </g>
+
+  <!-- Coluna 1 -->
+  <rect x="24" y="158" width="306" height="300" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+  <rect x="24" y="158" width="306" height="50" rx="10" fill="#1c5cab"/>
+  <text x="177" y="190" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">Conteúdo temático</text>
+  <g font-size="14" fill="#0b0b0b">
+    <text x="40" y="234" font-weight="700">O que o gênero pode dizer</text>
+    <text x="40" y="262">Um pedido formal, dirigido a quem</text>
+    <text x="40" y="282">tem poder de decidir, sobre matéria</text>
+    <text x="40" y="302">da competência da Casa.</text>
+    <text x="40" y="340" font-weight="700" fill="#1c5cab">Não confundir com o tema</text>
+    <text x="40" y="364">O tema é deste enunciado, singular:</text>
+    <text x="40" y="384">a audiência sobre a acessibilidade</text>
+    <text x="40" y="404">das transmissões.</text>
+    <text x="40" y="438" font-style="italic">Mudou o tema? O gênero é o mesmo.</text>
+  </g>
+
+  <!-- Coluna 2 -->
+  <rect x="347" y="158" width="306" height="300" rx="10" fill="#e6f5ee" stroke="#a9dcc5"/>
+  <rect x="347" y="158" width="306" height="50" rx="10" fill="#12775a"/>
+  <text x="500" y="190" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">Estilo</text>
+  <g font-size="14" fill="#0b0b0b">
+    <text x="363" y="234" font-weight="700">Seleção de recursos da língua</text>
+    <text x="363" y="262"><tspan font-weight="700">Lexicais:</tspan> o verbo <tspan font-style="italic">requerer</tspan>;</text>
+    <text x="363" y="282">o tratamento <tspan font-style="italic">Vossa Excelência</tspan>.</text>
+    <text x="363" y="316"><tspan font-weight="700">Fraseológicos:</tspan> a fórmula fixa</text>
+    <text x="363" y="336"><tspan font-style="italic">nos termos regimentais</tspan>.</text>
+    <text x="363" y="370"><tspan font-weight="700">Gramaticais:</tspan> primeira pessoa,</text>
+    <text x="363" y="390">presente do indicativo (<tspan font-style="italic">requeiro</tspan>);</text>
+    <text x="363" y="410">um período só, direto.</text>
+  </g>
+
+  <!-- Coluna 3 -->
+  <rect x="670" y="158" width="306" height="300" rx="10" fill="#fdf0e6" stroke="#f0c9a8"/>
+  <rect x="670" y="158" width="306" height="50" rx="10" fill="#b4501f"/>
+  <text x="823" y="190" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">Construção composicional</text>
+  <g font-size="14" fill="#0b0b0b">
+    <text x="686" y="234" font-weight="700">A arquitetura e o acabamento</text>
+    <text x="686" y="262">1. vocativo</text>
+    <text x="686" y="284">2. pedido, com o fundamento</text>
+    <text x="686" y="306">3. local e data</text>
+    <text x="686" y="328">4. assinatura</text>
+    <text x="686" y="366" font-weight="700" fill="#b4501f">Inclui os participantes</text>
+    <text x="686" y="390">A relação de quem pede com</text>
+    <text x="686" y="410">quem decide faz parte dela.</text>
+  </g>
+
+  <!-- Pé -->
+  <rect x="24" y="474" width="952" height="48" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="500" y="504" font-size="15" fill="#0b0b0b" text-anchor="middle">Os três elementos são <tspan font-weight="700">inseparáveis</tspan> no enunciado: separá-los é recurso de análise.</text>
+  <text x="24" y="546" font-size="12" fill="#52514e">Exemplo criado para esta aula. Conceitos: Bakhtin, Os gêneros do discurso (trad. Paulo Bezerra), pelas fontes da aula.</text>
+</svg>

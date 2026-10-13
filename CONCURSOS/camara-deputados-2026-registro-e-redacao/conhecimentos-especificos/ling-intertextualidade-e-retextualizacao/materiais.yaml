@@ -1,0 +1,60 @@
+materiais:
+  - tipo: texto
+    titulo: Intertextualidade, retextualização, reescritura e paráfrase
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: Intertextualidade e Paráfrase [Prof Noslen]
+    url: https://www.youtube.com/watch?v=DS5r3S_jGY0
+    autor: Professor Noslen
+    descricao: >-
+      Vídeo de professor conhecido do ensino médio; não foi assistido por quem preparou a aula.
+      Pelo título e pela descrição do canal, o assunto é intertextualidade e paráfrase. Veja
+      depois das partes de intertextualidade do texto e compare as definições com as da aula: se
+      "explícita" e "implícita" aparecerem com outro critério, vale o aviso da parte "Outras
+      classificações e uma divergência". Retextualização e reescritura no estilo do Cebraspe
+      ficam no texto.
+  - tipo: video
+    titulo: Português Cebraspe 012 - Reescrita de frases
+    url: https://www.youtube.com/watch?v=Z_dvw9b0xT0
+    autor: OPG - Português para concursos!
+    descricao: >-
+      Vídeo de um canal de Português para concursos; não foi assistido por quem preparou a aula.
+      Pelo título e pela descrição do canal, o assunto é a reescrita de frases nas provas do
+      Cebraspe. Veja depois da parte "Como o Cebraspe cobra". Se o vídeo trouxer itens, diga,
+      antes de ouvir a resposta, o que o comando pede: correção, sentido ou coerência.
+      Intertextualidade e retextualização ficam no texto.
+  - tipo: podcast
+    titulo: "Missão ENEM #9 - Intertextualidade"
+    url: https://podcasts.apple.com/br/podcast/miss%C3%A3o-enem-9-intertextualidade/id1539105888?i=1000501760695
+    audio: https://anchor.fm/s/3cbc550c/podcast/play/23700064/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-11-8%2F448cddc9-066d-e1a6-2297-8c4c8e4b9599.mp3
+    autor: Podcast DoMont (Sérgio Monteiro)
+    duracao_min: 10
+    descricao: >-
+      Conversa leve, voltada ao ENEM, boa para ouvir antes do texto: intertextualidade como
+      diálogo entre textos, a diferença entre paródia (muda o sentido) e paráfrase (mantém),
+      epígrafe, citação fiel, alusão e pastiche. Dois cuidados: os exemplos de alusão são
+      referências vagas a pessoas, e não a textos, e a parte final, sobre interdiscursividade
+      (a partir de 6:48), é imprecisa e não é do edital. Não fala de intertextualidade explícita
+      e implícita, de retextualização nem de reescritura.
+  - tipo: link
+    titulo: "Intertextualidade: o que é, tipos, exemplos (Brasil Escola)"
+    url: https://brasilescola.uol.com.br/redacao/intertextualidade-.htm
+    autor: Talliandre Matos (Brasil Escola)
+    descricao: >-
+      Leitura de entrada, em linguagem simples: definição, tipos (citação, epígrafe, alusão,
+      paráfrase, paródia, pastiche, tradução) e exemplos de música e literatura. Atenção a um
+      ponto: a página chama de explícita a intertextualidade que se vê na superfície do texto; na
+      aula, com Koch, explícita é a que menciona a fonte. Não trata de retextualização nem de
+      reescritura.
+  - tipo: link
+    titulo: "Reescritura de frases: desvendando questões Cebraspe (Estratégia)"
+    url: https://concursos.estrategia.com/portal/reescritura-de-frases-desvendando-questoes-cebraspe/
+    autor: Luiz Felipe Durval (Estratégia Concursos)
+    descricao: >-
+      Artigo curto (2021) que ensina a ler o comando dos itens de reescritura: o que conferir
+      quando a banca pede correção gramatical, sentido ou coerência, e por que sentido e coerência
+      não são a mesma coisa. Não traz itens resolvidos e termina com oferta de material do curso.
+      Paráfrase, intertextualidade e retextualização ficam no texto da aula.

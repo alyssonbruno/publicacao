@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1000" height="560" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="36" font-size="21" font-weight="700" fill="#0b0b0b">As três provas que o orador constrói no discurso</text>
+  <text x="24" y="60" font-size="14" fill="#52514e">Cada prova se apoia num dos três elementos da situação: quem fala, quem ouve e o que se diz.</text>
+
+  <!-- Três colunas -->
+  <g>
+    <!-- Ethos -->
+    <rect x="24" y="80" width="304" height="52" rx="10" fill="#1c5cab"/>
+    <text x="176" y="103" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">ethos</text>
+    <text x="176" y="122" font-size="13" fill="#ffffff" text-anchor="middle">apoia-se no ORADOR</text>
+    <rect x="24" y="132" width="304" height="278" fill="#e3edf9" stroke="#b8cfee"/>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="40" y="160" font-weight="700">O que é</text>
+      <text x="40" y="182">A imagem de pessoa confiável</text>
+      <text x="40" y="202">que o orador constrói ao falar:</text>
+      <text x="40" y="222">caráter, experiência, autoridade.</text>
+      <text x="40" y="256" font-weight="700">Pergunta do ouvinte</text>
+      <text x="40" y="278">“Posso confiar em quem fala?”</text>
+      <text x="40" y="312" font-weight="700">No discurso da aula</text>
+      <text x="40" y="334" font-style="italic">“Fui professora de escola rural</text>
+      <text x="40" y="354" font-style="italic">por vinte anos (...). Falo,</text>
+      <text x="40" y="374" font-style="italic">portanto, do que vi.”</text>
+    </g>
+
+    <!-- Pathos -->
+    <rect x="348" y="80" width="304" height="52" rx="10" fill="#b4501f"/>
+    <text x="500" y="103" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">pathos</text>
+    <text x="500" y="122" font-size="13" fill="#ffffff" text-anchor="middle">apoia-se no AUDITÓRIO</text>
+    <rect x="348" y="132" width="304" height="278" fill="#fdf0e6" stroke="#f0c9ad"/>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="364" y="160" font-weight="700">O que é</text>
+      <text x="364" y="182">As emoções que o discurso</text>
+      <text x="364" y="202">desperta em quem ouve: piedade,</text>
+      <text x="364" y="222">indignação, vergonha, orgulho.</text>
+      <text x="364" y="256" font-weight="700">Pergunta do ouvinte</text>
+      <text x="364" y="278">“O que isto me faz sentir?”</text>
+      <text x="364" y="312" font-weight="700">No discurso da aula</text>
+      <text x="364" y="334" font-style="italic">“Nenhuma criança deve</text>
+      <text x="364" y="354" font-style="italic">escolher entre a sede</text>
+      <text x="364" y="374" font-style="italic">e a escola.”</text>
+    </g>
+
+    <!-- Logos -->
+    <rect x="672" y="80" width="304" height="52" rx="10" fill="#14805a"/>
+    <text x="824" y="103" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">logos</text>
+    <text x="824" y="122" font-size="13" fill="#ffffff" text-anchor="middle">apoia-se no próprio DISCURSO</text>
+    <rect x="672" y="132" width="304" height="278" fill="#e4f5ee" stroke="#aedbc8"/>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="688" y="160" font-weight="700">O que é</text>
+      <text x="688" y="182">O raciocínio: o exemplo (indução)</text>
+      <text x="688" y="202">e o entimema (dedução). É o que</text>
+      <text x="688" y="222">o orador conclui dos fatos.</text>
+      <text x="688" y="256" font-weight="700">Pergunta do ouvinte</text>
+      <text x="688" y="278">“Isto faz sentido?”</text>
+      <text x="688" y="312" font-weight="700">No discurso da aula</text>
+      <text x="688" y="334" font-style="italic">“Não há direito à educação</text>
+      <text x="688" y="354" font-style="italic">onde não há água</text>
+      <text x="688" y="374" font-style="italic">para beber.”</text>
+    </g>
+  </g>
+
+  <!-- Provas que já existem -->
+  <rect x="24" y="428" width="952" height="88" rx="10" fill="#fcfcfb" stroke="#8c8b85" stroke-dasharray="6 4"/>
+  <text x="40" y="455" font-size="15" font-weight="700" fill="#0b0b0b">Fora do trio: as provas que já existem antes do discurso</text>
+  <text x="40" y="479" font-size="14" fill="#0b0b0b">Leis, contratos, testemunhos, confissões; também o laudo ou outro documento que o orador só apresenta.</text>
+  <text x="40" y="501" font-size="14" fill="#0b0b0b">O orador não as cria: só as usa. São as provas extra-artísticas; ethos, pathos e logos são as artísticas.</text>
+
+  <!-- Fonte -->
+  <text x="24" y="542" font-size="12" fill="#52514e">Fontes: Aristóteles, Retórica, I.2; Mateus, Introdução à Retórica no Séc. XXI (2018), cap. 4; Fiorin, Argumentação e discurso (2014). Exemplos próprios.</text>
+</svg>

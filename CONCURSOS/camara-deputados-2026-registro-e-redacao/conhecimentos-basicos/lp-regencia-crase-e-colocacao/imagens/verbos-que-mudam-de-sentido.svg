@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="600" viewBox="0 0 912 600" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="600" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">A preposição muda o sentido do verbo</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Quatro verbos frequentes em texto oficial</text>
+
+  <!-- Cabeçalhos -->
+  <g font-size="15" font-weight="700" fill="#52514e">
+    <text x="176" y="100">Sem preposição</text>
+    <text x="546" y="100">Com preposição</text>
+  </g>
+
+  <!-- Linha: aspirar -->
+  <g transform="translate(24 114)">
+    <text x="0" y="52" font-size="18" font-weight="700" fill="#0b0b0b">aspirar</text>
+    <rect x="140" y="0" width="360" height="92" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="156" y="30" font-size="15" font-weight="700" fill="#1c5cab">respirar</text>
+    <text x="156" y="58" font-size="15" fill="#0b0b0b">aspirar o ar</text>
+    <rect x="510" y="0" width="354" height="92" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="526" y="30" font-size="15" font-weight="700" fill="#b4501f">a: desejar</text>
+    <text x="526" y="58" font-size="15" fill="#0b0b0b">aspira <tspan font-weight="700">à</tspan> presidência da comissão</text>
+    <text x="526" y="80" font-size="13" fill="#52514e">aspira a ela (não “lhe”)</text>
+  </g>
+
+  <!-- Linha: assistir -->
+  <g transform="translate(24 216)">
+    <text x="0" y="52" font-size="18" font-weight="700" fill="#0b0b0b">assistir</text>
+    <rect x="140" y="0" width="360" height="92" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="156" y="30" font-size="15" font-weight="700" fill="#1c5cab">ajudar</text>
+    <text x="156" y="58" font-size="15" fill="#0b0b0b">assistir os atingidos</text>
+    <text x="156" y="80" font-size="13" fill="#52514e">* o Manual da Presidência aceita também “aos”</text>
+    <rect x="510" y="0" width="354" height="92" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="526" y="30" font-size="15" font-weight="700" fill="#b4501f">a: estar presente, ver</text>
+    <text x="526" y="58" font-size="15" fill="#0b0b0b">assistiram <tspan font-weight="700">à</tspan> sessão solene</text>
+    <text x="526" y="80" font-size="13" fill="#52514e">assistiram a ela (não “lhe”)</text>
+  </g>
+
+  <!-- Linha: visar -->
+  <g transform="translate(24 318)">
+    <text x="0" y="52" font-size="18" font-weight="700" fill="#0b0b0b">visar</text>
+    <rect x="140" y="0" width="360" height="92" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="156" y="30" font-size="15" font-weight="700" fill="#1c5cab">mirar · pôr o visto</text>
+    <text x="156" y="58" font-size="15" fill="#0b0b0b">visar o alvo · visar o documento</text>
+    <rect x="510" y="0" width="354" height="92" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="526" y="30" font-size="15" font-weight="700" fill="#b4501f">a: ter por finalidade</text>
+    <text x="526" y="58" font-size="15" fill="#0b0b0b">visa <tspan font-weight="700">à</tspan> redução de custos</text>
+    <text x="526" y="80" font-size="13" fill="#52514e">* o Manual da Presidência admite “visa a redução”</text>
+  </g>
+
+  <!-- Linha: implicar -->
+  <g transform="translate(24 420)">
+    <text x="0" y="52" font-size="18" font-weight="700" fill="#0b0b0b">implicar</text>
+    <rect x="140" y="0" width="360" height="92" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="156" y="30" font-size="15" font-weight="700" fill="#1c5cab">acarretar</text>
+    <text x="156" y="58" font-size="15" fill="#0b0b0b">implica a manutenção do texto</text>
+    <text x="156" y="80" font-size="13" fill="#52514e">* “implica na manutenção”: ver abaixo</text>
+    <rect x="510" y="0" width="354" height="92" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="526" y="30" font-size="15" font-weight="700" fill="#b4501f">com: ter implicância</text>
+    <text x="526" y="58" font-size="15" fill="#0b0b0b">implicava <tspan font-weight="700">com</tspan> os colegas</text>
+  </g>
+
+  <!-- Pé -->
+  <line x1="24" y1="530" x2="888" y2="530" stroke="#e1e0d9"/>
+  <text x="24" y="556" font-size="14" fill="#0b0b0b">* Pontos em que as fontes divergem. <tspan font-weight="700">“Implicar em”</tspan> (acarretar) é inovação frequente no Brasil;</text>
+  <text x="24" y="578" font-size="14" fill="#0b0b0b">o Manual da Presidência aconselha a forma sem preposição.</text>
+</svg>

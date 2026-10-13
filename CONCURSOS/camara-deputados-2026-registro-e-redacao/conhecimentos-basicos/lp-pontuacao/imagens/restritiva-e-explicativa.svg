@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="520" viewBox="0 0 912 520" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="520" fill="#ffffff"/>
+
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">A vírgula que muda o sentido</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">A mesma oração adjetiva, sem vírgulas e com vírgulas</text>
+
+  <!-- Restritiva -->
+  <g transform="translate(24 84)">
+    <rect width="424" height="340" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="20" y="32" font-size="17" font-weight="700" fill="#b4501f">Sem vírgulas: restritiva</text>
+    <text x="20" y="64" font-size="15" fill="#0b0b0b">Os deputados <tspan font-weight="700">que assinaram o requerimento</tspan></text>
+    <text x="20" y="86" font-size="15" fill="#0b0b0b">serão ouvidos.</text>
+
+    <!-- conjunto: todos os deputados, parte destacada -->
+    <ellipse cx="212" cy="192" rx="150" ry="74" fill="#ffffff" stroke="#b4501f" stroke-width="2"/>
+    <text x="212" y="140" font-size="13" fill="#52514e" text-anchor="middle">os deputados</text>
+    <ellipse cx="212" cy="204" rx="84" ry="42" fill="#eb6834" fill-opacity="0.85"/>
+    <text x="212" y="200" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">os que assinaram</text>
+    <text x="212" y="218" font-size="13" fill="#ffffff" text-anchor="middle">serão ouvidos</text>
+
+    <text x="20" y="298" font-size="14" fill="#0b0b0b"><tspan font-weight="700">Só uma parte</tspan> dos deputados assinou,</text>
+    <text x="20" y="318" font-size="14" fill="#0b0b0b">e só essa parte será ouvida.</text>
+  </g>
+
+  <!-- Explicativa -->
+  <g transform="translate(464 84)">
+    <rect width="424" height="340" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="20" y="32" font-size="17" font-weight="700" fill="#1c5cab">Com vírgulas: explicativa</text>
+    <text x="20" y="64" font-size="15" fill="#0b0b0b">Os deputados<tspan font-weight="700">, que assinaram o requerimento,</tspan></text>
+    <text x="20" y="86" font-size="15" fill="#0b0b0b">serão ouvidos.</text>
+
+    <ellipse cx="212" cy="192" rx="150" ry="74" fill="#256abf" fill-opacity="0.85" stroke="#1c5cab" stroke-width="2"/>
+    <text x="212" y="178" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">os deputados</text>
+    <text x="212" y="198" font-size="13" fill="#ffffff" text-anchor="middle">todos assinaram</text>
+    <text x="212" y="218" font-size="13" fill="#ffffff" text-anchor="middle">todos serão ouvidos</text>
+
+    <text x="20" y="298" font-size="14" fill="#0b0b0b"><tspan font-weight="700">Todos</tspan> os deputados de que se fala assinaram,</text>
+    <text x="20" y="318" font-size="14" fill="#0b0b0b">e todos serão ouvidos.</text>
+  </g>
+
+  <!-- Pé -->
+  <line x1="24" y1="444" x2="888" y2="444" stroke="#e1e0d9"/>
+  <text x="24" y="470" font-size="14" fill="#0b0b0b"><tspan font-weight="700">Para o item de supressão:</tspan> tirar as duas vírgulas não cria erro de gramática, mas troca “todos” por</text>
+  <text x="24" y="490" font-size="14" fill="#0b0b0b">“só os que”. A correção se mantém; o sentido muda. Veja qual dos dois o item afirma.</text>
+</svg>

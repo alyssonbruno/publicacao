@@ -1,0 +1,82 @@
+materiais:
+  - tipo: texto
+    titulo: Regência, crase e colocação dos pronomes átonos
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: "REGÊNCIA VERBAL || Aula de Português COMPLETA para concursos, vestibulares, provas, ENEM"
+    url: https://www.youtube.com/watch?v=oziOOkwah2E
+    autor: Português com Letícia
+    duracao_min: 25
+    descricao: >-
+      Aula de teoria que parte do zero. Pelos capítulos: o que é regência (1:22), regência verbal
+      (5:10), tabela de verbos importantes (6:11), verbos com mais de um sentido (13:33), como
+      consultar a regência (20:28) e um exercício (22:28). Veja depois das partes de regência do
+      texto. Pelos capítulos, não trata de regência nominal nem da ligação com a crase: esses
+      pontos, e as divergências sobre "visar", "assistir" e "implicar", estão no texto da aula.
+  - tipo: video
+    titulo: Como a CEBRASPE Cobra Crase - Yara Coeli
+    url: https://www.youtube.com/watch?v=bUiuJ3BP6d0
+    autor: Yara Coeli
+    duracao_min: 23
+    descricao: >-
+      Resolução de cinco itens de certo ou errado do Cebraspe, de 2023, listados no PDF de apoio
+      que a descrição do vídeo oferece: crase atribuída à regência do verbo errado, inserção do
+      acento antes de "essa" e antes de plural sem artigo, crase que passa a ser obrigatória
+      quando se suprime uma palavra e o "a" antes de possessivo no plural. Não é aula de teoria:
+      veja depois das partes de crase do texto, tentando julgar cada item antes da explicação.
+  - tipo: video
+    titulo: COLOCAÇÃO PRONOMINAL (Para Concurso)
+    url: https://www.youtube.com/watch?v=6zsVwix7Uh0
+    autor: Prof. Álvaro Ferreira
+    duracao_min: 19
+    descricao: >-
+      Aula de teoria curta. Pelos capítulos: o que é colocação pronominal (0:34), próclise (1:12),
+      ênclise (2:22), mesóclise (3:14), regras importantes (4:38) e duas questões (12:12 e 15:50).
+      Os capítulos não citam as locuções verbais, que são o ponto mais cobrado pela banca: para
+      elas, use o texto da aula e o vídeo seguinte.
+  - tipo: video
+    titulo: Como a CEBRASPE Cobra Colocação Pronominal - Yara Coeli
+    url: https://www.youtube.com/watch?v=gXD1wY6mEn0
+    autor: Yara Coeli
+    duracao_min: 24
+    descricao: >-
+      Resolução de cinco itens de certo ou errado do Cebraspe, de 2022 a 2024, listados no PDF de
+      apoio que a descrição do vídeo oferece: ênclise com sujeito expresso e sem palavra atrativa,
+      a causa da próclise numa oração com pronome relativo, ênclise depois de oração intercalada,
+      ênclise ao auxiliar depois de palavra atrativa e ênclise ao gerúndio de uma locução. Veja
+      depois das partes de colocação do texto, com o quadro das locuções verbais à mão.
+  - tipo: podcast
+    titulo: "CRASE | Casos em que a crase é FACULTATIVA!"
+    url: https://podcasts.apple.com/br/podcast/crase-casos-em-que-a-crase-%C3%A9-facultativa/id1534371896?i=1000682315719
+    audio: https://anchor.fm/s/3950d1cc/podcast/play/95650381/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-10%2F391330540-44100-2-d063b27fe5a2.mp3
+    autor: Português com Letícia (professora Letícia Góes)
+    duracao_min: 16
+    descricao: >-
+      Os três casos de crase facultativa (antes de possessivo feminino, antes de nome próprio
+      feminino e depois de "até") e, na segunda metade, o porquê de cada um pela troca pelo
+      masculino. Os exemplos são lidos em voz alta: dá para ouvir sem a tela. A professora
+      restringe o caso do nome próprio às pessoas com quem se tem familiaridade, ponto em que as
+      fontes divergem (veja o texto da aula). Há cerca de dois minutos de divulgação de curso, no
+      começo e no fim. Não traz questão de prova.
+  - tipo: podcast
+    titulo: Tire dúvidas sobre regência
+    url: https://podcasts.apple.com/br/podcast/tire-d%C3%BAvidas-sobre-reg%C3%AAncia/id1227867522?i=1000735457592
+    audio: https://traffic.megaphone.fm/GLOBO7404662298.mp3
+    autor: Pasquale Cipro Neto (A Nossa Língua de Todo Dia, rádio CBN)
+    duracao_min: 10
+    descricao: >-
+      Um ponto só, o da parte "A preposição antes do que": na escrita formal, a preposição pedida
+      pelo verbo ou pelo nome vai para antes do pronome relativo ("coisa de que gosto", "o hotel
+      em que reside"). Programa de rádio, não voltado a concursos; cerca de dois minutos são
+      trechos de canções. Não tem lista de verbos nem trata de crase ou de colocação.
+  - tipo: link
+    titulo: Manual de Redação da Presidência da República, 3ª ed. (2018) — item 11.8, Regência
+    url: https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf
+    autor: Presidência da República (Casa Civil)
+    descricao: >-
+      Leitura curta e do universo do cargo: só as p. 73 a 78 (item 11.8), com a definição de
+      regência e 22 verbos de uso frequente em texto oficial, cada um com exemplo. Cópia do manual
+      hospedada pelo ICMBio. Não trata de crase nem de colocação dos pronomes.

@@ -1,0 +1,74 @@
+materiais:
+  - tipo: texto
+    titulo: Reescrita, significação das palavras e substituição de trechos
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: "Reescrita CEBRASPE: Dicas de Ouro para Aprovação"
+    url: https://www.youtube.com/watch?v=bIfuiUNo6CE
+    autor: Professora Adriana Figueiredo
+    duracao_min: 16
+    descricao: >-
+      Pelo título e pela descrição do canal, o assunto são as questões de reescrita do Cebraspe;
+      não conferimos o que é mostrado dentro do vídeo. Veja depois das partes do texto sobre o
+      comando e o roteiro e, se aparecerem questões, pare o vídeo e diga antes o que o comando
+      pede: correção, sentido ou coerência. A página do vídeo traz um percentual de incidência da
+      reescrita sem indicar a fonte e anuncia um curso pago: não se guie pelo número e ignore a
+      venda.
+  - tipo: video
+    titulo: "CESPE / CEBRASPE - Significação de palavras: questões resolvidas"
+    url: https://www.youtube.com/watch?v=vI6E-vCicYY
+    autor: Professor Mazziotti
+    duracao_min: 21
+    descricao: >-
+      Pelo título e pela descrição do canal: sentido denotativo e conotativo, sinonímia e
+      substituição de palavras, significado pelo contexto e questões comentadas do Cebraspe com
+      palavras pouco comuns; não conferimos o que é mostrado dentro do vídeo. Veja depois das
+      partes de significação do texto e, em cada questão, tente responder antes do professor,
+      aplicando as quatro perguntas do sinônimo. A descrição não informa de quais provas são as
+      questões nem menciona reescrita de trechos.
+  - tipo: video
+    titulo: Sinônimos e Antônimos (Sinonímia e Antonímia)
+    url: https://www.youtube.com/watch?v=0h9QWu12k2k
+    autor: Português para Concursos - com Diego Pureza
+    duracao_min: 15
+    descricao: >-
+      Pelo título e pela descrição do canal, que traz os capítulos: sinônimos e a dependência do
+      contexto (0:53 e 2:21), antônimos (4:32), estratégia para as questões do Cespe/Cebraspe
+      (8:58) e pegadinhas (9:47 a 12:35); não conferimos o que é mostrado dentro do vídeo. A
+      descrição promete um jeito de responder sem ler o texto: nos itens de substituição do
+      Cebraspe, o trecho tem de ser lido, como mostra o texto da aula. A descrição não menciona
+      troca de trechos.
+  - tipo: podcast
+    titulo: "Concurso público: questão de prova da banca Fumarc sobre sinônimos"
+    url: https://podcasts.apple.com/br/podcast/id1534371896?i=1000683461060
+    audio: https://anchor.fm/s/3950d1cc/podcast/play/95651631/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-10%2F391332084-44100-2-c03fb4aa3c7f2.mp3
+    autor: Português com Letícia (professora Letícia Góes)
+    duracao_min: 10
+    descricao: >-
+      A professora resolve em voz alta uma questão de significação contextual de palavras: lê o
+      comando e as alternativas, dá o sentido de cada palavra e a testa no trecho. Ouça com
+      atenção de 6:19 a 8:30: uma palavra cabe na frase sem erro de gramática e, mesmo assim,
+      muda o sentido. É a armadilha do item "X poderia ser substituído por Y". A questão é de
+      outra banca (Fumarc) e de múltipla escolha, não de certo ou errado; o áudio vem de uma
+      videoaula e não trata de reescrita de trechos.
+  - tipo: link
+    titulo: "Reescritura de frases: desvendando questões Cebraspe"
+    url: https://concursos.estrategia.com/portal/reescritura-de-frases-desvendando-questoes-cebraspe/
+    autor: Luiz Felipe Durval (Estratégia Concursos)
+    descricao: >-
+      Artigo curto (2021) que separa o que cada comando manda conferir: correção gramatical,
+      sentido e coerência, com o aviso de que sentido e coerência não são sinônimos. Leia em
+      cinco minutos, depois da parte "O comando decide o gabarito". Não traz questões de prova
+      nem trata de significação das palavras. A página anuncia cursos: ignore.
+  - tipo: link
+    titulo: Manual de Redação da Presidência da República, 3ª ed. — capítulo de Semântica (item 12)
+    url: https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf
+    autor: Presidência da República, Casa Civil (cópia hospedada pelo ICMBio)
+    descricao: >-
+      PDF do manual inteiro; leia só o item 12 (Semântica): a lista de homônimos e parônimos com
+      o sentido de cada um (12.1) e as expressões a evitar e as de uso recomendável (12.2). É
+      texto de consulta: percorra a lista marcando os pares que você confundiria. Não trata de
+      sentido figurado nem de reescrita de períodos.

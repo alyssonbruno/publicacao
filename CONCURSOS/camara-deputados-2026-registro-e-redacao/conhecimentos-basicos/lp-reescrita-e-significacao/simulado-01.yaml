@@ -1,0 +1,194 @@
+# Treino de reescrita, significação das palavras e substituição de trechos — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Reescrita, significação das palavras e substituição de trechos
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (notícia de uma sessão do Plenário), no estilo de certo ou errado do Cebraspe: trecho entre aspas com remissão à linha, uma proposta de troca ou de reescrita e um comando sobre a correção gramatical, o sentido ou a coerência.'
+    - 'Referências de estilo, sem reprodução de itens: provas de nível superior do Cebraspe com gabarito definitivo — Câmara dos Deputados 2025 (Conhecimentos Gerais, aplicada em 8/3/2026), Concurso Público Nacional Unificado da Justiça Eleitoral 2024 e Polícia Federal 2025; e os moldes dos itens de significado das palavras reunidos no e-book 100 Questões CEBRASPE, de Décio Terror.'
+    - 'Bases do gabarito: Manual de Redação da Presidência da República, 3ª ed. (2018), itens 12, 12.1 e 12.2; Luiz Felipe Durval, Reescritura de frases: desvendando questões CEBRASPE (Estratégia Concursos, 2021). Consultados em 12/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-reescrita-e-significacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, o Plenário apreciou o projeto que cria o
+      > 2. programa de transporte escolar rural. A proposta emperrou na
+      > 3. comissão de mérito no ano passado e só chegou à pauta depois de
+      > 4. aprovado um requerimento de urgência. A bancada da Minoria, que
+      > 5. a princípio pretendia obstruir a votação, acabou por apoiar o
+      > 6. texto. O relator afirmou que o projeto não cria despesa nova e
+      > 7. lembrou que os municípios já dispõem de recursos para o serviço.
+      > 8. Quase todos os destaques apresentados pela oposição foram
+      > 9. rejeitados. No fim da tarde, um deputado pediu que a sessão fosse
+      > 10. prorrogada, e o presidente advertiu que mandaria esvaziar as
+      > 11. galerias se houvesse manifestações que infringissem o Regimento
+      > 12. Interno da Câmara dos Deputados.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No texto, a forma verbal “pretendia” (linha 5) é empregada com o sentido de tinha a intenção de.
+  - id: q02
+    topico: conhecimentos-basicos/lp-reescrita-e-significacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, o Plenário apreciou o projeto que cria o
+      > 2. programa de transporte escolar rural. A proposta emperrou na
+      > 3. comissão de mérito no ano passado e só chegou à pauta depois de
+      > 4. aprovado um requerimento de urgência. A bancada da Minoria, que
+      > 5. a princípio pretendia obstruir a votação, acabou por apoiar o
+      > 6. texto. O relator afirmou que o projeto não cria despesa nova e
+      > 7. lembrou que os municípios já dispõem de recursos para o serviço.
+      > 8. Quase todos os destaques apresentados pela oposição foram
+      > 9. rejeitados. No fim da tarde, um deputado pediu que a sessão fosse
+      > 10. prorrogada, e o presidente advertiu que mandaria esvaziar as
+      > 11. galerias se houvesse manifestações que infringissem o Regimento
+      > 12. Interno da Câmara dos Deputados.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “que a princípio pretendia obstruir a votação” (linhas 4 e 5), a substituição de “a princípio” por em princípio preservaria o sentido original do texto.
+  - id: q03
+    topico: conhecimentos-basicos/lp-reescrita-e-significacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, o Plenário apreciou o projeto que cria o
+      > 2. programa de transporte escolar rural. A proposta emperrou na
+      > 3. comissão de mérito no ano passado e só chegou à pauta depois de
+      > 4. aprovado um requerimento de urgência. A bancada da Minoria, que
+      > 5. a princípio pretendia obstruir a votação, acabou por apoiar o
+      > 6. texto. O relator afirmou que o projeto não cria despesa nova e
+      > 7. lembrou que os municípios já dispõem de recursos para o serviço.
+      > 8. Quase todos os destaques apresentados pela oposição foram
+      > 9. rejeitados. No fim da tarde, um deputado pediu que a sessão fosse
+      > 10. prorrogada, e o presidente advertiu que mandaria esvaziar as
+      > 11. galerias se houvesse manifestações que infringissem o Regimento
+      > 12. Interno da Câmara dos Deputados.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      A correção gramatical do texto seria mantida caso, no trecho “os municípios já dispõem de recursos para o serviço” (linha 7), a forma verbal “dispõem” fosse substituída por possuem.
+  - id: q04
+    topico: conhecimentos-basicos/lp-reescrita-e-significacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, o Plenário apreciou o projeto que cria o
+      > 2. programa de transporte escolar rural. A proposta emperrou na
+      > 3. comissão de mérito no ano passado e só chegou à pauta depois de
+      > 4. aprovado um requerimento de urgência. A bancada da Minoria, que
+      > 5. a princípio pretendia obstruir a votação, acabou por apoiar o
+      > 6. texto. O relator afirmou que o projeto não cria despesa nova e
+      > 7. lembrou que os municípios já dispõem de recursos para o serviço.
+      > 8. Quase todos os destaques apresentados pela oposição foram
+      > 9. rejeitados. No fim da tarde, um deputado pediu que a sessão fosse
+      > 10. prorrogada, e o presidente advertiu que mandaria esvaziar as
+      > 11. galerias se houvesse manifestações que infringissem o Regimento
+      > 12. Interno da Câmara dos Deputados.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “O relator afirmou que o projeto não cria despesa nova” (linha 6), a substituição de “afirmou” por alegou manteria a correção gramatical do texto, mas alteraria o sentido original.
+  - id: q05
+    topico: conhecimentos-basicos/lp-reescrita-e-significacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, o Plenário apreciou o projeto que cria o
+      > 2. programa de transporte escolar rural. A proposta emperrou na
+      > 3. comissão de mérito no ano passado e só chegou à pauta depois de
+      > 4. aprovado um requerimento de urgência. A bancada da Minoria, que
+      > 5. a princípio pretendia obstruir a votação, acabou por apoiar o
+      > 6. texto. O relator afirmou que o projeto não cria despesa nova e
+      > 7. lembrou que os municípios já dispõem de recursos para o serviço.
+      > 8. Quase todos os destaques apresentados pela oposição foram
+      > 9. rejeitados. No fim da tarde, um deputado pediu que a sessão fosse
+      > 10. prorrogada, e o presidente advertiu que mandaria esvaziar as
+      > 11. galerias se houvesse manifestações que infringissem o Regimento
+      > 12. Interno da Câmara dos Deputados.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “A proposta emperrou na comissão de mérito” (linhas 2 e 3), a forma verbal “emperrou” poderia ser substituída por foi rejeitada, sem alteração do sentido original do texto.
+  - id: q06
+    topico: conhecimentos-basicos/lp-reescrita-e-significacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, o Plenário apreciou o projeto que cria o
+      > 2. programa de transporte escolar rural. A proposta emperrou na
+      > 3. comissão de mérito no ano passado e só chegou à pauta depois de
+      > 4. aprovado um requerimento de urgência. A bancada da Minoria, que
+      > 5. a princípio pretendia obstruir a votação, acabou por apoiar o
+      > 6. texto. O relator afirmou que o projeto não cria despesa nova e
+      > 7. lembrou que os municípios já dispõem de recursos para o serviço.
+      > 8. Quase todos os destaques apresentados pela oposição foram
+      > 9. rejeitados. No fim da tarde, um deputado pediu que a sessão fosse
+      > 10. prorrogada, e o presidente advertiu que mandaria esvaziar as
+      > 11. galerias se houvesse manifestações que infringissem o Regimento
+      > 12. Interno da Câmara dos Deputados.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “manifestações que infringissem o Regimento Interno” (linhas 11 e 12), a substituição de “infringissem” por transgredissem manteria a correção gramatical e o sentido original do texto.
+  - id: q07
+    topico: conhecimentos-basicos/lp-reescrita-e-significacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, o Plenário apreciou o projeto que cria o
+      > 2. programa de transporte escolar rural. A proposta emperrou na
+      > 3. comissão de mérito no ano passado e só chegou à pauta depois de
+      > 4. aprovado um requerimento de urgência. A bancada da Minoria, que
+      > 5. a princípio pretendia obstruir a votação, acabou por apoiar o
+      > 6. texto. O relator afirmou que o projeto não cria despesa nova e
+      > 7. lembrou que os municípios já dispõem de recursos para o serviço.
+      > 8. Quase todos os destaques apresentados pela oposição foram
+      > 9. rejeitados. No fim da tarde, um deputado pediu que a sessão fosse
+      > 10. prorrogada, e o presidente advertiu que mandaria esvaziar as
+      > 11. galerias se houvesse manifestações que infringissem o Regimento
+      > 12. Interno da Câmara dos Deputados.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “um deputado pediu que a sessão fosse prorrogada” (linhas 9 e 10), a substituição de “que a sessão fosse prorrogada” por a prorrogação da sessão manteria a correção gramatical e o sentido original do texto.
+  - id: q08
+    topico: conhecimentos-basicos/lp-reescrita-e-significacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, o Plenário apreciou o projeto que cria o
+      > 2. programa de transporte escolar rural. A proposta emperrou na
+      > 3. comissão de mérito no ano passado e só chegou à pauta depois de
+      > 4. aprovado um requerimento de urgência. A bancada da Minoria, que
+      > 5. a princípio pretendia obstruir a votação, acabou por apoiar o
+      > 6. texto. O relator afirmou que o projeto não cria despesa nova e
+      > 7. lembrou que os municípios já dispõem de recursos para o serviço.
+      > 8. Quase todos os destaques apresentados pela oposição foram
+      > 9. rejeitados. No fim da tarde, um deputado pediu que a sessão fosse
+      > 10. prorrogada, e o presidente advertiu que mandaria esvaziar as
+      > 11. galerias se houvesse manifestações que infringissem o Regimento
+      > 12. Interno da Câmara dos Deputados.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      O período “Quase todos os destaques apresentados pela oposição foram rejeitados” (linhas 8 e 9) poderia ser reescrito, sem prejuízo da correção gramatical e do sentido original do texto, da seguinte forma: Foram rejeitados os destaques apresentados pela oposição.

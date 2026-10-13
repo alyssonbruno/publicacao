@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="698" viewBox="0 0 912 698" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="seta" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker>
+  </defs>
+  <rect width="912" height="698" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">A crase em duas perguntas</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Crase = preposição a + artigo a. Sem um dos dois, o acento é incorreto.</text>
+
+  <!-- Pergunta 1 -->
+  <rect x="24" y="84" width="420" height="64" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+  <text x="40" y="110" font-size="14" font-weight="700" fill="#1c5cab">Pergunta 1</text>
+  <text x="40" y="134" font-size="16" font-weight="700" fill="#0b0b0b">O termo anterior pede a preposição a?</text>
+
+  <!-- Não da pergunta 1 -->
+  <line x1="444" y1="116" x2="520" y2="116" stroke="#52514e" stroke-width="2" marker-end="url(#seta)"/>
+  <text x="482" y="106" font-size="14" font-weight="700" fill="#52514e" text-anchor="middle">não</text>
+  <rect x="524" y="76" width="364" height="80" rx="10" fill="#f3f2ee" stroke="#d2d1ca"/>
+  <text x="540" y="102" font-size="15" font-weight="700" fill="#0b0b0b">Só artigo: acento incorreto</text>
+  <text x="540" y="126" font-size="15" fill="#0b0b0b">a comissão ouviu <tspan font-weight="700">as</tspan> testemunhas</text>
+  <text x="540" y="146" font-size="13" fill="#52514e">ouvir não pede preposição</text>
+
+  <!-- Sim da pergunta 1 -->
+  <line x1="234" y1="148" x2="234" y2="192" stroke="#52514e" stroke-width="2" marker-end="url(#seta)"/>
+  <text x="246" y="174" font-size="14" font-weight="700" fill="#52514e">sim</text>
+
+  <!-- Pergunta 2 -->
+  <rect x="24" y="196" width="420" height="64" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+  <text x="40" y="222" font-size="14" font-weight="700" fill="#1c5cab">Pergunta 2</text>
+  <text x="40" y="246" font-size="16" font-weight="700" fill="#0b0b0b">A palavra seguinte aceita o artigo a?</text>
+  <text x="464" y="222" font-size="13" fill="#52514e">Teste: troque por um masculino. Apareceu “ao”?</text>
+  <text x="464" y="242" font-size="13" fill="#52514e">referiu-se ao projeto → referiu-se à emenda</text>
+
+  <!-- Ramos -->
+  <line x1="150" y1="260" x2="150" y2="304" stroke="#52514e" stroke-width="2" marker-end="url(#seta)"/>
+  <line x1="234" y1="260" x2="234" y2="282" stroke="#52514e" stroke-width="2"/>
+  <line x1="234" y1="282" x2="456" y2="282" stroke="#52514e" stroke-width="2"/>
+  <line x1="456" y1="282" x2="456" y2="304" stroke="#52514e" stroke-width="2" marker-end="url(#seta)"/>
+  <line x1="340" y1="260" x2="340" y2="270" stroke="#52514e" stroke-width="2"/>
+  <line x1="340" y1="270" x2="748" y2="270" stroke="#52514e" stroke-width="2"/>
+  <line x1="748" y1="270" x2="748" y2="304" stroke="#52514e" stroke-width="2" marker-end="url(#seta)"/>
+  <text x="82" y="292" font-size="14" font-weight="700" fill="#52514e">não</text>
+  <text x="392" y="298" font-size="14" font-weight="700" fill="#52514e">sempre</text>
+  <text x="630" y="292" font-size="14" font-weight="700" fill="#52514e">é opcional</text>
+
+  <!-- Incorreto -->
+  <g transform="translate(24 308)">
+    <rect width="272" height="258" rx="10" fill="#f3f2ee" stroke="#d2d1ca"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#0b0b0b">Só preposição:</text>
+    <text x="16" y="52" font-size="16" font-weight="700" fill="#0b0b0b">acento incorreto</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="88">referiu-se <tspan font-weight="700">a</tspan> emendas antigas</text>
+      <text x="16" y="114">chegou <tspan font-weight="700">a</tspan> essa conclusão</text>
+      <text x="16" y="140">começou <tspan font-weight="700">a</tspan> votar</text>
+      <text x="16" y="166">peço <tspan font-weight="700">a</tspan> Vossa Excelência</text>
+      <text x="16" y="192">assistiu <tspan font-weight="700">a</tspan> uma sessão</text>
+    </g>
+    <text x="16" y="226" font-size="13" fill="#52514e">plural sem artigo, essa, verbo,</text>
+    <text x="16" y="244" font-size="13" fill="#52514e">pronome de tratamento, artigo uma</text>
+  </g>
+
+  <!-- Obrigatória -->
+  <g transform="translate(308 308)">
+    <rect width="284" height="258" rx="10" fill="#e4f5ee" stroke="#a9dcc6"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#11704d">Preposição + artigo:</text>
+    <text x="16" y="52" font-size="16" font-weight="700" fill="#11704d">crase obrigatória</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="88">referiu-se <tspan font-weight="700">à</tspan> emenda</text>
+      <text x="16" y="114">parecer favorável <tspan font-weight="700">à</tspan> emenda</text>
+      <text x="16" y="140">obedeceu <tspan font-weight="700">às</tspan> normas</text>
+      <text x="16" y="166">começa <tspan font-weight="700">às</tspan> 14 horas</text>
+      <text x="16" y="192">referiu-se <tspan font-weight="700">àquele</tspan> parecer</text>
+    </g>
+    <text x="16" y="226" font-size="13" fill="#52514e">verbo ou nome que pede a,</text>
+    <text x="16" y="244" font-size="13" fill="#52514e">horas, aquele/aquela/aquilo</text>
+  </g>
+
+  <!-- Facultativa -->
+  <g transform="translate(604 308)">
+    <rect width="284" height="258" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#b4501f">Uma peça é opcional:</text>
+    <text x="16" y="52" font-size="16" font-weight="700" fill="#b4501f">crase facultativa (3 casos)</text>
+    <text x="16" y="84" font-size="13" fill="#52514e">1. possessivo feminino singular + substantivo</text>
+    <text x="16" y="106" font-size="15" fill="#0b0b0b">referência <tspan font-weight="700">a</tspan> ou <tspan font-weight="700">à</tspan> minha proposta</text>
+    <text x="16" y="138" font-size="13" fill="#52514e">2. nome próprio feminino de pessoa</text>
+    <text x="16" y="160" font-size="15" fill="#0b0b0b">a palavra <tspan font-weight="700">a</tspan> ou <tspan font-weight="700">à</tspan> Marta</text>
+    <text x="16" y="192" font-size="13" fill="#52514e">3. depois de até (opcional é a preposição)</text>
+    <text x="16" y="214" font-size="15" fill="#0b0b0b"><tspan font-weight="700">até as</tspan> ou <tspan font-weight="700">até às</tspan> 22 horas</text>
+  </g>
+
+  <!-- Pé -->
+  <line x1="24" y1="586" x2="888" y2="586" stroke="#e1e0d9"/>
+  <text x="24" y="612" font-size="14" font-weight="700" fill="#0b0b0b">Limites dos facultativos</text>
+  <text x="24" y="636" font-size="14" fill="#0b0b0b">Plural: <tspan font-weight="700">a suas emendas</tspan> ou <tspan font-weight="700">às suas emendas</tspan>; nunca acento em “a” singular antes de plural.</text>
+  <text x="24" y="660" font-size="14" fill="#0b0b0b">Possessivo sem substantivo: crase obrigatória. Prefiro a sua emenda <tspan font-weight="700">à minha</tspan> (o seu parecer <tspan font-weight="700">ao meu</tspan>).</text>
+</svg>

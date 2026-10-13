@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="600" viewBox="0 0 912 600" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="600" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">A enunciação e suas marcas numa frase</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Uma relatora fala na comissão. Cada parte da frase aponta para a situação em que ela é dita.</text>
+
+  <!-- A frase -->
+  <rect x="24" y="82" width="864" height="64" rx="10" fill="#f9f9f7" stroke="#e1e0d9"/>
+  <text x="456" y="122" font-size="19" fill="#0b0b0b" text-anchor="middle">“<tspan font-weight="700" fill="#1c5cab">Eu</tspan> <tspan font-weight="700" fill="#8a5a00">apresento hoje</tspan>, <tspan font-weight="700" fill="#b4501f">nesta Casa</tspan>, <tspan font-weight="700" fill="#52514e">o parecer</tspan> que <tspan font-weight="700" fill="#0f7a55">Vossas Excelências</tspan> me pediram.”</text>
+
+  <!-- Cinco caixas -->
+  <g transform="translate(24 170)">
+    <rect width="168" height="150" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="84" y="32" font-size="15" font-weight="700" fill="#1c5cab" text-anchor="middle">“Eu”</text>
+    <line x1="16" y1="46" x2="152" y2="46" stroke="#b8cfee"/>
+    <text x="84" y="76" font-size="16" font-weight="700" fill="#0b0b0b" text-anchor="middle">Locutor</text>
+    <text x="84" y="102" font-size="13" fill="#52514e" text-anchor="middle">quem enuncia</text>
+    <text x="84" y="132" font-size="13" fill="#52514e" text-anchor="middle">pessoa</text>
+  </g>
+  <g transform="translate(200 170)">
+    <rect width="168" height="150" rx="10" fill="#e4f5ee" stroke="#a9dcc8"/>
+    <text x="84" y="32" font-size="14" font-weight="700" fill="#0f7a55" text-anchor="middle">“Vossas Excelências”</text>
+    <line x1="16" y1="46" x2="152" y2="46" stroke="#a9dcc8"/>
+    <text x="84" y="76" font-size="16" font-weight="700" fill="#0b0b0b" text-anchor="middle">Alocutário</text>
+    <text x="84" y="102" font-size="13" fill="#52514e" text-anchor="middle">a quem se dirige</text>
+    <text x="84" y="132" font-size="13" fill="#52514e" text-anchor="middle">pessoa</text>
+  </g>
+  <g transform="translate(376 170)">
+    <rect width="168" height="150" rx="10" fill="#fdf3d9" stroke="#f0d48a"/>
+    <text x="84" y="32" font-size="14" font-weight="700" fill="#8a5a00" text-anchor="middle">“hoje” · “apresento”</text>
+    <line x1="16" y1="46" x2="152" y2="46" stroke="#f0d48a"/>
+    <text x="84" y="76" font-size="16" font-weight="700" fill="#0b0b0b" text-anchor="middle">Agora</text>
+    <text x="84" y="102" font-size="13" fill="#52514e" text-anchor="middle">o momento da enunciação</text>
+    <text x="84" y="132" font-size="13" fill="#52514e" text-anchor="middle">tempo</text>
+  </g>
+  <g transform="translate(552 170)">
+    <rect width="168" height="150" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="84" y="32" font-size="15" font-weight="700" fill="#b4501f" text-anchor="middle">“nesta Casa”</text>
+    <line x1="16" y1="46" x2="152" y2="46" stroke="#f0c3a6"/>
+    <text x="84" y="76" font-size="16" font-weight="700" fill="#0b0b0b" text-anchor="middle">Aqui</text>
+    <text x="84" y="102" font-size="13" fill="#52514e" text-anchor="middle">o lugar da enunciação</text>
+    <text x="84" y="132" font-size="13" fill="#52514e" text-anchor="middle">espaço</text>
+  </g>
+  <g transform="translate(728 170)">
+    <rect width="160" height="150" rx="10" fill="#ffffff" stroke="#8b8a85" stroke-dasharray="6 4"/>
+    <text x="80" y="32" font-size="15" font-weight="700" fill="#52514e" text-anchor="middle">“o parecer”</text>
+    <line x1="16" y1="46" x2="144" y2="46" stroke="#c9c8c1"/>
+    <text x="80" y="76" font-size="16" font-weight="700" fill="#0b0b0b" text-anchor="middle">Não pessoa</text>
+    <text x="80" y="102" font-size="13" fill="#52514e" text-anchor="middle">aquilo de que se fala</text>
+    <text x="80" y="132" font-size="13" fill="#52514e" text-anchor="middle">(ele)</text>
+  </g>
+
+  <!-- Ato e produto -->
+  <g transform="translate(24 344)">
+    <rect width="426" height="104" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="18" y="34" font-size="17" font-weight="700" fill="#1c5cab">Enunciação: o ato</text>
+    <text x="18" y="62" font-size="14" fill="#0b0b0b">Dizer a frase, naquele dia, naquele lugar,</text>
+    <text x="18" y="84" font-size="14" fill="#0b0b0b">para aquelas pessoas. <tspan font-weight="700">Não se repete.</tspan></text>
+  </g>
+  <g transform="translate(462 344)">
+    <rect width="426" height="104" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="18" y="34" font-size="17" font-weight="700" fill="#b4501f">Enunciado: o produto</text>
+    <text x="18" y="62" font-size="14" fill="#0b0b0b">O que foi dito e fica: a frase nas notas</text>
+    <text x="18" y="84" font-size="14" fill="#0b0b0b">taquigráficas. <tspan font-weight="700">Pode ser lido depois.</tspan></text>
+  </g>
+
+  <!-- Pé -->
+  <line x1="24" y1="474" x2="888" y2="474" stroke="#e1e0d9"/>
+  <text x="24" y="502" font-size="14" fill="#0b0b0b"><tspan font-weight="700">Índices específicos</tspan> (em toda enunciação): pessoa (eu, tu), espaço (este, aqui) e tempo (o presente de quem fala).</text>
+  <text x="24" y="528" font-size="14" fill="#0b0b0b"><tspan font-weight="700">Procedimentos acessórios</tspan>: interrogação, intimação, asserção e modalidades.</text>
+  <text x="24" y="564" font-size="13" fill="#52514e">Fora da situação, não se sabe quem é “eu”, que dia é “hoje” nem onde é “nesta Casa”.</text>
+  <text x="24" y="584" font-size="13" fill="#52514e">Termos de Benveniste, na síntese de Flores (2018). Frase de exemplo criada para a aula.</text>
+</svg>

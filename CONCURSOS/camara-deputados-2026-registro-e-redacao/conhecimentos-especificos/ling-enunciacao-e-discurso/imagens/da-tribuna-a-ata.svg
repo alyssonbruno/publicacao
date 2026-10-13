@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="690" viewBox="0 0 912 690" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="690" fill="#ffffff"/>
+
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Da fala à ata: o que a situação dava, o texto precisa dizer</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Quem ouve está no mesmo dia e lugar de quem fala. Quem lê a ata, não.</text>
+
+  <!-- Colunas -->
+  <g transform="translate(24 84)">
+    <rect width="426" height="150" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="18" y="30" font-size="16" font-weight="700" fill="#1c5cab">A fala, na comissão</text>
+    <text x="18" y="52" font-size="13" fill="#52514e">locutor e ouvintes partilham o aqui e o agora</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="18" y="86">“<tspan font-weight="700">Eu</tspan> recebi <tspan font-weight="700">ontem</tspan>, <tspan font-weight="700">aqui</tspan>, o pedido de</text>
+      <text x="18" y="110"><tspan font-weight="700">Vossas Excelências</tspan> e <tspan font-weight="700">apresento hoje</tspan></text>
+      <text x="18" y="134">o parecer.”</text>
+    </g>
+  </g>
+  <g transform="translate(462 84)">
+    <rect width="426" height="150" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="18" y="30" font-size="16" font-weight="700" fill="#b4501f">A ata, lida depois</text>
+    <text x="18" y="52" font-size="13" fill="#52514e">o leitor está em outro tempo e em outro lugar</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="18" y="80">A relatora declarou que recebera o pedido dos</text>
+      <text x="18" y="101">membros da comissão em 20 de outubro de 2026,</text>
+      <text x="18" y="122">na Câmara dos Deputados, e apresentou o</text>
+      <text x="18" y="143">parecer em 21 de outubro de 2026.</text>
+    </g>
+  </g>
+
+  <!-- Correspondências -->
+  <text x="24" y="270" font-size="15" font-weight="700" fill="#52514e">Na fala</text>
+  <text x="462" y="270" font-size="15" font-weight="700" fill="#52514e">Na ata</text>
+  <text x="700" y="270" font-size="15" font-weight="700" fill="#52514e">O que é</text>
+  <line x1="24" y1="280" x2="888" y2="280" stroke="#c9c8c1"/>
+  <g font-size="15" fill="#0b0b0b">
+    <text x="24" y="308" font-weight="700">eu</text>
+    <text x="400" y="308" fill="#8b8a85">→</text>
+    <text x="462" y="308">a relatora</text>
+    <text x="700" y="308" font-size="13" fill="#52514e">pessoa: quem fala</text>
+    <line x1="24" y1="320" x2="888" y2="320" stroke="#e1e0d9"/>
+
+    <text x="24" y="346" font-weight="700">Vossas Excelências</text>
+    <text x="400" y="346" fill="#8b8a85">→</text>
+    <text x="462" y="346">os membros da comissão</text>
+    <text x="700" y="346" font-size="13" fill="#52514e">pessoa: a quem se fala</text>
+    <line x1="24" y1="358" x2="888" y2="358" stroke="#e1e0d9"/>
+
+    <text x="24" y="384" font-weight="700">ontem</text>
+    <text x="400" y="384" fill="#8b8a85">→</text>
+    <text x="462" y="384">20 de outubro de 2026</text>
+    <text x="700" y="384" font-size="13" fill="#52514e">tempo</text>
+    <line x1="24" y1="396" x2="888" y2="396" stroke="#e1e0d9"/>
+
+    <text x="24" y="422" font-weight="700">aqui</text>
+    <text x="400" y="422" fill="#8b8a85">→</text>
+    <text x="462" y="422">na Câmara dos Deputados</text>
+    <text x="700" y="422" font-size="13" fill="#52514e">espaço</text>
+    <line x1="24" y1="434" x2="888" y2="434" stroke="#e1e0d9"/>
+
+    <text x="24" y="460" font-weight="700">hoje · apresento <tspan font-weight="400" font-size="13" fill="#52514e">(presente)</tspan></text>
+    <text x="400" y="460" fill="#8b8a85">→</text>
+    <text x="462" y="460">21 de outubro de 2026 ·</text>
+    <text x="462" y="482">apresentou <tspan font-size="13" fill="#52514e">(passado)</tspan></text>
+    <text x="700" y="460" font-size="13" fill="#52514e">tempo</text>
+    <line x1="24" y1="496" x2="888" y2="496" stroke="#c9c8c1"/>
+  </g>
+
+  <!-- Dois planos -->
+  <text x="24" y="530" font-size="16" font-weight="700" fill="#0b0b0b">Os dois planos da enunciação escrita (Benveniste), aplicados à ata: leitura desta aula</text>
+  <g transform="translate(24 546)">
+    <rect width="426" height="84" rx="10" fill="#f9f9f7" stroke="#e1e0d9"/>
+    <text x="18" y="30" font-size="15" font-weight="700" fill="#0b0b0b">Plano 1: quem escreve</text>
+    <text x="18" y="54" font-size="14" fill="#0b0b0b">Quem redige a ata enuncia ao escrever:</text>
+    <text x="18" y="74" font-size="14" fill="#0b0b0b">escolhe, ordena, resume.</text>
+  </g>
+  <g transform="translate(462 546)">
+    <rect width="426" height="84" rx="10" fill="#f9f9f7" stroke="#e1e0d9"/>
+    <text x="18" y="30" font-size="15" font-weight="700" fill="#0b0b0b">Plano 2: quem fala dentro do texto</text>
+    <text x="18" y="54" font-size="14" fill="#0b0b0b">A relatora é posta a falar:</text>
+    <text x="18" y="74" font-size="14" fill="#0b0b0b">“A relatora declarou que…”</text>
+  </g>
+
+  <text x="24" y="660" font-size="13" fill="#52514e">Exemplo e datas fictícios, criados para a aula. A reunião do exemplo é a de 21 de outubro de 2026.</text>
+  <text x="24" y="678" font-size="13" fill="#52514e">Produção e leitura não coincidem em tempo, espaço e pessoa (Flores, 2018). Benveniste não trata de atas.</text>
+</svg>

@@ -1,0 +1,218 @@
+# Treino de coordenação e subordinação entre orações e entre termos da oração — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Coordenação e subordinação entre orações e entre termos da oração
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (notícia da reunião de uma comissão), no estilo de certo ou errado do Cebraspe: segmentos do texto entre aspas, com remissão à linha, afirmações de “mesma função sintática”, classificações com justificativa, valor da relação entre orações e paralelismo na reescrita.'
+    - 'Referências de estilo, sem reprodução de itens: provas de nível superior do Cebraspe com gabarito definitivo — Câmara dos Deputados 2025 (Conhecimentos Gerais), TCU 2025 (Auditor Federal de Controle Externo), STM 2025 (Conhecimentos Gerais) e TRF da 6ª Região 2024 (Conhecimentos Gerais, Analista Judiciário).'
+    - 'Bases do gabarito: Manual de Redação da Presidência da República, 3ª ed. (2018), seções 11.4 (erros de paralelismo) e 11.8 (regência); Só Português, séries de análise sintática (termos da oração, coordenação e subordinação). Consultados em 12 e 13/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão discutiu o projeto que estende o
+      > 2. horário das bibliotecas públicas. O parecer, que havia sido
+      > 3. distribuído aos membros na semana anterior, foi lido pela relatora,
+      > 4. e a maioria decidiu-se pela votação imediata. Consta do parecer que
+      > 5. a ampliação do acervo será custeada por dotação já prevista no
+      > 6. orçamento. O texto altera não só o horário de funcionamento, mas
+      > 7. também o critério de repasse: os municípios que já mantêm
+      > 8. bibliotecas abertas à noite receberão primeiro os recursos.
+      > 9. Esgotada a lista de inscritos, a relatora, atendendo em parte ao pedido dos
+      > 10. prefeitos, acolheu duas emendas e um destaque e rejeitou as demais
+      > 11. sugestões. A presidente indeferiu o requerimento para retirar o
+      > 12. projeto de pauta e suspendeu a reunião por dez minutos para
+      > 13. consultar os líderes. A oposição manteve as críticas, mas os
+      > 14. prefeitos avisaram que apoiarão a medida desde que a União financie
+      > 15. os novos turnos.
+
+      A respeito das relações de coordenação e de subordinação entre orações e entre termos da oração no texto, julgue o item.
+
+      No trecho “o horário das bibliotecas públicas” (linhas 1 e 2), o adjetivo “públicas” e a expressão “das bibliotecas públicas” ligam-se ao mesmo substantivo.
+  - id: q02
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão discutiu o projeto que estende o
+      > 2. horário das bibliotecas públicas. O parecer, que havia sido
+      > 3. distribuído aos membros na semana anterior, foi lido pela relatora,
+      > 4. e a maioria decidiu-se pela votação imediata. Consta do parecer que
+      > 5. a ampliação do acervo será custeada por dotação já prevista no
+      > 6. orçamento. O texto altera não só o horário de funcionamento, mas
+      > 7. também o critério de repasse: os municípios que já mantêm
+      > 8. bibliotecas abertas à noite receberão primeiro os recursos.
+      > 9. Esgotada a lista de inscritos, a relatora, atendendo em parte ao pedido dos
+      > 10. prefeitos, acolheu duas emendas e um destaque e rejeitou as demais
+      > 11. sugestões. A presidente indeferiu o requerimento para retirar o
+      > 12. projeto de pauta e suspendeu a reunião por dez minutos para
+      > 13. consultar os líderes. A oposição manteve as críticas, mas os
+      > 14. prefeitos avisaram que apoiarão a medida desde que a União financie
+      > 15. os novos turnos.
+
+      A respeito das relações de coordenação e de subordinação entre orações e entre termos da oração no texto, julgue o item.
+
+      A oração “desde que a União financie os novos turnos” (linhas 14 e 15) expressa circunstância de tempo: marca o momento a partir do qual os prefeitos apoiarão a medida.
+  - id: q03
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão discutiu o projeto que estende o
+      > 2. horário das bibliotecas públicas. O parecer, que havia sido
+      > 3. distribuído aos membros na semana anterior, foi lido pela relatora,
+      > 4. e a maioria decidiu-se pela votação imediata. Consta do parecer que
+      > 5. a ampliação do acervo será custeada por dotação já prevista no
+      > 6. orçamento. O texto altera não só o horário de funcionamento, mas
+      > 7. também o critério de repasse: os municípios que já mantêm
+      > 8. bibliotecas abertas à noite receberão primeiro os recursos.
+      > 9. Esgotada a lista de inscritos, a relatora, atendendo em parte ao pedido dos
+      > 10. prefeitos, acolheu duas emendas e um destaque e rejeitou as demais
+      > 11. sugestões. A presidente indeferiu o requerimento para retirar o
+      > 12. projeto de pauta e suspendeu a reunião por dez minutos para
+      > 13. consultar os líderes. A oposição manteve as críticas, mas os
+      > 14. prefeitos avisaram que apoiarão a medida desde que a União financie
+      > 15. os novos turnos.
+
+      A respeito das relações de coordenação e de subordinação entre orações e entre termos da oração no texto, julgue o item.
+
+      Os termos “aos membros” (linha 3) e “ao pedido dos prefeitos” (linhas 9 e 10) exercem a mesma função sintática: cada um completa o sentido de uma forma verbal.
+  - id: q04
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão discutiu o projeto que estende o
+      > 2. horário das bibliotecas públicas. O parecer, que havia sido
+      > 3. distribuído aos membros na semana anterior, foi lido pela relatora,
+      > 4. e a maioria decidiu-se pela votação imediata. Consta do parecer que
+      > 5. a ampliação do acervo será custeada por dotação já prevista no
+      > 6. orçamento. O texto altera não só o horário de funcionamento, mas
+      > 7. também o critério de repasse: os municípios que já mantêm
+      > 8. bibliotecas abertas à noite receberão primeiro os recursos.
+      > 9. Esgotada a lista de inscritos, a relatora, atendendo em parte ao pedido dos
+      > 10. prefeitos, acolheu duas emendas e um destaque e rejeitou as demais
+      > 11. sugestões. A presidente indeferiu o requerimento para retirar o
+      > 12. projeto de pauta e suspendeu a reunião por dez minutos para
+      > 13. consultar os líderes. A oposição manteve as críticas, mas os
+      > 14. prefeitos avisaram que apoiarão a medida desde que a União financie
+      > 15. os novos turnos.
+
+      A respeito das relações de coordenação e de subordinação entre orações e entre termos da oração no texto, julgue o item.
+
+      Segundo as orientações do Manual de Redação da Presidência da República sobre paralelismo, a substituição de “o critério de repasse” (linha 7) por “como os recursos serão repassados” preservaria o paralelismo sintático entre os elementos ligados por “não só” (linha 6) e “mas também” (linhas 6 e 7).
+  - id: q05
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão discutiu o projeto que estende o
+      > 2. horário das bibliotecas públicas. O parecer, que havia sido
+      > 3. distribuído aos membros na semana anterior, foi lido pela relatora,
+      > 4. e a maioria decidiu-se pela votação imediata. Consta do parecer que
+      > 5. a ampliação do acervo será custeada por dotação já prevista no
+      > 6. orçamento. O texto altera não só o horário de funcionamento, mas
+      > 7. também o critério de repasse: os municípios que já mantêm
+      > 8. bibliotecas abertas à noite receberão primeiro os recursos.
+      > 9. Esgotada a lista de inscritos, a relatora, atendendo em parte ao pedido dos
+      > 10. prefeitos, acolheu duas emendas e um destaque e rejeitou as demais
+      > 11. sugestões. A presidente indeferiu o requerimento para retirar o
+      > 12. projeto de pauta e suspendeu a reunião por dez minutos para
+      > 13. consultar os líderes. A oposição manteve as críticas, mas os
+      > 14. prefeitos avisaram que apoiarão a medida desde que a União financie
+      > 15. os novos turnos.
+
+      A respeito das relações de coordenação e de subordinação entre orações e entre termos da oração no texto, julgue o item.
+
+      A oração “que já mantêm bibliotecas abertas à noite” (linhas 7 e 8) tem valor restritivo: de acordo com o texto, receberão primeiro os recursos apenas os municípios que apresentam a característica nela expressa.
+  - id: q06
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão discutiu o projeto que estende o
+      > 2. horário das bibliotecas públicas. O parecer, que havia sido
+      > 3. distribuído aos membros na semana anterior, foi lido pela relatora,
+      > 4. e a maioria decidiu-se pela votação imediata. Consta do parecer que
+      > 5. a ampliação do acervo será custeada por dotação já prevista no
+      > 6. orçamento. O texto altera não só o horário de funcionamento, mas
+      > 7. também o critério de repasse: os municípios que já mantêm
+      > 8. bibliotecas abertas à noite receberão primeiro os recursos.
+      > 9. Esgotada a lista de inscritos, a relatora, atendendo em parte ao pedido dos
+      > 10. prefeitos, acolheu duas emendas e um destaque e rejeitou as demais
+      > 11. sugestões. A presidente indeferiu o requerimento para retirar o
+      > 12. projeto de pauta e suspendeu a reunião por dez minutos para
+      > 13. consultar os líderes. A oposição manteve as críticas, mas os
+      > 14. prefeitos avisaram que apoiarão a medida desde que a União financie
+      > 15. os novos turnos.
+
+      A respeito das relações de coordenação e de subordinação entre orações e entre termos da oração no texto, julgue o item.
+
+      No trecho “acolheu duas emendas e um destaque e rejeitou as demais sugestões” (linhas 10 e 11), a primeira ocorrência de “e” liga dois termos que exercem a mesma função sintática, e a segunda liga duas orações que têm o mesmo sujeito.
+  - id: q07
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão discutiu o projeto que estende o
+      > 2. horário das bibliotecas públicas. O parecer, que havia sido
+      > 3. distribuído aos membros na semana anterior, foi lido pela relatora,
+      > 4. e a maioria decidiu-se pela votação imediata. Consta do parecer que
+      > 5. a ampliação do acervo será custeada por dotação já prevista no
+      > 6. orçamento. O texto altera não só o horário de funcionamento, mas
+      > 7. também o critério de repasse: os municípios que já mantêm
+      > 8. bibliotecas abertas à noite receberão primeiro os recursos.
+      > 9. Esgotada a lista de inscritos, a relatora, atendendo em parte ao pedido dos
+      > 10. prefeitos, acolheu duas emendas e um destaque e rejeitou as demais
+      > 11. sugestões. A presidente indeferiu o requerimento para retirar o
+      > 12. projeto de pauta e suspendeu a reunião por dez minutos para
+      > 13. consultar os líderes. A oposição manteve as críticas, mas os
+      > 14. prefeitos avisaram que apoiarão a medida desde que a União financie
+      > 15. os novos turnos.
+
+      A respeito das relações de coordenação e de subordinação entre orações e entre termos da oração no texto, julgue o item.
+
+      No trecho “Esgotada a lista de inscritos, a relatora, atendendo em parte ao pedido dos prefeitos, acolheu duas emendas” (linhas 9 e 10), as formas verbais “Esgotada”, “atendendo” e “acolheu” têm o mesmo sujeito.
+  - id: q08
+    topico: conhecimentos-basicos/lp-coordenacao-e-subordinacao
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a reunião de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na reunião de ontem, a comissão discutiu o projeto que estende o
+      > 2. horário das bibliotecas públicas. O parecer, que havia sido
+      > 3. distribuído aos membros na semana anterior, foi lido pela relatora,
+      > 4. e a maioria decidiu-se pela votação imediata. Consta do parecer que
+      > 5. a ampliação do acervo será custeada por dotação já prevista no
+      > 6. orçamento. O texto altera não só o horário de funcionamento, mas
+      > 7. também o critério de repasse: os municípios que já mantêm
+      > 8. bibliotecas abertas à noite receberão primeiro os recursos.
+      > 9. Esgotada a lista de inscritos, a relatora, atendendo em parte ao pedido dos
+      > 10. prefeitos, acolheu duas emendas e um destaque e rejeitou as demais
+      > 11. sugestões. A presidente indeferiu o requerimento para retirar o
+      > 12. projeto de pauta e suspendeu a reunião por dez minutos para
+      > 13. consultar os líderes. A oposição manteve as críticas, mas os
+      > 14. prefeitos avisaram que apoiarão a medida desde que a União financie
+      > 15. os novos turnos.
+
+      A respeito das relações de coordenação e de subordinação entre orações e entre termos da oração no texto, julgue o item.
+
+      No último período do texto, a oração “mas os prefeitos avisaram” (linhas 13 e 14) é coordenada à oração anterior e, ao mesmo tempo, principal em relação à oração “que apoiarão a medida” (linha 14).

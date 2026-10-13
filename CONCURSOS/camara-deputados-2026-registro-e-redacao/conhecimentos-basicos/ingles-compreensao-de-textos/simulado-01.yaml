@@ -1,0 +1,137 @@
+# Treino de Inglês: compreensão de textos — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Inglês, compreensão de textos
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício em inglês (notícia sobre resumos de projetos de lei em linguagem simples), no estilo de certo ou errado do Cebraspe: texto, comando e itens em inglês, remissão à frase e ao parágrafo pelo número de ordem e uma afirmação por item.'
+    - 'Referências de estilo, sem reprodução de itens: Cebraspe, Câmara dos Deputados, Edital nº 1/2025 (nível superior), Conhecimentos Gerais, itens 27 a 36; Cebraspe, TCU, Auditor Federal de Controle Externo, Edital nº 1/2025, Conhecimentos Básicos, itens 21 a 30; CESPE/UnB, Câmara dos Deputados 2012, Taquígrafo Legislativo, Conhecimentos Básicos, itens 1 a 13; todos com os gabaritos definitivos. Consultados em 12/10/2026; o caderno da Câmara (Edital nº 1/2025) foi reaberto em 13/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Texto para o item: notícia fictícia, em inglês, sobre os resumos de projetos de lei publicados por uma assembleia regional, em três parágrafos.
+
+      > **Text I**
+      >
+      > When a regional assembly decided last year to publish a plain-language summary alongside every bill, few of its members expected the idea to cause much debate. The summaries, written by clerks rather than by the bills' sponsors, are meant to tell citizens on a single page what a proposal would actually change. Supporters argue that, since most bills run to dozens of pages of technical wording, ordinary readers would otherwise have to rely on press reports.
+      >
+      > Not everyone is convinced. Several opposition members have complained that a summary cannot be neutral, because deciding what to leave out is itself a political choice. The head of the drafting office rejects this. In her view, the clerks have no stake in the outcome of a vote, and each summary is sent to the bill's sponsor for comment before it is published, although the office is not obliged to accept the changes proposed.
+      >
+      > Figures released six months after the first summaries appeared show that they were opened roughly four times as often as the bills themselves. The figures do not show, however, whether readers went on to read the full text, and the office admits that it does not yet know whether the summaries are informing the public or merely replacing the documents they were supposed to explain.
+
+      Based on the text, judge the following item.
+
+      The text describes an initiative intended to make bills easier for the public to understand and reports doubts about both its neutrality and its results.
+  - id: q02
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Texto para o item: notícia fictícia, em inglês, sobre os resumos de projetos de lei publicados por uma assembleia regional, em três parágrafos.
+
+      > **Text I**
+      >
+      > When a regional assembly decided last year to publish a plain-language summary alongside every bill, few of its members expected the idea to cause much debate. The summaries, written by clerks rather than by the bills' sponsors, are meant to tell citizens on a single page what a proposal would actually change. Supporters argue that, since most bills run to dozens of pages of technical wording, ordinary readers would otherwise have to rely on press reports.
+      >
+      > Not everyone is convinced. Several opposition members have complained that a summary cannot be neutral, because deciding what to leave out is itself a political choice. The head of the drafting office rejects this. In her view, the clerks have no stake in the outcome of a vote, and each summary is sent to the bill's sponsor for comment before it is published, although the office is not obliged to accept the changes proposed.
+      >
+      > Figures released six months after the first summaries appeared show that they were opened roughly four times as often as the bills themselves. The figures do not show, however, whether readers went on to read the full text, and the office admits that it does not yet know whether the summaries are informing the public or merely replacing the documents they were supposed to explain.
+
+      Based on the text, judge the following item.
+
+      In the second sentence of the first paragraph, the word “actually” could be replaced with “in fact” without changing the meaning of the sentence.
+  - id: q03
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Texto para o item: notícia fictícia, em inglês, sobre os resumos de projetos de lei publicados por uma assembleia regional, em três parágrafos.
+
+      > **Text I**
+      >
+      > When a regional assembly decided last year to publish a plain-language summary alongside every bill, few of its members expected the idea to cause much debate. The summaries, written by clerks rather than by the bills' sponsors, are meant to tell citizens on a single page what a proposal would actually change. Supporters argue that, since most bills run to dozens of pages of technical wording, ordinary readers would otherwise have to rely on press reports.
+      >
+      > Not everyone is convinced. Several opposition members have complained that a summary cannot be neutral, because deciding what to leave out is itself a political choice. The head of the drafting office rejects this. In her view, the clerks have no stake in the outcome of a vote, and each summary is sent to the bill's sponsor for comment before it is published, although the office is not obliged to accept the changes proposed.
+      >
+      > Figures released six months after the first summaries appeared show that they were opened roughly four times as often as the bills themselves. The figures do not show, however, whether readers went on to read the full text, and the office admits that it does not yet know whether the summaries are informing the public or merely replacing the documents they were supposed to explain.
+
+      Based on the text, judge the following item.
+
+      According to the text, the sponsor of a bill is invited to comment on its summary once the summary has been made public.
+  - id: q04
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Texto para o item: notícia fictícia, em inglês, sobre os resumos de projetos de lei publicados por uma assembleia regional, em três parágrafos.
+
+      > **Text I**
+      >
+      > When a regional assembly decided last year to publish a plain-language summary alongside every bill, few of its members expected the idea to cause much debate. The summaries, written by clerks rather than by the bills' sponsors, are meant to tell citizens on a single page what a proposal would actually change. Supporters argue that, since most bills run to dozens of pages of technical wording, ordinary readers would otherwise have to rely on press reports.
+      >
+      > Not everyone is convinced. Several opposition members have complained that a summary cannot be neutral, because deciding what to leave out is itself a political choice. The head of the drafting office rejects this. In her view, the clerks have no stake in the outcome of a vote, and each summary is sent to the bill's sponsor for comment before it is published, although the office is not obliged to accept the changes proposed.
+      >
+      > Figures released six months after the first summaries appeared show that they were opened roughly four times as often as the bills themselves. The figures do not show, however, whether readers went on to read the full text, and the office admits that it does not yet know whether the summaries are informing the public or merely replacing the documents they were supposed to explain.
+
+      Based on the text, judge the following item.
+
+      In “The head of the drafting office rejects this” (third sentence of the second paragraph), the word “this” refers to the idea that a summary cannot be neutral.
+  - id: q05
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Texto para o item: notícia fictícia, em inglês, sobre os resumos de projetos de lei publicados por uma assembleia regional, em três parágrafos.
+
+      > **Text I**
+      >
+      > When a regional assembly decided last year to publish a plain-language summary alongside every bill, few of its members expected the idea to cause much debate. The summaries, written by clerks rather than by the bills' sponsors, are meant to tell citizens on a single page what a proposal would actually change. Supporters argue that, since most bills run to dozens of pages of technical wording, ordinary readers would otherwise have to rely on press reports.
+      >
+      > Not everyone is convinced. Several opposition members have complained that a summary cannot be neutral, because deciding what to leave out is itself a political choice. The head of the drafting office rejects this. In her view, the clerks have no stake in the outcome of a vote, and each summary is sent to the bill's sponsor for comment before it is published, although the office is not obliged to accept the changes proposed.
+      >
+      > Figures released six months after the first summaries appeared show that they were opened roughly four times as often as the bills themselves. The figures do not show, however, whether readers went on to read the full text, and the office admits that it does not yet know whether the summaries are informing the public or merely replacing the documents they were supposed to explain.
+
+      Based on the text, judge the following item.
+
+      The author of the text claims that the clerks who write the summaries have nothing to gain or lose from the result of a vote.
+  - id: q06
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Texto para o item: notícia fictícia, em inglês, sobre os resumos de projetos de lei publicados por uma assembleia regional, em três parágrafos.
+
+      > **Text I**
+      >
+      > When a regional assembly decided last year to publish a plain-language summary alongside every bill, few of its members expected the idea to cause much debate. The summaries, written by clerks rather than by the bills' sponsors, are meant to tell citizens on a single page what a proposal would actually change. Supporters argue that, since most bills run to dozens of pages of technical wording, ordinary readers would otherwise have to rely on press reports.
+      >
+      > Not everyone is convinced. Several opposition members have complained that a summary cannot be neutral, because deciding what to leave out is itself a political choice. The head of the drafting office rejects this. In her view, the clerks have no stake in the outcome of a vote, and each summary is sent to the bill's sponsor for comment before it is published, although the office is not obliged to accept the changes proposed.
+      >
+      > Figures released six months after the first summaries appeared show that they were opened roughly four times as often as the bills themselves. The figures do not show, however, whether readers went on to read the full text, and the office admits that it does not yet know whether the summaries are informing the public or merely replacing the documents they were supposed to explain.
+
+      Based on the text, judge the following item.
+
+      It can be inferred from the text that the sponsor of a bill does not have the final say on the content of its summary.
+  - id: q07
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Texto para o item: notícia fictícia, em inglês, sobre os resumos de projetos de lei publicados por uma assembleia regional, em três parágrafos.
+
+      > **Text I**
+      >
+      > When a regional assembly decided last year to publish a plain-language summary alongside every bill, few of its members expected the idea to cause much debate. The summaries, written by clerks rather than by the bills' sponsors, are meant to tell citizens on a single page what a proposal would actually change. Supporters argue that, since most bills run to dozens of pages of technical wording, ordinary readers would otherwise have to rely on press reports.
+      >
+      > Not everyone is convinced. Several opposition members have complained that a summary cannot be neutral, because deciding what to leave out is itself a political choice. The head of the drafting office rejects this. In her view, the clerks have no stake in the outcome of a vote, and each summary is sent to the bill's sponsor for comment before it is published, although the office is not obliged to accept the changes proposed.
+      >
+      > Figures released six months after the first summaries appeared show that they were opened roughly four times as often as the bills themselves. The figures do not show, however, whether readers went on to read the full text, and the office admits that it does not yet know whether the summaries are informing the public or merely replacing the documents they were supposed to explain.
+
+      Based on the text, judge the following item.
+
+      In “the documents they were supposed to explain” (second sentence of the third paragraph), the pronoun “they” refers to the bills.
+  - id: q08
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Texto para o item: notícia fictícia, em inglês, sobre os resumos de projetos de lei publicados por uma assembleia regional, em três parágrafos.
+
+      > **Text I**
+      >
+      > When a regional assembly decided last year to publish a plain-language summary alongside every bill, few of its members expected the idea to cause much debate. The summaries, written by clerks rather than by the bills' sponsors, are meant to tell citizens on a single page what a proposal would actually change. Supporters argue that, since most bills run to dozens of pages of technical wording, ordinary readers would otherwise have to rely on press reports.
+      >
+      > Not everyone is convinced. Several opposition members have complained that a summary cannot be neutral, because deciding what to leave out is itself a political choice. The head of the drafting office rejects this. In her view, the clerks have no stake in the outcome of a vote, and each summary is sent to the bill's sponsor for comment before it is published, although the office is not obliged to accept the changes proposed.
+      >
+      > Figures released six months after the first summaries appeared show that they were opened roughly four times as often as the bills themselves. The figures do not show, however, whether readers went on to read the full text, and the office admits that it does not yet know whether the summaries are informing the public or merely replacing the documents they were supposed to explain.
+
+      Based on the text, judge the following item.
+
+      It is correct to conclude from the text that the summaries have reduced the number of citizens who read bills in full.

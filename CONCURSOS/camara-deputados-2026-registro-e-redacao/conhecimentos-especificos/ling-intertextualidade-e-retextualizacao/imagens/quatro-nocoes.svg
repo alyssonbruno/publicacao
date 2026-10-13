@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="684" viewBox="0 0 912 684" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="684" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Quatro noções, quatro perguntas</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">O que liga o texto novo ao texto de onde ele veio?</text>
+
+  <!-- Intertextualidade -->
+  <g transform="translate(24 82)">
+    <rect width="426" height="196" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#1c5cab">Intertextualidade</text>
+    <text x="16" y="56" font-size="14" fill="#0b0b0b">Um texto traz outro texto dentro dele.</text>
+    <text x="16" y="92" font-size="13" font-weight="700" fill="#52514e">PERGUNTA</text>
+    <text x="16" y="112" font-size="14" fill="#0b0b0b">Há um texto anterior retomado?</text>
+    <text x="16" y="146" font-size="13" font-weight="700" fill="#52514e">EXEMPLO</text>
+    <text x="16" y="166" font-size="14" fill="#0b0b0b">O discurso que cita o art. 1º da Constituição.</text>
+  </g>
+
+  <!-- Retextualização -->
+  <g transform="translate(462 82)">
+    <rect width="426" height="196" rx="10" fill="#fdebe2" stroke="#f3c3ad"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#b84a1c">Retextualização</text>
+    <text x="16" y="56" font-size="14" fill="#0b0b0b">Um novo texto feito de outro, com mudança</text>
+    <text x="16" y="75" font-size="14" fill="#0b0b0b">de modalidade, de gênero ou de propósito.</text>
+    <text x="16" y="104" font-size="13" font-weight="700" fill="#52514e">PERGUNTA</text>
+    <text x="16" y="124" font-size="14" fill="#0b0b0b">Mudou de fala para escrita, de gênero ou de finalidade?</text>
+    <text x="16" y="152" font-size="13" font-weight="700" fill="#52514e">EXEMPLO</text>
+    <text x="16" y="172" font-size="14" fill="#0b0b0b">O discurso falado que vira registro; as notas que viram ata.</text>
+  </g>
+
+  <!-- Reescritura -->
+  <g transform="translate(24 290)">
+    <rect width="426" height="196" rx="10" fill="#e4f5ee" stroke="#b5e0cf"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#127a55">Reescritura (reescrita)</text>
+    <text x="16" y="56" font-size="14" fill="#0b0b0b">Nova versão do mesmo texto, por adição,</text>
+    <text x="16" y="75" font-size="14" fill="#0b0b0b">substituição, supressão ou deslocamento.</text>
+    <text x="16" y="104" font-size="13" font-weight="700" fill="#52514e">PERGUNTA</text>
+    <text x="16" y="124" font-size="14" fill="#0b0b0b">O texto continua o mesmo, melhorado?</text>
+    <text x="16" y="152" font-size="13" font-weight="700" fill="#52514e">EXEMPLO</text>
+    <text x="16" y="172" font-size="14" fill="#0b0b0b">O revisor que corrige a ata.</text>
+  </g>
+
+  <!-- Paráfrase -->
+  <g transform="translate(462 290)">
+    <rect width="426" height="196" rx="10" fill="#fdf3d9" stroke="#f0d68a"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#8a5d00">Paráfrase</text>
+    <text x="16" y="56" font-size="14" fill="#0b0b0b">O mesmo sentido, com outras palavras.</text>
+    <text x="16" y="92" font-size="13" font-weight="700" fill="#52514e">PERGUNTA</text>
+    <text x="16" y="112" font-size="14" fill="#0b0b0b">O sentido se manteve?</text>
+    <text x="16" y="146" font-size="13" font-weight="700" fill="#52514e">EXEMPLO</text>
+    <text x="16" y="166" font-size="14" fill="#0b0b0b">“Segundo a Constituição, a lei trata todos</text>
+    <text x="16" y="185" font-size="14" fill="#0b0b0b">da mesma maneira.”</text>
+  </g>
+
+  <!-- Pé: pares -->
+  <g transform="translate(24 498)">
+    <rect width="864" height="170" rx="10" fill="#ffffff" stroke="#8a8985" stroke-dasharray="6 4"/>
+    <text x="16" y="24" font-size="13" font-weight="700" fill="#52514e">TRÊS PARES QUE NÃO SE CONFUNDEM</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="48"><tspan font-weight="700">Paráfrase</tspan> mantém o sentido · <tspan font-weight="700">paródia</tspan> o subverte</text>
+      <text x="16" y="70"><tspan font-weight="700">Citação</tspan> repete as palavras, com a fonte · <tspan font-weight="700">plágio</tspan> propõe como seu o texto alheio, sem a fonte</text>
+      <text x="16" y="92"><tspan font-weight="700">Transcrever</tspan> busca a fidelidade à fala · <tspan font-weight="700">retextualizar</tspan> adapta o texto</text>
+    </g>
+    <line x1="16" y1="106" x2="848" y2="106" stroke="#d9d7d0"/>
+    <g font-size="13" fill="#52514e">
+      <text x="16" y="126">A paráfrase vem com a fonte na escrita acadêmica e na jornalística; sem a fonte na captação, que não é plágio.</text>
+      <text x="16" y="146">Retextualização × reescritura: a separação dos quadros é critério prático desta aula.</text>
+      <text x="16" y="162">Há autores para quem toda retextualização é reescrita.</text>
+    </g>
+  </g>
+</svg>

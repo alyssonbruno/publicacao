@@ -1,0 +1,93 @@
+materiais:
+  - tipo: texto
+    titulo: Compreensão interpretativa e crítica; organização retórica
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: "Interpretação de texto no Cebraspe: como julgar certo ou errado?"
+    url: https://www.youtube.com/watch?v=PA6Y3ZXDaVw
+    autor: Professor Mazziotti
+    duracao_min: 15
+    descricao: >-
+      Vídeo não assistido: indicado pelo título e pela descrição do canal. Segundo a descrição, o
+      professor comenta três itens de certo ou errado de uma prova do Cespe de 2017 (CBM-AL) e
+      trata de localizar a informação, de ler o comando "depreende-se do texto" e de perceber
+      quando o item altera a ideia do texto. Pelo que a descrição anuncia, liga-se à seleção de
+      inferência: veja depois da parte "Seleção de inferência" do texto. A descrição não menciona
+      fato e opinião nem organização retórica, que ficam no texto da aula.
+  - tipo: video
+    titulo: Semântica - Pressuposição (parte 1)
+    url: https://www.youtube.com/watch?v=vHudvm63kAY
+    autor: Linguística – Prof. Rerisson Cavalcante
+    duracao_min: 7
+    descricao: >-
+      Vídeo não assistido: indicado pelo título, pela descrição e pelos capítulos que o canal
+      marcou. Os capítulos trazem frases de exemplo com o verbo "parar de" (0:57), uma pergunta
+      feita com esse verbo (2:43), "lamentar" (4:18) e "saber que" × "saber se" (5:28). A frase do
+      capítulo de 2:43 fala de violência doméstica; é o exemplo que os manuais costumam usar para a
+      pergunta que carrega pressuposto. O subentendido não aparece no título nem nos capítulos:
+      está no texto da aula. Os dados do vídeo indicam licença Creative Commons Atribuição.
+  - tipo: video
+    titulo: Leitura e Produção de textos - Os efeitos de sentido
+    url: https://www.youtube.com/watch?v=Hk-Z466EYzE
+    autor: UNIVESP (professora Vanessa Martins do Monte)
+    duracao_min: 24
+    descricao: >-
+      Vídeo não assistido. A avaliação veio do áudio da mesma aula publicado em podcast em 2020,
+      lido por transcrição automática; não conferimos se a gravação do vídeo é idêntica à do
+      áudio. Naquele áudio, a aula trata da posição do autor: como achá-la
+      em tirinhas (o efeito de humor e a crítica pretendida) e num artigo de opinião que opõe
+      opinião a fatos que podem ser verificados. Por isso a indicamos para as partes de propósito
+      do autor e de fato e opinião. No áudio, é aula de leitura geral, sem item de prova, com
+      textos de 2020; as críticas das tirinhas são dos autores delas, lidas como exemplo.
+  - tipo: video
+    titulo: "Como Escrever Parágrafos Claros e Coesos: Estrutura, Exemplos e Tipos de Desenvolvimento"
+    url: https://www.youtube.com/watch?v=rOSdhQvPjrI
+    autor: Português e Redação | Prof. Alexandre
+    duracao_min: 15
+    descricao: >-
+      Vídeo não assistido: indicado pelo título e pela descrição do canal. Segundo a descrição, é
+      aula de escrita de parágrafo, sobre o tópico frasal e as estratégias de desenvolvimento por
+      detalhamento, definição, exemplo, fundamentação e comparação. Veja depois das partes de
+      organização retórica e faça o caminho inverso: o título promete ensinar a escrever o
+      parágrafo; na prova, você recebe o parágrafo pronto e diz qual é o recurso e para que serve.
+      A descrição não menciona generalização nem descrição, que ficam no texto da aula.
+  - tipo: podcast
+    titulo: Pressupostos x Subentendidos
+    url: https://podcasts.apple.com/br/podcast/pressupostos-x-subentendidos/id1494936401?i=1000472167691
+    audio: https://anchor.fm/s/f4f3d00/podcast/play/12712545/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-21%2F66334165-44100-1-fb2a0f4a6e879.m4a
+    autor: Marcelo Moreira Marques (podcast Dicas de Língua Portuguesa)
+    duracao_min: 4
+    descricao: >-
+      Define o pressuposto, com Platão e Fiorin, como ideia não expressa que decorre do sentido de
+      certas palavras da frase; dá dois exemplos (o verbo "supor" e a oração adjetiva restritiva ×
+      explicativa, a partir de 1:00) e o teste da negação, de Ilari (2:25): o pressuposto continua
+      valendo quando se nega a frase. Os exemplos falam de governo e de eleição, sem tomar partido.
+      Apesar do título, não chega ao subentendido, que está no texto da aula. Ouça junto com o
+      episódio seguinte: os dois somam dez minutos.
+  - tipo: podcast
+    titulo: Pressupostos x Subentendidos 2
+    url: https://podcasts.apple.com/br/podcast/pressupostos-x-subentendidos-2/id1494936401?i=1000473646072
+    audio: https://anchor.fm/s/f4f3d00/podcast/play/13314867/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-5%2F70342200-44100-1-0bcd6f7f31ae3.m4a
+    autor: Marcelo Moreira Marques (podcast Dicas de Língua Portuguesa)
+    duracao_min: 6
+    descricao: >-
+      Continuação do episódio anterior: percorre as marcas de pressuposto (certos adjetivos e
+      numerais, advérbios, palavras como "até" e "só", verbos de mudança de estado, orações
+      adjetivas, conjunções), cada uma com uma frase e o pressuposto dito em voz alta. Algumas
+      frases de exemplo carregam pressupostos preconceituosos (sobre mulheres e sobre indígenas) e
+      uma fala de violência doméstica: estão ali para mostrar o que a frase dá como certo, e não
+      como opinião do episódio. Em um ou outro exemplo a conclusão lida vai além da frase (de
+      "constantes déficits", em 0:58, o episódio tira "nunca têm lucro"): na prova, fique com o
+      que a marca garante. É uma lista, sem item de prova.
+  - tipo: link
+    titulo: Estratégias argumentativas em perspectiva linguística e discursiva (aula 5 de Letramento Acadêmico, UFS)
+    url: https://cesad.ufs.br/ORBI/public/uploadCatalago/11173922072021Aula_05.pdf
+    autor: Isabel Cristina Michelan de Azevedo (CESAD/UFS)
+    descricao: >-
+      PDF de dez páginas (2021), uma das bases desta aula. Para aprofundar, leia o quadro dos
+      marcadores de pressuposição e a parte sobre modalização (modalidade epistêmica e deôntica e
+      a lista de recursos de Koch), que são as marcas da opinião no texto. É voltado a gêneros
+      acadêmicos e não fala de provas.

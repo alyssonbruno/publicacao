@@ -1,0 +1,83 @@
+materiais:
+  - tipo: texto
+    titulo: "Pontuação: o emprego dos sinais"
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: "🟣 VÍRGULA – Casos OBRIGATÓRIOS | Aprenda de verdade e não erre nunca mais! | Português do Zero"
+    url: https://www.youtube.com/watch?v=zONGXynBdaY
+    autor: Português com Letícia
+    duracao_min: 31
+    descricao: >-
+      Indicado pelo título e pelo canal: o vídeo não foi assistido. O conteúdo foi conferido só
+      pela transcrição do áudio do podcast de mesmo título (o material seguinte), e não pelo
+      vídeo. Nessa transcrição, a aula trata dos casos de vírgula dentro da oração (vocativo,
+      termos de mesma função, aposto e expressões explicativas, adjunto adverbial longo
+      deslocado, verbo omitido) e entre orações (coordenadas com e sem conjunção, adverbial antes
+      da principal, adjetiva explicativa e oração intercalada). Sobre a vírgula antes de "e" com
+      sujeitos diferentes, o título fala em casos obrigatórios, mas as fontes da aula não a dão
+      como obrigatória em todo caso: veja a parte "A vírgula antes de 'e'" no texto. Não cobre
+      os outros sinais. Veja depois das partes sobre a vírgula.
+  - tipo: podcast
+    titulo: "🟣 Casos OBRIGATÓRIOS de VÍRGULA | Aprenda de verdade e não erre nunca mais!"
+    url: https://podcasts.apple.com/br/podcast/casos-obrigat%C3%B3rios-de-v%C3%ADrgula-aprenda-de-verdade-e/id1534371896?i=1000680128203
+    audio: https://anchor.fm/s/3950d1cc/podcast/play/95324630/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-3%2F390930911-44100-2-7b2621917f1c8.mp3
+    autor: Português com Letícia (podcast)
+    duracao_min: 31
+    descricao: >-
+      Pelo título e pela duração, é o áudio da aula em vídeo acima, para quem prefere ouvir.
+      Conferido pela transcrição automática do áudio: a professora lê as vírgulas em voz alta, e
+      dá para acompanhar sem a tela. Se o tempo for curto, ouça três trechos: o adjunto
+      adverbial deslocado (a partir de 10:00), a vírgula antes de "e" com sujeitos diferentes
+      (20:25) e a oração adjetiva explicativa, em que tirar as vírgulas muda o sentido (24:19).
+      Sobre o adjunto curto, ela dá a vírgula como facultativa até três palavras: é a medida do
+      manual do Senado, e as gramáticas não fixam número (veja a parte do adjunto no texto).
+      Sobre o "e" com sujeitos diferentes, leia a parte "A vírgula antes de 'e'": as fontes não
+      dão essa vírgula como obrigatória em todo caso.
+  - tipo: podcast
+    titulo: VÍRGULA – QUESTÃO POLÊMICA! Oração Restritiva e Explicativa
+    url: https://podcasts.apple.com/br/podcast/v%C3%ADrgula-quest%C3%A3o-pol%C3%AAmica-ora%C3%A7%C3%A3o-restritiva-e-explicativa/id1534371896?i=1000550427332
+    audio: https://anchor.fm/s/3950d1cc/podcast/play/46824641/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-28%2F604bcc78-b0d1-015e-7f86-8f17851de4bc.mp3
+    autor: Português com Letícia (podcast)
+    duracao_min: 9
+    descricao: >-
+      Uma questão de três alternativas resolvida passo a passo: a mesma frase sem vírgulas
+      (restritiva), com duas vírgulas (explicativa) e com vírgulas mal postas. Mostra que as duas
+      primeiras são corretas na gramática e que só o sentido decide entre elas, o raciocínio dos
+      itens de supressão do Cebraspe. A questão é de enquete do canal, não de prova. Ouça depois
+      da parte "A vírgula que muda o sentido".
+  - tipo: podcast
+    titulo: Episódio 51 - Uso da vírgula no adjunto adverbial
+    url: https://podcasts.apple.com/br/podcast/epis%C3%B3dio-51-uso-da-v%C3%ADrgula-no-adjunto-adverbial/id1507504573?i=1000532280037
+    audio: https://anchor.fm/s/1bcc809c/podcast/play/38911995/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-08-17%2F2136cc642d911c748c41917077c1601b.m4a
+    autor: Wanderson Melo (podcast Português Jurídico)
+    duracao_min: 8
+    descricao: >-
+      Só a vírgula do adjunto adverbial, feito para áudio: em regra facultativa; obrigatória
+      quando o adjunto é longo e está deslocado (antes do sujeito, entre sujeito e verbo ou entre
+      verbo e complemento). O autor avisa que a gramática não define o que é "longo" e adota a
+      contagem de alguns professores (mais de duas palavras), diferente da usada na aula da
+      Letícia Góes e no manual do Senado (até três): guarde a lógica, não o número. Exemplos do
+      texto jurídico. Conferido pela transcrição automática do áudio. Ouça depois da parte
+      "Adjunto adverbial deslocado".
+  - tipo: link
+    titulo: Vírgula — Manual de Comunicação da Secom
+    url: https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula
+    autor: Senado Federal, Secretaria de Comunicação Social
+    descricao: >-
+      Página curta, para ler inteira: o que a vírgula não separa e os usos, com frases de
+      noticiário legislativo e a função de cada termo marcada entre parênteses. É norma de estilo
+      de uma redação jornalística, não gramática. No mesmo manual, vale abrir os verbetes
+      "Vírgula antes da conjunção e", "Adjunto adverbial deslocado", "Travessão", "Aspas" e
+      "Ponto e vírgula".
+  - tipo: link
+    titulo: Manual de Redação da Presidência da República, 3ª edição (cópia hospedada pelo ICMBio)
+    url: https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf
+    autor: Presidência da República, Casa Civil
+    descricao: >-
+      PDF de 189 páginas; para esta aula, leia só duas partes: a seção 11.9, "Pontuação" (p. 77 a
+      80), com vírgula, ponto e vírgula, dois-pontos, interrogação e exclamação, e, na seção 10,
+      "Formatação", os itens de aspas, parênteses e travessão (p. 53 a 56). Não trata da vírgula
+      facultativa nem das reticências, que estão no texto da aula.

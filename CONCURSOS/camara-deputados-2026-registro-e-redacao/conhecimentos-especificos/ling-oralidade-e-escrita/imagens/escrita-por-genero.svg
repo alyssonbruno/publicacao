@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="580" viewBox="0 0 912 580" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="580" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">A escrita culta também varia, conforme o gênero</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Quanto da forma prescrita pela norma-padrão aparece em textos de jornal e da universidade</text>
+
+  <!-- Painel 1 -->
+  <text x="24" y="104" font-size="16" font-weight="700" fill="#0b0b0b">1. Verbo no plural em frases como “quando se acionam as usinas”</text>
+  <text x="24" y="124" font-size="13" fill="#52514e">Jornais cearenses (Magalhães, 2018). A outra forma é “se cobra muitos tributos”.</text>
+  <g font-size="14" fill="#0b0b0b">
+    <text x="200" y="158" text-anchor="end">notícia</text>
+    <text x="200" y="192" text-anchor="end">artigo de opinião</text>
+    <text x="200" y="226" text-anchor="end">editorial</text>
+  </g>
+  <line x1="212" y1="138" x2="212" y2="238" stroke="#c9c8c4"/>
+  <g fill="#256abf">
+    <rect x="212" y="142" width="236.5" height="24" rx="3"/>
+    <rect x="212" y="176" width="346.5" height="24" rx="3"/>
+    <rect x="212" y="210" width="390.5" height="24" rx="3"/>
+  </g>
+  <g font-size="14" font-weight="700" fill="#0b0b0b">
+    <text x="456.5" y="159">43% <tspan font-weight="400" fill="#52514e">(15 de 35)</tspan></text>
+    <text x="566.5" y="193">63% <tspan font-weight="400" fill="#52514e">(30 de 48)</tspan></text>
+    <text x="610.5" y="227">71% <tspan font-weight="400" fill="#52514e">(27 de 38)</tspan></text>
+  </g>
+
+  <!-- Painel 2 -->
+  <text x="24" y="282" font-size="16" font-weight="700" fill="#0b0b0b">2. Relativa com a preposição: “uma opinião de que discordo”</text>
+  <text x="24" y="302" font-size="13" fill="#52514e">Jornais cariocas e textos acadêmicos (Mallmann, Garcia e Escobar, 2019). A outra forma é “uma opinião que discordo”.</text>
+  <g font-size="14" fill="#0b0b0b">
+    <text x="200" y="336" text-anchor="end">crônica</text>
+    <text x="200" y="370" text-anchor="end">entrevista</text>
+    <text x="200" y="404" text-anchor="end">artigo científico</text>
+    <text x="200" y="438" text-anchor="end">tese ou dissertação</text>
+    <text x="200" y="472" text-anchor="end">editorial</text>
+  </g>
+  <line x1="212" y1="316" x2="212" y2="484" stroke="#c9c8c4"/>
+  <g fill="#1baf7a">
+    <rect x="212" y="320" width="203.5" height="24" rx="3"/>
+    <rect x="212" y="354" width="324.5" height="24" rx="3"/>
+    <rect x="212" y="388" width="352" height="24" rx="3"/>
+    <rect x="212" y="422" width="429" height="24" rx="3"/>
+    <rect x="212" y="456" width="550" height="24" rx="3"/>
+  </g>
+  <g font-size="14" font-weight="700" fill="#0b0b0b">
+    <text x="423.5" y="337">37% <tspan font-weight="400" fill="#52514e">(6 de 16)</tspan></text>
+    <text x="544.5" y="371">59% <tspan font-weight="400" fill="#52514e">(29 de 49)</tspan></text>
+    <text x="572" y="405">64% <tspan font-weight="400" fill="#52514e">(98 de 154)</tspan></text>
+    <text x="649" y="439">78% <tspan font-weight="400" fill="#52514e">(18 de 23)</tspan></text>
+    <text x="770" y="473">100% <tspan font-weight="400" fill="#52514e">(21 de 21)</tspan></text>
+  </g>
+
+  <!-- Rodapé -->
+  <rect x="24" y="500" width="864" height="64" rx="10" fill="#fdf3e0" stroke="#eda100"/>
+  <text x="40" y="526" font-size="14" fill="#0b0b0b"><tspan font-weight="700">Leitura:</tspan> os gêneros do polo da escrita ficam mais perto da norma-padrão, mas não por igual: o artigo científico</text>
+  <text x="40" y="548" font-size="14" fill="#0b0b0b">(64%) fica abaixo do editorial (100%). Dados reunidos por Freire (2020).</text>
+</svg>

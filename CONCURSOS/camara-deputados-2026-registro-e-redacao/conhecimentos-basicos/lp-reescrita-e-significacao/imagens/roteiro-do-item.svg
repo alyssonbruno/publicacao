@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="480" viewBox="0 0 912 480" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="480" fill="#ffffff"/>
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Seis passos para julgar um item de reescrita</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Sempre na mesma ordem: a gramática primeiro, o sentido depois</text>
+  <g transform="translate(24 84)">
+    <rect width="272" height="134" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <circle cx="30" cy="32" r="15" fill="#1c5cab"/><text x="30" y="38" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="54" y="38" font-size="17" font-weight="700" fill="#1c5cab">Leia o comando</text>
+    <text x="16" y="70" font-size="15" fill="#0b0b0b">Marque o que ele afirma:</text>
+    <text x="16" y="91" font-size="15" fill="#0b0b0b">correção, sentido</text>
+    <text x="16" y="112" font-size="15" fill="#0b0b0b">ou coerência.</text>
+  </g>
+  <path d="M300 151 h14" stroke="#52514e" stroke-width="2"/><path d="M312 145 l8 6 l-8 6 z" fill="#52514e"/>
+  <g transform="translate(320 84)">
+    <rect width="272" height="134" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <circle cx="30" cy="32" r="15" fill="#1c5cab"/><text x="30" y="38" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="54" y="38" font-size="17" font-weight="700" fill="#1c5cab">Volte ao texto</text>
+    <text x="16" y="70" font-size="15" fill="#0b0b0b">Leia o período inteiro,</text>
+    <text x="16" y="91" font-size="15" fill="#0b0b0b">não só a palavra apontada.</text>
+  </g>
+  <path d="M596 151 h14" stroke="#52514e" stroke-width="2"/><path d="M608 145 l8 6 l-8 6 z" fill="#52514e"/>
+  <g transform="translate(616 84)">
+    <rect width="272" height="134" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <circle cx="30" cy="32" r="15" fill="#1c5cab"/><text x="30" y="38" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+    <text x="54" y="38" font-size="17" font-weight="700" fill="#1c5cab">Monte a frase nova</text>
+    <text x="16" y="70" font-size="15" fill="#0b0b0b">Por completo,</text>
+    <text x="16" y="91" font-size="15" fill="#0b0b0b">com a troca feita.</text>
+  </g>
+  <g transform="translate(24 242)">
+    <rect width="272" height="134" rx="10" fill="#e2f5ec" stroke="#a9dcc5"/>
+    <circle cx="30" cy="32" r="15" fill="#12784f"/><text x="30" y="38" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+    <text x="54" y="38" font-size="17" font-weight="700" fill="#12784f">Fala em correção?</text>
+    <text x="16" y="70" font-size="15" fill="#0b0b0b">Procure erro: concordância,</text>
+    <text x="16" y="91" font-size="15" fill="#0b0b0b">regência, crase, pontuação,</text>
+    <text x="16" y="112" font-size="15" fill="#0b0b0b">modo do verbo.</text>
+  </g>
+  <path d="M300 309 h14" stroke="#52514e" stroke-width="2"/><path d="M312 303 l8 6 l-8 6 z" fill="#52514e"/>
+  <g transform="translate(320 242)">
+    <rect width="272" height="134" rx="10" fill="#e2f5ec" stroke="#a9dcc5"/>
+    <circle cx="30" cy="32" r="15" fill="#12784f"/><text x="30" y="38" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+    <text x="54" y="38" font-size="17" font-weight="700" fill="#12784f">Fala em sentido?</text>
+    <text x="16" y="70" font-size="15" fill="#0b0b0b">Compare as duas frases:</text>
+    <text x="16" y="91" font-size="15" fill="#0b0b0b">mesma coisa, mesma força,</text>
+    <text x="16" y="112" font-size="15" fill="#0b0b0b">mesma certeza?</text>
+  </g>
+  <path d="M596 309 h14" stroke="#52514e" stroke-width="2"/><path d="M608 303 l8 6 l-8 6 z" fill="#52514e"/>
+  <g transform="translate(616 242)">
+    <rect width="272" height="134" rx="10" fill="#e2f5ec" stroke="#a9dcc5"/>
+    <circle cx="30" cy="32" r="15" fill="#12784f"/><text x="30" y="38" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+    <text x="54" y="38" font-size="17" font-weight="700" fill="#12784f">Fala em coerência?</text>
+    <text x="16" y="70" font-size="15" fill="#0b0b0b">A frase nova combina</text>
+    <text x="16" y="91" font-size="15" fill="#0b0b0b">com o resto do texto?</text>
+  </g>
+  <text x="24" y="422" font-size="15" fill="#0b0b0b">O que o comando <tspan font-weight="700">não pede</tspan> não entra no julgamento.</text>
+  <text x="24" y="446" font-size="15" fill="#0b0b0b">Sem justificativa por um dos passos, o item pode ficar em branco: cada erro anula um acerto.</text>
+</svg>

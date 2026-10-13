@@ -1,0 +1,218 @@
+# Treino de compreensão interpretativa e crítica e de organização retórica — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Compreensão interpretativa e crítica; organização retórica
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (artigo de opinião sobre a linguagem das ementas e dos pareceres, com números inventados), no estilo de certo ou errado do Cebraspe: remissão à linha do texto e uma afirmação por item, que nomeia o recurso e lhe atribui uma função.'
+    - 'Referência de estilo, sem reprodução de itens: caderno de conhecimentos específicos do Cespe/UnB para Analista Legislativo, atribuição Taquígrafo Legislativo, da Câmara dos Deputados (2012), itens 71 a 100, com o gabarito definitivo. Consultado em 12/10/2026.'
+    - 'Bases do gabarito, como apresentadas na aula do tópico: Blasque e Oliveira, As mensagens implícitas do texto (Signum, UEL, 2020); Azevedo, Letramento Acadêmico, aula 5 (CESAD/UFS, 2021); Oliveira, dissertação sobre modalizadores e a distinção entre fato e opinião (Profletras/UFRRJ, 2017); Quintela, Fato ou opinião (blog Descomplica, 2026); guia da Cátedra de Português da UBA, adaptado de Marcuschi (2015); Produção e Recepção de Texto I, aula 20 (CESAD/UFS, 2010), resumo de Othon M. Garcia; Squarisi, Redação 9 (Blog da Dad, Correio Braziliense).'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/ling-compreensao-interpretativa-e-critica
+    enunciado: |-
+      Texto para o item: artigo de opinião fictício, criado para este treino, com números inventados, em três parágrafos (linhas 1 a 7, 8 a 11 e 12 a 15), com as linhas numeradas.
+
+      > **Palavra difícil não é palavra exata**
+      >
+      > 1. Em geral, quem escreve em nome do Estado escreve para os colegas, e
+      > 2. não para o público. Toda repartição tem o seu dialeto, e o do
+      > 3. Legislativo aparece logo na ementa. Ementa é o resumo que vem no alto
+      > 4. do projeto de lei e anuncia o seu objeto. Deveria ser a parte mais
+      > 5. clara do texto; muitas vezes, é a mais obscura. Certa ementa, por exemplo,
+      > 6. dizia apenas que o projeto “altera dispositivos da legislação vigente
+      > 7. e dá outras providências”, sem informar que lei mudava.
+      > 8. Há sinais de mudança. Desde março, uma comissão da Casa deixou de
+      > 9. distribuir pareceres sem um resumo em linguagem comum. O efeito foi
+      > 10. rápido: em seis meses, os pedidos de esclarecimento que ela recebe por
+      > 11. mês caíram de 90 para 35. Felizmente, a ideia começa a ser copiada.
+      > 12. Segundo um consultor ouvido pela comissão, o resumo empobrece o
+      > 13. parecer, porque troca o termo exato por outro, aproximado. Não é
+      > 14. preciso, porém, abolir o termo técnico; basta explicá-lo. Talvez seja
+      > 15. essa a forma mais barata de aproximar o cidadão da lei.
+
+      Com base nas ideias e na organização do texto, julgue o item.
+
+      O texto tem por finalidade convencer o leitor de que os termos técnicos devem ser eliminados dos textos legislativos.
+  - id: q02
+    topico: conhecimentos-especificos/ling-compreensao-interpretativa-e-critica
+    enunciado: |-
+      Texto para o item: artigo de opinião fictício, criado para este treino, com números inventados, em três parágrafos (linhas 1 a 7, 8 a 11 e 12 a 15), com as linhas numeradas.
+
+      > **Palavra difícil não é palavra exata**
+      >
+      > 1. Em geral, quem escreve em nome do Estado escreve para os colegas, e
+      > 2. não para o público. Toda repartição tem o seu dialeto, e o do
+      > 3. Legislativo aparece logo na ementa. Ementa é o resumo que vem no alto
+      > 4. do projeto de lei e anuncia o seu objeto. Deveria ser a parte mais
+      > 5. clara do texto; muitas vezes, é a mais obscura. Certa ementa, por exemplo,
+      > 6. dizia apenas que o projeto “altera dispositivos da legislação vigente
+      > 7. e dá outras providências”, sem informar que lei mudava.
+      > 8. Há sinais de mudança. Desde março, uma comissão da Casa deixou de
+      > 9. distribuir pareceres sem um resumo em linguagem comum. O efeito foi
+      > 10. rápido: em seis meses, os pedidos de esclarecimento que ela recebe por
+      > 11. mês caíram de 90 para 35. Felizmente, a ideia começa a ser copiada.
+      > 12. Segundo um consultor ouvido pela comissão, o resumo empobrece o
+      > 13. parecer, porque troca o termo exato por outro, aproximado. Não é
+      > 14. preciso, porém, abolir o termo técnico; basta explicá-lo. Talvez seja
+      > 15. essa a forma mais barata de aproximar o cidadão da lei.
+
+      Com base nas ideias e na organização do texto, julgue o item.
+
+      Na avaliação do autor do texto, o resumo em linguagem comum empobrece o parecer, por substituir o termo exato por outro, apenas aproximado.
+  - id: q03
+    topico: conhecimentos-especificos/ling-compreensao-interpretativa-e-critica
+    enunciado: |-
+      Texto para o item: artigo de opinião fictício, criado para este treino, com números inventados, em três parágrafos (linhas 1 a 7, 8 a 11 e 12 a 15), com as linhas numeradas.
+
+      > **Palavra difícil não é palavra exata**
+      >
+      > 1. Em geral, quem escreve em nome do Estado escreve para os colegas, e
+      > 2. não para o público. Toda repartição tem o seu dialeto, e o do
+      > 3. Legislativo aparece logo na ementa. Ementa é o resumo que vem no alto
+      > 4. do projeto de lei e anuncia o seu objeto. Deveria ser a parte mais
+      > 5. clara do texto; muitas vezes, é a mais obscura. Certa ementa, por exemplo,
+      > 6. dizia apenas que o projeto “altera dispositivos da legislação vigente
+      > 7. e dá outras providências”, sem informar que lei mudava.
+      > 8. Há sinais de mudança. Desde março, uma comissão da Casa deixou de
+      > 9. distribuir pareceres sem um resumo em linguagem comum. O efeito foi
+      > 10. rápido: em seis meses, os pedidos de esclarecimento que ela recebe por
+      > 11. mês caíram de 90 para 35. Felizmente, a ideia começa a ser copiada.
+      > 12. Segundo um consultor ouvido pela comissão, o resumo empobrece o
+      > 13. parecer, porque troca o termo exato por outro, aproximado. Não é
+      > 14. preciso, porém, abolir o termo técnico; basta explicá-lo. Talvez seja
+      > 15. essa a forma mais barata de aproximar o cidadão da lei.
+
+      Com base nas ideias e na organização do texto, julgue o item.
+
+      A locução verbal “deixou de distribuir” (linhas 8 e 9) traz implícita a informação de que, antes de março, a comissão distribuía pareceres sem resumo em linguagem comum.
+  - id: q04
+    topico: conhecimentos-especificos/ling-compreensao-interpretativa-e-critica
+    enunciado: |-
+      Texto para o item: artigo de opinião fictício, criado para este treino, com números inventados, em três parágrafos (linhas 1 a 7, 8 a 11 e 12 a 15), com as linhas numeradas.
+
+      > **Palavra difícil não é palavra exata**
+      >
+      > 1. Em geral, quem escreve em nome do Estado escreve para os colegas, e
+      > 2. não para o público. Toda repartição tem o seu dialeto, e o do
+      > 3. Legislativo aparece logo na ementa. Ementa é o resumo que vem no alto
+      > 4. do projeto de lei e anuncia o seu objeto. Deveria ser a parte mais
+      > 5. clara do texto; muitas vezes, é a mais obscura. Certa ementa, por exemplo,
+      > 6. dizia apenas que o projeto “altera dispositivos da legislação vigente
+      > 7. e dá outras providências”, sem informar que lei mudava.
+      > 8. Há sinais de mudança. Desde março, uma comissão da Casa deixou de
+      > 9. distribuir pareceres sem um resumo em linguagem comum. O efeito foi
+      > 10. rápido: em seis meses, os pedidos de esclarecimento que ela recebe por
+      > 11. mês caíram de 90 para 35. Felizmente, a ideia começa a ser copiada.
+      > 12. Segundo um consultor ouvido pela comissão, o resumo empobrece o
+      > 13. parecer, porque troca o termo exato por outro, aproximado. Não é
+      > 14. preciso, porém, abolir o termo técnico; basta explicá-lo. Talvez seja
+      > 15. essa a forma mais barata de aproximar o cidadão da lei.
+
+      Com base nas ideias e na organização do texto, julgue o item.
+
+      Diferentemente da informação de que os pedidos de esclarecimento caíram de 90 para 35 (linhas 10 e 11), que pode ser conferida em registros, a afirmação feita no último período do texto (linhas 14 e 15) exprime uma avaliação que o autor não dá como certa, como indica o advérbio “Talvez”.
+  - id: q05
+    topico: conhecimentos-especificos/ling-compreensao-interpretativa-e-critica
+    enunciado: |-
+      Texto para o item: artigo de opinião fictício, criado para este treino, com números inventados, em três parágrafos (linhas 1 a 7, 8 a 11 e 12 a 15), com as linhas numeradas.
+
+      > **Palavra difícil não é palavra exata**
+      >
+      > 1. Em geral, quem escreve em nome do Estado escreve para os colegas, e
+      > 2. não para o público. Toda repartição tem o seu dialeto, e o do
+      > 3. Legislativo aparece logo na ementa. Ementa é o resumo que vem no alto
+      > 4. do projeto de lei e anuncia o seu objeto. Deveria ser a parte mais
+      > 5. clara do texto; muitas vezes, é a mais obscura. Certa ementa, por exemplo,
+      > 6. dizia apenas que o projeto “altera dispositivos da legislação vigente
+      > 7. e dá outras providências”, sem informar que lei mudava.
+      > 8. Há sinais de mudança. Desde março, uma comissão da Casa deixou de
+      > 9. distribuir pareceres sem um resumo em linguagem comum. O efeito foi
+      > 10. rápido: em seis meses, os pedidos de esclarecimento que ela recebe por
+      > 11. mês caíram de 90 para 35. Felizmente, a ideia começa a ser copiada.
+      > 12. Segundo um consultor ouvido pela comissão, o resumo empobrece o
+      > 13. parecer, porque troca o termo exato por outro, aproximado. Não é
+      > 14. preciso, porém, abolir o termo técnico; basta explicá-lo. Talvez seja
+      > 15. essa a forma mais barata de aproximar o cidadão da lei.
+
+      Com base nas ideias e na organização do texto, julgue o item.
+
+      Infere-se do texto que o autor atribui a redução dos pedidos de esclarecimento recebidos pela comissão ao fato de ela ter deixado de distribuir pareceres sem resumo em linguagem comum.
+  - id: q06
+    topico: conhecimentos-especificos/ling-compreensao-interpretativa-e-critica
+    enunciado: |-
+      Texto para o item: artigo de opinião fictício, criado para este treino, com números inventados, em três parágrafos (linhas 1 a 7, 8 a 11 e 12 a 15), com as linhas numeradas.
+
+      > **Palavra difícil não é palavra exata**
+      >
+      > 1. Em geral, quem escreve em nome do Estado escreve para os colegas, e
+      > 2. não para o público. Toda repartição tem o seu dialeto, e o do
+      > 3. Legislativo aparece logo na ementa. Ementa é o resumo que vem no alto
+      > 4. do projeto de lei e anuncia o seu objeto. Deveria ser a parte mais
+      > 5. clara do texto; muitas vezes, é a mais obscura. Certa ementa, por exemplo,
+      > 6. dizia apenas que o projeto “altera dispositivos da legislação vigente
+      > 7. e dá outras providências”, sem informar que lei mudava.
+      > 8. Há sinais de mudança. Desde março, uma comissão da Casa deixou de
+      > 9. distribuir pareceres sem um resumo em linguagem comum. O efeito foi
+      > 10. rápido: em seis meses, os pedidos de esclarecimento que ela recebe por
+      > 11. mês caíram de 90 para 35. Felizmente, a ideia começa a ser copiada.
+      > 12. Segundo um consultor ouvido pela comissão, o resumo empobrece o
+      > 13. parecer, porque troca o termo exato por outro, aproximado. Não é
+      > 14. preciso, porém, abolir o termo técnico; basta explicá-lo. Talvez seja
+      > 15. essa a forma mais barata de aproximar o cidadão da lei.
+
+      Com base nas ideias e na organização do texto, julgue o item.
+
+      Infere-se do texto que a comissão deixou de distribuir pareceres sem resumo em linguagem comum por causa do grande número de pedidos de esclarecimento que recebia.
+  - id: q07
+    topico: conhecimentos-especificos/ling-compreensao-interpretativa-e-critica
+    enunciado: |-
+      Texto para o item: artigo de opinião fictício, criado para este treino, com números inventados, em três parágrafos (linhas 1 a 7, 8 a 11 e 12 a 15), com as linhas numeradas.
+
+      > **Palavra difícil não é palavra exata**
+      >
+      > 1. Em geral, quem escreve em nome do Estado escreve para os colegas, e
+      > 2. não para o público. Toda repartição tem o seu dialeto, e o do
+      > 3. Legislativo aparece logo na ementa. Ementa é o resumo que vem no alto
+      > 4. do projeto de lei e anuncia o seu objeto. Deveria ser a parte mais
+      > 5. clara do texto; muitas vezes, é a mais obscura. Certa ementa, por exemplo,
+      > 6. dizia apenas que o projeto “altera dispositivos da legislação vigente
+      > 7. e dá outras providências”, sem informar que lei mudava.
+      > 8. Há sinais de mudança. Desde março, uma comissão da Casa deixou de
+      > 9. distribuir pareceres sem um resumo em linguagem comum. O efeito foi
+      > 10. rápido: em seis meses, os pedidos de esclarecimento que ela recebe por
+      > 11. mês caíram de 90 para 35. Felizmente, a ideia começa a ser copiada.
+      > 12. Segundo um consultor ouvido pela comissão, o resumo empobrece o
+      > 13. parecer, porque troca o termo exato por outro, aproximado. Não é
+      > 14. preciso, porém, abolir o termo técnico; basta explicá-lo. Talvez seja
+      > 15. essa a forma mais barata de aproximar o cidadão da lei.
+
+      Com base nas ideias e na organização do texto, julgue o item.
+
+      No período “Ementa é o resumo que vem no alto do projeto de lei e anuncia o seu objeto” (linhas 3 e 4), o autor recorre à definição, recurso que esclarece para o leitor o sentido do termo técnico empregado no período anterior.
+  - id: q08
+    topico: conhecimentos-especificos/ling-compreensao-interpretativa-e-critica
+    enunciado: |-
+      Texto para o item: artigo de opinião fictício, criado para este treino, com números inventados, em três parágrafos (linhas 1 a 7, 8 a 11 e 12 a 15), com as linhas numeradas.
+
+      > **Palavra difícil não é palavra exata**
+      >
+      > 1. Em geral, quem escreve em nome do Estado escreve para os colegas, e
+      > 2. não para o público. Toda repartição tem o seu dialeto, e o do
+      > 3. Legislativo aparece logo na ementa. Ementa é o resumo que vem no alto
+      > 4. do projeto de lei e anuncia o seu objeto. Deveria ser a parte mais
+      > 5. clara do texto; muitas vezes, é a mais obscura. Certa ementa, por exemplo,
+      > 6. dizia apenas que o projeto “altera dispositivos da legislação vigente
+      > 7. e dá outras providências”, sem informar que lei mudava.
+      > 8. Há sinais de mudança. Desde março, uma comissão da Casa deixou de
+      > 9. distribuir pareceres sem um resumo em linguagem comum. O efeito foi
+      > 10. rápido: em seis meses, os pedidos de esclarecimento que ela recebe por
+      > 11. mês caíram de 90 para 35. Felizmente, a ideia começa a ser copiada.
+      > 12. Segundo um consultor ouvido pela comissão, o resumo empobrece o
+      > 13. parecer, porque troca o termo exato por outro, aproximado. Não é
+      > 14. preciso, porém, abolir o termo técnico; basta explicá-lo. Talvez seja
+      > 15. essa a forma mais barata de aproximar o cidadão da lei.
+
+      Com base nas ideias e na organização do texto, julgue o item.
+
+      No trecho introduzido por “por exemplo” (linhas 5 a 7), o autor recorre à exemplificação para ilustrar a afirmação de que a ementa é a parte mais clara do projeto de lei.

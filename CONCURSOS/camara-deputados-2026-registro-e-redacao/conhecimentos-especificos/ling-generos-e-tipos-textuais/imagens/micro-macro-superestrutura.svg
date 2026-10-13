@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="seta" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto"><path d="M1,1 L9,5 L1,9 z" fill="#52514e"/></marker>
+  </defs>
+  <rect width="1000" height="600" fill="#ffffff"/>
+  <text x="24" y="36" font-size="21" font-weight="700" fill="#0b0b0b">Os três níveis no modelo de Kintsch e van Dijk</text>
+  <text x="24" y="58" font-size="13" fill="#52514e">Exemplo: notícia fictícia sobre uma votação</text>
+
+  <!-- Macroestrutura -->
+  <rect x="24" y="76" width="600" height="130" rx="10" fill="#1c5cab"/>
+  <text x="44" y="106" font-size="18" font-weight="700" fill="#ffffff">Macroestrutura</text>
+  <text x="44" y="130" font-size="14" fill="#ffffff">Sentido global · organização temática · coerência global</text>
+  <rect x="44" y="144" width="560" height="46" rx="8" fill="#ffffff"/>
+  <text x="324" y="173" font-size="15" fill="#0b0b0b" text-anchor="middle" font-style="italic">O Plenário aprovou o crédito emergencial contra a seca.</text>
+
+  <!-- Seta e macrorregras -->
+  <line x1="120" y1="330" x2="120" y2="216" stroke="#52514e" stroke-width="2.5" marker-end="url(#seta)"/>
+  <rect x="150" y="222" width="474" height="100" rx="10" fill="#fff6dc" stroke="#e0b84a"/>
+  <text x="166" y="246" font-size="15" font-weight="700" fill="#7a5a00">Macrorregras (do local ao global)</text>
+  <g font-size="14" fill="#0b0b0b">
+    <text x="166" y="270">1. <tspan font-weight="700">apagamento</tspan> do acidental</text>
+    <text x="400" y="270">3. <tspan font-weight="700">generalização</tspan></text>
+    <text x="166" y="294">2. <tspan font-weight="700">seleção</tspan> do fato</text>
+    <text x="400" y="294">4. <tspan font-weight="700">construção</tspan></text>
+    <text x="166" y="314" font-size="12" fill="#52514e">1 e 2 cortam; 3 e 4 substituem.</text>
+  </g>
+
+  <!-- Microestrutura -->
+  <rect x="24" y="338" width="600" height="190" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+  <text x="44" y="368" font-size="18" font-weight="700" fill="#1c5cab">Microestrutura</text>
+  <text x="44" y="392" font-size="14" fill="#0b0b0b">Proposições de frases e de sequências de frases · coerência local</text>
+  <g font-size="14" fill="#0b0b0b" font-style="italic">
+    <rect x="44" y="406" width="270" height="44" rx="8" fill="#ffffff" stroke="#b8cfee"/>
+    <text x="179" y="433" text-anchor="middle">Os líderes orientaram as bancadas.</text>
+    <rect x="334" y="406" width="270" height="44" rx="8" fill="#ffffff" stroke="#b8cfee"/>
+    <text x="469" y="433" text-anchor="middle">O painel foi aberto.</text>
+    <rect x="44" y="464" width="270" height="44" rx="8" fill="#ffffff" stroke="#b8cfee"/>
+    <text x="179" y="491" text-anchor="middle">Os deputados votaram.</text>
+    <rect x="334" y="464" width="270" height="44" rx="8" fill="#ffffff" stroke="#b8cfee"/>
+    <text x="469" y="491" text-anchor="middle">O resultado foi proclamado.</text>
+  </g>
+
+  <!-- Superestrutura -->
+  <rect x="654" y="76" width="322" height="452" rx="10" fill="#fdf0e6" stroke="#b4501f" stroke-dasharray="6 4"/>
+  <text x="674" y="106" font-size="18" font-weight="700" fill="#b4501f">Superestrutura</text>
+  <g font-size="14" fill="#0b0b0b">
+    <text x="674" y="134">O esquema global de organização</text>
+    <text x="674" y="154">do texto: uma “sintaxe global”,</text>
+    <text x="674" y="174">com categorias que o conteúdo</text>
+    <text x="674" y="194">vem preencher.</text>
+    <text x="674" y="252" font-weight="700">Exemplo, na narrativa</text>
+    <rect x="674" y="266" width="282" height="92" rx="8" fill="#ffffff" stroke="#f0c9a8"/>
+    <text x="690" y="292">categoria <tspan font-weight="700">cenário</tspan>:</text>
+    <text x="690" y="314">tempo, lugar, participantes</text>
+    <text x="690" y="336">e situação de partida</text>
+    <text x="674" y="392">Organiza as macroproposições</text>
+    <text x="674" y="412">pela função de cada parte</text>
+    <text x="674" y="432">no conjunto.</text>
+    <text x="674" y="462" font-weight="700" fill="#b4501f">Van Dijk a descreve para a</text>
+    <text x="674" y="482" font-weight="700" fill="#b4501f">narrativa, a argumentação e</text>
+    <text x="674" y="502" font-weight="700" fill="#b4501f">a notícia de jornal.</text>
+  </g>
+
+  <!-- Pé -->
+  <text x="24" y="556" font-size="15" fill="#0b0b0b"><tspan font-weight="700">Micro e macro</tspan> são níveis de <tspan font-weight="700">sentido</tspan>; a <tspan font-weight="700">superestrutura</tspan> é de <tspan font-weight="700">forma</tspan>.</text>
+  <text x="24" y="582" font-size="12" fill="#52514e">Fontes: Farias (2000), Giraldello (2017) e Rodrigues (1991), sobre Kintsch e van Dijk. Exemplo criado para esta aula.</text>
+</svg>

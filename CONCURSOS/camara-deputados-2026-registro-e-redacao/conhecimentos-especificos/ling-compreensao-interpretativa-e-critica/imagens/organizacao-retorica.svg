@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="670" viewBox="0 0 912 670" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="670" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Organização retórica: recurso e função</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">As seis primeiras frases do texto da aula (texto e números fictícios)</text>
+
+  <!-- Frase 1: Generalização -->
+  <g transform="translate(24 84)">
+    <rect width="470" height="74" rx="10" fill="#fbfbf9" stroke="#e1e0d9"/>
+    <circle cx="28" cy="37" r="14" fill="#1c5cab"/>
+    <text x="28" y="42" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="54" y="31" font-size="14" fill="#0b0b0b">Toda sessão longa produz mais fala do que</text>
+    <text x="54" y="52" font-size="14" fill="#0b0b0b">alguém consegue guardar de memória.</text>
+    <line x1="478" y1="37" x2="506" y2="37" stroke="#1c5cab" stroke-width="2"/>
+    <path d="M506 37 l-8 -5 v10 z" fill="#1c5cab"/>
+    <rect x="514" width="350" height="74" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="530" y="25" font-size="16" font-weight="700" fill="#1c5cab">Generalização</text>
+    <text x="530" y="45" font-size="13" fill="#3d3c39">Abre o texto com a ideia geral.</text>
+    <text x="530" y="63" font-size="13" fill="#3d3c39">Marca: toda.</text>
+  </g>
+  <!-- Frase 2: Especificação -->
+  <g transform="translate(24 170)">
+    <rect width="470" height="74" rx="10" fill="#fbfbf9" stroke="#e1e0d9"/>
+    <circle cx="28" cy="37" r="14" fill="#1c5cab"/>
+    <text x="28" y="42" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="54" y="31" font-size="14" fill="#0b0b0b">A de terça-feira passada foi das mais longas do</text>
+    <text x="54" y="52" font-size="14" fill="#0b0b0b">ano: durou seis horas e teve 42 oradores.</text>
+    <line x1="478" y1="37" x2="506" y2="37" stroke="#1c5cab" stroke-width="2"/>
+    <path d="M506 37 l-8 -5 v10 z" fill="#1c5cab"/>
+    <rect x="514" width="350" height="74" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="530" y="25" font-size="16" font-weight="700" fill="#1c5cab">Especificação</text>
+    <text x="530" y="45" font-size="13" fill="#3d3c39">Torna preciso “das mais longas do ano”.</text>
+    <text x="530" y="63" font-size="13" fill="#3d3c39">Marcas: dois-pontos e números.</text>
+  </g>
+  <!-- Frase 3: Descrição -->
+  <g transform="translate(24 256)">
+    <rect width="470" height="74" rx="10" fill="#fbfbf9" stroke="#e1e0d9"/>
+    <circle cx="28" cy="37" r="14" fill="#12784f"/>
+    <text x="28" y="42" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+    <text x="54" y="31" font-size="14" fill="#0b0b0b">…o plenário ainda estava cheio: assessores de pé,</text>
+    <text x="54" y="52" font-size="14" fill="#0b0b0b">pastas empilhadas, o painel aceso ao fundo.</text>
+    <line x1="478" y1="37" x2="506" y2="37" stroke="#12784f" stroke-width="2"/>
+    <path d="M506 37 l-8 -5 v10 z" fill="#12784f"/>
+    <rect x="514" width="350" height="74" rx="10" fill="#e6f6ef" stroke="#a9dcc6"/>
+    <text x="530" y="25" font-size="16" font-weight="700" fill="#12784f">Descrição</text>
+    <text x="530" y="45" font-size="13" fill="#3d3c39">Mostra a cena: partes e estado.</text>
+    <text x="530" y="63" font-size="13" fill="#3d3c39">Nada acontece.</text>
+  </g>
+  <!-- Frase 4: Dado -->
+  <g transform="translate(24 342)">
+    <rect width="470" height="74" rx="10" fill="#fbfbf9" stroke="#e1e0d9"/>
+    <circle cx="28" cy="37" r="14" fill="#3d3c39"/>
+    <text x="28" y="42" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+    <text x="54" y="42" font-size="14" fill="#0b0b0b">Houve 17 apartes.</text>
+    <line x1="478" y1="37" x2="506" y2="37" stroke="#3d3c39" stroke-width="2"/>
+    <path d="M506 37 l-8 -5 v10 z" fill="#3d3c39"/>
+    <rect x="514" width="350" height="74" rx="10" fill="#f3f2ee" stroke="#d6d4cb"/>
+    <text x="530" y="25" font-size="16" font-weight="700" fill="#3d3c39">Dado</text>
+    <text x="530" y="45" font-size="13" fill="#3d3c39">Informa quanto; não mostra como algo é.</text>
+    <text x="530" y="63" font-size="13" fill="#3d3c39">Leitura nossa: não chega a ser descrição.</text>
+  </g>
+  <!-- Frase 5: Definição -->
+  <g transform="translate(24 428)">
+    <rect width="470" height="74" rx="10" fill="#fbfbf9" stroke="#e1e0d9"/>
+    <circle cx="28" cy="37" r="14" fill="#8a6200"/>
+    <text x="28" y="42" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+    <text x="54" y="31" font-size="14" fill="#0b0b0b">Aparte […] é a interrupção breve do orador, com a</text>
+    <text x="54" y="52" font-size="14" fill="#0b0b0b">licença dele, para uma pergunta ou um esclarecimento.</text>
+    <line x1="478" y1="37" x2="506" y2="37" stroke="#8a6200" stroke-width="2"/>
+    <path d="M506 37 l-8 -5 v10 z" fill="#8a6200"/>
+    <rect x="514" width="350" height="74" rx="10" fill="#fdf5dc" stroke="#ecd48a"/>
+    <text x="530" y="25" font-size="16" font-weight="700" fill="#8a6200">Definição</text>
+    <text x="530" y="45" font-size="13" fill="#3d3c39">Esclarece o termo técnico.</text>
+    <text x="530" y="63" font-size="13" fill="#3d3c39">Termo + classe + traços.</text>
+  </g>
+  <!-- Frase 6: Exemplificação -->
+  <g transform="translate(24 514)">
+    <rect width="470" height="74" rx="10" fill="#fbfbf9" stroke="#e1e0d9"/>
+    <circle cx="28" cy="37" r="14" fill="#b4501f"/>
+    <text x="28" y="42" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+    <text x="54" y="31" font-size="14" fill="#0b0b0b">Alguns foram úteis; um deles, por exemplo, corrigiu</text>
+    <text x="54" y="52" font-size="14" fill="#0b0b0b">uma data que o relator havia citado errado.</text>
+    <line x1="478" y1="37" x2="506" y2="37" stroke="#b4501f" stroke-width="2"/>
+    <path d="M506 37 l-8 -5 v10 z" fill="#b4501f"/>
+    <rect x="514" width="350" height="74" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="530" y="25" font-size="16" font-weight="700" fill="#b4501f">Exemplificação</text>
+    <text x="530" y="45" font-size="13" fill="#3d3c39">Sustenta “alguns foram úteis” com</text>
+    <text x="530" y="63" font-size="13" fill="#3d3c39">um caso entre outros. Marca: por exemplo.</text>
+  </g>
+
+  <!-- Pé -->
+  <line x1="24" y1="606" x2="888" y2="606" stroke="#e1e0d9"/>
+  <text x="24" y="634" font-size="14" fill="#0b0b0b">O item nomeia o <tspan font-weight="700">recurso</tspan> e lhe dá uma <tspan font-weight="700">função</tspan>: confira os dois.</text>
+</svg>

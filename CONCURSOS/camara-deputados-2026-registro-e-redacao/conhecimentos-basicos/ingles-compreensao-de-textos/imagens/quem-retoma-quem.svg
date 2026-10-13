@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="594" viewBox="0 0 1000 594" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<defs><marker id="b" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#1c5cab"/></marker></defs>
+<rect width="1000" height="594" fill="#ffffff"/>
+<text x="24" y="36" font-size="21" font-weight="700" fill="#0b0b0b">As retomadas do texto da aula</text>
+<text x="24" y="78" font-size="14" font-weight="700" fill="#52514e">No texto</text>
+<text x="640" y="78" font-size="14" font-weight="700" fill="#52514e">Retoma</text>
+<line x1="24" y1="90" x2="976" y2="90" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="24" y="100" width="952" height="58" rx="8" fill="#fcfcfb"/>
+<text x="36" y="135" font-size="16" fill="#0b0b0b" font-style="italic" xml:space="preserve">Although <tspan font-weight="700" font-style="normal" fill="#b4501f" text-decoration="underline">it</tspan> is often described as verbatim, …</text>
+<line x1="520" y1="130" x2="622" y2="130" stroke="#1c5cab" stroke-width="2" marker-end="url(#b)"/>
+<text x="571" y="122" font-size="11" fill="#1c5cab" text-anchor="middle" font-weight="700">à frente</text>
+<text x="640" y="126" font-size="16" font-weight="700" fill="#1c5cab">the official report</text>
+<text x="640" y="146" font-size="13" fill="#52514e">vem depois, na mesma frase</text>
+<text x="36" y="197" font-size="16" fill="#0b0b0b" font-style="italic" xml:space="preserve">… and <tspan font-weight="700" font-style="normal" fill="#b4501f" text-decoration="underline">they</tspan> correct grammatical mistakes …</text>
+<line x1="520" y1="192" x2="622" y2="192" stroke="#1c5cab" stroke-width="2" marker-end="url(#b)"/>
+<text x="640" y="188" font-size="16" font-weight="700" fill="#1c5cab">Reporters</text>
+<text x="640" y="208" font-size="13" fill="#52514e">plural; quem corrige</text>
+<rect x="24" y="224" width="952" height="58" rx="8" fill="#fcfcfb"/>
+<text x="36" y="259" font-size="16" fill="#0b0b0b" font-style="italic" xml:space="preserve">… when leaving <tspan font-weight="700" font-style="normal" fill="#b4501f" text-decoration="underline">them</tspan> in would distract readers.</text>
+<line x1="520" y1="254" x2="622" y2="254" stroke="#1c5cab" stroke-width="2" marker-end="url(#b)"/>
+<text x="640" y="250" font-size="16" font-weight="700" fill="#1c5cab">grammatical mistakes</text>
+<text x="640" y="270" font-size="13" fill="#52514e">plural; o que se deixaria no texto</text>
+<text x="36" y="321" font-size="16" fill="#0b0b0b" font-style="italic" xml:space="preserve"><tspan font-weight="700" font-style="normal" fill="#b4501f" text-decoration="underline">This</tspan> does not mean that they are free …</text>
+<line x1="520" y1="316" x2="622" y2="316" stroke="#1c5cab" stroke-width="2" marker-end="url(#b)"/>
+<text x="640" y="312" font-size="16" font-weight="700" fill="#1c5cab">a frase anterior inteira</text>
+<text x="640" y="332" font-size="13" fill="#52514e">o fato de os taquígrafos editarem</text>
+<rect x="24" y="348" width="952" height="58" rx="8" fill="#fcfcfb"/>
+<text x="36" y="383" font-size="16" fill="#0b0b0b" font-style="italic" xml:space="preserve">… <tspan font-weight="700" font-style="normal" fill="#b4501f" text-decoration="underline">its</tspan> meaning must stay exactly the same.</text>
+<line x1="520" y1="378" x2="622" y2="378" stroke="#1c5cab" stroke-width="2" marker-end="url(#b)"/>
+<text x="640" y="374" font-size="16" font-weight="700" fill="#1c5cab">a speech</text>
+<text x="640" y="394" font-size="13" fill="#52514e">singular; o sentido do discurso</text>
+<text x="36" y="445" font-size="16" fill="#0b0b0b" font-style="italic" xml:space="preserve">Supporters argue that <tspan font-weight="700" font-style="normal" fill="#b4501f" text-decoration="underline">these tools</tspan> save time, …</text>
+<line x1="520" y1="440" x2="622" y2="440" stroke="#1c5cab" stroke-width="2" marker-end="url(#b)"/>
+<text x="640" y="436" font-size="16" font-weight="700" fill="#1c5cab">speech recognition software</text>
+<text x="640" y="456" font-size="13" fill="#52514e">nome geral no plural; o termo está no singular</text>
+<rect x="24" y="472" width="952" height="58" rx="8" fill="#fcfcfb"/>
+<text x="36" y="507" font-size="16" fill="#0b0b0b" font-style="italic" xml:space="preserve">… review every draft before <tspan font-weight="700" font-style="normal" fill="#b4501f" text-decoration="underline">it</tspan> is published.</text>
+<line x1="520" y1="502" x2="622" y2="502" stroke="#1c5cab" stroke-width="2" marker-end="url(#b)"/>
+<text x="640" y="498" font-size="16" font-weight="700" fill="#1c5cab">every draft</text>
+<text x="640" y="518" font-size="13" fill="#52514e">singular; o que é publicado</text>
+<text x="24" y="560" font-size="13" fill="#52514e">Passos: veja o número, procure os candidatos, troque e releia (com nome geral, decide o sentido). Se nenhum nome serve, teste a frase inteira.</text>
+</svg>
