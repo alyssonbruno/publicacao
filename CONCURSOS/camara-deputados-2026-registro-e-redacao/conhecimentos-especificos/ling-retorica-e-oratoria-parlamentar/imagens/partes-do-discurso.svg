@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="652" viewBox="0 0 1000 652" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="seta" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8c8b85"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="652" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="36" font-size="21" font-weight="700" fill="#0b0b0b">As quatro partes do discurso (disposição)</text>
+  <text x="24" y="60" font-size="14" fill="#52514e">Na ordem em que o ouvinte as recebe, com o discurso da aula como exemplo.</text>
+
+  <!-- Setas -->
+  <g stroke="#8c8b85" stroke-width="2" marker-end="url(#seta)">
+    <line x1="246" y1="106" x2="262" y2="106"/>
+    <line x1="486" y1="106" x2="502" y2="106"/>
+    <line x1="726" y1="106" x2="742" y2="106"/>
+  </g>
+
+  <!-- Cabeças -->
+  <g font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <rect x="24" y="80" width="220" height="52" rx="10" fill="#1c5cab"/>
+    <text x="134" y="104">1. exórdio</text>
+    <text x="134" y="122" font-size="12" font-weight="400">abre</text>
+    <rect x="264" y="80" width="220" height="52" rx="10" fill="#1c5cab"/>
+    <text x="374" y="104">2. narração</text>
+    <text x="374" y="122" font-size="12" font-weight="400">expõe os fatos</text>
+    <rect x="504" y="80" width="220" height="52" rx="10" fill="#1c5cab"/>
+    <text x="614" y="104">3. confirmação</text>
+    <text x="614" y="122" font-size="12" font-weight="400">argumenta (argumentatio)</text>
+    <rect x="744" y="80" width="232" height="52" rx="10" fill="#1c5cab"/>
+    <text x="860" y="104">4. peroração</text>
+    <text x="860" y="122" font-size="12" font-weight="400">fecha</text>
+  </g>
+
+  <!-- Função -->
+  <g font-size="13.5" fill="#0b0b0b">
+    <rect x="24" y="140" width="220" height="138" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="36" y="164">Prepara o auditório:</text>
+    <text x="36" y="184">atenção e boa vontade.</text>
+    <text x="36" y="210">O orador mostra quem é</text>
+    <text x="36" y="230">e ganha confiança</text>
+    <text x="36" y="250">(ethos).</text>
+
+    <rect x="264" y="140" width="220" height="138" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="276" y="164">Conta o caso de modo</text>
+    <text x="276" y="184">claro e ordenado,</text>
+    <text x="276" y="204">muitas vezes em ordem</text>
+    <text x="276" y="224">cronológica, só com</text>
+    <text x="276" y="244">o que interessa à tese.</text>
+
+    <rect x="504" y="140" width="220" height="138" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="516" y="164">A parte mais longa.</text>
+    <text x="516" y="190">Prova: os argumentos</text>
+    <text x="516" y="210">a favor.</text>
+    <text x="516" y="236">Refutação: a resposta</text>
+    <text x="516" y="256">aos argumentos contrários.</text>
+
+    <rect x="744" y="140" width="232" height="138" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="756" y="164">Três movimentos:</text>
+    <text x="756" y="190">amplificação (a importância</text>
+    <text x="756" y="210">do que foi dito), paixão</text>
+    <text x="756" y="230">(a emoção) e recapitulação</text>
+    <text x="756" y="250">(a síntese).</text>
+  </g>
+
+  <!-- Exemplo -->
+  <g font-size="13.5" fill="#0b0b0b" font-style="italic">
+    <rect x="24" y="286" width="220" height="120" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="36" y="310">“Fui professora de</text>
+    <text x="36" y="330">escola rural por vinte</text>
+    <text x="36" y="350">anos (...). Falo,</text>
+    <text x="36" y="370">portanto, do que vi.”</text>
+
+    <rect x="264" y="286" width="220" height="120" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="276" y="310">“No ano passado,</text>
+    <text x="276" y="330">visitei uma escola em</text>
+    <text x="276" y="350">que as crianças levavam</text>
+    <text x="276" y="370">de casa a própria água.”</text>
+
+    <rect x="504" y="286" width="220" height="120" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="516" y="310">“Não há direito à</text>
+    <text x="516" y="330">educação onde não há</text>
+    <text x="516" y="350">água para beber. Dir-se-á</text>
+    <text x="516" y="370">que o custo é alto;</text>
+    <text x="516" y="390">mais alto é o custo...”</text>
+
+    <rect x="744" y="286" width="232" height="120" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="756" y="310">“Aprovemos este projeto.</text>
+    <text x="756" y="330">Nenhuma criança deve</text>
+    <text x="756" y="350">escolher entre a sede</text>
+    <text x="756" y="370">e a escola.”</text>
+  </g>
+
+  <!-- Equivalência com a redação escolar -->
+  <g font-size="14" fill="#0b0b0b" text-anchor="middle">
+    <rect x="24" y="420" width="220" height="38" rx="8" fill="#e4f5ee" stroke="#aedbc8"/>
+    <text x="134" y="444">introdução</text>
+    <rect x="264" y="420" width="460" height="38" rx="8" fill="#e4f5ee" stroke="#aedbc8"/>
+    <text x="494" y="444">desenvolvimento</text>
+    <rect x="744" y="420" width="232" height="38" rx="8" fill="#e4f5ee" stroke="#aedbc8"/>
+    <text x="860" y="444">conclusão</text>
+  </g>
+  <text x="24" y="478" font-size="12.5" fill="#52514e">Faixa verde: as três partes dos manuais de redação de hoje, que condensam as quatro clássicas.</text>
+
+  <!-- Divergência -->
+  <g transform="translate(24 494)">
+    <rect width="952" height="104" rx="10" fill="#fdf0e6" stroke="#b4501f" stroke-dasharray="6 4"/>
+    <text x="16" y="26" font-size="15" font-weight="700" fill="#b4501f">Onde as fontes divergem</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="52">O manual do Senado (2006) lista exórdio, narração, provas e peroração, e diz que a narração é “também</text>
+      <text x="16" y="72">conhecida como argumentação”. No livro de Mateus (2018), <tspan font-weight="700">argumentatio</tspan> é o nome latino da <tspan font-weight="700">confirmação</tspan>:</text>
+      <text x="16" y="92">a narração só expõe os fatos; quem argumenta é a parte seguinte.</text>
+    </g>
+  </g>
+
+  <!-- Fonte -->
+  <text x="24" y="622" font-size="12" fill="#52514e">Fontes: Samuel Mateus, Introdução à Retórica no Séc. XXI (2018), cap. 4; Senado Federal, Manual de Redação Parlamentar e Legislativa</text>
+  <text x="24" y="640" font-size="12" fill="#52514e">(2006), p. 39. Exemplo próprio.</text>
+</svg>

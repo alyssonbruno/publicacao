@@ -1,0 +1,90 @@
+materiais:
+  - tipo: texto
+    titulo: Coordenação e subordinação entre orações e entre termos da oração
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: ORAÇÕES COORDENADAS SINDÉTICAS e ASSINDÉTICAS | Aprenda tudo! | Português do Zero
+    url: https://www.youtube.com/watch?v=3oO_ejhW7yM
+    autor: Português com Letícia
+    duracao_min: 16
+    descricao: >-
+      Aula da série gratuita "Português do Zero". Pela descrição do vídeo, separa as coordenadas
+      sindéticas das assindéticas e percorre os cinco tipos de sindéticas. Veja depois da parte
+      "Coordenação entre orações" do texto. O vídeo não foi assistido por quem preparou a aula: a
+      coordenação entre termos, o paralelismo e a fronteira com a causal ficam no texto.
+  - tipo: video
+    titulo: "Tudo sobre ORAÇÕES SUBORDINADAS (Substantiva, Adjetiva e Adverbial) #português #concurso"
+    url: https://www.youtube.com/watch?v=1C88RhbZjgg
+    autor: Professor Noslen
+    duracao_min: 15
+    descricao: >-
+      Visão geral das três famílias de subordinadas. Pela descrição do vídeo, trata dos tipos, da
+      relação de dependência, dos conectivos e de questões de concurso (as bancas não são
+      informadas). Veja depois da figura "A oração subordinada ocupa o lugar de um termo". Em 15
+      minutos não cabe o detalhe das seis substantivas e das adverbiais: use as tabelas do texto.
+      O vídeo não foi assistido por quem preparou a aula.
+  - tipo: video
+    titulo: Orações Reduzidas - Pablo Jamilk
+    url: https://www.youtube.com/watch?v=mk5Nvyr8hUw
+    autor: Pablo Jamilk
+    duracao_min: 9
+    descricao: >-
+      Aula curta de um professor de concursos sobre as orações reduzidas (infinitivo, gerúndio e
+      particípio). A descrição do vídeo só informa o assunto, e ele não foi assistido por quem
+      preparou a aula. Veja depois da parte "Orações reduzidas" e confira com a tabela do texto;
+      o cuidado com "para" + infinitivo ligado a um nome está só no texto.
+  - tipo: video
+    titulo: COMPLEMENTO NOMINAL X ADJUNTO ADNOMINAL
+    url: https://www.youtube.com/watch?v=vQI5jHEwCCI
+    autor: Prof. Álvaro Ferreira
+    duracao_min: 10
+    descricao: >-
+      A diferença entre os dois termos que mais se confundem na subordinação entre termos, voltada
+      a questões de concurso, segundo a descrição do vídeo. Veja depois da parte "Complemento
+      nominal, adjunto adnominal e objeto indireto". O vídeo não foi assistido por quem preparou a
+      aula; a noção de termo regente e termo regido está no texto.
+  - tipo: podcast
+    titulo: O que é PARALELISMO SINTÁTICO? Cuidado para não errar!
+    url: https://podcasts.apple.com/br/podcast/o-que-%C3%A9-paralelismo-sint%C3%A1tico-cuidado-para-n%C3%A3o-errar/id1534371896?i=1000552958555
+    audio: https://anchor.fm/s/3950d1cc/podcast/play/48155429/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-24%2F0c283055-a644-ad0c-5d46-e7b2fc91639b.mp3
+    autor: Português com Letícia (professora Letícia Góes)
+    duracao_min: 16
+    descricao: >-
+      Áudio de uma videoaula, com as frases lidas em voz alta: adjetivo coordenado com oração
+      adjetiva ("esperto e que estuda muito"), dois verbos de regências diferentes com um só
+      complemento ("não entre nem saia do trem"), a crase e a preposição em termos coordenados,
+      substantivo coordenado com oração e oração reduzida coordenada com desenvolvida, sempre com
+      as correções possíveis. Ouça depois da parte "Paralelismo". Não trata das correlações
+      ("não só… mas também") nem do falso paralelismo: esses pontos estão no texto.
+  - tipo: podcast
+    titulo: Falando português 009 - conjunções subordinativas adverbiais
+    url: https://podcasts.apple.com/br/podcast/falando-portugu%C3%AAs-009-conjun%C3%A7%C3%B5es-subordinativas-adverbiais/id1467274512?i=1000522095653
+    audio: https://anchor.fm/s/bc053a4/podcast/play/8834262/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-04%2F26f45882d82357e3439fbaa3fd4ed0a5.m4a
+    autor: Pablo Jamilk (Jamilkast)
+    duracao_min: 10
+    descricao: >-
+      A oração adverbial como adjunto adverbial em forma de oração ("ontem estudei" e "quando tive
+      tempo, estudei") e as conjunções de cada tipo. O conteúdo começa em 1:25. O professor conta
+      dez tipos, com as modais, e põe "de modo que" entre as consecutivas, dois pontos em que as
+      fontes do texto divergem. Ouça depois da tabela das adverbiais. Não fala das orações
+      reduzidas.
+  - tipo: link
+    titulo: Paralelismo sintático — Manual de Comunicação da Secom
+    url: https://www12.senado.leg.br/manualdecomunicacao/estilos/paralelismo-sintatico
+    autor: Senado Federal (Secretaria de Comunicação Social)
+    descricao: >-
+      Verbete curto do manual de estilo do Senado: o paralelismo aplicado à preposição e à crase
+      nos termos coordenados, com exemplos de texto legislativo. Leitura de três minutos, que
+      prepara a aula de regência, crase e colocação. Não trata de orações nem de correlações.
+  - tipo: link
+    titulo: Manual de Redação da Presidência da República (3ª ed., 2018)
+    url: https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf
+    autor: Presidência da República (cópia hospedada pelo ICMBio)
+    descricao: >-
+      PDF do manual oficial. Para esta aula, leia só as seções 11.2 a 11.4 (sujeito
+      preposicionado, frases fragmentadas e erros de paralelismo) e o começo da 11.8 (regência,
+      com o quadro de termos regentes e termos regidos): são cerca de cinco páginas, com pares de
+      "errado" e "certo".

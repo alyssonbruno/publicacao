@@ -1,0 +1,154 @@
+# Treino de oralidade e escrita, formalidade, normas linguísticas e variação no português do Brasil — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Oralidade e escrita, normas linguísticas e a variação no português do Brasil
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no estilo de certo ou errado do Cebraspe, com uma afirmação por item: quatro itens sobre um texto próprio e fictício (trecho de ensaio de divulgação linguística, sem autor real) e quatro itens conceituais.'
+    - 'Referências de estilo, sem reprodução de itens: caderno de conhecimentos específicos do CESPE/UnB (atual Cebraspe) para Analista Legislativo, atribuição Taquígrafo Legislativo, da Câmara dos Deputados (aplicado em 2012) e caderno do Cebraspe para Professor de Língua Portuguesa da Fundação Inoversa Sul (edital de 2024, aplicado em 2025), com os gabaritos definitivos.'
+    - 'Bases do gabarito: Marcuschi e Dionisio (orgs.), Fala e escrita (CEEL/UFPE e MEC, Autêntica, 2007); Coelho, Görski, May e Souza, Sociolinguística (UFSC); Conceição, Normas linguísticas do português do Brasil (Web-Revista Sociodialeto, 2017). Consultados em 12/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/ling-oralidade-e-escrita
+    enunciado: |-
+      Texto para o item: trecho de ensaio fictício de divulgação linguística, escrito para este treino, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Quem acompanha uma sessão legislativa pelo rádio e depois lê o
+      > 2. registro impresso costuma concluir que ouviu uma língua e leu outra.
+      > 3. A impressão é enganosa. O orador que retoma a frase, se corrige e
+      > 4. chama o ouvinte com um “veja bem” não está falando mal: está
+      > 5. compondo o texto diante de quem o escuta, sem a borracha de que
+      > 6. dispõe quem escreve. Tampouco é a voz que faz a fala: o comunicado
+      > 7. lido ao microfone foi redigido e revisto antes, e só a pronúncia o
+      > 8. separa do papel. Entre a conversa de corredor e o texto de lei,
+      > 9. estende-se uma escala de gêneros, e é nela, não em dois blocos, que
+      > 10. os textos se distribuem.
+      > 11. Outra confusão envolve a palavra norma. Ora ela designa o que os
+      > 12. falantes de um grupo costumam fazer, ora o que os manuais mandam
+      > 13. fazer. Nossa sociedade atribui às formas dos grupos mais
+      > 14. escolarizados um valor que nega às demais; esse valor, porém, vem da
+      > 15. posição de quem as usa, e não de alguma qualidade de sua gramática.
+      > 16. Reconhecê-lo não equivale a aplaudi-lo, nem dispensa ninguém de
+      > 17. saber qual forma cada situação pede: o bilhete deixado ao colega e o
+      > 18. parecer da comissão são ambos escrita, mas não exigem o mesmo
+      > 19. cuidado.
+
+      Com base nas ideias do texto, julgue o item.
+
+      No texto, a retomada de frases e a autocorreção do orador são atribuídas às condições em que o texto falado é produzido, e não a falha no uso da língua.
+  - id: q02
+    topico: conhecimentos-especificos/ling-oralidade-e-escrita
+    enunciado: |-
+      Texto para o item: trecho de ensaio fictício de divulgação linguística, escrito para este treino, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Quem acompanha uma sessão legislativa pelo rádio e depois lê o
+      > 2. registro impresso costuma concluir que ouviu uma língua e leu outra.
+      > 3. A impressão é enganosa. O orador que retoma a frase, se corrige e
+      > 4. chama o ouvinte com um “veja bem” não está falando mal: está
+      > 5. compondo o texto diante de quem o escuta, sem a borracha de que
+      > 6. dispõe quem escreve. Tampouco é a voz que faz a fala: o comunicado
+      > 7. lido ao microfone foi redigido e revisto antes, e só a pronúncia o
+      > 8. separa do papel. Entre a conversa de corredor e o texto de lei,
+      > 9. estende-se uma escala de gêneros, e é nela, não em dois blocos, que
+      > 10. os textos se distribuem.
+      > 11. Outra confusão envolve a palavra norma. Ora ela designa o que os
+      > 12. falantes de um grupo costumam fazer, ora o que os manuais mandam
+      > 13. fazer. Nossa sociedade atribui às formas dos grupos mais
+      > 14. escolarizados um valor que nega às demais; esse valor, porém, vem da
+      > 15. posição de quem as usa, e não de alguma qualidade de sua gramática.
+      > 16. Reconhecê-lo não equivale a aplaudi-lo, nem dispensa ninguém de
+      > 17. saber qual forma cada situação pede: o bilhete deixado ao colega e o
+      > 18. parecer da comissão são ambos escrita, mas não exigem o mesmo
+      > 19. cuidado.
+
+      Com base nas ideias do texto, julgue o item.
+
+      Depreende-se do texto que basta a um texto ser transmitido pela voz para que ele seja classificado como texto falado.
+  - id: q03
+    topico: conhecimentos-especificos/ling-oralidade-e-escrita
+    enunciado: |-
+      Texto para o item: trecho de ensaio fictício de divulgação linguística, escrito para este treino, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Quem acompanha uma sessão legislativa pelo rádio e depois lê o
+      > 2. registro impresso costuma concluir que ouviu uma língua e leu outra.
+      > 3. A impressão é enganosa. O orador que retoma a frase, se corrige e
+      > 4. chama o ouvinte com um “veja bem” não está falando mal: está
+      > 5. compondo o texto diante de quem o escuta, sem a borracha de que
+      > 6. dispõe quem escreve. Tampouco é a voz que faz a fala: o comunicado
+      > 7. lido ao microfone foi redigido e revisto antes, e só a pronúncia o
+      > 8. separa do papel. Entre a conversa de corredor e o texto de lei,
+      > 9. estende-se uma escala de gêneros, e é nela, não em dois blocos, que
+      > 10. os textos se distribuem.
+      > 11. Outra confusão envolve a palavra norma. Ora ela designa o que os
+      > 12. falantes de um grupo costumam fazer, ora o que os manuais mandam
+      > 13. fazer. Nossa sociedade atribui às formas dos grupos mais
+      > 14. escolarizados um valor que nega às demais; esse valor, porém, vem da
+      > 15. posição de quem as usa, e não de alguma qualidade de sua gramática.
+      > 16. Reconhecê-lo não equivale a aplaudi-lo, nem dispensa ninguém de
+      > 17. saber qual forma cada situação pede: o bilhete deixado ao colega e o
+      > 18. parecer da comissão são ambos escrita, mas não exigem o mesmo
+      > 19. cuidado.
+
+      Com base nas ideias do texto, julgue o item.
+
+      No segundo parágrafo (linhas 11 a 19), o autor endossa o valor que a sociedade atribui às formas linguísticas dos grupos mais escolarizados.
+  - id: q04
+    topico: conhecimentos-especificos/ling-oralidade-e-escrita
+    enunciado: |-
+      Texto para o item: trecho de ensaio fictício de divulgação linguística, escrito para este treino, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Quem acompanha uma sessão legislativa pelo rádio e depois lê o
+      > 2. registro impresso costuma concluir que ouviu uma língua e leu outra.
+      > 3. A impressão é enganosa. O orador que retoma a frase, se corrige e
+      > 4. chama o ouvinte com um “veja bem” não está falando mal: está
+      > 5. compondo o texto diante de quem o escuta, sem a borracha de que
+      > 6. dispõe quem escreve. Tampouco é a voz que faz a fala: o comunicado
+      > 7. lido ao microfone foi redigido e revisto antes, e só a pronúncia o
+      > 8. separa do papel. Entre a conversa de corredor e o texto de lei,
+      > 9. estende-se uma escala de gêneros, e é nela, não em dois blocos, que
+      > 10. os textos se distribuem.
+      > 11. Outra confusão envolve a palavra norma. Ora ela designa o que os
+      > 12. falantes de um grupo costumam fazer, ora o que os manuais mandam
+      > 13. fazer. Nossa sociedade atribui às formas dos grupos mais
+      > 14. escolarizados um valor que nega às demais; esse valor, porém, vem da
+      > 15. posição de quem as usa, e não de alguma qualidade de sua gramática.
+      > 16. Reconhecê-lo não equivale a aplaudi-lo, nem dispensa ninguém de
+      > 17. saber qual forma cada situação pede: o bilhete deixado ao colega e o
+      > 18. parecer da comissão são ambos escrita, mas não exigem o mesmo
+      > 19. cuidado.
+
+      Com base nas ideias do texto, julgue o item.
+
+      Para o autor do texto, o fato de o valor atribuído às formas de prestígio ter origem social não elimina a necessidade de o falante adequar a linguagem à situação de comunicação.
+  - id: q05
+    topico: conhecimentos-especificos/ling-oralidade-e-escrita
+    enunciado: |-
+      Julgue o item, relativo às relações entre oralidade e escrita.
+
+      De acordo com a noção de contínuo entre fala e escrita, um recado escrito às pressas para um familiar, por se realizar no meio gráfico, está mais próximo de um relatório técnico do que de um recado dado de viva voz.
+  - id: q06
+    topico: conhecimentos-especificos/ling-oralidade-e-escrita
+    enunciado: |-
+      Julgue o item, relativo às relações entre oralidade e escrita.
+
+      Na perspectiva que entende fala e escrita como modos de uso de um mesmo sistema linguístico, a oposição entre o meio sonoro e o meio gráfico é a única distinção propriamente dicotômica entre as duas modalidades.
+  - id: q07
+    topico: conhecimentos-especificos/ling-oralidade-e-escrita
+    enunciado: |-
+      Julgue o item, relativo às normas linguísticas.
+
+      Na frase “O uso de a gente no lugar de nós é a norma na conversa entre brasileiros”, a palavra “norma” designa um modelo de correção que se recomenda aos falantes.
+  - id: q08
+    topico: conhecimentos-especificos/ling-oralidade-e-escrita
+    enunciado: |-
+      Julgue o item, relativo à formalidade e à informalidade.
+
+      A arguição oral de um candidato por uma banca examinadora e a mensagem escrita trocada entre amigos íntimos são exemplos de que o grau de formalidade de um texto não é determinado pela modalidade, falada ou escrita, em que ele se realiza.

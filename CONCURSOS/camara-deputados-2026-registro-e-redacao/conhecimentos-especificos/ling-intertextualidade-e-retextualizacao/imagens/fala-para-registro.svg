@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="590" viewBox="0 0 912 590" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="590" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Da transcrição ao registro, em dois passos</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Exemplo criado para esta aula. Riscado: o que sai no primeiro passo.</text>
+
+  <!-- Faixa 1: transcrição -->
+  <g transform="translate(24 82)">
+    <rect width="864" height="136" rx="10" fill="#f4f3ef" stroke="#d9d7d0"/>
+    <text x="16" y="28" font-size="15" font-weight="700" fill="#52514e">Transcrição: a fala como foi dita</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="60">— Senhor Presidente, <tspan text-decoration="line-through" fill="#b84a1c">eu...</tspan> eu queria, <tspan text-decoration="line-through" fill="#b84a1c">né,</tspan> dizer que esse projeto aqui, <tspan text-decoration="line-through" fill="#b84a1c">ele...</tspan> a gente já discutiu ele</text>
+      <text x="16" y="88">lá na comissão, <tspan text-decoration="line-through" fill="#b84a1c">tá?</tspan> E <tspan text-decoration="line-through" fill="#b84a1c">lá,</tspan> lá <tspan text-decoration="line-through" fill="#b84a1c">na comissão,</tspan> o relator falou <tspan text-decoration="line-through" fill="#b84a1c">que ia,</tspan> que ia tirar aquele artigo, aquele dos</text>
+      <text x="16" y="116">prazos, <tspan text-decoration="line-through" fill="#b84a1c">né?</tspan> Só que não tirou. Então, <tspan text-decoration="line-through" fill="#b84a1c">assim,</tspan> eu acho que não dá pra votar isso hoje<tspan text-decoration="line-through" fill="#b84a1c">, não</tspan>.</text>
+    </g>
+  </g>
+
+  <!-- Seta 1 -->
+  <path d="M456 222 L456 236 M448 230 L456 240 L464 230" stroke="#52514e" stroke-width="2.5" fill="none"/>
+
+  <!-- Faixa 2: operações 1 a 4 -->
+  <g transform="translate(24 244)">
+    <rect width="864" height="136" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="28" font-size="15" font-weight="700" fill="#1c5cab">Passo 1 · operações 1 a 4: eliminar e pontuar</text>
+    <text x="848" y="28" font-size="13" fill="#52514e" text-anchor="end">muda a forma; o conteúdo fica</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="60">Senhor Presidente, eu queria dizer que esse projeto aqui, a gente já discutiu ele lá na comissão.</text>
+      <text x="16" y="88">E lá o relator falou que ia tirar aquele artigo, aquele dos prazos. Só que não tirou.</text>
+      <text x="16" y="116">Então, eu acho que não dá pra votar isso hoje.</text>
+    </g>
+  </g>
+
+  <!-- Seta 2 -->
+  <path d="M456 384 L456 398 M448 392 L456 402 L464 392" stroke="#52514e" stroke-width="2.5" fill="none"/>
+
+  <!-- Faixa 3: operações 5 a 7 -->
+  <g transform="translate(24 406)">
+    <rect width="864" height="164" rx="10" fill="#fdebe2" stroke="#f3c3ad"/>
+    <text x="16" y="28" font-size="15" font-weight="700" fill="#b84a1c">Passo 2 · operações 5 a 7: explicitar, reconstruir, formalizar</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="60">Sr. Presidente, quero dizer que já discutimos na comissão o projeto</text>
+      <text x="16" y="88">em pauta. Lá, o Relator afirmou que retiraria o artigo que trata dos</text>
+      <text x="16" y="116">prazos, mas não o retirou. Por isso, acho que não é possível votar</text>
+      <text x="16" y="144">a matéria hoje.</text>
+    </g>
+    <!-- Preservado -->
+    <g transform="translate(560 44)">
+      <rect width="288" height="100" rx="8" fill="#ffffff" stroke="#f3c3ad"/>
+      <text x="14" y="24" font-size="13" font-weight="700" fill="#127a55">Preservado</text>
+      <g font-size="13" fill="#0b0b0b">
+        <text x="14" y="46">· quem discutiu (nós) e onde</text>
+        <text x="14" y="65">· o que o relator disse e não fez</text>
+        <text x="14" y="84">· o “acho que”, a negação e o “hoje”</text>
+      </g>
+    </g>
+  </g>
+</svg>

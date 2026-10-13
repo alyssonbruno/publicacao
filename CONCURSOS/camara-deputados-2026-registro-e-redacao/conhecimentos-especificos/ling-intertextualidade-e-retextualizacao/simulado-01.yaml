@@ -1,0 +1,304 @@
+# Treino de intertextualidade, retextualização, reescritura e paráfrase — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Intertextualidade, retextualização, reescritura e paráfrase
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre textos próprios e fictícios (a transcrição de um trecho de fala em plenário, o registro escrito feito a partir dela e um trecho de crônica), no estilo de certo ou errado do Cebraspe: trechos entre aspas, com remissão à linha, e itens que julgam uma reescrita ou a relação entre textos.'
+    - 'Referências de estilo, sem reprodução de itens: cadernos do Cebraspe de conhecimentos gerais da Câmara dos Deputados (edital de 2025, aplicado em 8/3/2026), de conhecimentos específicos de Taquígrafo Legislativo da Câmara dos Deputados (2012) e de Professor de Língua Portuguesa da SEDUC-AL (edital de 2017, aplicado em 2018), com os gabaritos definitivos.'
+    - 'Bases do gabarito: Dikson, A retextualização escrita-escrita (RBLA, 2018); d''Andrea e Ribeiro, Retextualizar e reescrever, editar e revisar (Veredas, UFJF, 2010); Santos, Cabrera e Góes, Retextualização de texto oral (Anagrama, USP, 2008); Araujo, Retextualização, estratégias de condensação e estruturação argumentativa (CONEL/UFES); Produção e Recepção de Texto I, aula 10 (CESAD/UFS); Santos, resenha de Intertextualidade: diálogos possíveis, de Koch, Bentes e Cavalcante (Nuances, FCT/UNESP); Ferraz, Conto popular, estória oral e conto literário (Estudos Linguísticos, GEL, 2014); Souza-Santos e Araújo, O ensino de intertextualidade nos anos finais do ensino fundamental (Educação em Revista, UFMG, 2022). Consultados em 12/10/2026. O verso citado no Texto III é de soneto de Luís de Camões (domínio público); o provérbio é de uso popular.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/ling-intertextualidade-e-retextualizacao
+    enunciado: |-
+      Textos para o item: o Texto I é a transcrição fictícia de um trecho de fala em plenário; o Texto II é o registro escrito elaborado a partir dela. As linhas estão numeradas.
+
+      > **Texto I**
+      >
+      > 1. — Senhora Presidente, eu... eu queria falar, né, dessa emenda aqui,
+      > 2. a das bibliotecas, tá? A gente visitou, visitou ontem três bibliotecas
+      > 3. lá no interior, e só uma delas tinha, tinha acesso à internet,
+      > 4. sabe? As outras duas, elas... elas quase não abrem, porque não têm
+      > 5. funcionário. Olha, assim, eu acho que o dinheiro da emenda não vai
+      > 6. resolver tudo, né? Mas ele ajuda, ele ajuda pelo menos a contratar
+      > 7. gente. Por isso é que eu peço, eu peço o apoio dos colegas.
+
+      > **Texto II**
+      >
+      > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
+      > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
+      > 3. acesso à internet. As outras duas quase não abrem, porque não têm
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
+      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
+      > 6. dos colegas.
+
+      Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
+
+      No Texto I, a expressão “sabe?” (linha 4) busca a atenção de quem ouve e nada informa sobre as bibliotecas, ao passo que “eu acho que” (linha 5) apresenta como opinião o que o orador diz sobre o dinheiro da emenda, razão pela qual, no Texto II, apenas a segunda foi conservada.
+  - id: q02
+    topico: conhecimentos-especificos/ling-intertextualidade-e-retextualizacao
+    enunciado: |-
+      Textos para o item: o Texto I é a transcrição fictícia de um trecho de fala em plenário; o Texto II é o registro escrito elaborado a partir dela. As linhas estão numeradas.
+
+      > **Texto I**
+      >
+      > 1. — Senhora Presidente, eu... eu queria falar, né, dessa emenda aqui,
+      > 2. a das bibliotecas, tá? A gente visitou, visitou ontem três bibliotecas
+      > 3. lá no interior, e só uma delas tinha, tinha acesso à internet,
+      > 4. sabe? As outras duas, elas... elas quase não abrem, porque não têm
+      > 5. funcionário. Olha, assim, eu acho que o dinheiro da emenda não vai
+      > 6. resolver tudo, né? Mas ele ajuda, ele ajuda pelo menos a contratar
+      > 7. gente. Por isso é que eu peço, eu peço o apoio dos colegas.
+
+      > **Texto II**
+      >
+      > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
+      > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
+      > 3. acesso à internet. As outras duas quase não abrem, porque não têm
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
+      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
+      > 6. dos colegas.
+
+      Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
+
+      Sem prejuízo da fidelidade ao que o orador disse, o vocábulo “só” (linha 2 do Texto II) poderia ser suprimido do registro, tal como se fez com “né” e “tá?” (linhas 1 e 2 do Texto I), por se tratar de palavra de reforço própria da fala.
+  - id: q03
+    topico: conhecimentos-especificos/ling-intertextualidade-e-retextualizacao
+    enunciado: |-
+      Textos para o item: o Texto I é a transcrição fictícia de um trecho de fala em plenário; o Texto II é o registro escrito elaborado a partir dela. As linhas estão numeradas.
+
+      > **Texto I**
+      >
+      > 1. — Senhora Presidente, eu... eu queria falar, né, dessa emenda aqui,
+      > 2. a das bibliotecas, tá? A gente visitou, visitou ontem três bibliotecas
+      > 3. lá no interior, e só uma delas tinha, tinha acesso à internet,
+      > 4. sabe? As outras duas, elas... elas quase não abrem, porque não têm
+      > 5. funcionário. Olha, assim, eu acho que o dinheiro da emenda não vai
+      > 6. resolver tudo, né? Mas ele ajuda, ele ajuda pelo menos a contratar
+      > 7. gente. Por isso é que eu peço, eu peço o apoio dos colegas.
+
+      > **Texto II**
+      >
+      > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
+      > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
+      > 3. acesso à internet. As outras duas quase não abrem, porque não têm
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
+      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
+      > 6. dos colegas.
+
+      Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
+
+      A transposição do período “Por isso, peço o apoio dos colegas” (linhas 5 e 6 do Texto II) para logo depois do vocativo, antes do relato da visita, seria operação da mesma natureza que a divisão do registro em parágrafos, por não exigir de quem redige nenhuma decisão sobre a organização dos argumentos do orador.
+  - id: q04
+    topico: conhecimentos-especificos/ling-intertextualidade-e-retextualizacao
+    enunciado: |-
+      Textos para o item: o Texto I é a transcrição fictícia de um trecho de fala em plenário; o Texto II é o registro escrito elaborado a partir dela. As linhas estão numeradas.
+
+      > **Texto I**
+      >
+      > 1. — Senhora Presidente, eu... eu queria falar, né, dessa emenda aqui,
+      > 2. a das bibliotecas, tá? A gente visitou, visitou ontem três bibliotecas
+      > 3. lá no interior, e só uma delas tinha, tinha acesso à internet,
+      > 4. sabe? As outras duas, elas... elas quase não abrem, porque não têm
+      > 5. funcionário. Olha, assim, eu acho que o dinheiro da emenda não vai
+      > 6. resolver tudo, né? Mas ele ajuda, ele ajuda pelo menos a contratar
+      > 7. gente. Por isso é que eu peço, eu peço o apoio dos colegas.
+
+      > **Texto II**
+      >
+      > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
+      > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
+      > 3. acesso à internet. As outras duas quase não abrem, porque não têm
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
+      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
+      > 6. dos colegas.
+
+      Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
+
+      Na passagem de “dessa emenda aqui” (linha 1 do Texto I) para “da emenda em exame” (linha 1 do Texto II), tornou-se explícita, no registro, uma referência que, na fala, dependia da situação em que o discurso foi proferido, o que supõe que quem redigiu tenha identificado a emenda de que o orador falava.
+  - id: q05
+    topico: conhecimentos-especificos/ling-intertextualidade-e-retextualizacao
+    enunciado: |-
+      Textos para o item: o Texto I é a transcrição fictícia de um trecho de fala em plenário; o Texto II é o registro escrito elaborado a partir dela. As linhas estão numeradas.
+
+      > **Texto I**
+      >
+      > 1. — Senhora Presidente, eu... eu queria falar, né, dessa emenda aqui,
+      > 2. a das bibliotecas, tá? A gente visitou, visitou ontem três bibliotecas
+      > 3. lá no interior, e só uma delas tinha, tinha acesso à internet,
+      > 4. sabe? As outras duas, elas... elas quase não abrem, porque não têm
+      > 5. funcionário. Olha, assim, eu acho que o dinheiro da emenda não vai
+      > 6. resolver tudo, né? Mas ele ajuda, ele ajuda pelo menos a contratar
+      > 7. gente. Por isso é que eu peço, eu peço o apoio dos colegas.
+
+      > **Texto II**
+      >
+      > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
+      > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
+      > 3. acesso à internet. As outras duas quase não abrem, porque não têm
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
+      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
+      > 6. dos colegas.
+
+      Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
+
+      Uma versão do registro em que o quarto período do Texto II terminasse em “tudo” (linha 4), sem a oração iniciada por “mas”, apenas condensaria a fala, pois diminuiria o número de palavras sem eliminar informação dada pelo orador.
+  - id: q06
+    topico: conhecimentos-especificos/ling-intertextualidade-e-retextualizacao
+    enunciado: |-
+      Textos para o item: o Texto I é a transcrição fictícia de um trecho de fala em plenário; o Texto II é o registro escrito elaborado a partir dela. As linhas estão numeradas.
+
+      > **Texto I**
+      >
+      > 1. — Senhora Presidente, eu... eu queria falar, né, dessa emenda aqui,
+      > 2. a das bibliotecas, tá? A gente visitou, visitou ontem três bibliotecas
+      > 3. lá no interior, e só uma delas tinha, tinha acesso à internet,
+      > 4. sabe? As outras duas, elas... elas quase não abrem, porque não têm
+      > 5. funcionário. Olha, assim, eu acho que o dinheiro da emenda não vai
+      > 6. resolver tudo, né? Mas ele ajuda, ele ajuda pelo menos a contratar
+      > 7. gente. Por isso é que eu peço, eu peço o apoio dos colegas.
+
+      > **Texto II**
+      >
+      > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
+      > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
+      > 3. acesso à internet. As outras duas quase não abrem, porque não têm
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
+      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
+      > 6. dos colegas.
+
+      Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
+
+      Caso o orador, antes da publicação, revisasse o Texto II e substituísse “pessoal” (linha 5) por “servidores”, a alteração seria exemplo de reescritura, entendida como a produção de nova versão do mesmo texto por meio de operações como a substituição.
+  - id: q07
+    topico: conhecimentos-especificos/ling-intertextualidade-e-retextualizacao
+    enunciado: |-
+      Textos para o item: o Texto I é a transcrição fictícia de um trecho de fala em plenário; o Texto II é o registro escrito elaborado a partir dela. As linhas estão numeradas.
+
+      > **Texto I**
+      >
+      > 1. — Senhora Presidente, eu... eu queria falar, né, dessa emenda aqui,
+      > 2. a das bibliotecas, tá? A gente visitou, visitou ontem três bibliotecas
+      > 3. lá no interior, e só uma delas tinha, tinha acesso à internet,
+      > 4. sabe? As outras duas, elas... elas quase não abrem, porque não têm
+      > 5. funcionário. Olha, assim, eu acho que o dinheiro da emenda não vai
+      > 6. resolver tudo, né? Mas ele ajuda, ele ajuda pelo menos a contratar
+      > 7. gente. Por isso é que eu peço, eu peço o apoio dos colegas.
+
+      > **Texto II**
+      >
+      > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
+      > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
+      > 3. acesso à internet. As outras duas quase não abrem, porque não têm
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
+      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
+      > 6. dos colegas.
+
+      Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
+
+      O Texto II constitui caso de citação do Texto I, e não de retextualização, uma vez que nele se retoma o que o orador disse.
+  - id: q08
+    topico: conhecimentos-especificos/ling-intertextualidade-e-retextualizacao
+    enunciado: |-
+      Textos para o item: o Texto I é a transcrição fictícia de um trecho de fala em plenário; o Texto II é o registro escrito elaborado a partir dela. As linhas estão numeradas.
+
+      > **Texto I**
+      >
+      > 1. — Senhora Presidente, eu... eu queria falar, né, dessa emenda aqui,
+      > 2. a das bibliotecas, tá? A gente visitou, visitou ontem três bibliotecas
+      > 3. lá no interior, e só uma delas tinha, tinha acesso à internet,
+      > 4. sabe? As outras duas, elas... elas quase não abrem, porque não têm
+      > 5. funcionário. Olha, assim, eu acho que o dinheiro da emenda não vai
+      > 6. resolver tudo, né? Mas ele ajuda, ele ajuda pelo menos a contratar
+      > 7. gente. Por isso é que eu peço, eu peço o apoio dos colegas.
+
+      > **Texto II**
+      >
+      > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
+      > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
+      > 3. acesso à internet. As outras duas quase não abrem, porque não têm
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
+      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
+      > 6. dos colegas.
+
+      Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
+
+      A elaboração de um resumo escrito do Texto II, para constar da ata da sessão, não configuraria retextualização, porque esse processo se restringe à passagem de textos da modalidade falada para a modalidade escrita.
+  - id: q09
+    topico: conhecimentos-especificos/ling-intertextualidade-e-retextualizacao
+    enunciado: |-
+      Textos para o item: o Texto I é a transcrição fictícia de um trecho de fala em plenário; o Texto II é o registro escrito elaborado a partir dela. As linhas estão numeradas.
+
+      > **Texto I**
+      >
+      > 1. — Senhora Presidente, eu... eu queria falar, né, dessa emenda aqui,
+      > 2. a das bibliotecas, tá? A gente visitou, visitou ontem três bibliotecas
+      > 3. lá no interior, e só uma delas tinha, tinha acesso à internet,
+      > 4. sabe? As outras duas, elas... elas quase não abrem, porque não têm
+      > 5. funcionário. Olha, assim, eu acho que o dinheiro da emenda não vai
+      > 6. resolver tudo, né? Mas ele ajuda, ele ajuda pelo menos a contratar
+      > 7. gente. Por isso é que eu peço, eu peço o apoio dos colegas.
+
+      > **Texto II**
+      >
+      > 1. Sra. Presidente, quero falar da emenda em exame, a das bibliotecas.
+      > 2. Visitamos ontem três bibliotecas no interior, e só uma delas tinha
+      > 3. acesso à internet. As outras duas quase não abrem, porque não têm
+      > 4. funcionários. Acho que os recursos da emenda não resolverão tudo,
+      > 5. mas ajudam pelo menos a contratar pessoal. Por isso, peço o apoio
+      > 6. dos colegas.
+
+      Com base nos textos e nos processos de retextualização, de reescritura e de paráfrase, julgue o item.
+
+      A redação “As outras duas não têm funcionários, por isso quase não abrem” é paráfrase do período “As outras duas quase não abrem, porque não têm funcionários” (linhas 3 e 4 do Texto II), pois preserva a relação de causa e consequência entre as duas informações.
+  - id: q10
+    topico: conhecimentos-especificos/ling-intertextualidade-e-retextualizacao
+    enunciado: |-
+      Texto para o item: trecho fictício de crônica, com as linhas numeradas.
+
+      > **Texto III**
+      >
+      > 1. Camões escreveu que “mudam-se os tempos, mudam-se as vontades”. Na
+      > 2. biblioteca do meu bairro, mudaram os tempos e mudaram as estantes:
+      > 3. onde havia enciclopédias, há agora uma fila de telas. Quem espera
+      > 4. sempre alcança, e quem esperou pelo conserto do telhado alcançou
+      > 5. apenas a goteira. O poeta tinha razão: com o passar do tempo, mudam
+      > 6. também os desejos das pessoas.
+
+      Com base no texto e nas relações de intertextualidade, julgue o item.
+
+      No texto, o verso de Camões é retomado de dois modos: na linha 1, por citação, com as palavras do original entre aspas e a indicação do autor; nas linhas 5 e 6, por paráfrase, com outras palavras e manutenção do sentido.
+  - id: q11
+    topico: conhecimentos-especificos/ling-intertextualidade-e-retextualizacao
+    enunciado: |-
+      Texto para o item: trecho fictício de crônica, com as linhas numeradas.
+
+      > **Texto III**
+      >
+      > 1. Camões escreveu que “mudam-se os tempos, mudam-se as vontades”. Na
+      > 2. biblioteca do meu bairro, mudaram os tempos e mudaram as estantes:
+      > 3. onde havia enciclopédias, há agora uma fila de telas. Quem espera
+      > 4. sempre alcança, e quem esperou pelo conserto do telhado alcançou
+      > 5. apenas a goteira. O poeta tinha razão: com o passar do tempo, mudam
+      > 6. também os desejos das pessoas.
+
+      Com base no texto e nas relações de intertextualidade, julgue o item.
+
+      No trecho “quem esperou pelo conserto do telhado alcançou apenas a goteira” (linhas 4 e 5), o provérbio que o antecede é retomado em paráfrase, já que se repetem a estrutura e os verbos do texto de origem.
+  - id: q12
+    topico: conhecimentos-especificos/ling-intertextualidade-e-retextualizacao
+    enunciado: |-
+      Texto para o item: trecho fictício de crônica, com as linhas numeradas.
+
+      > **Texto III**
+      >
+      > 1. Camões escreveu que “mudam-se os tempos, mudam-se as vontades”. Na
+      > 2. biblioteca do meu bairro, mudaram os tempos e mudaram as estantes:
+      > 3. onde havia enciclopédias, há agora uma fila de telas. Quem espera
+      > 4. sempre alcança, e quem esperou pelo conserto do telhado alcançou
+      > 5. apenas a goteira. O poeta tinha razão: com o passar do tempo, mudam
+      > 6. também os desejos das pessoas.
+
+      Com base no texto e nas relações de intertextualidade, julgue o item.
+
+      No texto, tanto a retomada do verso de Camões quanto a do provérbio exemplificam a intertextualidade em sentido estrito, pois, em ambos os casos, há um texto anterior, efetivamente produzido e presente na memória dos interlocutores, a que a crônica remete.

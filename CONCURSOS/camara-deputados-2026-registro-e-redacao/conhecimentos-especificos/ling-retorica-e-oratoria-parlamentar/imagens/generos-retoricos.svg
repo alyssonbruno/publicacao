@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1000" height="600" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="36" font-size="21" font-weight="700" fill="#0b0b0b">Os três gêneros retóricos da classificação clássica</text>
+
+  <!-- Cabeçalho -->
+  <rect x="24" y="56" width="952" height="44" fill="#1c5cab"/>
+  <g font-size="14" font-weight="700" fill="#ffffff">
+    <text x="40" y="83">Gênero</text>
+    <text x="196" y="83">Tempo</text>
+    <text x="306" y="83">O que o orador faz</text>
+    <text x="496" y="83">Valores em jogo</text>
+    <text x="656" y="83">Lugar típico</text>
+    <text x="806" y="83">Argumento típico</text>
+  </g>
+
+  <!-- Linhas -->
+  <g font-size="14" fill="#0b0b0b">
+    <rect x="24" y="100" width="952" height="76" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="40" y="143" font-size="16" font-weight="700">deliberativo</text>
+    <text x="196" y="143" font-weight="700">futuro</text>
+    <text x="306" y="134">aconselha ou</text>
+    <text x="306" y="154">desaconselha</text>
+    <text x="496" y="134">o benéfico</text>
+    <text x="496" y="154">e o nocivo</text>
+    <text x="656" y="134">assembleias</text>
+    <text x="656" y="154">políticas</text>
+    <text x="806" y="134">exemplo</text>
+    <text x="806" y="154">(indução)</text>
+
+    <rect x="24" y="176" width="952" height="76" fill="#ffffff" stroke="#b8cfee"/>
+    <text x="40" y="210" font-size="16" font-weight="700">judiciário</text>
+    <text x="40" y="232" font-size="12" fill="#52514e">ou forense, judicial</text>
+    <text x="196" y="219" font-weight="700">passado</text>
+    <text x="306" y="210">acusa ou</text>
+    <text x="306" y="230">defende</text>
+    <text x="496" y="210">o justo</text>
+    <text x="496" y="230">e o injusto</text>
+    <text x="656" y="219">tribunais</text>
+    <text x="806" y="210">entimema</text>
+    <text x="806" y="230">(dedução)</text>
+
+    <rect x="24" y="252" width="952" height="76" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="40" y="286" font-size="16" font-weight="700">epidítico</text>
+    <text x="40" y="308" font-size="12" fill="#52514e">ou demonstrativo</text>
+    <text x="196" y="295" font-weight="700">presente</text>
+    <text x="306" y="286">louva ou</text>
+    <text x="306" y="306">censura</text>
+    <text x="496" y="286">o digno</text>
+    <text x="496" y="306">e o indigno</text>
+    <text x="656" y="286">cerimônias,</text>
+    <text x="656" y="306">espaço público</text>
+    <text x="806" y="295">amplificação</text>
+  </g>
+
+  <!-- Divisórias verticais -->
+  <g stroke="#b8cfee" stroke-width="1">
+    <line x1="184" y1="100" x2="184" y2="328"/>
+    <line x1="294" y1="100" x2="294" y2="328"/>
+    <line x1="484" y1="100" x2="484" y2="328"/>
+    <line x1="644" y1="100" x2="644" y2="328"/>
+    <line x1="794" y1="100" x2="794" y2="328"/>
+  </g>
+
+  <!-- Na Câmara -->
+  <g transform="translate(24 346)">
+    <rect width="466" height="196" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="28" font-size="15" font-weight="700" fill="#1c5cab">Na Câmara (exemplos nossos)</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="56"><tspan font-weight="700">Deliberativo:</tspan> o deputado pede a aprovação</text>
+      <text x="16" y="76">de um projeto em discussão.</text>
+      <text x="16" y="106"><tspan font-weight="700">Judiciário:</tspan> a acusação e a defesa de um</text>
+      <text x="16" y="126">deputado num processo disciplinar.</text>
+      <text x="16" y="156"><tspan font-weight="700">Epidítico:</tspan> a homenagem numa</text>
+      <text x="16" y="176">sessão solene.</text>
+    </g>
+  </g>
+
+  <!-- A variante do manual do Senado -->
+  <g transform="translate(510 346)">
+    <rect width="466" height="196" rx="10" fill="#fdf0e6" stroke="#b4501f" stroke-dasharray="6 4"/>
+    <text x="16" y="28" font-size="15" font-weight="700" fill="#b4501f">A variante do manual do Senado (2006)</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="56">Três tipos de pronunciamento:</text>
+      <text x="16" y="80" font-weight="700">deliberativo · de propaganda · epidítico</text>
+      <text x="16" y="110">O <tspan font-weight="700">judiciário</tspan> não aparece. No lugar dele,</text>
+      <text x="16" y="130">entra o discurso <tspan font-weight="700">de propaganda</tspan>: o elogio</text>
+      <text x="16" y="150">de uma política pública em andamento.</text>
+      <text x="16" y="178">Não é a classificação de Aristóteles.</text>
+    </g>
+  </g>
+
+  <!-- Fonte -->
+  <text x="24" y="566" font-size="12" fill="#52514e">Fontes: Samuel Mateus, Introdução à Retórica no Séc. XXI (2018), cap. 4, quadro dos três gêneros; Senado Federal,</text>
+  <text x="24" y="584" font-size="12" fill="#52514e">Manual de Redação Parlamentar e Legislativa (2006), p. 31 e 32.</text>
+</svg>

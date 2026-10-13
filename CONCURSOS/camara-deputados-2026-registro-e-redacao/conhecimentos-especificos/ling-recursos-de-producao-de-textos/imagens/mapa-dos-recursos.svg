@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="640" viewBox="0 0 912 640" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="640" fill="#ffffff"/>
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Recursos de produção: o que procurar no texto</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Estilísticos (escolhas de linguagem) e estruturais (escolhas de organização)</text>
+  <g transform="translate(24 84)">
+    <rect width="424" height="392" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="18" y="32" font-size="17" font-weight="700" fill="#1c5cab">Recursos estilísticos</text>
+    <text x="18" y="54" font-size="13" fill="#52514e">escolhas de linguagem</text>
+    <rect x="14" y="74" width="396" height="70" rx="8" fill="#ffffff" stroke="#b8cfee"/>
+    <text x="28" y="98" font-size="15" font-weight="700" fill="#0b0b0b">Escolha da palavra</text>
+    <text x="28" y="117" font-size="13" fill="#0b0b0b">reforma × desmonte · ajustar × cortar</text>
+    <text x="28" y="134" font-size="13" fill="#52514e">efeito: revela a posição do autor</text>
+    <rect x="14" y="152" width="396" height="70" rx="8" fill="#ffffff" stroke="#b8cfee"/>
+    <text x="28" y="176" font-size="15" font-weight="700" fill="#0b0b0b">Figuras</text>
+    <text x="28" y="195" font-size="13" fill="#0b0b0b">metáfora, metonímia, ironia, eufemismo, antítese</text>
+    <text x="28" y="212" font-size="13" fill="#52514e">efeito: aproxima, resume, critica, suaviza</text>
+    <rect x="14" y="230" width="396" height="70" rx="8" fill="#ffffff" stroke="#b8cfee"/>
+    <text x="28" y="254" font-size="15" font-weight="700" fill="#0b0b0b">Modalização</text>
+    <text x="28" y="273" font-size="13" fill="#0b0b0b">certamente · talvez · é preciso · seria</text>
+    <text x="28" y="290" font-size="13" fill="#52514e">efeito: reforça ou atenua o compromisso do autor</text>
+    <rect x="14" y="308" width="396" height="70" rx="8" fill="#ffffff" stroke="#b8cfee"/>
+    <text x="28" y="332" font-size="15" font-weight="700" fill="#0b0b0b">Pontuação e destaques</text>
+    <text x="28" y="351" font-size="13" fill="#0b0b0b">aspas, travessão, parênteses, negrito</text>
+    <text x="28" y="368" font-size="13" fill="#52514e">efeito: marca distância, comentário ou realce</text>
+  </g>
+  <g transform="translate(464 84)">
+    <rect width="424" height="392" rx="10" fill="#e4f5ee" stroke="#a9dcc7"/>
+    <text x="18" y="32" font-size="17" font-weight="700" fill="#0f7a55">Recursos estruturais</text>
+    <text x="18" y="54" font-size="13" fill="#52514e">escolhas de organização</text>
+    <rect x="14" y="74" width="396" height="70" rx="8" fill="#ffffff" stroke="#a9dcc7"/>
+    <text x="28" y="98" font-size="15" font-weight="700" fill="#0b0b0b">Partes do gênero</text>
+    <text x="28" y="117" font-size="13" fill="#0b0b0b">lide da notícia · preâmbulo da ata · ementa da lei</text>
+    <text x="28" y="134" font-size="13" fill="#52514e">efeito: o leitor sabe onde está cada informação</text>
+    <rect x="14" y="152" width="396" height="70" rx="8" fill="#ffffff" stroke="#a9dcc7"/>
+    <text x="28" y="176" font-size="15" font-weight="700" fill="#0b0b0b">Ordem da informação</text>
+    <text x="28" y="195" font-size="13" fill="#0b0b0b">o mais importante primeiro · ordem do tempo</text>
+    <text x="28" y="212" font-size="13" fill="#52514e">efeito: dirige a atenção do leitor</text>
+    <rect x="14" y="230" width="396" height="70" rx="8" fill="#ffffff" stroke="#a9dcc7"/>
+    <text x="28" y="254" font-size="15" font-weight="700" fill="#0b0b0b">Parágrafo</text>
+    <text x="28" y="273" font-size="13" fill="#0b0b0b">tópico frasal + desenvolvimento (+ conclusão)</text>
+    <text x="28" y="290" font-size="13" fill="#52514e">efeito: uma ideia central por parágrafo</text>
+    <rect x="14" y="308" width="396" height="70" rx="8" fill="#ffffff" stroke="#a9dcc7"/>
+    <text x="28" y="332" font-size="15" font-weight="700" fill="#0b0b0b">Sequências</text>
+    <text x="28" y="351" font-size="13" fill="#0b0b0b">narrar, descrever, expor, argumentar, instruir</text>
+    <text x="28" y="368" font-size="13" fill="#52514e">efeito: cada uma deixa marcas próprias</text>
+  </g>
+  <g transform="translate(24 490)">
+    <rect width="864" height="50" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="18" y="31" font-size="15" fill="#0b0b0b"><tspan font-weight="700" fill="#b4501f">Valem para os dois lados:</tspan> repetição (anáfora) e paralelismo: constroem a frase e dão ênfase.</text>
+  </g>
+  <line x1="24" y1="560" x2="888" y2="560" stroke="#e1e0d9"/>
+  <text x="24" y="590" font-size="15" fill="#0b0b0b"><tspan font-weight="700">Roteiro do item:</tspan> o recurso está no texto?  →  que efeito produz ali?  →  o efeito serve à finalidade do gênero?</text>
+  <text x="24" y="616" font-size="13" fill="#52514e">A divisão em dois grupos é organização desta aula; o edital não define os termos.</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1000" height="560" fill="#ffffff"/>
+  <defs>
+    <marker id="seta" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8c8b85"/>
+    </marker>
+  </defs>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">A oração subordinada ocupa o lugar de um termo</text>
+
+  <!-- Cabeçalhos -->
+  <g font-size="15" font-weight="700" fill="#52514e" text-anchor="middle">
+    <text x="345" y="78">Período simples: um termo</text>
+    <text x="780" y="78">Período composto: uma oração</text>
+  </g>
+
+  <!-- Linha 1: substantiva -->
+  <text x="24" y="136" font-size="16" font-weight="700" fill="#1c5cab">Substantiva</text>
+  <text x="24" y="157" font-size="12" fill="#52514e">vale por um</text>
+  <text x="24" y="173" font-size="12" fill="#52514e">substantivo</text>
+  <g transform="translate(150 92)">
+    <rect width="390" height="110" rx="10" fill="#f6f5f1" stroke="#dcdad3"/>
+    <text x="16" y="42" font-size="15" fill="#0b0b0b">O relator pediu <tspan font-weight="700" fill="#1c5cab">o adiamento</tspan>.</text>
+    <text x="16" y="84" font-size="13" fill="#52514e">objeto direto: um substantivo</text>
+  </g>
+  <line x1="546" y1="147" x2="576" y2="147" stroke="#8c8b85" stroke-width="2" marker-end="url(#seta)"/>
+  <g transform="translate(585 92)">
+    <rect width="390" height="110" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="42" font-size="15" fill="#0b0b0b">O relator pediu <tspan font-weight="700" fill="#1c5cab">que a votação fosse adiada</tspan>.</text>
+    <text x="16" y="84" font-size="13" fill="#52514e">objeto direto: uma oração</text>
+  </g>
+
+  <!-- Linha 2: adjetiva -->
+  <text x="24" y="266" font-size="16" font-weight="700" fill="#12805a">Adjetiva</text>
+  <text x="24" y="287" font-size="12" fill="#52514e">vale por um</text>
+  <text x="24" y="303" font-size="12" fill="#52514e">adjetivo</text>
+  <g transform="translate(150 222)">
+    <rect width="390" height="110" rx="10" fill="#f6f5f1" stroke="#dcdad3"/>
+    <text x="16" y="42" font-size="15" fill="#0b0b0b">O Plenário aprovou a emenda <tspan font-weight="700" fill="#12805a">governista</tspan>.</text>
+    <text x="16" y="84" font-size="13" fill="#52514e">adjunto adnominal de “emenda”: um adjetivo</text>
+  </g>
+  <line x1="546" y1="277" x2="576" y2="277" stroke="#8c8b85" stroke-width="2" marker-end="url(#seta)"/>
+  <g transform="translate(585 222)">
+    <rect width="390" height="110" rx="10" fill="#e4f5ee" stroke="#a9dcc6"/>
+    <text x="16" y="34" font-size="15" fill="#0b0b0b">O Plenário aprovou a emenda <tspan font-weight="700" fill="#12805a">que o governo</tspan></text>
+    <text x="16" y="56" font-size="15" font-weight="700" fill="#12805a">havia apresentado<tspan font-weight="400" fill="#0b0b0b">.</tspan></text>
+    <text x="16" y="90" font-size="13" fill="#52514e">adjunto adnominal de “emenda”: uma oração</text>
+  </g>
+
+  <!-- Linha 3: adverbial -->
+  <text x="24" y="396" font-size="16" font-weight="700" fill="#b4500f">Adverbial</text>
+  <text x="24" y="417" font-size="12" fill="#52514e">vale por um</text>
+  <text x="24" y="433" font-size="12" fill="#52514e">advérbio</text>
+  <g transform="translate(150 352)">
+    <rect width="390" height="110" rx="10" fill="#f6f5f1" stroke="#dcdad3"/>
+    <text x="16" y="42" font-size="15" fill="#0b0b0b">A sessão caiu <tspan font-weight="700" fill="#b4500f">por falta de quórum</tspan>.</text>
+    <text x="16" y="84" font-size="13" fill="#52514e">adjunto adverbial de causa: uma locução</text>
+  </g>
+  <line x1="546" y1="407" x2="576" y2="407" stroke="#8c8b85" stroke-width="2" marker-end="url(#seta)"/>
+  <g transform="translate(585 352)">
+    <rect width="390" height="110" rx="10" fill="#fdeee4" stroke="#f3c7a8"/>
+    <text x="16" y="42" font-size="15" fill="#0b0b0b">A sessão caiu <tspan font-weight="700" fill="#b4500f">porque faltou quórum</tspan>.</text>
+    <text x="16" y="84" font-size="13" fill="#52514e">adjunto adverbial de causa: uma oração</text>
+  </g>
+
+  <!-- Pé -->
+  <rect x="24" y="482" width="951" height="56" rx="10" fill="#f6f5f1" stroke="#dcdad3"/>
+  <text x="40" y="508" font-size="14" fill="#0b0b0b"><tspan font-weight="700">A função não muda; muda o que a ocupa.</tspan> A oração subordinada vale por um substantivo, por um</text>
+  <text x="40" y="528" font-size="14" fill="#0b0b0b">adjetivo ou por um advérbio: daí os nomes substantiva, adjetiva e adverbial.</text>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="640" viewBox="0 0 912 640" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="640" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">O pronome átono na locução verbal</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Posições registradas no Manual de Padronização de Textos do STJ</text>
+
+  <!-- Cabeçalhos das colunas -->
+  <g font-size="15" font-weight="700" fill="#52514e" text-anchor="middle">
+    <text x="357" y="100">Sem palavra atrativa</text>
+    <text x="722" y="100">Com palavra atrativa (não, já, que...)</text>
+  </g>
+
+  <!-- Cabeçalhos das linhas -->
+  <g font-size="15" font-weight="700" fill="#52514e" text-anchor="middle">
+    <text x="92" y="168">auxiliar +</text>
+    <text x="92" y="188">infinitivo</text>
+    <text x="92" y="310">auxiliar +</text>
+    <text x="92" y="330">gerúndio</text>
+    <text x="92" y="452">auxiliar +</text>
+    <text x="92" y="472">particípio</text>
+  </g>
+
+  <!-- Infinitivo, sem atração -->
+  <g transform="translate(180 114)">
+    <rect width="355" height="132" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="28" font-size="14" font-weight="700" fill="#1c5cab">3 posições</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="56">A comissão <tspan font-weight="700">vai-se</tspan> reunir.</text>
+      <text x="16" y="82">A comissão vai <tspan font-weight="700">reunir-se</tspan>.</text>
+      <text x="16" y="108">A comissão <tspan font-weight="700">se vai</tspan> reunir.</text>
+    </g>
+  </g>
+
+  <!-- Infinitivo, com atração -->
+  <g transform="translate(545 114)">
+    <rect width="343" height="132" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="16" y="28" font-size="14" font-weight="700" fill="#b4501f">2 posições</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="56">A comissão não <tspan font-weight="700">se vai</tspan> reunir.</text>
+      <text x="16" y="82">A comissão não vai <tspan font-weight="700">reunir-se</tspan>.</text>
+    </g>
+    <text x="16" y="112" font-size="14" fill="#a32a2a"><tspan font-weight="700">✗</tspan> não <tspan font-weight="700">vai-se</tspan> reunir</text>
+  </g>
+
+  <!-- Gerúndio, sem atração -->
+  <g transform="translate(180 256)">
+    <rect width="355" height="132" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="28" font-size="14" font-weight="700" fill="#1c5cab">3 posições</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="56">A Mesa <tspan font-weight="700">está-lhes</tspan> enviando os avulsos.</text>
+      <text x="16" y="82">A Mesa está <tspan font-weight="700">enviando-lhes</tspan> os avulsos.</text>
+      <text x="16" y="108">A Mesa <tspan font-weight="700">lhes está</tspan> enviando os avulsos.</text>
+    </g>
+  </g>
+
+  <!-- Gerúndio, com atração -->
+  <g transform="translate(545 256)">
+    <rect width="343" height="132" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="16" y="28" font-size="14" font-weight="700" fill="#b4501f">2 posições</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="56">A Mesa não <tspan font-weight="700">lhes está</tspan> enviando...</text>
+      <text x="16" y="82">A Mesa não está <tspan font-weight="700">enviando-lhes</tspan>...</text>
+    </g>
+    <text x="16" y="112" font-size="14" fill="#a32a2a"><tspan font-weight="700">✗</tspan> não <tspan font-weight="700">está-lhes</tspan> enviando</text>
+  </g>
+
+  <!-- Particípio, sem atração -->
+  <g transform="translate(180 398)">
+    <rect width="355" height="132" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="28" font-size="14" font-weight="700" fill="#1c5cab">2 posições, sempre junto do auxiliar</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="56">O líder <tspan font-weight="700">tinha-se</tspan> manifestado.</text>
+      <text x="16" y="82">O líder <tspan font-weight="700">se tinha</tspan> manifestado.</text>
+    </g>
+    <text x="16" y="112" font-size="14" fill="#a32a2a"><tspan font-weight="700">✗</tspan> tinha <tspan font-weight="700">manifestado-se</tspan></text>
+  </g>
+
+  <!-- Particípio, com atração -->
+  <g transform="translate(545 398)">
+    <rect width="343" height="132" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="16" y="28" font-size="14" font-weight="700" fill="#b4501f">1 posição</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="56">O líder já <tspan font-weight="700">se tinha</tspan> manifestado.</text>
+    </g>
+    <text x="16" y="86" font-size="14" fill="#a32a2a"><tspan font-weight="700">✗</tspan> já <tspan font-weight="700">tinha-se</tspan> manifestado</text>
+    <text x="16" y="112" font-size="14" fill="#a32a2a"><tspan font-weight="700">✗</tspan> já tinha <tspan font-weight="700">manifestado-se</tspan></text>
+  </g>
+
+  <!-- Pé -->
+  <line x1="24" y1="550" x2="888" y2="550" stroke="#e1e0d9"/>
+  <text x="24" y="576" font-size="14" fill="#0b0b0b"><tspan font-weight="700">Depois de particípio, nunca.</tspan> Depois de infinitivo e de gerúndio, o pronome pode ficar.</text>
+  <text x="24" y="600" font-size="14" fill="#0b0b0b">A forma sem hífen (<tspan font-weight="700">vai se reunir</tspan>) não está no manual do STJ: as fontes divergem sobre ela,</text>
+  <text x="24" y="620" font-size="14" fill="#0b0b0b">como o texto da aula explica.</text>
+</svg>

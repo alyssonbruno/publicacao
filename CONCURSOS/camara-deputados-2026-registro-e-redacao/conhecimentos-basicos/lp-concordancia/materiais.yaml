@@ -1,0 +1,72 @@
+materiais:
+  - tipo: texto
+    titulo: Concordância verbal e nominal
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: CONCORDÂNCIA VERBAL || Aula de Português para concursos, vestibulares, ENEM
+    url: https://www.youtube.com/watch?v=s2T9Ap2J7u0
+    autor: Português com Letícia
+    duracao_min: 29
+    descricao: >-
+      Aula de teoria sobre concordância verbal, de um canal já indicado em outras aulas deste
+      concurso. Não foi possível conferir quais casos o vídeo cobre nem como os explica: veja
+      depois de ler as partes do verbo no texto da aula e, onde o vídeo disser algo diferente
+      (em "um dos que" e "um ou outro", por exemplo), fique com o texto, que mostra o que cada
+      manual diz. Não é um vídeo de questões do Cebraspe.
+  - tipo: video
+    titulo: CONCORDÂNCIA NOMINAL || Aula de Português para concursos, vestibulares, ENEM
+    url: https://www.youtube.com/watch?v=Ssb7v6KIYt8
+    autor: Português com Letícia
+    duracao_min: 20
+    descricao: >-
+      Aula de teoria sobre concordância nominal, par do vídeo anterior. Não foi possível conferir
+      quais casos o vídeo cobre: veja depois das partes de concordância nominal do texto da aula
+      e use o quadro "varia ou não varia" para acompanhar. Não é um vídeo de questões do
+      Cebraspe.
+  - tipo: podcast
+    titulo: Concordância Verbal (pt.1)
+    url: https://podcasts.apple.com/br/podcast/concord%C3%A2ncia-verbal-pt-1/id1468750752?i=1000532005155
+    audio: https://anchor.fm/s/c06f674/podcast/play/38772039/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-14%2F212474121-44100-2-65b97d5ee4a2b.m4a
+    autor: Elias Santana (Português para quem?)
+    duracao_min: 15
+    descricao: >-
+      Comece em 4:36 (antes disso, só abertura e vinheta) e pare em 14:10. Dois pontos da aula,
+      explicados devagar: o verbo concorda com o núcleo do sujeito, que é o substantivo sem
+      preposição ("O aumento dos preços dos combustíveis nos postos assustou os clientes"), e o
+      sujeito composto, que pede plural antes do verbo e aceita o plural ou o núcleo mais próximo
+      depois dele. Fica nisso: haver, "se", verbo "ser" e os demais casos estão no texto da aula.
+  - tipo: podcast
+    titulo: Haver X Existir!
+    url: https://podcasts.apple.com/br/podcast/haver-x-existir/id1468750752?i=1000519507645
+    audio: https://anchor.fm/s/c06f674/podcast/play/32579919/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-3-30%2F181497532-44100-2-eff24e1454b26.m4a
+    autor: Elias Santana (Português para quem?)
+    duracao_min: 17
+    descricao: >-
+      Ouça só de 2:01 a 6:05: quatro minutos sobre a troca que o Cebraspe gosta de propor.
+      "Existir" tem sujeito e concorda com ele ("existiam pessoas"); "haver" com sentido de
+      existir não tem sujeito e fica no singular ("havia pessoas"). O episódio não fala do verbo
+      auxiliar ("deve haver"), que está no texto da aula. Antes de 2:01 há uma vinheta de humor;
+      depois de 6:05, respostas a ouvintes sobre outros assuntos, com piada de palavrão: pode
+      parar ali.
+  - tipo: link
+    titulo: Concordância verbal — Manual de Comunicação da Secom
+    url: https://www12.senado.leg.br/manualdecomunicacao/estilos/concordancia-verbal
+    autor: Senado Federal (Secretaria de Comunicação Social)
+    descricao: >-
+      Verbete curto, com exemplos tirados de notícias do Legislativo: partitivos, "cerca de",
+      nomes próprios no plural, "que" e "quem", pronome de tratamento, haver e fazer, e os casos
+      de sujeito composto com "nem", "ou" e "com". Em "um dos que", manda usar o plural; o texto
+      da aula mostra que o manual da Presidência admite também o singular. Não trata de
+      concordância nominal.
+  - tipo: link
+    titulo: Manual de Redação da Presidência da República (3ª edição)
+    url: https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf
+    autor: Presidência da República, Casa Civil (cópia hospedada pelo ICMBio)
+    descricao: >-
+      PDF do manual inteiro; para esta aula, leia só o item 11.7 (p. 65 a 72), base do texto, e
+      o item 4.1.1 (p. 24), sobre os pronomes de tratamento. Traz pares de "errado" e "certo"
+      para haver e fazer e o roteiro do verbo "ser". A parte de concordância nominal é curta
+      (anexo, incluso, leso e possível); o restante está no texto da aula.

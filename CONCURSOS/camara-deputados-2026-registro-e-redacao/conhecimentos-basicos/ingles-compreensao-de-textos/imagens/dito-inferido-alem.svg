@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect width="1000" height="500" fill="#ffffff"/>
+<text x="24" y="36" font-size="21" font-weight="700" fill="#0b0b0b">O que está escrito, o que o texto autoriza e o que vai além</text>
+<rect x="24" y="56" width="952" height="76" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+<text x="40" y="80" font-size="13" fill="#52514e">O texto diz</text>
+<text x="40" y="110" font-size="19" fill="#0b0b0b" font-style="italic"><tspan font-weight="700">For now</tspan>, human reporters <tspan font-weight="700">still</tspan> review every draft before it is published.</text>
+<rect x="24" y="156" width="304" height="290" rx="10" fill="#e6f5ee" stroke="#13795b"/>
+<text x="42" y="188" font-size="17" font-weight="700" fill="#13795b">1. Está escrito</text>
+<text x="42" y="222" font-size="13" fill="#52514e">O item diz</text>
+<text x="42" y="248" font-size="17" font-style="italic" fill="#0b0b0b">Human reporters review</text>
+<text x="42" y="271" font-size="17" font-style="italic" fill="#0b0b0b">every draft.</text>
+<rect x="42" y="292" width="86" height="30" rx="15" fill="#13795b"/>
+<text x="85.0" y="313" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">CERTO</text>
+<text x="42" y="356" font-size="15" fill="#0b0b0b">É paráfrase da frase:</text>
+<text x="42" y="378" font-size="15" fill="#0b0b0b">o item repete o texto</text>
+<text x="42" y="400" font-size="15" fill="#0b0b0b">com menos palavras.</text>
+<rect x="348" y="156" width="304" height="290" rx="10" fill="#e3edf9" stroke="#1c5cab"/>
+<text x="366" y="188" font-size="17" font-weight="700" fill="#1c5cab">2. O texto autoriza</text>
+<text x="366" y="222" font-size="13" fill="#52514e">O item diz</text>
+<text x="366" y="248" font-size="17" font-style="italic" fill="#0b0b0b">The software has not</text>
+<text x="366" y="271" font-size="17" font-style="italic" fill="#0b0b0b">replaced human reporters.</text>
+<rect x="366" y="292" width="86" height="30" rx="15" fill="#1c5cab"/>
+<text x="409.0" y="313" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">CERTO</text>
+<text x="366" y="356" font-size="15" fill="#0b0b0b">Se eles ainda revisam</text>
+<text x="366" y="378" font-size="15" fill="#0b0b0b">todo rascunho, não</text>
+<text x="366" y="400" font-size="15" fill="#0b0b0b">foram substituídos.</text>
+<rect x="672" y="156" width="304" height="290" rx="10" fill="#fdf0e6" stroke="#b4501f"/>
+<text x="690" y="188" font-size="17" font-weight="700" fill="#b4501f">3. Vai além do texto</text>
+<text x="690" y="222" font-size="13" fill="#52514e">O item diz</text>
+<text x="690" y="248" font-size="17" font-style="italic" fill="#0b0b0b">The software will replace</text>
+<text x="690" y="271" font-size="17" font-style="italic" fill="#0b0b0b">human reporters soon.</text>
+<rect x="690" y="292" width="98" height="30" rx="15" fill="#b4501f"/>
+<text x="739.0" y="313" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">ERRADO</text>
+<text x="690" y="356" font-size="15" fill="#0b0b0b">“For now” deixa o futuro</text>
+<text x="690" y="378" font-size="15" fill="#0b0b0b">em aberto: não diz o que</text>
+<text x="690" y="400" font-size="15" fill="#0b0b0b">virá nem quando.</text>
+<text x="24" y="478" font-size="13" fill="#52514e">Teste: o texto pode ser verdadeiro e o item, falso? Se pode, o item não se infere do texto.</text>
+</svg>

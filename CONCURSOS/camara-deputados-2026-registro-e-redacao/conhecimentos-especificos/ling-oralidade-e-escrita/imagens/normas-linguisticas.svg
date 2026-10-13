@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="600" viewBox="0 0 912 600" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="600" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Normas linguísticas: o que se prescreve e o que se usa</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">A divisão de Faraco (2008), como exposta por Freire (2020)</text>
+
+  <!-- Cabeçalhos -->
+  <g font-size="15" font-weight="700">
+    <text x="24" y="100" fill="#b8481c">NORMATIVO: o que se prescreve</text>
+    <text x="468" y="100" fill="#127a55">NORMAL: o que se usa de fato</text>
+  </g>
+
+  <!-- Coluna esquerda -->
+  <g transform="translate(24 114)">
+    <rect width="420" height="124" rx="10" fill="#fdeee7" stroke="#f3c3ad"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#b8481c">Norma-padrão</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="56">Codificação abstrata, tirada de usos do passado,</text>
+      <text x="16" y="76">para servir de referência. No Brasil, foi fixada no</text>
+      <text x="16" y="96">fim do século XIX. É um modelo, não a fala de alguém.</text>
+    </g>
+  </g>
+  <g transform="translate(24 250)">
+    <rect width="420" height="124" rx="10" fill="#fdeee7" stroke="#f3c3ad"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#b8481c">Norma gramatical</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="56">As prescrições das gramáticas da segunda metade</text>
+      <text x="16" y="76">do século XX em diante, que flexibilizaram alguns</text>
+      <text x="16" y="96">pontos da norma-padrão.</text>
+    </g>
+  </g>
+  <g transform="translate(24 386)">
+    <rect width="420" height="124" rx="10" fill="#ffffff" stroke="#f3c3ad" stroke-dasharray="6 4"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#b8481c">“Norma curta”</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="56">Regras estreitas de certo e errado que nem as</text>
+      <text x="16" y="76">gramáticas de referência abonam. É crítica de</text>
+      <text x="16" y="96">Faraco, não uma norma a seguir.</text>
+    </g>
+  </g>
+
+  <!-- Coluna direita -->
+  <g transform="translate(468 114)">
+    <rect width="420" height="192" rx="10" fill="#e6f5ee" stroke="#b5dfcb"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#127a55">Norma culta</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="56">Os usos habituais dos falantes letrados em</text>
+      <text x="16" y="76">situações mais monitoradas de fala e de escrita.</text>
+      <text x="16" y="104">Varia: a norma culta falada não é igual à escrita.</text>
+      <text x="16" y="132">Fica perto da norma-padrão, mas não coincide</text>
+      <text x="16" y="152">com ela. Por isso, há quem prefira o plural:</text>
+      <text x="16" y="172">normas cultas.</text>
+    </g>
+  </g>
+  <g transform="translate(468 318)">
+    <rect width="420" height="192" rx="10" fill="#e6f5ee" stroke="#b5dfcb"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#127a55">Normas populares</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="56">Os usos habituais dos grupos menos escolarizados.</text>
+      <text x="16" y="84">Têm regras próprias e são tão estruturadas quanto</text>
+      <text x="16" y="104">as cultas. O que muda é o prestígio, e prestígio</text>
+      <text x="16" y="124">é valor social, não qualidade da língua.</text>
+      <text x="16" y="152">Não há fronteira rígida entre normas cultas</text>
+      <text x="16" y="172">e populares: elas se influenciam.</text>
+    </g>
+  </g>
+
+  <!-- Rodapé -->
+  <rect x="24" y="526" width="864" height="58" rx="10" fill="#fdf3e0" stroke="#eda100"/>
+  <text x="40" y="550" font-size="14" fill="#0b0b0b"><tspan font-weight="700">Atenção aos nomes:</tspan> nem todos os autores fazem essa divisão. O Manual de Redação da Presidência usa</text>
+  <text x="40" y="570" font-size="14" fill="#0b0b0b">“padrão culto”, “língua culta” e “norma padrão” como equivalentes.</text>
+</svg>

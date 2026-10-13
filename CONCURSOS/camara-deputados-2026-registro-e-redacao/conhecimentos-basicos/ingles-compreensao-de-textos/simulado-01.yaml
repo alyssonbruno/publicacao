@@ -1,0 +1,257 @@
+# Treino de Inglês: compreensão de textos — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Inglês, compreensão de textos
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício em inglês (notícia sobre resumos de projetos de lei em linguagem simples), no estilo de certo ou errado do Cebraspe: texto, comando e itens em inglês, remissão à linha e uma afirmação por item.'
+    - 'Referências de estilo, sem reprodução de itens: Cebraspe, Câmara dos Deputados, Edital nº 1/2025 (nível superior), Conhecimentos Gerais, itens 27 a 36; Cebraspe, TCU, Auditor Federal de Controle Externo, Edital nº 1/2025, Conhecimentos Básicos, itens 21 a 30; CESPE/UnB, Câmara dos Deputados 2012, Taquígrafo Legislativo, Conhecimentos Básicos, itens 1 a 13; todos com os gabaritos definitivos. Consultados em 12/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Texto para o item: notícia fictícia, em inglês, sobre os resumos de projetos de lei publicados por uma assembleia regional, com as linhas numeradas.
+
+      > **Text I**
+      >
+      > 1. When a regional assembly decided last year to publish a
+      > 2. plain-language summary alongside every bill, few of its members
+      > 3. expected the idea to cause much debate. The summaries, written by
+      > 4. clerks rather than by the bills' sponsors, are meant to tell
+      > 5. citizens in a single page what a proposal would actually change.
+      > 6. Supporters argue that, since most bills run to dozens of pages of
+      > 7. technical wording, ordinary readers would otherwise have to rely on
+      > 8. press reports. Not everyone is convinced. Several opposition
+      > 9. members have complained that a summary cannot be neutral, because
+      > 10. deciding what to leave out is itself a political choice. The head
+      > 11. of the drafting office rejects this. In her view, the clerks have
+      > 12. no stake in the outcome of a vote, and each summary is sent to the
+      > 13. bill's sponsor for comment before it is published, although the
+      > 14. office is not obliged to accept the changes proposed. A survey
+      > 15. carried out six months after the first summaries appeared found
+      > 16. that they were opened roughly four times as often as the bills
+      > 17. themselves. It did not ask, however, whether readers went on to
+      > 18. read the full text, and the office admits that it does not yet know
+      > 19. whether the summaries are informing the public or merely replacing
+      > 20. the documents they were supposed to explain.
+
+      Based on the text, judge the following item.
+
+      The text describes an initiative intended to make bills easier for the public to understand and reports doubts about both its neutrality and its results.
+  - id: q02
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Texto para o item: notícia fictícia, em inglês, sobre os resumos de projetos de lei publicados por uma assembleia regional, com as linhas numeradas.
+
+      > **Text I**
+      >
+      > 1. When a regional assembly decided last year to publish a
+      > 2. plain-language summary alongside every bill, few of its members
+      > 3. expected the idea to cause much debate. The summaries, written by
+      > 4. clerks rather than by the bills' sponsors, are meant to tell
+      > 5. citizens in a single page what a proposal would actually change.
+      > 6. Supporters argue that, since most bills run to dozens of pages of
+      > 7. technical wording, ordinary readers would otherwise have to rely on
+      > 8. press reports. Not everyone is convinced. Several opposition
+      > 9. members have complained that a summary cannot be neutral, because
+      > 10. deciding what to leave out is itself a political choice. The head
+      > 11. of the drafting office rejects this. In her view, the clerks have
+      > 12. no stake in the outcome of a vote, and each summary is sent to the
+      > 13. bill's sponsor for comment before it is published, although the
+      > 14. office is not obliged to accept the changes proposed. A survey
+      > 15. carried out six months after the first summaries appeared found
+      > 16. that they were opened roughly four times as often as the bills
+      > 17. themselves. It did not ask, however, whether readers went on to
+      > 18. read the full text, and the office admits that it does not yet know
+      > 19. whether the summaries are informing the public or merely replacing
+      > 20. the documents they were supposed to explain.
+
+      Based on the text, judge the following item.
+
+      In line 6, the word “since” could be replaced with “because” without changing the meaning of the sentence.
+  - id: q03
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Texto para o item: notícia fictícia, em inglês, sobre os resumos de projetos de lei publicados por uma assembleia regional, com as linhas numeradas.
+
+      > **Text I**
+      >
+      > 1. When a regional assembly decided last year to publish a
+      > 2. plain-language summary alongside every bill, few of its members
+      > 3. expected the idea to cause much debate. The summaries, written by
+      > 4. clerks rather than by the bills' sponsors, are meant to tell
+      > 5. citizens in a single page what a proposal would actually change.
+      > 6. Supporters argue that, since most bills run to dozens of pages of
+      > 7. technical wording, ordinary readers would otherwise have to rely on
+      > 8. press reports. Not everyone is convinced. Several opposition
+      > 9. members have complained that a summary cannot be neutral, because
+      > 10. deciding what to leave out is itself a political choice. The head
+      > 11. of the drafting office rejects this. In her view, the clerks have
+      > 12. no stake in the outcome of a vote, and each summary is sent to the
+      > 13. bill's sponsor for comment before it is published, although the
+      > 14. office is not obliged to accept the changes proposed. A survey
+      > 15. carried out six months after the first summaries appeared found
+      > 16. that they were opened roughly four times as often as the bills
+      > 17. themselves. It did not ask, however, whether readers went on to
+      > 18. read the full text, and the office admits that it does not yet know
+      > 19. whether the summaries are informing the public or merely replacing
+      > 20. the documents they were supposed to explain.
+
+      Based on the text, judge the following item.
+
+      According to the text, the sponsor of a bill is invited to comment on its summary once the summary has been made public.
+  - id: q04
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Texto para o item: notícia fictícia, em inglês, sobre os resumos de projetos de lei publicados por uma assembleia regional, com as linhas numeradas.
+
+      > **Text I**
+      >
+      > 1. When a regional assembly decided last year to publish a
+      > 2. plain-language summary alongside every bill, few of its members
+      > 3. expected the idea to cause much debate. The summaries, written by
+      > 4. clerks rather than by the bills' sponsors, are meant to tell
+      > 5. citizens in a single page what a proposal would actually change.
+      > 6. Supporters argue that, since most bills run to dozens of pages of
+      > 7. technical wording, ordinary readers would otherwise have to rely on
+      > 8. press reports. Not everyone is convinced. Several opposition
+      > 9. members have complained that a summary cannot be neutral, because
+      > 10. deciding what to leave out is itself a political choice. The head
+      > 11. of the drafting office rejects this. In her view, the clerks have
+      > 12. no stake in the outcome of a vote, and each summary is sent to the
+      > 13. bill's sponsor for comment before it is published, although the
+      > 14. office is not obliged to accept the changes proposed. A survey
+      > 15. carried out six months after the first summaries appeared found
+      > 16. that they were opened roughly four times as often as the bills
+      > 17. themselves. It did not ask, however, whether readers went on to
+      > 18. read the full text, and the office admits that it does not yet know
+      > 19. whether the summaries are informing the public or merely replacing
+      > 20. the documents they were supposed to explain.
+
+      Based on the text, judge the following item.
+
+      In “The head of the drafting office rejects this” (lines 10 and 11), the word “this” refers to the idea that a summary cannot be neutral.
+  - id: q05
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Texto para o item: notícia fictícia, em inglês, sobre os resumos de projetos de lei publicados por uma assembleia regional, com as linhas numeradas.
+
+      > **Text I**
+      >
+      > 1. When a regional assembly decided last year to publish a
+      > 2. plain-language summary alongside every bill, few of its members
+      > 3. expected the idea to cause much debate. The summaries, written by
+      > 4. clerks rather than by the bills' sponsors, are meant to tell
+      > 5. citizens in a single page what a proposal would actually change.
+      > 6. Supporters argue that, since most bills run to dozens of pages of
+      > 7. technical wording, ordinary readers would otherwise have to rely on
+      > 8. press reports. Not everyone is convinced. Several opposition
+      > 9. members have complained that a summary cannot be neutral, because
+      > 10. deciding what to leave out is itself a political choice. The head
+      > 11. of the drafting office rejects this. In her view, the clerks have
+      > 12. no stake in the outcome of a vote, and each summary is sent to the
+      > 13. bill's sponsor for comment before it is published, although the
+      > 14. office is not obliged to accept the changes proposed. A survey
+      > 15. carried out six months after the first summaries appeared found
+      > 16. that they were opened roughly four times as often as the bills
+      > 17. themselves. It did not ask, however, whether readers went on to
+      > 18. read the full text, and the office admits that it does not yet know
+      > 19. whether the summaries are informing the public or merely replacing
+      > 20. the documents they were supposed to explain.
+
+      Based on the text, judge the following item.
+
+      The author of the text claims that the clerks who write the summaries have nothing to gain or lose from the result of a vote.
+  - id: q06
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Texto para o item: notícia fictícia, em inglês, sobre os resumos de projetos de lei publicados por uma assembleia regional, com as linhas numeradas.
+
+      > **Text I**
+      >
+      > 1. When a regional assembly decided last year to publish a
+      > 2. plain-language summary alongside every bill, few of its members
+      > 3. expected the idea to cause much debate. The summaries, written by
+      > 4. clerks rather than by the bills' sponsors, are meant to tell
+      > 5. citizens in a single page what a proposal would actually change.
+      > 6. Supporters argue that, since most bills run to dozens of pages of
+      > 7. technical wording, ordinary readers would otherwise have to rely on
+      > 8. press reports. Not everyone is convinced. Several opposition
+      > 9. members have complained that a summary cannot be neutral, because
+      > 10. deciding what to leave out is itself a political choice. The head
+      > 11. of the drafting office rejects this. In her view, the clerks have
+      > 12. no stake in the outcome of a vote, and each summary is sent to the
+      > 13. bill's sponsor for comment before it is published, although the
+      > 14. office is not obliged to accept the changes proposed. A survey
+      > 15. carried out six months after the first summaries appeared found
+      > 16. that they were opened roughly four times as often as the bills
+      > 17. themselves. It did not ask, however, whether readers went on to
+      > 18. read the full text, and the office admits that it does not yet know
+      > 19. whether the summaries are informing the public or merely replacing
+      > 20. the documents they were supposed to explain.
+
+      Based on the text, judge the following item.
+
+      It can be inferred from the text that the sponsor of a bill does not have the final say on the content of its summary.
+  - id: q07
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Texto para o item: notícia fictícia, em inglês, sobre os resumos de projetos de lei publicados por uma assembleia regional, com as linhas numeradas.
+
+      > **Text I**
+      >
+      > 1. When a regional assembly decided last year to publish a
+      > 2. plain-language summary alongside every bill, few of its members
+      > 3. expected the idea to cause much debate. The summaries, written by
+      > 4. clerks rather than by the bills' sponsors, are meant to tell
+      > 5. citizens in a single page what a proposal would actually change.
+      > 6. Supporters argue that, since most bills run to dozens of pages of
+      > 7. technical wording, ordinary readers would otherwise have to rely on
+      > 8. press reports. Not everyone is convinced. Several opposition
+      > 9. members have complained that a summary cannot be neutral, because
+      > 10. deciding what to leave out is itself a political choice. The head
+      > 11. of the drafting office rejects this. In her view, the clerks have
+      > 12. no stake in the outcome of a vote, and each summary is sent to the
+      > 13. bill's sponsor for comment before it is published, although the
+      > 14. office is not obliged to accept the changes proposed. A survey
+      > 15. carried out six months after the first summaries appeared found
+      > 16. that they were opened roughly four times as often as the bills
+      > 17. themselves. It did not ask, however, whether readers went on to
+      > 18. read the full text, and the office admits that it does not yet know
+      > 19. whether the summaries are informing the public or merely replacing
+      > 20. the documents they were supposed to explain.
+
+      Based on the text, judge the following item.
+
+      In “the documents they were supposed to explain” (line 20), the pronoun “they” refers to the bills.
+  - id: q08
+    topico: conhecimentos-basicos/ingles-compreensao-de-textos
+    enunciado: |-
+      Texto para o item: notícia fictícia, em inglês, sobre os resumos de projetos de lei publicados por uma assembleia regional, com as linhas numeradas.
+
+      > **Text I**
+      >
+      > 1. When a regional assembly decided last year to publish a
+      > 2. plain-language summary alongside every bill, few of its members
+      > 3. expected the idea to cause much debate. The summaries, written by
+      > 4. clerks rather than by the bills' sponsors, are meant to tell
+      > 5. citizens in a single page what a proposal would actually change.
+      > 6. Supporters argue that, since most bills run to dozens of pages of
+      > 7. technical wording, ordinary readers would otherwise have to rely on
+      > 8. press reports. Not everyone is convinced. Several opposition
+      > 9. members have complained that a summary cannot be neutral, because
+      > 10. deciding what to leave out is itself a political choice. The head
+      > 11. of the drafting office rejects this. In her view, the clerks have
+      > 12. no stake in the outcome of a vote, and each summary is sent to the
+      > 13. bill's sponsor for comment before it is published, although the
+      > 14. office is not obliged to accept the changes proposed. A survey
+      > 15. carried out six months after the first summaries appeared found
+      > 16. that they were opened roughly four times as often as the bills
+      > 17. themselves. It did not ask, however, whether readers went on to
+      > 18. read the full text, and the office admits that it does not yet know
+      > 19. whether the summaries are informing the public or merely replacing
+      > 20. the documents they were supposed to explain.
+
+      Based on the text, judge the following item.
+
+      It is correct to conclude from the text that the summaries have reduced the number of citizens who read bills in full.

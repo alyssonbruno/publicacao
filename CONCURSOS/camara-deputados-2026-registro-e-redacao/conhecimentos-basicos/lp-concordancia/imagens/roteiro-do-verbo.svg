@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="690" viewBox="0 0 912 690" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="690" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Quatro perguntas antes de julgar o verbo</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Faça nesta ordem. Na primeira resposta que servir, você já tem a concordância.</text>
+
+  <!-- Pergunta 1 -->
+  <g transform="translate(24 84)">
+    <rect width="864" height="118" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <circle cx="34" cy="36" r="18" fill="#256abf"/>
+    <text x="34" y="42" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="66" y="32" font-size="16" font-weight="700" fill="#1c5cab">O verbo é haver (existir, tempo) ou fazer (tempo)?</text>
+    <text x="66" y="54" font-size="14" fill="#0b0b0b">Não há sujeito: <tspan font-weight="700">singular</tspan>, inclusive o verbo auxiliar.</text>
+    <text x="66" y="84" font-size="15" fill="#0b0b0b"><tspan font-weight="700">Havia</tspan> dúvidas   ·   <tspan font-weight="700">Deve haver</tspan> emendas   ·   <tspan font-weight="700">Faz</tspan> dois anos</text>
+    <text x="66" y="106" font-size="13" fill="#52514e">Existir tem sujeito e concorda com ele: Existiam dúvidas · Devem existir emendas</text>
+  </g>
+
+  <!-- Pergunta 2 -->
+  <g transform="translate(24 214)">
+    <rect width="864" height="118" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <circle cx="34" cy="36" r="18" fill="#256abf"/>
+    <text x="34" y="42" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="66" y="32" font-size="16" font-weight="700" fill="#1c5cab">Há “se” junto do verbo?</text>
+    <text x="66" y="54" font-size="14" fill="#0b0b0b">Veja se o termo seguinte tem preposição.</text>
+    <text x="66" y="84" font-size="15" fill="#0b0b0b">Com preposição: <tspan font-weight="700">singular</tspan>.   <tspan font-weight="700">Trata-se</tspan> de emendas   ·   <tspan font-weight="700">Precisa-se</tspan> de taquígrafos</text>
+    <text x="66" y="106" font-size="15" fill="#0b0b0b">Sem preposição: o termo é o sujeito.   <tspan font-weight="700">Aprovaram-se</tspan> as emendas</text>
+  </g>
+
+  <!-- Pergunta 3 -->
+  <g transform="translate(24 344)">
+    <rect width="864" height="118" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <circle cx="34" cy="36" r="18" fill="#256abf"/>
+    <text x="34" y="42" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+    <text x="66" y="32" font-size="16" font-weight="700" fill="#1c5cab">Qual é o núcleo do sujeito?</text>
+    <text x="66" y="54" font-size="14" fill="#0b0b0b">Pergunte “o que?” ou “quem?” ao verbo. Ignore o que vem com preposição. Olhe depois do verbo.</text>
+    <text x="66" y="84" font-size="15" fill="#0b0b0b">Os <tspan font-weight="700">destaques</tspan> da bancada <tspan font-weight="700">foram</tspan> rejeitados</text>
+    <text x="66" y="106" font-size="15" fill="#0b0b0b"><tspan font-weight="700">Faltam</tspan> três <tspan font-weight="700">assinaturas</tspan>   ·   Foram os <tspan font-weight="700">deputados</tspan> que <tspan font-weight="700">pediram</tspan> vista</text>
+  </g>
+
+  <!-- Pergunta 4 -->
+  <g transform="translate(24 474)">
+    <rect width="864" height="140" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <circle cx="34" cy="36" r="18" fill="#eb6834"/>
+    <text x="34" y="42" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+    <text x="66" y="32" font-size="16" font-weight="700" fill="#b4501f">O sujeito admite duas concordâncias?</text>
+    <text x="66" y="54" font-size="14" fill="#0b0b0b">Nestes casos, as duas formas estão certas.</text>
+    <text x="66" y="84" font-size="15" fill="#0b0b0b">A maioria dos deputados <tspan font-weight="700">votou</tspan> ou <tspan font-weight="700">votaram</tspan></text>
+    <text x="66" y="106" font-size="15" fill="#0b0b0b"><tspan font-weight="700">Falaram</tspan> ou <tspan font-weight="700">falou</tspan> o líder e os vice-líderes <tspan font-size="13" fill="#52514e">(sujeito composto depois do verbo)</tspan></text>
+    <text x="66" y="128" font-size="15" fill="#0b0b0b">Fui eu quem <tspan font-weight="700">redigiu</tspan> ou <tspan font-weight="700">redigi</tspan> a ata</text>
+  </g>
+
+  <!-- Pé -->
+  <line x1="24" y1="632" x2="888" y2="632" stroke="#e1e0d9"/>
+  <text x="24" y="660" font-size="14" fill="#0b0b0b">Fora desses casos, vale a regra geral: o verbo concorda com o <tspan font-weight="700">núcleo do sujeito</tspan>, em pessoa e número.</text>
+</svg>

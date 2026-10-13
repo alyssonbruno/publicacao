@@ -1,0 +1,164 @@
+# Treino de reorganização de orações e períodos e de reescrita em outros gêneros e níveis de formalidade — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Reescrita, reorganização de orações e períodos, gêneros e níveis de formalidade
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre dois textos próprios e fictícios (notícia da audiência pública de uma comissão e mensagem informal entre colegas de um setor), no estilo de certo ou errado do Cebraspe: trecho entre aspas com remissão à linha, uma proposta de deslocamento ou de reescrita e um comando sobre a correção gramatical ou o sentido.'
+    - 'Referências de estilo, sem reprodução de itens: provas do Cebraspe com gabarito definitivo — Câmara dos Deputados 2025 (Conhecimentos Gerais, aplicada em 8/3/2026), TCU 2025 (Auditor Federal de Controle Externo, aplicada em 22/2/2026), CNJ 2024 (Conhecimentos Básicos) e Câmara dos Deputados 2012 (Analista Legislativo, Taquígrafo Legislativo).'
+    - 'Bases do gabarito: Manual de Redação da Presidência da República, 3ª ed. (2018), itens 3.1, 3.6 e 11.1; Manual de linguagem simples, de Patrícia Roedel (Câmara dos Deputados, Edições Câmara, 2024); Toda Matéria, Vozes verbais, Tipos de discurso e Níveis de linguagem; Norma Culta, Vozes verbais; Luiz Felipe Durval, Reescritura de frases: desvendando questões CEBRASPE (Estratégia Concursos, 2021). Consultados em 12/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-reescrita-estrutura-e-formalidade
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a audiência pública de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A comissão especial do projeto das bibliotecas itinerantes
+      > 2. realizou ontem a sua terceira audiência pública. O presidente do
+      > 3. colegiado informou, no início dos trabalhos, que os convidados
+      > 4. haviam sido escolhidos na reunião anterior. A secretaria
+      > 5. distribuiu cópias do parecer aos presentes. Só os deputados
+      > 6. inscritos fizeram perguntas aos convidados. A relatora acolheu
+      > 7. duas emendas da oposição. “Não aceitarei mudanças neste artigo”,
+      > 8. afirmou ela, ao tratar do dispositivo que define a fonte dos
+      > 9. recursos. O portal da Casa recebeu mais de duzentas sugestões de
+      > 10. cidadãos. A relatora prometeu examiná-las até o fim do mês.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      O deslocamento da expressão “na reunião anterior” (linha 4) para o início do período em que ela ocorre, seguida de vírgula e feitos os devidos ajustes de maiúsculas e minúsculas, manteria a correção gramatical e o sentido original do texto.
+  - id: q02
+    topico: conhecimentos-basicos/lp-reescrita-estrutura-e-formalidade
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a audiência pública de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A comissão especial do projeto das bibliotecas itinerantes
+      > 2. realizou ontem a sua terceira audiência pública. O presidente do
+      > 3. colegiado informou, no início dos trabalhos, que os convidados
+      > 4. haviam sido escolhidos na reunião anterior. A secretaria
+      > 5. distribuiu cópias do parecer aos presentes. Só os deputados
+      > 6. inscritos fizeram perguntas aos convidados. A relatora acolheu
+      > 7. duas emendas da oposição. “Não aceitarei mudanças neste artigo”,
+      > 8. afirmou ela, ao tratar do dispositivo que define a fonte dos
+      > 9. recursos. O portal da Casa recebeu mais de duzentas sugestões de
+      > 10. cidadãos. A relatora prometeu examiná-las até o fim do mês.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      A correção gramatical do texto seria mantida caso o período “A secretaria distribuiu cópias do parecer aos presentes” (linhas 4 e 5) fosse reescrito da seguinte forma: Distribuíram-se cópias do parecer aos presentes.
+  - id: q03
+    topico: conhecimentos-basicos/lp-reescrita-estrutura-e-formalidade
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a audiência pública de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A comissão especial do projeto das bibliotecas itinerantes
+      > 2. realizou ontem a sua terceira audiência pública. O presidente do
+      > 3. colegiado informou, no início dos trabalhos, que os convidados
+      > 4. haviam sido escolhidos na reunião anterior. A secretaria
+      > 5. distribuiu cópias do parecer aos presentes. Só os deputados
+      > 6. inscritos fizeram perguntas aos convidados. A relatora acolheu
+      > 7. duas emendas da oposição. “Não aceitarei mudanças neste artigo”,
+      > 8. afirmou ela, ao tratar do dispositivo que define a fonte dos
+      > 9. recursos. O portal da Casa recebeu mais de duzentas sugestões de
+      > 10. cidadãos. A relatora prometeu examiná-las até o fim do mês.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      O deslocamento do vocábulo “Só” (linha 5) para imediatamente antes de “aos convidados” (linha 6), feitos os devidos ajustes de maiúsculas e minúsculas, manteria a correção gramatical do texto, mas alteraria o seu sentido original.
+  - id: q04
+    topico: conhecimentos-basicos/lp-reescrita-estrutura-e-formalidade
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a audiência pública de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A comissão especial do projeto das bibliotecas itinerantes
+      > 2. realizou ontem a sua terceira audiência pública. O presidente do
+      > 3. colegiado informou, no início dos trabalhos, que os convidados
+      > 4. haviam sido escolhidos na reunião anterior. A secretaria
+      > 5. distribuiu cópias do parecer aos presentes. Só os deputados
+      > 6. inscritos fizeram perguntas aos convidados. A relatora acolheu
+      > 7. duas emendas da oposição. “Não aceitarei mudanças neste artigo”,
+      > 8. afirmou ela, ao tratar do dispositivo que define a fonte dos
+      > 9. recursos. O portal da Casa recebeu mais de duzentas sugestões de
+      > 10. cidadãos. A relatora prometeu examiná-las até o fim do mês.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      O período “A relatora acolheu duas emendas da oposição” (linhas 6 e 7) poderia ser reescrito, sem prejuízo da correção gramatical e do sentido original do texto, da seguinte forma: Duas emendas da oposição eram acolhidas pela relatora.
+  - id: q05
+    topico: conhecimentos-basicos/lp-reescrita-estrutura-e-formalidade
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a audiência pública de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A comissão especial do projeto das bibliotecas itinerantes
+      > 2. realizou ontem a sua terceira audiência pública. O presidente do
+      > 3. colegiado informou, no início dos trabalhos, que os convidados
+      > 4. haviam sido escolhidos na reunião anterior. A secretaria
+      > 5. distribuiu cópias do parecer aos presentes. Só os deputados
+      > 6. inscritos fizeram perguntas aos convidados. A relatora acolheu
+      > 7. duas emendas da oposição. “Não aceitarei mudanças neste artigo”,
+      > 8. afirmou ela, ao tratar do dispositivo que define a fonte dos
+      > 9. recursos. O portal da Casa recebeu mais de duzentas sugestões de
+      > 10. cidadãos. A relatora prometeu examiná-las até o fim do mês.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      Seriam mantidos a correção gramatical e o sentido original do texto caso o período “‘Não aceitarei mudanças neste artigo’, afirmou ela, ao tratar do dispositivo que define a fonte dos recursos” (linhas 7 a 9) fosse reescrito, em discurso indireto, da seguinte forma: Ela afirmou, ao tratar do dispositivo que define a fonte dos recursos, que não aceitaria mudanças naquele artigo.
+  - id: q06
+    topico: conhecimentos-basicos/lp-reescrita-estrutura-e-formalidade
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre a audiência pública de uma comissão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. A comissão especial do projeto das bibliotecas itinerantes
+      > 2. realizou ontem a sua terceira audiência pública. O presidente do
+      > 3. colegiado informou, no início dos trabalhos, que os convidados
+      > 4. haviam sido escolhidos na reunião anterior. A secretaria
+      > 5. distribuiu cópias do parecer aos presentes. Só os deputados
+      > 6. inscritos fizeram perguntas aos convidados. A relatora acolheu
+      > 7. duas emendas da oposição. “Não aceitarei mudanças neste artigo”,
+      > 8. afirmou ela, ao tratar do dispositivo que define a fonte dos
+      > 9. recursos. O portal da Casa recebeu mais de duzentas sugestões de
+      > 10. cidadãos. A relatora prometeu examiná-las até o fim do mês.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      Os dois últimos períodos do texto (linhas 9 e 10) poderiam ser reunidos em um só, sem prejuízo da correção gramatical e do sentido original do texto, da seguinte forma: Recebendo mais de duzentas sugestões de cidadãos, a relatora prometeu examiná-las até o fim do mês.
+  - id: q07
+    topico: conhecimentos-basicos/lp-reescrita-estrutura-e-formalidade
+    enunciado: |-
+      Texto para o item: mensagem fictícia que um servidor enviou aos colegas do seu setor, em um grupo de mensagens, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Pessoal, o fechamento do boletim ficou pra amanhã de manhã,
+      > 2. porque as fotos da audiência ainda não chegaram. A gente se
+      > 3. encontra às 9h, na sala de sempre. Se der, tragam o notebook.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      Caso se pretendesse transformar o texto II em comunicado formal do setor, a seguinte reescrita seria adequada ao novo nível de formalidade e preservaria todas as informações da mensagem original: Informamos que o fechamento do boletim foi adiado para amanhã de manhã. A equipe se reunirá às 9 horas, na sala habitual. Solicita-se aos servidores que tragam, se possível, o computador portátil.
+  - id: q08
+    topico: conhecimentos-basicos/lp-reescrita-estrutura-e-formalidade
+    enunciado: |-
+      Texto para o item: mensagem fictícia que um servidor enviou aos colegas do seu setor, em um grupo de mensagens, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. Pessoal, o fechamento do boletim ficou pra amanhã de manhã,
+      > 2. porque as fotos da audiência ainda não chegaram. A gente se
+      > 3. encontra às 9h, na sala de sempre. Se der, tragam o notebook.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No texto II, formas como “pra” (linha 1) e “A gente” (linha 2) são marcas de informalidade compatíveis com a situação comunicativa em que a mensagem foi produzida.

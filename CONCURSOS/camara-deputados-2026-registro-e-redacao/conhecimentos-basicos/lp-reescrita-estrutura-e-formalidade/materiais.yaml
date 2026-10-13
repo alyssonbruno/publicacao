@@ -1,0 +1,55 @@
+materiais:
+  - tipo: texto
+    titulo: "Reescrita: reorganizar orações e períodos, mudar de gênero e de nível de formalidade"
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: "Como fazer transposição de vozes verbais para acertar na prova (banca FCC)"
+    url: https://www.youtube.com/watch?v=yNA4BYbkDVQ
+    autor: Português com Letícia
+    duracao_min: 8
+    descricao: >-
+      Vídeo curto sobre a passagem da voz ativa para a passiva, pelo que o título anuncia, a
+      partir de questão da FCC, que é de múltipla escolha: no Cebraspe, a mesma troca vem como
+      item de certo ou errado sobre um trecho do texto. Veja depois da parte "Da voz ativa para
+      a passiva" e confira cada passo no esquema das três vozes. O vídeo não pôde ser assistido
+      por quem preparou a aula: se algo divergir do texto, fique com o texto. A ordem, os
+      períodos e a formalidade ficam só na aula.
+  - tipo: podcast
+    titulo: "'No princípio, criou Deus os céus e a terra': qual a regra de sintaxe e o uso do plural?"
+    url: https://podcasts.apple.com/br/podcast/no-princ%C3%ADpio-criou-deus-os-c%C3%A9us-e-a-terra-qual/id1227867522?i=1000787047651
+    audio: https://traffic.megaphone.fm/GLOBO6488432188.mp3
+    autor: Pasquale Cipro Neto (A Nossa Língua de Todo Dia, rádio CBN)
+    duracao_min: 16
+    descricao: >-
+      Um ouvinte pergunta por que o verbo vem antes do sujeito no versículo. Ouça de 1:50 a
+      6:15: o professor mostra a inversão ("criou Deus" em vez de "Deus criou"), repõe na ordem
+      direta o começo do Hino Nacional e lembra que as manchetes antigas punham o sujeito depois
+      do verbo. Ele diz "ordem indireta"; na aula e nos manuais, é "ordem inversa". O resto do
+      episódio (o plural "céus", canções, Machado de Assis) não é deste tópico. Começa com
+      anúncio; não trata de reescrita nem de prova.
+  - tipo: podcast
+    titulo: "É correto falar e escrever 'pra' e 'pro'?"
+    url: https://podcasts.apple.com/br/podcast/%C3%A9-correto-falar-e-escrever-pra-e-pro/id1227867522?i=1000770245494
+    audio: https://traffic.megaphone.fm/GLOBO2411098186.mp3
+    autor: Pasquale Cipro Neto (A Nossa Língua de Todo Dia, rádio CBN)
+    duracao_min: 12
+    descricao: >-
+      Uma forma, dois níveis de formalidade: "pra" e "pro" são comuns na fala e na escrita
+      informal (mensagem, bilhete, letra de canção) e não aparecem no texto técnico, jurídico ou
+      científico. A resposta começa perto de 2:40 e fecha com a comparação que vale guardar: a
+      língua é como a roupa, escolhida de acordo com a situação. Ouça depois da parte "Nível de
+      formalidade". Tem anúncio no começo e trechos de música; trata de um caso só e não mostra a
+      reescrita de um texto inteiro.
+  - tipo: link
+    titulo: "Manual de linguagem simples: como planejar, desenvolver e testar textos que funcionam"
+    url: https://bd.camara.leg.br/bd/bitstreams/e0d3210c-4891-40cc-9e1f-84f4e941a7c7/download
+    autor: Patrícia Roedel (Câmara dos Deputados, Edições Câmara)
+    descricao: >-
+      PDF gratuito da Biblioteca Digital da Câmara (2024); um trecho dele foi texto da prova da
+      Câmara de 2025. Leia só a parte "Desenvolver", nas diretrizes de estrutura das frases e de
+      escolha das palavras (voz ativa, ordem direta, frases intercaladas, frases afirmativas,
+      verbos substantivados): cada uma traz pares "antes e depois". Ao ler, pergunte de cada par
+      se a versão nova mantém toda a informação da antiga; em vários, ela corta de propósito.

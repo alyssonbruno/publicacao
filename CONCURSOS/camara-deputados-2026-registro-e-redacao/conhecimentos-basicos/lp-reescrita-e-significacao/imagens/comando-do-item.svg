@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="560" viewBox="0 0 912 560" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="560" fill="#ffffff"/>
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">O comando decide o gabarito</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Cada palavra do comando manda conferir uma coisa diferente</text>
+  <g transform="translate(24 84)">
+    <rect width="280" height="232" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="32" font-size="18" font-weight="700" fill="#1c5cab">Correção gramatical</text>
+    <text x="16" y="62" font-size="15" fill="#0b0b0b">A frase nova respeita</text>
+    <text x="16" y="82" font-size="15" fill="#0b0b0b">a norma-padrão?</text>
+    <text x="16" y="122" font-size="13" font-weight="700" fill="#52514e">CONFIRA</text>
+    <text x="16" y="146" font-size="15" fill="#0b0b0b">• concordância</text>
+    <text x="16" y="168" font-size="15" fill="#0b0b0b">• regência</text>
+    <text x="16" y="190" font-size="15" fill="#0b0b0b">• crase</text>
+    <text x="16" y="212" font-size="15" fill="#0b0b0b">• pontuação</text>
+  </g>
+  <g transform="translate(316 84)">
+    <rect width="280" height="232" rx="10" fill="#e2f5ec" stroke="#a9dcc5"/>
+    <text x="16" y="32" font-size="18" font-weight="700" fill="#12784f">Sentido</text>
+    <text x="16" y="62" font-size="15" fill="#0b0b0b">A frase nova diz</text>
+    <text x="16" y="82" font-size="15" fill="#0b0b0b">a mesma coisa?</text>
+    <text x="16" y="122" font-size="13" font-weight="700" fill="#52514e">CONFIRA</text>
+    <text x="16" y="146" font-size="15" fill="#0b0b0b">• sinônimos</text>
+    <text x="16" y="168" font-size="15" fill="#0b0b0b">• conectores</text>
+    <text x="16" y="190" font-size="15" fill="#0b0b0b">• tempo e modo do verbo</text>
+  </g>
+  <g transform="translate(608 84)">
+    <rect width="280" height="232" rx="10" fill="#fdf1d6" stroke="#f0d28a"/>
+    <text x="16" y="32" font-size="18" font-weight="700" fill="#8a5d00">Coerência</text>
+    <text x="16" y="62" font-size="15" fill="#0b0b0b">As ideias continuam combinando,</text>
+    <text x="16" y="82" font-size="15" fill="#0b0b0b">sem contradição?</text>
+    <text x="16" y="122" font-size="13" font-weight="700" fill="#52514e">CONFIRA</text>
+    <text x="16" y="146" font-size="15" fill="#0b0b0b">• a lógica do trecho</text>
+    <text x="16" y="168" font-size="15" fill="#0b0b0b">  com o resto do texto</text>
+  </g>
+  <g transform="translate(24 336)">
+    <rect width="864" height="150" rx="10" fill="#f9f9f7" stroke="#d9d8d3"/>
+    <text x="16" y="28" font-size="13" font-weight="700" fill="#52514e">EXEMPLO DA AULA</text>
+    <text x="16" y="54" font-size="16" fill="#0b0b0b">O relator apresentou um parecer <tspan font-weight="700">sucinto</tspan> sobre a medida provisória.</text>
+    <text x="16" y="80" font-size="15" fill="#0b0b0b">Troca proposta: <tspan font-weight="700">sucinto</tspan> → <tspan font-weight="700">superficial</tspan></text>
+    <g font-size="15" font-weight="700">
+      <text x="16" y="122" fill="#12784f">✓ mantém a correção</text>
+      <text x="308" y="122" fill="#c2410c">✗ não mantém o sentido</text>
+      <text x="600" y="122" fill="#12784f">✓ mantém a coerência</text>
+    </g>
+  </g>
+  <text x="24" y="518" font-size="15" fill="#0b0b0b">Comando com dois critérios ligados por <tspan font-weight="700">“e”</tspan>: os dois têm de se manter.</text>
+  <text x="24" y="540" font-size="15" fill="#0b0b0b">Basta um falhar para o item estar errado.</text>
+</svg>

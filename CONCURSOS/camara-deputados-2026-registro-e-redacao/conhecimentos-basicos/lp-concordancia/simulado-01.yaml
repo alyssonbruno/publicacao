@@ -1,0 +1,186 @@
+# Treino de concordância verbal e nominal — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Concordância verbal e nominal
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (notícia de uma sessão), no estilo de certo ou errado do Cebraspe: trecho do texto entre aspas, com remissão à linha, e uma afirmação por item, sobre a troca de uma forma e a correção gramatical ou sobre o termo com que uma forma concorda.'
+    - 'Referências de estilo, sem reprodução de itens: provas objetivas de Conhecimentos Gerais do Cebraspe para a Câmara dos Deputados (Edital nº 1/2025, nível superior, aplicada em 2026) e para Analista Judiciário do TRF da 6ª Região (edital de 2024, aplicada em 2025), com os gabaritos definitivos.'
+    - 'Bases do gabarito: Manual de Redação da Presidência da República, 3ª ed. (2018), item 11.7; Manual de Comunicação da Secom do Senado Federal, verbete Concordância verbal; Só Português, Sintaxe de concordância e Concordância nominal (casos particulares). Consultados em 12/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, havia poucas matérias na pauta, e a maioria dos
+      > 2. deputados registrou presença logo no início. A ata e o relatório
+      > 3. lidos pela secretária foram aprovados sem ressalvas. Falaram, em
+      > 4. seguida, o líder do governo e os vice-líderes, e a relatora, meio
+      > 5. cansada depois de bastantes horas de debate, informou que seguem
+      > 6. anexas ao parecer as notas técnicas. O prazo fixado pelos líderes
+      > 7. para a entrega dos destaques termina amanhã. Segundo a Mesa, pode
+      > 8. haver novos pedidos de vista, e faz duas semanas que os dois
+      > 9. projetos aguardam votação. Trata-se de propostas antigas, e é
+      > 10. necessária a assinatura de todos os líderes para que tramitem com
+      > 11. urgência.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “a maioria dos deputados registrou presença” (linhas 1 e 2), a substituição de “registrou” por registraram manteria a correção gramatical do texto.
+  - id: q02
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, havia poucas matérias na pauta, e a maioria dos
+      > 2. deputados registrou presença logo no início. A ata e o relatório
+      > 3. lidos pela secretária foram aprovados sem ressalvas. Falaram, em
+      > 4. seguida, o líder do governo e os vice-líderes, e a relatora, meio
+      > 5. cansada depois de bastantes horas de debate, informou que seguem
+      > 6. anexas ao parecer as notas técnicas. O prazo fixado pelos líderes
+      > 7. para a entrega dos destaques termina amanhã. Segundo a Mesa, pode
+      > 8. haver novos pedidos de vista, e faz duas semanas que os dois
+      > 9. projetos aguardam votação. Trata-se de propostas antigas, e é
+      > 10. necessária a assinatura de todos os líderes para que tramitem com
+      > 11. urgência.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      A correção gramatical do texto seria mantida caso a forma verbal “pode” (linha 7) fosse substituída por podem.
+  - id: q03
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, havia poucas matérias na pauta, e a maioria dos
+      > 2. deputados registrou presença logo no início. A ata e o relatório
+      > 3. lidos pela secretária foram aprovados sem ressalvas. Falaram, em
+      > 4. seguida, o líder do governo e os vice-líderes, e a relatora, meio
+      > 5. cansada depois de bastantes horas de debate, informou que seguem
+      > 6. anexas ao parecer as notas técnicas. O prazo fixado pelos líderes
+      > 7. para a entrega dos destaques termina amanhã. Segundo a Mesa, pode
+      > 8. haver novos pedidos de vista, e faz duas semanas que os dois
+      > 9. projetos aguardam votação. Trata-se de propostas antigas, e é
+      > 10. necessária a assinatura de todos os líderes para que tramitem com
+      > 11. urgência.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “seguem anexas ao parecer as notas técnicas” (linhas 5 e 6), o vocábulo “anexas” está flexionado no feminino plural porque concorda com “as notas técnicas”.
+  - id: q04
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, havia poucas matérias na pauta, e a maioria dos
+      > 2. deputados registrou presença logo no início. A ata e o relatório
+      > 3. lidos pela secretária foram aprovados sem ressalvas. Falaram, em
+      > 4. seguida, o líder do governo e os vice-líderes, e a relatora, meio
+      > 5. cansada depois de bastantes horas de debate, informou que seguem
+      > 6. anexas ao parecer as notas técnicas. O prazo fixado pelos líderes
+      > 7. para a entrega dos destaques termina amanhã. Segundo a Mesa, pode
+      > 8. haver novos pedidos de vista, e faz duas semanas que os dois
+      > 9. projetos aguardam votação. Trata-se de propostas antigas, e é
+      > 10. necessária a assinatura de todos os líderes para que tramitem com
+      > 11. urgência.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “O prazo fixado pelos líderes para a entrega dos destaques termina amanhã” (linhas 6 e 7), a forma verbal “termina” está no singular porque concorda com “entrega”, núcleo do sujeito da oração.
+  - id: q05
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, havia poucas matérias na pauta, e a maioria dos
+      > 2. deputados registrou presença logo no início. A ata e o relatório
+      > 3. lidos pela secretária foram aprovados sem ressalvas. Falaram, em
+      > 4. seguida, o líder do governo e os vice-líderes, e a relatora, meio
+      > 5. cansada depois de bastantes horas de debate, informou que seguem
+      > 6. anexas ao parecer as notas técnicas. O prazo fixado pelos líderes
+      > 7. para a entrega dos destaques termina amanhã. Segundo a Mesa, pode
+      > 8. haver novos pedidos de vista, e faz duas semanas que os dois
+      > 9. projetos aguardam votação. Trata-se de propostas antigas, e é
+      > 10. necessária a assinatura de todos os líderes para que tramitem com
+      > 11. urgência.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “depois de bastantes horas de debate” (linha 5), a substituição de “bastantes” por bastante manteria a correção gramatical do texto.
+  - id: q06
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, havia poucas matérias na pauta, e a maioria dos
+      > 2. deputados registrou presença logo no início. A ata e o relatório
+      > 3. lidos pela secretária foram aprovados sem ressalvas. Falaram, em
+      > 4. seguida, o líder do governo e os vice-líderes, e a relatora, meio
+      > 5. cansada depois de bastantes horas de debate, informou que seguem
+      > 6. anexas ao parecer as notas técnicas. O prazo fixado pelos líderes
+      > 7. para a entrega dos destaques termina amanhã. Segundo a Mesa, pode
+      > 8. haver novos pedidos de vista, e faz duas semanas que os dois
+      > 9. projetos aguardam votação. Trata-se de propostas antigas, e é
+      > 10. necessária a assinatura de todos os líderes para que tramitem com
+      > 11. urgência.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “Falaram, em seguida, o líder do governo e os vice-líderes” (linhas 3 e 4), a substituição de “Falaram” por Falou manteria a correção gramatical do texto.
+  - id: q07
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, havia poucas matérias na pauta, e a maioria dos
+      > 2. deputados registrou presença logo no início. A ata e o relatório
+      > 3. lidos pela secretária foram aprovados sem ressalvas. Falaram, em
+      > 4. seguida, o líder do governo e os vice-líderes, e a relatora, meio
+      > 5. cansada depois de bastantes horas de debate, informou que seguem
+      > 6. anexas ao parecer as notas técnicas. O prazo fixado pelos líderes
+      > 7. para a entrega dos destaques termina amanhã. Segundo a Mesa, pode
+      > 8. haver novos pedidos de vista, e faz duas semanas que os dois
+      > 9. projetos aguardam votação. Trata-se de propostas antigas, e é
+      > 10. necessária a assinatura de todos os líderes para que tramitem com
+      > 11. urgência.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “A ata e o relatório lidos pela secretária foram aprovados” (linhas 2 e 3), a substituição de “lidos” por lido manteria a correção gramatical do texto.
+  - id: q08
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Texto para o item: notícia fictícia sobre uma sessão, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Na sessão de ontem, havia poucas matérias na pauta, e a maioria dos
+      > 2. deputados registrou presença logo no início. A ata e o relatório
+      > 3. lidos pela secretária foram aprovados sem ressalvas. Falaram, em
+      > 4. seguida, o líder do governo e os vice-líderes, e a relatora, meio
+      > 5. cansada depois de bastantes horas de debate, informou que seguem
+      > 6. anexas ao parecer as notas técnicas. O prazo fixado pelos líderes
+      > 7. para a entrega dos destaques termina amanhã. Segundo a Mesa, pode
+      > 8. haver novos pedidos de vista, e faz duas semanas que os dois
+      > 9. projetos aguardam votação. Trata-se de propostas antigas, e é
+      > 10. necessária a assinatura de todos os líderes para que tramitem com
+      > 11. urgência.
+
+      Com base no texto e em seus aspectos linguísticos, julgue o item.
+
+      No trecho “Trata-se de propostas antigas” (linha 9), a forma verbal poderia ser flexionada no plural — Tratam-se —, sem prejuízo da correção gramatical do texto.

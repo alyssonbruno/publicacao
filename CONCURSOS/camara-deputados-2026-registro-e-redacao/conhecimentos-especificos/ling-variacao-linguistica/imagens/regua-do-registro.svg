@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="470" viewBox="0 0 912 470" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="470" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">O registro é uma régua, e não dois compartimentos</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">A mesma pessoa, em quatro situações faladas e quatro escritas (exemplos nossos)</text>
+
+  <!-- Régua -->
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#fdf0e6"/>
+      <stop offset="1" stop-color="#b8cfee"/>
+    </linearGradient>
+  </defs>
+  <rect x="150" y="92" width="738" height="26" rx="13" fill="url(#g)" stroke="#b8cfee"/>
+  <text x="162" y="110" font-size="13" font-weight="700" fill="#b4501f">menos monitorado: informal</text>
+  <text x="876" y="110" font-size="13" font-weight="700" fill="#1c5cab" text-anchor="end">mais monitorado: formal</text>
+
+  <!-- Rótulos das linhas -->
+  <g font-size="16" font-weight="700" fill="#52514e">
+    <text x="24" y="196">Na fala</text>
+    <text x="24" y="336">Na escrita</text>
+  </g>
+
+  <!-- Linha da fala -->
+  <g font-size="13" fill="#0b0b0b">
+    <g transform="translate(150 140)">
+      <rect width="174" height="96" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+      <text x="12" y="26" font-size="14" font-weight="700">Conversa no café</text>
+      <text x="12" y="52">"Cê viu a pauta</text>
+      <text x="12" y="72">de hoje? Tá pesada."</text>
+    </g>
+    <g transform="translate(338 140)">
+      <rect width="174" height="96" rx="10" fill="#f8efe6" stroke="#e6cdb9"/>
+      <text x="12" y="26" font-size="14" font-weight="700">Reunião da equipe</text>
+      <text x="12" y="52">"Pessoal, a pauta de</text>
+      <text x="12" y="72">hoje está bem cheia."</text>
+    </g>
+    <g transform="translate(526 140)">
+      <rect width="174" height="96" rx="10" fill="#eef1f4" stroke="#c9d3df"/>
+      <text x="12" y="26" font-size="14" font-weight="700">Reunião de comissão</text>
+      <text x="12" y="52">"Presidente, a pauta</text>
+      <text x="12" y="72">de hoje é extensa."</text>
+    </g>
+    <g transform="translate(714 140)">
+      <rect width="174" height="96" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+      <text x="12" y="26" font-size="14" font-weight="700">Discurso na tribuna</text>
+      <text x="12" y="52">"Senhor Presidente, é</text>
+      <text x="12" y="72">extensa a pauta de hoje."</text>
+    </g>
+  </g>
+
+  <!-- Linha da escrita -->
+  <g font-size="13" fill="#0b0b0b">
+    <g transform="translate(150 280)">
+      <rect width="174" height="96" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+      <text x="12" y="26" font-size="14" font-weight="700">Bilhete a um amigo</text>
+      <text x="12" y="52">"Te espero na saída</text>
+      <text x="12" y="72">pra gente almoçar."</text>
+    </g>
+    <g transform="translate(338 280)">
+      <rect width="174" height="96" rx="10" fill="#f8efe6" stroke="#e6cdb9"/>
+      <text x="12" y="26" font-size="14" font-weight="700">E-mail a um colega</text>
+      <text x="12" y="52">"Oi, segue a minuta</text>
+      <text x="12" y="72">para você revisar."</text>
+    </g>
+    <g transform="translate(526 280)">
+      <rect width="174" height="96" rx="10" fill="#eef1f4" stroke="#c9d3df"/>
+      <text x="12" y="26" font-size="14" font-weight="700">E-mail à chefia</text>
+      <text x="12" y="52">"Prezada diretora,</text>
+      <text x="12" y="72">encaminho a minuta."</text>
+    </g>
+    <g transform="translate(714 280)">
+      <rect width="174" height="96" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+      <text x="12" y="26" font-size="14" font-weight="700">Ofício</text>
+      <text x="12" y="52">"Encaminho, em anexo,</text>
+      <text x="12" y="72">a minuta do parecer."</text>
+    </g>
+  </g>
+
+  <!-- Pé -->
+  <line x1="24" y1="400" x2="888" y2="400" stroke="#e1e0d9"/>
+  <text x="24" y="426" font-size="14" fill="#0b0b0b">Há fala formal e escrita informal: <tspan font-weight="700">o registro não depende de o texto ser falado ou escrito</tspan>.</text>
+  <text x="24" y="450" font-size="14" fill="#0b0b0b">Entre os dois extremos há graus: o que muda é quanta atenção a pessoa dá à forma como diz.</text>
+</svg>

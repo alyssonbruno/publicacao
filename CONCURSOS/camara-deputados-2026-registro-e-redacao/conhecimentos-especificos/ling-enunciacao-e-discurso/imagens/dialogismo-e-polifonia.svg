@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="600" viewBox="0 0 912 600" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="600" fill="#ffffff"/>
+
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Dialogismo e os dois sentidos de polifonia</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">As fontes não usam “polifonia” do mesmo jeito. Confira de quem é a definição.</text>
+
+  <g transform="translate(24 84)">
+    <rect width="280" height="380" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="32" font-size="17" font-weight="700" fill="#1c5cab">Dialogismo</text>
+    <text x="16" y="54" font-size="13" fill="#52514e">Bakhtin; Barros; Marcuzzo</text>
+    <line x1="16" y1="68" x2="264" y2="68" stroke="#b8cfee"/>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="98" font-weight="700">O que é</text>
+      <text x="16" y="120">Princípio constitutivo da</text>
+      <text x="16" y="140">linguagem e de todo discurso.</text>
+      <text x="16" y="176" font-weight="700">Onde está</text>
+      <text x="16" y="198">Em <tspan font-weight="700">todo</tspan> enunciado: cada um</text>
+      <text x="16" y="218">responde a outros e espera</text>
+      <text x="16" y="238">resposta.</text>
+      <text x="16" y="274" font-weight="700">Não confunda</text>
+      <text x="16" y="296">Não é conversa face a face.</text>
+      <text x="16" y="316">Não é concordância: inclui</text>
+      <text x="16" y="336">acordo e polêmica.</text>
+      <text x="16" y="356">Não depende de citação visível.</text>
+    </g>
+  </g>
+
+  <g transform="translate(316 84)">
+    <rect width="280" height="380" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="16" y="32" font-size="17" font-weight="700" fill="#b4501f">Polifonia, sentido estrito</text>
+    <text x="16" y="54" font-size="13" fill="#52514e">Bakhtin sobre Dostoiévski; Maciel</text>
+    <line x1="16" y1="68" x2="264" y2="68" stroke="#f0c3a6"/>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="98" font-weight="700">O que é</text>
+      <text x="16" y="120">Modo de compor o romance:</text>
+      <text x="16" y="140">vozes plenas e independentes,</text>
+      <text x="16" y="160">em igualdade com a do autor.</text>
+      <text x="16" y="196" font-weight="700">Onde está</text>
+      <text x="16" y="218">Em <tspan font-weight="700">alguns</tspan> romances. Ninguém</text>
+      <text x="16" y="238">dá a última palavra: o diálogo</text>
+      <text x="16" y="258">fica inconcluso.</text>
+      <text x="16" y="294" font-weight="700">Não confunda</text>
+      <text x="16" y="316">Não basta haver várias vozes,</text>
+      <text x="16" y="336">nem vozes em conflito, nem</text>
+      <text x="16" y="356">vozes citadas às claras.</text>
+    </g>
+  </g>
+
+  <g transform="translate(608 84)">
+    <rect width="280" height="380" rx="10" fill="#e4f5ee" stroke="#a9dcc8"/>
+    <text x="16" y="32" font-size="17" font-weight="700" fill="#0f7a55">Polifonia, sentido largo</text>
+    <text x="16" y="54" font-size="13" fill="#52514e">Barros; aula da UFS</text>
+    <line x1="16" y1="68" x2="264" y2="68" stroke="#a9dcc8"/>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="98" font-weight="700">O que é</text>
+      <text x="16" y="120">Efeito de sentido de certos</text>
+      <text x="16" y="140">textos: as vozes se mostram.</text>
+      <text x="16" y="176" font-weight="700">Onde está</text>
+      <text x="16" y="198">Em <tspan font-weight="700">alguns</tspan> textos, de qualquer</text>
+      <text x="16" y="218">gênero. Exemplo: as notas</text>
+      <text x="16" y="238">taquigráficas de um debate.</text>
+      <text x="16" y="274" font-weight="700">O oposto</text>
+      <text x="16" y="296">Texto monofônico: as vozes se</text>
+      <text x="16" y="316">escondem sob uma voz só.</text>
+      <text x="16" y="336">Exemplo: a ementa de uma lei.</text>
+    </g>
+  </g>
+
+  <line x1="24" y1="488" x2="888" y2="488" stroke="#e1e0d9"/>
+  <text x="24" y="516" font-size="14" fill="#0b0b0b">Nos dois sentidos: <tspan font-weight="700">todo texto é dialógico, mas nem todo texto é polifônico</tspan>.</text>
+  <text x="24" y="542" font-size="14" fill="#0b0b0b">Dialogismo e polifonia <tspan font-weight="700">não são sinônimos</tspan>.</text>
+  <text x="24" y="576" font-size="13" fill="#52514e">Maciel (2016) discorda de Barros. Os exemplos das notas taquigráficas e da ementa são desta aula.</text>
+</svg>

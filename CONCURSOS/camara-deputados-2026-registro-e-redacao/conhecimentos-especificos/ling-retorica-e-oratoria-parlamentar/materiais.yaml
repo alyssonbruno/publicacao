@@ -1,0 +1,59 @@
+materiais:
+  - tipo: texto
+    titulo: Retórica e oratória parlamentar
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: 20 - A Retórica de Aristóteles | UFPE
+    url: https://www.youtube.com/watch?v=QsQ0HaxjBKo&t=19m30s
+    autor: Cedric Ayres
+    duracao_min: 43
+    descricao: >-
+      Aula gravada numa disciplina de Introdução à Filosofia do curso de Direito da UFPE. O
+      endereço já abre em 19:30; daí até o fim são 24 minutos. Pelos capítulos da descrição do
+      vídeo, esse trecho trata de exemplo e entimema, de ethos, pathos e logos e dos três gêneros
+      (político ou deliberativo, jurídico e epidítico). Não conferimos o conteúdo (o vídeo não pôde
+      ser assistido nem lido por legenda): se algo divergir do texto da aula, vale o texto. As
+      partes do discurso, a lista do manual do Senado e a oratória parlamentar não estão entre os
+      capítulos: ficam no texto.
+  - tipo: video
+    titulo: Nova Retórica, com Prof. Filipe Mantovani (IFSP), parte 1
+    url: https://www.youtube.com/watch?v=OsST6rOho3I
+    autor: Centro de Estudos de Argumentação e Discurso
+    duracao_min: 37
+    descricao: >-
+      Opcional, para depois do texto. Videoaula de um curso de pós-graduação em Letras (UFS) que,
+      segundo a descrição, apresenta as bases da Nova Retórica de Perelman e Olbrechts-Tyteca, de
+      onde vêm as noções de orador, auditório e acordo usadas na aula. Nível mais alto que o do
+      primeiro vídeo e sem capítulos. Não conferimos o conteúdo (o vídeo não pôde ser assistido nem
+      lido por legenda) e não sabemos se ele chega a exemplos de discurso político.
+  - tipo: link
+    titulo: Manual de Redação Parlamentar e Legislativa (Senado Federal, 2006)
+    url: https://www12.senado.leg.br/institucional/estrutura/SF/OAS/CONLEG/arquivos/manuais/manual-de-redacao-parlamentar-e-legislativa
+    autor: Consultoria Legislativa do Senado Federal
+    descricao: >-
+      PDF de 133 páginas. Leia só a seção "Pronunciamentos" (p. 31 a 44), base da parte de oratória
+      parlamentar desta aula. Os exemplos das p. 104 a 121 são pronunciamentos reais de senadores
+      da época, um de cada tipo: servem para ver a estrutura, não para decorar. Atenção a dois
+      pontos em que o manual se afasta da retórica clássica, explicados no texto: a lista de tipos
+      de discurso (deliberativo, de propaganda e epidítico) e a narração "também conhecida como
+      argumentação". É do Senado, não da Câmara, e a grafia é anterior ao Acordo Ortográfico.
+  - tipo: link
+    titulo: Introdução à Retórica no Séc. XXI (Samuel Mateus, 2018)
+    url: https://www.labcom.ubi.pt/ficheiros/201804271553-201807_introretorica_smateus.pdf
+    autor: Samuel Mateus (LabCom, Universidade da Beira Interior)
+    descricao: >-
+      Livro em PDF gratuito no site da editora universitária. Para aprofundar, leia só o capítulo 4,
+      "O sistema retórico" (p. 89 a 123): gêneros, com o quadro comparativo, provas (logos, ethos e
+      pathos), os cinco cânones e as partes do discurso. Português de Portugal (género, epidíctico,
+      acção). Não trata de parlamento.
+  - tipo: link
+    titulo: Debates históricos (discursos do Plenário da Câmara)
+    url: https://www2.camara.leg.br/atividade-legislativa/plenario/discursos/escrevendohistoria
+    autor: Câmara dos Deputados
+    descricao: >-
+      Acervo oficial de discursos em destaque do Plenário, para o exercício da revisão de 30 dias.
+      Não é texto de estudo. Escolha um discurso antigo, de preferência de comemoração ou de
+      homenagem, e responda às seis perguntas da análise que estão no fim do texto da aula.

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1000" height="540" fill="#ffffff"/>
+  <text x="24" y="36" font-size="21" font-weight="700" fill="#0b0b0b">Macro e microestrutura: duas acepções</text>
+
+  <!-- Cabeçalhos -->
+  <rect x="184" y="56" width="388" height="64" rx="10" fill="#1c5cab"/>
+  <text x="378" y="84" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">Linguística Textual</text>
+  <text x="378" y="106" font-size="13" fill="#ffffff" text-anchor="middle">van Dijk e Kintsch</text>
+  <rect x="588" y="56" width="388" height="64" rx="10" fill="#b4501f"/>
+  <text x="782" y="84" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">Correção de prova discursiva</text>
+  <text x="782" y="106" font-size="13" fill="#ffffff" text-anchor="middle">segundo material de curso preparatório sobre o Cebraspe</text>
+
+  <!-- Linha micro -->
+  <rect x="24" y="132" width="148" height="92" rx="10" fill="#f1f0ec"/>
+  <text x="98" y="184" font-size="16" font-weight="700" fill="#0b0b0b" text-anchor="middle">Micro</text>
+  <rect x="184" y="132" width="388" height="92" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+  <rect x="588" y="132" width="388" height="92" rx="10" fill="#fdf0e6" stroke="#f0c9a8"/>
+  <g font-size="14" fill="#0b0b0b">
+    <text x="200" y="160">O nível <tspan font-weight="700">local do sentido</tspan>: as proposições</text>
+    <text x="200" y="182">e as ligações entre frases vizinhas.</text>
+    <text x="200" y="208" font-weight="700">Coerência local.</text>
+    <text x="604" y="160"><tspan font-weight="700">Ortografia, morfossintaxe</tspan> e</text>
+    <text x="604" y="182"><tspan font-weight="700">propriedade vocabular</tspan>.</text>
+    <text x="604" y="208">Geram desconto por erro.</text>
+  </g>
+
+  <!-- Linha macro -->
+  <rect x="24" y="236" width="148" height="92" rx="10" fill="#f1f0ec"/>
+  <text x="98" y="288" font-size="16" font-weight="700" fill="#0b0b0b" text-anchor="middle">Macro</text>
+  <rect x="184" y="236" width="388" height="92" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+  <rect x="588" y="236" width="388" height="92" rx="10" fill="#fdf0e6" stroke="#f0c9a8"/>
+  <g font-size="14" fill="#0b0b0b">
+    <text x="200" y="264">O <tspan font-weight="700">sentido global</tspan>: o tema e o resumo</text>
+    <text x="200" y="286">do texto, a organização temática.</text>
+    <text x="200" y="312" font-weight="700">Coerência global.</text>
+    <text x="604" y="264"><tspan font-weight="700">Apresentação</tspan> e</text>
+    <text x="604" y="286"><tspan font-weight="700">desenvolvimento do tema</tspan>.</text>
+    <text x="604" y="312">Formam a nota de conteúdo.</text>
+  </g>
+
+  <!-- Linha terceiro nível -->
+  <rect x="24" y="340" width="148" height="70" rx="10" fill="#f1f0ec"/>
+  <text x="98" y="372" font-size="15" font-weight="700" fill="#0b0b0b" text-anchor="middle">Terceiro</text>
+  <text x="98" y="392" font-size="15" font-weight="700" fill="#0b0b0b" text-anchor="middle">nível</text>
+  <rect x="184" y="340" width="388" height="70" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+  <rect x="588" y="340" width="388" height="70" rx="10" fill="#fdf0e6" stroke="#f0c9a8"/>
+  <g font-size="14" fill="#0b0b0b">
+    <text x="200" y="368"><tspan font-weight="700">Superestrutura</tspan>: o esquema do tipo</text>
+    <text x="200" y="390">de texto (narração, argumentação...).</text>
+    <text x="604" y="380">Não há.</text>
+  </g>
+
+  <!-- Linha para que serve -->
+  <rect x="24" y="422" width="148" height="52" rx="10" fill="#f1f0ec"/>
+  <text x="98" y="454" font-size="15" font-weight="700" fill="#0b0b0b" text-anchor="middle">Para que serve</text>
+  <rect x="184" y="422" width="388" height="52" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+  <rect x="588" y="422" width="388" height="52" rx="10" fill="#fdf0e6" stroke="#f0c9a8"/>
+  <g font-size="14" fill="#0b0b0b">
+    <text x="200" y="453">Descrever como se compreende e se resume.</text>
+    <text x="604" y="453">Dar nota a um texto.</text>
+  </g>
+
+  <!-- Pé -->
+  <text x="24" y="502" font-size="14" fill="#0b0b0b">Nas duas, micro é o miúdo e macro é o todo. Mas a coerência local é “micro” só na primeira.</text>
+  <text x="24" y="524" font-size="14" fill="#0b0b0b" font-weight="700">O edital não diz qual acepção cobra no item 6.1.</text>
+</svg>

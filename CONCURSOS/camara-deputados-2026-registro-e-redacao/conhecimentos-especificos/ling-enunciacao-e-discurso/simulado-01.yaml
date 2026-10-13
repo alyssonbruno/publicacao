@@ -1,0 +1,160 @@
+# Treino de teoria da enunciação e análise do discurso — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Teoria da enunciação e análise do discurso
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (fala da presidente de uma comissão e trecho da ata que a registra) e sobre conceitos do edital, no estilo de certo ou errado do Cebraspe: palavras do texto entre aspas, com remissão à linha, e uma afirmação por item.'
+    - 'Não foi achado item do Cebraspe que cobre diretamente enunciação e enunciado, dialogismo ou esferas: o estilo segue o molde geral de certo ou errado da banca. Referências de estilo, sem reprodução de itens: cadernos de conhecimentos específicos da Câmara dos Deputados 2012, Analista Legislativo – Taquígrafo Legislativo (Cespe/UnB), e da Fundação Inoversa Sul (edital de 2024, aplicado em 2025), cargo de Professor de Língua Portuguesa, com os gabaritos definitivos.'
+    - 'Bases do gabarito: Flores, A enunciação escrita em Benveniste (D.E.L.T.A., 2018); Cabral, Enunciação: entraves para os estudos discursivos (Littera on line, UFMA, 2012); Marcuzzo, Diálogo inconcluso: os conceitos de dialogismo e polifonia na obra de Mikhail Bakhtin (Cadernos do IL, UFRGS, 2008); Grillo, Divulgação científica na esfera midiática (Intercâmbio, PUC-SP, 2006); Farias e Oliveira, Gêneros textuais e o livro didático (Eutomia, UFPE, 2013); Manual de Redação da Presidência da República, 3ª ed. (2018). Consultados em 12/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/ling-enunciacao-e-discurso
+    enunciado: |-
+      Texto para o item: registros fictícios de uma mesma reunião de comissão, realizada em 7 de outubro de 2026, com as linhas numeradas. Linhas 1 a 5: fala da presidente da comissão, como consta das notas taquigráficas. Linhas 6 a 12: trecho da ata da reunião.
+
+      > **Texto I**
+      >
+      > 1. Eu recebi anteontem, neste plenário, o abaixo-assinado dos
+      > 2. bibliotecários. Eles pedem um debate sobre a acessibilidade dos
+      > 3. acervos, e comunico agora a Vossas Excelências que a audiência pública
+      > 4. será realizada amanhã, aqui mesmo. Sei que haverá quem reclame da
+      > 5. demora, mas o pedido foi lido e vai ser atendido.
+      > 6. A Presidente da Comissão informou que recebera, em 5 de outubro de
+      > 7. 2026, no Plenário 10 do Anexo II, abaixo-assinado de bibliotecários
+      > 8. que pediam debate sobre a acessibilidade dos acervos e comunicou aos
+      > 9. membros do colegiado que a audiência pública seria realizada em 8 de
+      > 10. outubro de 2026, também no Plenário 10. Disse saber que haveria
+      > 11. reclamações quanto à demora e declarou que o pedido fora lido e
+      > 12. seria atendido.
+
+      Com base no texto e nos conceitos da teoria da enunciação e da análise do discurso, julgue o item.
+
+      Se, na reunião seguinte da comissão, a presidente proferisse de novo, com as mesmas palavras, a fala das linhas 1 a 5, haveria, na perspectiva da teoria da enunciação de Benveniste, a mesma enunciação, uma vez que, nessa teoria, a enunciação corresponde ao que foi dito, e não ao ato de dizê-lo.
+  - id: q02
+    topico: conhecimentos-especificos/ling-enunciacao-e-discurso
+    enunciado: |-
+      Texto para o item: registros fictícios de uma mesma reunião de comissão, realizada em 7 de outubro de 2026, com as linhas numeradas. Linhas 1 a 5: fala da presidente da comissão, como consta das notas taquigráficas. Linhas 6 a 12: trecho da ata da reunião.
+
+      > **Texto I**
+      >
+      > 1. Eu recebi anteontem, neste plenário, o abaixo-assinado dos
+      > 2. bibliotecários. Eles pedem um debate sobre a acessibilidade dos
+      > 3. acervos, e comunico agora a Vossas Excelências que a audiência pública
+      > 4. será realizada amanhã, aqui mesmo. Sei que haverá quem reclame da
+      > 5. demora, mas o pedido foi lido e vai ser atendido.
+      > 6. A Presidente da Comissão informou que recebera, em 5 de outubro de
+      > 7. 2026, no Plenário 10 do Anexo II, abaixo-assinado de bibliotecários
+      > 8. que pediam debate sobre a acessibilidade dos acervos e comunicou aos
+      > 9. membros do colegiado que a audiência pública seria realizada em 8 de
+      > 10. outubro de 2026, também no Plenário 10. Disse saber que haveria
+      > 11. reclamações quanto à demora e declarou que o pedido fora lido e
+      > 12. seria atendido.
+
+      Com base no texto e nos conceitos da teoria da enunciação e da análise do discurso, julgue o item.
+
+      As formas “anteontem” (linha 1), “amanhã” (linha 4) e “aqui” (linha 4) só têm a referência determinada pela situação em que a fala foi proferida, o que explica a sua substituição, no trecho da ata (linhas 6 a 12), por datas e pela indicação do local.
+  - id: q03
+    topico: conhecimentos-especificos/ling-enunciacao-e-discurso
+    enunciado: |-
+      Texto para o item: registros fictícios de uma mesma reunião de comissão, realizada em 7 de outubro de 2026, com as linhas numeradas. Linhas 1 a 5: fala da presidente da comissão, como consta das notas taquigráficas. Linhas 6 a 12: trecho da ata da reunião.
+
+      > **Texto I**
+      >
+      > 1. Eu recebi anteontem, neste plenário, o abaixo-assinado dos
+      > 2. bibliotecários. Eles pedem um debate sobre a acessibilidade dos
+      > 3. acervos, e comunico agora a Vossas Excelências que a audiência pública
+      > 4. será realizada amanhã, aqui mesmo. Sei que haverá quem reclame da
+      > 5. demora, mas o pedido foi lido e vai ser atendido.
+      > 6. A Presidente da Comissão informou que recebera, em 5 de outubro de
+      > 7. 2026, no Plenário 10 do Anexo II, abaixo-assinado de bibliotecários
+      > 8. que pediam debate sobre a acessibilidade dos acervos e comunicou aos
+      > 9. membros do colegiado que a audiência pública seria realizada em 8 de
+      > 10. outubro de 2026, também no Plenário 10. Disse saber que haveria
+      > 11. reclamações quanto à demora e declarou que o pedido fora lido e
+      > 12. seria atendido.
+
+      Com base no texto e nos conceitos da teoria da enunciação e da análise do discurso, julgue o item.
+
+      Na teoria da enunciação de Benveniste, “Eu” (linha 1) e “Vossas Excelências” (linha 3) designam, respectivamente, o locutor e o alocutário, ao passo que “Eles” (linha 2), que retoma “bibliotecários”, corresponde à chamada não pessoa.
+  - id: q04
+    topico: conhecimentos-especificos/ling-enunciacao-e-discurso
+    enunciado: |-
+      Texto para o item: registros fictícios de uma mesma reunião de comissão, realizada em 7 de outubro de 2026, com as linhas numeradas. Linhas 1 a 5: fala da presidente da comissão, como consta das notas taquigráficas. Linhas 6 a 12: trecho da ata da reunião.
+
+      > **Texto I**
+      >
+      > 1. Eu recebi anteontem, neste plenário, o abaixo-assinado dos
+      > 2. bibliotecários. Eles pedem um debate sobre a acessibilidade dos
+      > 3. acervos, e comunico agora a Vossas Excelências que a audiência pública
+      > 4. será realizada amanhã, aqui mesmo. Sei que haverá quem reclame da
+      > 5. demora, mas o pedido foi lido e vai ser atendido.
+      > 6. A Presidente da Comissão informou que recebera, em 5 de outubro de
+      > 7. 2026, no Plenário 10 do Anexo II, abaixo-assinado de bibliotecários
+      > 8. que pediam debate sobre a acessibilidade dos acervos e comunicou aos
+      > 9. membros do colegiado que a audiência pública seria realizada em 8 de
+      > 10. outubro de 2026, também no Plenário 10. Disse saber que haveria
+      > 11. reclamações quanto à demora e declarou que o pedido fora lido e
+      > 12. seria atendido.
+
+      Com base no texto e nos conceitos da teoria da enunciação e da análise do discurso, julgue o item.
+
+      Como o trecho da ata (linhas 6 a 12) é redigido em terceira pessoa e sem formas como “eu”, “agora” e “aqui”, conclui-se que, diferentemente da fala das linhas 1 a 5, ele não tem enunciador.
+  - id: q05
+    topico: conhecimentos-especificos/ling-enunciacao-e-discurso
+    enunciado: |-
+      Acerca dos conceitos da teoria da enunciação e da análise do discurso, julgue o item.
+
+      No que se refere à enunciação escrita, a leitura que Flores faz de Benveniste sustenta que a situação de produção e a situação de leitura não coincidem: quem escreve e quem lê estão separados em tempo, espaço e pessoa.
+  - id: q06
+    topico: conhecimentos-especificos/ling-enunciacao-e-discurso
+    enunciado: |-
+      Texto para o item: registros fictícios de uma mesma reunião de comissão, realizada em 7 de outubro de 2026, com as linhas numeradas. Linhas 1 a 5: fala da presidente da comissão, como consta das notas taquigráficas. Linhas 6 a 12: trecho da ata da reunião.
+
+      > **Texto I**
+      >
+      > 1. Eu recebi anteontem, neste plenário, o abaixo-assinado dos
+      > 2. bibliotecários. Eles pedem um debate sobre a acessibilidade dos
+      > 3. acervos, e comunico agora a Vossas Excelências que a audiência pública
+      > 4. será realizada amanhã, aqui mesmo. Sei que haverá quem reclame da
+      > 5. demora, mas o pedido foi lido e vai ser atendido.
+      > 6. A Presidente da Comissão informou que recebera, em 5 de outubro de
+      > 7. 2026, no Plenário 10 do Anexo II, abaixo-assinado de bibliotecários
+      > 8. que pediam debate sobre a acessibilidade dos acervos e comunicou aos
+      > 9. membros do colegiado que a audiência pública seria realizada em 8 de
+      > 10. outubro de 2026, também no Plenário 10. Disse saber que haveria
+      > 11. reclamações quanto à demora e declarou que o pedido fora lido e
+      > 12. seria atendido.
+
+      Com base no texto e nos conceitos da teoria da enunciação e da análise do discurso, julgue o item.
+
+      No âmbito da teoria da enunciação e da análise do discurso, o termo “discurso” designa o modo de reproduzir, em um texto, a fala de outra pessoa, como se observa nas linhas 6 a 12, em que a fala da presidente é relatada de forma indireta.
+  - id: q07
+    topico: conhecimentos-especificos/ling-enunciacao-e-discurso
+    enunciado: |-
+      Acerca dos conceitos da teoria da enunciação e da análise do discurso, julgue o item.
+
+      Na perspectiva do Círculo de Bakhtin, a ata de reunião é exemplo de esfera social de comunicação, e a atividade parlamentar é o gênero do discurso em que essa esfera se realiza.
+  - id: q08
+    topico: conhecimentos-especificos/ling-enunciacao-e-discurso
+    enunciado: |-
+      Texto para o item: registros fictícios de uma mesma reunião de comissão, realizada em 7 de outubro de 2026, com as linhas numeradas. Linhas 1 a 5: fala da presidente da comissão, como consta das notas taquigráficas. Linhas 6 a 12: trecho da ata da reunião.
+
+      > **Texto I**
+      >
+      > 1. Eu recebi anteontem, neste plenário, o abaixo-assinado dos
+      > 2. bibliotecários. Eles pedem um debate sobre a acessibilidade dos
+      > 3. acervos, e comunico agora a Vossas Excelências que a audiência pública
+      > 4. será realizada amanhã, aqui mesmo. Sei que haverá quem reclame da
+      > 5. demora, mas o pedido foi lido e vai ser atendido.
+      > 6. A Presidente da Comissão informou que recebera, em 5 de outubro de
+      > 7. 2026, no Plenário 10 do Anexo II, abaixo-assinado de bibliotecários
+      > 8. que pediam debate sobre a acessibilidade dos acervos e comunicou aos
+      > 9. membros do colegiado que a audiência pública seria realizada em 8 de
+      > 10. outubro de 2026, também no Plenário 10. Disse saber que haveria
+      > 11. reclamações quanto à demora e declarou que o pedido fora lido e
+      > 12. seria atendido.
+
+      Com base no texto e nos conceitos da teoria da enunciação e da análise do discurso, julgue o item.
+
+      No trecho “Sei que haverá quem reclame da demora, mas o pedido foi lido e vai ser atendido” (linhas 4 e 5), a presidente antecipa uma objeção e já responde a ela, o que ilustra, na perspectiva do Círculo de Bakhtin, o dialogismo, entendido como a relação de todo enunciado com outros enunciados, e não como conversa face a face.

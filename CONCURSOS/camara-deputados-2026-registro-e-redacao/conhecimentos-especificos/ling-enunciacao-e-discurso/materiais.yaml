@@ -1,0 +1,79 @@
+materiais:
+  - tipo: texto
+    titulo: "Teoria da enunciação e análise do discurso: enunciado, texto, dialogismo e polifonia"
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: Enunciação 1/5 - Cursos Livres Univesp TV
+    url: https://www.youtube.com/watch?v=0FmN3h6GM80
+    autor: José Luiz Fiorin (USP), canal UNIVESP
+    duracao_min: 31
+    descricao: >-
+      Primeira aula do curso livre "Enunciação", de 2012. Pela descrição do vídeo, Fiorin
+      apresenta o conceito de enunciação a partir de Benveniste e anuncia as categorias de
+      pessoa, tempo e espaço. Não foi possível assistir ao vídeo nem ler a legenda antes de
+      publicar: a indicação vale pelo professor, pelo canal e pela descrição. Veja depois das
+      partes sobre enunciação e enunciado do texto. O curso pode usar termos da semiótica (como
+      "debreagem") que o edital não pede. Dialogismo, polifonia, texto e discurso e esferas
+      ficam no texto da aula.
+  - tipo: video
+    titulo: Dialogismo e Polifonia - Teoria de BAKHTIN (5 principais DIFERENÇAS)
+    url: https://www.youtube.com/watch?v=CQH7dkd2h6g
+    autor: Saber Linguagem - Prof. Dr. Lucas Maciel
+    duracao_min: 23
+    descricao: >-
+      O autor do artigo "Diferenças entre dialogismo e polifonia", usado no texto da aula. Pela
+      descrição do vídeo, são cinco diferenças: o dialogismo está em todo enunciado e a polifonia
+      só em alguns; o dialogismo está em todos os gêneros e a polifonia no romance; todo autor é
+      dialógico e só Dostoiévski compôs obras polifônicas; dialogismo não é só concordância e
+      polifonia não é só debate; o dialogismo liga-se às ideias e a polifonia à forma. Não foi
+      possível assistir ao vídeo antes de publicar. É o sentido estrito de polifonia; o sentido
+      largo ("vozes que se mostram no texto") e as esferas estão no texto da aula.
+  - tipo: podcast
+    titulo: Conheça Mikhail Bakhtin com Igor Sacramento
+    url: https://podcasts.apple.com/br/podcast/conhec-a-mikhail-bakhtin-com-igor-sacramento/id1488656023?i=1000552701680
+    audio: https://anchor.fm/s/10201da8/podcast/play/48218185/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-25%2Fe07847ca-6d57-42b7-57a0-10898cf8626c.mp3
+    autor: Matéria Bruta (Canal Curta!), com Igor Sacramento (UFRJ e Fiocruz)
+    duracao_min: 18
+    descricao: >-
+      Conversa de divulgação, conferida por transcrição automática. Do começo até perto de 13:30:
+      quem foi Bakhtin, polifonia e dialogismo (de 3:30 a 5:40; o convidado avisa que polifonia
+      não é só "várias vozes" e a liga ao romance de Dostoiévski, isto é, ao sentido estrito), a
+      crítica a Saussure e a linguagem nos usos do dia a dia. Pode parar em 13:30: o resto trata
+      de "lugar de fala", fora do edital. O convidado é professor de Comunicação e fala de
+      Bakhtin como filósofo; enunciação e enunciado, texto e discurso e esferas não aparecem.
+  - tipo: podcast
+    titulo: Amarrando os fios teóricos com "O aparelho formal da enunciação"
+    url: https://podcasts.apple.com/br/podcast/amarrando-os-fios-te%C3%B3ricos-com-o-aparelho-formal-da/id1516764466?i=1000482241992
+    audio: https://anchor.fm/s/23b787c0/podcast/play/16022506/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-6-2%2F87071866-44100-2-c6fbffc44537d.mp3
+    autor: Uma série de podcasts enunciativos! (alunas de Letras da UFSM)
+    duracao_min: 19
+    descricao: >-
+      Leitura comentada do artigo de Benveniste de 1970, feita por estudantes de Letras para
+      colegas do curso; conferida por transcrição automática. Ouça de 9:00 a 13:30 (a conversão
+      da língua em discurso, o quadro formal da enunciação, "antes da enunciação a língua é só
+      possibilidade") e de 14:50 a 16:10 (o presente como origem do tempo; pessoa, espaço e tempo
+      juntos). É mais denso que o texto da aula e supõe os episódios anteriores da série: serve de
+      complemento, não de primeira explicação. Não define o par enunciação e enunciado nem trata
+      da enunciação escrita.
+  - tipo: link
+    titulo: O que é enunciado? (Brasil Escola)
+    url: https://brasilescola.uol.com.br/o-que-e/portugues/o-que-e-enunciado.htm
+    autor: Luciana Kuchenbecker Araújo (Brasil Escola)
+    descricao: >-
+      Leitura curta e simples sobre o enunciado em Bakhtin: unidade da comunicação, sentido que
+      depende das condições de produção (o exemplo "Adorei a manga") e caráter dialógico. Leia
+      com uma correção: a página atribui Marxismo e filosofia da linguagem a Bakhtin; a edição
+      atual dá Volóchinov como autor. Não distingue enunciação de enunciado nem fala de
+      Benveniste, polifonia ou esferas.
+  - tipo: link
+    titulo: "Produção e Recepção de Texto I, aula 18: dialogia e polifonia (UFS)"
+    url: https://cesad.ufs.br/ORBI/public/uploadCatalago/23114110052020Producao_e_Recepcao_de_Texto_I_Aula_18.pdf
+    autor: Universidade Federal de Sergipe (CESAD)
+    descricao: >-
+      Aula de 8 páginas de um curso de Letras a distância. Leia as partes "Dialogia" e "Textos
+      polifônicos e monofônicos" (p. 195 e 196): é o sentido largo de polifonia, o de Barros. A
+      introdução do arquivo fala de outro assunto (contexto), e a tipologia de Orlandi e a
+      carnavalização, no resto da aula, vão além do edital.

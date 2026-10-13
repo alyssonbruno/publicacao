@@ -1,0 +1,148 @@
+# Treino de recursos de produção de textos e adequação ao gênero — Câmara dos Deputados 2026, Analista Legislativo, Registro e Redação. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Recursos de produção de textos e adequação ao gênero
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre textos próprios e fictícios (trecho de discurso em Plenário, projeto de lei, títulos de notícia e trecho de expediente), no estilo de certo ou errado do Cebraspe: o item aponta um recurso presente no texto, com remissão à linha, e afirma o efeito dele.'
+    - 'Referências de estilo, sem reprodução de itens: caderno de conhecimentos específicos do Cespe/UnB para Analista Legislativo, atribuição Taquígrafo Legislativo, da Câmara dos Deputados (2012), e caderno de Conhecimentos Gerais do Cebraspe para a Câmara dos Deputados (Edital nº 1/2025, aplicado em 8/3/2026), com os gabaritos definitivos, pelo registro da curadoria do tópico.'
+    - 'Bases do gabarito: Manual de redação: documentos administrativos, 2ª ed. (Câmara dos Deputados, 2023); Manual de Redação da Presidência da República, 3ª ed. (2018); Lei Complementar nº 95/1998, arts. 3º e 11. Consultados em 12/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/ling-recursos-de-producao-de-textos
+    enunciado: |-
+      Texto para o item: trecho fictício de discurso proferido em sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Senhor Presidente, Senhoras e Senhores Deputados, o parecer afirma que
+      > 2. o fechamento das bibliotecas municipais representa “economia” para os
+      > 3. cofres públicos. Segundo o relator, a medida seria inevitável. Não é.
+      > 4. Fechar biblioteca para equilibrar o orçamento é como vender as janelas
+      > 5. da casa para pagar a conta de luz: a despesa diminui, e a casa fica às
+      > 6. escuras. Em Vila Serena, a biblioteca é o único lugar em que os alunos
+      > 7. da zona rural têm acesso a livros e à internet. É preciso manter essas
+      > 8. portas abertas. É preciso ouvir os prefeitos. É preciso, sobretudo,
+      > 9. ler o parecer com atenção antes de votar.
+
+      Com base no texto e nos recursos de produção de textos nele empregados, julgue o item.
+
+      O emprego das aspas em “economia” (linha 2) indica que o orador assume como sua a avaliação que o parecer faz do resultado financeiro da medida.
+  - id: q02
+    topico: conhecimentos-especificos/ling-recursos-de-producao-de-textos
+    enunciado: |-
+      Texto para o item: trecho fictício de discurso proferido em sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Senhor Presidente, Senhoras e Senhores Deputados, o parecer afirma que
+      > 2. o fechamento das bibliotecas municipais representa “economia” para os
+      > 3. cofres públicos. Segundo o relator, a medida seria inevitável. Não é.
+      > 4. Fechar biblioteca para equilibrar o orçamento é como vender as janelas
+      > 5. da casa para pagar a conta de luz: a despesa diminui, e a casa fica às
+      > 6. escuras. Em Vila Serena, a biblioteca é o único lugar em que os alunos
+      > 7. da zona rural têm acesso a livros e à internet. É preciso manter essas
+      > 8. portas abertas. É preciso ouvir os prefeitos. É preciso, sobretudo,
+      > 9. ler o parecer com atenção antes de votar.
+
+      Com base no texto e nos recursos de produção de textos nele empregados, julgue o item.
+
+      Em “seria” (linha 3), o emprego do futuro do pretérito sinaliza que o orador atribui ao relator o juízo sobre a medida, sem se comprometer com ele.
+  - id: q03
+    topico: conhecimentos-especificos/ling-recursos-de-producao-de-textos
+    enunciado: |-
+      Texto para o item: trecho fictício de discurso proferido em sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Senhor Presidente, Senhoras e Senhores Deputados, o parecer afirma que
+      > 2. o fechamento das bibliotecas municipais representa “economia” para os
+      > 3. cofres públicos. Segundo o relator, a medida seria inevitável. Não é.
+      > 4. Fechar biblioteca para equilibrar o orçamento é como vender as janelas
+      > 5. da casa para pagar a conta de luz: a despesa diminui, e a casa fica às
+      > 6. escuras. Em Vila Serena, a biblioteca é o único lugar em que os alunos
+      > 7. da zona rural têm acesso a livros e à internet. É preciso manter essas
+      > 8. portas abertas. É preciso ouvir os prefeitos. É preciso, sobretudo,
+      > 9. ler o parecer com atenção antes de votar.
+
+      Com base no texto e nos recursos de produção de textos nele empregados, julgue o item.
+
+      A repetição de “É preciso” no início de três períodos seguidos (linhas 7 a 9) confere ênfase à fala e apresenta como necessárias as ações que o orador defende.
+  - id: q04
+    topico: conhecimentos-especificos/ling-recursos-de-producao-de-textos
+    enunciado: |-
+      Texto para o item: trecho fictício de discurso proferido em sessão do Plenário, com as linhas numeradas.
+
+      > **Texto I**
+      >
+      > 1. Senhor Presidente, Senhoras e Senhores Deputados, o parecer afirma que
+      > 2. o fechamento das bibliotecas municipais representa “economia” para os
+      > 3. cofres públicos. Segundo o relator, a medida seria inevitável. Não é.
+      > 4. Fechar biblioteca para equilibrar o orçamento é como vender as janelas
+      > 5. da casa para pagar a conta de luz: a despesa diminui, e a casa fica às
+      > 6. escuras. Em Vila Serena, a biblioteca é o único lugar em que os alunos
+      > 7. da zona rural têm acesso a livros e à internet. É preciso manter essas
+      > 8. portas abertas. É preciso ouvir os prefeitos. É preciso, sobretudo,
+      > 9. ler o parecer com atenção antes de votar.
+
+      Com base no texto e nos recursos de produção de textos nele empregados, julgue o item.
+
+      Na comparação entre o fechamento de bibliotecas e a venda das janelas de uma casa (linhas 4 a 6), o ponto comum explicitado pelo orador é o caráter irreversível das duas medidas.
+  - id: q05
+    topico: conhecimentos-especificos/ling-recursos-de-producao-de-textos
+    enunciado: |-
+      Considere dois títulos, ambos gramaticalmente corretos, propostos para uma notícia fictícia sobre o mesmo fato: “Relator enxuga projeto das feiras livres” e “Relator esvazia projeto das feiras livres”.
+
+      A respeito dos recursos de produção de textos, julgue o item.
+
+      Embora os dois títulos noticiem o mesmo fato, a forma “esvazia” sugere avaliação desfavorável da mudança feita pelo relator, ao passo que “enxuga” a apresenta de modo favorável.
+  - id: q06
+    topico: conhecimentos-especificos/ling-recursos-de-producao-de-textos
+    enunciado: |-
+      Texto para o item: projeto de lei fictício, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. PROJETO DE LEI Nº 987, DE 2026
+      > 2. Institui o Programa Leitura em Rede nas bibliotecas públicas municipais.
+      > 3. O Congresso Nacional decreta:
+      > 4. Art. 1º Esta Lei institui o Programa Leitura em Rede, destinado às
+      > 5. bibliotecas públicas municipais.
+      > 6. Art. 2º As casas de leitura participantes do Programa manterão acervo
+      > 7. digital de acesso gratuito.
+      > 8. Art. 3º Os equipamentos culturais de que trata esta Lei funcionarão,
+      > 9. no mínimo, quarenta horas por semana.
+      > 10. Art. 4º Esta Lei entra em vigor na data de sua publicação.
+
+      Com base no texto e nos recursos de produção de textos nele empregados, julgue o item.
+
+      Admitindo-se que “bibliotecas públicas municipais” (linhas 4 e 5), “casas de leitura” (linha 6) e “equipamentos culturais” (linha 8) designem o mesmo objeto, a variação entre essas expressões atende à Lei Complementar nº 95/1998, que recomenda evitar a repetição de palavras no texto legal.
+  - id: q07
+    topico: conhecimentos-especificos/ling-recursos-de-producao-de-textos
+    enunciado: |-
+      Texto para o item: projeto de lei fictício, com as linhas numeradas.
+
+      > **Texto II**
+      >
+      > 1. PROJETO DE LEI Nº 987, DE 2026
+      > 2. Institui o Programa Leitura em Rede nas bibliotecas públicas municipais.
+      > 3. O Congresso Nacional decreta:
+      > 4. Art. 1º Esta Lei institui o Programa Leitura em Rede, destinado às
+      > 5. bibliotecas públicas municipais.
+      > 6. Art. 2º As casas de leitura participantes do Programa manterão acervo
+      > 7. digital de acesso gratuito.
+      > 8. Art. 3º Os equipamentos culturais de que trata esta Lei funcionarão,
+      > 9. no mínimo, quarenta horas por semana.
+      > 10. Art. 4º Esta Lei entra em vigor na data de sua publicação.
+
+      Com base no texto e nos recursos de produção de textos nele empregados, julgue o item.
+
+      De acordo com a estrutura fixada pela Lei Complementar nº 95/1998, a ementa (linha 2) e o artigo que trata da vigência (linha 10) integram a parte preliminar da lei.
+  - id: q08
+    topico: conhecimentos-especificos/ling-recursos-de-producao-de-textos
+    enunciado: |-
+      Considere o seguinte trecho de um expediente administrativo fictício: “Urge que esta Coordenação envide ingentes esforços a fim de obviar os óbices ao funcionamento das bibliotecas.”
+
+      A respeito da adequação da linguagem ao gênero, julgue o item.
+
+      A reescrita “Esta Coordenação deve empenhar-se em remover os obstáculos ao funcionamento das bibliotecas” preservaria a formalidade exigida pelo gênero, uma vez que o uso do padrão culto da língua não se confunde com o emprego de vocabulário raro.

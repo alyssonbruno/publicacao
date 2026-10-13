@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="648" viewBox="0 0 912 648" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="648" fill="#ffffff"/>
+
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Da ordem direta ao deslocamento</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">As palavras são as mesmas; mudam o lugar e a vírgula.</text>
+
+  <!-- Ordem direta: quatro blocos -->
+  <text x="24" y="98" font-size="15" font-weight="700" fill="#52514e">Ordem direta da oração</text>
+  <g font-size="13" fill="#52514e" text-anchor="middle">
+    <text x="114" y="122">(sujeito)</text>
+    <text x="290" y="122">verbo</text>
+    <text x="466" y="122">(complementos)</text>
+    <text x="725" y="122">(adjunto adverbial)</text>
+  </g>
+  <g font-size="16" font-weight="700" text-anchor="middle">
+    <rect x="24" y="132" width="180" height="46" rx="8" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="114" y="161" fill="#1c5cab">A comissão</text>
+    <rect x="212" y="132" width="156" height="46" rx="8" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="290" y="161" fill="#1c5cab">aprovou</text>
+    <rect x="376" y="132" width="180" height="46" rx="8" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="466" y="161" fill="#1c5cab">o parecer</text>
+    <rect x="564" y="132" width="324" height="46" rx="8" fill="#fdecd2" stroke="#f0c98a"/>
+    <text x="726" y="161" fill="#8a5a00">na reunião de terça-feira.</text>
+  </g>
+
+  <!-- Deslocamentos do adjunto -->
+  <text x="24" y="218" font-size="15" font-weight="700" fill="#52514e">O adjunto adverbial muda de lugar</text>
+
+  <rect x="24" y="230" width="864" height="58" rx="8" fill="#f9f9f7" stroke="#dddcd6"/>
+  <text x="40" y="254" font-size="13" fill="#52514e">no começo da oração, seguido de vírgula</text>
+  <text x="40" y="277" font-size="16" fill="#0b0b0b"><tspan font-weight="700" fill="#8a5a00">Na reunião de terça-feira,</tspan> a comissão aprovou o parecer.</text>
+
+  <rect x="24" y="296" width="864" height="58" rx="8" fill="#f9f9f7" stroke="#dddcd6"/>
+  <text x="40" y="320" font-size="13" fill="#52514e">no meio da oração, entre vírgulas</text>
+  <text x="40" y="343" font-size="16" fill="#0b0b0b">A comissão aprovou<tspan font-weight="700" fill="#8a5a00">, na reunião de terça-feira,</tspan> o parecer.</text>
+
+  <!-- Período -->
+  <text x="24" y="394" font-size="15" font-weight="700" fill="#52514e">No período, a oração adverbial também muda de lugar</text>
+
+  <rect x="24" y="406" width="864" height="58" rx="8" fill="#f9f9f7" stroke="#dddcd6"/>
+  <text x="40" y="430" font-size="13" fill="#52514e">ordem direta: a oração principal vem antes</text>
+  <text x="40" y="453" font-size="16" fill="#0b0b0b">A sessão foi suspensa <tspan font-weight="700" fill="#8a5a00">porque faltou quórum.</tspan></text>
+
+  <rect x="24" y="472" width="864" height="58" rx="8" fill="#f9f9f7" stroke="#dddcd6"/>
+  <text x="40" y="496" font-size="13" fill="#52514e">ordem inversa: a adverbial vem antes, seguida de vírgula</text>
+  <text x="40" y="519" font-size="16" fill="#0b0b0b"><tspan font-weight="700" fill="#8a5a00">Porque faltou quórum,</tspan> a sessão foi suspensa.</text>
+
+  <!-- Pé -->
+  <rect x="24" y="548" width="864" height="80" rx="8" fill="#fbe9e2" stroke="#f1bfae"/>
+  <text x="40" y="574" font-size="15" font-weight="700" fill="#a8401b">O que não leva vírgula</text>
+  <text x="40" y="596" font-size="14" fill="#0b0b0b">Sujeito e objeto, mesmo deslocados, não se separam do verbo por vírgula:</text>
+  <text x="40" y="616" font-size="14" fill="#0b0b0b"><tspan font-weight="700">Aprovou a comissão o parecer</tspan> (e não "Aprovou, a comissão, o parecer").</text>
+</svg>

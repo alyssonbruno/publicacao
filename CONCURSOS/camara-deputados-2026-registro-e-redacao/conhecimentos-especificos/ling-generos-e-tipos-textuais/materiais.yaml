@@ -1,0 +1,52 @@
+materiais:
+  - tipo: texto
+    titulo: Gêneros do discurso e tipos textuais; macro e microestrutura
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: Gêneros discursivos - BAKHTIN (Pontos Principais)
+    url: https://www.youtube.com/watch?v=p2bFWxAG-Ok
+    autor: Saber Linguagem - Prof. Dr. Lucas Maciel
+    duracao_min: 6
+    descricao: >-
+      Vídeo curto de um professor de Linguística. Pela descrição do canal, trata da expressão
+      "gêneros do discurso" diante de "gêneros textuais", dos gêneros primários e secundários e
+      dos três elementos do edital (conteúdo temático, construção composicional e estilo), a
+      partir da tradução de Paulo Bezerra. Veja depois das oito primeiras partes do texto. Tipos
+      textuais e macro e microestrutura não estão na descrição: ficam no texto da aula.
+  - tipo: video
+    titulo: "Gêneros textuais X tipos textuais I Gêneros textuais: definição e funcionalidade (MARCUSCHI)"
+    url: https://www.youtube.com/watch?v=Tv5ZYJzmsYA
+    autor: Saber Linguagem - Prof. Dr. Lucas Maciel
+    duracao_min: 42
+    descricao: >-
+      Aula no nível de graduação sobre o capítulo de Marcuschi (2002). Pela descrição do canal,
+      trata da distinção entre gênero e tipo, da heterogeneidade tipológica e da
+      intertextualidade intergêneros. É longo: veja em duas partes, depois das partes do texto
+      sobre tipo textual. Bakhtin, as sequências de Adam e macro e microestrutura não estão na
+      descrição: ficam no texto da aula.
+  - tipo: podcast
+    titulo: Gêneros textuais e perspectivas teóricas
+    url: https://podcasts.apple.com/br/podcast/g%C3%AAneros-textuais-e-perspectivas-te%C3%B3ricas/id1563259371?i=1000533599314
+    audio: https://anchor.fm/s/56ed48a0/podcast/play/39549521/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-30%2F215580569-44100-2-e6e24159ff4eb.m4a
+    autor: Profa. Julia Larré (podcast Gramática Aplicada e Gêneros Textuais UFRPE)
+    duracao_min: 16
+    descricao: >-
+      Episódio de disciplina de Letras da UFRPE sobre o livro de Marcuschi (2008). Serve de
+      contexto: o estudo dos gêneros vem de Platão e Aristóteles e hoje vale para qualquer
+      discurso; os gêneros são históricos e maleáveis, mudam com as tecnologias e não se
+      analisam só pela estrutura; do minuto 9 ao 13, as linhas de estudo no Brasil, com Bakhtin
+      como base comum. Não opõe gênero a tipo e não trata dos três elementos de Bakhtin, das
+      sequências nem de macro e microestrutura: esses pontos estão no texto da aula. O fim é
+      voltado a futuros professores.
+  - tipo: link
+    titulo: "Produção e Recepção de Texto II, aula 1: os gêneros textuais (CESAD/UFS)"
+    url: https://cesad.ufs.br/ORBI/public/uploadCatalago/18373816022012Producao_e_Recepcao_de_Texto_II_Aula_1.pdf
+    autor: Mary Jane Dias da Silva (CESAD, Universidade Federal de Sergipe)
+    descricao: >-
+      PDF de 21 páginas, em linguagem acessível. Para aprofundar, leia as páginas 8 a 13 da
+      aula: gênero e tipo segundo Marcuschi, domínio discursivo e uma carta pessoal analisada
+      linha a linha pelas sequências. Bakhtin aparece só de passagem, e não há macro e
+      microestrutura; a grafia é anterior ao Acordo Ortográfico.

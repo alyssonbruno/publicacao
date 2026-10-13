@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="470" viewBox="0 0 912 470" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="470" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Três níveis de leitura no edital</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">O que cada nível pergunta ao texto</text>
+
+  <!-- Literal -->
+  <g transform="translate(24 84)">
+    <rect width="280" height="290" rx="10" fill="#f3f2ee" stroke="#d6d4cb"/>
+    <text x="16" y="32" font-size="17" font-weight="700" fill="#3d3c39">Compreensão literal</text>
+    <text x="16" y="54" font-size="13" fill="#52514e">item 3.1 · aula de leitura e coesão</text>
+    <line x1="16" y1="68" x2="264" y2="68" stroke="#d6d4cb"/>
+    <text x="16" y="98" font-size="16" font-weight="700" fill="#0b0b0b">O que o texto diz?</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="136">Reconhecer o que está escrito:</text>
+      <text x="16" y="158">ideias principais, detalhes,</text>
+      <text x="16" y="180">comparação, causa e efeito.</text>
+    </g>
+    <text x="16" y="262" font-size="14" fill="#52514e">Item certo: <tspan font-weight="700" fill="#0b0b0b">paráfrase</tspan>.</text>
+  </g>
+
+  <!-- Interpretativa -->
+  <g transform="translate(316 84)">
+    <rect width="280" height="290" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="32" font-size="17" font-weight="700" fill="#1c5cab">Compreensão interpretativa</text>
+    <text x="16" y="54" font-size="13" fill="#52514e">item 3.6 · esta aula</text>
+    <line x1="16" y1="68" x2="264" y2="68" stroke="#b8cfee"/>
+    <text x="16" y="98" font-size="16" font-weight="700" fill="#0b0b0b">O que o texto quer e o</text>
+    <text x="16" y="120" font-size="16" font-weight="700" fill="#0b0b0b">que deixa implícito?</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="158">• propósito do autor</text>
+      <text x="16" y="182">• informações implícitas</text>
+      <text x="16" y="206">• fato × opinião</text>
+    </g>
+    <text x="16" y="262" font-size="14" fill="#52514e">Item certo: <tspan font-weight="700" fill="#0b0b0b">o que o texto autoriza</tspan>.</text>
+  </g>
+
+  <!-- Crítica -->
+  <g transform="translate(608 84)">
+    <rect width="280" height="290" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="16" y="32" font-size="17" font-weight="700" fill="#b4501f">Compreensão crítica</text>
+    <text x="16" y="54" font-size="13" fill="#52514e">item 3.7 · esta aula</text>
+    <line x1="16" y1="68" x2="264" y2="68" stroke="#f0c3a6"/>
+    <text x="16" y="98" font-size="16" font-weight="700" fill="#0b0b0b">O que se pode concluir</text>
+    <text x="16" y="120" font-size="16" font-weight="700" fill="#0b0b0b">do texto?</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="158">Seleção de inferência: julgar,</text>
+      <text x="16" y="180">entre as conclusões possíveis,</text>
+      <text x="16" y="202">qual o texto sustenta.</text>
+    </g>
+    <text x="16" y="262" font-size="14" fill="#52514e">Item certo: <tspan font-weight="700" fill="#0b0b0b">inferência sustentada</tspan>.</text>
+  </g>
+
+  <!-- Pé -->
+  <line x1="24" y1="396" x2="888" y2="396" stroke="#e1e0d9"/>
+  <text x="24" y="424" font-size="14" fill="#0b0b0b">Os rótulos mudam de autor para autor: em Menegassi, o nível mais alto se chama <tspan font-weight="700">interpretativo</tspan>.</text>
+  <text x="24" y="448" font-size="14" fill="#0b0b0b">Vale a <tspan font-weight="700">operação</tspan> que o item pede, não o nome do nível.</text>
+</svg>

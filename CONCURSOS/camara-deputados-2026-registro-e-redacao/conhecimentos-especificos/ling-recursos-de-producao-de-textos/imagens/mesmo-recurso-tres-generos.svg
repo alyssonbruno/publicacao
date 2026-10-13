@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="600" viewBox="0 0 912 600" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="600" fill="#ffffff"/>
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">O mesmo recurso em três gêneros</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">O que é recurso num gênero pode ser inadequação em outro</text>
+  <g font-size="15" font-weight="700" fill="#52514e" text-anchor="middle">
+    <text x="306" y="102">Discurso em plenário</text>
+    <text x="542" y="102">Ata e expediente</text>
+    <text x="778" y="102">Lei</text>
+  </g>
+  <g font-size="15" font-weight="700" fill="#0b0b0b"><text x="24" y="168">Ironia e</text><text x="24" y="188">figuras</text></g>
+  <g transform="translate(196 116)">
+    <rect width="220" height="118" rx="10" fill="#e4f5ee" stroke="#a9dcc7"/>
+    <text x="14" y="26" font-size="13" font-weight="700" fill="#0f7a55">USA</text>
+    <text x="14" y="50" font-size="14" fill="#0b0b0b">recurso de persuasão</text>
+    <text x="14" y="72" font-size="14" fill="#0b0b0b">e de crítica</text>
+  </g>
+  <g transform="translate(432 116)">
+    <rect width="220" height="118" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="14" y="26" font-size="13" font-weight="700" fill="#b4501f">EVITA</text>
+    <text x="14" y="50" font-size="14" fill="#0b0b0b">“jamais usar linguagem</text>
+    <text x="14" y="72" font-size="14" fill="#0b0b0b">irônica, pomposa ou</text>
+    <text x="14" y="94" font-size="14" fill="#0b0b0b">rebuscada” (Manual, 1.1)</text>
+  </g>
+  <g transform="translate(668 116)">
+    <rect width="220" height="118" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="14" y="26" font-size="13" font-weight="700" fill="#b4501f">EVITA</text>
+    <text x="14" y="50" font-size="14" fill="#0b0b0b">manda usar as palavras</text>
+    <text x="14" y="72" font-size="14" fill="#0b0b0b">em seu sentido comum</text>
+    <text x="14" y="94" font-size="14" fill="#0b0b0b">(LC 95, art. 11, I, a)</text>
+  </g>
+  <g font-size="15" font-weight="700" fill="#0b0b0b"><text x="24" y="296">Adjetivos e</text><text x="24" y="316">avaliação</text></g>
+  <g transform="translate(196 244)">
+    <rect width="220" height="118" rx="10" fill="#e4f5ee" stroke="#a9dcc7"/>
+    <text x="14" y="26" font-size="13" font-weight="700" fill="#0f7a55">USA</text>
+    <text x="14" y="50" font-size="14" fill="#0b0b0b">marcam a posição</text>
+    <text x="14" y="72" font-size="14" fill="#0b0b0b">do orador</text>
+  </g>
+  <g transform="translate(432 244)">
+    <rect width="220" height="118" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="14" y="26" font-size="13" font-weight="700" fill="#b4501f">EVITA</text>
+    <text x="14" y="50" font-size="14" fill="#0b0b0b">evitar o emprego</text>
+    <text x="14" y="72" font-size="14" fill="#0b0b0b">abusivo de adjetivos</text>
+    <text x="14" y="94" font-size="14" fill="#0b0b0b">(Manual, 1.4)</text>
+  </g>
+  <g transform="translate(668 244)">
+    <rect width="220" height="118" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="14" y="26" font-size="13" font-weight="700" fill="#b4501f">EVITA</text>
+    <text x="14" y="50" font-size="14" fill="#0b0b0b">evitar adjetivações</text>
+    <text x="14" y="72" font-size="14" fill="#0b0b0b">dispensáveis</text>
+    <text x="14" y="94" font-size="14" fill="#0b0b0b">(LC 95, art. 11, I, c)</text>
+  </g>
+  <g font-size="15" font-weight="700" fill="#0b0b0b"><text x="24" y="424">Repetição da</text><text x="24" y="444">mesma palavra</text></g>
+  <g transform="translate(196 372)">
+    <rect width="220" height="118" rx="10" fill="#e4f5ee" stroke="#a9dcc7"/>
+    <text x="14" y="26" font-size="13" font-weight="700" fill="#0f7a55">USA</text>
+    <text x="14" y="50" font-size="14" fill="#0b0b0b">ênfase: a anáfora</text>
+    <text x="14" y="72" font-size="14" fill="#0b0b0b">(“Escolheu... Escolheu...”)</text>
+  </g>
+  <g transform="translate(432 372)">
+    <rect width="220" height="118" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="14" y="26" font-size="13" font-weight="700" fill="#b4501f">EVITA</text>
+    <text x="14" y="50" font-size="14" fill="#0b0b0b">evitar repetição no início</text>
+    <text x="14" y="72" font-size="14" fill="#0b0b0b">de períodos e parágrafos</text>
+    <text x="14" y="94" font-size="14" fill="#0b0b0b">seguidos (Manual, 1.4)</text>
+  </g>
+  <g transform="translate(668 372)">
+    <rect width="220" height="118" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="14" y="26" font-size="13" font-weight="700" fill="#1c5cab">EXIGE</text>
+    <text x="14" y="50" font-size="14" fill="#0b0b0b">a mesma ideia, as mesmas</text>
+    <text x="14" y="72" font-size="14" fill="#0b0b0b">palavras; sem sinonímia</text>
+    <text x="14" y="94" font-size="14" fill="#0b0b0b">de estilo (art. 11, II, b)</text>
+  </g>
+  <line x1="24" y1="512" x2="888" y2="512" stroke="#e1e0d9"/>
+  <text x="24" y="540" font-size="14" fill="#0b0b0b">Manual = Manual de Redação da Câmara (expediente administrativo). LC 95 = Lei Complementar nº 95/1998.</text>
+  <text x="24" y="562" font-size="14" fill="#0b0b0b">A coluna do discurso é leitura desta aula. Mesmo no discurso há limite: o Regimento proíbe</text>
+  <text x="24" y="582" font-size="14" fill="#0b0b0b">a referência <tspan font-weight="700">descortês ou injuriosa</tspan> a membros do Legislativo e a autoridades (art. 73, XII).</text>
+</svg>

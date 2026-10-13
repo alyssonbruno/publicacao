@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="600" viewBox="0 0 912 600" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="600" fill="#ffffff"/>
+
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Três jeitos de isolar o mesmo trecho</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Vírgulas, travessões e parênteses: os três vêm em par e os três mantêm a frase correta</text>
+
+  <!-- Linha 1: vírgulas -->
+  <g transform="translate(24 84)">
+    <rect width="864" height="84" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="20" y="34" font-size="16" font-weight="700" fill="#1c5cab">Vírgulas</text>
+    <text x="20" y="60" font-size="13" fill="#52514e">a forma neutra</text>
+    <text x="200" y="48" font-size="16" fill="#0b0b0b">A relatora<tspan font-weight="700" fill="#1c5cab">,</tspan> deputada há três mandatos<tspan font-weight="700" fill="#1c5cab">,</tspan> pediu o adiamento da votação.</text>
+  </g>
+
+  <!-- Linha 2: travessões -->
+  <g transform="translate(24 180)">
+    <rect width="864" height="84" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="20" y="34" font-size="16" font-weight="700" fill="#b4501f">Travessões</text>
+    <text x="20" y="60" font-size="13" fill="#52514e">dão realce ao trecho</text>
+    <text x="200" y="48" font-size="16" fill="#0b0b0b">A relatora <tspan font-weight="700" fill="#b4501f">—</tspan> deputada há três mandatos <tspan font-weight="700" fill="#b4501f">—</tspan> pediu o adiamento da votação.</text>
+  </g>
+
+  <!-- Linha 3: parênteses -->
+  <g transform="translate(24 276)">
+    <rect width="864" height="84" rx="10" fill="#e6f6ef" stroke="#a9dcc6"/>
+    <text x="20" y="34" font-size="16" font-weight="700" fill="#12784f">Parênteses</text>
+    <text x="20" y="60" font-size="13" fill="#52514e">explicação à parte</text>
+    <text x="200" y="48" font-size="16" fill="#0b0b0b">A relatora <tspan font-weight="700" fill="#12784f">(</tspan>deputada há três mandatos<tspan font-weight="700" fill="#12784f">)</tspan> pediu o adiamento da votação.</text>
+  </g>
+
+  <!-- Regras de encontro de sinais -->
+  <line x1="24" y1="384" x2="888" y2="384" stroke="#e1e0d9"/>
+  <text x="24" y="412" font-size="15" font-weight="700" fill="#0b0b0b">Quando os sinais se encontram</text>
+
+  <g font-size="14" fill="#0b0b0b">
+    <text x="24" y="444"><tspan font-weight="700">1.</tspan> Se a frase já pedia vírgula naquele ponto, ela fica <tspan font-weight="700">depois</tspan> do segundo travessão ou do parêntese:</text>
+    <text x="44" y="466" fill="#52514e">Ouvida a relatora — deputada há três mandatos —, a comissão votou o parecer.</text>
+    <text x="24" y="498"><tspan font-weight="700">2.</tspan> No fim do período, basta <tspan font-weight="700">um</tspan> travessão; o ponto fecha a frase:</text>
+    <text x="44" y="520" fill="#52514e">A comissão ouviu quem pediu o adiamento — a relatora.</text>
+    <text x="24" y="552"><tspan font-weight="700">3.</tspan> Tirar <tspan font-weight="700">um só</tspan> sinal do par deixa a frase errada: são dois ou nenhum.</text>
+  </g>
+  <text x="24" y="582" font-size="13" fill="#52514e">Fontes: Manual de Redação da Presidência (10.4 e 10.5), manuais do STJ e do Senado.</text>
+</svg>

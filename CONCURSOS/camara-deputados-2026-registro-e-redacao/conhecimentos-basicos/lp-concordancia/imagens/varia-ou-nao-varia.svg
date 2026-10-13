@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="610" viewBox="0 0 912 610" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="610" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Concordância nominal: varia ou não varia?</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Três grupos de palavras e duas expressões para lembrar.</text>
+
+  <!-- Bloco 1 -->
+  <g transform="translate(24 84)">
+    <rect width="280" height="330" rx="10" fill="#e6f6ef" stroke="#a9dcc6"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#12805a">Sempre concordam</text>
+    <text x="16" y="52" font-size="13" fill="#52514e">são adjetivos: seguem o nome</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="88" font-weight="700">anexo</text>
+      <text x="16" y="108">Seguem anexas as notas</text>
+      <text x="16" y="140" font-weight="700">incluso</text>
+      <text x="16" y="160">Remeto inclusas as cópias</text>
+      <text x="16" y="192" font-weight="700">mesmo, próprio</text>
+      <text x="16" y="212">Elas próprias assinaram</text>
+      <text x="16" y="244" font-weight="700">obrigado</text>
+      <text x="16" y="264">“Muito obrigada”, disse a deputada</text>
+      <text x="16" y="296" font-weight="700">quite</text>
+      <text x="16" y="316">Os servidores estão quites</text>
+    </g>
+  </g>
+
+  <!-- Bloco 2 -->
+  <g transform="translate(316 84)">
+    <rect width="280" height="330" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#1c5cab">Dependem da classe</text>
+    <text x="16" y="52" font-size="13" fill="#52514e">com substantivo, variam; advérbio, não</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="88" font-weight="700">meio</text>
+      <text x="16" y="108">meia hora <tspan font-size="13" fill="#52514e">(varia)</tspan></text>
+      <text x="16" y="128">meio cansada <tspan font-size="13" fill="#52514e">(não varia)</tspan></text>
+      <text x="16" y="164" font-weight="700">bastante</text>
+      <text x="16" y="184">bastantes emendas <tspan font-size="13" fill="#52514e">(varia)</tspan></text>
+      <text x="16" y="204">bastante longas <tspan font-size="13" fill="#52514e">(não varia)</tspan></text>
+      <text x="16" y="240" font-weight="700">só</text>
+      <text x="16" y="260">ficaram sós <tspan font-size="13" fill="#52514e">(varia)</tspan></text>
+      <text x="16" y="280">só pediram a palavra <tspan font-size="13" fill="#52514e">(não varia)</tspan></text>
+    </g>
+  </g>
+
+  <!-- Bloco 3 -->
+  <g transform="translate(608 84)">
+    <rect width="280" height="330" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#b4501f">Nunca variam</text>
+    <text x="16" y="52" font-size="13" fill="#52514e">ficam sempre na mesma forma</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="88" font-weight="700">menos</text>
+      <text x="16" y="108">menos emendas</text>
+      <text x="16" y="128" font-size="13" fill="#52514e">“menas” não existe</text>
+      <text x="16" y="164" font-weight="700">alerta</text>
+      <text x="16" y="184">Os seguranças ficaram alerta</text>
+      <text x="16" y="204" font-size="13" fill="#52514e">advérbio, no Só Português</text>
+    </g>
+  </g>
+
+  <!-- Pé: duas expressões -->
+  <g transform="translate(24 428)">
+    <rect width="864" height="158" rx="10" fill="#f4f3ee" stroke="#e1e0d9"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#0b0b0b">“É proibido”, “é necessário”, “é permitido”</text>
+    <text x="16" y="56" font-size="14" fill="#0b0b0b">Sem artigo, invariável: <tspan font-weight="700">É proibido</tspan> entrada   ·   <tspan font-weight="700">É necessário</tspan> paciência</text>
+    <text x="16" y="78" font-size="14" fill="#0b0b0b">Com artigo, concorda: <tspan font-weight="700">É proibida a</tspan> entrada   ·   <tspan font-weight="700">São necessárias as</tspan> assinaturas</text>
+    <text x="16" y="114" font-size="16" font-weight="700" fill="#0b0b0b">“O mais... possível”</text>
+    <text x="16" y="140" font-size="14" fill="#0b0b0b">As duas formas: as redações mais claras <tspan font-weight="700">possíveis</tspan> ou <tspan font-weight="700">possível</tspan> <tspan font-size="13" fill="#52514e">(Manual da Presidência prefere o plural)</tspan></text>
+  </g>
+</svg>

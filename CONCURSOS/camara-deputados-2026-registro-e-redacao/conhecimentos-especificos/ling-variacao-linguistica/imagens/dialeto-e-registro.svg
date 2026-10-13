@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="600" viewBox="0 0 912 600" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="600" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Dialeto e registro: quem fala e em que situação</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">A divisão de Travaglia, como a resumem os trabalhos citados nas fontes da aula</text>
+
+  <!-- Dialeto -->
+  <g transform="translate(24 84)">
+    <rect width="424" height="372" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="20" y="38" font-size="20" font-weight="700" fill="#1c5cab">Dialeto</text>
+    <text x="20" y="64" font-size="15" fill="#0b0b0b">Varia conforme <tspan font-weight="700">quem usa</tspan> a língua.</text>
+    <text x="20" y="86" font-size="13" fill="#52514e">Acompanha a pessoa em qualquer situação.</text>
+    <line x1="20" y1="102" x2="404" y2="102" stroke="#b8cfee"/>
+    <text x="20" y="128" font-size="14" font-weight="700" fill="#52514e">Seis dimensões</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="20" y="158"><tspan font-weight="700">1.</tspan> territorial <tspan font-size="13" fill="#52514e">(a região)</tspan></text>
+      <text x="20" y="186"><tspan font-weight="700">2.</tspan> social <tspan font-size="13" fill="#52514e">(a classe, o grupo)</tspan></text>
+      <text x="20" y="214"><tspan font-weight="700">3.</tspan> de idade</text>
+      <text x="20" y="242"><tspan font-weight="700">4.</tspan> de sexo</text>
+      <text x="20" y="270"><tspan font-weight="700">5.</tspan> de geração</text>
+      <text x="20" y="298"><tspan font-weight="700">6.</tspan> de função <tspan font-size="13" fill="#52514e">(a profissão)</tspan></text>
+    </g>
+    <line x1="20" y1="316" x2="404" y2="316" stroke="#b8cfee"/>
+    <text x="20" y="340" font-size="13" fill="#52514e">Leitura nossa: a 1 é a diatópica;</text>
+    <text x="20" y="358" font-size="13" fill="#52514e">as de grupo (2, 3, 4 e 6) são a diastrática.</text>
+  </g>
+
+  <!-- Registro -->
+  <g transform="translate(464 84)">
+    <rect width="424" height="372" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="20" y="38" font-size="20" font-weight="700" fill="#b4501f">Registro</text>
+    <text x="20" y="64" font-size="15" fill="#0b0b0b">Varia conforme <tspan font-weight="700">o uso</tspan> que se faz da língua.</text>
+    <text x="20" y="86" font-size="13" fill="#52514e">A mesma pessoa troca de registro a cada situação.</text>
+    <line x1="20" y1="102" x2="404" y2="102" stroke="#f0c3a6"/>
+    <text x="20" y="128" font-size="14" font-weight="700" fill="#52514e">Três dimensões</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="20" y="158"><tspan font-weight="700">1.</tspan> grau de formalismo</text>
+      <text x="38" y="178" font-size="13" fill="#52514e">do mais formal ao mais informal</text>
+      <text x="20" y="214"><tspan font-weight="700">2.</tspan> modo</text>
+      <text x="38" y="234" font-size="13" fill="#52514e">língua falada ou língua escrita</text>
+      <text x="20" y="270"><tspan font-weight="700">3.</tspan> sintonia</text>
+      <text x="38" y="290" font-size="13" fill="#52514e">ligada à tecnicidade e à cortesia</text>
+    </g>
+    <line x1="20" y1="316" x2="404" y2="316" stroke="#f0c3a6"/>
+    <text x="20" y="340" font-size="13" fill="#52514e">Leitura nossa: a 1 é a diafásica;</text>
+    <text x="20" y="358" font-size="13" fill="#52514e">a 2 é a diamésica.</text>
+  </g>
+
+  <!-- Teste -->
+  <g transform="translate(24 472)">
+    <rect width="864" height="108" rx="10" fill="#ffffff" stroke="#52514e" stroke-dasharray="6 5"/>
+    <text x="20" y="30" font-size="15" font-weight="700" fill="#0b0b0b">O teste: mude a situação e veja se a marca muda junto</text>
+    <text x="20" y="58" font-size="14" fill="#0b0b0b">Um deputado fala com o r da sua região na tribuna e no corredor: a marca fica. É <tspan font-weight="700" fill="#1c5cab">dialeto</tspan>.</text>
+    <text x="20" y="84" font-size="14" fill="#0b0b0b">Na tribuna, ele diz "Senhor Presidente"; no corredor, "ô, presidente": a marca muda. É <tspan font-weight="700" fill="#b4501f">registro</tspan>.</text>
+  </g>
+</svg>

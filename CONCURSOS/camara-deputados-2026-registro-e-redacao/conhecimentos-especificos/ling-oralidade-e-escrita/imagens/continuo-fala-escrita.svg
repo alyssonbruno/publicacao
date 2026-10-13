@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="520" viewBox="0 0 912 520" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="520" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">O contínuo fala–escrita</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Os gêneros se distribuem em graus. Só o meio (som ou grafia) divide em dois.</text>
+
+  <!-- Eixo -->
+  <line x1="176" y1="100" x2="868" y2="100" stroke="#52514e" stroke-width="2"/>
+  <path d="M176 100 l12 -6 v12 z" fill="#52514e"/>
+  <path d="M880 100 l-12 -6 v12 z" fill="#52514e"/>
+  <text x="176" y="88" font-size="13" font-weight="700" fill="#52514e">mais perto da conversa espontânea</text>
+  <text x="880" y="88" font-size="13" font-weight="700" fill="#52514e" text-anchor="end">mais perto do artigo científico</text>
+
+  <!-- Faixa: meio sonoro -->
+  <rect x="24" y="118" width="864" height="132" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+  <text x="40" y="170" font-size="15" font-weight="700" fill="#1c5cab">Meio sonoro</text>
+  <text x="40" y="190" font-size="13" fill="#52514e">chega pelo som</text>
+
+  <g font-size="14">
+    <g transform="translate(176 134)">
+      <rect width="166" height="100" rx="8" fill="#ffffff" stroke="#b8cfee"/>
+      <text x="12" y="28" font-weight="700" fill="#0b0b0b">conversa</text>
+      <text x="12" y="46" font-weight="700" fill="#0b0b0b">espontânea</text>
+      <text x="12" y="74" font-style="italic" fill="#1c5cab">conversa no corredor</text>
+    </g>
+    <g transform="translate(354 134)">
+      <rect width="166" height="100" rx="8" fill="#ffffff" stroke="#b8cfee"/>
+      <text x="12" y="56" font-style="italic" fill="#1c5cab">aparte em plenário</text>
+      <text x="12" y="74" font-style="italic" fill="#1c5cab">discurso de improviso</text>
+    </g>
+    <g transform="translate(532 134)">
+      <rect width="166" height="100" rx="8" fill="#ffffff" stroke="#b8cfee"/>
+      <text x="12" y="28" font-weight="700" fill="#0b0b0b">conferência</text>
+      <text x="12" y="46" font-weight="700" fill="#0b0b0b">preparada</text>
+      <text x="12" y="74" font-style="italic" fill="#1c5cab">discurso com roteiro</text>
+    </g>
+    <g transform="translate(710 134)">
+      <rect width="166" height="100" rx="8" fill="#ffffff" stroke="#eb6834" stroke-width="2"/>
+      <text x="12" y="28" font-weight="700" fill="#0b0b0b">notícia de telejornal</text>
+      <text x="12" y="52" font-style="italic" fill="#1c5cab">discurso lido na tribuna</text>
+      <text x="12" y="84" font-size="13" font-weight="700" fill="#b8481c">escrita oralizada</text>
+    </g>
+  </g>
+
+  <!-- Faixa: meio gráfico -->
+  <rect x="24" y="266" width="864" height="132" rx="10" fill="#e6f5ee" stroke="#b5dfcb"/>
+  <text x="40" y="318" font-size="15" font-weight="700" fill="#127a55">Meio gráfico</text>
+  <text x="40" y="338" font-size="13" fill="#52514e">chega pela grafia</text>
+
+  <g font-size="14">
+    <g transform="translate(176 282)">
+      <rect width="166" height="100" rx="8" fill="#ffffff" stroke="#b5dfcb"/>
+      <text x="12" y="28" font-weight="700" fill="#0b0b0b">carta pessoal, bilhete</text>
+      <text x="12" y="56" font-style="italic" fill="#127a55">mensagem a um</text>
+      <text x="12" y="74" font-style="italic" fill="#127a55">colega</text>
+    </g>
+    <g transform="translate(354 282)">
+      <rect width="166" height="100" rx="8" fill="#ffffff" stroke="#eb6834" stroke-width="2"/>
+      <text x="12" y="28" font-weight="700" fill="#0b0b0b">entrevista impressa</text>
+      <text x="12" y="52" font-style="italic" fill="#127a55">notas taquigráficas</text>
+      <text x="12" y="84" font-size="13" font-weight="700" fill="#b8481c">fala editada</text>
+    </g>
+    <g transform="translate(532 282)">
+      <rect width="166" height="100" rx="8" fill="#ffffff" stroke="#b5dfcb"/>
+      <text x="12" y="56" font-style="italic" fill="#127a55">ata da sessão</text>
+      <text x="12" y="74" font-style="italic" fill="#127a55">parecer</text>
+    </g>
+    <g transform="translate(710 282)">
+      <rect width="166" height="100" rx="8" fill="#ffffff" stroke="#b5dfcb"/>
+      <text x="12" y="28" font-weight="700" fill="#0b0b0b">artigo científico</text>
+      <text x="12" y="74" font-style="italic" fill="#127a55">texto de lei</text>
+    </g>
+  </g>
+
+  <!-- Legenda e leitura -->
+  <g font-size="13" fill="#52514e">
+    <text x="24" y="426"><tspan font-weight="700" fill="#0b0b0b">Em negrito:</tspan> exemplos do livro Fala e escrita (Marcuschi e Dionisio).  <tspan font-style="italic" fill="#1c5cab">Em itálico:</tspan> exemplos nossos, do dia a dia da Câmara.</text>
+  </g>
+  <rect x="24" y="444" width="864" height="58" rx="10" fill="#fdf3e0" stroke="#eda100"/>
+  <text x="40" y="468" font-size="14" fill="#0b0b0b"><tspan font-weight="700">Como ler:</tspan> compare gêneros vizinhos, e não “a fala” com “a escrita” em bloco. Uma carta pessoal</text>
+  <text x="40" y="488" font-size="14" fill="#0b0b0b">se parece mais com uma narrativa oral do que com um artigo científico.</text>
+</svg>

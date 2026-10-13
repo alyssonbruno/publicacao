@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="560" viewBox="0 0 912 560" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="560" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Fato, opinião e voz de terceiro</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Quatro frases do texto da aula (texto e números fictícios)</text>
+
+  <!-- Fato -->
+  <g transform="translate(24 84)">
+    <rect width="426" height="180" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="32" font-size="17" font-weight="700" fill="#1c5cab">Fato</text>
+    <text x="410" y="32" font-size="13" fill="#52514e" text-anchor="end">frases 2 e 4</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="70">“A sessão durou <tspan font-weight="700">seis horas</tspan> e teve</text>
+      <text x="16" y="92"><tspan font-weight="700">42 oradores</tspan>.” “Houve <tspan font-weight="700">17 apartes</tspan>.”</text>
+    </g>
+    <text x="16" y="134" font-size="14" fill="#52514e">Dá para conferir: a ata confirma</text>
+    <text x="16" y="154" font-size="14" fill="#52514e">ou desmente.</text>
+  </g>
+
+  <!-- Opinião do autor -->
+  <g transform="translate(462 84)">
+    <rect width="426" height="180" rx="10" fill="#fdf0e6" stroke="#f0c3a6"/>
+    <text x="16" y="32" font-size="17" font-weight="700" fill="#b4501f">Opinião do autor</text>
+    <text x="410" y="32" font-size="13" fill="#52514e" text-anchor="end">frase 8</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="70">“É um trabalho <tspan font-weight="700">admirável</tspan>, e <tspan font-weight="700">talvez</tspan></text>
+      <text x="16" y="92">o menos lembrado do Parlamento.”</text>
+    </g>
+    <text x="16" y="134" font-size="14" fill="#52514e">Marcas: o adjetivo de avaliação (admirável)</text>
+    <text x="16" y="154" font-size="14" fill="#52514e">e o advérbio de dúvida (talvez).</text>
+  </g>
+
+  <!-- Fato com avaliação -->
+  <g transform="translate(24 276)">
+    <rect width="426" height="180" rx="10" fill="#e6f6ef" stroke="#a9dcc6"/>
+    <text x="16" y="32" font-size="17" font-weight="700" fill="#12784f">Fato com avaliação</text>
+    <text x="410" y="32" font-size="13" fill="#52514e" text-anchor="end">frase 7</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="70">“<tspan font-weight="700">Felizmente</tspan>, a Casa voltou a publicar</text>
+      <text x="16" y="92">o registro dos debates no mesmo dia.”</text>
+    </g>
+    <text x="16" y="134" font-size="14" fill="#52514e">Fato: a volta da publicação.</text>
+    <text x="16" y="154" font-size="14" fill="#52514e">Avaliação do autor: felizmente.</text>
+  </g>
+
+  <!-- Opinião de outra pessoa -->
+  <g transform="translate(462 276)">
+    <rect width="426" height="180" rx="10" fill="#fdf5dc" stroke="#ecd48a"/>
+    <text x="16" y="32" font-size="17" font-weight="700" fill="#8a6200">Opinião de outra pessoa</text>
+    <text x="410" y="32" font-size="13" fill="#52514e" text-anchor="end">frase 9</text>
+    <g font-size="15" fill="#0b0b0b">
+      <text x="16" y="70">“<tspan font-weight="700">Segundo a chefe do setor</tspan>, a equipe</text>
+      <text x="16" y="92">ainda é <tspan font-weight="700">pequena</tspan> para o volume de sessões.”</text>
+    </g>
+    <text x="16" y="134" font-size="14" fill="#52514e">Marca da voz: segundo. “Pequena” é</text>
+    <text x="16" y="154" font-size="14" fill="#52514e">avaliação dela, não do autor.</text>
+  </g>
+
+  <!-- Pé -->
+  <line x1="24" y1="478" x2="888" y2="478" stroke="#e1e0d9"/>
+  <text x="24" y="506" font-size="14" fill="#0b0b0b">O teste: <tspan font-weight="700">como eu comprovaria isso?</tspan> Se há documento, medida ou registro, é afirmação de fato.</text>
+  <text x="24" y="530" font-size="14" fill="#0b0b0b">Se a resposta depende de julgamento, é opinião. Depois, veja de quem ela é.</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="600" viewBox="0 0 912 600" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="912" height="600" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">Da fala para a escrita: nove operações, dois grupos</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">Modelo de Marcuschi, conforme os resumos consultados (redação nossa)</text>
+
+  <!-- Grupo 1 -->
+  <g transform="translate(24 82)">
+    <rect width="744" height="204" rx="10" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#1c5cab">Grupo 1 · Regularização e idealização</text>
+    <text x="728" y="30" font-size="13" fill="#52514e" text-anchor="end">estratégias: eliminar e inserir</text>
+    <g font-size="15" fill="#0b0b0b">
+      <circle cx="30" cy="62" r="12" fill="#256abf"/><text x="30" y="67" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+      <text x="54" y="67">Eliminar marcas interacionais, hesitações e partes de palavras</text>
+      <circle cx="30" cy="100" r="12" fill="#256abf"/><text x="30" y="105" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+      <text x="54" y="105">Pontuar pela entoação da fala</text>
+      <circle cx="30" cy="138" r="12" fill="#256abf"/><text x="30" y="143" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+      <text x="54" y="143">Retirar repetições, redundâncias e paráfrases</text>
+      <circle cx="30" cy="176" r="12" fill="#256abf"/><text x="30" y="181" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+      <text x="54" y="181">Introduzir parágrafos e pontuação detalhada, sem mudar a ordem dos assuntos</text>
+    </g>
+  </g>
+
+  <!-- Grupo 2 -->
+  <g transform="translate(24 302)">
+    <rect width="744" height="242" rx="10" fill="#fdebe2" stroke="#f3c3ad"/>
+    <text x="16" y="30" font-size="16" font-weight="700" fill="#b84a1c">Grupo 2 · Transformação</text>
+    <text x="728" y="30" font-size="13" fill="#52514e" text-anchor="end">substituir, selecionar, acrescentar, reordenar, condensar</text>
+    <g font-size="15" fill="#0b0b0b">
+      <circle cx="30" cy="62" r="12" fill="#eb6834"/><text x="30" y="67" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+      <text x="54" y="67">Explicitar dêiticos <tspan font-size="13" fill="#52514e">(esse aqui, lá, aquele)</tspan> e ações</text>
+      <circle cx="30" cy="100" r="12" fill="#eb6834"/><text x="30" y="105" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+      <text x="54" y="105">Reconstruir a sintaxe conforme a norma escrita</text>
+      <circle cx="30" cy="138" r="12" fill="#eb6834"/><text x="30" y="143" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">7</text>
+      <text x="54" y="143">Dar tratamento de estilo: estruturas e vocabulário mais formais</text>
+      <circle cx="30" cy="176" r="12" fill="#eb6834"/><text x="30" y="181" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">8</text>
+      <text x="54" y="181">Reordenar os assuntos e a sequência dos argumentos</text>
+      <circle cx="30" cy="214" r="12" fill="#eb6834"/><text x="30" y="219" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">9</text>
+      <text x="54" y="219">Agrupar argumentos e condensar ideias</text>
+    </g>
+  </g>
+
+  <!-- Seta lateral -->
+  <g>
+    <line x1="832" y1="96" x2="832" y2="516" stroke="#52514e" stroke-width="3"/>
+    <path d="M820 512 L832 540 L844 512 Z" fill="#52514e"/>
+    <text x="832" y="0" font-size="13" fill="#52514e" text-anchor="middle" transform="translate(866 316) rotate(90) translate(-832 0)">cresce a intervenção no texto e o risco para o conteúdo</text>
+  </g>
+
+  <!-- Pé -->
+  <text x="24" y="578" font-size="14" fill="#52514e">Nem toda retextualização usa as nove: uma fala bem organizada pode ficar pronta depois das primeiras.</text>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="650" viewBox="0 0 912 650" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="seta" markerWidth="6" markerHeight="5" refX="5" refY="2.5" orient="auto"><path d="M0,0 L6,2.5 L0,5 z" fill="#52514e"/></marker>
+  </defs>
+  <rect width="912" height="650" fill="#ffffff"/>
+
+  <text x="24" y="38" font-size="21" font-weight="700" fill="#0b0b0b">A mesma frase em três vozes</text>
+  <text x="24" y="62" font-size="14" fill="#52514e">O objeto direto da ativa vira sujeito da passiva; o sujeito da ativa vira agente da passiva.</text>
+
+  <!-- Ativa -->
+  <text x="24" y="100" font-size="15" font-weight="700" fill="#52514e">Voz ativa</text>
+  <g font-size="17" font-weight="700" text-anchor="middle">
+    <rect x="150" y="112" width="190" height="46" rx="8" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="245" y="141" fill="#1c5cab">A comissão</text>
+    <rect x="360" y="112" width="190" height="46" rx="8" fill="#f1f0ec" stroke="#dddcd6"/>
+    <text x="455" y="141" fill="#0b0b0b">aprovou</text>
+    <rect x="570" y="112" width="190" height="46" rx="8" fill="#dff4ea" stroke="#a9dcc4"/>
+    <text x="665" y="141" fill="#0f7a54">as emendas.</text>
+  </g>
+  <g font-size="13" fill="#52514e" text-anchor="middle">
+    <text x="245" y="176">sujeito (quem faz)</text>
+    <text x="455" y="176">verbo, pretérito perfeito</text>
+    <text x="665" y="176">objeto direto</text>
+  </g>
+
+  <!-- Setas cruzadas -->
+  <path d="M665,186 C665,220 245,206 245,246" fill="none" stroke="#0f7a54" stroke-width="2" marker-end="url(#seta)"/>
+  <path d="M245,186 C245,220 720,206 720,246" fill="none" stroke="#1c5cab" stroke-width="2" marker-end="url(#seta)"/>
+
+  <!-- Passiva analítica -->
+  <text x="24" y="240" font-size="15" font-weight="700" fill="#52514e">Passiva</text>
+  <text x="24" y="258" font-size="15" font-weight="700" fill="#52514e">analítica</text>
+  <g font-size="17" font-weight="700" text-anchor="middle">
+    <rect x="150" y="252" width="190" height="46" rx="8" fill="#dff4ea" stroke="#a9dcc4"/>
+    <text x="245" y="281" fill="#0f7a54">As emendas</text>
+    <rect x="360" y="252" width="230" height="46" rx="8" fill="#f1f0ec" stroke="#dddcd6"/>
+    <text x="475" y="281" fill="#0b0b0b">foram aprovadas</text>
+    <rect x="610" y="252" width="220" height="46" rx="8" fill="#e3edf9" stroke="#b8cfee"/>
+    <text x="720" y="281" fill="#1c5cab">pela comissão.</text>
+  </g>
+  <g font-size="13" fill="#52514e" text-anchor="middle">
+    <text x="245" y="316">sujeito (recebe a ação)</text>
+    <text x="475" y="316">ser, no mesmo tempo, + particípio,</text>
+    <text x="475" y="332">que concorda com o sujeito</text>
+    <text x="720" y="316">agente da passiva</text>
+  </g>
+
+  <!-- Passiva sintética -->
+  <text x="24" y="382" font-size="15" font-weight="700" fill="#52514e">Passiva</text>
+  <text x="24" y="400" font-size="15" font-weight="700" fill="#52514e">sintética</text>
+  <g font-size="17" font-weight="700" text-anchor="middle">
+    <rect x="150" y="364" width="210" height="46" rx="8" fill="#f1f0ec" stroke="#dddcd6"/>
+    <text x="255" y="393" fill="#0b0b0b">Aprovaram-se</text>
+    <rect x="380" y="364" width="190" height="46" rx="8" fill="#dff4ea" stroke="#a9dcc4"/>
+    <text x="475" y="393" fill="#0f7a54">as emendas.</text>
+    <rect x="610" y="364" width="220" height="46" rx="8" fill="#ffffff" stroke="#b9b8b2" stroke-dasharray="6 5"/>
+    <text x="720" y="393" fill="#8a8984" font-weight="400">sem agente</text>
+  </g>
+  <g font-size="13" fill="#52514e" text-anchor="middle">
+    <text x="255" y="428">verbo + se: concorda com o sujeito</text>
+    <text x="475" y="428">sujeito (recebe a ação)</text>
+    <text x="720" y="428">"a comissão" some da frase</text>
+  </g>
+
+  <!-- Tempos -->
+  <rect x="24" y="456" width="864" height="104" rx="8" fill="#f9f9f7" stroke="#dddcd6"/>
+  <text x="40" y="482" font-size="15" font-weight="700" fill="#52514e">O tempo não muda na troca</text>
+  <g font-size="15" fill="#0b0b0b">
+    <text x="40" y="508">aprovou <tspan fill="#52514e">→</tspan> <tspan font-weight="700">foram</tspan> aprovadas</text>
+    <text x="330" y="508">aprovava <tspan fill="#52514e">→</tspan> <tspan font-weight="700">eram</tspan> aprovadas</text>
+    <text x="620" y="508">aprovará <tspan fill="#52514e">→</tspan> <tspan font-weight="700">serão</tspan> aprovadas</text>
+    <text x="40" y="540">tinha aprovado <tspan fill="#52514e">→</tspan> <tspan font-weight="700">tinham sido</tspan> aprovadas</text>
+    <text x="460" y="540">vai aprovar <tspan fill="#52514e">→</tspan> <tspan font-weight="700">vão ser</tspan> aprovadas</text>
+  </g>
+
+  <!-- Pé -->
+  <rect x="24" y="574" width="864" height="58" rx="8" fill="#fbe9e2" stroke="#f1bfae"/>
+  <text x="40" y="598" font-size="14" fill="#0b0b0b"><tspan font-weight="700" fill="#a8401b">Em regra, sem objeto direto não há passiva:</tspan> "A comissão precisa de mais prazo" não se transpõe.</text>
+  <text x="40" y="620" font-size="14" fill="#0b0b0b">Em "Precisa-se de mais prazo", o sujeito é indeterminado, e o verbo fica no singular.</text>
+</svg>
