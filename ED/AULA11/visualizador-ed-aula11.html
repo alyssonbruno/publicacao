@@ -1,0 +1,1541 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Árvore de Busca Passo a Passo</title>
+<script>
+  /* Aplica o tema salvo antes de desenhar a página, para não piscar. */
+  try {
+    var temaSalvo = localStorage.getItem("ed-visualizador-tema");
+    if (temaSalvo === "dark" || temaSalvo === "light") {
+      document.documentElement.setAttribute("data-theme", temaSalvo);
+    }
+  } catch (e) { /* sem armazenamento: segue o tema do sistema */ }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;700&display=swap">
+
+<style>
+  :root {
+    --laranja:   #e67e22;
+    --laranja-f: #b8601a;
+    --azul:      #2563eb;
+    --tijolo:    #c0392b;
+    --sobre-laranja: #ffffff;
+
+    /* As mesmas cores das figuras da Aula 11: raiz laranja, subárvore
+       esquerda azul, subárvore direita verde, nó que sai em vermelho.
+       Tons ajustados para o número dentro do nó passar de 4,5:1. */
+    --no-raiz:    #e67e22;  --no-raiz-tx: #211c17;
+    --no-esq:     #2563eb;  --no-esq-tx:  #ffffff;
+    --no-dir:     #1e8449;  --no-dir-tx:  #ffffff;
+    --no-sai:     #c0392b;  --no-sai-tx:  #ffffff;
+
+    --fundo:      #faf7f3;
+    --papel:      #ffffff;
+    --tinta:      #211c17;
+    --tinta-fraca:#6b6055;
+    --linha:      #e3dbd1;
+    --linha-forte:#b5a796;
+    --codigo-bg:  #2b241d;
+    --codigo-tx:  #efe6da;
+    --codigo-cmt: #a8998a;
+    --marca:      rgba(230, 126, 34, 0.22);
+    --sombra:     0 1px 2px rgba(33, 28, 23, .06), 0 6px 18px rgba(33, 28, 23, .07);
+
+    --display: "Bricolage Grotesque", "Trebuchet MS", sans-serif;
+    --corpo:   "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+    --mono:    "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --fundo:      #17140f;
+      --papel:      #221d17;
+      --tinta:      #f2ece3;
+      --tinta-fraca:#a89a89;
+      --linha:      #3a322a;
+      --linha-forte:#6a5d50;
+      --codigo-bg:  #100e0b;
+      --codigo-tx:  #efe6da;
+      --codigo-cmt: #8d8073;
+      --laranja:    #f2903a;
+      --laranja-f:  #ffb06b;
+      --azul:       #6b9bff;
+      --tijolo:     #e2674f;
+      --marca:      rgba(242, 144, 58, 0.26);
+      --sobre-laranja: #17140f;
+      --sombra:     0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+      --no-raiz:    #f2903a;  --no-raiz-tx: #17140f;
+      --no-esq:     #6b9bff;  --no-esq-tx:  #17140f;
+      --no-dir:     #4ec27a;  --no-dir-tx:  #17140f;
+      --no-sai:     #e2674f;  --no-sai-tx:  #17140f;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --fundo:      #17140f;
+    --papel:      #221d17;
+    --tinta:      #f2ece3;
+    --tinta-fraca:#a89a89;
+    --linha:      #3a322a;
+    --linha-forte:#6a5d50;
+    --codigo-bg:  #100e0b;
+    --codigo-tx:  #efe6da;
+    --codigo-cmt: #8d8073;
+    --laranja:    #f2903a;
+    --laranja-f:  #ffb06b;
+    --azul:       #6b9bff;
+    --tijolo:     #e2674f;
+    --marca:      rgba(242, 144, 58, 0.26);
+    --sobre-laranja: #17140f;
+    --sombra:     0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+    --no-raiz:    #f2903a;  --no-raiz-tx: #17140f;
+    --no-esq:     #6b9bff;  --no-esq-tx:  #17140f;
+    --no-dir:     #4ec27a;  --no-dir-tx:  #17140f;
+    --no-sai:     #e2674f;  --no-sai-tx:  #17140f;
+  }
+
+  * { box-sizing: border-box; }
+  /* A JetBrains Mono junta "==" e "!=" em um símbolo só (≠). Quem está
+     aprendendo Java precisa ver os caracteres que vai digitar. */
+  .codigo pre, .expr, .var, .pilha li, .caixa, .arvore text, .placar, .passo-conta, .narracao .num {
+    font-variant-ligatures: none; font-feature-settings: "liga" 0, "calt" 0;
+  }
+  body {
+    margin: 0;
+    background: var(--fundo);
+    color: var(--tinta);
+    font-family: var(--corpo);
+    font-size: 17px;
+    line-height: 1.55;
+    padding-inline: 16px;
+    padding-block: 28px 56px;
+  }
+  .folha { max-width: 620px; margin-inline: auto; display: flex; flex-direction: column; gap: 22px; }
+
+  /* ---------- cabeçalho ---------- */
+  .eyebrow {
+    font-family: var(--mono); font-size: .72rem; font-weight: 700; margin: 0;
+    letter-spacing: .16em; text-transform: uppercase; color: var(--laranja-f);
+  }
+  h1 {
+    font-family: var(--display); font-weight: 800; font-size: clamp(1.9rem, 8vw, 2.6rem);
+    line-height: 1.05; margin: 6px 0 0; text-wrap: balance; letter-spacing: -.015em;
+  }
+  .subtitulo { color: var(--tinta-fraca); margin: 10px 0 0; max-width: 46ch; }
+
+  /* ---------- seletor de operação ---------- */
+  .abas { display: flex; gap: 5px; background: var(--papel); border: 1px solid var(--linha);
+          border-radius: 12px; padding: 5px; box-shadow: var(--sombra); }
+  .abas button {
+    flex: 1; min-width: 0; min-height: 48px; padding: 0 4px; border: 0; border-radius: 8px; cursor: pointer;
+    background: transparent; color: var(--tinta-fraca);
+    font-family: var(--display); font-weight: 600; font-size: clamp(.82rem, 3.7vw, .95rem); letter-spacing: -.01em;
+  }
+  .abas button[aria-selected="true"] { background: var(--laranja); color: var(--sobre-laranja); }
+  .abas button:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+
+  /* ---------- palco da árvore ---------- */
+  .palco {
+    background: var(--papel); border: 1px solid var(--linha); border-radius: 16px;
+    padding: 14px 12px 16px; box-shadow: var(--sombra);
+  }
+  .arvore { display: block; width: 100%; height: auto; margin-inline: auto; }
+  .arvore .aresta { stroke: var(--linha-forte); stroke-width: 5; stroke-linecap: round; }
+  .arvore .aresta.ativa { stroke: var(--laranja-f); stroke-width: 10; }
+  .arvore .aresta.pendente { stroke: var(--tinta-fraca); stroke-dasharray: 14 11; }
+  .arvore .aresta.fora, .arvore .no.fora { opacity: .25; }
+  .arvore .corpo { stroke: var(--papel); stroke-width: 4; }
+  .arvore .val { font-family: var(--mono); font-weight: 700; font-size: 42px; text-anchor: middle; }
+  .arvore .no.raiz .corpo { fill: var(--no-raiz); } .arvore .no.raiz .val { fill: var(--no-raiz-tx); }
+  .arvore .no.esq  .corpo { fill: var(--no-esq); }  .arvore .no.esq  .val { fill: var(--no-esq-tx); }
+  .arvore .no.dir  .corpo { fill: var(--no-dir); }  .arvore .no.dir  .val { fill: var(--no-dir-tx); }
+  .arvore .no.sai  .corpo { fill: var(--no-sai); }  .arvore .no.sai  .val { fill: var(--no-sai-tx); }
+  .arvore .halo { fill: var(--marca); }
+  .arvore .anel { fill: none; stroke: var(--tinta); stroke-width: 7; }
+  .arvore .anel.trac { stroke-dasharray: 13 9; }
+  .arvore .anel.sucessor { stroke: var(--tijolo); }
+  .arvore .anel.sobe { stroke: var(--laranja-f); }
+  .arvore .tag { font-family: var(--mono); font-weight: 700; font-size: 30px; fill: var(--tinta); text-anchor: middle;
+                 paint-order: stroke; stroke: var(--papel); stroke-width: 8px; stroke-linejoin: round; }
+  .arvore .fant .corpo { fill: none; stroke: var(--tinta-fraca); stroke-width: 4; stroke-dasharray: 12 9; }
+  .arvore .fant .val { fill: var(--tinta-fraca); font-size: 30px; font-weight: 400; }
+  .arvore .selo circle { fill: var(--laranja-f); stroke: var(--papel); stroke-width: 4; }
+  .arvore .selo text { fill: var(--papel); font-family: var(--mono); font-weight: 700; font-size: 27px; text-anchor: middle; }
+  .arvore .vazia { fill: var(--tinta-fraca); font-family: var(--mono); font-size: 40px; text-anchor: middle; }
+
+  /* sequência de entrada (o que inserir, buscar ou remover) e a lista do percurso */
+  .aux { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 12px; padding-top: 12px;
+         border-top: 1px dashed var(--linha); }
+  .aux:empty { display: none; }
+  .aux-linha { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+  .aux-linha > b { font-family: var(--mono); font-size: .9rem; font-weight: 700; color: var(--tinta-fraca); margin-right: 2px; }
+  .caixa { min-width: 38px; height: 36px; padding: 0 5px; border-radius: 7px; display: grid; place-items: center;
+           font-family: var(--mono); font-weight: 700; font-variant-numeric: tabular-nums;
+           border: 2px solid var(--linha); background: var(--papel); color: var(--tinta); }
+  .caixa[data-estado="atual"] { border-color: var(--laranja); color: var(--laranja-f); background: var(--marca); }
+  .caixa[data-estado="usado"] { opacity: .4; }
+  .aux-vazio { font-family: var(--mono); font-size: .9rem; color: var(--tinta-fraca); }
+
+  /* ---------- narração ---------- */
+  .narracao {
+    font-family: var(--display); font-weight: 600; font-size: 1.12rem; line-height: 1.35;
+    margin: 14px 0 0; min-height: 3.1em; text-wrap: pretty;
+  }
+  .narracao b { color: var(--laranja-f); }
+  .narracao .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+  /* ---------- contadores ---------- */
+  .placar { display: flex; gap: 10px; margin: 14px 0 0; padding-top: 14px; border-top: 1px solid var(--linha); }
+  .placar div { flex: 1; }
+  .placar dt {
+    font-family: var(--mono); font-size: .66rem; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--tinta-fraca);
+  }
+  .placar dd {
+    margin: 2px 0 0; font-family: var(--mono); font-weight: 700;
+    font-size: 1.3rem; font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- variáveis e pilha ---------- */
+  .vars {
+    background: var(--papel); border: 1px solid var(--linha); border-radius: 16px;
+    padding: 14px 16px; box-shadow: var(--sombra);
+  }
+  .vars h3 {
+    font-family: var(--mono); font-size: .66rem; font-weight: 700; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--tinta-fraca); margin: 0 0 10px;
+  }
+  .vars-lista { display: flex; flex-wrap: wrap; gap: 8px; }
+  .var {
+    display: inline-flex; align-items: baseline; gap: 7px;
+    border: 1px solid var(--linha); border-radius: 999px; padding: 5px 13px;
+    font-family: var(--mono); font-size: .92rem; font-variant-numeric: tabular-nums;
+    transition: background-color .18s ease, border-color .18s ease;
+  }
+  .var b     { font-weight: 400; color: var(--tinta-fraca); }
+  .var i     { font-style: normal; font-weight: 700; }
+  .var[data-mudou="true"] { border-color: var(--laranja); background: var(--marca); }
+  .var[data-mudou="true"] b,
+  .var[data-mudou="true"] i { color: var(--laranja-f); }
+  .var[data-indef="true"]   { opacity: .45; }
+
+  .expr {
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 9px;
+    margin: 12px 0 0; padding-top: 11px; border-top: 1px dashed var(--linha);
+    font-family: var(--mono); font-size: .88rem;
+  }
+  .expr[hidden] { display: none; }
+  .expr code { color: var(--tinta); }
+  .expr s    { color: var(--tinta-fraca); text-decoration: none; }
+  .expr em   { font-style: normal; font-weight: 700; }
+  .expr em.sim { color: var(--laranja-f); }
+  .expr em.nao { color: var(--tijolo); }
+
+  .pilha { margin-top: 12px; padding-top: 11px; border-top: 1px dashed var(--linha); }
+  .pilha h3 { margin-bottom: 8px; }
+  .pilha ol { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+  .pilha li { font-family: var(--mono); font-size: .86rem; padding: 4px 11px; border-radius: 7px;
+              border: 1px solid var(--linha); color: var(--tinta-fraca); white-space: nowrap;
+              overflow: hidden; text-overflow: ellipsis; }
+  .pilha li:first-child { border-color: var(--laranja); background: var(--marca); color: var(--laranja-f); font-weight: 700; }
+  .pilha li.publico { border-style: dashed; }
+  .pilha .vazia-pilha { font-family: var(--mono); font-size: .86rem; color: var(--tinta-fraca); }
+
+  @media (prefers-reduced-motion: reduce) { .var { transition: none; } }
+
+  /* ---------- controles ---------- */
+  .controles { display: flex; gap: 8px; }
+  .controles button {
+    min-height: 54px; border-radius: 12px; cursor: pointer; border: 1px solid var(--linha);
+    background: var(--papel); color: var(--tinta); box-shadow: var(--sombra);
+    font-family: var(--display); font-weight: 600; font-size: 1rem;
+  }
+  .controles button:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+  .controles button:disabled { opacity: .4; cursor: default; }
+  #proximo { flex: 2; background: var(--laranja); border-color: var(--laranja); color: var(--sobre-laranja); }
+  #anterior, #tocar, #reiniciar { flex: 1; }
+
+  .progresso { display: block; height: 5px; border-radius: 3px; background: var(--linha); overflow: hidden; }
+  .progresso i { display: block; height: 100%; background: var(--laranja); transition: width .18s ease; }
+  .passo-conta {
+    font-family: var(--mono); font-size: .75rem; color: var(--tinta-fraca);
+    text-align: center; margin: 7px 0 0; font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- legenda ---------- */
+  .legenda { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: .85rem; color: var(--tinta-fraca); }
+  .legenda span { display: inline-flex; align-items: center; gap: 7px; }
+  .chave { width: 16px; height: 16px; border-radius: 50%; flex: none; }
+
+  /* ---------- código ---------- */
+  .codigo {
+    background: var(--codigo-bg); border-radius: 14px; padding: 16px 0;
+    overflow-x: auto; box-shadow: var(--sombra);
+  }
+  .codigo pre { margin: 0; font-family: var(--mono); font-size: .82rem; line-height: 1.7; }
+  .codigo .ln { display: block; padding: 0 18px; color: var(--codigo-tx); white-space: pre; }
+  .codigo .ln.ativa { background: var(--marca); box-shadow: inset 3px 0 0 var(--laranja); }
+  .codigo .cm { color: var(--codigo-cmt); }
+
+  /* ---------- entradas ---------- */
+  .entradas { display: flex; flex-wrap: wrap; gap: 8px; }
+  .entradas button {
+    min-height: 44px; padding: 0 14px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--linha); background: var(--papel); color: var(--tinta-fraca);
+    font-family: var(--corpo); font-size: .9rem;
+  }
+  .entradas button[aria-pressed="true"] { border-color: var(--laranja); color: var(--laranja-f); font-weight: 600; }
+  .entradas button:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+
+  h2 {
+    font-family: var(--display); font-weight: 600; font-size: 1.05rem;
+    margin: 0 0 -8px; letter-spacing: -.01em;
+  }
+  .nota { font-size: .9rem; color: var(--tinta-fraca); margin: 0; }
+  .nota a { color: var(--laranja-f); }
+  footer {
+    border-top: 1px solid var(--linha); padding-top: 16px;
+    font-size: .84rem; color: var(--tinta-fraca);
+  }
+
+  /* No celular as duas colunas não existem: os blocos entram na coluna única
+     nesta ordem — operação, desenho, botões, variáveis e pilha, código, entradas. */
+  .coluna { display: contents; }
+  .abas { order: 1; } .palco { order: 2; } .bloco-controles { order: 3; } .vars { order: 4; }
+  .legenda { order: 5; } .t-codigo { order: 6; } .codigo { order: 7; } .nota-codigo { order: 8; }
+  .t-entradas { order: 9; } .entradas { order: 10; } #dica-preset { order: 11; } footer { order: 12; }
+
+  /* =========================================================
+     Tela da sala: o código e o estado da recursão vão para o lado
+     do desenho. Os botões (abas, controles e entradas) ficam todos
+     na coluna da esquerda, que cabe sem rolar em 1366×768.
+     ========================================================= */
+  @media (min-width: 940px) {
+    body { padding-block: 12px 20px; }
+    .folha {
+      max-width: 1340px;
+      display: grid;
+      align-items: start;
+      column-gap: 28px;
+      row-gap: 10px;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+    .folha > header { grid-column: 1 / -1; }
+    .folha > footer { grid-column: 1 / -1; }
+    .coluna { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+    .coluna > * { order: 0; }
+    .t-entradas { display: none; }
+
+    h2 { margin: 0; }
+    h1 { font-size: 1.7rem; margin-top: 2px; }
+    .subtitulo { display: none; }
+
+    .palco { padding: 10px 14px 10px; }
+    .arvore { max-height: min(270px, 34vh); }
+    .aux { margin-top: 6px; padding-top: 8px; }
+    .caixa { height: 32px; }
+    .narracao { font-size: 1.15rem; min-height: 2.7em; margin-top: 8px; }
+    .placar { margin-top: 8px; padding-top: 8px; }
+    .placar dd { font-size: 1.35rem; }
+    .controles button { min-height: 48px; font-size: 1.05rem; }
+    .passo-conta { margin-top: 4px; }
+    .entradas button { min-height: 40px; }
+    .legenda { font-size: .9rem; }
+    .var { font-size: 1rem; padding: 4px 14px; }
+    .expr { font-size: .98rem; margin-top: 9px; padding-top: 9px; }
+    .vars { padding: 12px 16px; }
+    .vars h3 { margin-bottom: 8px; }
+
+    .codigo { padding: 10px 0; }
+    .codigo pre { font-size: .8rem; line-height: 1.42; }
+
+    /* a pilha deitada: do método público (esquerda) até o topo (direita) */
+    .pilha ol { flex-direction: row-reverse; flex-wrap: wrap; justify-content: flex-end; gap: 6px; }
+    .pilha li { padding: 3px 10px; }
+    .pilha h3 { margin-bottom: 6px; }
+  }
+
+  /* Projetor e TV da sala: mais um degrau de tamanho. */
+  @media (min-width: 1400px) {
+    .folha { max-width: 1560px; }
+    h1 { font-size: 2.2rem; }
+    .arvore { max-height: min(400px, 38vh); }
+    .narracao { font-size: 1.4rem; }
+    .placar dt { font-size: .76rem; }
+    .placar dd { font-size: 1.8rem; }
+    .codigo pre { font-size: .92rem; }
+    .abas button { font-size: 1.1rem; min-height: 56px; }
+    .var { font-size: 1.12rem; }
+    .expr { font-size: 1.06rem; }
+    .caixa { min-width: 44px; height: 40px; font-size: 1.1rem; }
+    .pilha li { font-size: .98rem; }
+  }
+
+  /* ---------- botão de tema claro / escuro ---------- */
+  .topo { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; }
+  .topo > div { min-width: 0; }
+  .tema {
+    flex: none; display: inline-flex; align-items: center; gap: 7px;
+    min-height: 44px; padding: 0 14px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--linha); background: var(--papel); color: var(--tinta);
+    box-shadow: var(--sombra); font-family: var(--corpo); font-size: .9rem; font-weight: 600;
+  }
+  .tema:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+  .tema .ic { font-size: 1.05rem; line-height: 1; }
+</style>
+</head>
+<body>
+
+<div class="folha">
+
+  <header class="topo">
+    <div>
+      <p class="eyebrow">Estrutura de Dados · Aula 11</p>
+      <h1>Árvore binária de busca passo a passo</h1>
+      <p class="subtitulo">Escolha a operação e toque em <b>Próximo passo</b>. Você acompanha ao mesmo tempo o nó que o método está olhando, a linha que o Java está executando e a <b>pilha de chamadas</b> da recursão.</p>
+    </div>
+    <button class="tema" id="tema" type="button" aria-pressed="false">
+      <span class="ic" aria-hidden="true">☾</span><span class="rt">Escuro</span>
+    </button>
+  </header>
+
+  <div class="coluna esq">
+  <div class="abas" role="tablist" aria-label="Operação">
+    <button role="tab" aria-selected="true"  data-alg="inserir">Inserir</button>
+    <button role="tab" aria-selected="false" data-alg="buscar">Buscar</button>
+    <button role="tab" aria-selected="false" data-alg="remover">Remover</button>
+    <button role="tab" aria-selected="false" data-alg="percursos">Percursos</button>
+  </div>
+
+  <section class="palco" aria-live="polite">
+    <svg class="arvore" id="arvore" viewBox="0 0 1000 500" role="img" aria-label="Desenho da árvore no passo atual"></svg>
+    <div class="aux" id="aux"></div>
+    <p class="narracao" id="narracao"></p>
+    <dl class="placar">
+      <div><dt id="rotulo-1">Nós visitados</dt><dd id="c-1">0</dd></div>
+      <div><dt>Na pilha</dt><dd id="c-pilha">0</dd></div>
+      <div><dt>Altura</dt><dd id="c-altura">−1</dd></div>
+    </dl>
+  </section>
+
+  <div class="bloco-controles">
+    <div class="controles">
+      <button id="anterior" type="button" aria-label="Passo anterior">◀</button>
+      <button id="proximo" type="button">Próximo passo</button>
+      <button id="tocar" type="button">▶ Tocar</button>
+      <button id="reiniciar" type="button" aria-label="Recomeçar">↺</button>
+    </div>
+    <div style="margin-top:10px">
+      <span class="progresso"><i id="barra-progresso" style="width:0%"></i></span>
+      <p class="passo-conta" id="passo-conta">passo 1 de 1</p>
+    </div>
+  </div>
+
+  <h2 class="t-entradas">Experimente outro caso</h2>
+  <div class="entradas" id="entradas"></div>
+  <p class="nota" id="dica-preset"></p>
+
+  <div class="legenda" id="legenda"></div>
+  </div>
+
+  <div class="coluna dir">
+  <h2 class="t-codigo">O código que está rodando</h2>
+  <div class="codigo"><pre id="codigo"></pre></div>
+
+  <section class="vars" aria-live="polite">
+    <h3>Variáveis de quem está executando agora</h3>
+    <div class="vars-lista" id="vars-lista"></div>
+    <p class="expr" id="expr" hidden></p>
+    <div class="pilha">
+      <h3>Pilha de chamadas — quem está executando é o topo, destacado</h3>
+      <ol id="pilha"></ol>
+    </div>
+  </section>
+
+  <p class="nota nota-codigo">É o mesmo código dos slides e do texto-base da aula; o método público aparece numa
+  linha só. Cada passo acende a linha que o Java está executando. Numa chamada recursiva, a execução <b>salta</b>
+  para o começo do método e só volta quando a chamada termina — é a pilha de chamadas que guarda o lugar de volta.
+  O programa pronto para colar no JDoodle vai anexado à aula no Classroom e está em
+  <a href="https://raw.githubusercontent.com/alyssonbruno/publicacao/main/ED/AULA11/ArvoreBuscaBinariaApp.java">ArvoreBuscaBinariaApp.java</a>.</p>
+  </div>
+
+  <footer>
+    Estrutura de Dados — 3º período do Bacharelado em Sistemas de Informação — UNITINS<br>
+    Prof. Me. Alysson Martins Bruno
+  </footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ---------------------------------------------------------------
+     O código exibido: o mesmo dos slides da Aula 11. O método público
+     fica numa linha só, para o código caber ao lado do desenho na tela
+     da sala. O índice de cada linha é o que os passos usam em `linha`.
+     O trecho depois de "//" é pintado como comentário.
+  --------------------------------------------------------------- */
+  var CODIGO = {
+    inserir: [
+      "public void inserir(int valor) { raiz = inserir(raiz, valor); }",
+      "",
+      "private No inserir(No no, int valor) {",
+      "    if (no == null) {                  // achou o lugar vazio",
+      "        return new No(valor);",
+      "    }",
+      "    if (valor < no.valor) {",
+      "        no.esquerdo = inserir(no.esquerdo, valor);",
+      "    } else if (valor > no.valor) {",
+      "        no.direito = inserir(no.direito, valor);",
+      "    }                                  // igual: repetido, ignora",
+      "    return no;",
+      "}"
+    ],
+    buscar: [
+      "public boolean contem(int valor) { return contem(raiz, valor); }",
+      "",
+      "private boolean contem(No no, int valor) {",
+      "    if (no == null) return false;            // o caminho acabou",
+      "    if (valor == no.valor) return true;      // achou",
+      "    if (valor < no.valor) {",
+      "        return contem(no.esquerdo, valor);   // menor: esquerda",
+      "    }",
+      "    return contem(no.direito, valor);        // maior: direita",
+      "}"
+    ],
+    remover: [
+      "public void remover(int valor) { raiz = remover(raiz, valor); }",
+      "",
+      "private No remover(No no, int valor) {",
+      "    if (no == null) return null;          // o valor não está",
+      "    if (valor < no.valor) {",
+      "        no.esquerdo = remover(no.esquerdo, valor);",
+      "    } else if (valor > no.valor) {",
+      "        no.direito = remover(no.direito, valor);",
+      "    } else {                              // achou: os três casos",
+      "        if (no.esquerdo == null) return no.direito;   // folha ou só filho direito",
+      "        if (no.direito == null) return no.esquerdo;   // só filho esquerdo",
+      "        No sucessor = menor(no.direito);              // dois filhos",
+      "        no.valor = sucessor.valor;",
+      "        no.direito = remover(no.direito, sucessor.valor);",
+      "    }",
+      "    return no;",
+      "}",
+      "",
+      "private No menor(No no) {",
+      "    while (no.esquerdo != null) no = no.esquerdo;   // sempre à esquerda",
+      "    return no;",
+      "}"
+    ]
+  };
+
+  /* Os três percursos diferem só na ordem das três linhas do meio. */
+  var PERCURSO = {
+    pre: { metodo: "preOrdem", nome: "pré-ordem", ops: ["raiz", "esq", "dir"] },
+    em:  { metodo: "emOrdem",  nome: "em ordem",  ops: ["esq", "raiz", "dir"] },
+    pos: { metodo: "posOrdem", nome: "pós-ordem", ops: ["esq", "dir", "raiz"] }
+  };
+  var LINHA_OP = {
+    raiz: "    valores.add(no.valor);             // {n}. raiz",
+    esq:  "    {m}(no.esquerdo, valores);    // {n}. esquerda",
+    dir:  "    {m}(no.direito, valores);     // {n}. direita"
+  };
+  function codigoPercurso(tipo) {
+    var p = PERCURSO[tipo], m = p.metodo, linhas, k, t;
+    linhas = [
+      "public List<Integer> " + m + "() {",
+      "    List<Integer> valores = new ArrayList<>();",
+      "    " + m + "(raiz, valores);     // o privado faz a recursão",
+      "    return valores;",
+      "}",
+      "",
+      "private void " + m + "(No no, List<Integer> valores) {",
+      "    if (no == null) {",
+      "        return;",
+      "    }"
+    ];
+    for (k = 0; k < 3; k++) {
+      t = LINHA_OP[p.ops[k]].replace("{m}", m).replace("{n}", String(k + 1));
+      linhas.push(t);
+    }
+    linhas.push("}");
+    return alinharComentarios(linhas, 10, 12);
+  }
+  /* Os slides põem os comentários das três linhas do meio na coluna 39. */
+  function alinharComentarios(linhas, de, ate) {
+    var col = 39, k, corte;
+    for (k = de; k <= ate; k++) { corte = linhas[k].indexOf("//"); col = Math.max(col, linhas[k].slice(0, corte).replace(/\s+$/, "").length + 2); }
+    for (k = de; k <= ate; k++) {
+      corte = linhas[k].indexOf("//");
+      var antes = linhas[k].slice(0, corte).replace(/\s+$/, "");
+      linhas[k] = antes + new Array(col - antes.length + 1).join(" ") + linhas[k].slice(corte);
+    }
+    return linhas;
+  }
+
+  /* Variáveis mostradas no painel, na ordem do código. Quem não pertence
+     ao método do topo da pilha aparece apagado, com "—". */
+  var VARIAVEIS = {
+    inserir:   ["no", "valor"],
+    buscar:    ["no", "valor"],
+    remover:   ["no", "valor", "sucessor"],
+    percursos: ["no", "valores"]
+  };
+  var ROTULO_1 = { inserir: "Nós visitados", buscar: "Nós visitados", remover: "Nós visitados", percursos: "Na lista" };
+
+  var LEGENDA_BASE = [
+    ["var(--no-raiz)", "raiz"],
+    ["var(--no-esq)", "lado esquerdo da raiz"],
+    ["var(--no-dir)", "lado direito da raiz"],
+    ["transparent;border:3px solid var(--tinta)", "no: o nó da chamada do topo"]
+  ];
+  var LEGENDAS = {
+    inserir: LEGENDA_BASE.concat([
+      ["var(--marca)", "já comparado nesta inserção"],
+      ["transparent;border:2px dashed var(--tinta-fraca)", "null: lugar vazio"]
+    ]),
+    buscar: LEGENDA_BASE.concat([
+      ["var(--marca)", "já comparado nesta busca"],
+      ["transparent;border:2px dashed var(--tinta-fraca)", "null: o caminho acabou"]
+    ]),
+    remover: LEGENDA_BASE.concat([
+      ["var(--no-sai)", "o nó que sai"],
+      ["transparent;border:3px dashed var(--tijolo)", "sucessor"],
+      ["var(--marca)", "já visitado nesta remoção"]
+    ]),
+    percursos: LEGENDA_BASE.concat([
+      ["var(--laranja-f)", "número: ordem em que entrou na lista"],
+      ["transparent;border:2px dashed var(--tinta-fraca)", "chamada com null"]
+    ])
+  };
+
+  var AULA = [50, 30, 70, 20, 40, 60, 80];
+  var TORTA = [10, 20, 30, 40, 50];
+
+  var PRESETS = {
+    inserir: [
+      { id: "aula", rotulo: "Árvore da aula", seq: AULA,
+        dica: "A árvore dos slides: 50, 30, 70, 20, 40, 60, 80, nessa ordem. Repare que ninguém que já estava na árvore se mexe. No fim: altura 2, todos os níveis cheios." },
+      { id: "crescente", rotulo: "Em ordem crescente", seq: TORTA,
+        dica: "10, 20, 30, 40, 50: cada valor novo é o maior até ali e vai sempre para a direita. A árvore vira uma lista: altura 4." },
+      { id: "embaralhado", rotulo: "Embaralhado", seq: [30, 10, 50, 20, 40],
+        dica: "30, 10, 50, 20, 40: os mesmos cinco valores do caso anterior, agora com altura 2. A ordem de inserção decide a altura." },
+      { id: "repetido", rotulo: "Com repetido", seq: [50, 30, 70, 30],
+        dica: "50, 30, 70 e de novo o 30: na segunda vez a busca encontra o 30 e não insere nada. Repetidos são ignorados." },
+      { id: "sorteio", rotulo: "Sortear", seq: null,
+        dica: "Sete valores sorteados entre 1 e 99. O sorteio descarta árvores com altura maior que 3, para o desenho caber na tela." }
+    ],
+    buscar: [
+      { id: "b60", rotulo: "Buscar 60", arv: AULA, x: 60,
+        dica: "Achou olhando 3 dos 7 nós: 50, 70 e 60." },
+      { id: "b90", rotulo: "Buscar 90", arv: AULA, x: 90,
+        dica: "O 90 não está — e a busca descobre isso olhando só 3 dos 7 nós: 50, 70 e 80." },
+      { id: "b45", rotulo: "Buscar 45", arv: AULA, x: 45,
+        dica: "O 45 não está: a busca passa por 50, 30 e 40 e cai no filho direito do 40, que é null." },
+      { id: "torta", rotulo: "50 na árvore torta", arv: TORTA, x: 50,
+        dica: "Na árvore de 10, 20, 30, 40, 50 inseridos em ordem, buscar o 50 visita os 5 nós: a busca virou O(n)." }
+    ],
+    remover: [
+      { id: "aula", rotulo: "Os três casos: 20, 30, 50", arv: AULA, alvos: [20, 30, 50],
+        dica: "Os três casos da aula, em sequência: o 20 é folha; sem ele, o 30 fica com um filho só; o 50 tem dois filhos e dá lugar ao sucessor 60. No fim: raiz 60, em ordem 40, 60, 70, 80." },
+      { id: "raiz", rotulo: "Só a raiz (50)", arv: AULA, alvos: [50],
+        dica: "A raiz 50 tem dois filhos. O sucessor é o 60, o menor da direita: o valor dele sobe para a raiz, e o nó de baixo sai." },
+      { id: "r70", rotulo: "Remover 70", arv: AULA, alvos: [70],
+        dica: "O 70 tem dois filhos, 60 e 80. O menor da direita do 70 é o próprio 80, que não tem filho esquerdo: ele é o sucessor." },
+      { id: "r99", rotulo: "Remover 99", arv: AULA, alvos: [99],
+        dica: "O 99 não está: a descida passa por 50, 70 e 80, cai no null e nada muda." }
+    ],
+    percursos: [
+      { id: "pre", rotulo: "Pré-ordem", tipo: "pre",
+        dica: "Resultado: 50, 30, 20, 40, 70, 60, 80. O nó entra na lista antes dos filhos." },
+      { id: "em", rotulo: "Em ordem", tipo: "em",
+        dica: "Resultado: 20, 30, 40, 50, 60, 70, 80. Numa BST, o em ordem sai crescente." },
+      { id: "pos", rotulo: "Pós-ordem", tipo: "pos",
+        dica: "Resultado: 20, 40, 30, 60, 80, 70, 50. O nó só entra depois dos dois filhos: a raiz é a última." }
+    ]
+  };
+
+  /* ------------------------------ a árvore ------------------------------ */
+
+  var proximoId = 0;
+  function No(v) { this.id = ++proximoId; this.v = v; this.e = null; this.d = null; }
+
+  /* Monta uma árvore pronta, sem passos: é o ponto de partida de buscar, remover e percorrer. */
+  function montar(seq) {
+    var raiz = null, k;
+    function ins(no, x) {
+      if (!no) { return new No(x); }
+      if (x < no.v) { no.e = ins(no.e, x); } else if (x > no.v) { no.d = ins(no.d, x); }
+      return no;
+    }
+    for (k = 0; k < seq.length; k++) { raiz = ins(raiz, seq[k]); }
+    return raiz;
+  }
+  function clonar(no) { return no ? { id: no.id, v: no.v, e: clonar(no.e), d: clonar(no.d) } : null; }
+  function altura(no) { return no ? 1 + Math.max(altura(no.e), altura(no.d)) : -1; }
+  function contar(no) { return no ? 1 + contar(no.e) + contar(no.d) : 0; }
+  function emOrdem(no, out) { if (no) { emOrdem(no.e, out); out.push(no.v); emOrdem(no.d, out); } return out; }
+  function nivelDe(raiz, id) {
+    function busca(no, nivel) {
+      if (!no) { return -1; }
+      if (no.id === id) { return nivel; }
+      var r = busca(no.e, nivel + 1);
+      return r >= 0 ? r : busca(no.d, nivel + 1);
+    }
+    return busca(raiz, 0);
+  }
+
+  /* --------------------------- textos curtos --------------------------- */
+  function n(x) { return '<span class="num">' + x + "</span>"; }
+  function ref(no) { return no ? "→ " + no.v : "null"; }
+  function nome(no) { return no ? "nó " + no.v : "null"; }
+  function cond(texto, valores, ok) { return { texto: texto, valores: valores, ok: !!ok }; }
+  function copiar(o) {
+    var r = {}, k;
+    for (k in o) { if (Object.prototype.hasOwnProperty.call(o, k)) { r[k] = o[k]; } }
+    return r;
+  }
+  function lista(arr) { return n("[" + arr.join(", ") + "]"); }
+
+  /* ------------------------- máquina de passos -------------------------
+     Guarda a árvore, a pilha de chamadas e o que já foi visitado, e tira
+     uma "foto" a cada passo. Cada foto leva uma cópia da árvore inteira. */
+  function Maquina(raiz) {
+    this.raiz = raiz;
+    this.passos = [];
+    this.frames = [];
+    this.ativos = [];   // ids dos nós das chamadas em andamento, da raiz até o topo
+    this.vistos = [];   // ids dos nós comparados na operação atual
+    this.fixas = {};    // marcas que duram a operação inteira: novo, achou, sai, sobe...
+    this.saida = null;  // a lista valores, nos percursos
+    this.ordem = {};    // id -> posição na lista, nos percursos
+    this.seq = null;    // a sequência de entrada (inserir, buscar, remover)
+  }
+  Maquina.prototype.chamar = function (rot, vars, no, publico, fantasma) {
+    var t = this.topo();
+    this.frames.push({
+      rot: rot, vars: vars, publico: !!publico,
+      noId: publico ? null : (no ? no.id : "fantasma"),
+      fantasma: fantasma || null,
+      /* o trecho da árvore que esta chamada enxerga; numa chamada com null,
+         continua valendo o do pai */
+      foco: publico ? null : (no ? no.id : (t ? t.foco : null))
+    });
+    if (no && !publico) { this.ativos.push(no.id); }
+  };
+  Maquina.prototype.voltar = function () {
+    var f = this.frames.pop();
+    if (f && !f.publico && f.noId !== "fantasma") { this.ativos.pop(); }
+  };
+  Maquina.prototype.topo = function () { return this.frames[this.frames.length - 1]; };
+  Maquina.prototype.ver = function (no) { if (this.vistos.indexOf(no.id) < 0) { this.vistos.push(no.id); } };
+  Maquina.prototype.foto = function (o) {
+    var t = this.topo(), pilha = [], k, naPilha = 0, marcas = copiar(this.fixas), id, fant, prof;
+    for (k = this.frames.length - 1; k >= 0; k--) {
+      pilha.push({ rot: this.frames[k].rot, publico: this.frames[k].publico });
+      if (!this.frames[k].publico) { naPilha++; }
+    }
+    if (o.marcas) { for (id in o.marcas) { if (Object.prototype.hasOwnProperty.call(o.marcas, id)) { marcas[id] = o.marcas[id]; } } }
+    fant = o.fantasma !== undefined ? o.fantasma : (t ? t.fantasma : null);
+    prof = altura(this.raiz);
+    if (fant) { prof = Math.max(prof, fant.pai === null ? 0 : nivelDe(this.raiz, fant.pai) + 1); }
+    this.passos.push({
+      arvore: clonar(this.raiz), fantasma: fant, atual: o.atual !== undefined ? o.atual : (t ? t.noId : null),
+      marcas: marcas, ativos: this.ativos.slice(), vistos: this.vistos.slice(),
+      foco: o.foco !== undefined ? o.foco : (t ? t.foco : null),
+      linha: o.linha, texto: o.texto, vars: t ? copiar(t.vars) : {}, destaque: o.destaque || "",
+      expr: o.expr || null, pilha: pilha, naPilha: naPilha,
+      visitados: this.vistos.length, altura: altura(this.raiz), prof: prof,
+      saida: this.saida ? this.saida.slice() : null, ordem: copiar(this.ordem),
+      seq: this.seq ? { titulo: this.seq.titulo, lista: this.seq.lista.slice(), pos: this.seq.pos } : null
+    });
+  };
+
+  /* Frase para a volta de uma chamada que devolve um nó para o pai religar. */
+  function textoVolta(pai, campo, antes, depois) {
+    if (antes === depois) {
+      return depois
+        ? "Voltou o próprio " + n(depois.v) + ": <b>no." + campo + "</b> recebe o mesmo nó de antes — <b>nada muda</b>."
+        : "Voltou <b>null</b>: <b>no." + campo + "</b> já era null — <b>nada muda</b>.";
+    }
+    if (!depois) {
+      return "Voltou <b>null</b>: <b>no." + campo + "</b> do " + n(pai.v) + " passa a ser null. O nó saiu da árvore.";
+    }
+    return "Voltou o " + n(depois.v) + ": <b>no." + campo + "</b> do " + n(pai.v) + " passa a apontar para ele. O nó removido saiu da árvore.";
+  }
+
+  /* ------------------------------ Inserir ------------------------------ */
+  function passosInserir(seq) {
+    proximoId = 0;
+    var m = new Maquina(null), k;
+    m.seq = { titulo: "Inserir", lista: seq.slice(), pos: 0 };
+
+    for (k = 0; k < seq.length; k++) { m.seq.pos = k; publico(seq[k]); }
+
+    m.seq.pos = seq.length;
+    m.vistos = []; m.fixas = {};
+    m.foto({ linha: 0, foco: null, atual: null,
+      texto: "Pronto: " + n(contar(m.raiz)) + " nós, altura " + n(altura(m.raiz)) + ". Em ordem: " + lista(emOrdem(m.raiz, [])) + "." });
+    return m.passos;
+
+    function publico(x) {
+      var antes = m.raiz, novo;
+      m.vistos = []; m.fixas = {};
+      m.chamar("inserir(" + x + ")", { valor: x }, null, true);
+      m.foto({ linha: 0, destaque: "valor",
+        texto: m.raiz
+          ? "Inserir o " + n(x) + ". O método público chama o privado <b>começando pela raiz</b>, o " + n(m.raiz.v) + ". O que voltar vira a raiz."
+          : "Inserir o " + n(x) + ". A árvore está <b>vazia</b>: raiz = null. O método público chama o privado com essa raiz." });
+      novo = inserir(m.raiz, x, null, null);
+      m.raiz = novo.no;
+      if (!antes) { m.fixas[novo.id] = "novo"; }
+      m.foto({ linha: 0,
+        texto: antes
+          ? "Voltou o " + n(m.raiz.v) + ": <b>raiz</b> recebe o mesmo nó — a raiz não muda."
+          : "Voltou o nó novo: <b>raiz</b> passa a apontar para ele. O " + n(x) + " é a raiz." });
+      m.foto({ linha: 0,
+        texto: novo.criado
+          ? (antes
+              ? "O " + n(x) + " entrou como filho " + (novo.lado === "e" ? "esquerdo" : "direito") + " do " + n(novo.pai) + ", no nível " + n(novo.nivel) + ", depois de comparar com " + n(m.vistos.length) + (m.vistos.length === 1 ? " nó" : " nós") + ". <b>Ninguém que já estava se mexeu.</b>"
+              : "O " + n(x) + " é a raiz, no nível " + n(0) + ". Próximo valor.")
+          : "O " + n(x) + " já estava na árvore: nada foi inserido." });
+      m.voltar();
+    }
+
+    /* Devolve { no, criado, pai, lado, nivel } para a narração do fim; o Java devolve só o nó. */
+    function inserir(no, x, pai, lado) {
+      var vars = { no: ref(no), valor: x }, r, antes, menor, maior, novo, fant;
+      fant = { pai: pai ? pai.id : null, lado: lado };
+      m.chamar("inserir(" + nome(no) + ", " + x + ")", vars, no, false, no ? null : fant);
+
+      if (!no) {
+        m.foto({ linha: 3, expr: cond("no == null", "null == null", true), destaque: "no",
+          texto: "Chamada com no = <b>null</b>: a busca caiu num lugar vazio. <b>É aqui</b> que o " + n(x) + " entra." });
+        novo = new No(x);
+        m.foto({ linha: 4, fantasma: { pai: fant.pai, lado: lado, v: x },
+          texto: "Cria o nó " + n(x) + " e o <b>devolve</b> para quem chamou. Por enquanto, ninguém aponta para ele." });
+        m.voltar();
+        return { no: novo, criado: true, pai: pai ? pai.v : null, lado: lado, nivel: pai ? nivelDe(m.raiz, pai.id) + 1 : 0, id: novo.id };
+      }
+
+      m.ver(no);
+      m.foto({ linha: 3, expr: cond("no == null", nome(no) + " == null", false), destaque: "no",
+        texto: "Chamada com no = " + n(no.v) + ". Não é null: há um nó para comparar." });
+
+      menor = x < no.v;
+      m.foto({ linha: 6, expr: cond("valor < no.valor", x + " < " + no.v, menor),
+        texto: menor
+          ? n(x) + " é menor que " + n(no.v) + ": o lugar dele fica à <b>esquerda</b>."
+          : n(x) + " não é menor que " + n(no.v) + "." });
+
+      if (menor) {
+        m.foto({ linha: 7,
+          texto: "Desce para a esquerda: chama <b>inserir(no.esquerdo, " + x + ")</b>" +
+                 (no.e ? ", com o " + n(no.e.v) + "." : ". O filho esquerdo do " + n(no.v) + " é null.") +
+                 " Esta chamada fica esperando na pilha." });
+        antes = no.e;
+        r = inserir(no.e, x, no, "e");
+        no.e = r.no;
+        if (r.criado && !antes) { m.fixas[r.id] = "novo"; }
+        m.foto({ linha: 7,
+          texto: antes
+            ? textoVolta(no, "esquerdo", antes, r.no)
+            : "Voltou o nó novo: <b>no.esquerdo</b> do " + n(no.v) + " passa a apontar para o " + n(x) + "." });
+      } else {
+        maior = x > no.v;
+        m.foto({ linha: 8, expr: cond("valor > no.valor", x + " > " + no.v, maior),
+          texto: maior
+            ? n(x) + " é maior que " + n(no.v) + ": o lugar dele fica à <b>direita</b>."
+            : "O " + n(x) + " é <b>igual</b> ao " + n(no.v) + ": valor repetido. Nesta aula, repetidos são <b>ignorados</b>." });
+        if (maior) {
+          m.foto({ linha: 9,
+            texto: "Desce para a direita: chama <b>inserir(no.direito, " + x + ")</b>" +
+                   (no.d ? ", com o " + n(no.d.v) + "." : ". O filho direito do " + n(no.v) + " é null.") +
+                   " Esta chamada fica esperando na pilha." });
+          antes = no.d;
+          r = inserir(no.d, x, no, "d");
+          no.d = r.no;
+          if (r.criado && !antes) { m.fixas[r.id] = "novo"; }
+          m.foto({ linha: 9,
+            texto: antes
+              ? textoVolta(no, "direito", antes, r.no)
+              : "Voltou o nó novo: <b>no.direito</b> do " + n(no.v) + " passa a apontar para o " + n(x) + "." });
+        } else {
+          m.fixas[no.id] = "achou";
+          r = { no: null, criado: false };
+        }
+      }
+
+      m.foto({ linha: 11, texto: "<b>return no</b>: devolve o " + n(no.v) + " para quem chamou." });
+      m.voltar();
+      return { no: no, criado: r.criado, pai: r.pai, lado: r.lado, nivel: r.nivel, id: r.id };
+    }
+  }
+
+  /* ------------------------------ Buscar ------------------------------ */
+  function passosBuscar(arv, x) {
+    proximoId = 0;
+    var m = new Maquina(montar(arv)), total = contar(m.raiz), achou;
+    m.seq = { titulo: "Buscar", lista: [x], pos: 0 };
+
+    m.chamar("contem(" + x + ")", { valor: x }, null, true);
+    m.foto({ linha: 0, destaque: "valor",
+      texto: "Buscar o " + n(x) + ". O método público chama o privado <b>começando pela raiz</b>, o " + n(m.raiz.v) + "." });
+    achou = contem(m.raiz, x, null, null);
+    m.foto({ linha: 0,
+      texto: "<b>contem(" + x + ")</b> devolve <b>" + achou + "</b>. " +
+             (achou ? "Achou" : "Não está —") + " olhando " + n(m.vistos.length) + " de " + n(total) +
+             " nós: um caminho só, da raiz para baixo. Os outros nem foram olhados." });
+    m.voltar();
+    m.seq.pos = 1;
+    return m.passos;
+
+    function contem(no, x, pai, lado) {
+      var r, igual, menor;
+      m.chamar("contem(" + nome(no) + ", " + x + ")", { no: ref(no), valor: x }, no, false,
+               no ? null : { pai: pai ? pai.id : null, lado: lado });
+      if (!no) {
+        m.foto({ linha: 3, expr: cond("no == null", "null == null", true), destaque: "no",
+          texto: "Chamada com no = <b>null</b>: o caminho <b>acabou</b>. Se o " + n(x) + " existisse, estaria aqui. Devolve <b>false</b>." });
+        m.voltar();
+        return false;
+      }
+
+      m.ver(no);
+      m.foto({ linha: 3, expr: cond("no == null", nome(no) + " == null", false), destaque: "no",
+        texto: "Chamada com no = " + n(no.v) + ". Não é null: há um nó para olhar." });
+
+      igual = x === no.v;
+      if (igual) { m.fixas[no.id] = "achou"; }
+      m.foto({ linha: 4, expr: cond("valor == no.valor", x + " == " + no.v, igual),
+        texto: igual ? "<b>Achou!</b> O " + n(x) + " está aqui: devolve <b>true</b>." : "Não é o " + n(x) + "." });
+      if (igual) { m.voltar(); return true; }
+
+      menor = x < no.v;
+      m.foto({ linha: 5, expr: cond("valor < no.valor", x + " < " + no.v, menor),
+        texto: menor
+          ? n(x) + " é menor que " + n(no.v) + ": se estiver na árvore, está à <b>esquerda</b>. O lado direito do " + n(no.v) + " fica de fora."
+          : n(x) + " é maior que " + n(no.v) + ": se estiver na árvore, está à <b>direita</b>. O lado esquerdo do " + n(no.v) + " fica de fora." });
+
+      if (menor) {
+        m.foto({ linha: 6, texto: "Desce para a esquerda: <b>contem(no.esquerdo, " + x + ")</b>. Esta chamada espera a resposta." });
+        r = contem(no.e, x, no, "e");
+        m.foto({ linha: 6, texto: "Voltou <b>" + r + "</b>. A chamada do " + n(no.v) + " só repassa a resposta para quem a chamou." });
+      } else {
+        m.foto({ linha: 8, texto: "Desce para a direita: <b>contem(no.direito, " + x + ")</b>. Esta chamada espera a resposta." });
+        r = contem(no.d, x, no, "d");
+        m.foto({ linha: 8, texto: "Voltou <b>" + r + "</b>. A chamada do " + n(no.v) + " só repassa a resposta para quem a chamou." });
+      }
+      m.voltar();
+      return r;
+    }
+  }
+
+  /* ------------------------------ Remover ------------------------------ */
+  function passosRemover(arv, alvos) {
+    proximoId = 0;
+    var m = new Maquina(montar(arv)), k;
+    m.seq = { titulo: "Remover", lista: alvos.slice(), pos: 0 };
+
+    for (k = 0; k < alvos.length; k++) { m.seq.pos = k; publico(alvos[k]); }
+
+    m.seq.pos = alvos.length;
+    m.vistos = []; m.fixas = {};
+    m.foto({ linha: 0, foco: null, atual: null,
+      texto: "Pronto. Raiz " + (m.raiz ? n(m.raiz.v) : "null") + ", em ordem " + lista(emOrdem(m.raiz, [])) +
+             ": continua crescente, o <b>invariante</b> foi mantido." });
+    return m.passos;
+
+    function publico(x) {
+      var antes = m.raiz, valorAntes = m.raiz ? m.raiz.v : null, depois, tinha = contar(m.raiz), t;
+      m.vistos = []; m.fixas = {};
+      m.chamar("remover(" + x + ")", { valor: x }, null, true);
+      m.foto({ linha: 0, destaque: "valor",
+        texto: m.raiz
+          ? "Remover o " + n(x) + ". O método público chama o privado <b>começando pela raiz</b>, o " + n(m.raiz.v) + ". O que voltar vira a raiz."
+          : "Remover o " + n(x) + ". A árvore está vazia: raiz = null." });
+      depois = remover(m.raiz, x, null, null);
+      m.raiz = depois;
+      if (!depois) {
+        t = "Voltou <b>null</b>: a árvore ficou vazia.";
+      } else if (depois !== antes) {
+        t = "Voltou o " + n(depois.v) + ": <b>raiz</b> passa a apontar para ele. É a nova raiz.";
+      } else if (depois.v !== valorAntes) {
+        t = "Voltou o mesmo nó da raiz, agora com o valor " + n(depois.v) + ": <b>raiz</b> recebe o mesmo nó.";
+      } else {
+        t = "Voltou o próprio " + n(depois.v) + ": <b>raiz</b> recebe o mesmo nó — a raiz não muda.";
+      }
+      m.foto({ linha: 0, texto: t });
+      m.foto({ linha: 0,
+        texto: contar(m.raiz) < tinha
+          ? "O " + n(x) + " saiu. Em ordem agora: " + lista(emOrdem(m.raiz, [])) + " — continua crescente."
+          : "O " + n(x) + " não estava na árvore: nada mudou." });
+      m.voltar();
+    }
+
+    function remover(no, x, pai, lado) {
+      var vars = { no: ref(no), valor: x, sucessor: null }, antes, r, semE, semD, s, velho;
+      m.chamar("remover(" + nome(no) + ", " + x + ")", vars, no, false,
+               no ? null : { pai: pai ? pai.id : null, lado: lado });
+      if (!no) {
+        m.foto({ linha: 3, expr: cond("no == null", "null == null", true), destaque: "no",
+          texto: "Chamada com no = <b>null</b>: o " + n(x) + " <b>não está</b> na árvore. Devolve null." });
+        m.voltar();
+        return null;
+      }
+
+      m.ver(no);
+      m.foto({ linha: 3, expr: cond("no == null", nome(no) + " == null", false), destaque: "no",
+        texto: "Chamada com no = " + n(no.v) + ". Não é null." });
+
+      if (x < no.v) {
+        m.foto({ linha: 4, expr: cond("valor < no.valor", x + " < " + no.v, true),
+          texto: n(x) + " é menor que " + n(no.v) + ": se estiver na árvore, está à <b>esquerda</b>." });
+        m.foto({ linha: 5, texto: "Desce: chama <b>remover(no.esquerdo, " + x + ")</b>. O que voltar será o novo filho esquerdo do " + n(no.v) + "." });
+        antes = no.e;
+        r = remover(no.e, x, no, "e");
+        no.e = r;
+        m.foto({ linha: 5, texto: textoVolta(no, "esquerdo", antes, r) });
+      } else {
+        m.foto({ linha: 4, expr: cond("valor < no.valor", x + " < " + no.v, false), texto: n(x) + " não é menor que " + n(no.v) + "." });
+        if (x > no.v) {
+          m.foto({ linha: 6, expr: cond("valor > no.valor", x + " > " + no.v, true),
+            texto: n(x) + " é maior que " + n(no.v) + ": se estiver na árvore, está à <b>direita</b>." });
+          m.foto({ linha: 7, texto: "Desce: chama <b>remover(no.direito, " + x + ")</b>. O que voltar será o novo filho direito do " + n(no.v) + "." });
+          antes = no.d;
+          r = remover(no.d, x, no, "d");
+          no.d = r;
+          m.foto({ linha: 7, texto: textoVolta(no, "direito", antes, r) });
+        } else {
+          m.foto({ linha: 6, expr: cond("valor > no.valor", x + " > " + no.v, false), texto: "Também não é maior." });
+          m.fixas[no.id] = "sai";
+          m.foto({ linha: 8, texto: "<b>Achou o " + x + ".</b> Agora: qual dos três casos?" });
+
+          semE = no.e === null;
+          if (semE && no.d) { m.fixas[no.d.id] = "sobe"; }
+          m.foto({ linha: 9, expr: cond("no.esquerdo == null", nome(no.e) + " == null", semE),
+            texto: semE
+              ? (no.d
+                  ? "Não tem filho esquerdo, só o direito: <b>caso 2</b>. Devolve no.direito: o " + n(no.d.v) + " <b>sobe</b> para o lugar do " + n(x) + "."
+                  : "Não tem filho nenhum: é uma <b>folha</b> (caso 1). Devolve no.direito, que é null: o pai vai apontar para null.")
+              : "Tem filho esquerdo, o " + n(no.e.v) + "." });
+          if (semE) { m.voltar(); return no.d; }
+
+          semD = no.d === null;
+          if (semD) { m.fixas[no.e.id] = "sobe"; }
+          m.foto({ linha: 10, expr: cond("no.direito == null", nome(no.d) + " == null", semD),
+            texto: semD
+              ? "Só tem o filho esquerdo: <b>caso 2</b>. Devolve no.esquerdo: o " + n(no.e.v) + " <b>sobe</b> para o lugar do " + n(x) + "."
+              : "Tem os dois filhos: é o <b>caso 3</b>. Quem pode ocupar o lugar do " + n(x) + " sem quebrar a regra?" });
+          if (semD) { m.voltar(); return no.e; }
+
+          m.foto({ linha: 11, texto: "Procura o <b>sucessor</b>, o menor valor da subárvore direita: chama <b>menor(no.direito)</b>." });
+          s = menor(no.d);
+          vars.sucessor = ref(s);
+          m.fixas[s.id] = "sucessor";
+          m.foto({ linha: 11, destaque: "sucessor",
+            texto: "<b>sucessor</b> aponta para o " + n(s.v) + ". Ele é maior que todos da esquerda do " + n(x) + " e menor que todos os outros da direita." });
+
+          velho = no.v;
+          no.v = s.v;
+          m.fixas[no.id] = "copiado";
+          m.foto({ linha: 12,
+            texto: "<b>Copia</b> o " + n(s.v) + " para o nó do " + n(velho) + ". O " + n(velho) + " sumiu; por um instante o " + n(s.v) + " aparece duas vezes — o de baixo sai agora." });
+
+          m.foto({ linha: 13,
+            texto: "Remove o " + n(s.v) + " lá de baixo: chama <b>remover(no.direito, " + s.v + ")</b>. Ele não tem filho esquerdo, então vai cair no caso 1 ou 2." });
+          antes = no.d;
+          r = remover(no.d, s.v, no, "d");
+          no.d = r;
+          m.foto({ linha: 13, texto: textoVolta(no, "direito", antes, r) });
+        }
+      }
+
+      m.foto({ linha: 15, texto: "<b>return no</b>: devolve o " + n(no.v) + " para quem chamou." });
+      m.voltar();
+      return no;
+    }
+
+    function menor(no) {
+      var tem;
+      m.chamar("menor(" + nome(no) + ")", { no: ref(no) }, no, false);
+      m.ver(no);
+      m.foto({ linha: 18, destaque: "no",
+        texto: "Dentro de <b>menor</b>, começando no " + n(no.v) + ". O menor valor está sempre o mais à esquerda possível." });
+      while (true) {
+        tem = no.e !== null;
+        m.foto({ linha: 19, expr: cond("no.esquerdo != null", nome(no.e) + " != null", tem),
+          texto: tem
+            ? "O " + n(no.v) + " tem filho esquerdo: anda para a esquerda, até o " + n(no.e.v) + "."
+            : "O " + n(no.v) + " não tem filho esquerdo: <b>é o menor</b>." });
+        if (!tem) { break; }
+        no = no.e;
+        m.ver(no);
+        m.topo().vars.no = ref(no);
+        m.topo().noId = no.id;
+        m.topo().foco = no.id;
+        m.ativos[m.ativos.length - 1] = no.id;
+      }
+      m.foto({ linha: 20, texto: "Devolve o " + n(no.v) + "." });
+      m.voltar();
+      return no;
+    }
+  }
+
+  /* ------------------------------ Percursos ------------------------------ */
+  function passosPercurso(arv, tipo) {
+    proximoId = 0;
+    var m = new Maquina(montar(arv)), p = PERCURSO[tipo], met = p.metodo;
+    var LINHA = { raiz: 0, esq: 0, dir: 0 }, k;
+    for (k = 0; k < 3; k++) { LINHA[p.ops[k]] = 10 + k; }
+    m.saida = [];
+
+    m.chamar(met + "()", { valores: null }, null, true);
+    m.foto({ linha: 0,
+      texto: "Percurso em <b>" + p.nome + "</b>: " + ({ pre: "raiz, esquerda, direita", em: "esquerda, raiz, direita", pos: "esquerda, direita, raiz" })[tipo] +
+             ". Nos três percursos muda só o <b>momento</b> em que o nó entra na lista." });
+    m.topo().vars.valores = "[]";
+    m.foto({ linha: 1, destaque: "valores",
+      texto: "Cria a lista <b>valores</b>, ainda vazia. Ela não é a árvore: só guarda a ordem em que os nós são visitados." });
+    m.foto({ linha: 2, texto: "Chama o privado com a raiz: <b>" + met + "(raiz, valores)</b>." });
+    visitar(m.raiz, null, null);
+    m.foto({ linha: 3,
+      texto: "<b>return valores</b>: " + lista(m.saida) + "." +
+             (tipo === "em" ? " Saiu <b>crescente</b>: a árvore é uma BST." : "") });
+    m.voltar();
+    return m.passos;
+
+    function visitar(no, pai, lado) {
+      var vars = { no: ref(no), valores: "[" + m.saida.join(", ") + "]" }, j, op;
+      m.chamar(met + "(" + nome(no) + ", valores)", vars, no, false,
+               no ? null : { pai: pai ? pai.id : null, lado: lado });
+      if (!no) {
+        m.foto({ linha: 7, expr: cond("no == null", "null == null", true), destaque: "no",
+          texto: "Chamada com no = <b>null</b>: é o caso base. Volta sem fazer nada." });
+        m.voltar();
+        return;
+      }
+      m.foto({ linha: 7, expr: cond("no == null", nome(no) + " == null", false), destaque: "no",
+        texto: "Chamada com no = " + n(no.v) + ". Não é null." });
+
+      for (j = 0; j < 3; j++) {
+        op = p.ops[j];
+        if (op === "raiz") {
+          m.saida.push(no.v);
+          m.ordem[no.id] = m.saida.length;
+          vars.valores = "[" + m.saida.join(", ") + "]";
+          m.foto({ linha: LINHA.raiz, destaque: "valores", texto: textoRaiz(no, j) });
+        } else {
+          m.foto({ linha: LINHA[op], texto: textoDesce(no, op, j) });
+          visitar(op === "esq" ? no.e : no.d, no, op === "esq" ? "e" : "d");
+          vars.valores = "[" + m.saida.join(", ") + "]";
+        }
+      }
+      m.foto({ linha: 13, texto: "A chamada do " + n(no.v) + " terminou e sai da pilha." });
+      m.voltar();
+    }
+
+    function textoRaiz(no, j) {
+      if (j === 0) { return "Pré-ordem: o " + n(no.v) + " entra na lista <b>antes</b> dos filhos. valores = " + lista(m.saida) + "."; }
+      if (j === 1) { return "Voltou da esquerda: <b>agora sim</b> o " + n(no.v) + " entra na lista. valores = " + lista(m.saida) + "."; }
+      return "Os dois lados voltaram: <b>só agora</b> o " + n(no.v) + " entra na lista. valores = " + lista(m.saida) + ".";
+    }
+    function textoDesce(no, op, j) {
+      var filho = op === "esq" ? no.e : no.d, lado = op === "esq" ? "esquerda" : "direita";
+      var quem = filho ? " (o " + n(filho.v) + ")" : " (null)";
+      if (j === 0) { return "Primeiro a " + lado + quem + ". O " + n(no.v) + " espera na pilha."; }
+      if (op === "dir" && p.ops[0] === "esq" && p.ops[1] === "dir") {
+        return "Voltou da esquerda; agora a direita" + quem + ". O " + n(no.v) + " continua esperando.";
+      }
+      return "Agora a " + lado + quem + ".";
+    }
+  }
+
+  var GERADORES = {
+    inserir:   function (pr) { return passosInserir(pr.seq || sortear()); },
+    buscar:    function (pr) { return passosBuscar(pr.arv, pr.x); },
+    remover:   function (pr) { return passosRemover(pr.arv, pr.alvos); },
+    percursos: function (pr) { return passosPercurso(AULA, pr.tipo); }
+  };
+
+  /* Sete valores distintos entre 1 e 99, com altura até 3 (cabe na tela). */
+  function sortear() {
+    var tent, v, x;
+    for (tent = 0; tent < 500; tent++) {
+      v = [];
+      while (v.length < 7) { x = 1 + Math.floor(Math.random() * 99); if (v.indexOf(x) < 0) { v.push(x); } }
+      proximoId = 0;
+      if (altura(montar(v)) <= 3) { return v; }
+    }
+    return AULA.slice();
+  }
+
+  /* --------------------------- estado --------------------------- */
+  var alg = "inserir", presetId = "aula", passos = [], indice = 0, tocando = null, altoSvg = 500;
+
+  var elArvore   = document.getElementById("arvore");
+  var elAux      = document.getElementById("aux");
+  var elNarracao = document.getElementById("narracao");
+  var elCodigo   = document.getElementById("codigo");
+  var elConta    = document.getElementById("passo-conta");
+  var elProg     = document.getElementById("barra-progresso");
+  var elDica     = document.getElementById("dica-preset");
+  var elVars     = document.getElementById("vars-lista");
+  var elExpr     = document.getElementById("expr");
+  var elPilha    = document.getElementById("pilha");
+  var elLegenda  = document.getElementById("legenda");
+  var elEntradas = document.getElementById("entradas");
+  var btProximo  = document.getElementById("proximo");
+  var btAnterior = document.getElementById("anterior");
+  var btTocar    = document.getElementById("tocar");
+
+  function presetAtual() {
+    var l = PRESETS[alg], k;
+    for (k = 0; k < l.length; k++) { if (l[k].id === presetId) { return l[k]; } }
+    return l[0];
+  }
+  function codigoAtual() { return alg === "percursos" ? codigoPercurso(presetAtual().tipo) : CODIGO[alg]; }
+
+  function escapar(t) {
+    return String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  /* ---------------------- desenho da árvore (SVG) ----------------------
+     Cada nó tem um lugar fixo, que depende só do caminho desde a raiz:
+     inserir um valor não mexe em quem já estava, como nos slides. */
+  /* W muda com a profundidade da execução: árvore rasa ganha um desenho mais
+     estreito, que aparece maior no celular; a de quatro níveis precisa de 1000. */
+  var W = 1000, MARGEM = 70, R = 46, TOPO = 100, VAO = 135;
+  var SVGNS = "http://www.w3.org/2000/svg";
+  var TAGS = { novo: "novo", achou: "achou!", sai: "sai", sucessor: "sucessor", sobe: "sobe", copiado: "copiado" };
+
+  function px(fx) { return MARGEM + fx * (W - 2 * MARGEM); }
+  function desvio(prof) { return 0.25 / Math.pow(2, prof); }
+  function elSvg(tag, attrs, pai) {
+    var e = document.createElementNS(SVGNS, tag), k;
+    for (k in attrs) { if (Object.prototype.hasOwnProperty.call(attrs, k)) { e.setAttribute(k, attrs[k]); } }
+    if (pai) { pai.appendChild(e); }
+    return e;
+  }
+
+  function desenharArvore(p) {
+    var pos = {}, nos = [], arestas = [], noFoco = null, dentro = {}, caminho = {}, k, id, g, fant = null;
+
+    (function dispor(no, fx, prof, lado, paiId) {
+      if (!no) { return; }
+      pos[no.id] = { x: px(fx), y: TOPO + prof * VAO, fx: fx, prof: prof, lado: lado };
+      nos.push(no);
+      if (paiId !== null) { arestas.push([paiId, no.id]); }
+      if (no.id === p.foco) { noFoco = no; }
+      dispor(no.e, fx - desvio(prof), prof + 1, prof === 0 ? "esq" : lado, no.id);
+      dispor(no.d, fx + desvio(prof), prof + 1, prof === 0 ? "dir" : lado, no.id);
+    })(p.arvore, 0.5, 0, "raiz", null);
+
+    if (p.fantasma) {
+      if (p.fantasma.pai === null) {
+        fant = { x: px(0.5), y: TOPO, lado: "raiz", pai: null };
+      } else if (pos[p.fantasma.pai]) {
+        var pp = pos[p.fantasma.pai], fx = pp.fx + (p.fantasma.lado === "e" ? -1 : 1) * desvio(pp.prof);
+        fant = { x: px(fx), y: TOPO + (pp.prof + 1) * VAO, pai: p.fantasma.pai,
+                 lado: pp.lado === "raiz" ? (p.fantasma.lado === "e" ? "esq" : "dir") : pp.lado };
+      }
+    }
+
+    /* o trecho que a chamada do topo enxerga; o resto fica apagado */
+    if (noFoco) { (function marcar(no) { if (no) { dentro[no.id] = true; marcar(no.e); marcar(no.d); } })(noFoco); }
+    for (k = 0; k < p.ativos.length; k++) { caminho[p.ativos[k]] = true; }
+    for (k = 0; k < p.vistos.length; k++) { caminho[p.vistos[k]] = true; }
+    function apagado(i) { return noFoco !== null && !dentro[i] && !caminho[i]; }
+
+    while (elArvore.firstChild) { elArvore.removeChild(elArvore.firstChild); }
+    elArvore.setAttribute("viewBox", "0 0 " + W + " " + altoSvg);
+
+    var camadaArestas = elSvg("g", {}, elArvore), camadaNos = elSvg("g", {}, elArvore);
+
+    for (k = 0; k < arestas.length; k++) {
+      var a = pos[arestas[k][0]], b = pos[arestas[k][1]];
+      var cls = "aresta";
+      if (caminho[arestas[k][0]] && caminho[arestas[k][1]]) { cls += " ativa"; }
+      if (apagado(arestas[k][1])) { cls += " fora"; }
+      elSvg("line", { x1: a.x, y1: a.y, x2: b.x, y2: b.y, "class": cls }, camadaArestas);
+    }
+    if (fant && fant.pai !== null) {
+      var pa = pos[fant.pai];
+      elSvg("line", { x1: pa.x, y1: pa.y, x2: fant.x, y2: fant.y,
+                      "class": "aresta pendente" + (p.fantasma.v === undefined && p.atual === "fantasma" ? " ativa" : "") }, camadaArestas);
+    }
+
+    for (k = 0; k < nos.length; k++) {
+      id = nos[k].id;
+      var q = pos[id], marca = p.marcas[id] || "", rotulos = [];
+      g = elSvg("g", { "class": "no " + (marca === "sai" ? "sai" : q.lado) + (apagado(id) ? " fora" : "") }, camadaNos);
+      if (p.vistos.indexOf(id) >= 0 || marca === "achou") { elSvg("circle", { cx: q.x, cy: q.y, r: R + 17, "class": "halo" }, g); }
+      elSvg("circle", { cx: q.x, cy: q.y, r: R, "class": "corpo" }, g);
+      elSvg("text", { x: q.x, y: q.y, dy: "0.35em", "class": "val" }, g).textContent = nos[k].v;
+      if (p.atual === id || marca === "achou") {
+        elSvg("circle", { cx: q.x, cy: q.y, r: R + 9, "class": "anel" }, g);
+      } else if (marca === "novo") {
+        elSvg("circle", { cx: q.x, cy: q.y, r: R + 9, "class": "anel trac" }, g);
+      }
+      if (marca === "sucessor") { elSvg("circle", { cx: q.x, cy: q.y, r: R + (p.atual === id ? 19 : 9), "class": "anel trac sucessor" }, g); }
+      if (marca === "sobe")     { elSvg("circle", { cx: q.x, cy: q.y, r: R + (p.atual === id ? 19 : 9), "class": "anel trac sobe" }, g); }
+      if (p.atual === id) { rotulos.push("no"); }
+      if (TAGS[marca]) { rotulos.push(TAGS[marca]); }
+      if (rotulos.length) {
+        elSvg("text", { x: q.x, y: q.y - R - 18, "class": "tag" }, g).textContent = rotulos.join(" · ");
+      }
+      if (p.ordem[id]) {
+        var selo = elSvg("g", { "class": "selo" }, g);
+        elSvg("circle", { cx: q.x + R * 0.78, cy: q.y - R * 0.78, r: 22 }, selo);
+        elSvg("text", { x: q.x + R * 0.78, y: q.y - R * 0.78, dy: "0.35em" }, selo).textContent = p.ordem[id];
+      }
+    }
+
+    if (fant) {
+      if (p.fantasma.v !== undefined) {
+        g = elSvg("g", { "class": "no " + fant.lado }, camadaNos);
+        elSvg("circle", { cx: fant.x, cy: fant.y, r: R, "class": "corpo" }, g);
+        elSvg("text", { x: fant.x, y: fant.y, dy: "0.35em", "class": "val" }, g).textContent = p.fantasma.v;
+        elSvg("circle", { cx: fant.x, cy: fant.y, r: R + 9, "class": "anel trac" }, g);
+        elSvg("text", { x: fant.x, y: fant.y - R - 18, "class": "tag" }, g).textContent = "novo";
+      } else {
+        g = elSvg("g", { "class": "fant" }, camadaNos);
+        elSvg("circle", { cx: fant.x, cy: fant.y, r: R, "class": "corpo" }, g);
+        elSvg("text", { x: fant.x, y: fant.y, dy: "0.35em", "class": "val" }, g).textContent = "null";
+        if (p.atual === "fantasma") {
+          elSvg("circle", { cx: fant.x, cy: fant.y, r: R + 9, "class": "anel" }, g);
+          elSvg("text", { x: fant.x, y: fant.y - R - 18, "class": "tag" }, g).textContent = "no";
+        }
+      }
+    }
+
+    if (!p.arvore && !fant) {
+      elSvg("text", { x: W / 2, y: altoSvg / 2, dy: "0.35em", "class": "vazia" }, elArvore).textContent = "árvore vazia: raiz = null";
+    }
+  }
+
+  function desenharAux(p) {
+    var h = "", k, est;
+    if (p.seq) {
+      h += '<div class="aux-linha"><b>' + p.seq.titulo + "</b>";
+      for (k = 0; k < p.seq.lista.length; k++) {
+        est = k < p.seq.pos ? "usado" : (k === p.seq.pos ? "atual" : "");
+        h += '<span class="caixa" data-estado="' + est + '">' + p.seq.lista[k] + "</span>";
+      }
+      h += "</div>";
+    }
+    if (p.saida) {
+      h += '<div class="aux-linha"><b>valores</b>';
+      if (!p.saida.length) { h += '<span class="aux-vazio">[ ] vazia</span>'; }
+      for (k = 0; k < p.saida.length; k++) {
+        h += '<span class="caixa" data-estado="' + (k === p.saida.length - 1 ? "atual" : "") + '">' + p.saida[k] + "</span>";
+      }
+      h += "</div>";
+    }
+    elAux.innerHTML = h;
+  }
+
+  function desenharVars(p) {
+    var nomes = VARIAVEIS[alg], html = "", k, valor, existe, i;
+    for (i = 0; i < nomes.length; i++) {
+      k = nomes[i];
+      valor = p.vars[k];
+      existe = valor !== null && valor !== undefined;
+      html += '<span class="var" data-mudou="' + (p.destaque === k)
+            + '" data-indef="' + (!existe) + '">'
+            + "<b>" + k + "</b><i>" + (existe ? escapar(valor) : "—") + "</i></span>";
+    }
+    elVars.innerHTML = html;
+
+    if (p.expr) {
+      elExpr.hidden = false;
+      elExpr.innerHTML = "<code>" + escapar(p.expr.texto) + "</code>"
+        + "<s>→</s><code>" + escapar(p.expr.valores) + "</code>"
+        + '<s>→</s><em class="' + (p.expr.ok ? "sim" : "nao") + '">'
+        + (p.expr.ok ? "verdadeiro" : "falso") + "</em>";
+    } else {
+      elExpr.hidden = true;
+      elExpr.innerHTML = "";
+    }
+
+    html = "";
+    for (i = 0; i < p.pilha.length; i++) {
+      html += "<li" + (p.pilha[i].publico ? ' class="publico"' : "") + ">" + escapar(p.pilha[i].rot) + "</li>";
+    }
+    elPilha.innerHTML = html || '<li class="vazia-pilha">vazia: nenhum método executando</li>';
+  }
+
+  function desenharCodigo() {
+    var linhas = codigoAtual(), html = "", i, t, c, corte;
+    for (i = 0; i < linhas.length; i++) {
+      t = linhas[i];
+      corte = t.indexOf("//");
+      c = corte < 0 ? escapar(t) : escapar(t.slice(0, corte)) + '<span class="cm">' + escapar(t.slice(corte)) + "</span>";
+      html += '<span class="ln" data-ln="' + i + '">' + (c || " ") + "</span>";
+    }
+    elCodigo.innerHTML = html;
+  }
+
+  function desenharLegenda() {
+    var html = "", l = LEGENDAS[alg], i;
+    for (i = 0; i < l.length; i++) {
+      html += '<span><i class="chave" style="background:' + l[i][0] + '"></i> ' + l[i][1] + "</span>";
+    }
+    elLegenda.innerHTML = html;
+  }
+
+  function desenharEntradas() {
+    var l = PRESETS[alg], html = "", k;
+    for (k = 0; k < l.length; k++) {
+      html += '<button type="button" data-preset="' + l[k].id + '" aria-pressed="' + (l[k].id === presetId) + '">' + l[k].rotulo + "</button>";
+    }
+    elEntradas.innerHTML = html;
+    elDica.textContent = presetAtual().dica;
+  }
+
+  function desenhar() {
+    var p = passos[indice];
+    desenharArvore(p);
+    desenharAux(p);
+    elNarracao.innerHTML = p.texto;
+    desenharVars(p);
+    document.getElementById("rotulo-1").textContent = ROTULO_1[alg];
+    document.getElementById("c-1").textContent = alg === "percursos" ? (p.saida ? p.saida.length : 0) : p.visitados;
+    document.getElementById("c-pilha").textContent = p.naPilha;
+    document.getElementById("c-altura").textContent = p.altura < 0 ? "−1" : p.altura;
+
+    var ativa = elCodigo.querySelector(".ativa");
+    if (ativa) { ativa.classList.remove("ativa"); }
+    var nova = elCodigo.querySelector('[data-ln="' + p.linha + '"]');
+    if (nova) { nova.classList.add("ativa"); }
+
+    elConta.textContent = "passo " + (indice + 1) + " de " + passos.length;
+    elProg.style.width = (passos.length < 2 ? 100 : (indice / (passos.length - 1)) * 100) + "%";
+    btAnterior.disabled = indice === 0;
+    btProximo.disabled = indice === passos.length - 1;
+    if (indice === passos.length - 1) { parar(); }
+  }
+
+  function recomecar() {
+    var k, maior = 0;
+    passos = GERADORES[alg](presetAtual());
+    for (k = 0; k < passos.length; k++) { if (passos[k].prof > maior) { maior = passos[k].prof; } }
+    /* tamanho do desenho fixo durante a execução, para a árvore não pular */
+    W = maior <= 2 ? 700 : 1000;
+    altoSvg = TOPO + Math.max(maior, 1) * VAO + R + 34;
+    indice = 0;
+    desenharCodigo();
+    desenharLegenda();
+    desenhar();
+  }
+
+  function parar() {
+    if (tocando) { clearInterval(tocando); tocando = null; }
+    btTocar.textContent = "▶ Tocar";
+  }
+
+  /* --------------------------- eventos --------------------------- */
+  btProximo.addEventListener("click", function () {
+    if (indice < passos.length - 1) { indice++; desenhar(); }
+  });
+  btAnterior.addEventListener("click", function () {
+    parar();
+    if (indice > 0) { indice--; desenhar(); }
+  });
+  document.getElementById("reiniciar").addEventListener("click", function () {
+    parar(); indice = 0; desenhar();
+  });
+  btTocar.addEventListener("click", function () {
+    if (tocando) { parar(); return; }
+    if (indice === passos.length - 1) { indice = 0; desenhar(); }
+    btTocar.textContent = "⏸ Pausar";
+    tocando = setInterval(function () {
+      if (indice < passos.length - 1) { indice++; desenhar(); } else { parar(); }
+    }, 900);
+  });
+  document.addEventListener("keydown", function (ev) {
+    if (ev.target && /^(INPUT|TEXTAREA|SELECT)$/.test(ev.target.tagName)) { return; }
+    if (ev.key === "ArrowRight") { btProximo.click(); }
+    else if (ev.key === "ArrowLeft") { btAnterior.click(); }
+  });
+
+  function escolherAlg(novo) {
+    alg = novo;
+    presetId = PRESETS[alg][0].id;
+    Array.prototype.forEach.call(document.querySelectorAll(".abas button"), function (o) {
+      o.setAttribute("aria-selected", String(o.getAttribute("data-alg") === alg));
+    });
+    desenharEntradas();
+    recomecar();
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll(".abas button"), function (b) {
+    b.addEventListener("click", function () {
+      parar();
+      try { localStorage.setItem("ed-aula11-alg", b.getAttribute("data-alg")); } catch (e) { /* sem armazenamento */ }
+      escolherAlg(b.getAttribute("data-alg"));
+    });
+  });
+
+  elEntradas.addEventListener("click", function (ev) {
+    var b = ev.target.closest ? ev.target.closest("button[data-preset]") : null;
+    if (!b) { return; }
+    parar();
+    presetId = b.getAttribute("data-preset");
+    desenharEntradas();
+    recomecar();
+  });
+
+  var inicial = "inserir";
+  try {
+    var salvo = localStorage.getItem("ed-aula11-alg");
+    if (salvo && GERADORES[salvo]) { inicial = salvo; }
+  } catch (e) { /* sem armazenamento */ }
+  escolherAlg(inicial);
+
+  /* Para a conferência automática: gera os passos de um caso sem desenhar. */
+  window.__bst = { gerar: function (a, id) { var al = alg, pr = presetId, r; alg = a; presetId = id; r = GERADORES[a](presetAtual()); alg = al; presetId = pr; return r; } };
+})();
+</script>
+
+<script>
+(function () {
+  "use strict";
+  /* Botão de tema: alterna claro/escuro e lembra a escolha neste navegador.
+     Sem escolha salva, a página segue o tema do sistema (celular ou computador). */
+  var raiz = document.documentElement;
+  var bt = document.getElementById("tema");
+  var midia = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+
+  function atual() {
+    var t = raiz.getAttribute("data-theme");
+    if (t === "dark" || t === "light") { return t; }
+    return midia && midia.matches ? "dark" : "light";
+  }
+  function rotular() {
+    var escuro = atual() === "dark";
+    bt.querySelector(".ic").textContent = escuro ? "☀" : "☾";
+    bt.querySelector(".rt").textContent = escuro ? "Claro" : "Escuro";
+    bt.setAttribute("aria-label", escuro ? "Mudar para o modo claro" : "Mudar para o modo escuro");
+    bt.setAttribute("aria-pressed", String(escuro));
+  }
+  bt.addEventListener("click", function () {
+    var novo = atual() === "dark" ? "light" : "dark";
+    raiz.setAttribute("data-theme", novo);
+    try { localStorage.setItem("ed-visualizador-tema", novo); } catch (e) { /* sem armazenamento */ }
+    rotular();
+  });
+  if (midia) {
+    if (midia.addEventListener) { midia.addEventListener("change", rotular); }
+    else if (midia.addListener) { midia.addListener(rotular); }
+  }
+  rotular();
+})();
+</script>
+</body>
+</html>
