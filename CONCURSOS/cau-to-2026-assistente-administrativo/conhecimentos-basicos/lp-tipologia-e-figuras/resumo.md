@@ -3,7 +3,7 @@
 ## O essencial
 
 > [!IMPORTANT]
-> **Tipo** é o modo de organizar o texto (poucos, reconhecidos por marcas linguísticas). **Gênero** é o texto em circulação (notícia, manual, crônica, artigo de opinião). "Tipo textual notícia" e "gênero injuntivo" são erros.
+> **Tipo** é o modo de organizar o texto (são cinco, reconhecidos por marcas linguísticas). **Gênero** é o texto que circula, com finalidade e formato (notícia, manual, regulamento, resenha). Teste: está na lista dos cinco? É tipo. Dá para dizer "um ___" circulando por aí? É gênero. "Tipo textual notícia" e "gênero argumentativo" são erros.
 
 - **Narrativo**: fatos em sequência, personagens, tempo, espaço. **Descritivo**: características, adjetivos, verbos de ligação. **Dissertativo-expositivo**: explica sem opinar. **Dissertativo-argumentativo**: defende uma tese. **Injuntivo** (ou instrucional): orienta uma ação, com imperativo ou infinitivo.
 - **Não existe tipo puro**: classifica-se pelo que predomina. Um detalhe isolado (uma data, um adjetivo) não define o tipo.

@@ -168,6 +168,33 @@ Vale conhecer as ideias centrais, sem decorar o texto inteiro:
 - Anular e revogar com os motivos trocados.
 - Nepotismo com o grau de parentesco alterado (o correto é até o terceiro grau, inclusive).
 
+## Afirmação × por que está errada (ou certa)
+
+As afirmações abaixo não são itens do treino: são exemplos novos dos pontos em que mais se erra neste tópico. Cubra a coluna da direita, julgue e só depois confira.
+
+| Afirmação | Julgamento | Por quê |
+|---|---|---|
+| "No setor, todos arredondam para cima as horas extras registradas; quem faz o mesmo age de forma ética." | Errada | O costume descreve a moral do grupo, mas não justifica a conduta. Pelo teste da universalização, ninguém aceitaria que todos registrassem horas que não trabalharam. |
+| "Como os empregados do CAU são celetistas, os princípios do art. 37 da Constituição não se aplicam ao trabalho deles." | Errada | O regime da CLT (Lei nº 12.378/2010, art. 41) não muda a natureza da entidade: o CAU é autarquia (art. 24), e o caput do art. 37 alcança a administração direta **e indireta**. |
+| "Uma câmara municipal, ao contratar pessoal e comprar material, também deve obedecer ao LIMPE." | Certa | O caput do art. 37 fala da administração pública "de qualquer dos Poderes", em todas as esferas, e não só do Executivo. |
+| "O art. 37, II, não diz que o concurso serve à impessoalidade; logo, um item que faz essa ligação está errado." | Errada | A Constituição exige o concurso sem nomear o princípio. A ligação é da doutrina: o concurso escolhe por critérios iguais para todos, sem favorecer nem perseguir. Se o comando inclui a doutrina, ela vale. |
+| "A licitação, que assegura igualdade de condições a todos os concorrentes, é aplicação da impessoalidade." | Certa | É a mesma ligação, feita pela doutrina sobre o art. 37, XXI: a face da igualdade de tratamento. |
+| "Uma portaria do setor que contrariou a lei deve ser revogada pela própria Administração." | Errada | Ato ilegal se **anula**: a Administração **deve anular** (Lei nº 9.784/1999, art. 53). A revogação é para o ato legal que deixou de ser conveniente ou oportuno: ela **pode revogar**, respeitados os direitos adquiridos. |
+| "Quem ofende usuários do serviço nas suas redes sociais pessoais não compromete o conceito funcional, porque falou como particular." | Errada | Pelo Decreto nº 1.171/1994 (inciso VI), a função pública se integra à vida particular do servidor, e os fatos da vida privada podem acrescer **ou** diminuir o seu bom conceito na vida funcional. |
+
+> [!NOTE]
+> O Decreto nº 1.171/1994 **não está citado no edital** do CAU/TO. A última linha entra porque a Quadrix usa esse código nos itens de "ética no setor público" em outras provas: é leitura nossa, não regra do edital.
+
+## Como julgar um item que liga norma e doutrina
+
+1. **Leia o comando antes do item.** O edital manda julgar cada item só pelo seu comando (item 11.2.1). "Segundo a Lei nº 9.784/1999" pede a letra da lei, com o verbo dela ("deve anular", e não "pode"). "Com base na Constituição e na doutrina" aceita também a ligação que a doutrina faz, como a do concurso com a impessoalidade.
+2. **Separe o que a norma diz do que a afirmação acrescenta.** A ligação certa não fica errada porque a lei não escreve o nome do princípio. Fica errada quando troca o princípio, o verbo, o alcance (direta × indireta) ou o motivo (ilegalidade × conveniência).
+3. **Desconfie das palavras absolutas**: "apenas", "exclusivamente", "somente", "nunca", "não se aplica". Costumam marcar o erro, mas confira na norma: "qualquer dos Poderes", no art. 37, também é absoluto e está certo.
+4. **Confira a justificativa.** Em "por essa razão" ou "porque", o erro pode estar só no motivo: uma conclusão apoiada numa razão falsa torna o item errado.
+
+> [!TIP]
+> Cada item vale +1 se a marcação concorda com o gabarito, −1 se discorda e 0 em branco (edital, item 11.4.2). Num chute meio a meio, a conta empata com o branco: deixe em branco quando não conseguir descartar uma das duas leituras. Item de letra de lei que você estudou, como o art. 53, não é chute: marque.
+
 ## Fontes
 
 - Constituição da República Federativa do Brasil de 1988, arts. 5º (II, XXXIII e LV) e 37 (caput, II, XXI e § 1º). Presidência da República. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
@@ -176,7 +203,8 @@ Vale conhecer as ideias centrais, sem decorar o texto inteiro:
 - Decreto nº 1.171, de 22 de junho de 1994 (Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal). Presidência da República. https://www.planalto.gov.br/ccivil_03/decreto/d1171.htm
 - Súmula Vinculante nº 13. Supremo Tribunal Federal. https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1227
 - Súmula nº 473. Supremo Tribunal Federal. https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1602
+- Edital nº 1/2026 do CAU/TO (Instituto Quadrix), itens 11.2.1 e 11.4.2.
 - Ética e serviço público — Módulo 1: conceitos básicos. Cícero Romão e Agnaldo Cuoco Portugal. Escola Nacional de Administração Pública (Enap), 2014. https://repositorio.enap.gov.br/handle/1/1899
 - Princípios da Administração Pública – Noções Gerais. Heloísa Tondinelli. Estratégia Concursos, 2021. https://concursos.estrategia.com/portal/principios-administracao-publica-nocoes-gerais/
 
-Textos legais e súmulas consultados em 10/10/2026.
+Textos legais e súmulas consultados em 10/10/2026; arts. 37 (caput e II) da Constituição, 53 da Lei nº 9.784/1999, 24 e 41 da Lei nº 12.378/2010 e inciso VI do Decreto nº 1.171/1994 conferidos de novo em 17/10/2026.

@@ -1,0 +1,96 @@
+# Treino do tópico. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino 2 — Ética e princípios da Administração Pública (reforço)
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no formato de certo ou errado do Instituto Quadrix (itens de uma afirmação,
+      agrupados por comando), com referência de estilo nos cadernos do CAU/TO 2023.'
+    - 'Bases legais dos itens: Constituição Federal, art. 37, caput e II; Lei nº 9.784/1999, art. 53;
+      Lei nº 12.378/2010, arts. 24 e 41; Decreto nº 1.171/1994, anexo, inciso VI (textos do Planalto,
+      consultados em 17/10/2026).'
+    - 'Ética e serviço público — Módulo 1: conceitos básicos (Enap, 2014), para a distinção entre ética
+      e moral e o teste da universalização.'
+questoes:
+  - id: q01
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Acerca do conceito de ética e de sua aplicação à função pública, julgue o item. Na perspectiva
+      ética, o critério para avaliar uma conduta é a frequência com que ela ocorre no grupo, de modo
+      que aquilo que a maioria dos colegas pratica serve de medida do que é correto.
+  - id: q02
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Acerca do conceito de ética e de sua aplicação à função pública, julgue o item. Uma prática
+      aceita há muitos anos pelos empregados de um setor de atendimento faz parte da moral vigente
+      nesse grupo, o que não impede que, examinada pela ética, ela se revele injustificável.
+  - id: q03
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base na Constituição Federal de 1988, na Lei nº 12.378/2010 e na doutrina, julgue o item,
+      relativo aos princípios da Administração Pública. Por terem personalidade jurídica de direito
+      público e autonomia administrativa e financeira, os conselhos de arquitetura e urbanismo não se
+      sujeitam aos princípios enumerados no caput do art. 37 da Constituição, que se dirigem à
+      administração direta.
+  - id: q04
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base na Constituição Federal de 1988, na Lei nº 12.378/2010 e na doutrina, julgue o item,
+      relativo aos princípios da Administração Pública. Uma autarquia criada por lei municipal deve
+      obedecer aos princípios da legalidade, da impessoalidade, da moralidade, da publicidade e da
+      eficiência, embora não faça parte da administração direta do município.
+  - id: q05
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base na Constituição Federal de 1988, na Lei nº 12.378/2010 e na doutrina, julgue o item,
+      relativo aos princípios da Administração Pública. A exigência de concurso público para a
+      investidura em cargo ou emprego público relaciona-se apenas com o princípio da eficiência, por
+      selecionar os candidatos mais preparados, e não com o princípio da impessoalidade.
+  - id: q06
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base na Constituição Federal de 1988, na Lei nº 12.378/2010 e na doutrina, julgue o item,
+      relativo aos princípios da Administração Pública. Se um conselho de arquitetura e urbanismo
+      contratasse empregados para o setor de atendimento por indicação de conselheiros, sem o
+      concurso público exigido pela lei que o criou, a conduta ofenderia o princípio da
+      impessoalidade.
+  - id: q07
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base na Lei nº 9.784/1999, julgue o item, relativo à anulação e à revogação dos atos
+      administrativos. A anulação de um ato com vício de legalidade é tratada pela lei como um
+      dever, ao passo que a revogação de um ato por conveniência ou oportunidade é tratada como
+      uma faculdade.
+  - id: q08
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base na Lei nº 9.784/1999, julgue o item, relativo à anulação e à revogação dos atos
+      administrativos. Constatado vício de legalidade num ato que ela mesma praticou, a
+      Administração precisa recorrer ao Poder Judiciário para anulá-lo, pois não pode desfazer
+      sozinha os próprios atos.
+  - id: q09
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base na Lei nº 9.784/1999, julgue o item, relativo à anulação e à revogação dos atos
+      administrativos. Um ato legal que deixou de ser oportuno pode ser revogado pela
+      Administração, que, ao fazê-lo, deve respeitar os direitos adquiridos.
+  - id: q10
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base no Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal
+      (Decreto nº 1.171/1994), julgue o item. Os atos que o servidor pratica fora do horário e do
+      local de trabalho pertencem exclusivamente à sua vida particular e, por isso, não influem no
+      seu conceito na vida funcional.
+  - id: q11
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base no Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal
+      (Decreto nº 1.171/1994), julgue o item. O código trata a função pública como exercício
+      profissional e, por esse motivo, não a separa da vida particular do servidor.
+  - id: q12
+    topico: conhecimentos-complementares/etica-e-principios
+    enunciado: >-
+      Com base no Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal
+      (Decreto nº 1.171/1994), julgue o item. Os fatos da vida privada do servidor podem prejudicar o
+      seu bom conceito na vida funcional, mas não podem melhorá-lo, pois esse conceito decorre apenas
+      do desempenho nas atribuições do cargo.
