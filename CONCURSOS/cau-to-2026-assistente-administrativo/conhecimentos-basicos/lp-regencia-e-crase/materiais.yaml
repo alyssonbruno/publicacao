@@ -1,0 +1,62 @@
+materiais:
+  - tipo: texto
+    titulo: Regência verbal e nominal e crase
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: link
+    titulo: Crase — Manual de Comunicação do Senado
+    url: https://www12.senado.leg.br/manualdecomunicacao/estilos/crase
+    autor: Senado Federal (Secretaria de Comunicação Social)
+    descricao: >-
+      Página curta, lida inteira: quando usar, quando não usar e quando a crase é facultativa,
+      com os testes do masculino e do "para a" e exemplos tirados do noticiário do Senado. Dois
+      cuidados: a página diz que em "à noite", "à mão" e "à distância" o acento vem só "por
+      clareza", explicação que outras fontes não seguem (para a prova, trate-as como locuções
+      femininas, como no texto da aula); e não põe "até" entre os casos facultativos.
+  - tipo: link
+    titulo: Manual de Redação da Presidência da República — Regência (p. 73 a 78)
+    url: https://files.ufgd.edu.br/arquivos/arquivos/78/PROTOCOLO/Normas%20Internas/Manual%20de%20Reda%C3%A7%C3%A3o%20da%20Presid%C3%AAncia%20da%20Rep%C3%BAblica%20-%203%C2%AA%20edi%C3%A7%C3%A3o,%20revista,%20atualizada%20e%20ampliada.pdf
+    autor: Presidência da República (3ª edição, 2018; cópia hospedada pela UFGD)
+    descricao: >-
+      PDF de 189 páginas: leia só o item 11.8 (p. 73 a 78), com 22 verbos de regência que
+      causam dúvida, cada um com exemplo, e a regra da preposição antes do pronome relativo. É
+      a base oficial do quadro de verbos da aula. Não trata de crase nem lista regência
+      nominal.
+  - tipo: podcast
+    titulo: O uso de crase após o pronome 'sua' é sempre facultativo?
+    url: https://podcasts.apple.com/br/podcast/o-uso-de-crase-ap%C3%B3s-o-pronome-sua-%C3%A9-sempre-facultativo/id1227867522?i=1000712139859
+    audio: https://traffic.megaphone.fm/GLOBO3489481411.mp3?updated=1749479886
+    autor: Pasquale Cipro Neto - A Nossa Língua de Todo Dia (CBN)
+    duracao_min: 7
+    descricao: >-
+      Episódio de junho de 2025, que conhecemos pela transcrição automática (não foi ouvido).
+      Um ouvinte errou um item de concurso que dava como facultativa a crase antes de "sua", e
+      o professor explica, com a crase como soma de preposição e artigo, por que a banca tinha
+      razão. Cerca de um minuto e meio é uma canção. Trata só do possessivo.
+  - tipo: podcast
+    titulo: "CRASE | Casos em que a crase é FACULTATIVA!"
+    url: https://podcasts.apple.com/br/podcast/crase-casos-em-que-a-crase-%C3%A9-facultativa/id1534371896?i=1000682315719
+    audio: https://anchor.fm/s/3950d1cc/podcast/play/95650381/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-10%2F391330540-44100-2-d063b27fe5a2.mp3
+    autor: Português com Letícia (podcast)
+    duracao_min: 16
+    descricao: >-
+      Episódio de janeiro de 2025, conhecido pela transcrição automática (não foi ouvido). Os
+      três casos facultativos: possessivo (a partir de 2:12), nome próprio feminino (3:10) e
+      "até" (5:21); de 7:42 em diante, o porquê, com a troca pelo masculino. Há cerca de dois
+      minutos de divulgação (por volta de 1:46 e do 14:13 ao fim). A professora restringe o
+      nome próprio às pessoas "familiares"; para a prova, basta saber que o acento antes de
+      nome de mulher é facultativo.
+  - tipo: podcast
+    titulo: À medida que, na medida em que, a medida que
+    url: https://podcasts.apple.com/br/podcast/%C3%A0-medida-que-na-medida-em-que-a-medida-que/id1468750752?i=1000515568688
+    audio: https://anchor.fm/s/c06f674/podcast/play/30595249/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-04-02%2Ff1a6c391e6b40b1fcd49939437377204.m4a
+    autor: Elias Santana (Português para quem?)
+    duracao_min: 10
+    descricao: >-
+      Episódio de abril de 2021, conhecido pela transcrição automática (não foi ouvido). Os
+      três casos: "à medida que" (proporção, com acento), "a medida que" (artigo, substantivo
+      e pronome, sem acento) e "na medida em que" (causa). Os dois primeiros minutos são
+      vinheta e música. A leitura de "na medida em que" só como causa é a do Manual da
+      Presidência; há fontes que registram outros sentidos, e o treino não cobra esse ponto.

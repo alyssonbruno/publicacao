@@ -1,0 +1,46 @@
+materiais:
+  - tipo: texto
+    titulo: Razão, proporção, porcentagem e regra de três
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: Aumentos ou descontos sucessivos — Aula 15
+    url: https://www.youtube.com/watch?v=E5Y2D1A0rVs
+    autor: Portal da Matemática OBMEP
+    descricao: >-
+      Videoaula do Portal da Matemática (OBMEP/IMPA), do módulo de porcentagem. Pelo título e pelo
+      material do módulo, trata de aumentos e descontos sucessivos, o ponto do fator multiplicativo
+      na aula. Ninguém da equipe assistiu ao vídeo, e a duração não foi conferida. Não é voltado a
+      concurso. Se algo divergir do texto da aula, vale o texto.
+  - tipo: video
+    titulo: Regra de 3 Composta — Aula 64
+    url: https://www.youtube.com/watch?v=0WI9qW1uLic
+    autor: Portal da Matemática OBMEP
+    descricao: >-
+      Videoaula do Portal da Matemática (OBMEP/IMPA), do módulo de razões e proporções, cujo
+      material escrito usa o mesmo método das setas da aula. Ninguém da equipe assistiu ao vídeo,
+      e a duração não foi conferida. Veja junto com a Aula 65, a seguir.
+  - tipo: video
+    titulo: Método de Solução de Problemas para Regra de 3 Compostas — Aula 65
+    url: https://www.youtube.com/watch?v=n1HnHH8cRyI
+    autor: Portal da Matemática OBMEP
+    descricao: >-
+      Continuação da Aula 64, sobre o método de solução da regra de três composta, inclusive
+      quando há grandeza inversamente proporcional. Ninguém da equipe assistiu ao vídeo, e a
+      duração não foi conferida. Se a convenção das setas do vídeo for outra, siga uma só: a do
+      texto da aula.
+  - tipo: podcast
+    titulo: "RLM para a PRF: Taxas de Variação e Porcentagem"
+    url: https://podcasts.apple.com/br/podcast/rlm-para-a-prf-taxas-de-varia%C3%A7%C3%A3o-e-porcentagem/id6794704229?i=1000778346185
+    audio: https://github.com/pabloduz/escuta-policial-podcast/releases/download/v1/ep-e02-02-taxas-de-variacao-de-grandezas-porcentagem.mp3
+    autor: Escuta Policial (podcast)
+    duracao_min: 11
+    descricao: >-
+      Episódio de julho de 2026, feito para a prova da PRF, de outra banca, também de certo ou
+      errado, com voz sintética em diálogo. Ninguém da equipe ouviu o áudio, mas a transcrição
+      publicada no site do programa foi lida: trata de razão, regra de três composta, fator
+      multiplicativo, aumentos e descontos sucessivos e variação percentual. Atenção a um erro
+      falado: o produto 1,2 × 0,8 dá 0,96, isto é, 96% (uma queda de 4%), e não "oitenta por
+      cento", como se ouve num trecho. Não trata de divisão proporcional nem de escala.

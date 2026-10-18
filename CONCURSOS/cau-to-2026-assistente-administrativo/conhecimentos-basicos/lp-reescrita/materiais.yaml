@@ -1,0 +1,50 @@
+materiais:
+  - tipo: texto
+    titulo: Reescrita de frases e textos e adequação da linguagem
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: link
+    titulo: "Reescritura de frases: desvendando questões CEBRASPE"
+    url: https://concursos.estrategia.com/portal/reescritura-de-frases-desvendando-questoes-cebraspe/
+    autor: Luiz Felipe Durval (Estratégia Concursos)
+    descricao: >-
+      Artigo curto, de 2021, que separa os três critérios do comando de reescrita: correção
+      gramatical, sentido e coerência. Os exemplos são de outra banca (Cebraspe), mas o comando é
+      o mesmo da Quadrix. Leia depois da parte "As três perguntas do comando" da aula.
+  - tipo: link
+    titulo: "EaDicas de Português, Dica 12 — Paralelismo sintático e semântico I"
+    url: https://ead.stj.jus.br/pluginfile.php/105436/mod_resource/content/11/assets/files/2dica-12.pdf
+    autor: Maria Geralda Teixeira Bevilaqua (NEAD/STJ)
+    descricao: >-
+      PDF de uma página, de 2014. Uma frase sem paralelismo (um substantivo e uma oração lado a
+      lado) e as duas reescritas possíveis: tudo em substantivo ou tudo em oração. É a troca entre
+      verbo e substantivo que a banca usa na reescrita.
+  - tipo: link
+    titulo: "Manual de linguagem simples (Câmara dos Deputados)"
+    url: https://bd.camara.leg.br/bd/bitstreams/e0d3210c-4891-40cc-9e1f-84f4e941a7c7/download
+    autor: Câmara dos Deputados, Edições Câmara (2024)
+    descricao: >-
+      PDF de 108 páginas; leia só três diretrizes da parte "Desenvolver": "Prefira a voz ativa",
+      "Prefira a ordem direta" e "Evite substantivar verbos" (p. 56, 57 e 60 do PDF). Cada uma
+      tem um par "antes e depois": a mesma informação, reescrita para ficar mais clara.
+  - tipo: link
+    titulo: "Variação lingüística e ensino — seção 3.2, A variação de registro"
+    url: https://cake.ceale.fae.ufmg.br/files/uploads/Col.%20Alfabetiza%C3%A7%C3%A3o%20e%20Letramento/Col%20Alf.Let.%2015%20Variacao_Linguistica.pdf
+    autor: Ceale/FaE-UFMG e Ministério da Educação (2006)
+    descricao: >-
+      Caderno para professores; leia só a seção 3.2 (p. 38 e 39 impressas), base da parte de
+      adequação da aula: registro formal e informal como dois polos, escolhidos pela situação, e
+      independentes de ser fala ou escrita. O resto do caderno é para a sala de aula.
+  - tipo: podcast
+    titulo: É correto falar e escrever ‘pra’ e ‘pro’?
+    url: https://podcasts.apple.com/br/podcast/%C3%A9-correto-falar-e-escrever-pra-e-pro/id1227867522?i=1000770245494
+    audio: https://traffic.megaphone.fm/GLOBO2411098186.mp3
+    autor: Pasquale Cipro Neto - A Nossa Língua de Todo Dia (CBN)
+    duracao_min: 12
+    descricao: >-
+      Episódio de maio de 2026. Pela transcrição automática registrada na curadoria (ninguém da
+      equipe ouviu o episódio), a resposta começa por volta de 2:40: "pra" e "pro" cabem na fala e
+      na escrita informal, e não no texto técnico, jurídico ou científico. É a ideia de adequação
+      da aula, num caso concreto.

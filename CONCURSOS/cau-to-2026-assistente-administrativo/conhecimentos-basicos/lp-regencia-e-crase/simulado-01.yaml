@@ -1,0 +1,134 @@
+# Treino de regência verbal e nominal e crase — CAU/TO 2026, Assistente Administrativo. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Regência verbal e nominal e crase
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no estilo de certo ou errado do Instituto Quadrix: seis itens sobre um texto próprio e fictício
+      (um aviso de um conselho profissional), com linhas numeradas, e quatro sobre frases soltas. Moldes: o acento
+      grave justificado pela regência de um termo, a supressão ou a troca de preposição e a correção de frases
+      quanto ao emprego do sinal indicativo de crase.'
+    - 'Referências de estilo, sem cópia de itens: itens de crase e regência do Instituto Quadrix (2017 a 2025)
+      listados no Aprova Concursos (https://www.aprovaconcursos.com.br/questoes-de-concurso/questoes/banca/quadrix/assunto/crase
+      e .../assunto/regencia) e no Estude Grátis (https://www.estudegratis.com.br/questoes-de-concurso/materia/portugues/assunto/crase/banca/quadrix
+      e .../assunto/regencia/banca/quadrix); cadernos de Assistente Administrativo do CREF3/SC 2023 (itens 9 a 12) e
+      do CRMV-CE 2024 (item 13), do Instituto Quadrix.'
+    - 'Bases do gabarito: Manual de Redação da Presidência da República, 3ª ed. (item 11.8, p. 73 a 78); Manual de
+      Comunicação da Secom, Senado Federal (verbetes Crase, Hora e Visar); EaDicas de Português do STJ (dicas 3, 27
+      e 2 da 3ª série); Dicas Práticas de Língua Portuguesa do TJSP (seção 3.4); Só Português (regência nominal e
+      crase); A Nossa Língua de Todo Dia (CBN), episódio sobre a crase antes de "sua". Consultados em 17/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-regencia-e-crase
+    enunciado: |-
+      Considere o texto a seguir, um aviso fictício do site de um conselho profissional, com as linhas numeradas.
+      > 1. A partir de 3 de novembro, o atendimento presencial do Conselho
+      > 2. funcionará das 8h às 14h. A mudança atende ao pedido dos
+      > 3. profissionais do interior, que preferem resolver tudo pela manhã
+      > 4. a voltar à sede no fim da tarde. Quem precisar de certidão deve
+      > 5. levar à recepção os dados relativos à inscrição. O novo horário
+      > 6. visa à redução das filas e do tempo de espera. As situações a
+      > 7. que este aviso não se aplica serão tratadas pela ouvidoria.
+
+      Com relação à regência e ao emprego do sinal indicativo de crase no texto, julgue o item.
+
+      O acento indicativo de crase em “à sede” (linha 4) justifica-se pela regência da forma verbal “preferem” (linha 3) e pela anteposição de artigo definido ao substantivo “sede”.
+  - id: q02
+    topico: conhecimentos-basicos/lp-regencia-e-crase
+    enunciado: |-
+      Considere o texto a seguir, um aviso fictício do site de um conselho profissional, com as linhas numeradas.
+      > 1. A partir de 3 de novembro, o atendimento presencial do Conselho
+      > 2. funcionará das 8h às 14h. A mudança atende ao pedido dos
+      > 3. profissionais do interior, que preferem resolver tudo pela manhã
+      > 4. a voltar à sede no fim da tarde. Quem precisar de certidão deve
+      > 5. levar à recepção os dados relativos à inscrição. O novo horário
+      > 6. visa à redução das filas e do tempo de espera. As situações a
+      > 7. que este aviso não se aplica serão tratadas pela ouvidoria.
+
+      Com relação à regência e ao emprego do sinal indicativo de crase no texto, julgue o item.
+
+      O acento indicativo de crase em “à redução” (linha 6) justifica-se pela regência da forma verbal “visa”, empregada no sentido de ter por objetivo, e pela anteposição de artigo definido ao substantivo “redução”.
+  - id: q03
+    topico: conhecimentos-basicos/lp-regencia-e-crase
+    enunciado: |-
+      Considere o texto a seguir, um aviso fictício do site de um conselho profissional, com as linhas numeradas.
+      > 1. A partir de 3 de novembro, o atendimento presencial do Conselho
+      > 2. funcionará das 8h às 14h. A mudança atende ao pedido dos
+      > 3. profissionais do interior, que preferem resolver tudo pela manhã
+      > 4. a voltar à sede no fim da tarde. Quem precisar de certidão deve
+      > 5. levar à recepção os dados relativos à inscrição. O novo horário
+      > 6. visa à redução das filas e do tempo de espera. As situações a
+      > 7. que este aviso não se aplica serão tratadas pela ouvidoria.
+
+      Com relação à regência e ao emprego do sinal indicativo de crase no texto, julgue o item.
+
+      Em “das 8h às 14h” (linha 2), o acento grave indica a fusão da preposição “a” com o artigo definido “as”, que se refere à palavra “horas”, subentendida.
+  - id: q04
+    topico: conhecimentos-basicos/lp-regencia-e-crase
+    enunciado: |-
+      Considere o texto a seguir, um aviso fictício do site de um conselho profissional, com as linhas numeradas.
+      > 1. A partir de 3 de novembro, o atendimento presencial do Conselho
+      > 2. funcionará das 8h às 14h. A mudança atende ao pedido dos
+      > 3. profissionais do interior, que preferem resolver tudo pela manhã
+      > 4. a voltar à sede no fim da tarde. Quem precisar de certidão deve
+      > 5. levar à recepção os dados relativos à inscrição. O novo horário
+      > 6. visa à redução das filas e do tempo de espera. As situações a
+      > 7. que este aviso não se aplica serão tratadas pela ouvidoria.
+
+      Com relação à regência e ao emprego do sinal indicativo de crase no texto, julgue o item.
+
+      A substituição de “a voltar” (linha 4) por “do que voltar” manteria a correção gramatical do texto.
+  - id: q05
+    topico: conhecimentos-basicos/lp-regencia-e-crase
+    enunciado: |-
+      Considere o texto a seguir, um aviso fictício do site de um conselho profissional, com as linhas numeradas.
+      > 1. A partir de 3 de novembro, o atendimento presencial do Conselho
+      > 2. funcionará das 8h às 14h. A mudança atende ao pedido dos
+      > 3. profissionais do interior, que preferem resolver tudo pela manhã
+      > 4. a voltar à sede no fim da tarde. Quem precisar de certidão deve
+      > 5. levar à recepção os dados relativos à inscrição. O novo horário
+      > 6. visa à redução das filas e do tempo de espera. As situações a
+      > 7. que este aviso não se aplica serão tratadas pela ouvidoria.
+
+      Com relação à regência e ao emprego do sinal indicativo de crase no texto, julgue o item.
+
+      O acento grave em “à inscrição” (linha 5) decorre da regência do adjetivo “relativos”, que exige complemento introduzido pela preposição “a”, e da presença do artigo definido feminino antes de “inscrição”.
+  - id: q06
+    topico: conhecimentos-basicos/lp-regencia-e-crase
+    enunciado: |-
+      Considere o texto a seguir, um aviso fictício do site de um conselho profissional, com as linhas numeradas.
+      > 1. A partir de 3 de novembro, o atendimento presencial do Conselho
+      > 2. funcionará das 8h às 14h. A mudança atende ao pedido dos
+      > 3. profissionais do interior, que preferem resolver tudo pela manhã
+      > 4. a voltar à sede no fim da tarde. Quem precisar de certidão deve
+      > 5. levar à recepção os dados relativos à inscrição. O novo horário
+      > 6. visa à redução das filas e do tempo de espera. As situações a
+      > 7. que este aviso não se aplica serão tratadas pela ouvidoria.
+
+      Com relação à regência e ao emprego do sinal indicativo de crase no texto, julgue o item.
+
+      No trecho “As situações a que este aviso não se aplica” (linhas 6 e 7), a preposição “a” tem valor apenas enfático e poderia ser suprimida sem prejuízo da correção gramatical.
+  - id: q07
+    topico: conhecimentos-basicos/lp-regencia-e-crase
+    enunciado: |-
+      Julgue o item a seguir, relativo ao emprego do sinal indicativo de crase.
+
+      Na frase “Os fiscais começaram a vistoriar as obras do centro”, o “a” que antecede “vistoriar” não recebe acento grave, porque não se emprega artigo definido antes de verbo.
+  - id: q08
+    topico: conhecimentos-basicos/lp-regencia-e-crase
+    enunciado: |-
+      Julgue o item a seguir, relativo ao emprego do sinal indicativo de crase.
+
+      A frase “Informamos à Vossa Senhoria que o prazo de entrega foi prorrogado.” está correta quanto ao emprego do sinal indicativo de crase.
+  - id: q09
+    topico: conhecimentos-basicos/lp-regencia-e-crase
+    enunciado: |-
+      Julgue o item a seguir, relativo ao emprego do sinal indicativo de crase.
+
+      A frase “O pedido de registro foi encaminhado à CAU/TO na semana passada.” está correta quanto ao emprego do sinal indicativo de crase.
+  - id: q10
+    topico: conhecimentos-basicos/lp-regencia-e-crase
+    enunciado: |-
+      Julgue o item a seguir, relativo ao emprego do sinal indicativo de crase.
+
+      Na frase “O relator fez referência a sua proposta durante a reunião”, seria facultativo o emprego do acento grave no “a” que antecede “sua”.

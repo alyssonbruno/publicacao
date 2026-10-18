@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="400" fill="#ffffff"/>
+
+  <text x="20" y="32" font-size="16" font-weight="700" fill="#1c5cab">Graus de sigilo (art. 24, § 1º)</text>
+  <text x="20" y="52" font-size="12" fill="#52514e">Prazos máximos, contados da data de produção da informação. Barras na mesma escala.</text>
+
+  <!-- escala: 1 ano = 18 px; início em x = 150 -->
+  <g font-size="14">
+    <text x="20" y="91" font-weight="700" fill="#0b0b0b">Ultrassecreta</text>
+    <rect x="150" y="74" width="450" height="26" rx="5" fill="#256abf"/>
+    <text x="612" y="92" font-weight="700" fill="#1c5cab">25 anos</text>
+
+    <text x="20" y="137" font-weight="700" fill="#0b0b0b">Secreta</text>
+    <rect x="150" y="120" width="270" height="26" rx="5" fill="#5b8fd1"/>
+    <text x="432" y="138" font-weight="700" fill="#1c5cab">15 anos</text>
+
+    <text x="20" y="183" font-weight="700" fill="#0b0b0b">Reservada</text>
+    <rect x="150" y="166" width="90" height="26" rx="5" fill="#9dbde6"/>
+    <text x="252" y="184" font-weight="700" fill="#1c5cab">5 anos</text>
+  </g>
+  <text x="20" y="218" font-size="12" fill="#52514e">Passado o prazo (ou ocorrido o evento fixado como termo final), a informação vira pública automaticamente (§ 4º).</text>
+
+  <!-- Informação pessoal, à parte -->
+  <g transform="translate(12 236)">
+    <rect width="696" height="80" rx="10" fill="#fdeee6" stroke="#f3c9b4"/>
+    <text x="16" y="26" font-size="14" font-weight="700" fill="#9a3a12">Informação pessoal (intimidade, vida privada, honra e imagem): não é grau de sigilo</text>
+    <g font-size="13" fill="#0b0b0b">
+      <text x="16" y="48">Acesso restrito <tspan font-weight="700">independentemente de classificação</tspan>, por até <tspan font-weight="700">100 anos</tspan></text>
+      <text x="16" y="67">da produção, a agentes autorizados e à própria pessoa (art. 31, § 1º, I).</text>
+    </g>
+  </g>
+
+  <!-- CAU -->
+  <g transform="translate(12 328)">
+    <rect width="696" height="56" rx="10" fill="#f9f9f7" stroke="#e1e0d9"/>
+    <text x="16" y="23" font-size="13" fill="#0b0b0b"><tspan font-weight="700">No CAU</tspan> (Resolução CAU/BR nº 228/2022, arts. 14 e 15): só <tspan font-weight="700">reservada (5 anos)</tspan> e</text>
+    <text x="16" y="42" font-size="13" fill="#0b0b0b"><tspan font-weight="700">secreta (15 anos)</tspan>, com prazos improrrogáveis. Para a prova, estude os três graus da lei.</text>
+  </g>
+</svg>

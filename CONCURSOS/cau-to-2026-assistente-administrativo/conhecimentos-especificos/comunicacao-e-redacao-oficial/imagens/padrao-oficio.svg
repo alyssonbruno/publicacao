@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="700" viewBox="0 0 720 700" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="700" fill="#ffffff"/>
+  <text x="16" y="26" font-size="14" font-weight="700" fill="#0b0b0b">O padrão ofício: as partes, de cima para baixo (dados fictícios)</text>
+
+  <!-- Folha -->
+  <rect x="16" y="44" width="412" height="616" fill="#fbfaf7" stroke="#8a8984"/>
+
+  <!-- Cabeçalho -->
+  <circle cx="222" cy="76" r="15" fill="none" stroke="#52514e"/>
+  <text x="222" y="80" font-size="8.5" fill="#52514e" text-anchor="middle">brasão</text>
+  <text x="222" y="110" font-size="11.5" font-weight="700" fill="#0b0b0b" text-anchor="middle">Conselho de Exemplo</text>
+  <text x="222" y="125" font-size="11" fill="#0b0b0b" text-anchor="middle">Gerência Administrativa</text>
+
+  <!-- Identificação -->
+  <text x="40" y="160" font-size="11" font-weight="700" fill="#0b0b0b">OFÍCIO Nº 37/2026/GAD/CEX</text>
+
+  <!-- Local e data -->
+  <text x="404" y="186" font-size="11" fill="#0b0b0b" text-anchor="end">Palmas, 3 de novembro de 2026.</text>
+
+  <!-- Endereçamento -->
+  <g font-size="11" fill="#0b0b0b">
+    <text x="40" y="216">Ao Senhor</text>
+    <text x="40" y="231">[Nome]</text>
+    <text x="40" y="246">Gerente de Compras do Órgão de Exemplo</text>
+    <text x="40" y="261">[Logradouro, número]</text>
+    <text x="40" y="276">[CEP] Palmas/TO</text>
+  </g>
+
+  <!-- Assunto -->
+  <text x="40" y="308" font-size="11" font-weight="700" fill="#0b0b0b">Assunto: Substituição de impressoras.</text>
+
+  <!-- Vocativo -->
+  <text x="96" y="340" font-size="11" fill="#0b0b0b">Senhor Gerente,</text>
+
+  <!-- Texto com parágrafos numerados -->
+  <g font-size="11" fill="#0b0b0b">
+    <text x="40" y="370">1</text>
+    <text x="96" y="370">Solicito a substituição das duas impressoras</text>
+    <text x="40" y="385">da Seção de Protocolo, que deixaram de funcionar</text>
+    <text x="40" y="400">em setembro de 2026.</text>
+    <text x="40" y="428">2</text>
+    <text x="40" y="486">3</text>
+  </g>
+  <g fill="#d6d4cc">
+    <rect x="96" y="420" width="308" height="8" rx="2"/>
+    <rect x="40" y="435" width="364" height="8" rx="2"/>
+    <rect x="40" y="450" width="220" height="8" rx="2"/>
+    <rect x="96" y="478" width="308" height="8" rx="2"/>
+    <rect x="40" y="493" width="364" height="8" rx="2"/>
+    <rect x="40" y="508" width="160" height="8" rx="2"/>
+  </g>
+
+  <!-- Fecho -->
+  <text x="96" y="546" font-size="11" fill="#0b0b0b">Atenciosamente,</text>
+
+  <!-- Signatário -->
+  <text x="222" y="584" font-size="10" font-style="italic" fill="#52514e" text-anchor="middle">(espaço para assinatura)</text>
+  <text x="222" y="608" font-size="11" fill="#0b0b0b" text-anchor="middle">NOME DO SIGNATÁRIO</text>
+  <text x="222" y="623" font-size="11" fill="#0b0b0b" text-anchor="middle">Gerente Administrativo</text>
+
+  <!-- Rótulos à direita -->
+  <g stroke="#256abf" stroke-dasharray="3 3">
+    <line x1="290" y1="96" x2="446" y2="96"/>
+    <line x1="232" y1="156" x2="446" y2="156"/>
+    <line x1="410" y1="182" x2="446" y2="182"/>
+    <line x1="290" y1="242" x2="446" y2="242"/>
+    <line x1="270" y1="304" x2="446" y2="304"/>
+    <line x1="190" y1="336" x2="446" y2="336"/>
+    <line x1="410" y1="440" x2="446" y2="440"/>
+    <line x1="190" y1="542" x2="446" y2="542"/>
+    <line x1="310" y1="608" x2="446" y2="608"/>
+  </g>
+  <g font-size="12" fill="#0b0b0b">
+    <text x="452" y="92" font-weight="700">1. Cabeçalho</text>
+    <text x="452" y="107" fill="#3d3c39" font-size="11">brasão e nome do órgão; só na 1ª página</text>
+
+    <text x="452" y="152" font-weight="700">2. Identificação</text>
+    <text x="452" y="167" fill="#3d3c39" font-size="11">tipo, número, ano e siglas, à esquerda</text>
+
+    <text x="452" y="186" font-weight="700">3. Local e data</text>
+    <text x="452" y="201" fill="#3d3c39" font-size="11">sem a sigla do estado; mês minúsculo</text>
+
+    <text x="452" y="232" font-weight="700">4. Endereçamento</text>
+    <text x="452" y="247" fill="#3d3c39" font-size="11">tratamento, nome, cargo e endereço</text>
+    <text x="452" y="261" fill="#3d3c39" font-size="11">(agente federal, pelo decreto: sem</text>
+    <text x="452" y="275" fill="#3d3c39" font-size="11">pronome e sem nome, só cargo e setor)</text>
+
+    <text x="452" y="300" font-weight="700">5. Assunto</text>
+    <text x="452" y="315" fill="#3d3c39" font-size="11">em negrito, sem verbo, com ponto-final</text>
+
+    <text x="452" y="340" font-weight="700">6. Vocativo</text>
+    <text x="452" y="355" fill="#3d3c39" font-size="11">"Senhor" + cargo, seguido de vírgula</text>
+
+    <text x="452" y="430" font-weight="700">7. Texto</text>
+    <text x="452" y="445" fill="#3d3c39" font-size="11">introdução, desenvolvimento e conclusão;</text>
+    <text x="452" y="459" fill="#3d3c39" font-size="11">parágrafos numerados se forem 3 ou mais</text>
+
+    <text x="452" y="538" font-weight="700">8. Fecho</text>
+    <text x="452" y="553" fill="#3d3c39" font-size="11">Respeitosamente (superior) ou</text>
+    <text x="452" y="567" fill="#3d3c39" font-size="11">Atenciosamente (mesmo nível e demais)</text>
+
+    <text x="452" y="604" font-weight="700">9. Signatário</text>
+    <text x="452" y="619" fill="#3d3c39" font-size="11">nome em maiúsculas e cargo, centralizados</text>
+  </g>
+
+  <text x="16" y="684" font-size="11" fill="#52514e">Fonte: Manual de Redação da Presidência da República, 3ª ed., itens 5.1.1 a 5.1.8. Aqui, gerente escreve a gerente: Atenciosamente.</text>
+</svg>

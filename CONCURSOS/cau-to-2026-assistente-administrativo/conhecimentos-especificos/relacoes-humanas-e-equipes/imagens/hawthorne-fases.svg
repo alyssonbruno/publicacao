@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="470" viewBox="0 0 720 470" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="470" fill="#ffffff"/>
+  <text x="12" y="26" font-size="14" font-weight="700" fill="#0b0b0b">Experiência de Hawthorne: quatro fases, uma descoberta</text>
+
+  <!-- Linha do tempo -->
+  <line x1="60" y1="62" x2="60" y2="392" stroke="#256abf" stroke-width="3"/>
+
+  <!-- Fase 1 -->
+  <circle cx="60" cy="78" r="13" fill="#256abf"/>
+  <text x="60" y="83" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <rect x="88" y="52" width="620" height="68" rx="8" fill="#e3edf9" stroke="#256abf"/>
+  <text x="102" y="74" font-size="13.5" font-weight="700" fill="#0b0b0b">Iluminação</text>
+  <text x="102" y="94" font-size="12.5" fill="#0b0b0b">Um grupo com luz variável, outro com luz constante: sem relação direta entre luz e produção.</text>
+  <text x="102" y="112" font-size="12.5" fill="#0b0b0b">Achado: o fator psicológico pesou mais que o fisiológico.</text>
+
+  <!-- Fase 2 -->
+  <circle cx="60" cy="160" r="13" fill="#256abf"/>
+  <text x="60" y="165" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <rect x="88" y="134" width="620" height="68" rx="8" fill="#e3edf9" stroke="#256abf"/>
+  <text x="102" y="156" font-size="13.5" font-weight="700" fill="#0b0b0b">Sala de montagem de relés</text>
+  <text x="102" y="176" font-size="12.5" fill="#0b0b0b">Seis moças, 12 períodos com mudanças de pausas, horário e pagamento; a produção subiu quase sempre.</text>
+  <text x="102" y="194" font-size="12.5" fill="#0b0b0b">Achado: o clima amistoso e a supervisão branda explicavam mais que as condições físicas.</text>
+
+  <!-- Fase 3 -->
+  <circle cx="60" cy="242" r="13" fill="#256abf"/>
+  <text x="60" y="247" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <rect x="88" y="216" width="620" height="68" rx="8" fill="#e3edf9" stroke="#256abf"/>
+  <text x="102" y="238" font-size="13.5" font-weight="700" fill="#0b0b0b">Programa de entrevistas (a partir de 1928)</text>
+  <text x="102" y="258" font-size="12.5" fill="#0b0b0b">Os pesquisadores passaram a ouvir os empregados sobre o trabalho e o tratamento recebido.</text>
+  <text x="102" y="276" font-size="12.5" fill="#0b0b0b">Achado: existe uma organização informal, com grupos que se protegem da administração.</text>
+
+  <!-- Fase 4 -->
+  <circle cx="60" cy="324" r="13" fill="#256abf"/>
+  <text x="60" y="329" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <rect x="88" y="298" width="620" height="68" rx="8" fill="#e3edf9" stroke="#256abf"/>
+  <text x="102" y="320" font-size="13.5" font-weight="700" fill="#0b0b0b">Sala de montagem de terminais (1931 e 1932)</text>
+  <text x="102" y="340" font-size="12.5" fill="#0b0b0b">Um grupo de homens observado de perto: quem produzia "demais" era pressionado a desacelerar.</text>
+  <text x="102" y="358" font-size="12.5" fill="#0b0b0b">Achado: o próprio grupo fixa o ritmo, com normas informais.</text>
+
+  <!-- Conclusão -->
+  <rect x="12" y="392" width="696" height="48" rx="8" fill="#256abf"/>
+  <text x="360" y="414" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">A produção depende do grupo e das normas sociais,</text>
+  <text x="360" y="432" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">e não da iluminação nem só do salário.</text>
+  <text x="360" y="460" font-size="12" fill="#52514e" text-anchor="middle">Fases e datas segundo o livro do CESAD/UFS, que segue Chiavenato.</text>
+</svg>

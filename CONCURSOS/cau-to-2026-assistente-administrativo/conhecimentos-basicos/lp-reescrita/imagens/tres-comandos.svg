@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="400" fill="#ffffff"/>
+
+  <!-- Só a correção -->
+  <g transform="translate(12 12)">
+    <rect width="224" height="376" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <rect width="224" height="48" rx="10" fill="#e3edf9"/>
+    <rect y="38" width="224" height="10" fill="#e3edf9"/>
+    <text x="112" y="31" font-size="18" font-weight="700" fill="#1c5cab" text-anchor="middle">Só a correção</text>
+    <text font-size="12.5" fill="#52514e">
+      <tspan x="16" y="76" font-weight="600" fill="#0b0b0b">O comando diz</tspan>
+      <tspan x="16" dy="18" font-style="italic">“manteria a correção</tspan>
+      <tspan x="16" dy="17" font-style="italic">gramatical, ainda que</tspan>
+      <tspan x="16" dy="17" font-style="italic">alterasse o sentido”</tspan>
+    </text>
+    <text font-size="12.5" fill="#52514e">
+      <tspan x="16" y="168" font-weight="600" fill="#0b0b0b">Confira</tspan>
+      <tspan x="16" dy="18">concordância, regência</tspan>
+      <tspan x="16" dy="17">e crase, pontuação,</tspan>
+      <tspan x="16" dy="17">colocação</tspan>
+    </text>
+    <rect x="12" y="260" width="200" height="104" rx="8" fill="#fbe3e3"/>
+    <text font-size="12.5" fill="#b42727">
+      <tspan x="24" y="284" font-weight="700">Errado se</tspan>
+      <tspan x="24" dy="18">a frase nova tiver erro</tspan>
+      <tspan x="24" dy="17">de gramática.</tspan>
+      <tspan x="24" dy="22" font-weight="600">Sentido mudou? Não conta.</tspan>
+    </text>
+  </g>
+
+  <!-- Correção e sentido -->
+  <g transform="translate(248 12)">
+    <rect width="224" height="376" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <rect width="224" height="48" rx="10" fill="#ece9f8"/>
+    <rect y="38" width="224" height="10" fill="#ece9f8"/>
+    <text x="112" y="31" font-size="18" font-weight="700" fill="#4a3aa7" text-anchor="middle">Correção e sentido</text>
+    <text font-size="12.5" fill="#52514e">
+      <tspan x="16" y="76" font-weight="600" fill="#0b0b0b">O comando diz</tspan>
+      <tspan x="16" dy="18" font-style="italic">“manteria a correção</tspan>
+      <tspan x="16" dy="17" font-style="italic">gramatical e os sentidos</tspan>
+      <tspan x="16" dy="17" font-style="italic">do texto”</tspan>
+    </text>
+    <text font-size="12.5" fill="#52514e">
+      <tspan x="16" y="168" font-weight="600" fill="#0b0b0b">Confira</tspan>
+      <tspan x="16" dy="18">as duas coisas: a</tspan>
+      <tspan x="16" dy="17">gramática e a ideia</tspan>
+    </text>
+    <rect x="12" y="260" width="200" height="104" rx="8" fill="#fbe3e3"/>
+    <text font-size="12.5" fill="#b42727">
+      <tspan x="24" y="284" font-weight="700">Errado se</tspan>
+      <tspan x="24" dy="18">qualquer uma das duas</tspan>
+      <tspan x="24" dy="17">falhar.</tspan>
+      <tspan x="24" dy="22" font-weight="600">Basta uma.</tspan>
+    </text>
+  </g>
+
+  <!-- Só o sentido -->
+  <g transform="translate(484 12)">
+    <rect width="224" height="376" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <rect width="224" height="48" rx="10" fill="#fdf1d6"/>
+    <rect y="38" width="224" height="10" fill="#fdf1d6"/>
+    <text x="112" y="31" font-size="18" font-weight="700" fill="#8a5a00" text-anchor="middle">Só o sentido</text>
+    <text font-size="12.5" fill="#52514e">
+      <tspan x="16" y="76" font-weight="600" fill="#0b0b0b">O comando diz</tspan>
+      <tspan x="16" dy="18" font-style="italic">“preservaria o sentido”</tspan>
+      <tspan x="16" dy="17">ou</tspan>
+      <tspan x="16" dy="17" font-style="italic">“a coerência do texto”</tspan>
+    </text>
+    <text font-size="12.5" fill="#52514e">
+      <tspan x="16" y="168" font-weight="600" fill="#0b0b0b">Confira</tspan>
+      <tspan x="16" dy="18">valor do conector, tempo</tspan>
+      <tspan x="16" dy="17">e modo do verbo, lugar</tspan>
+      <tspan x="16" dy="17">das palavras, quem faz</tspan>
+      <tspan x="16" dy="17">o quê</tspan>
+    </text>
+    <rect x="12" y="260" width="200" height="104" rx="8" fill="#fbe3e3"/>
+    <text font-size="12.5" fill="#b42727">
+      <tspan x="24" y="284" font-weight="700">Errado se</tspan>
+      <tspan x="24" dy="18">a ideia mudou.</tspan>
+    </text>
+  </g>
+</svg>

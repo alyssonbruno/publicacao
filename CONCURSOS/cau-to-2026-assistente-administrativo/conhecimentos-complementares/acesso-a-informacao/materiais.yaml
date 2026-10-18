@@ -1,0 +1,7 @@
+materiais:
+  - tipo: texto
+    titulo: "Transparência e acesso à informação: noções da Lei nº 12.527/2011 e seus decretos"
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
