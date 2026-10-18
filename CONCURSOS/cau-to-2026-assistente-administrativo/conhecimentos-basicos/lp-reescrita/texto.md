@@ -25,31 +25,38 @@ Veja uma frase e três reescritas:
 
 ## As três perguntas do comando
 
-A banca não pergunta sempre a mesma coisa. Leia o comando com atenção, porque ele tem **três variantes**:
+A banca não pergunta sempre a mesma coisa. O comando mistura três critérios (**correção**, **sentido** e **coerência**) e aparece em **quatro variantes**:
 
-![Três quadros. "Só a correção": errado se a frase nova tiver erro de gramática; mudança de sentido não conta. "Correção e sentido": errado se qualquer uma das duas falhar. "Só o sentido": errado se a ideia mudou.](imagens/tres-comandos.svg "As três variantes do comando de reescrita")
+![Quatro quadros. "Só a correção": errado se a frase nova tiver erro de gramática; mudança de sentido não conta. "Correção e sentido": errado se qualquer uma das duas falhar. "Correção e coerência": errado se houver erro de gramática ou se o texto ficar contraditório; mudança de sentido sem contradição não conta. "Só o sentido": errado se a ideia mudou.](imagens/tres-comandos.svg "As quatro variantes do comando de reescrita")
 
 - **Só a correção.** O comando avisa que o sentido pode mudar ("ainda que haja alteração de sentido"). Aqui, a frase nova só precisa estar **gramaticalmente certa**. Se ficou com outro sentido, tudo bem.
 - **Correção e sentido.** A frase nova precisa estar certa **e** dizer o mesmo. Basta uma das duas falhar para o item estar errado.
-- **Só o sentido** (ou "a coerência"). A pergunta é se a **ideia** continua a mesma: a mesma relação entre as partes, o mesmo tempo, o mesmo responsável pela ação.
+- **Correção e coerência.** A frase nova precisa estar certa, e o texto precisa continuar **lógico**, sem contradição. O sentido pode mudar: se a ideia nova ainda combina com o resto do texto, o item está certo.
+- **Só o sentido.** A pergunta é se a **ideia** continua a mesma: a mesma relação entre as partes, o mesmo tempo, o mesmo responsável pela ação.
 
 > [!IMPORTANT]
 > Com "ainda que altere o sentido", uma reescrita que muda tudo pode estar **certa**. Com "e os sentidos", uma reescrita impecável na gramática pode estar **errada**.
 
-"Sentido" e "coerência" estão perto, mas não são a mesma palavra: a coerência é o sentido do texto inteiro, sem contradição. Na prática, as duas pedem a mesma conferência: a ideia mudou ou não?
+## Sentido não é coerência
+
+São duas conferências diferentes. **Sentido** é o que o trecho diz: se a relação entre as ideias, o tempo do verbo ou quem faz a ação mudou, o sentido mudou. **Coerência** é o texto continuar lógico, sem uma parte contradizer a outra ou contradizer o que se sabe do mundo.
+
+Uma troca pode mudar o sentido e manter a coerência. *O setor revisou os prazos e ampliou o horário* → *O setor revisou os prazos, mas não ampliou o horário*: agora o horário não foi ampliado, e o texto continua lógico. Já *Como o prazo acabou, o setor não aceita mais documentos* → *Embora o prazo tenha acabado, o setor não aceita mais documentos* está gramaticalmente certa, mas é incoerente: não há oposição entre o prazo acabar e o setor recusar documentos.
+
+Por isso, num item de "correção e coerência", a mudança de sentido sozinha não torna o item errado.
 
 ## Passo a passo para julgar o item
 
 A turma deixa muitos itens em branco. Este roteiro serve para tirar a dúvida em menos de um minuto.
 
-1. **Leia o comando primeiro.** Marque qual das três variantes ele usa.
+1. **Leia o comando primeiro.** Marque qual das quatro variantes ele usa.
 2. **Monte a frase nova inteira.** Volte à linha, troque o trecho e leia o período completo com a mudança, em voz baixa. Não julgue só a palavra trocada.
 3. **Teste a correção.** O verbo ainda concorda com o sujeito? A preposição que o verbo pede continua lá? A crase ainda cabe? A vírgula ficou no lugar? (As regras estão nas aulas de concordância, de regência e crase e de pontuação.)
 4. **Teste o sentido.** A relação entre as ideias é a mesma (causa, oposição, condição)? O tempo do verbo mudou? Uma palavra como *só*, *já* ou *até* trocou de lugar? Quem faz a ação continua o mesmo?
-5. **Decida pelo comando.** Só correção: vale o passo 3. Correção e sentido: os passos 3 e 4. Só sentido: o passo 4.
+5. **Decida pelo comando.** Só correção: vale o passo 3. Correção e sentido: os passos 3 e 4. Só sentido: o passo 4. Correção e coerência: o passo 3 e mais uma pergunta, a de se o texto ficou contraditório ou sem lógica.
 
 > [!TIP]
-> Escreva a reescrita em cima do original, no rascunho. Ver as duas frases uma sobre a outra mostra na hora o que mudou.
+> No rascunho, copie o trecho original e escreva a versão nova logo abaixo, parte por parte. Lado a lado, as diferenças aparecem sem esforço. (A dica é do professor Décio Terror Filho; veja as Fontes.)
 
 ## As trocas que a banca mais faz
 
@@ -126,9 +133,9 @@ O 6.1 fala também em reescrever **textos**, não só frases. O Manual de Redaç
 
 > Venho, por meio desta, informar a Vossa Senhoria que, conforme já informado anteriormente, o prazo final para a entrega dos documentos se encerra no dia 30.
 
-> Informo que o prazo para a entrega dos documentos termina no dia 30.
+> Reitero que o prazo para a entrega dos documentos termina no dia 30.
 
-A segunda versão diz o mesmo com metade das palavras: *já* e *anteriormente* repetiam a mesma ideia, e *prazo final* que *se encerra* também.
+A segunda versão diz o mesmo com menos da metade das palavras. *Venho, por meio desta, informar a Vossa Senhoria* virou um verbo só, porque quem lê já é o destinatário. A oração *conforme já informado anteriormente* cabe inteira em *Reitero*, que quer dizer "digo de novo" (e, nela, *já* e *anteriormente* repetiam a mesma ideia). *Prazo final* que *se encerra* também repetia: virou *prazo* que *termina*.
 
 A outra meta é tirar a **ambiguidade** (item 11.6 do Manual), que costuma vir de um pronome com dois candidatos:
 
@@ -153,7 +160,7 @@ Dois pontos que a banca explora:
 - **Registro não depende de ser fala ou escrita.** Um bilhete escrito pode ser bem informal; uma palestra falada pode ser bem formal. O Ceale diz isso com todas as letras.
 - **Informal não é sinônimo de errado.** O registro informal é o adequado às situações sem cerimônia. O problema está em usá-lo onde a situação pede o formal, e vice-versa. Pedir "Vossa Senhoria me faria a gentileza de passar o arroz?" no almoço de domingo também é inadequado.
 
-A BNCC vai na mesma linha: a escola deve ensinar a reconhecer as variedades da língua, combater o preconceito linguístico e usar a norma-padrão "em situações de fala e escrita nas quais ela deve ser usada" (habilidade EF69LP56).
+A BNCC vai na mesma linha: a escola deve ensinar a reconhecer as variedades da língua e o preconceito linguístico (habilidade EF69LP55) e a usar a norma-padrão "em situações de fala e escrita nas quais ela deve ser usada" (habilidade EF69LP56). Rejeitar os preconceitos linguísticos está entre as competências específicas de Língua Portuguesa (competência 4).
 
 ## Adequação no trabalho
 
@@ -196,9 +203,9 @@ A Quadrix já juntou o 6.2 ao molde da reescrita: troca uma expressão típica d
 - Câmara dos Deputados, *Manual de linguagem simples* (Edições Câmara, 2024), parte "Desenvolver": "Prefira a voz ativa", "Prefira a ordem direta" e "Evite substantivar verbos" (p. 56, 57 e 60 do PDF): https://bd.camara.leg.br/bd/bitstreams/e0d3210c-4891-40cc-9e1f-84f4e941a7c7/download
 - Maria Geralda Teixeira Bevilaqua (NEAD/STJ), "EaDicas de Português, Dica 12 — Paralelismo sintático e semântico I" (2014): https://ead.stj.jus.br/pluginfile.php/105436/mod_resource/content/11/assets/files/2dica-12.pdf
 - Luiz Felipe Durval (Estratégia Concursos), "Reescritura de frases: desvendando questões CEBRASPE" (2021), sobre os critérios de correção, sentido e coerência: https://concursos.estrategia.com/portal/reescritura-de-frases-desvendando-questoes-cebraspe/
-- Décio Terror Filho (Estratégia Concursos), "Um assunto certo de cair na prova do STJ: Reescrita de texto" (2015), sobre a transposição para a passiva: https://www.estrategiaconcursos.com.br/blog/um-assunto-certo-de-vai-cair-na-prova-do-stj-reescrita-de-texto/
-- Ceale/FaE-UFMG e Ministério da Educação, *Variação lingüística e ensino: caderno do professor* (2006), seção 3.2, "A variação de registro" (p. 38-39): https://cake.ceale.fae.ufmg.br/files/uploads/Col.%20Alfabetiza%C3%A7%C3%A3o%20e%20Letramento/Col%20Alf.Let.%2015%20Variacao_Linguistica.pdf
-- Ministério da Educação, *Base Nacional Comum Curricular*, habilidades EF69LP55 e EF69LP56 (p. 163 do PDF) e EM13LP10 (p. 510 do PDF): https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf
+- Décio Terror Filho (Estratégia Concursos), "Um assunto certo de cair na prova do STJ: Reescrita de texto" (2015), sobre a transposição para a passiva e a dica de escrever a reescrita sob o original, no rascunho: https://www.estrategiaconcursos.com.br/blog/um-assunto-certo-de-vai-cair-na-prova-do-stj-reescrita-de-texto/
+- Ceale/FaE-UFMG e Ministério da Educação, *Variação lingüística e ensino: caderno do professor* (2006), seção 3.2, "A variação de registro" (p. 37-38): https://cake.ceale.fae.ufmg.br/files/uploads/Col.%20Alfabetiza%C3%A7%C3%A3o%20e%20Letramento/Col%20Alf.Let.%2015%20Variacao_Linguistica.pdf
+- Ministério da Educação, *Base Nacional Comum Curricular*, competência específica 4 de Língua Portuguesa no ensino fundamental (p. 89 do PDF), habilidades EF69LP55 e EF69LP56 (p. 163 do PDF) e EM13LP10 (p. 510 do PDF): https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf
 - Senado Federal, Manual de Comunicação da Secom, verbetes "Jargão legislativo" e "Linguagem publicitária": https://www12.senado.leg.br/manualdecomunicacao/estilos/jargao-legislativo e https://www12.senado.leg.br/manualdecomunicacao/estilos/linguagem-publicitaria
 - Márcia Fernandes (Toda Matéria), "Vozes verbais": https://www.todamateria.com.br/vozes-verbais/ (a condição para a passiva é ter objeto direto, e não só ser transitivo).
 - Modelo dos itens: questões do Instituto Quadrix de 2020 a 2025 no assunto "Redação - Reescritura de texto" do Estude Grátis, usadas só como referência de estilo: https://www.estudegratis.com.br/questoes-de-concurso/materia/portugues/assunto/redacao-reescritura-de-texto

@@ -23,7 +23,7 @@
 2. Seta para cima na coluna do *x*.
 3. Cada outra grandeza, comparada com a do *x* e com o resto fixo: direta ↑, inversa ↓.
 4. Fração do *x* = produto das outras frações, **invertendo as de seta para baixo**.
-5. Confira pela unidade de trabalho (servidores × horas × dias por processo).
+5. Confira pela unidade de trabalho (processos por servidor × hora).
 
 ## Distinções que mais confundem
 

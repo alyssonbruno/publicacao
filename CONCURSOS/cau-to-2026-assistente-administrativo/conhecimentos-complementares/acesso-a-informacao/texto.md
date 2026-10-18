@@ -96,7 +96,7 @@ O art. 10 é o mais cobrado. Leia devagar:
 - **motivo:** são **vedadas quaisquer exigências** relativas aos motivos da solicitação de informações de interesse público (§ 3º).
 
 > [!IMPORTANT]
-> O pedido precisa **identificar quem pede** e **especificar o que pede**. **Não precisa dizer por quê**: a lei proíbe exigir o motivo (art. 10, § 3º). Um item que diga que o pedido "deve indicar os motivos", ou que o órgão "pode exigir a justificativa", está **errado**.
+> O pedido precisa **identificar quem pede** e **especificar o que pede**. **Não precisa dizer por quê**: a lei proíbe exigir o motivo (art. 10, § 3º).
 
 Exemplo nosso: um estudante pede ao CAU/TO o número de empresas de arquitetura registradas em Palmas. Ele se identifica e diz exatamente o que quer. Ninguém pode perguntar se é para um trabalho da faculdade ou para abrir um escritório.
 
@@ -130,7 +130,7 @@ Exemplo nosso: pesquisar e enviar por e-mail a ata digital não custa nada. Se a
 E o requerente tem direito ao **inteiro teor da decisão de negativa**, por certidão ou cópia (art. 14).
 
 > [!WARNING]
-> Dois erros comuns: "o acesso é **totalmente** gratuito, em qualquer caso" (errado: a reprodução pode ser cobrada) e "o órgão pode cobrar pela **busca**" (errado: a busca é gratuita).
+> Separe as duas coisas: a **busca** e o fornecimento não se cobram; a **reprodução** pode ser cobrada, e só pelo custo de serviços e materiais.
 
 ## Negado o acesso: o recurso
 
@@ -159,6 +159,8 @@ São **três graus**, com prazos **máximos** contados **da data de produção**
 
 ![Graus de sigilo, com barras proporcionais aos prazos máximos contados da produção: ultrassecreta 25 anos, secreta 15, reservada 5 (art. 24). À parte, a informação pessoal: até 100 anos, sem classificação, não é grau (art. 31). No CAU, só reservada e secreta.](imagens/graus-de-sigilo.svg "Graus de sigilo e informação pessoal")
 
+**Quem classifica** (art. 27, que vale para a administração pública federal): o grau **ultrassecreto**, só as autoridades do topo (Presidente e Vice-Presidente da República, Ministros de Estado, Comandantes das Forças Armadas e chefes de missões diplomáticas e consulares permanentes); o **secreto**, também os **titulares de autarquias**, fundações, empresas públicas e sociedades de economia mista; o **reservado**, também quem exerce direção, comando ou chefia (DAS 101.5 ou superior, ou hierarquia equivalente). No CAU, classifica a **Presidência** do CAU/UF ou do CAU/BR, só em reservado ou secreto, sem poder delegar a classificação como secreto (Res. CAU/BR nº 228/2022, art. 15).
+
 Regras que acompanham os graus:
 
 - em vez do prazo, pode-se fixar um **evento** como termo final, desde que ocorra antes do prazo máximo (§ 3º);
@@ -178,11 +180,11 @@ Terceiros só têm acesso com **previsão legal** ou **consentimento expresso** 
 E a restrição **não pode ser usada para atrapalhar** a apuração de irregularidades em que o titular esteja envolvido (§ 4º).
 
 > [!WARNING]
-> "Sigilo de 100 anos" é expressão de jornal. Na lei, os 100 anos são o **prazo máximo da restrição da informação pessoal**, que **não é classificada** em grau nenhum. Item que diga "a informação pessoal é classificada como ultrassecreta" está errado.
+> "Sigilo de 100 anos" é expressão de jornal. Na lei, os 100 anos são o **prazo máximo da restrição da informação pessoal**, que **não é classificada** em grau nenhum.
 
 ## Responsabilidades
 
-São condutas ilícitas do agente público, entre outras (art. 32): **recusar** a informação, **retardar deliberadamente** o fornecimento ou fornecê-la de forma incorreta ou incompleta, e **impor sigilo** para proveito pessoal ou para esconder ato ilegal.
+São condutas ilícitas do agente público, entre outras (art. 32): **recusar** a informação, **retardar deliberadamente** o fornecimento ou fornecê-la **intencionalmente** de forma incorreta, incompleta ou imprecisa, e **impor sigilo** para proveito pessoal ou para esconder ato ilegal.
 
 Para o servidor regido pela Lei nº 8.112/1990, essas condutas são infrações apenadas, **no mínimo, com suspensão** (art. 32, § 1º, II), e podem configurar também **improbidade administrativa** (§ 2º).
 
@@ -212,7 +214,7 @@ Aqui convém separar o que está na norma do que é leitura nossa.
 - a **Resolução CAU/BR nº 228/2022** é a norma própria do CAU/BR e dos CAU dos Estados:
   - um **SIC** em cada conselho (art. 3º) e motivação proibida "em nenhuma hipótese" (art. 7º);
   - resposta em **20 dias corridos**, prorrogáveis por **até 10** (art. 9º);
-  - **três instâncias** de recurso, de 10 dias cada: Presidência do conselho (decide em 5 dias), Plenário do CAU/UF e Plenário do CAU/BR, que decide em definitivo (arts. 11 a 13);
+  - **três instâncias** de recurso, de 10 dias cada: 1ª, a **Presidência** do conselho (decide em 5 dias); 2ª, o Plenário do CAU/UF; 3ª, o Plenário do CAU/BR, que decide em definitivo (arts. 11 a 13). A Presidência faz o papel da autoridade superior do art. 15 da LAI;
   - **só dois graus** de sigilo, **reservado (5 anos)** e **secreto (15 anos)**, improrrogáveis (arts. 14 e 15).
 
 **Leitura nossa:** responda pela norma citada no comando (a LAI ou o Decreto nº 7.724/2012). A resolução mostra a lei no seu futuro local de trabalho; não troque as regras da lei pelas dela.
@@ -226,7 +228,7 @@ Muita gente deixa item de lei em branco por insegurança. Em branco vale zero; c
 3. **Confira números e prazos.** 20 + 10; recurso em 10, decisão em 5; 25-15-5; 100 anos. Um número trocado é um desvio comum.
 4. **Marque as palavras absolutas:** "sempre", "nunca", "apenas", "somente", "totalmente", "em qualquer caso". Pergunte: a lei tem exceção aqui? Se tem, o item costuma estar errado.
 5. **Compare o verbo:** "pode" × "deve". O órgão **deve** dar acesso imediato ao que está disponível; o prazo **pode** ser prorrogado; a reprodução **pode** ser cobrada; a autoridade do recurso **deve** decidir em 5 dias.
-6. **Procure palavra acrescentada:** "identificação, especificação **e motivo**"; "**apenas** pessoas físicas"; "**por escrito ou verbal**". Uma palavra a mais muda o item.
+6. **Procure palavra acrescentada:** "20 dias **úteis**"; "**apenas** pessoas físicas"; "**por escrito ou verbal**". Uma palavra a mais muda o item.
 7. **Decida.** Se o item bate com a regra que você conhece, marque C; se encontrou um desvio claro, marque E. Só deixe em branco se não reconheceu o assunto.
 
 ## Pegadinhas da Quadrix
@@ -235,10 +237,10 @@ Para treinar, decida antes de ler a resposta.
 
 | Afirmação | Certo ou errado? | Por quê |
 |---|---|---|
-| O pedido de acesso deve conter a identificação do requerente, a especificação da informação e os motivos da solicitação. | Errado | É **vedado** exigir motivos (art. 10, § 3º). |
-| O acesso à informação é totalmente gratuito, mesmo quando exige reprodução de documentos. | Errado | A reprodução pode ser cobrada (art. 12, § 1º). |
-| As respostas às perguntas frequentes da sociedade só são fornecidas mediante pedido. | Errado | Estão no mínimo da divulgação **independentemente de requerimento** (art. 8º, § 1º, VI). |
-| A informação pessoal é classificada no grau ultrassecreto e fica restrita por 100 anos. | Errado | É restrita **independentemente de classificação** (art. 31, § 1º, I). |
+| Não sendo possível o acesso imediato, o órgão tem até 30 dias para responder ao pedido. | Errado | São **até 20 dias** (art. 11, § 1º), prorrogáveis por mais 10 (§ 2º). |
+| A LAI prevê quatro graus de sigilo: ultrassecreto, secreto, confidencial e reservado. | Errado | São só **três** graus; não existe "confidencial" (art. 24). |
+| As entidades privadas sem fins lucrativos que recebem recursos públicos devem dar publicidade a todas as suas informações. | Errado | Só à **parcela dos recursos públicos** recebidos e à sua destinação (art. 2º, parágrafo único). |
+| Os Municípios de até 10.000 habitantes estão dispensados de divulgar a execução orçamentária e financeira. | Errado | Ficam dispensados só da divulgação obrigatória **na internet**; a da execução orçamentária e financeira, em tempo real, continua (art. 8º, § 4º). |
 
 ## Fontes
 

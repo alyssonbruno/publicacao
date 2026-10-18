@@ -28,7 +28,7 @@
 ## O que mais confunde
 
 > [!CAUTION]
-> - "Deve indicar os motivos" → **errado**. "Totalmente gratuito" → **errado**.
+> - Motivo **não** entra no pedido. A busca é gratuita; só a **reprodução** pode ser cobrada.
 > - Informação pessoal **não é grau** de sigilo. Não existe grau "confidencial".
 > - Prorrogação de 10 dias **não é automática**.
 

@@ -10,7 +10,7 @@ O edital junta três assuntos que parecem distantes, mas têm um fio comum: **co
 
 Um artigo da *Revista do Serviço Público*, de 1967, já separava assim: **relações humanas** cuidam da integração **interna** (o ajuste do funcionário, o moral dos grupos); **relações públicas**, da integração **externa** da instituição.
 
-Nos itens da Quadrix sobre o tema, os pontos que mais aparecem são a experiência de Hawthorne, a teoria dos dois fatores de Herzberg, a diferença entre grupo e equipe e o conceito de relações públicas.
+Nos itens da Quadrix que lemos sobre o tema, apareceram, entre outros, a experiência de Hawthorne, a teoria dos dois fatores de Herzberg, a diferença entre grupo e equipe e um dos papéis do profissional de relações públicas. É uma amostra pequena, não uma contagem: leitura nossa.
 
 > [!TIP]
 > Este tópico é de doutrina, com pouca lei. Em quase todo item, a pergunta é a mesma: **a característica foi atribuída à teoria, ao autor ou ao conceito certo?**
@@ -39,7 +39,7 @@ No lugar do homem econômico, entra o **homem social**: alguém com sentimentos,
 
 ## A experiência de Hawthorne, fase a fase
 
-Hawthorne é o bairro de Chicago onde ficava uma fábrica de equipamentos telefônicos da Western Electric. A pergunta inicial era bem "clássica": **a iluminação do local afeta a produtividade dos operários?**
+Hawthorne era o nome de uma fábrica de equipamentos telefônicos da Western Electric em Cicero, Illinois, cidade vizinha de Chicago. A pergunta inicial era bem "clássica": **a iluminação do local afeta a produtividade dos operários?**
 
 As datas variam conforme a fonte. Na versão das apostilas (a de Chiavenato), os testes de iluminação começaram em **1924**, e a experiência na fábrica, coordenada por **Elton Mayo**, foi de **1927 a 1932**. Outra fonte (OpenStax) diz que Mayo só entrou nos estudos em 1927. Para a prova, guarde Mayo e 1927 a 1932.
 
@@ -186,7 +186,7 @@ A **Resolução Normativa Conferp nº 136/2026** (DOU de 20/5/2026) atualizou o 
 
 ## Os papéis do profissional de relações públicas
 
-Um item da Quadrix cobrou os **quatro papéis** descritos por Broom e Dozier, que lemos num livro aberto em inglês (ver Fontes):
+Um item da Quadrix cobrou um destes papéis, o de **prescritor especialista**. Os **quatro papéis** são os descritos por Broom e Dozier, que lemos num livro aberto em inglês (ver Fontes):
 
 | Papel | O que faz |
 |---|---|

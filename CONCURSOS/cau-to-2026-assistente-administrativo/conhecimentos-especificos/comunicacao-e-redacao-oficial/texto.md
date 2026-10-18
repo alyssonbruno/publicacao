@@ -106,8 +106,8 @@ A segunda é **objetiva** (começa pelo pedido, sem voltas), **concisa** (menos 
 
 Aqui há três camadas, e a ordem importa.
 
-1. **Manual de 2002 (2ª edição)**: tabela longa, com formas como Vossa Magnificência e Vossa Eminência, que a 3ª edição eliminou. Itens antigos de banca ainda usam essa tabela: não estude por ela.
-2. **Manual de 2018 (3ª edição)**: quadro curto e só exemplificativo, com **Vossa Excelência** para altas autoridades e **Vossa Senhoria** em outros casos; **Digníssimo** e **Ilustríssimo** estão abolidos.
+1. **Manual de 2002 (2ª edição)**: tabela longa, com formas como Vossa Magnificência (reitores) e Vossa Eminência (cardeais). Itens antigos de banca ainda usam essa tabela: não estude por ela.
+2. **Manual de 2018 (3ª edição)**: quadro curto, com **Vossa Excelência** para altas autoridades e **Vossa Senhoria** em outros casos; **Digníssimo** e **Ilustríssimo** estão abolidos (item 4.4). As outras formas da tabela antiga só não constam do quadro, que o próprio Manual chama de "meramente exemplificativo": ele não as eliminou.
 3. **Decreto nº 9.758/2019**, em vigor desde 1º de maio de 2019: na comunicação, oral ou escrita, com agentes públicos da **administração pública federal direta e indireta**, o **único pronome é "senhor"** (e "senhora", "senhores"), qualquer que seja o cargo, até o Presidente da República (arts. 1º e 2º).
 
 O decreto **proíbe** expressamente, mesmo abreviadas: Vossa Excelência ou Excelentíssimo, Vossa Senhoria, Vossa Magnificência, doutor, ilustre ou ilustríssimo, digno ou digníssimo e respeitável (art. 3º). E ainda:
@@ -120,6 +120,16 @@ O decreto **proíbe** expressamente, mesmo abreviadas: Vossa Excelência ou Exce
 > O decreto não vale só para a comunicação interna de um órgão: vale para a comunicação, oral ou escrita, **com** qualquer agente público federal. Ele não mexe nos fechos nem no padrão ofício, que continuam os do Manual.
 
 Do Manual, continua valendo a gramática dos pronomes (item 4.1.1): eles levam o verbo e o possessivo para a **3ª pessoa** ("Vossa Senhoria designará **seu** substituto"), e o adjetivo concorda com o sexo da pessoa ("Vossa Excelência está atarefada", se for mulher). **Vossa** é para falar **com** a autoridade; **Sua**, para falar **dela**.
+
+## O vocativo
+
+O vocativo é a invocação ao destinatário, no início do texto, sempre seguido de vírgula. Pelo Manual (item 4.4):
+
+- **Excelentíssimo Senhor** (ou Excelentíssima Senhora) + cargo: só para os **chefes de Poder** (Presidente da República, do Congresso Nacional e do Supremo Tribunal Federal);
+- **Senhor** ou **Senhora** + cargo: para as **demais autoridades**, mesmo as tratadas por Vossa Excelência ("Senhora Ministra,");
+- **particular**: Senhor ou Senhora + o nome ou a forma com que a instituição o trata ("Senhor Contribuinte,"), ou ainda **Prezado Senhor** ou Prezada Senhora.
+
+**Exemplo** (nosso, fictício). Ofício ao secretário estadual de Administração: "Senhor Secretário,". Resposta a uma arquiteta que pediu uma certidão: "Prezada Senhora,". "Excelentíssimo Senhor Ministro," está errado mesmo para o Manual: ministro não é chefe de Poder. E, com agente público federal, o decreto veda "Excelentíssimo" (art. 3º).
 
 ## O decreto vale para o CAU/TO?
 
@@ -209,7 +219,7 @@ O glossário da UFABC resume: o atestado é uma declaração; a certidão é uma
 > 1. **Leia o comando.** "Segundo o Manual" e "segundo o Decreto nº 9.758/2019" levam a respostas diferentes em pronomes.
 > 2. **Ache a palavra-chave da definição** e veja se o nome bate com ela: "direto ao assunto" é objetividade; "mínimo de palavras", concisão; "registrado nos livros", certidão; "decisões da reunião", ata.
 > 3. **Confira o par**: superior → Respeitosamente; mesmo nível, inferior ou cidadão → Atenciosamente. Interna/externa é com quem; formal/informal é por onde.
-> 4. **Desconfie dos absolutos** ("sempre", "somente", "rigorosamente") e das tabelas antigas (memorando, Vossa Magnificência).
+> 4. **Desconfie dos absolutos** ("sempre", "somente", "rigorosamente") e das regras antigas (memorando como tipo próprio). E não foi o Manual que eliminou Vossa Magnificência: quem a veda, com agentes federais, é o decreto (art. 3º).
 > 5. **Confira cada pedaço da frase**: um detalhe trocado basta para o item estar errado. Se tudo bate com a regra, marque C: não deixe em branco o que você sabe resolver.
 
 ## Fontes
@@ -223,6 +233,7 @@ O glossário da UFABC resume: o atestado é uma declaração; a certidão é uma
 - Paulo Alvarenga. *Comunicação organizacional para concursos – Guia Definitivo* (Estratégia Concursos, 2021): elementos do processo, formal × informal, interna × externa, fluxos e barreiras. https://www.estrategiaconcursos.com.br/blog/comunicacao-organizacional/
 - Margarida M. K. Kunsch. Verbete "Comunicação integrada", em *Dicionário de Comunicação Organizacional* (UFSM). https://www.eca.usp.br/acervo/producao-academica/002918773.pdf
 - Silva, Araújo e Souza Júnior. *Sistemas de Comunicação e Participação nas Organizações* (SEGeT, 2007), seções 2.2 a 3.4: barreiras (filtragem, percepção seletiva, sobrecarga). https://www.aedb.br/seget/arquivos/artigos07/429_Seget%202007%20[2].pdf
+- Instituto Quadrix. *Prova objetiva do CRESS-MG 2024, Assistente Administrativo*, questão 56: a definição de objetividade com a concisão entre as alternativas (consultada só como referência de estilo). https://arquivos.qconcursos.com/prova/arquivo_prova/105503/quadrix-2024-cress-mg-assistente-administrativo-prova.pdf
 - Comissão Mista de Reavaliação de Informações. *Súmula CMRI nº 7/2015* (conselhos profissionais). https://www.gov.br/casacivil/pt-br/assuntos/colegiados/comissao-mista-de-reavaliacao-de-informacoes-cmri/normativos-vigentes-1/sumula-cmri-no-7-de-2015.pdf
 
-Vêm do Manual e do decreto, conferidos no texto: a definição de redação oficial, os atributos e suas definições, a gramática dos pronomes, o padrão ofício, os fechos, as variações do ofício, as regras do e-mail e todas as regras do Decreto nº 9.758/2019. A tabela de atributos, com as "perguntas para testar", é arranjo nosso; as definições nela são do Manual. Os tipos de documentos seguem a UFV e a UFABC, reescritos; "Atesto que..." é marca nossa, por analogia com o "Declaro" da UFV. A comunicação organizacional segue o guia do Estratégia e o verbete de Kunsch; os exemplos de fluxos, o e-mail da planilha, as duas versões do pedido de impressoras e o ofício do esqueleto são nossos, com dados fictícios. Que o decreto alcance ou não o CAU/TO é questão sem fonte aberta: o texto diz que é leitura nossa. A incidência na prova de 2023 vem do caderno do cargo, contado à mão (sem o gabarito).
+Vêm do Manual e do decreto, conferidos no texto: a definição de redação oficial, os atributos e suas definições, a gramática dos pronomes, o padrão ofício, os fechos, as variações do ofício, as regras do e-mail e todas as regras do Decreto nº 9.758/2019. A tabela de atributos, com as "perguntas para testar", é arranjo nosso; as definições nela são do Manual. Os tipos de documentos seguem a UFV e a UFABC, reescritos; "Atesto que..." é marca nossa, por analogia com o "Declaro" da UFV. A comunicação organizacional segue o guia do Estratégia e o verbete de Kunsch; os exemplos de fluxos, o e-mail da planilha, as duas versões do pedido de impressoras e o ofício do esqueleto são nossos, com dados fictícios. Que o decreto alcance ou não o CAU/TO é questão sem fonte aberta: o texto diz que é leitura nossa. A incidência na prova de 2023 vem do caderno do cargo, contado à mão (sem o gabarito). O destaque sobre a troca de objetividade por concisão vem da questão 56 do CRESS-MG 2024.

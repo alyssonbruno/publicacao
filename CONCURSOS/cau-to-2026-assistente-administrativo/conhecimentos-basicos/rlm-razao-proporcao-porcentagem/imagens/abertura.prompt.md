@@ -8,7 +8,7 @@ Proporção: 21:9
 ```text
 Um homem de uns trinta anos, de pele parda, cabelo curto e barba rala, de camisa social clara,
 sentado a uma mesa de escritório. Sobre a mesa, três pilhas de pastas de alturas diferentes, da
-mais baixa à mais alta, lado a lado, e uma calculadora simples. Ele segura uma folha com uma das
-mãos e aponta com a outra para a pilha mais alta, com expressão concentrada e tranquila. Fundo
-limpo, com bastante espaço livre dos lados.
+mais baixa à mais alta, lado a lado, e um bloco de papel com um lápis e contas feitas à mão. Ele segura uma folha
+com uma das mãos e aponta com a outra para a pilha mais alta, com expressão concentrada e
+tranquila. Fundo limpo, com bastante espaço livre dos lados.
 ```

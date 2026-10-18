@@ -133,7 +133,7 @@ Nas **datas**, separa-se o nome do lugar: *Palmas, 4 de novembro de 2026.*
 
 ## Ponto e vírgula
 
-O Manual da Presidência e o manual do Senado apontam três usos para o ponto e vírgula:
+Juntos, os dois manuais (o da Presidência e o do Senado) apontam três usos para o ponto e vírgula:
 
 1. **separar orações** coordenadas que já têm vírgulas dentro: *Na sede, o atendimento é presencial; no interior, por agendamento.*
 2. **dar ênfase**, no lugar da vírgula: *O prazo é curto; a equipe, contudo, vai cumpri-lo.*
@@ -144,12 +144,13 @@ O Manual da Presidência e o manual do Senado apontam três usos para o ponto e 
 
 ## Dois-pontos
 
-Os dois-pontos **anunciam** algo. O Manual da Presidência cita estes casos:
+Os dois-pontos **anunciam** algo. O Manual da Presidência cita estes casos (a enumeração aparece nos exemplos e na regra do artigo de lei com incisos, que termina em dois-pontos):
 
 - **citação** ou fala (também no diálogo): *A conselheira afirmou: "O prazo será mantido".*
 - **esclarecimento**: *O sistema tem um defeito: não salva o rascunho.*
 - **resumo**: *Taxa, certidão, comprovante: tudo deve vir em PDF.*
 - **consequência**: *Faltou o diploma: o pedido voltou para correção.*
+- **enumeração**: *O pedido deve vir com três documentos: diploma, RG e comprovante de endereço.*
 
 No item de reescrita, os dois-pontos costumam trocar de lugar com a vírgula, o ponto ou o travessão. A pergunta é: **o que vem depois explica ou resume o que veio antes?** Se sim, os dois-pontos cabem.
 
@@ -210,8 +211,8 @@ No exemplo, o sujeito é a oração *Quem perdeu o prazo de inscrição*, e o ve
 
 ## Fontes
 
-- Presidência da República, *Manual de Redação da Presidência da República*, 3ª ed. (2018), seção 11.9, "Pontuação" (p. 77 a 80: finalidades, vírgula, ponto e vírgula, dois-pontos, interrogação e exclamação), e seção 10, itens 10.1 (aspas), 10.4 (parênteses) e 10.5 (travessão), p. 53 a 56. Cópia hospedada pelo ICMBio: https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf
-- Senado Federal, Manual de Comunicação da Secom, verbetes "Vírgula", "Adjunto adverbial deslocado", "Vírgula antes da conjunção e", "Travessão" e "Aspas": https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula, https://www12.senado.leg.br/manualdecomunicacao/estilos/adjunto-adverbial-deslocado, https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula-antes-da-conjuncao-e, https://www12.senado.leg.br/manualdecomunicacao/estilos/travessao e https://www12.senado.leg.br/manualdecomunicacao/estilos/aspas
+- Presidência da República, *Manual de Redação da Presidência da República*, 3ª ed. (2018), seção 11.9, "Pontuação" (p. 77 a 80: finalidades, vírgula, ponto e vírgula, dois-pontos, interrogação e exclamação), seção 10, itens 10.1 (aspas), 10.4 (parênteses) e 10.5 (travessão), p. 53 a 56, e seção 16.2.1, "Artigo" (artigo com incisos termina em dois-pontos), p. 124 e 125. Cópia hospedada pelo ICMBio: https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/16325/Manual-de-redacao%20oficial%20_3%C2%AA%20EDI%C3%87%C3%83O%202018.pdf
+- Senado Federal, Manual de Comunicação da Secom, verbetes "Vírgula", "Adjunto adverbial deslocado", "Vírgula antes da conjunção e", "Ponto e vírgula", "Travessão" e "Aspas": https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula, https://www12.senado.leg.br/manualdecomunicacao/estilos/adjunto-adverbial-deslocado, https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula-antes-da-conjuncao-e, https://www12.senado.leg.br/manualdecomunicacao/estilos/ponto-e-virgula, https://www12.senado.leg.br/manualdecomunicacao/estilos/travessao e https://www12.senado.leg.br/manualdecomunicacao/estilos/aspas
 - Superior Tribunal de Justiça, *Manual de Padronização de Textos do STJ*, 2ª ed. (2016), verbete "pontuação" (vírgula antes de "e" com sujeitos diferentes): https://scon.stj.jus.br/docs_intranet/comunicacao/interna/Manual_atualizado.pdf
 - Tribunal de Justiça de Minas Gerais, *Gotas da Língua Portuguesa* nº 243, "Orações subordinadas adjetivas (explicativas e restritivas)": https://bd-login.tjmg.jus.br/jspui/bitstream/tjmg/13774/1/243%20Ora%c3%a7%c3%b5es%20subordinadas%20adjetivas%20%28explicativas%20e%20restritivas%29.pdf
 - Dad Squarisi (Blog da Dad, *Correio Braziliense*), "Casos de vírgula", 23/8/2009: https://blogs.correiobraziliense.com.br/dad/casos_de_virgula/

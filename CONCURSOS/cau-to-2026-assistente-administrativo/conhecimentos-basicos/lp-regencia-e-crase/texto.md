@@ -67,7 +67,7 @@ Substantivos, adjetivos e advérbios também pedem complemento com preposição.
 
 Alguns nomes que caem com frequência, com a preposição (lista do Só Português):
 
-- **com *a***: acessível, contrário, equivalente, favorável, necessário, nocivo, preferível, prejudicial, referente, relativo, semelhante;
+- **com *a***: acessível, contrário, equivalente, favorável, necessário, nocivo, preferível, prejudicial, relativo, semelhante;
 - **com *de***: capaz, fácil, passível, suspeito; e os advérbios *longe* e *perto*;
 - **com *com***: compatível, satisfeito, descontente, relacionado;
 - **com *em***: hábil, entendido, sito;
@@ -136,7 +136,7 @@ O podcast do professor Pasquale indicado nesta aula mostra o porquê com um item
 
 Antes de **hora exata**, há crase, porque *horas* é feminina e leva artigo: *A reunião começa **às** 14h*; *O plantão termina **à** uma hora* (é a hora, e não o artigo indefinido). Hora indeterminada não leva: *O resultado sai daqui **a** uma hora*.
 
-No intervalo, a regra é a do par: ***das*** 8h ***às*** 12h (artigo nas duas pontas) ou ***de*** 8h ***a*** 12h (artigo em nenhuma). Misturar, como *de 8h às 12h*, foge da norma-padrão.
+No intervalo, a forma segura é ***das*** 8h ***às*** 12h, com artigo nas duas pontas (*de* + *as*, *a* + *as*). Misturar, como *de 8h às 12h*, foge da norma-padrão.
 
 As **locuções** formadas com palavra feminina levam acento: *às vezes, às pressas, à noite, à beira de, à custa de, à espera de, à medida que*. Também há crase quando *à moda de* está subentendida: *Pediu um bife **à** milanesa*.
 
@@ -155,6 +155,7 @@ Duas palavras femininas têm comportamento especial:
 Alguns casos não têm resposta única nos manuais e nas gramáticas consultados. Saiba que existem, mas não aposte neles:
 
 - ***até as*** **ou *até às*** **com horas**: o Senado escreve *até as 18h*; outras fontes aceitam as duas formas;
+- ***de*** **8h *a* 12h**, sem artigo nas duas pontas: o Senado manda não usar (o artigo antes de horas é obrigatório); o TJSP aceita construções sem crase, como *de 8h as 10h*. Fique com *das… às*;
 - ***à vista*** e ***a distância***: há manual que acentua sempre e manual que só acentua a distância determinada (*à distância de 50 metros*); este último caso é o seguro;
 - **nomes de países** como *França* e *Espanha*: há quem dê o acento como facultativo; pelo teste do *venho da*, ele é obrigatório;
 - ***na medida em que***: o Manual da Presidência e o Senado a dão como **causa** (= *tendo em vista que*); outras fontes registram também proporção. Não confunda com *à medida que*, que é sempre proporção.
@@ -202,7 +203,7 @@ Para os itens do tipo *"a supressão do acento grave mantém a correção"*:
 - Presidência da República, *Manual de Redação da Presidência da República*, 3ª ed. (2018), item 11.8, "Regência", e 11.8.1, "Regência de alguns verbos de uso frequente" (p. 73 a 78), e verbete "à medida que/na medida em que" (p. 95). Cópia hospedada pela UFGD: https://files.ufgd.edu.br/arquivos/arquivos/78/PROTOCOLO/Normas%20Internas/Manual%20de%20Reda%C3%A7%C3%A3o%20da%20Presid%C3%AAncia%20da%20Rep%C3%BAblica%20-%203%C2%AA%20edi%C3%A7%C3%A3o,%20revista,%20atualizada%20e%20ampliada.pdf
 - Senado Federal, Manual de Comunicação da Secom, verbetes "Crase", "Hora", "Visar", "Implicar", "Assistir", "À medida que/na medida em que" e as listas de locuções com e sem crase: https://www12.senado.leg.br/manualdecomunicacao/estilos/crase
 - Superior Tribunal de Justiça (NEAD), EaDicas de Português: Dica 3 ("Crase sem crise!"), Dica 2 ("Obedeço à regência, sim!"), Dica 27 ("Fique de olho!"), Dica 4 da 2ª série (chegar a, implicar) e Dica 2 da 3ª série (crase antes de sigla e de numeral): https://ead.stj.jus.br/pluginfile.php/105436/mod_resource/content/11/assets/files/1dica-3.pdf
-- Tribunal de Justiça de São Paulo, Escola Judicial dos Servidores, *Dicas Práticas de Língua Portuguesa*, seção 3.4, "Crase" (p. 27 a 33): https://www.tjsp.jus.br/Download/EJUS/AVAS/DicasLinguaPortuguesa/DicasLinguaPortuguesa.pdf
+- Tribunal de Justiça de São Paulo, Escola Judicial dos Servidores, *Dicas Práticas de Língua Portuguesa*, seções 2.5, "Hora" (p. 10 e 11), e 3.4, "Crase" (p. 27 a 33): https://www.tjsp.jus.br/Download/EJUS/AVAS/DicasLinguaPortuguesa/DicasLinguaPortuguesa.pdf
 - Tribunal de Justiça de Minas Gerais, *250 Gotas da Língua Portuguesa* (2024), gotas 15 a 20 (crase, p. 27 a 33), 58, 161, 162, 207 e 215 (regência): https://bd.tjmg.jus.br/bitstreams/637d5a29-0386-4835-be19-87b5aeb38ee1/download
 - Só Português (Virtuous), "Regência verbal" e páginas seguintes, até "Regência nominal" (lista de nomes): https://www.soportugues.com.br/secoes/sint/sint61.php e https://www.soportugues.com.br/secoes/sint/sint71.php
 - Só Português (Virtuous), "Crase" e páginas seguintes: https://www.soportugues.com.br/secoes/sint/sint76.php

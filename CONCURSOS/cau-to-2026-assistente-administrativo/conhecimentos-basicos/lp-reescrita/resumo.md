@@ -3,7 +3,7 @@
 ## O essencial
 
 > [!IMPORTANT]
-> Leia o comando antes da frase. **Só correção** ("ainda que altere o sentido"): basta a gramática estar certa. **Correção e sentido**: as duas coisas; basta uma falhar. **Só sentido** (ou coerência): a ideia mudou?
+> Leia o comando antes da frase. **Só correção** ("ainda que altere o sentido"): basta a gramática estar certa. **Correção e sentido**: as duas coisas; basta uma falhar. **Correção e coerência**: gramática certa e texto sem contradição; o sentido pode mudar. **Só sentido**: a ideia mudou? Sentido não é coerência.
 
 **Roteiro:** variante do comando → monte o período inteiro com a troca → teste a gramática (concordância, regência, crase, vírgula) → teste a ideia (conector, tempo do verbo, lugar das palavras, quem faz o quê) → decida pelo comando.
 
@@ -35,6 +35,6 @@ Paralelismo: ideias do mesmo tipo na mesma forma (dois substantivos ou duas ora�
 > [!TIP]
 > Faça a revisão do dia sem abrir o texto da aula primeiro: tente lembrar, e só depois confira.
 
-- **24 horas**: diga de cor as três variantes do comando e o roteiro. Refaça os itens que errou no treino.
+- **24 horas**: diga de cor as quatro variantes do comando e o roteiro. Refaça os itens que errou no treino.
 - **7 dias**: escreva uma frase sua e reescreva-a de quatro jeitos (ordem, voz passiva, substantivo, sinônimo); diga quais mantêm o sentido.
 - **30 dias**: escreva o mesmo aviso para o grupo de colegas e para um e-mail oficial, e aponte o que mudou de um para o outro.

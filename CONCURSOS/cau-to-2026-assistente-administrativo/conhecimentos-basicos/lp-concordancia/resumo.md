@@ -10,6 +10,7 @@
 - **Sujeito composto**: antes do verbo, plural; depois, plural ou o núcleo mais próximo.
 - **"Que"** relativo: o verbo concorda com o antecedente (*os documentos que **faltavam***).
 - *A maioria dos inscritos* **compareceu** ou **compareceram**; *mais de um* pede singular.
+- **Sujeito oracional** (*não basta conferir os boletos*, *é preciso que…*): verbo no singular.
 
 ## Os três pontos que a Quadrix mais usa
 
@@ -27,7 +28,8 @@
 
 - Adjetivo **depois** de dois substantivos: o mais próximo ou plural (masculino se os gêneros diferem).
 - **Anexo**, **mesmo**, **obrigado** concordam; **em anexo** e **menos** não variam.
-- **Meio** e **bastante**: troque por *muito*. "Muitos" = varia; "muito" = não varia.
+- **Bastante**: troque por *muito*. "Muitos" = varia; "muito" = não varia.
+- **Meio**: varia quando é metade (*meia hora*); não varia quando é "um pouco" (*meio vazia*).
 - **É proibido entrada** × **É proibida a entrada**: com artigo, concorda.
 
 ## O que rever

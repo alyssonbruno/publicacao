@@ -32,7 +32,7 @@
 - Aplicar o decreto ao CAU/TO é discutível (leitura nossa): **siga o comando do item**.
 
 > [!CAUTION]
-> Tabela de 2002 (Vossa Magnificência etc.) não vale mais. Objetividade com o nome de concisão é a troca preferida da banca.
+> Não estude pela tabela de 2002. O Manual não eliminou Vossa Magnificência e as outras formas (seu quadro é só exemplificativo); quem as veda, com agentes federais, é o decreto. Objetividade com o nome de concisão é a troca preferida da banca.
 
 ## Tipos de documentos
 

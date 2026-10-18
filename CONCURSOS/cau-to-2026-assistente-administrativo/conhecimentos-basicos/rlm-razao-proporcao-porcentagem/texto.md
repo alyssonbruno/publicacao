@@ -1,6 +1,6 @@
 # Razão, proporção, porcentagem e regra de três
 
-![Um servidor diante de uma mesa com pilhas de processos de alturas diferentes, conferindo uma folha com uma calculadora ao lado](imagens/abertura.webp)
+![Um servidor diante de uma mesa com pilhas de processos de alturas diferentes, conferindo uma folha, com papel e lápis ao lado para as contas à mão](imagens/abertura.webp)
 
 > Edital (Conhecimentos Básicos, Matemática, item 1.2, p. 28): "Razão, proporção, porcentagem e regra de três (simples e composta)."
 

@@ -3,7 +3,7 @@
 ## Relações humanas e Hawthorne
 
 > [!IMPORTANT]
-> **Hawthorne** (Western Electric, Chicago; Elton Mayo, 1927 a 1932): a produção depende do **grupo e das normas sociais**, e não da iluminação nem só do salário.
+> **Hawthorne** (Western Electric, Cicero, vizinha de Chicago; Elton Mayo, 1927 a 1932): a produção depende do **grupo e das normas sociais**, e não da iluminação nem só do salário.
 
 - Clássica: homem **econômico**, organização formal. Relações humanas: homem **social**, grupos e organização **informal**.
 - Fases: **iluminação** (fator psicológico > fisiológico) → **sala de relés** (12 períodos; clima e supervisão branda) → **entrevistas** (organização informal) → **sala de terminais** (o grupo fixa o ritmo).

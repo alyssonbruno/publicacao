@@ -31,7 +31,7 @@ As duas estão corretas: pôr ou tirar as vírgulas **muda o sentido**, não a c
 ## Os outros sinais
 
 - **Ponto e vírgula**: orações com vírgulas dentro; ênfase; itens de lista.
-- **Dois-pontos**: citação, esclarecimento, resumo, consequência.
+- **Dois-pontos**: citação, esclarecimento, resumo, consequência, enumeração.
 - **Travessão**: no lugar de vírgulas, parênteses ou dois-pontos. **Parênteses**: datas, siglas, comentários.
 - **Aspas**: citação, termo técnico, sentido especial; numa palavra isolada, podem ser **ironia**.
 - Pergunta **indireta** não leva "?". **Reticências**: hesitação ou interrupção.

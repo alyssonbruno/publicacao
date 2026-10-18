@@ -55,7 +55,7 @@ Sujeito composto tem **dois ou mais núcleos**: *o presidente e a tesoureira*.
 - **Antes do verbo**: o verbo vai ao **plural**. *O presidente e a tesoureira **assinaram** a ata.*
 - **Depois do verbo**: o verbo vai ao **plural** ou concorda com o **núcleo mais próximo**. ***Assinaram** a ata o presidente e a tesoureira* ou ***Assinou** a ata o presidente e a tesoureira.*
 
-As duas regras estão no Manual da Presidência (item 11.7.1, b) e no Manual de Comunicação do Senado. O Senado acrescenta os núcleos ligados por *nem*: plural quando a ação vale para todos, singular quando só um pode praticá-la.
+As duas regras estão no Manual da Presidência (item 11.7.1: o plural, no caput; o "mais próximo", na alínea b) e no Manual de Comunicação do Senado. O Senado acrescenta os núcleos ligados por *nem*: plural quando a ação vale para todos, singular quando só um pode praticá-la.
 
 > [!WARNING]
 > A opção do "mais próximo" só existe com o sujeito composto **depois** do verbo. Antes do verbo, o plural é obrigatório.
@@ -83,6 +83,18 @@ Com **quem**, o Manual da Presidência e o Senado aceitam duas formas: o verbo n
 
 > [!NOTE]
 > Dois casos dividem as fontes desta aula. Em "um dos que" (*um dos servidores que…*), o Senado manda o plural e o Manual da Presidência aceita singular ou plural. Na **porcentagem** (*30% dos inscritos*), as regras do Senado e do TJMG não coincidem. Ao escrever, prefira o plural em "um dos que". Na prova, desconfie de item que dependa só disso.
+
+## Sujeito que é uma oração
+
+Às vezes o sujeito não é uma palavra, mas uma **oração** inteira, com verbo próprio. Aí o verbo principal fica na **3ª pessoa do singular**, mesmo que haja um plural dentro dessa oração.
+
+- *Não **basta** conferir os boletos.* (o que não basta? conferir os boletos)
+- ***É preciso** que os fiscais assinem a ata.* (o que é preciso? que os fiscais assinem a ata)
+
+O plural de "os boletos" e "os fiscais" pertence à oração que funciona como sujeito e não mexe no verbo principal. A Quadrix já cobrou esse caso pedindo para julgar a justificativa da flexão de *não basta* e *é preciso* (itens da banca reunidos no Estude Grátis).
+
+> [!TIP]
+> Troque a oração por *isso*: *Isso não basta.* *Isso é preciso.* Se a troca funciona, o sujeito é oracional e o verbo fica no singular.
 
 ## Verbos sem sujeito: "haver" e "fazer"
 
@@ -233,4 +245,5 @@ O item diz: "a forma verbal 'houve' poderia ser substituída por 'houveram', sem
 - Moema Monteiro Coelho Póvoas (STJ), "EaDicas de Português, Dica 7 — Dúvidas frequentes" (obrigado, meio): https://ead.stj.jus.br/pluginfile.php/105436/mod_resource/content/11/assets/files/2dica-7.pdf
 - STJ, "EaDicas de Português, Dica 33 — O uso de bastante e de em que pese": https://ead.stj.jus.br/pluginfile.php/105436/mod_resource/content/11/assets/files/2dica-33.pdf
 - Só Português, "Concordância nominal (casos particulares)" (meio e menos) e "Silepse": https://www.soportugues.com.br/secoes/sint/sint60.php e https://www.soportugues.com.br/secoes/estil/estil8_2.php
+- Estude Grátis, "Questões de Língua Portuguesa — Concordância verbal e nominal, banca Instituto Quadrix" (itens de 2020 a 2025), só como referência do molde dos itens: https://www.estudegratis.com.br/questoes-de-concurso/materia/portugues/assunto/concordancia-verbal-concordancia-nominal/banca/quadrix
 - Instituto Quadrix, prova de Assistente Administrativo do CRMV-CE (2024) e gabarito definitivo, só como referência do molde dos itens: https://arquivos.qconcursos.com/prova/arquivo_prova/102916/quadrix-2024-crmv-ce-assistente-administrativo-prova.pdf
