@@ -37,7 +37,7 @@
 - Ciclo operacional × financeiro: o financeiro começa no **pagamento**, não na compra.
 - Caixa × competência: lucro não significa dinheiro em caixa.
 - Recrutamento × seleção; treinamento × desenvolvimento: a definição certa no conceito errado.
-- Conferência quantitativa × qualitativa; recebimento provisório × definitivo; tombamento × inventário.
+- Conferência quantitativa × qualitativa: a **quantitativa** olha o *quanto* (as unidades que chegaram, contra o documento); a **qualitativa** olha o *quê* (marca, modelo, medidas, conforme a especificação). Recebimento provisório × definitivo; tombamento × inventário.
 - Classe A da curva ABC: maior **valor**, não maior quantidade.
 
 ## O que rever

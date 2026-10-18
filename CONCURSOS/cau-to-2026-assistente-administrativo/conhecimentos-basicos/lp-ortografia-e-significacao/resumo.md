@@ -17,10 +17,11 @@
 > [!CAUTION]
 > Item com justificativa: a grafia ou a troca pode estar certa e o motivo, errado. Aí o item é errado.
 
-- **Homônimos** têm algo **igual**: homógrafos (grafia: colher), homófonos (som: sessão, cessão, seção), perfeitos (os dois: rio). **Parônimos** são só **parecidos**: ratificar (confirmar) e retificar (corrigir).
+- **Homônimos** têm algo **igual**: homógrafos (grafia: colher), homófonos (som: sessão, cessão, seção), perfeitos (os dois: rio). **Parônimos** são só **parecidos**: ratificar (confirmar) e retificar (corrigir). Para não trocar: re**t**ificar lembra "re**t**o", deixar certo.
 - deferir (atender) e diferir (adiar); iminente (prestes a ocorrer) e eminente (ilustre); infligir (aplicar) e infringir (violar); mandado (ordem) e mandato (representação); descriminar (inocentar) e discriminar (distinguir).
 - **vultoso** = volumoso (quantia vultosa); **vultuoso** = rosto inchado.
 - heroico (paroxítona, sem acento) e herói (oxítona, com acento).
+- **ter, vir e derivados**: o acento marca o número. Ele tem, vem, mantém, intervém (agudo nos derivados); eles têm, vêm, mantêm, intervêm (circunflexo).
 - viagem (substantivo) e viajem (verbo); exceção e excesso; analisar e fiscalizar.
 
 ## O que rever
