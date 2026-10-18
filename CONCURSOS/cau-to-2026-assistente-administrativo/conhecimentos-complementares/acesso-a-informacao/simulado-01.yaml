@@ -1,0 +1,75 @@
+# Treino de acesso à informação — CAU/TO 2026, Assistente Administrativo. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Transparência e acesso à informação (Lei nº 12.527/2011)
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no estilo de certo ou errado do Instituto Quadrix: itens de uma afirmação,
+      agrupáveis pelo comando "com base na Lei nº 12.527/2011", na letra da lei.'
+    - 'Referência de estilo (sem cópia de itens): o bloco de 5 itens sobre a Lei nº 12.527/2011 do
+      caderno de Assistente Administrativo do CAU/TO 2023 (Instituto Quadrix), descrito no perfil da
+      banca, e a lista de temas cobrados pela Quadrix nesta lei vista no Aprova Concursos, registrada na
+      curadoria do tópico.'
+    - 'Base dos itens: Lei nº 12.527/2011, texto compilado do Planalto, com o art. 12 na redação da Lei
+      nº 14.129/2021 e os arts. 8º-A e 8º-B incluídos pela Lei nº 15.141/2025, e Decreto nº 7.724/2012,
+      texto compilado do Planalto (consultados em 17/10/2026).'
+questoes:
+  - id: q01
+    topico: conhecimentos-complementares/acesso-a-informacao
+    enunciado: Conforme a Lei nº 12.527/2011, o pedido de acesso a informações de interesse público
+      deve conter a identificação do requerente, a especificação da informação requerida e a exposição
+      dos motivos que justificam a solicitação.
+  - id: q02
+    topico: conhecimentos-complementares/acesso-a-informacao
+    enunciado: De acordo com a Lei nº 12.527/2011, qualquer interessado poderá apresentar pedido de acesso
+      a informações por qualquer meio legítimo, e os órgãos e as entidades do poder público devem
+      viabilizar alternativa de encaminhamento desses pedidos por meio de seus sítios oficiais na internet.
+  - id: q03
+    topico: conhecimentos-complementares/acesso-a-informacao
+    enunciado: Segundo a Lei nº 12.527/2011, os conselhos de fiscalização profissional devem divulgar, de
+      forma nominal e individualizada, lista das parcelas remuneratórias e indenizatórias, ainda que
+      eventuais, que os empregados possam receber em virtude de condições específicas.
+  - id: q04
+    topico: conhecimentos-complementares/acesso-a-informacao
+    enunciado: Nos termos da Lei nº 12.527/2011, as respostas a perguntas mais frequentes da sociedade
+      somente são fornecidas pelos órgãos e pelas entidades públicas mediante pedido de acesso apresentado
+      pelo interessado.
+  - id: q05
+    topico: conhecimentos-complementares/acesso-a-informacao
+    enunciado: Conforme a Lei nº 12.527/2011, não sendo possível conceder o acesso imediato à informação,
+      o órgão deverá responder ao pedido em prazo não superior a 20 dias, que poderá ser prorrogado por
+      mais 10 dias, independentemente de justificativa.
+  - id: q06
+    topico: conhecimentos-complementares/acesso-a-informacao
+    enunciado: De acordo com a Lei nº 12.527/2011, o órgão que receber pedido de informação que não possui
+      deverá, em prazo não superior a 20 dias, comunicar esse fato e indicar, se for do seu conhecimento, o
+      órgão ou a entidade que a detém.
+  - id: q07
+    topico: conhecimentos-complementares/acesso-a-informacao
+    enunciado: Segundo a Lei nº 12.527/2011, o acesso à informação é totalmente gratuito, não podendo o
+      órgão cobrar valor algum do requerente, nem mesmo quando o fornecimento exigir a reprodução de
+      documentos.
+  - id: q08
+    topico: conhecimentos-complementares/acesso-a-informacao
+    enunciado: Nos termos da Lei nº 12.527/2011, quando não for autorizado o acesso integral à informação
+      por ser ela parcialmente sigilosa, é assegurado o acesso à parte não sigilosa por meio de certidão,
+      extrato ou cópia com ocultação da parte sob sigilo.
+  - id: q09
+    topico: conhecimentos-complementares/acesso-a-informacao
+    enunciado: Conforme a Lei nº 12.527/2011, o prazo máximo de restrição de acesso à informação
+      classificada como secreta é de 25 anos, contados da data de sua produção.
+  - id: q10
+    topico: conhecimentos-complementares/acesso-a-informacao
+    enunciado: Segundo a Lei nº 12.527/2011, no caso de indeferimento de acesso a informações, o
+      interessado poderá interpor recurso no prazo de 10 dias a contar da sua ciência, dirigido à
+      autoridade hierarquicamente superior à que exarou a decisão, que deverá se manifestar no prazo de
+      5 dias.
+  - id: q11
+    topico: conhecimentos-complementares/acesso-a-informacao
+    enunciado: De acordo com a Lei nº 12.527/2011, as informações pessoais relativas à intimidade, à vida
+      privada, à honra e à imagem são classificadas no grau ultrassecreto, o que restringe o seu acesso
+      pelo prazo máximo de 100 anos.
+  - id: q12
+    topico: conhecimentos-complementares/acesso-a-informacao
+    enunciado: Conforme o Decreto nº 7.724/2012, não serão atendidos pedidos de acesso à informação
+      genéricos ou desproporcionais.

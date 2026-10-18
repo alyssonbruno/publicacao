@@ -1,0 +1,190 @@
+# Treino de pontuação — CAU/TO 2026, Assistente Administrativo. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Pontuação
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (uma notícia de um conselho profissional), com linhas numeradas, no estilo de certo ou errado do Instituto Quadrix: justificativa da vírgula, inserção, supressão e deslocamento de sinais e troca de um sinal por outro, com julgamento da correção e do sentido.'
+    - 'Referências de estilo, sem cópia de itens: itens do Instituto Quadrix de 2017 a 2025 listados no Estude Grátis no assunto Pontuação (https://www.estudegratis.com.br/questoes-de-concurso/materia/portugues/assunto/pontuacao/banca/quadrix), em especial CRECI 14ª Região (MS) 2021, Assistente Administrativo (Q867716 e Q867717), CFBio 2025, CRQ-SP 2018, CRMV 2020, CREF/SE 2019 e CRESS/SC 2019; caderno de Assistente Administrativo do CORE-SE 2025 (Instituto Quadrix), questão de pontuação. Os gabaritos dessas provas não foram consultados.'
+    - 'Bases do gabarito: Manual de Redação da Presidência da República, 3ª ed. (2018), seções 10.5 e 11.9; Manual de Comunicação da Secom, Senado Federal (verbetes “Vírgula”, “Adjunto adverbial deslocado” e “Travessão”); Gotas da Língua Portuguesa nº 243, TJMG; Dad Squarisi, “Casos de vírgula” (Blog da Dad). Consultados em 17/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho abriu, nesta semana, um novo canal de atendimento: um
+      > 2. número para mensagens que funciona das 8h às 18h. Os profissionais
+      > 3. que ainda não atualizaram o cadastro receberão um aviso pelo
+      > 4. próprio canal. Segundo a gerente de atendimento, a ferramenta deve
+      > 5. reduzir a fila do balcão, que chegou a quarenta pessoas por dia em
+      > 6. setembro. A equipe responsável pelo projeto, no entanto, alerta
+      > 7. para um cuidado: o canal não substitui o protocolo eletrônico.
+      > 8. Pedidos de registro, certidões e recursos continuam a ser feitos
+      > 9. pelo portal; dúvidas simples, pelo novo número. Em outubro, o
+      > 10. serviço passará por avaliação.
+
+      Com relação ao emprego dos sinais de pontuação no texto, julgue o item.
+
+      As vírgulas que isolam “nesta semana” (linha 1) justificam-se por se tratar de uma expressão explicativa, do mesmo tipo de “isto é” e “ou seja”.
+  - id: q02
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho abriu, nesta semana, um novo canal de atendimento: um
+      > 2. número para mensagens que funciona das 8h às 18h. Os profissionais
+      > 3. que ainda não atualizaram o cadastro receberão um aviso pelo
+      > 4. próprio canal. Segundo a gerente de atendimento, a ferramenta deve
+      > 5. reduzir a fila do balcão, que chegou a quarenta pessoas por dia em
+      > 6. setembro. A equipe responsável pelo projeto, no entanto, alerta
+      > 7. para um cuidado: o canal não substitui o protocolo eletrônico.
+      > 8. Pedidos de registro, certidões e recursos continuam a ser feitos
+      > 9. pelo portal; dúvidas simples, pelo novo número. Em outubro, o
+      > 10. serviço passará por avaliação.
+
+      Com relação ao emprego dos sinais de pontuação no texto, julgue o item.
+
+      Os dois-pontos empregados logo após “atendimento” (linha 1) introduzem um esclarecimento sobre o novo canal e poderiam ser substituídos por travessão, sem prejuízo da correção gramatical.
+  - id: q03
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho abriu, nesta semana, um novo canal de atendimento: um
+      > 2. número para mensagens que funciona das 8h às 18h. Os profissionais
+      > 3. que ainda não atualizaram o cadastro receberão um aviso pelo
+      > 4. próprio canal. Segundo a gerente de atendimento, a ferramenta deve
+      > 5. reduzir a fila do balcão, que chegou a quarenta pessoas por dia em
+      > 6. setembro. A equipe responsável pelo projeto, no entanto, alerta
+      > 7. para um cuidado: o canal não substitui o protocolo eletrônico.
+      > 8. Pedidos de registro, certidões e recursos continuam a ser feitos
+      > 9. pelo portal; dúvidas simples, pelo novo número. Em outubro, o
+      > 10. serviço passará por avaliação.
+
+      Com relação ao emprego dos sinais de pontuação no texto, julgue o item.
+
+      Caso a oração “que ainda não atualizaram o cadastro” (linha 3) fosse isolada por vírgulas, o texto continuaria gramaticalmente correto, mas passaria a dar a entender que nenhum dos profissionais atualizou o cadastro.
+  - id: q04
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho abriu, nesta semana, um novo canal de atendimento: um
+      > 2. número para mensagens que funciona das 8h às 18h. Os profissionais
+      > 3. que ainda não atualizaram o cadastro receberão um aviso pelo
+      > 4. próprio canal. Segundo a gerente de atendimento, a ferramenta deve
+      > 5. reduzir a fila do balcão, que chegou a quarenta pessoas por dia em
+      > 6. setembro. A equipe responsável pelo projeto, no entanto, alerta
+      > 7. para um cuidado: o canal não substitui o protocolo eletrônico.
+      > 8. Pedidos de registro, certidões e recursos continuam a ser feitos
+      > 9. pelo portal; dúvidas simples, pelo novo número. Em outubro, o
+      > 10. serviço passará por avaliação.
+
+      Com relação ao emprego dos sinais de pontuação no texto, julgue o item.
+
+      A inserção de uma vírgula logo após “cadastro” (linha 3) prejudicaria a correção gramatical do texto, porque separaria o sujeito da forma verbal “receberão”.
+  - id: q05
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho abriu, nesta semana, um novo canal de atendimento: um
+      > 2. número para mensagens que funciona das 8h às 18h. Os profissionais
+      > 3. que ainda não atualizaram o cadastro receberão um aviso pelo
+      > 4. próprio canal. Segundo a gerente de atendimento, a ferramenta deve
+      > 5. reduzir a fila do balcão, que chegou a quarenta pessoas por dia em
+      > 6. setembro. A equipe responsável pelo projeto, no entanto, alerta
+      > 7. para um cuidado: o canal não substitui o protocolo eletrônico.
+      > 8. Pedidos de registro, certidões e recursos continuam a ser feitos
+      > 9. pelo portal; dúvidas simples, pelo novo número. Em outubro, o
+      > 10. serviço passará por avaliação.
+
+      Com relação ao emprego dos sinais de pontuação no texto, julgue o item.
+
+      Na linha 4, a vírgula empregada logo após “atendimento” separa o sujeito da locução verbal “deve reduzir”, o que a norma-padrão admite quando o sujeito é extenso.
+  - id: q06
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho abriu, nesta semana, um novo canal de atendimento: um
+      > 2. número para mensagens que funciona das 8h às 18h. Os profissionais
+      > 3. que ainda não atualizaram o cadastro receberão um aviso pelo
+      > 4. próprio canal. Segundo a gerente de atendimento, a ferramenta deve
+      > 5. reduzir a fila do balcão, que chegou a quarenta pessoas por dia em
+      > 6. setembro. A equipe responsável pelo projeto, no entanto, alerta
+      > 7. para um cuidado: o canal não substitui o protocolo eletrônico.
+      > 8. Pedidos de registro, certidões e recursos continuam a ser feitos
+      > 9. pelo portal; dúvidas simples, pelo novo número. Em outubro, o
+      > 10. serviço passará por avaliação.
+
+      Com relação ao emprego dos sinais de pontuação no texto, julgue o item.
+
+      A supressão da vírgula empregada logo após “balcão” (linha 5) manteria o sentido original do texto.
+  - id: q07
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho abriu, nesta semana, um novo canal de atendimento: um
+      > 2. número para mensagens que funciona das 8h às 18h. Os profissionais
+      > 3. que ainda não atualizaram o cadastro receberão um aviso pelo
+      > 4. próprio canal. Segundo a gerente de atendimento, a ferramenta deve
+      > 5. reduzir a fila do balcão, que chegou a quarenta pessoas por dia em
+      > 6. setembro. A equipe responsável pelo projeto, no entanto, alerta
+      > 7. para um cuidado: o canal não substitui o protocolo eletrônico.
+      > 8. Pedidos de registro, certidões e recursos continuam a ser feitos
+      > 9. pelo portal; dúvidas simples, pelo novo número. Em outubro, o
+      > 10. serviço passará por avaliação.
+
+      Com relação ao emprego dos sinais de pontuação no texto, julgue o item.
+
+      O período das linhas 6 e 7 poderia ser reescrito como “No entanto, a equipe responsável pelo projeto alerta para um cuidado: o canal não substitui o protocolo eletrônico.”, sem prejuízo da correção gramatical e do sentido original.
+  - id: q08
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho abriu, nesta semana, um novo canal de atendimento: um
+      > 2. número para mensagens que funciona das 8h às 18h. Os profissionais
+      > 3. que ainda não atualizaram o cadastro receberão um aviso pelo
+      > 4. próprio canal. Segundo a gerente de atendimento, a ferramenta deve
+      > 5. reduzir a fila do balcão, que chegou a quarenta pessoas por dia em
+      > 6. setembro. A equipe responsável pelo projeto, no entanto, alerta
+      > 7. para um cuidado: o canal não substitui o protocolo eletrônico.
+      > 8. Pedidos de registro, certidões e recursos continuam a ser feitos
+      > 9. pelo portal; dúvidas simples, pelo novo número. Em outubro, o
+      > 10. serviço passará por avaliação.
+
+      Com relação ao emprego dos sinais de pontuação no texto, julgue o item.
+
+      Por ser composto por três núcleos, o sujeito “Pedidos de registro, certidões e recursos” (linha 8) poderia ser separado da locução verbal por uma vírgula logo após “recursos”, sem prejuízo da correção gramatical.
+  - id: q09
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho abriu, nesta semana, um novo canal de atendimento: um
+      > 2. número para mensagens que funciona das 8h às 18h. Os profissionais
+      > 3. que ainda não atualizaram o cadastro receberão um aviso pelo
+      > 4. próprio canal. Segundo a gerente de atendimento, a ferramenta deve
+      > 5. reduzir a fila do balcão, que chegou a quarenta pessoas por dia em
+      > 6. setembro. A equipe responsável pelo projeto, no entanto, alerta
+      > 7. para um cuidado: o canal não substitui o protocolo eletrônico.
+      > 8. Pedidos de registro, certidões e recursos continuam a ser feitos
+      > 9. pelo portal; dúvidas simples, pelo novo número. Em outubro, o
+      > 10. serviço passará por avaliação.
+
+      Com relação ao emprego dos sinais de pontuação no texto, julgue o item.
+
+      Na linha 9, a vírgula empregada logo após “simples” indica a omissão de termos já expressos no período.
+  - id: q10
+    topico: conhecimentos-basicos/lp-pontuacao
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho abriu, nesta semana, um novo canal de atendimento: um
+      > 2. número para mensagens que funciona das 8h às 18h. Os profissionais
+      > 3. que ainda não atualizaram o cadastro receberão um aviso pelo
+      > 4. próprio canal. Segundo a gerente de atendimento, a ferramenta deve
+      > 5. reduzir a fila do balcão, que chegou a quarenta pessoas por dia em
+      > 6. setembro. A equipe responsável pelo projeto, no entanto, alerta
+      > 7. para um cuidado: o canal não substitui o protocolo eletrônico.
+      > 8. Pedidos de registro, certidões e recursos continuam a ser feitos
+      > 9. pelo portal; dúvidas simples, pelo novo número. Em outubro, o
+      > 10. serviço passará por avaliação.
+
+      Com relação ao emprego dos sinais de pontuação no texto, julgue o item.
+
+      O emprego da vírgula logo após “outubro” (linha 9) é obrigatório, porque o adjunto adverbial de tempo foi deslocado para o início da oração.

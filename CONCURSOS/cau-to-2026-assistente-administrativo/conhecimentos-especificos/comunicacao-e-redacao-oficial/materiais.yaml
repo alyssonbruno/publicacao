@@ -1,0 +1,34 @@
+materiais:
+  - tipo: texto
+    titulo: Comunicação organizacional, redação oficial e tipos de documentos
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: link
+    titulo: Decreto nº 9.758/2019 — formas de tratamento com agentes públicos federais
+    url: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9758.htm
+    autor: Presidência da República (Planalto)
+    descricao: >-
+      O texto oficial do decreto, curto (cinco artigos). Leia os arts. 2º a 4º: "senhor" como único
+      pronome, as formas vedadas e o endereçamento sem pronome e sem nome. Ele não trata de fechos
+      nem do padrão ofício, que continuam os do Manual. Se o decreto vale ou não para o CAU/TO é
+      questão sem resposta em fonte aberta: veja a parte do texto da aula sobre isso.
+  - tipo: link
+    titulo: Guia prático de elaboração de documentos oficiais (UFSC)
+    url: https://redacaooficial.paginas.ufsc.br/files/2020/02/GUIA-PR%C3%81TICO-DE-ELABORA%C3%87%C3%83O-DE-DOCUMENTOS-OFICIAIS-E-ATOS-NORMATIVOS-NA-UFSC.pdf
+    autor: Universidade Federal de Santa Catarina
+    descricao: >-
+      PDF de uma universidade federal, de 2020, que junta o Manual de 2018 e o Decreto nº
+      9.758/2019. Vale olhar as primeiras páginas (o ofício como única correspondência, as formas
+      vedadas e os dois fechos) e os exemplos de ofício. As regras de sistemas internos da UFSC
+      valem só lá e não caem na prova.
+  - tipo: link
+    titulo: Comunicação organizacional para concursos — Guia Definitivo
+    url: https://www.estrategiaconcursos.com.br/blog/comunicacao-organizacional/
+    autor: Paulo Alvarenga (Estratégia Concursos, blog)
+    descricao: >-
+      Post de 2021, de leitura rápida, sobre a primeira parte da aula: formal × informal, interna ×
+      externa, elementos do processo, fluxos e barreiras, com questões de outras bancas e uma da
+      Quadrix. É página de cursinho, sem referências bibliográficas, e não trata de redação oficial
+      nem de tipos de documentos. Se algo divergir do texto da aula, vale o texto.

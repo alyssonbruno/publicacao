@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="470" viewBox="0 0 720 470" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="470" fill="#ffffff"/>
+  <defs>
+    <marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#52514e"/>
+    </marker>
+  </defs>
+
+  <text x="20" y="34" font-size="18" font-weight="700" fill="#0b0b0b">Verbo com "se": concorda ou fica no singular?</text>
+
+  <!-- Passo 1 -->
+  <rect x="20" y="52" width="300" height="74" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="36" y="78" font-size="14" font-weight="700" fill="#0b0b0b">1. O verbo pede preposição?</text>
+  <text x="36" y="102" font-size="13" fill="#52514e">precisar de, tratar de, gostar de,</text>
+  <text x="36" y="118" font-size="13" fill="#52514e">assistir a, depender de…</text>
+
+  <line x1="320" y1="89" x2="392" y2="89" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+  <text x="340" y="80" font-size="13" font-weight="600" fill="#52514e">sim</text>
+
+  <rect x="396" y="52" width="304" height="74" rx="10" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+  <text x="412" y="76" font-size="14" font-weight="700" fill="#8a5a00">Singular (sujeito indeterminado)</text>
+  <text x="412" y="98" font-size="13" fill="#0b0b0b"><tspan font-weight="600">Precisa-se</tspan> de técnicos.</text>
+  <text x="412" y="116" font-size="13" fill="#0b0b0b"><tspan font-weight="600">Trata-se</tspan> de pedidos antigos.</text>
+
+  <line x1="170" y1="126" x2="170" y2="166" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+  <text x="180" y="152" font-size="13" font-weight="600" fill="#52514e">não</text>
+
+  <!-- Passo 2 -->
+  <rect x="20" y="170" width="300" height="92" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="36" y="196" font-size="14" font-weight="700" fill="#0b0b0b">2. A voz passiva com "ser" funciona?</text>
+  <text x="36" y="220" font-size="13" fill="#52514e">Analisaram-se os pedidos =</text>
+  <text x="36" y="238" font-size="13" fill="#52514e">Os pedidos <tspan font-weight="600" fill="#0b0b0b">foram analisados</tspan>.</text>
+
+  <line x1="320" y1="216" x2="392" y2="216" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+  <text x="340" y="207" font-size="13" font-weight="600" fill="#52514e">sim</text>
+
+  <rect x="396" y="170" width="304" height="92" rx="10" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+  <text x="412" y="194" font-size="14" font-weight="700" fill="#1c5cab">Concorda ("se" apassivador)</text>
+  <text x="412" y="214" font-size="13" fill="#52514e">o termo é o sujeito, e o verbo segue ele</text>
+  <text x="412" y="234" font-size="13" fill="#0b0b0b"><tspan font-weight="600">Analisou-se</tspan> o pedido.</text>
+  <text x="412" y="252" font-size="13" fill="#0b0b0b"><tspan font-weight="600">Analisaram-se</tspan> os pedidos.</text>
+
+  <line x1="170" y1="262" x2="170" y2="302" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+  <text x="180" y="288" font-size="13" font-weight="600" fill="#52514e">não</text>
+
+  <!-- Passo 3 -->
+  <rect x="20" y="306" width="300" height="74" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+  <text x="36" y="332" font-size="14" font-weight="700" fill="#0b0b0b">3. Verbo sem complemento</text>
+  <text x="36" y="356" font-size="13" fill="#52514e">ou de ligação: não há passiva</text>
+
+  <line x1="320" y1="343" x2="392" y2="343" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+
+  <rect x="396" y="306" width="304" height="74" rx="10" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+  <text x="412" y="332" font-size="14" font-weight="700" fill="#8a5a00">Singular</text>
+  <text x="412" y="356" font-size="13" fill="#0b0b0b"><tspan font-weight="600">Trabalha-se</tspan> muito no fim do mês.</text>
+
+  <!-- Pé -->
+  <rect x="20" y="398" width="680" height="56" rx="10" fill="#fbeaea" stroke="#b42318" stroke-width="1.5"/>
+  <text x="36" y="422" font-size="14" font-weight="700" fill="#b42318">Errado:</text>
+  <text x="100" y="422" font-size="14" fill="#0b0b0b">"Precisam-se de técnicos" (o verbo pede "de": singular)</text>
+  <text x="100" y="442" font-size="14" fill="#0b0b0b">"Analisou-se os pedidos" (a passiva funciona: plural)</text>
+</svg>

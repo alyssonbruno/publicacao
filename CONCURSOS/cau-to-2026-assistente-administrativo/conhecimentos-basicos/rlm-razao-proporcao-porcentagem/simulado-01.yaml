@@ -1,0 +1,111 @@
+# Treino de razão, proporção, porcentagem e regra de três — CAU/TO 2026, Assistente Administrativo. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Razão, proporção, porcentagem e regra de três
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no molde de matemática do Instituto Quadrix em provas de conselhos: uma
+      situação hipotética curta, com poucos números, e um item que muda uma grandeza ou afirma um
+      resultado. Referências de estilo, sem cópia de situações nem de números: itens da banca de
+      regra de três, razão e porcentagem (2020 a 2025) listados no Estude Grátis. Os dados são
+      fictícios.'
+    - 'Bases do gabarito: materiais teóricos do Portal da Matemática OBMEP/IMPA (Regra de Três Simples e
+      Composta; Números Diretamente e Inversamente Proporcionais; A Noção de Razão; Porcentagem, Parte 1)
+      e REAMAT/UFRGS (Pré-cálculo, D.2 e E.1), consultados em 17/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/rlm-razao-proporcao-porcentagem
+    enunciado: |-
+      Considere a seguinte situação hipotética. Um setor de atendimento de um conselho profissional tem 15 servidores e 6 estagiários.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      A razão entre o número de estagiários e o número de servidores do setor é de 5 para 2.
+  - id: q02
+    topico: conhecimentos-basicos/rlm-razao-proporcao-porcentagem
+    enunciado: |-
+      Considere a seguinte situação hipotética. Na planta da sede de um conselho profissional, desenhada na escala 1:200, o corredor de acesso ao protocolo mede 7,5 cm.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      O comprimento real desse corredor é de 15 m.
+  - id: q03
+    topico: conhecimentos-basicos/rlm-razao-proporcao-porcentagem
+    enunciado: |-
+      Considere a seguinte situação hipotética. Um conselho profissional reajustou em 20% o valor da taxa de emissão de certidão em um ano e, no ano seguinte, reajustou o novo valor em 10%.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      O aumento acumulado da taxa nos dois anos foi de 32%.
+  - id: q04
+    topico: conhecimentos-basicos/rlm-razao-proporcao-porcentagem
+    enunciado: |-
+      Considere a seguinte situação hipotética. A anuidade de um profissional, de R$ 600,00, recebeu desconto de 20% por pagamento antecipado e, sobre o valor já com esse desconto, mais 5% de desconto por pagamento em cota única.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      Com os dois descontos, o profissional pagou R$ 450,00.
+  - id: q05
+    topico: conhecimentos-basicos/rlm-razao-proporcao-porcentagem
+    enunciado: |-
+      Considere a seguinte situação hipotética. Em março, o número de protocolos recebidos por um conselho profissional caiu 50% em relação a fevereiro. Em abril, o número subiu 100% em relação a março.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      O número de protocolos de abril foi igual ao de fevereiro.
+  - id: q06
+    topico: conhecimentos-basicos/rlm-razao-proporcao-porcentagem
+    enunciado: |-
+      Considere a seguinte situação hipotética. Depois de um reajuste de 25%, o valor da taxa de registro de um conselho profissional passou a ser de R$ 150,00.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      Para que a taxa voltasse ao valor anterior ao reajuste, seria necessário reduzir o novo valor em 25%.
+  - id: q07
+    topico: conhecimentos-basicos/rlm-razao-proporcao-porcentagem
+    enunciado: |-
+      Considere a seguinte situação hipotética. Dos 640 pedidos de registro recebidos por um conselho profissional no semestre, 25% foram de pessoas jurídicas. Desses pedidos de pessoas jurídicas, 15% foram indeferidos.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      Os pedidos de pessoas jurídicas indeferidos correspondem a menos de 4% do total de pedidos de registro do semestre.
+  - id: q08
+    topico: conhecimentos-basicos/rlm-razao-proporcao-porcentagem
+    enunciado: |-
+      Considere a seguinte situação hipotética. Seis servidores de um conselho profissional, todos com o mesmo ritmo de trabalho, concluem o recadastramento dos profissionais em 20 dias.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      Mantido o ritmo de cada servidor, 8 servidores concluiriam o mesmo recadastramento em exatamente 15 dias.
+  - id: q09
+    topico: conhecimentos-basicos/rlm-razao-proporcao-porcentagem
+    enunciado: |-
+      Considere a seguinte situação hipotética. Um atendente de um conselho profissional registra 18 protocolos a cada 45 minutos, sempre no mesmo ritmo.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      Em 3 horas de trabalho, esse atendente registra mais de 80 protocolos.
+  - id: q10
+    topico: conhecimentos-basicos/rlm-razao-proporcao-porcentagem
+    enunciado: |-
+      Considere a seguinte situação hipotética. Em um conselho profissional, 5 servidores, trabalhando 6 horas por dia, analisam 300 processos em 8 dias. Todos os servidores têm o mesmo ritmo de trabalho, e os processos são de igual complexidade.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      Para que 4 servidores, trabalhando 8 horas por dia, analisem 360 processos, serão necessários mais de 9 dias.
+  - id: q11
+    topico: conhecimentos-basicos/rlm-razao-proporcao-porcentagem
+    enunciado: |-
+      Considere a seguinte situação hipotética. Uma verba de R$ 24.000,00 será dividida entre três setores de um conselho profissional, em partes diretamente proporcionais ao número de servidores de cada setor: 3, 4 e 5.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      O setor que tem 4 servidores receberá R$ 8.000,00.
+  - id: q12
+    topico: conhecimentos-basicos/rlm-razao-proporcao-porcentagem
+    enunciado: |-
+      Considere a seguinte situação hipotética. Um lote de 1.300 processos será distribuído entre três analistas de um conselho profissional, em partes inversamente proporcionais ao tempo médio que cada um gasta para analisar um processo: 2 horas, 3 horas e 4 horas.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      O analista que gasta 4 horas por processo receberá 400 processos.

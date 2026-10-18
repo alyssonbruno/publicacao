@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="416" viewBox="0 0 720 416" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="416" fill="#ffffff"/>
+  <text x="20" y="34" font-size="18" font-weight="700" fill="#0b0b0b">Trocas que costumam manter a correção</text>
+
+  <g transform="translate(20 50)">
+    <rect width="680" height="104" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="28" font-size="15" font-weight="700" fill="#1c5cab">Isolar um trecho: vírgulas · travessões · parênteses</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="52">O novo portal<tspan fill="#c4302b" font-weight="700">,</tspan> lançado em março<tspan fill="#c4302b" font-weight="700">,</tspan> já recebeu mil pedidos.</text>
+      <text x="16" y="72">O novo portal <tspan fill="#c4302b" font-weight="700">—</tspan> lançado em março <tspan fill="#c4302b" font-weight="700">—</tspan> já recebeu mil pedidos.</text>
+      <text x="16" y="92">O novo portal <tspan fill="#c4302b" font-weight="700">(</tspan>lançado em março<tspan fill="#c4302b" font-weight="700">)</tspan> já recebeu mil pedidos.</text>
+    </g>
+  </g>
+
+  <g transform="translate(20 164)">
+    <rect width="680" height="84" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="28" font-size="15" font-weight="700" fill="#1f6b33">Anunciar uma explicação: dois-pontos · travessão</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="52">O balcão ganhou um reforço<tspan fill="#c4302b" font-weight="700">:</tspan> dois atendentes no horário de pico.</text>
+      <text x="16" y="72">O balcão ganhou um reforço <tspan fill="#c4302b" font-weight="700">—</tspan> dois atendentes no horário de pico.</text>
+    </g>
+  </g>
+
+  <g transform="translate(20 258)">
+    <rect width="680" height="84" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <text x="16" y="28" font-size="15" font-weight="700" fill="#8a5a00">Separar orações: ponto e vírgula · ponto</text>
+    <g font-size="14" fill="#0b0b0b">
+      <text x="16" y="52">O pedido chegou fora do prazo<tspan fill="#c4302b" font-weight="700">;</tspan> a equipe o arquivou ontem.</text>
+      <text x="16" y="72">O pedido chegou fora do prazo<tspan fill="#c4302b" font-weight="700">.</tspan> A equipe o arquivou ontem.</text>
+    </g>
+  </g>
+
+  <text x="20" y="372" font-size="13" fill="#52514e">Na troca, confira duas coisas: o sinal novo abre e fecha o trecho (quando isola)</text>
+  <text x="20" y="392" font-size="13" fill="#52514e">e o sentido continua o mesmo. Uma vírgula órfã, sem par, derruba a correção.</text>
+</svg>

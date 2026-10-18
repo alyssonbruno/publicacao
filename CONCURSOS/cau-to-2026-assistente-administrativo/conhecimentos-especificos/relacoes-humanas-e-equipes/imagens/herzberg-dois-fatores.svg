@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="400" fill="#ffffff"/>
+  <text x="12" y="26" font-size="14" font-weight="700" fill="#0b0b0b">Herzberg: dois fatores, duas réguas</text>
+
+  <!-- Higiênicos -->
+  <text x="12" y="62" font-size="13.5" font-weight="700" fill="#9a3412">Fatores higiênicos (contexto do trabalho, extrínsecos)</text>
+  <text x="12" y="82" font-size="12.5" fill="#0b0b0b">salário e benefícios · condições físicas · supervisão · relações com chefes e colegas · políticas da organização</text>
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#f6c9b0"/><stop offset="1" stop-color="#f2f1ee"/></linearGradient>
+    <linearGradient id="g2" x1="0" x2="1"><stop offset="0" stop-color="#f2f1ee"/><stop offset="1" stop-color="#b9d4f2"/></linearGradient>
+  </defs>
+  <rect x="12" y="96" width="696" height="44" rx="8" fill="url(#g1)" stroke="#9a3412"/>
+  <text x="24" y="123" font-size="13" font-weight="700" fill="#0b0b0b">Insatisfação</text>
+  <text x="696" y="123" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="end">Nenhuma insatisfação</text>
+  <text x="12" y="162" font-size="12.5" fill="#52514e">Quando faltam, geram insatisfação. Quando existem, só evitam que ela apareça: não motivam.</text>
+
+  <!-- Motivacionais -->
+  <text x="12" y="208" font-size="13.5" font-weight="700" fill="#1d4f8f">Fatores motivacionais (conteúdo do cargo, intrínsecos)</text>
+  <text x="12" y="228" font-size="12.5" fill="#0b0b0b">realização · reconhecimento · o trabalho em si · responsabilidade · crescimento</text>
+  <rect x="12" y="242" width="696" height="44" rx="8" fill="url(#g2)" stroke="#1d4f8f"/>
+  <text x="24" y="269" font-size="13" font-weight="700" fill="#0b0b0b">Nenhuma satisfação</text>
+  <text x="696" y="269" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="end">Satisfação</text>
+  <text x="12" y="308" font-size="12.5" fill="#52514e">São eles que geram satisfação e motivam.</text>
+
+  <!-- Regra -->
+  <rect x="12" y="328" width="696" height="56" rx="8" fill="#fcfcfb" stroke="#8a8880"/>
+  <text x="360" y="351" font-size="13.5" font-weight="700" fill="#0b0b0b" text-anchor="middle">O oposto da satisfação é a não satisfação.</text>
+  <text x="360" y="372" font-size="13.5" font-weight="700" fill="#0b0b0b" text-anchor="middle">O oposto da insatisfação é a não insatisfação.</text>
+</svg>

@@ -1,0 +1,61 @@
+# Treino de relações humanas, equipes, cidadania e relações públicas. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Relações humanas, equipes, cidadania e relações públicas
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no formato de certo ou errado do Instituto Quadrix: itens de uma frase, agrupáveis
+      sob um comando, uma afirmação por item. Referência de estilo: itens da banca de 2017 e 2018 sob comandos
+      com o texto do edital ("relações humanas, desempenho profissional, desenvolvimento de equipes de trabalho";
+      "cidadania, relações públicas e comunicação"), vistos no Estude Grátis, e as provas de Assistente
+      Administrativo do CREF3-SC 2023 e do CRESS-MG 2024 (só a forma e os pontos cobrados; nenhum item foi
+      copiado).'
+    - 'Bases de conteúdo: "Bases Teóricas da Administração de Ambientes de Informação", Unidade 5 (CESAD/UFS);
+      "Comportamento humano nas organizações", de Alexandre Santos Pinheiro (CEAD/UFV, 2023); "Oficina
+      de desenvolvimento de equipes", de Jacqueline Silveira de Sá Leitão (Enap, 2015); Tuckman (1965)
+      e Tuckman e Jensen (1977); Constituição Federal; Decreto nº 63.283/1968; "Mastering Public Relations",
+      4.2 (LibreTexts). Consultados em 17/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/relacoes-humanas-e-equipes
+    enunciado: A experiência de Hawthorne confirmou que a intensidade da iluminação do local de trabalho
+      era o fator que mais determinava a produtividade dos operários.
+  - id: q02
+    topico: conhecimentos-especificos/relacoes-humanas-e-equipes
+    enunciado: Entre as conclusões da experiência de Hawthorne, está a de que o nível de produção do empregado
+      é determinado mais pelas normas sociais e pelas expectativas do grupo do que pela sua capacidade
+      física.
+  - id: q03
+    topico: conhecimentos-especificos/relacoes-humanas-e-equipes
+    enunciado: Na teoria dos dois fatores de Herzberg, o reconhecimento e a responsabilidade pelo próprio
+      trabalho são fatores motivacionais, ligados ao conteúdo do cargo.
+  - id: q04
+    topico: conhecimentos-especificos/relacoes-humanas-e-equipes
+    enunciado: Segundo Herzberg, melhorar as condições físicas do ambiente e o relacionamento entre os colegas
+      basta para tornar os empregados satisfeitos e motivados com o trabalho.
+  - id: q05
+    topico: conhecimentos-especificos/relacoes-humanas-e-equipes
+    enunciado: No modelo de desenvolvimento de equipes de Tuckman, o estágio marcado por conflitos e pela
+      disputa da liderança antecede aquele em que o grupo alcança coesão e passa a ter normas de conduta
+      aceitas por todos.
+  - id: q06
+    topico: conhecimentos-especificos/relacoes-humanas-e-equipes
+    enunciado: O que distingue o grupo de trabalho da equipe de trabalho é que, no grupo, os membros têm
+      habilidades complementares e respondem juntos pelo resultado, o que produz sinergia positiva.
+  - id: q07
+    topico: conhecimentos-especificos/relacoes-humanas-e-equipes
+    enunciado: As teorias X e Y de McGregor classificam os empregados de uma organização em dois tipos,
+      conforme a disposição de cada um para o trabalho e para a responsabilidade.
+  - id: q08
+    topico: conhecimentos-especificos/relacoes-humanas-e-equipes
+    enunciado: A cidadania figura, na Constituição Federal de 1988, entre os fundamentos da República Federativa
+      do Brasil.
+  - id: q09
+    topico: conhecimentos-especificos/relacoes-humanas-e-equipes
+    enunciado: No papel de técnico de comunicação, o profissional de relações públicas integra o núcleo
+      de decisão da organização e define, com os demais dirigentes, como resolver os problemas organizacionais.
+  - id: q10
+    topico: conhecimentos-especificos/relacoes-humanas-e-equipes
+    enunciado: Pela regulamentação da profissão, relações públicas são o esforço deliberado, planificado
+      e contínuo para esclarecer e manter compreensão mútua entre uma instituição e os grupos e pessoas
+      a ela ligados.

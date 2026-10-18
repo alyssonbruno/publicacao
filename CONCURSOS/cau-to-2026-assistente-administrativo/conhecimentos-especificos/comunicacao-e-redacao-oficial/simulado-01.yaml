@@ -1,0 +1,65 @@
+# Treino do tópico. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Comunicação organizacional, redação oficial e tipos de documentos
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no formato de certo ou errado do Instituto Quadrix: itens de uma frase, agrupados
+      por assunto. Referências de estilo: o perfil da banca (bloco de comunicação do caderno de Assistente
+      Administrativo do CAU/TO 2023, contado à mão), a questão 56 da prova de Assistente Administrativo
+      do CRESS-MG 2024 (atributos vizinhos) e itens da banca listados no Aprova Concursos nos assuntos
+      comunicação organizacional e correspondência oficial (nenhum item reproduzido).'
+    - 'Bases: Manual de Redação da Presidência da República, 3ª ed. (2018), itens 3, 4.1, 5 e 5.1.7; Decreto
+      nº 9.758/2019, arts. 1º a 4º (Planalto, consultado em 17/10/2026); Manual de Redação Oficial da UFV
+      (2022) e glossário de espécies documentais da UFABC, para os tipos de documentos; guia de comunicação
+      organizacional do Estratégia Concursos (2021), para o processo, os fluxos e formal × informal.'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/comunicacao-e-redacao-oficial
+    enunciado: Acerca da comunicação organizacional, julgue o item. A comunicação interna confunde-se com
+      a comunicação informal, pois ambas ocorrem entre os próprios empregados, fora dos canais oficiais da
+      organização.
+  - id: q02
+    topico: conhecimentos-especificos/comunicacao-e-redacao-oficial
+    enunciado: Acerca da comunicação organizacional, julgue o item. No processo de comunicação, o feedback
+      corresponde ao retorno do receptor ao emissor e permite verificar se a mensagem foi compreendida
+      como se pretendia.
+  - id: q03
+    topico: conhecimentos-especificos/comunicacao-e-redacao-oficial
+    enunciado: Acerca da comunicação organizacional, julgue o item. A troca de informações entre o setor
+      de compras e o almoxarifado, unidades de mesmo nível hierárquico, para combinar prazos de entrega
+      é exemplo de comunicação descendente.
+  - id: q04
+    topico: conhecimentos-especificos/comunicacao-e-redacao-oficial
+    enunciado: Com base no Manual de Redação da Presidência da República, julgue o item. A concisão consiste
+      em ir diretamente ao assunto que se deseja abordar, sem voltas e sem redundâncias, o que exige do
+      redator saber de antemão qual é a ideia principal e quais são as secundárias.
+  - id: q05
+    topico: conhecimentos-especificos/comunicacao-e-redacao-oficial
+    enunciado: Com base no Manual de Redação da Presidência da República, julgue o item. Na 3ª edição
+      do Manual, o expediente trocado entre unidades administrativas de um mesmo órgão, antes chamado de
+      memorando, passou a seguir o padrão ofício e a ser denominado ofício.
+  - id: q06
+    topico: conhecimentos-especificos/comunicacao-e-redacao-oficial
+    enunciado: À luz do Decreto nº 9.758/2019, julgue o item. Na comunicação com agentes públicos da
+      administração pública federal, o único pronome de tratamento a ser utilizado é "senhor", flexionado
+      para o feminino e para o plural, independentemente do nível hierárquico do destinatário.
+  - id: q07
+    topico: conhecimentos-especificos/comunicacao-e-redacao-oficial
+    enunciado: Com base no Manual de Redação da Presidência da República, julgue o item. Em ofício dirigido
+      a autoridade de mesma hierarquia que a do remetente, deve ser empregado o fecho "Respeitosamente".
+  - id: q08
+    topico: conhecimentos-especificos/comunicacao-e-redacao-oficial
+    enunciado: A respeito dos tipos de documentos administrativos, julgue o item. A ata é o documento em
+      que se registram os fatos, as resoluções e as decisões de uma reunião, sessão ou assembleia, e não
+      se confunde com o relatório, que expõe atividades ou trabalhos realizados.
+  - id: q09
+    topico: conhecimentos-especificos/comunicacao-e-redacao-oficial
+    enunciado: A respeito dos tipos de documentos administrativos, julgue o item. Certidão e atestado
+      equivalem-se, pois em ambos a autoridade afirma um fato de que tem conhecimento, sem necessidade
+      de que ele conste de livros, papéis ou registros da administração.
+  - id: q10
+    topico: conhecimentos-especificos/comunicacao-e-redacao-oficial
+    enunciado: A respeito dos tipos de documentos administrativos, julgue o item. O requerimento é o
+      documento por meio do qual a pessoa física ou jurídica solicita à administração algo a que tem, ou
+      supõe ter, direito.

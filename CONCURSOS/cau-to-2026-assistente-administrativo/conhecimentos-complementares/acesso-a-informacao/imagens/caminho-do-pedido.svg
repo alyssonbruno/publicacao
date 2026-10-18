@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="452" viewBox="0 0 720 452" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="452" fill="#ffffff"/>
+
+  <!-- Linha que liga as etapas -->
+  <line x1="30" y1="44" x2="30" y2="290" stroke="#c3c2b7" stroke-width="2"/>
+
+  <!-- 1. Pedido -->
+  <g transform="translate(0 12)">
+    <rect x="60" width="648" height="70" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <circle cx="30" cy="32" r="16" fill="#256abf"/>
+    <text x="30" y="38" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="76" y="30" font-size="16" font-weight="700" fill="#1c5cab">Pedido</text>
+    <text x="76" y="50" font-size="12" fill="#52514e">art. 10</text>
+    <g font-size="13" fill="#0b0b0b">
+      <text x="196" y="29">Qualquer interessado, por qualquer meio legítimo.</text>
+      <text x="196" y="50">Contém: <tspan font-weight="700">identificação</tspan> + <tspan font-weight="700">especificação</tspan>. Motivo: <tspan font-weight="700" fill="#9a3a12">vedado exigir</tspan> (§ 3º).</text>
+    </g>
+  </g>
+
+  <!-- 2. Resposta -->
+  <g transform="translate(0 94)">
+    <rect x="60" width="648" height="92" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <circle cx="30" cy="32" r="16" fill="#256abf"/>
+    <text x="30" y="38" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="76" y="30" font-size="16" font-weight="700" fill="#1c5cab">Resposta</text>
+    <text x="76" y="50" font-size="12" fill="#52514e">art. 11</text>
+    <g font-size="13" fill="#0b0b0b">
+      <rect x="196" y="13" width="100" height="20" rx="10" fill="#e3edf9"/>
+      <text x="246" y="28" font-weight="700" fill="#1c5cab" text-anchor="middle">imediata</text>
+      <text x="308" y="28">se a informação estiver disponível (caput)</text>
+      <rect x="196" y="37" width="100" height="20" rx="10" fill="#e3edf9"/>
+      <text x="246" y="52" font-weight="700" fill="#1c5cab" text-anchor="middle">até 20 dias</text>
+      <text x="308" y="52">se o acesso imediato não for possível (§ 1º)</text>
+      <rect x="196" y="61" width="100" height="20" rx="10" fill="#fdeee6"/>
+      <text x="246" y="76" font-weight="700" fill="#9a3a12" text-anchor="middle">+ 10 dias</text>
+      <text x="308" y="76">com justificativa expressa e ciência do requerente (§ 2º)</text>
+    </g>
+  </g>
+
+  <!-- 3. Recurso -->
+  <g transform="translate(0 198)">
+    <rect x="60" width="648" height="70" rx="10" fill="#fcfcfb" stroke="#e1e0d9"/>
+    <circle cx="30" cy="32" r="16" fill="#256abf"/>
+    <text x="30" y="38" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+    <text x="76" y="30" font-size="16" font-weight="700" fill="#1c5cab">Se negado:</text>
+    <text x="76" y="48" font-size="16" font-weight="700" fill="#1c5cab">recurso</text>
+    <text x="76" y="64" font-size="12" fill="#52514e">art. 15</text>
+    <g font-size="13" fill="#0b0b0b">
+      <rect x="196" y="13" width="100" height="20" rx="10" fill="#e3edf9"/>
+      <text x="246" y="28" font-weight="700" fill="#1c5cab" text-anchor="middle">10 dias</text>
+      <text x="308" y="28">para recorrer, a contar da ciência da decisão</text>
+      <rect x="196" y="39" width="100" height="20" rx="10" fill="#e3edf9"/>
+      <text x="246" y="54" font-weight="700" fill="#1c5cab" text-anchor="middle">5 dias</text>
+      <text x="308" y="54">para a autoridade superior se manifestar</text>
+    </g>
+  </g>
+
+  <!-- Nota -->
+  <g transform="translate(0 292)">
+    <rect x="12" width="696" height="144" rx="10" fill="#f9f9f7" stroke="#e1e0d9"/>
+    <text x="28" y="26" font-size="13" font-weight="700" fill="#0b0b0b">Quem julga o recurso depende de quem negou:</text>
+    <g font-size="13" fill="#0b0b0b">
+      <text x="28" y="50"><tspan font-weight="700">Poder Executivo federal</tspan> (Decreto nº 7.724/2012): a autoridade superior do art. 15 e, depois,</text>
+      <text x="28" y="68">a autoridade máxima do órgão, a CGU e a CMRI.</text>
+      <text x="28" y="92"><tspan font-weight="700">CAU</tspan> (Resolução CAU/BR nº 228/2022): 1ª instância, a <tspan font-weight="700">Presidência do conselho</tspan> (10 dias; decide em 5);</text>
+      <text x="28" y="110">2ª, o Plenário do CAU/UF; 3ª, o Plenário do CAU/BR, que decide em definitivo.</text>
+      <text x="28" y="128">Sem recurso à CGU nem à CMRI (Súmula CMRI nº 7/2015).</text>
+    </g>
+  </g>
+</svg>

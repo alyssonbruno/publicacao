@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="330" viewBox="0 0 720 330" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="330" fill="#ffffff"/>
+  <defs>
+    <marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3d3c39"/>
+    </marker>
+    <marker id="seta-verde" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#137a55"/>
+    </marker>
+    <marker id="seta-laranja" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b06f00"/>
+    </marker>
+  </defs>
+
+  <text x="16" y="26" font-size="14" font-weight="700" fill="#0b0b0b">O processo de comunicação</text>
+
+  <!-- Ruído -->
+  <rect x="276" y="44" width="168" height="44" rx="6" fill="#fdf1d6" stroke="#b06f00" stroke-dasharray="5 4"/>
+  <text x="360" y="64" font-size="13" font-weight="700" fill="#7a4d00" text-anchor="middle">Ruído</text>
+  <text x="360" y="80" font-size="11.5" fill="#7a4d00" text-anchor="middle">distorce a mensagem</text>
+  <line x1="320" y1="88" x2="214" y2="146" stroke="#b06f00" stroke-dasharray="4 3" marker-end="url(#seta-laranja)"/>
+  <line x1="360" y1="88" x2="360" y2="116" stroke="#b06f00" stroke-dasharray="4 3" marker-end="url(#seta-laranja)"/>
+  <line x1="400" y1="88" x2="502" y2="146" stroke="#b06f00" stroke-dasharray="4 3" marker-end="url(#seta-laranja)"/>
+
+  <!-- Caixas -->
+  <rect x="16" y="120" width="140" height="64" rx="8" fill="#e3edf9" stroke="#256abf"/>
+  <text x="86" y="148" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">Emissor</text>
+  <text x="86" y="167" font-size="11.5" fill="#3d3c39" text-anchor="middle">quem inicia</text>
+
+  <rect x="276" y="120" width="168" height="64" rx="8" fill="#f2f1ec" stroke="#8a8984"/>
+  <text x="360" y="146" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">Mensagem</text>
+  <text x="360" y="166" font-size="11.5" fill="#3d3c39" text-anchor="middle">pelo canal (ofício, e-mail…)</text>
+
+  <rect x="564" y="120" width="140" height="64" rx="8" fill="#e3edf9" stroke="#256abf"/>
+  <text x="634" y="148" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">Receptor</text>
+  <text x="634" y="167" font-size="11.5" fill="#3d3c39" text-anchor="middle">quem recebe</text>
+
+  <!-- Setas de ida -->
+  <line x1="156" y1="152" x2="272" y2="152" stroke="#3d3c39" stroke-width="2" marker-end="url(#seta)"/>
+  <text x="214" y="174" font-size="12" font-weight="600" fill="#3d3c39" text-anchor="middle">codifica</text>
+  <line x1="444" y1="152" x2="560" y2="152" stroke="#3d3c39" stroke-width="2" marker-end="url(#seta)"/>
+  <text x="502" y="174" font-size="12" font-weight="600" fill="#3d3c39" text-anchor="middle">decodifica</text>
+
+  <!-- Feedback -->
+  <path d="M634,184 L634,236 L86,236 L86,188" fill="none" stroke="#137a55" stroke-width="2" marker-end="url(#seta-verde)"/>
+  <text x="360" y="228" font-size="13" font-weight="700" fill="#137a55" text-anchor="middle">Feedback (retroação)</text>
+  <text x="360" y="256" font-size="12" fill="#137a55" text-anchor="middle">o receptor responde, e o emissor confere se foi entendido</text>
+
+  <text x="16" y="300" font-size="11.5" fill="#52514e">Comunicação de mão dupla: a ida (emissor → receptor) e a volta (feedback).</text>
+  <text x="16" y="318" font-size="11.5" fill="#52514e">O ruído pode surgir em qualquer etapa: na codificação, no canal ou na decodificação.</text>
+</svg>

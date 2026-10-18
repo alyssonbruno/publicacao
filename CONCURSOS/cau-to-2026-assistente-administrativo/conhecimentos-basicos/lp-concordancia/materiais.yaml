@@ -1,0 +1,53 @@
+materiais:
+  - tipo: texto
+    titulo: Concordância verbal e nominal
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: podcast
+    titulo: Concordância Verbal (pt.1)
+    url: https://podcasts.apple.com/br/podcast/concord%C3%A2ncia-verbal-pt-1/id1468750752?i=1000532005155
+    audio: https://anchor.fm/s/c06f674/podcast/play/38772039/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-14%2F212474121-44100-2-65b97d5ee4a2b.m4a
+    autor: Elias Santana (Português para quem?)
+    duracao_min: 15
+    descricao: >-
+      Comece em 4:36 (antes disso, abertura e conversa) e pare em 14:10. Pela transcrição
+      automática conferida na curadoria (o episódio não foi ouvido), o trecho explica a regra
+      geral (o verbo concorda com o núcleo do sujeito, mesmo com um plural perto dele) e o sujeito
+      composto antes e depois do verbo. Não trata de haver, fazer, "se" nem de concordância
+      nominal: esses pontos estão no texto da aula.
+  - tipo: link
+    titulo: "EaDicas de Português, Dica 16 — Voz passiva sintética"
+    url: https://ead.stj.jus.br/pluginfile.php/105436/mod_resource/content/11/assets/files/2dica-16.pdf
+    autor: Wanderson de Melo Gonçalves (STJ)
+    descricao: >-
+      PDF de duas páginas, de 2014. O "se" com verbo que aceita a passiva (o verbo concorda) e
+      com verbo que pede preposição, sem complemento ou de ligação (o verbo fica no singular). É o
+      ponto da aula que a banca mais cobra junto com haver e fazer.
+  - tipo: link
+    titulo: "Gotas da Língua Portuguesa nº 164 — Concordância do verbo haver"
+    url: https://bd-login.tjmg.jus.br/jspui/bitstream/tjmg/11341/1/164%20Concord%c3%a2ncia%20do%20verbo%20haver.pdf
+    autor: TJMG (Biblioteca Digital)
+    descricao: >-
+      Uma página, com quatro frases para completar e as respostas. O haver no sentido de existir
+      fica no singular, com o teste de passar para o presente, e o haver auxiliar concorda. Não
+      trata de fazer nem do auxiliar de haver ("pode haver"): veja o texto da aula.
+  - tipo: link
+    titulo: "Gotas da Língua Portuguesa nº 212 — Verbo ser + adjetivo predicativo"
+    url: https://bd-login.tjmg.jus.br/jspui/bitstream/tjmg/12600/1/212%20Concord%c3%a2ncia%20nominal%203.pdf
+    autor: TJMG (Biblioteca Digital)
+    descricao: >-
+      Uma página, com exercício e resposta. "É proibido", "é necessário", "é bom": invariável
+      sem artigo, concordando com artigo. Caso que a Quadrix já cobrou de assistente
+      administrativo.
+  - tipo: link
+    titulo: Concordância verbal — Manual de Comunicação da Secom
+    url: https://www12.senado.leg.br/manualdecomunicacao/estilos/concordancia-verbal
+    autor: Senado Federal (Secretaria de Comunicação Social)
+    descricao: >-
+      Verbete com exemplos tirados de notícias: partitivos, "cerca de" e "mais de", nomes no
+      plural, "que" e "quem", pronomes de tratamento, haver e fazer, "se" de indeterminação e
+      sujeito composto com "nem" e "ou". Em "um dos que", manda o plural, e o Manual da
+      Presidência aceita também o singular (o texto da aula avisa). Não trata de concordância
+      nominal.

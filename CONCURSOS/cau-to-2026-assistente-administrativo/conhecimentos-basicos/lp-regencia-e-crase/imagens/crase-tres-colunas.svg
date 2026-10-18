@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="392" viewBox="0 0 720 392" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="392" fill="#ffffff"/>
+
+  <!-- Obrigatória -->
+  <g transform="translate(12 12)">
+    <rect width="224" height="368" rx="10" fill="#e4f5ec" stroke="#1baf7a" stroke-width="1.5"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#11764f">✓ Obrigatória</text>
+    <g font-size="13" fill="#0b0b0b">
+      <text x="16" y="60">regente pede "a" + palavra</text>
+      <text x="16" y="77">feminina com artigo</text>
+      <text x="16" y="94" font-style="italic" fill="#52514e">refere-se à portaria</text>
+      <text x="16" y="124">àquele, àquela, àquilo</text>
+      <text x="16" y="154">à qual, às quais</text>
+      <text x="16" y="184">horas exatas</text>
+      <text x="16" y="201" font-style="italic" fill="#52514e">às 14h; à uma hora</text>
+      <text x="16" y="231">locuções femininas</text>
+      <text x="16" y="248" font-style="italic" fill="#52514e">às vezes, à medida que,</text>
+      <text x="16" y="265" font-style="italic" fill="#52514e">à custa de</text>
+      <text x="16" y="295">"à moda de" subentendida</text>
+      <text x="16" y="312" font-style="italic" fill="#52514e">bife à milanesa</text>
+    </g>
+  </g>
+
+  <!-- Proibida -->
+  <g transform="translate(248 12)">
+    <rect width="224" height="368" rx="10" fill="#fbe3e3" stroke="#d14343" stroke-width="1.5"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#b42727">✕ Proibida</text>
+    <g font-size="13" fill="#0b0b0b">
+      <text x="16" y="60">palavra masculina</text>
+      <text x="16" y="77" font-style="italic" fill="#52514e">a pé, a prazo</text>
+      <text x="16" y="107">verbo</text>
+      <text x="16" y="124" font-style="italic" fill="#52514e">começou a digitar</text>
+      <text x="16" y="154">pronome pessoal e de</text>
+      <text x="16" y="171">tratamento (exceto senhora,</text>
+      <text x="16" y="188">senhorita, dona)</text>
+      <text x="16" y="205" font-style="italic" fill="#52514e">a ela; a Vossa Senhoria</text>
+      <text x="16" y="235">indefinidos e "uma"</text>
+      <text x="16" y="265">que, quem, cuja</text>
+      <text x="16" y="295">"a" no singular antes de plural</text>
+      <text x="16" y="320">palavras repetidas</text>
+      <text x="16" y="345">depois de outra preposição</text>
+    </g>
+  </g>
+
+  <!-- Facultativa -->
+  <g transform="translate(484 12)">
+    <rect width="224" height="368" rx="10" fill="#fdf1d6" stroke="#c98500" stroke-width="1.5"/>
+    <text x="16" y="30" font-size="17" font-weight="700" fill="#8a5a00">± Facultativa</text>
+    <g font-size="13" fill="#0b0b0b">
+      <text x="16" y="60">possessivo feminino</text>
+      <text x="16" y="77" font-style="italic" fill="#52514e">a/à sua equipe</text>
+      <text x="16" y="107">nome de mulher</text>
+      <text x="16" y="124" font-style="italic" fill="#52514e">a/à Joana</text>
+      <text x="16" y="154">depois de "até"</text>
+      <text x="16" y="171" font-style="italic" fill="#52514e">até a/à portaria</text>
+      <text x="16" y="215" fill="#52514e">O acento é opcional porque</text>
+      <text x="16" y="232" fill="#52514e">o artigo é opcional.</text>
+      <text x="16" y="262" fill="#52514e">Suprimir o acento mantém</text>
+      <text x="16" y="279" fill="#52514e">a correção.</text>
+    </g>
+  </g>
+</svg>

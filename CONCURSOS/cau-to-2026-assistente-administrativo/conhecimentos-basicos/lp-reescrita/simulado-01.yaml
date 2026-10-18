@@ -1,0 +1,154 @@
+# Treino de reescrita de frases e textos e adequação da linguagem — CAU/TO 2026, Assistente Administrativo. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Reescrita de frases e textos e adequação da linguagem
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (uma notícia de um conselho profissional), com linhas
+      numeradas, no estilo de certo ou errado do Instituto Quadrix: substituição e reescrita de trechos nas três
+      variantes do comando (só correção, correção e sentidos, só sentidos) e adequação do registro.'
+    - 'Referências de estilo, sem cópia de itens: itens do Instituto Quadrix (2018 a 2025) listados no Estude Grátis
+      nos assuntos Redação - Reescritura de texto e Usos da norma-padrão (culta) (https://www.estudegratis.com.br/questoes-de-concurso/materia/portugues/assunto/redacao-reescritura-de-texto
+      e https://www.estudegratis.com.br/questoes-de-concurso/materia/portugues/assunto/usos-da-norma-padrao-culta).
+      Os gabaritos desses itens não foram consultados.'
+    - 'Bases do gabarito: Manual de Redação da Presidência da República, 3ª ed. (itens 3.1, 3.6, 6.4.5, 11.4
+      e 12.2); Câmara dos Deputados, Manual de linguagem simples (2024); Ceale/MEC, Variação lingüística e
+      ensino (2006), seção 3.2; Estratégia Concursos, Reescritura de frases (2021); Toda Matéria, Vozes verbais.
+      Consultados em 17/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-reescrita
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho mudou, em outubro, o horário do atendimento presencial.
+      > 2. A sede agora abre às 8h e fecha às 14h, e o portal continua
+      > 3. disponível o dia todo. A diretoria aprovou a mudança em setembro,
+      > 4. depois de uma consulta aos servidores, que pediram mais tempo para
+      > 5. analisar os processos à tarde. Segundo a coordenadora do atendimento,
+      > 6. a fila da manhã era o maior problema: “A gente não dá conta de atender
+      > 7. todo mundo no mesmo dia, então o jeito foi reorganizar”. Como o
+      > 8. novo horário vale só para a sede, as unidades do interior mantêm
+      > 9. o funcionamento antigo, atendendo também aos sábados.
+
+      Com base na estrutura linguística e no vocabulário empregados no texto, julgue o item.
+
+      A reescrita do trecho “A diretoria aprovou a mudança” (linha 3) como “A mudança foi aprovada pela diretoria” manteria a correção gramatical e os sentidos do texto.
+  - id: q02
+    topico: conhecimentos-basicos/lp-reescrita
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho mudou, em outubro, o horário do atendimento presencial.
+      > 2. A sede agora abre às 8h e fecha às 14h, e o portal continua
+      > 3. disponível o dia todo. A diretoria aprovou a mudança em setembro,
+      > 4. depois de uma consulta aos servidores, que pediram mais tempo para
+      > 5. analisar os processos à tarde. Segundo a coordenadora do atendimento,
+      > 6. a fila da manhã era o maior problema: “A gente não dá conta de atender
+      > 7. todo mundo no mesmo dia, então o jeito foi reorganizar”. Como o
+      > 8. novo horário vale só para a sede, as unidades do interior mantêm
+      > 9. o funcionamento antigo, atendendo também aos sábados.
+
+      Com base na estrutura linguística e no vocabulário empregados no texto, julgue o item.
+
+      A supressão da vírgula empregada logo após “servidores” (linha 4) manteria a correção gramatical e os sentidos do texto.
+  - id: q03
+    topico: conhecimentos-basicos/lp-reescrita
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho mudou, em outubro, o horário do atendimento presencial.
+      > 2. A sede agora abre às 8h e fecha às 14h, e o portal continua
+      > 3. disponível o dia todo. A diretoria aprovou a mudança em setembro,
+      > 4. depois de uma consulta aos servidores, que pediram mais tempo para
+      > 5. analisar os processos à tarde. Segundo a coordenadora do atendimento,
+      > 6. a fila da manhã era o maior problema: “A gente não dá conta de atender
+      > 7. todo mundo no mesmo dia, então o jeito foi reorganizar”. Como o
+      > 8. novo horário vale só para a sede, as unidades do interior mantêm
+      > 9. o funcionamento antigo, atendendo também aos sábados.
+
+      Com base na estrutura linguística e no vocabulário empregados no texto, julgue o item.
+
+      A reescrita do trecho “Como o novo horário vale só para a sede” (linhas 7 e 8) como “Como só o novo horário vale para a sede” manteria a correção gramatical e os sentidos do texto.
+  - id: q04
+    topico: conhecimentos-basicos/lp-reescrita
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho mudou, em outubro, o horário do atendimento presencial.
+      > 2. A sede agora abre às 8h e fecha às 14h, e o portal continua
+      > 3. disponível o dia todo. A diretoria aprovou a mudança em setembro,
+      > 4. depois de uma consulta aos servidores, que pediram mais tempo para
+      > 5. analisar os processos à tarde. Segundo a coordenadora do atendimento,
+      > 6. a fila da manhã era o maior problema: “A gente não dá conta de atender
+      > 7. todo mundo no mesmo dia, então o jeito foi reorganizar”. Como o
+      > 8. novo horário vale só para a sede, as unidades do interior mantêm
+      > 9. o funcionamento antigo, atendendo também aos sábados.
+
+      Com base na estrutura linguística e no vocabulário empregados no texto, julgue o item.
+
+      A substituição de “Como” (linha 7) por “Se” manteria a correção gramatical do texto, ainda que alterasse os seus sentidos.
+  - id: q05
+    topico: conhecimentos-basicos/lp-reescrita
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho mudou, em outubro, o horário do atendimento presencial.
+      > 2. A sede agora abre às 8h e fecha às 14h, e o portal continua
+      > 3. disponível o dia todo. A diretoria aprovou a mudança em setembro,
+      > 4. depois de uma consulta aos servidores, que pediram mais tempo para
+      > 5. analisar os processos à tarde. Segundo a coordenadora do atendimento,
+      > 6. a fila da manhã era o maior problema: “A gente não dá conta de atender
+      > 7. todo mundo no mesmo dia, então o jeito foi reorganizar”. Como o
+      > 8. novo horário vale só para a sede, as unidades do interior mantêm
+      > 9. o funcionamento antigo, atendendo também aos sábados.
+
+      Considerando a adequação da linguagem a diferentes contextos, julgue o item, a respeito do texto.
+
+      O trecho entre aspas, nas linhas 6 e 7, reproduz a fala da coordenadora em registro informal, com marcas como “A gente” e “dá conta”.
+  - id: q06
+    topico: conhecimentos-basicos/lp-reescrita
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho mudou, em outubro, o horário do atendimento presencial.
+      > 2. A sede agora abre às 8h e fecha às 14h, e o portal continua
+      > 3. disponível o dia todo. A diretoria aprovou a mudança em setembro,
+      > 4. depois de uma consulta aos servidores, que pediram mais tempo para
+      > 5. analisar os processos à tarde. Segundo a coordenadora do atendimento,
+      > 6. a fila da manhã era o maior problema: “A gente não dá conta de atender
+      > 7. todo mundo no mesmo dia, então o jeito foi reorganizar”. Como o
+      > 8. novo horário vale só para a sede, as unidades do interior mantêm
+      > 9. o funcionamento antigo, atendendo também aos sábados.
+
+      Com base na estrutura linguística e no vocabulário empregados no texto, julgue o item.
+
+      Os sentidos do texto seriam preservados caso o trecho “atendendo também aos sábados” (linha 9) fosse substituído por “porque atendem também aos sábados”.
+  - id: q07
+    topico: conhecimentos-basicos/lp-reescrita
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho mudou, em outubro, o horário do atendimento presencial.
+      > 2. A sede agora abre às 8h e fecha às 14h, e o portal continua
+      > 3. disponível o dia todo. A diretoria aprovou a mudança em setembro,
+      > 4. depois de uma consulta aos servidores, que pediram mais tempo para
+      > 5. analisar os processos à tarde. Segundo a coordenadora do atendimento,
+      > 6. a fila da manhã era o maior problema: “A gente não dá conta de atender
+      > 7. todo mundo no mesmo dia, então o jeito foi reorganizar”. Como o
+      > 8. novo horário vale só para a sede, as unidades do interior mantêm
+      > 9. o funcionamento antigo, atendendo também aos sábados.
+
+      Considerando a adequação da linguagem a diferentes contextos, julgue o item, a respeito do texto.
+
+      Por se tratar de texto escrito, a notícia deveria manter o registro formal também no trecho entre aspas (linhas 6 e 7).
+  - id: q08
+    topico: conhecimentos-basicos/lp-reescrita
+    enunciado: |-
+      Considere o texto a seguir, uma notícia fictícia do site de um conselho profissional, com as linhas numeradas.
+      > 1. O Conselho mudou, em outubro, o horário do atendimento presencial.
+      > 2. A sede agora abre às 8h e fecha às 14h, e o portal continua
+      > 3. disponível o dia todo. A diretoria aprovou a mudança em setembro,
+      > 4. depois de uma consulta aos servidores, que pediram mais tempo para
+      > 5. analisar os processos à tarde. Segundo a coordenadora do atendimento,
+      > 6. a fila da manhã era o maior problema: “A gente não dá conta de atender
+      > 7. todo mundo no mesmo dia, então o jeito foi reorganizar”. Como o
+      > 8. novo horário vale só para a sede, as unidades do interior mantêm
+      > 9. o funcionamento antigo, atendendo também aos sábados.
+
+      Considerando a adequação da linguagem a diferentes contextos, julgue o item, a respeito do texto.
+
+      Caso a fala da coordenadora fosse aproveitada num ofício, em registro formal, o trecho “A gente não dá conta de atender todo mundo no mesmo dia” (linhas 6 e 7) poderia ser reescrito, com correção gramatical e sem alteração do sentido, como “Não conseguimos atender a todos no mesmo dia”.

@@ -1,0 +1,167 @@
+# Treino de concordância verbal e nominal — CAU/TO 2026, Assistente Administrativo. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Concordância verbal e nominal
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, sobre um texto próprio e fictício (comunicado de um conselho profissional), com linhas
+      numeradas, e sobre frases soltas, no estilo de certo ou errado do Instituto Quadrix: troca de flexão “sem
+      prejuízo da correção”, justificativa da flexão e julgamento da correção de frases.'
+    - 'Referências de estilo, sem cópia de itens: itens do Instituto Quadrix listados no Estude Grátis (assuntos
+      Concordância verbal e concordância nominal, Concordância e flexão nominal e Verbo:
+      https://www.estudegratis.com.br/questoes-de-concurso/materia/portugues/assunto/concordancia-verbal-concordancia-nominal/banca/quadrix);
+      caderno e gabarito definitivo de Assistente Administrativo do CRMV-CE 2024 e do CREF3/SC 2023 (Instituto
+      Quadrix); item do NOVACAP 2024 no Aprova Concursos.'
+    - 'Bases do gabarito: Manual de Redação da Presidência da República, 3ª ed. (item 11.7); Manual de
+      Comunicação da Secom do Senado Federal (verbetes “Concordância verbal” e “Anexo”); TJMG, Gotas da
+      Língua Portuguesa nºs 158, 164, 171, 204 e 212; STJ, EaDicas de Português, Dica 16. Consultados em
+      17/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Considere o texto a seguir, um comunicado fictício de um conselho profissional, com as linhas numeradas.
+      > 1. Desde a semana passada, chegaram ao protocolo do Conselho novos
+      > 2. pedidos de registro. Há, entre eles, processos que
+      > 3. aguardam documentos, e faz quinze dias que a equipe tenta contato
+      > 4. com os interessados. Para agilizar a análise, publicaram-se no
+      > 5. portal as orientações de preenchimento, e a lista dos documentos
+      > 6. exigidos segue anexa a este comunicado. É necessária a assinatura
+      > 7. do responsável técnico em todos os formulários. A maioria dos
+      > 8. profissionais já regularizou a situação; os demais devem procurar
+      > 9. o atendimento, que funciona de segunda a sexta-feira.
+
+      Com relação à concordância verbal e nominal no texto, julgue o item.
+
+      Na linha 1, a forma verbal “chegaram” está no plural porque concorda com o núcleo do sujeito, “pedidos” (linha 2), que aparece depois do verbo.
+  - id: q02
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Considere o texto a seguir, um comunicado fictício de um conselho profissional, com as linhas numeradas.
+      > 1. Desde a semana passada, chegaram ao protocolo do Conselho novos
+      > 2. pedidos de registro. Há, entre eles, processos que
+      > 3. aguardam documentos, e faz quinze dias que a equipe tenta contato
+      > 4. com os interessados. Para agilizar a análise, publicaram-se no
+      > 5. portal as orientações de preenchimento, e a lista dos documentos
+      > 6. exigidos segue anexa a este comunicado. É necessária a assinatura
+      > 7. do responsável técnico em todos os formulários. A maioria dos
+      > 8. profissionais já regularizou a situação; os demais devem procurar
+      > 9. o atendimento, que funciona de segunda a sexta-feira.
+
+      Com relação à concordância verbal e nominal no texto, julgue o item.
+
+      A substituição de “Há” (linha 2) por “Existe” manteria a correção gramatical do texto.
+  - id: q03
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Considere o texto a seguir, um comunicado fictício de um conselho profissional, com as linhas numeradas.
+      > 1. Desde a semana passada, chegaram ao protocolo do Conselho novos
+      > 2. pedidos de registro. Há, entre eles, processos que
+      > 3. aguardam documentos, e faz quinze dias que a equipe tenta contato
+      > 4. com os interessados. Para agilizar a análise, publicaram-se no
+      > 5. portal as orientações de preenchimento, e a lista dos documentos
+      > 6. exigidos segue anexa a este comunicado. É necessária a assinatura
+      > 7. do responsável técnico em todos os formulários. A maioria dos
+      > 8. profissionais já regularizou a situação; os demais devem procurar
+      > 9. o atendimento, que funciona de segunda a sexta-feira.
+
+      Com relação à concordância verbal e nominal no texto, julgue o item.
+
+      Na linha 3, a forma verbal “faz” poderia ser substituída por “fazem”, em concordância com “quinze dias”, sem prejuízo da correção gramatical.
+  - id: q04
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Considere o texto a seguir, um comunicado fictício de um conselho profissional, com as linhas numeradas.
+      > 1. Desde a semana passada, chegaram ao protocolo do Conselho novos
+      > 2. pedidos de registro. Há, entre eles, processos que
+      > 3. aguardam documentos, e faz quinze dias que a equipe tenta contato
+      > 4. com os interessados. Para agilizar a análise, publicaram-se no
+      > 5. portal as orientações de preenchimento, e a lista dos documentos
+      > 6. exigidos segue anexa a este comunicado. É necessária a assinatura
+      > 7. do responsável técnico em todos os formulários. A maioria dos
+      > 8. profissionais já regularizou a situação; os demais devem procurar
+      > 9. o atendimento, que funciona de segunda a sexta-feira.
+
+      Com relação à concordância verbal e nominal no texto, julgue o item.
+
+      No trecho “publicaram-se no portal as orientações de preenchimento” (linhas 4 e 5), o verbo está no plural porque “as orientações de preenchimento” é o sujeito da oração, e o “se” é partícula apassivadora.
+  - id: q05
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Considere o texto a seguir, um comunicado fictício de um conselho profissional, com as linhas numeradas.
+      > 1. Desde a semana passada, chegaram ao protocolo do Conselho novos
+      > 2. pedidos de registro. Há, entre eles, processos que
+      > 3. aguardam documentos, e faz quinze dias que a equipe tenta contato
+      > 4. com os interessados. Para agilizar a análise, publicaram-se no
+      > 5. portal as orientações de preenchimento, e a lista dos documentos
+      > 6. exigidos segue anexa a este comunicado. É necessária a assinatura
+      > 7. do responsável técnico em todos os formulários. A maioria dos
+      > 8. profissionais já regularizou a situação; os demais devem procurar
+      > 9. o atendimento, que funciona de segunda a sexta-feira.
+
+      Com relação à concordância verbal e nominal no texto, julgue o item.
+
+      Na linha 6, a palavra “anexa” poderia ser substituída por “anexo”, sem prejuízo da correção gramatical, porque essa palavra é invariável.
+  - id: q06
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Considere o texto a seguir, um comunicado fictício de um conselho profissional, com as linhas numeradas.
+      > 1. Desde a semana passada, chegaram ao protocolo do Conselho novos
+      > 2. pedidos de registro. Há, entre eles, processos que
+      > 3. aguardam documentos, e faz quinze dias que a equipe tenta contato
+      > 4. com os interessados. Para agilizar a análise, publicaram-se no
+      > 5. portal as orientações de preenchimento, e a lista dos documentos
+      > 6. exigidos segue anexa a este comunicado. É necessária a assinatura
+      > 7. do responsável técnico em todos os formulários. A maioria dos
+      > 8. profissionais já regularizou a situação; os demais devem procurar
+      > 9. o atendimento, que funciona de segunda a sexta-feira.
+
+      Com relação à concordância verbal e nominal no texto, julgue o item.
+
+      Na linha 6, a forma “necessária” poderia ser substituída por “necessário”, sem prejuízo da correção gramatical, já que, na expressão “é necessário”, o adjetivo não varia.
+  - id: q07
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Considere o texto a seguir, um comunicado fictício de um conselho profissional, com as linhas numeradas.
+      > 1. Desde a semana passada, chegaram ao protocolo do Conselho novos
+      > 2. pedidos de registro. Há, entre eles, processos que
+      > 3. aguardam documentos, e faz quinze dias que a equipe tenta contato
+      > 4. com os interessados. Para agilizar a análise, publicaram-se no
+      > 5. portal as orientações de preenchimento, e a lista dos documentos
+      > 6. exigidos segue anexa a este comunicado. É necessária a assinatura
+      > 7. do responsável técnico em todos os formulários. A maioria dos
+      > 8. profissionais já regularizou a situação; os demais devem procurar
+      > 9. o atendimento, que funciona de segunda a sexta-feira.
+
+      Com relação à concordância verbal e nominal no texto, julgue o item.
+
+      Na linha 8, a forma verbal “regularizou” poderia ser substituída por “regularizaram”, sem prejuízo da correção gramatical.
+  - id: q08
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Considere o texto a seguir, um comunicado fictício de um conselho profissional, com as linhas numeradas.
+      > 1. Desde a semana passada, chegaram ao protocolo do Conselho novos
+      > 2. pedidos de registro. Há, entre eles, processos que
+      > 3. aguardam documentos, e faz quinze dias que a equipe tenta contato
+      > 4. com os interessados. Para agilizar a análise, publicaram-se no
+      > 5. portal as orientações de preenchimento, e a lista dos documentos
+      > 6. exigidos segue anexa a este comunicado. É necessária a assinatura
+      > 7. do responsável técnico em todos os formulários. A maioria dos
+      > 8. profissionais já regularizou a situação; os demais devem procurar
+      > 9. o atendimento, que funciona de segunda a sexta-feira.
+
+      Com relação à concordância verbal e nominal no texto, julgue o item.
+
+      Na linha 9, a forma verbal “funciona” poderia ser substituída por “funcionam”, em concordância com “os demais” (linha 8), sem prejuízo da correção gramatical.
+  - id: q09
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Acerca da correção gramatical da frase apresentada, quanto à concordância verbal e nominal, julgue o item.
+
+      Os relatórios e a planilha revisados foram enviados à presidência na última sexta-feira.
+  - id: q10
+    topico: conhecimentos-basicos/lp-concordancia
+    enunciado: |-
+      Acerca da correção gramatical da frase apresentada, quanto à concordância verbal e nominal, julgue o item.
+
+      Trata-se de pedidos antigos, que ainda dependem de parecer da comissão de ética.
