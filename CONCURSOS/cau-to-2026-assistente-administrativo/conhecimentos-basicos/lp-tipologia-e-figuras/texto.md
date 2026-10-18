@@ -10,14 +10,43 @@ O edital pede a **identificação** de três coisas: o tipo de um texto, as figu
 
 **Gênero textual** é o texto como ele circula na vida real, com nome, finalidade e formato próprios: ata, ofício, notícia, e-mail, edital, receita, crônica, artigo de opinião, manual. Os gêneros são muitos e mudam com o tempo.
 
+Em uma linha: **tipo é o modo de organizar; gênero é o texto que circula, com finalidade e formato.**
+
 Um gênero é construído com um ou mais tipos. Exemplos de um setor administrativo:
 
 - o **manual** de uso do sistema de protocolo é um gênero; o tipo que predomina nele é o injuntivo;
 - a **crônica** que um servidor publica no jornal interno é um gênero; nela costuma predominar a narração;
 - a **notícia** publicada no site do conselho é um gênero; o **artigo de opinião** é outro.
 
+Mais quatro gêneros e o tipo que predomina em cada um, segundo as fontes desta aula:
+
+| Gênero (o texto que circula) | Para que serve | Tipo que predomina |
+|---|---|---|
+| regulamento | fixar as regras de uso de um serviço ou de um espaço | injuntivo |
+| palestra | apresentar e explicar um assunto a um público | dissertativo-expositivo |
+| resenha crítica | avaliar um livro, um filme, um evento | dissertativo-argumentativo |
+| notícia | relatar um fato recente | as fontes divergem: descritivo (Toda Matéria) ou expositivo (Quero Bolsa) |
+
+A última linha mostra o ponto: o tipo que predomina na notícia é discutível; que a notícia é um gênero, não.
+
 > [!CAUTION]
 > O item diz "tipo textual notícia" ou "gênero narrativo", ou acerta o tipo e erra o gênero na mesma frase. Leia as duas metades. Se uma estiver errada, o item inteiro está errado.
+
+## Tipo ou gênero? Um teste para cada nome
+
+Quando o item traz os dois termos, separe os nomes e teste cada um:
+
+1. **Está na lista dos cinco?** Narrativo, descritivo, dissertativo-expositivo, dissertativo-argumentativo e injuntivo (ou instrucional). Se está, é tipo. A lista é fechada; os gêneros são inúmeros.
+2. **Dá para dizer "um ___" ou "uma ___" e imaginar esse texto circulando por aí, com destinatário e formato?** "Uma resenha", "um regulamento", "uma ata": gênero. Ninguém recebe "um descritivo" ou "um narrativo": são modos de organizar.
+
+O molde da pegadinha põe os dois nomes na mesma frase com os lugares trocados. Um exemplo, sobre a resenha de um livro publicada no boletim de um conselho:
+
+> O texto pertence ao tipo textual resenha e ao gênero dissertativo-argumentativo.
+
+Errado. "Dissertativo-argumentativo" está na lista dos cinco: é tipo. "Uma resenha" circula: é gênero. A versão certa diz que o texto é do gênero resenha e que nele predomina o tipo dissertativo-argumentativo. A troca também pode vir pela metade: "do gênero resenha e do tipo narrativo" acerta o gênero, erra o tipo e está igualmente errado.
+
+> [!NOTE]
+> O primeiro teste sai das fontes (os tipos são poucos e fixos; os gêneros, muitos e variados). O segundo é leitura nossa: um atalho de prova, e não uma definição da gramática.
 
 ## Os tipos textuais
 
@@ -192,7 +221,7 @@ Polissíndeto e assíndeto são opostos, como aliteração (consoante) e assonâ
 
 A Quadrix trabalha com itens de certo ou errado, de uma frase, quase sempre presos a um trecho do texto. Os moldes mais prováveis para este tópico:
 
-- **tipo e gênero na mesma assertiva.** Um dos dois vem trocado, ou vêm invertidos ("gênero injuntivo", "tipo textual crônica");
+- **tipo e gênero na mesma assertiva.** Um dos dois vem trocado, ou vêm invertidos ("gênero argumentativo", "tipo textual crônica");
 - **o nome de uma figura dado a outro fenômeno.** O trecho citado tem mesmo algo a notar (uma omissão, uma repetição, um exagero), mas o nome é o da figura vizinha, ou de uma que nada tem a ver;
 - **classificação certa, justificativa errada.** "Há metáfora, pois a aproximação é feita por meio de conectivo";
 - **sentido literal por figurado**, e vice-versa, com a palavra entre aspas e a remissão à linha;
@@ -204,10 +233,11 @@ A Quadrix trabalha com itens de certo ou errado, de uma frase, quase sempre pres
 ## Fontes
 
 - Daniela Diana, "Tipologia textual", Toda Matéria: https://www.todamateria.com.br/tipologia-textual/
+- "Tipologia textual", Quero Bolsa (página sem autoria identificada; usada só para a lista fechada de cinco tipos e o tipo da notícia): https://querobolsa.com.br/enem/redacao/tipologia-textual
 - Márcia Fernandes, "Figuras de linguagem", Toda Matéria: https://www.todamateria.com.br/figuras-de-linguagem/
 - Márcia Fernandes, "Denotação e Conotação", Toda Matéria: https://www.todamateria.com.br/conotacao-e-denotacao/
 - Kassio Henrique Sobral Rocha, "Figuras de linguagem: o que são, tipos, quando usar e exemplos", Estratégia Concursos: https://concursos.estrategia.com/portal/figuras-de-linguagem/
 - Instituto Quadrix, caderno de provas de Assistente Administrativo do CRC-PR, Concurso Público nº 1/2016, questão 1 (uso do termo "instrucional"; nada foi reproduzido além dessas palavras): https://www.crcpr.org.br/data/concurso-publico/2026-03-16%20-%20DLC80%20-%202016-Documentos-21-Caderno%20de%20provas%20-%20Assistente%20Administrativo.pdf
 - Edital nº 1/2026 do CAU/TO (Instituto Quadrix), Anexo II, Língua Portuguesa, item 1.2.
 
-Consultadas em 10/10/2026. As definições seguem essas fontes. Os exemplos com situações de trabalho e as dicas de prova são deste material; alguns exemplos curtos são de uso corrente em gramáticas e sites de estudo (como "pé da mesa", "subir para cima", "ler Machado de Assis" e "morri de rir").
+Consultadas em 10/10/2026; as duas páginas de tipologia, de novo em 17/10/2026, para o quadro de gêneros e o teste. As definições seguem essas fontes. Os exemplos com situações de trabalho e as dicas de prova são deste material; alguns exemplos curtos são de uso corrente em gramáticas e sites de estudo (como "pé da mesa", "subir para cima", "ler Machado de Assis" e "morri de rir").

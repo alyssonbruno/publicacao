@@ -21,6 +21,7 @@
 - **Anular × revogar:** anula-se o ato ilegal; revoga-se o ato legal que deixou de ser conveniente ou oportuno (Lei nº 9.784/1999, art. 53).
 - **Publicidade** tem exceção: o sigilo previsto na Constituição.
 - **Nepotismo** (Súmula Vinculante nº 13): parentes até o terceiro grau, inclusive.
+- **Reforço:** costume não torna a conduta ética; o art. 37 vale para a indireta (o CAU é autarquia); o concurso aplica a impessoalidade (ligação da doutrina, que vale se o comando a inclui); a lei diz *deve* anular e *pode* revogar, respeitados os direitos adquiridos; a vida privada pode acrescer ou diminuir o conceito funcional (Decreto nº 1.171/1994, fora do edital).
 
 ## Fora do edital, mas usado pela banca
 

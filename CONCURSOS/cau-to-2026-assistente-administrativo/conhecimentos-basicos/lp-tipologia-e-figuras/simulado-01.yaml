@@ -11,6 +11,8 @@ simulado:
     - 'Bases teóricas: Toda Matéria — "Tipologia textual" (Daniela Diana), "Figuras de linguagem"
       e "Denotação e Conotação" (Márcia Fernandes); Estratégia Concursos — "Figuras de linguagem: o que
       são, tipos, quando usar e exemplos" (Kassio Henrique Sobral Rocha). Consultadas em 10/10/2026.'
+    - 'Para os itens q11 a q13 (tipo × gênero), também: Quero Bolsa — "Tipologia textual" (edital como
+      texto injuntivo prescritivo; tipos poucos × gêneros inúmeros). Consultada em 17/10/2026.'
 questoes:
   - id: q01
     topico: conhecimentos-basicos/lp-tipologia-e-figuras
@@ -72,3 +74,51 @@ questoes:
       No trecho “O atendente suspirou: o sistema, sempre tão confiável, tinha caído pela terceira
       vez naquela manhã, como em todas as outras manhãs da semana.”, a expressão “sempre tão confiável”
       foi empregada com ironia.
+  - id: q11
+    topico: conhecimentos-basicos/lp-tipologia-e-figuras
+    enunciado: |-
+      Considere o trecho a seguir, de um edital de seleção de estagiários de um conselho profissional.
+
+      > 1. O Conselho oferece cinco vagas de estágio de nível médio, com
+      > 2. bolsa mensal e auxílio-transporte. As inscrições serão feitas
+      > 3. exclusivamente pela internet, de 3 a 14 de novembro. O candidato
+      > 4. deverá preencher o formulário eletrônico e anexar o histórico
+      > 5. escolar em formato PDF. Não serão aceitas inscrições enviadas
+      > 6. por correio. O candidato que não anexar o histórico terá a
+      > 7. inscrição indeferida.
+
+      Com relação à tipologia e ao gênero do texto, julgue o item.
+
+      O texto pertence a um gênero textual, o edital, em que predomina a sequência injuntiva: formas como “deverá preencher” (linha 4) e “Não serão aceitas” (linha 5) estabelecem o que o candidato deve ou não fazer.
+  - id: q12
+    topico: conhecimentos-basicos/lp-tipologia-e-figuras
+    enunciado: |-
+      Considere o trecho a seguir, de um edital de seleção de estagiários de um conselho profissional.
+
+      > 1. O Conselho oferece cinco vagas de estágio de nível médio, com
+      > 2. bolsa mensal e auxílio-transporte. As inscrições serão feitas
+      > 3. exclusivamente pela internet, de 3 a 14 de novembro. O candidato
+      > 4. deverá preencher o formulário eletrônico e anexar o histórico
+      > 5. escolar em formato PDF. Não serão aceitas inscrições enviadas
+      > 6. por correio. O candidato que não anexar o histórico terá a
+      > 7. inscrição indeferida.
+
+      Com relação à tipologia e ao gênero do texto, julgue o item.
+
+      Os termos “edital” e “injuntivo” designam, ambos, tipos textuais, uma vez que os dois nomeiam o modo como o fragmento organiza as informações.
+  - id: q13
+    topico: conhecimentos-basicos/lp-tipologia-e-figuras
+    enunciado: |-
+      Considere o trecho a seguir, de um edital de seleção de estagiários de um conselho profissional.
+
+      > 1. O Conselho oferece cinco vagas de estágio de nível médio, com
+      > 2. bolsa mensal e auxílio-transporte. As inscrições serão feitas
+      > 3. exclusivamente pela internet, de 3 a 14 de novembro. O candidato
+      > 4. deverá preencher o formulário eletrônico e anexar o histórico
+      > 5. escolar em formato PDF. Não serão aceitas inscrições enviadas
+      > 6. por correio. O candidato que não anexar o histórico terá a
+      > 7. inscrição indeferida.
+
+      Com relação à tipologia e ao gênero do texto, julgue o item.
+
+      O primeiro período do texto (linhas 1 e 2), por apenas informar as vagas e os benefícios, pertence a um gênero textual diferente daquele do restante do fragmento.
