@@ -14,7 +14,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icone-180.png">
 <link rel="icon" type="image/png" href="icone-192.png">
-<!-- Gerado de alyssonbruno/doutorado: aulas/garantias-constitucionais-processo/35-fichas-alysson-e2-e3.html.
+<!-- Gerado de alyssonbruno/doutorado: aulas/garantias-constitucionais-processo/36-fichas-alysson-e2-e3.html.
      Edite lá e copie de novo; esta cabeça só acrescenta o que a página precisa fora do claude.ai. -->
 <style>:root{padding-top:env(safe-area-inset-top, 0px); padding-bottom:env(safe-area-inset-bottom, 0px)}</style>
 </head>
@@ -24,10 +24,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400..700;1,400..700&family=Public+Sans:ital,wght@0,400..700;1,400..700&display=swap">
 <style>
-/* Fichas de fala do bloco II do Seminário 5 (Alysson): uma ficha por slide, na ordem da
-   projeção, e fichas de reserva para o debate. Três usos: na tela, pilha de cartões com
+/* Fichas de fala do Seminário 5 (Alysson): a abertura, o bloco II e a síntese, na ordem do
+   roteiro e sem slides, e fichas de reserva para o debate. Três usos: na tela, pilha de cartões com
    atalhos; no modo apresentação (celular), uma ficha por vez em tela cheia, com toque para
-   avançar e deslize para voltar; na impressão, duas fichas A5 deitadas por folha A4.
+   avançar e deslize para voltar; na impressão, quatro fichas A6 por folha A4.
    Mesmo sistema visual da disciplina: marfim, Public Sans e Source Serif 4; azul = Ballan
    Junior, verde = Mendonça, ameixa = reserva e vítima, ouro = ler em voz alta, terracota = cuidado. */
 :root{
@@ -119,7 +119,6 @@ main{display:flex; flex-direction:column; gap:1.4rem}
   font-size:.78em; letter-spacing:.04em; font-variant-numeric:tabular-nums}
 .topo .n{font-weight:700; font-size:1.28em; letter-spacing:0}
 .topo .texto{font-weight:600; text-transform:uppercase}
-.topo .slide{font-family:ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; letter-spacing:0}
 .topo .tempo{margin-left:auto; font-weight:700; letter-spacing:0}
 
 .ficha h2{font-family:var(--serif); font-weight:650; font-size:1.3em; line-height:1.2; margin:.1em 0 0; text-wrap:balance}
@@ -145,9 +144,9 @@ main{display:flex; flex-direction:column; gap:1.4rem}
 .m.inf{background:var(--ameixa-l); color:var(--ameixa)}
 .m.ext{background:var(--terra-l); color:var(--terra)}
 .vit{color:var(--ameixa); font-weight:650}
+.fala{font-family:var(--serif); font-style:italic}
+p.fala{padding-left:.6em; border-left:3px solid var(--linha)}
 
-.duas{display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:.6em}
-.tres{display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:.6em}
 .caixa{background:var(--cl); border-radius:6px; padding:.45em .6em; min-width:0}
 .caixa h3{font-size:.95em; margin:0 0 .2em; color:var(--c)}
 .caixa ul{padding-left:1em}
@@ -158,10 +157,8 @@ main{display:flex; flex-direction:column; gap:1.4rem}
 .tabela th,.tabela td{text-align:left; padding:.2em .5em; border-bottom:1px solid var(--linha); vertical-align:top}
 .tabela th{font-size:.78em; text-transform:uppercase; letter-spacing:.05em; color:var(--apoio); font-weight:600}
 .tabela td.mono{font-family:ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; font-size:.9em}
-.horario{display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:0 1em}
 
 @media (max-width:640px){
-  .duas,.tres,.horario{grid-template-columns:1fr}
   .topo .tempo{margin-left:0}
   .ficha{padding:.9rem .9rem 1rem}
 }
@@ -176,13 +173,11 @@ main{display:flex; flex-direction:column; gap:1.4rem}
 .apresentando .ficha{display:none}
 .apresentando .ficha.atual{display:flex; position:absolute; inset:0; overflow-y:auto; overscroll-behavior:contain;
   -webkit-overflow-scrolling:touch; touch-action:pan-y; border:0; border-radius:0;
-  font-size:var(--fs-ap); line-height:1.38; gap:.6em;
-  padding:calc(env(safe-area-inset-top, 0px) + 64px) max(18px, env(safe-area-inset-right, 0px))
-          calc(env(safe-area-inset-bottom, 0px) + 64px) max(18px, env(safe-area-inset-left, 0px))}
-.apresentando .ficha.atual .fonte{margin-top:.4em}
-@media (max-width:999px){
-  .apresentando .duas,.apresentando .tres,.apresentando .horario{grid-template-columns:1fr}
-}
+  font-size:var(--fs-ap); line-height:1.34; gap:.5em;
+  padding:calc(env(safe-area-inset-top, 0px) + 62px) max(16px, env(safe-area-inset-right, 0px))
+          calc(env(safe-area-inset-bottom, 0px) + 40px) max(16px, env(safe-area-inset-left, 0px))}
+/* Na tela do celular, a barra de cima já diz a ficha, o minuto e a parte; a fonte fica na lista e no papel. */
+.apresentando .ficha.atual .topo,.apresentando .ficha.atual .fonte{display:none}
 .apresentando .ap-barra{display:flex; position:fixed; z-index:30; inset:0 0 auto; align-items:center; gap:.4rem;
   height:calc(env(safe-area-inset-top, 0px) + 52px);
   padding:env(safe-area-inset-top, 0px) max(8px, env(safe-area-inset-right, 0px)) 0 max(8px, env(safe-area-inset-left, 0px));
@@ -221,7 +216,7 @@ main{display:flex; flex-direction:column; gap:1.4rem}
 .linha-menu .valor{min-width:4.5rem; text-align:center; font-variant-numeric:tabular-nums; font-weight:700}
 .grade-fichas button:focus-visible,.linha-menu button:focus-visible{outline:3px solid var(--azul); outline-offset:2px}
 
-/* ---------- impressão: duas fichas A5 deitadas por folha A4 ---------- */
+/* ---------- impressão: quatro fichas A6 (10,5 × 14,85 cm) por folha A4 ---------- */
 @media print{
   :root,:root[data-theme]{
     --papel:#FFFFFF; --cartao:#FFFFFF; --tinta:#211D2B; --texto-2:#48445A; --apoio:#6A6577;
@@ -236,31 +231,28 @@ main{display:flex; flex-direction:column; gap:1.4rem}
   *{-webkit-print-color-adjust:exact; print-color-adjust:exact}
   .intro,nav.atalhos,.ap-barra,.ap-progresso,.ap-aviso,.ap-dica,.ap-menu{display:none !important}
   .pagina{max-width:none}
-  main{display:block}
-  .ficha{width:210mm; height:148.5mm; overflow:hidden; border:0; border-radius:0;
-    padding:7mm 10mm 6mm; gap:2mm; font-size:11.8pt; line-height:1.3; break-inside:avoid}
-  .ficha:nth-of-type(odd){border-bottom:.3mm dashed #9A93A6}
-  .ficha:nth-of-type(even){break-after:page}
-  .topo{font-size:8.2pt; padding:1mm 3mm}
-  .topo .n{font-size:11.5pt}
-  .ficha h2{font-size:15.5pt}
+  main{display:grid; grid-template-columns:105mm 105mm; grid-auto-rows:148.5mm; gap:0}
+  .ficha{width:105mm; height:148.5mm; overflow:hidden; border:0; border-radius:0;
+    padding:6mm 6.5mm 5mm; gap:1.6mm; font-size:12pt; line-height:1.26; break-inside:avoid}
+  .ficha:nth-of-type(odd){border-right:.25mm dashed #9A93A6}
+  .ficha:nth-of-type(4n+1),.ficha:nth-of-type(4n+2){border-bottom:.25mm dashed #9A93A6}
+  .topo{font-size:8pt; padding:.8mm 2.4mm}
+  .topo .n{font-size:11pt}
+  .ficha h2{font-size:14.5pt}
   .ler q{font-size:12pt}
-  .rot{font-size:6.8pt}
-  .m{font-size:6.4pt}
-  .ficha .fonte{font-size:7.6pt}
+  .rot{font-size:7pt}
+  .m{font-size:6.6pt}
+  .ficha .fonte{font-size:7.4pt}
   .tabela th{font-size:7.4pt}
-  .caixa h3{font-size:11pt}
-  .compacta{font-size:10.6pt; line-height:1.26}
-  .reserva{font-size:13pt}
-  .reserva h2{font-size:16.5pt}
+  .caixa h3{font-size:11.5pt}
 }
 </style>
 
 <div class="pagina">
 <header class="intro">
-  <p class="sobre">Seminário 5 · Bloco II · Alysson</p>
+  <p class="sobre">Seminário 5 · Abertura, bloco II e síntese · Alysson</p>
   <h1>Fichas dos textos e.2 e e.3</h1>
-  <p>Ballan Junior (2025) e Mendonça (2025), na ordem dos slides <code>ballan-caso</code> a <code>mend-vitima</code>, com os minutos do roteiro de 2 h. Depois delas, sete fichas de reserva para o debate. Todo o conteúdo vem dos dois textos, com a página; o que é leitura do trio leva a marca <span class="m inf">inferência</span>, e o que vem de fora, <span class="m ext">externo · conferir</span>.</p>
+  <p>A abertura do seminário (A1 a A11), o bloco II, com Ballan Junior (2025) e Mendonça (2025), e, na síntese, a questão 3 e a enquete final (S1 a S3), na ordem do roteiro de 2 h e com os minutos de cada parte. O trio decidiu apresentar sem slides: o que o slide mostraria está na ficha, para ser dito. Cada ficha tem o tamanho A6 e cabe numa tela de celular; a parte com mais conteúdo se divide em duas ou três (1a, 1b...). Depois delas, as fichas de reserva para o debate (R1 a R9). O conteúdo vem dos dois textos, com a página, e das falas do professor em 21 e 22 out., quando indicado; a tarde de 22 out. entrou nas fichas A9, 2b e 7a e nas reservas R2 e R3. O que é leitura do trio leva a marca <span class="m inf">inferência</span>, e o que vem de fora, <span class="m ext">externo · conferir</span>.</p>
   <div class="comecar">
     <button type="button" class="bt principal" id="ap-iniciar">▶ Iniciar apresentação</button>
     <button type="button" class="bt" id="ap-retomar" hidden>Retomar</button>
@@ -280,303 +272,578 @@ main{display:flex; flex-direction:column; gap:1.4rem}
   </div>
   <details class="ajuda">
     <summary>Como imprimir</summary>
-    <p>Abra a página no Chrome ou no Edge do computador e imprima em A4, retrato, escala 100%, sem margens e com “Gráficos de plano de fundo” ligado. Saem duas fichas por folha; corte na linha tracejada e cada ficha fica em A5 (21 × 14,8 cm). As 16 fichas ocupam 8 folhas. A visualização no claude.ai não imprime.</p>
+    <p>Abra a página no Chrome ou no Edge do computador e imprima em A4, retrato, escala 100%, sem margens e com “Gráficos de plano de fundo” ligado. Saem quatro fichas por folha; corte nas linhas tracejadas e cada ficha fica em A6 (10,5 × 14,8 cm). As 46 fichas ocupam 12 folhas. A visualização no claude.ai não imprime.</p>
   </details>
 </header>
 
 <nav class="atalhos" aria-label="Fichas">
   <div class="trilho">
-    <a href="#f0" style="--c:var(--tinta)">0</a>
-    <a href="#f1" style="--c:var(--azul)">1 caso</a>
-    <a href="#f2" style="--c:var(--azul)">2 tese</a>
-    <a href="#f3" style="--c:var(--azul)">3 argumento</a>
-    <a href="#f4" style="--c:var(--azul)">4 quadro</a>
-    <a href="#f5" style="--c:var(--verde)">5 conceito</a>
-    <a href="#f6" style="--c:var(--verde)">6 provas</a>
-    <a href="#f7" style="--c:var(--verde)">7 exceções</a>
-    <a href="#f8" style="--c:var(--verde)">8 vítima</a>
+    <a href="#a1" style="--c:var(--tinta)">A abertura</a>
+    <a href="#f0a" style="--c:var(--tinta)">0</a>
+    <a href="#f1a" style="--c:var(--azul)">1 caso</a>
+    <a href="#f2a" style="--c:var(--azul)">2 tese</a>
+    <a href="#f3a" style="--c:var(--azul)">3 argumento</a>
+    <a href="#f4a" style="--c:var(--azul)">4 quadro</a>
+    <a href="#f5a" style="--c:var(--verde)">5 conceito</a>
+    <a href="#f6a" style="--c:var(--verde)">6 provas</a>
+    <a href="#f7a" style="--c:var(--verde)">7 exceções</a>
+    <a href="#f8a" style="--c:var(--verde)">8 vítima</a>
+    <a href="#s1" style="--c:var(--tinta)">S síntese</a>
     <a href="#r1" style="--c:var(--ameixa)">R1 concorda?</a>
-    <a href="#r2" style="--c:var(--ameixa)">R2 sigilo</a>
-    <a href="#r3" style="--c:var(--ameixa)">R3 vítima</a>
-    <a href="#r4" style="--c:var(--ameixa)">R4 inquinado</a>
-    <a href="#r5" style="--c:var(--ameixa)">R5 soma positiva</a>
-    <a href="#r6" style="--c:var(--ameixa)">R6 a quem pertencem</a>
-    <a href="#r7" style="--c:var(--ameixa)">R7 por que TI</a>
+    <a href="#r2a" style="--c:var(--ameixa)">R2 recorte?</a>
+    <a href="#r3a" style="--c:var(--ameixa)">R3 juiz protagonista</a>
+    <a href="#r4" style="--c:var(--ameixa)">R4 sigilo</a>
+    <a href="#r5" style="--c:var(--ameixa)">R5 vítima</a>
+    <a href="#r6a" style="--c:var(--ameixa)">R6 inquinado</a>
+    <a href="#r7" style="--c:var(--ameixa)">R7 soma positiva</a>
+    <a href="#r8" style="--c:var(--ameixa)">R8 a quem pertencem</a>
+    <a href="#r9" style="--c:var(--ameixa)">R9 por que TI</a>
   </div>
 </nav>
 
 <main>
 
-<!-- 0 · visão do bloco -->
-<article class="ficha visao" id="f0">
-  <div class="topo"><span class="n">0</span><span class="texto">Visão do bloco II</span><span class="tempo">0:38 → 1:08 · 30 min</span></div>
+<!-- A · abertura (0:00 a 0:08) -->
+<article class="ficha visao" id="a1" data-rotulo="A1 abertura">
+  <div class="topo"><span class="n">A1</span><span class="texto">Abertura</span><span class="tempo">0:00 → 0:02 · 2 min · 1/3</span></div>
+  <h2>Cumprimentar e apresentar</h2>
+  <ul>
+    <li>Cumprimentar o professor e a turma. O trio: <b>Letícia</b>, defensora pública (DPE-TO); <b>Guilherme</b>, bacharel em Direito, da Corregedoria Regional Eleitoral do TRE-TO; e eu, profissional de TI do TRE-TO.</li>
+    <li>O que faremos: pôr em diálogo seis textos sobre as garantias do acusado e os direitos da vítima e responder às três questões do programa.</li>
+    <li>É o último seminário: no fim, a síntese da disciplina. Cerca de 2 h de exposição e 1 h de debate; enquete agora e no fim.</li>
+  </ul>
+  <p class="fonte">Roteiro <code>13</code>, seção 6.1.</p>
+</article>
+
+<article class="ficha visao" id="a2" data-rotulo="A2 provocação">
+  <div class="topo"><span class="n">A2</span><span class="texto">Abertura</span><span class="tempo">0:00 → 0:02 · 2 min · 2/3</span></div>
+  <h2>Duas decisões</h2>
+  <p class="abrir"><span class="rot">Ler devagar</span></p>
+  <p class="fala">Em 17 de dezembro de 1998, sete dias depois de o Brasil reconhecer a jurisdição da Corte Interamericana, a Assembleia Legislativa da Paraíba negou, sem motivação alguma, licença para processar um deputado acusado de matar uma estudante de 20 anos.</p>
+  <p class="fala">Em março de 2025, o STF negou a réus delatados o direito de falar depois do colaborador, porque a ação penal ainda não teria começado.</p>
+  <p class="fechar"><span class="rot">Perguntar</span><span class="fala">Nos dois casos, alguém ficou sem voz antes de uma decisão. Quem?</span> Esperar duas ou três respostas.</p>
+  <p class="fonte">Corte IDH (2021, §§ 14, 75, 116-118); Ballan Junior (2025, p. 16-18).</p>
+</article>
+
+<article class="ficha visao" id="a3" data-rotulo="A3 provocação">
+  <div class="topo"><span class="n">A3</span><span class="texto">Abertura</span><span class="tempo">0:00 → 0:02 · 2 min · 3/3</span></div>
+  <h2>Quem ficou sem voz</h2>
+  <ul>
+    <li>No primeiro caso, <b class="vit">os familiares da vítima</b>: a Assembleia decidiu ouvindo só o parlamentar.</li>
+    <li>No segundo, <b>a defesa dos delatados</b>: a Turma entendeu que a regra da última palavra só vale no curso da ação.</li>
+  </ul>
+  <p class="fechar"><span class="rot">Fechar</span><span class="fala">Dar voz a um exige calar o outro?</span> É a pergunta que o bloco inteiro vai responder.</p>
+  <p class="fonte">Corte IDH (2021, §§ 116-118); Ballan Junior (2025, p. 16-18).</p>
+</article>
+
+<article class="ficha visao" id="a4" data-rotulo="A4 objetivo">
+  <div class="topo"><span class="n">A4</span><span class="texto">Abertura</span><span class="tempo">0:02 → 0:03 · 1 min · 1/2</span></div>
+  <h2>O que o programa pede</h2>
+  <blockquote class="ler"><span class="rot">Ler a ementa</span><q>preservação integral das garantias do acusado e tutela dos direitos da vítima e de seus familiares</q></blockquote>
+  <blockquote class="ler"><span class="rot">Ler o objetivo</span><q>Construir uma compreensão bilateral das garantias processuais, capaz de articular defesa e vítima sem sacrificar nenhuma delas</q></blockquote>
+  <p>Destacar <b>preservação integral</b> (do acusado) e <b>tutela</b> (da vítima e de seus familiares): o programa não pede que se escolha um lado.</p>
+  <p class="fonte">Programa da disciplina (ementa do bloco “e” e objetivo final).</p>
+</article>
+
+<article class="ficha visao" id="a5" data-rotulo="A5 objetivo">
+  <div class="topo"><span class="n">A5</span><span class="texto">Abertura</span><span class="tempo">0:02 → 0:03 · 1 min · 2/2</span></div>
+  <h2>O que o professor pediu</h2>
+  <ul>
+    <li>O título do bloco, na aula de 21 out.: <span class="cit">“a defesa e a vítima no mesmo processo, sem soma zero”</span>.</li>
+    <li>O processo bilateral não é vale-tudo; as garantias <span class="cit">“não são moedas de troca”</span>.</li>
+    <li>A tarefa: <span class="cit">“o caráter bifronte anunciado no início, agora operacionalizado”</span>. Vamos mostrar <b>mecanismos</b> em que as duas faces convivem, e não só afirmar que convivem.</li>
+  </ul>
+  <p class="fonte">Fichamento <code>25</code> (aula de 21 out.); roteiro <code>13</code>, seção 1.</p>
+</article>
+
+<article class="ficha visao" id="a6" data-rotulo="A6 questões">
+  <div class="topo"><span class="n">A6</span><span class="texto">Abertura</span><span class="tempo">0:03 → 0:06 · 3 min · 1/2</span></div>
+  <h2>As três questões</h2>
+  <ol>
+    <li>Defesa e vítima disputam o mesmo espaço no processo?</li>
+    <li>Em que condições a ampliação dos direitos de uma não implica a redução dos direitos da outra?</li>
+    <li>No processo penal atual, a quem pertencem as garantias?</li>
+  </ol>
+  <p>O professor trouxe a 1 e a 2 no slide do bloco. A 3 ele fez com outras palavras na abertura de 21 out.: <span class="fala">o Estado presta jurisdição penal a quem?</span> Ela volta na síntese.</p>
+  <p class="fonte">Programa da disciplina; roteiro <code>13</code>, seção 1.</p>
+</article>
+
+<article class="ficha visao" id="a7" data-rotulo="A7 enquete">
+  <div class="topo"><span class="n">A7</span><span class="texto">Abertura</span><span class="tempo">0:03 → 0:06 · 3 min · 2/2</span></div>
+  <h2>Enquete inicial</h2>
+  <p class="abrir"><span class="rot">Perguntar</span><span class="fala">Ampliar os direitos da vítima reduz os direitos do acusado? Sim, não ou depende?</span></p>
+  <ul>
+    <li>Mão levantada, uma opção de cada vez; <b>Guilherme anota no quadro</b>. Não comentar o resultado agora.</li>
+    <li>Se “depende” tiver muitos votos: <span class="fala">depende de quê?</span> Anotar duas ou três respostas.</li>
+    <li>Na síntese, a resposta do trio: depende de <b>quem paga o custo</b>, o Estado ou a parte contrária.</li>
+  </ul>
+  <p class="fonte">Roteiro <code>13</code>, seção 7.1.</p>
+</article>
+
+<article class="ficha visao" id="a8" data-rotulo="A8 mapa">
+  <div class="topo"><span class="n">A8</span><span class="texto">Abertura</span><span class="tempo">0:06 → 0:08 · 2 min · 1/4</span></div>
+  <h2>Três pares de textos</h2>
+  <ul>
+    <li><b>Letícia, às 0:08:</b> Scarance Fernandes nas duas faces, o livro de 1995, sobre a vítima, e o de 2002, sobre a reação defensiva.</li>
+    <li><b>Eu, às 0:38:</b> o contraditório, do início às exceções, com Ballan Junior (2025) e Mendonça (2025).</li>
+    <li><b>Guilherme, à 1:08:</b> o dever de investigar, com <i>Barbosa de Souza</i> (2021) e Suxberger (2026b), a ponte com o Seminário 4 e a balança.</li>
+    <li><b>Síntese do trio</b> à 1:46; debate com o professor às 2:00.</li>
+  </ul>
+  <p class="fonte">Roteiro <code>13</code>, seções 4 e 5.</p>
+</article>
+
+<article class="ficha visao" id="a9" data-rotulo="A9 ligações">
+  <div class="topo"><span class="n">A9</span><span class="texto">Abertura</span><span class="tempo">0:06 → 0:08 · 2 min · 2/4</span></div>
+  <h2>Duas ligações e uma imagem</h2>
+  <ul>
+    <li><b>Seminário 1:</b> <span class="fala">o tripé acusado, vítima e sociedade já foi assentado pelo Grupo 1; o bloco E mostra os mecanismos que o tornam operacional.</span></li>
+    <li><b>Seminário 4, 20 s:</b> <span class="fala">ontem, o Grupo 4 concluiu que direitos humanos não significam punir menos, nem o combate à impunidade autoriza flexibilizar garantias. Mostramos como o processo realiza isso: quem paga o custo, em que momento e com que regra.</span></li>
+    <li><b>Imagem:</b> <span class="fala">num sistema com dois tipos de usuário, o conflito está no recurso compartilhado, a fila, o processador. No processo penal, esse recurso é o Estado.</span> <span class="m inf">analogia</span></li>
+  </ul>
+  <p class="fonte">Fichamentos <code>26</code> (seções 8.4 e 9) e <code>35</code> (seções 18.5 e 20).</p>
+</article>
+
+<article class="ficha visao" id="a10" data-rotulo="A10 teses">
+  <div class="topo"><span class="n">A10</span><span class="texto">Abertura</span><span class="tempo">0:06 → 0:08 · 2 min · 3/4</span></div>
+  <h2>As duas teses</h2>
+  <p class="abrir"><span class="rot">Dizer com estas palavras; elas voltam no fechamento</span></p>
+  <p class="fala"><b>Tese 1.</b> Defesa e vítima não disputam o mesmo espaço: disputam o Estado, seu tempo, seu poder e sua atenção. O que se amplia de um lado não precisa ser tirado do outro quando o custo recai sobre o Estado, e não sobre a parte contrária.</p>
+  <p class="fala"><b>Tese 2.</b> Onde o espaço é comum, a bilateralidade exige regras, não sacrifícios. Na última palavra, no confronto, na narrativa sobre a vítima e na prescrição, defesa e vítima realmente concorrem; ali, a solução está em regras de ordenação.</p>
+  <p class="fonte">Roteiro <code>13</code>, seção 3.</p>
+</article>
+
+<article class="ficha visao" id="a11" data-rotulo="A11 ressalva">
+  <div class="topo"><span class="n">A11</span><span class="texto">Abertura</span><span class="tempo">0:06 → 0:08 · 2 min · 4/4</span></div>
+  <h2>Base, ressalva e passagem</h2>
+  <ul>
+    <li><b>Base:</b> o adversário comum é o Estado: o juiz que recebe a denúncia sem ouvir a defesa (Fernandes, 2002, p. 71), a Assembleia que nega a licença sem motivar (Corte IDH, 2021, § 122), a polícia que investiga a si mesma (Suxberger, 2026b, p. 75). <span class="m inf">inferência</span></li>
+    <li><b>Ressalva:</b> há custos diretos: os prescritos reabertos em <i>Honorato</i> (Suxberger, 2026b, p. 102) e a prova decisiva do inquinado (Mendonça, 2025, p. 75-76); e o papel da vítima não pode restringir <span class="cit">“as garantias essenciais da defesa”</span> (Fernandes, 1995, p. 233).</li>
+  </ul>
+  <p class="passa"><span class="rot">Passar a Letícia</span>Scarance Fernandes nas duas faces.</p>
+  <p class="fonte">Roteiro <code>13</code>, seção 3.</p>
+</article>
+
+<!-- 0 · visão do bloco II -->
+<article class="ficha visao" id="f0a" data-rotulo="0a visão">
+  <div class="topo"><span class="n">0a</span><span class="texto">Visão do bloco II</span><span class="tempo">0:38 → 1:08 · 30 min · 1/2</span></div>
   <h2>O contraditório, do início às exceções</h2>
   <p><b>Fio do par:</b> Ballan Junior diz <b>quando</b> o contraditório começa; Mendonça diz <b>o que</b> ele é e <b>quando pode ceder</b>.</p>
   <ul>
     <li><b>Ballan Junior (2025):</b> a ação penal, e com ela o contraditório, começa no <b>oferecimento</b> da denúncia, e não no recebimento (p. 19, 36).</li>
     <li><b>Mendonça (2025):</b> a intensidade do contraditório depende da <b>fonte de prova</b>; fora de três exceções, a declaração colhida unilateralmente não vale <span class="cit">“sequer para fins de corroboração”</span> (p. 79).</li>
   </ul>
-  <div class="tabela horario">
+  <p class="fonte">Roteiro <code>13</code>, seções 5 e 6.3.</p>
+</article>
+
+<article class="ficha visao" id="f0b" data-rotulo="0b horário">
+  <div class="topo"><span class="n">0b</span><span class="texto">Visão do bloco II</span><span class="tempo">0:38 → 1:08 · 30 min · 2/2</span></div>
+  <h2>Horário e cuidados</h2>
+  <div class="tabela">
     <table>
-      <tr><th>Ficha</th><th>Slide</th><th>Início</th></tr>
-      <tr><td>1</td><td class="mono">ballan-caso</td><td>0:38</td></tr>
-      <tr><td>2</td><td class="mono">ballan-tese</td><td>0:41</td></tr>
-      <tr><td>3</td><td class="mono">ballan-argumento</td><td>0:45</td></tr>
-      <tr><td>4</td><td class="mono">ballan-quadro</td><td>0:50</td></tr>
-    </table>
-    <table>
-      <tr><th>Ficha</th><th>Slide</th><th>Início</th></tr>
-      <tr><td>5</td><td class="mono">mend-conceito</td><td>0:54</td></tr>
-      <tr><td>6</td><td class="mono">mend-provas</td><td>0:57</td></tr>
-      <tr><td>7</td><td class="mono">mend-excecoes</td><td>1:01</td></tr>
-      <tr><td>8</td><td class="mono">mend-vitima</td><td>1:05 → 1:08</td></tr>
+      <tr><th>Ficha</th><th>Parte</th><th>Início</th></tr>
+      <tr><td>1</td><td>o caso</td><td>0:38</td></tr>
+      <tr><td>2</td><td>a tese</td><td>0:41</td></tr>
+      <tr><td>3</td><td>o argumento</td><td>0:45</td></tr>
+      <tr><td>4</td><td>o Quadro 1</td><td>0:50</td></tr>
+      <tr><td>5</td><td>o conceito</td><td>0:54</td></tr>
+      <tr><td>6</td><td>as provas</td><td>0:57</td></tr>
+      <tr><td>7</td><td>as exceções</td><td>1:01</td></tr>
+      <tr><td>8</td><td>a vítima</td><td>1:05 → 1:08</td></tr>
     </table>
   </div>
-  <p class="cuidado"><span class="rot">Texto do professor</span>Tese nas palavras do autor; o caso como problema dogmático, sem juízo de mérito; não atribuir a ministros as falas da nota 10; ler a nota 62 em voz alta (ficha 4).</p>
-  <p><b>Se atrasar:</b> na ficha 3, só os três títulos dos passos; na ficha 5, pular as quatro funções. Os minutos por slide são sugestão; o roteiro fixa 16 min para Ballan Junior e 14 min para Mendonça.</p>
-  <p class="fonte">Roteiro <code>13</code>, seções 5 e 6.3; slides <code>33</code>.</p>
+  <p class="cuidado"><span class="rot">Texto do professor</span>Tese nas palavras do autor; caso como problema dogmático, sem juízo de mérito; não atribuir a ministros as falas da nota 10; ler a nota 62 (ficha 4b).</p>
+  <p><b>Se atrasar:</b> na 3a, só os títulos; pular a 5b.</p>
+  <p class="fonte">Minutos por parte: sugestão dentro dos 16 + 14 min do roteiro.</p>
 </article>
 
 <!-- 1 · ballan-caso -->
-<article class="ficha ballan" id="f1">
-  <div class="topo"><span class="n">1</span><span class="texto">Ballan Junior (2025)</span><span class="slide">ballan-caso</span><span class="tempo">0:38 → 0:41 · 3 min</span></div>
+<article class="ficha ballan" id="f1a" data-rotulo="1a caso">
+  <div class="topo"><span class="n">1a</span><span class="texto">Ballan Junior (2025)</span><span class="tempo">0:38 → 0:41 · 3 min · 1/2</span></div>
   <h2>O caso que motiva o texto</h2>
   <p class="abrir"><span class="rot">Abrir</span>Letícia fechou com Scarance (2002): a defesa não fala antes do recebimento. O professor faz a pergunta anterior: <b>quando começa a ação penal?</b></p>
   <ul>
     <li><b>Março de 2025, STF, 1ª Turma:</b> recebimento da denúncia no denominado “núcleo 1”, na Pet 12.100/DF (p. 16).</li>
-    <li><b>Questão de ordem:</b> que a defesa do colaborador falasse primeiro. Base: Lei 12.850/2013, art. 4º, § 10-A, que garante ao delatado manifestar-se depois <span class="cit">“em todas as fases do processo”</span> (p. 17). A regra positivou a jurisprudência do próprio STF (HC 157.627/PR, 2019; HC 166.373/PR, 2022) (p. 17).</li>
-    <li><b>Por quê:</b> o colaborador tem dever de lealdade, não pode negar o que delatou e depende da utilidade da colaboração; sua fala tem <span class="cit">“alguma carga acusatória, ao menos em potencial”</span> (p. 18).</li>
-    <li><b>Decisão:</b> pedido rejeitado por unanimidade. A inversão só valeria no curso da ação, que começaria com o <b>recebimento</b>; antes dele haveria só uma petição (p. 18).</li>
+    <li><b>Questão de ordem:</b> que a defesa do colaborador falasse primeiro. Base: Lei 12.850/2013, art. 4º, § 10-A; o delatado fala depois <span class="cit">“em todas as fases do processo”</span> (p. 17).</li>
+    <li>A regra positivou a jurisprudência do próprio STF (HC 157.627/PR, 2019; HC 166.373/PR, 2022) (p. 17).</li>
   </ul>
-  <p class="cuidado"><span class="rot">Cuidado</span>Não nomear ministros: a nota 10 não identifica quem falou. Problema dogmático, sem juízo de mérito.</p>
-  <p class="fechar"><span class="rot">Fechar</span>O problema do capítulo, nas palavras do autor: <span class="cit">“quando se inicia a ação penal e por que isso interessa ao contraditório?”</span> (p. 19)</p>
-  <p class="fonte">Ballan Junior (2025, p. 16-19).</p>
+  <p class="fonte">Ballan Junior (2025, p. 16-17).</p>
+</article>
+
+<article class="ficha ballan" id="f1b" data-rotulo="1b caso">
+  <div class="topo"><span class="n">1b</span><span class="texto">Ballan Junior (2025)</span><span class="tempo">0:38 → 0:41 · 3 min · 2/2</span></div>
+  <h2>A decisão e o problema</h2>
+  <ul>
+    <li><b>Por quê:</b> o colaborador tem dever de lealdade, não pode negar o que delatou e depende da utilidade da colaboração; sua fala tem <span class="cit">“alguma carga acusatória, ao menos em potencial”</span> (p. 18).</li>
+    <li><b>Decisão:</b> rejeitada por unanimidade. A inversão só valeria no curso da ação, que começaria com o <b>recebimento</b>; antes dele, haveria só uma petição (p. 18).</li>
+  </ul>
+  <p class="cuidado"><span class="rot">Cuidado</span>Não nomear ministros: a nota 10 não identifica quem falou.</p>
+  <p class="fechar"><span class="rot">Fechar</span>O problema, nas palavras do autor: <span class="cit">“quando se inicia a ação penal e por que isso interessa ao contraditório?”</span> (p. 19)</p>
+  <p class="fonte">Ballan Junior (2025, p. 18-19).</p>
 </article>
 
 <!-- 2 · ballan-tese -->
-<article class="ficha ballan" id="f2">
-  <div class="topo"><span class="n">2</span><span class="texto">Ballan Junior (2025)</span><span class="slide">ballan-tese</span><span class="tempo">0:41 → 0:45 · 4 min</span></div>
+<article class="ficha ballan" id="f2a" data-rotulo="2a tese">
+  <div class="topo"><span class="n">2a</span><span class="texto">Ballan Junior (2025)</span><span class="tempo">0:41 → 0:45 · 4 min · 1/2</span></div>
   <h2>A tese, nas palavras do autor</h2>
   <blockquote class="ler"><span class="rot">Ler em voz alta, devagar</span><q>este artigo defende, com base em uma releitura constitucional e dogmática do processo penal, que o início da ação penal se dá com o oferecimento da denúncia, e não com o seu recebimento.</q> (p. 19)</blockquote>
   <ul>
-    <li><b>Definições</b> (nota 11, p. 20): <b>ação penal</b> é o exercício do direito de provocar a jurisdição por meio de imputação formal; <b>processo penal</b>, o conjunto de atos coordenados pela jurisdição depois dessa provocação.</li>
-    <li><b>Por que o marco era o juiz</b> (linha do tempo do slide): na redação original do CPP, o juiz podia alterar a acusação (arts. 383 e 384) e o defensor não intervinha no interrogatório (art. 187). Num sistema assim, era natural que o ajuizamento dependesse de despacho judicial (p. 28).</li>
-    <li>Só a <b>Lei 11.719/2008</b> vedou ao juiz mudar o objeto da imputação (p. 28-29). Base atual: CF, art. 129, I, e CPP, art. 3º-A, daí a <span class="cit">“filtragem constitucional”</span> (p. 24-25).</li>
-    <li>No slide, o marco de <b>2003</b> (art. 185) é contexto do CPP, e não do texto.</li>
+    <li><b>Ação penal:</b> o exercício do direito de provocar a jurisdição por meio de imputação formal (nota 11, p. 20).</li>
+    <li><b>Processo penal:</b> os atos coordenados pela jurisdição depois dessa provocação (nota 11, p. 20).</li>
   </ul>
-  <p class="fechar"><span class="rot">Ponte, 30 s</span>O professor contou essa história em aula, em 21 out. O texto e a fala se reforçam: a tese do oferecimento é mais um passo na redução do protagonismo do juiz.</p>
-  <p class="fonte">Ballan Junior (2025, p. 19-20, 24-29).</p>
+  <p class="fonte">Ballan Junior (2025, p. 19-20).</p>
+</article>
+
+<article class="ficha ballan" id="f2b" data-rotulo="2b tese">
+  <div class="topo"><span class="n">2b</span><span class="texto">Ballan Junior (2025)</span><span class="tempo">0:41 → 0:45 · 4 min · 2/2</span></div>
+  <h2>Por que o marco era o juiz</h2>
+  <ul>
+    <li><b>1941:</b> o juiz podia alterar a acusação (arts. 383 e 384), e o defensor não intervinha no interrogatório (art. 187); era natural que o ajuizamento dependesse de despacho judicial (p. 28).</li>
+    <li><b>2003:</b> interrogatório com defensor (art. 185). <span class="m ext">CPP, não o texto</span></li>
+    <li><b>2008:</b> a Lei 11.719 vedou ao juiz mudar a imputação (p. 28-29). <b>2019:</b> art. 3º-A, a estrutura acusatória (p. 25).</li>
+  </ul>
+  <p class="fechar"><span class="rot">Ponte, 30 s</span>O professor contou essa história em 21 e 22 out.: juízes <span class="cit">“moldados num sistema onde [se acostumaram] a ser o protagonista do processo”</span>. A tese é mais um passo contra isso.</p>
+  <p class="fonte">Ballan Junior (2025, p. 24-29); fichamento <code>35</code>, seção 5.2.</p>
 </article>
 
 <!-- 3 · ballan-argumento -->
-<article class="ficha ballan" id="f3">
-  <div class="topo"><span class="n">3</span><span class="texto">Ballan Junior (2025)</span><span class="slide">ballan-argumento</span><span class="tempo">0:45 → 0:50 · 5 min</span></div>
-  <h2>Três passos do argumento</h2>
-  <ol>
-    <li><b>Os três fundamentos do recebimento não se sustentam</b> (Greco Filho; p. 20-22):
-      <ul>
-        <li><i>prescrição:</i> os marcos são do direito penal; o argumento <span class="cit">“acaba por recusar a autonomia do direito processual”</span> (p. 21);</li>
-        <li><i>autoridade coatora:</i> o juiz já <span class="cit">“assume a coação”</span> antes da denúncia, por exemplo ao decretar a prisão temporária (p. 21);</li>
-        <li><i>notificação × citação:</i> a lei já chama o denunciado a se defender antes do recebimento (Lei 8.038/1990; CPP, art. 514; Lei 11.343/2006) (p. 21-22).</li>
-      </ul></li>
-    <li><b>No modelo acusatório, o juiz não abre a ação:</b> o recebimento <span class="cit">“não pode ser tido como o ato que deflagra a ação penal e inicia o processo, porque o Poder Judiciário não promove a ação penal”</span> (p. 26). Dele depende só a <b>fase instrutória</b> (p. 27). Na impronúncia, ninguém nega que houve ação e processo (p. 27).</li>
-    <li><b>Já há contraditório antes do recebimento:</b> nos ritos com resposta preliminar, <span class="cit">“É inegável que já há contraditório”</span> (p. 32); notificar também é contraditório (p. 32-33).</li>
-  </ol>
-  <p><b>Além de Scarance:</b> o CPP suprimiu a fase intermediária de defesa; o autor vai além e afirma que, em <b>qualquer rito</b>, o denunciado pode juntar documentos e discutir a imputação antes da decisão (CPP, art. 231) (p. 32-33).</p>
+<article class="ficha ballan" id="f3a" data-rotulo="3a argumento">
+  <div class="topo"><span class="n">3a</span><span class="texto">Ballan Junior (2025)</span><span class="tempo">0:45 → 0:50 · 5 min · 1/3</span></div>
+  <h2>1. O recebimento não se sustenta</h2>
+  <p>Greco Filho apoia o marco do recebimento em três fundamentos; o autor rebate cada um (p. 20-22):</p>
+  <ul>
+    <li><b>Prescrição:</b> os marcos são do direito penal; o argumento <span class="cit">“acaba por recusar a autonomia do direito processual”</span> (p. 21).</li>
+    <li><b>Autoridade coatora:</b> o juiz já <span class="cit">“assume a coação”</span> antes da denúncia, por exemplo ao decretar a prisão temporária (p. 21).</li>
+    <li><b>Notificação × citação:</b> a lei já chama o denunciado a se defender antes do recebimento (Lei 8.038/1990; CPP, art. 514; Lei 11.343/2006) (p. 21-22).</li>
+  </ul>
+  <p class="fonte">Ballan Junior (2025, p. 20-22).</p>
+</article>
+
+<article class="ficha ballan" id="f3b" data-rotulo="3b argumento">
+  <div class="topo"><span class="n">3b</span><span class="texto">Ballan Junior (2025)</span><span class="tempo">0:45 → 0:50 · 5 min · 2/3</span></div>
+  <h2>2. O juiz não abre a ação</h2>
+  <blockquote class="ler"><span class="rot">Ler em voz alta</span><q>O recebimento da denúncia ou queixa não possui conteúdo processual atinente ao direito de ação e, pois, não pode ser tido como o ato que deflagra a ação penal e inicia o processo, porque o Poder Judiciário não promove a ação penal.</q> (p. 26)</blockquote>
+  <ul>
+    <li>Do recebimento depende só a <b>fase instrutória</b> (p. 27).</li>
+    <li>Na impronúncia, ninguém nega que houve ação e processo (p. 27).</li>
+    <li><span class="cit">“A falha não é do sistema, mas da prática”</span> (p. 29).</li>
+  </ul>
+  <p class="fonte">Ballan Junior (2025, p. 26-29).</p>
+</article>
+
+<article class="ficha ballan" id="f3c" data-rotulo="3c argumento">
+  <div class="topo"><span class="n">3c</span><span class="texto">Ballan Junior (2025)</span><span class="tempo">0:45 → 0:50 · 5 min · 3/3</span></div>
+  <h2>3. Já há contraditório antes</h2>
+  <ul>
+    <li>Nos ritos com resposta preliminar, <span class="cit">“É inegável que já há contraditório”</span> (p. 32); notificar também é contraditório (p. 32-33).</li>
+    <li><b>Além de Scarance:</b> o CPP suprimiu a fase intermediária de defesa; o autor vai além: em <b>qualquer rito</b>, o denunciado pode juntar documentos e discutir a imputação antes da decisão (CPP, art. 231) (p. 32-33).</li>
+  </ul>
   <p class="fechar"><span class="rot">Fechar</span>A tese amplia acusação e defesa; o que se reduz é o protagonismo do juiz (p. 26, 34). <span class="m inf">inferência</span></p>
-  <p class="fonte">Ballan Junior (2025, p. 20-34).</p>
+  <p class="fonte">Ballan Junior (2025, p. 26, 32-34).</p>
 </article>
 
 <!-- 4 · ballan-quadro -->
-<article class="ficha ballan" id="f4">
-  <div class="topo"><span class="n">4</span><span class="texto">Ballan Junior (2025)</span><span class="slide">ballan-quadro</span><span class="tempo">0:50 → 0:54 · 4 min</span></div>
-  <h2>Quadro 1: quando começam a ação e o contraditório?</h2>
+<article class="ficha ballan" id="f4a" data-rotulo="4a quadro">
+  <div class="topo"><span class="n">4a</span><span class="texto">Ballan Junior (2025)</span><span class="tempo">0:50 → 0:54 · 4 min · 1/2</span></div>
+  <h2>Quadro 1: quando começa?</h2>
+  <p class="abrir"><span class="rot">Dizer o quadro em três frases</span></p>
   <div class="tabela">
     <table>
-      <tr><th></th><th>STF e doutrina tradicional</th><th>O autor</th></tr>
-      <tr><td><b>Ação penal</b></td><td>começa no recebimento</td><td>começa no <b>oferecimento</b></td></tr>
-      <tr><td><b>Relação processual</b></td><td>após a citação</td><td>desde o oferecimento: <b>linear</b>, e <b>angular</b> com a citação (p. 22-23, 36)</td></tr>
+      <tr><th></th><th>STF</th><th>O autor</th></tr>
+      <tr><td><b>Ação</b></td><td>recebimento</td><td><b>oferecimento</b></td></tr>
+      <tr><td><b>Relação</b></td><td>após a citação</td><td>desde o oferecimento: <b>linear</b>; <b>angular</b> com a citação</td></tr>
       <tr><td><b>Contraditório</b></td><td>após o recebimento</td><td>possível desde o oferecimento</td></tr>
     </table>
   </div>
-  <ul>
-    <li>Ler: o direito de ação <span class="cit">“traz consigo, como uma outra face da mesma moeda e de imediato, o direito de defesa”</span> (p. 33-34).</li>
-    <li><b class="vit">Linha da vítima:</b> o oferecimento é também o ato que torna a representação <b>irretratável</b> (CP, art. 102; CPP, art. 25, via Tourinho Filho, p. 22-23). <span class="m inf">inferência</span></li>
-  </ul>
+  <p>Ler: o direito de ação <span class="cit">“traz consigo, como uma outra face da mesma moeda e de imediato, o direito de defesa”</span> (p. 33-34).</p>
+  <p class="fonte">Ballan Junior (2025, p. 22-23, 33-36, Quadro 1).</p>
+</article>
+
+<article class="ficha ballan" id="f4b" data-rotulo="4b quadro">
+  <div class="topo"><span class="n">4b</span><span class="texto">Ballan Junior (2025)</span><span class="tempo">0:50 → 0:54 · 4 min · 2/2</span></div>
+  <h2>A vítima e a nota 62</h2>
+  <p><b class="vit">A vítima no mesmo marco:</b> o oferecimento também torna a representação <b>irretratável</b> (CP, art. 102; CPP, art. 25, via Tourinho Filho, p. 22-23). <span class="m inf">inferência</span></p>
   <blockquote class="ler"><span class="rot">Ler em voz alta · nota 62</span><q>Por isso se disse que ‘em abstrato’ poderia haver nulidade, dependente de prova do prejuízo, o que dificilmente será (seria) demonstrado no caso mencionado.</q> (p. 35)</blockquote>
-  <p>Depois da nota: a crítica é à <b>premissa conceitual</b> do julgado, e não ao seu resultado.</p>
+  <p>A crítica é à <b>premissa conceitual</b>, e não ao resultado.</p>
   <p class="passa"><span class="rot">Transição</span>Se o contraditório começa no oferecimento e é bilateral, o que ele é? E quando pode ceder?</p>
-  <p class="fonte">Ballan Junior (2025, p. 22-23, 33-36, Quadro 1 e nota 62).</p>
+  <p class="fonte">Ballan Junior (2025, p. 22-23, 35).</p>
 </article>
 
 <!-- 5 · mend-conceito -->
-<article class="ficha mend" id="f5">
-  <div class="topo"><span class="n">5</span><span class="texto">Mendonça (2025)</span><span class="slide">mend-conceito</span><span class="tempo">0:54 → 0:57 · 3 min</span></div>
+<article class="ficha mend" id="f5a" data-rotulo="5a conceito">
+  <div class="topo"><span class="n">5a</span><span class="texto">Mendonça (2025)</span><span class="tempo">0:54 → 0:57 · 3 min · 1/2</span></div>
   <h2>Um contraditório de duas partes</h2>
-  <p class="abrir"><span class="rot">Diálogo entre os autores</span>Os dois partem da mesma definição, de Canuto Mendes de Almeida: contraditório é <b>ciência bilateral</b> dos atos e possibilidade de contrariá-los (Ballan Junior, p. 33; Mendonça, p. 41).</p>
-  <ul>
-    <li>Mendonça acrescenta a <b>influência</b>: <span class="cit">“Todo aquele que puder ser atingido por uma decisão, ato ou prova deve ter a possibilidade de participar de sua produção e de influenciar o magistrado.”</span> (p. 41)</li>
-  </ul>
+  <p class="abrir"><span class="rot">Diálogo entre os autores</span>Os dois partem de Canuto Mendes de Almeida: contraditório é <b>ciência bilateral</b> dos atos e possibilidade de contrariá-los (Ballan Junior, p. 33; Mendonça, p. 41).</p>
+  <p>Mendonça acrescenta a <b>influência</b>: <span class="cit">“Todo aquele que puder ser atingido por uma decisão, ato ou prova deve ter a possibilidade de participar de sua produção e de influenciar o magistrado.”</span> (p. 41)</p>
   <blockquote class="ler"><span class="rot">Ler em voz alta</span><q>No entanto, o contraditório também se aplica à acusação – para a qual não há que se falar em ampla defesa.</q> (p. 44)</blockquote>
+  <p class="fonte">Mendonça (2025, p. 41, 44); Ballan Junior (2025, p. 33).</p>
+</article>
+
+<article class="ficha mend" id="f5b" data-rotulo="5b conceito">
+  <div class="topo"><span class="n">5b</span><span class="texto">Mendonça (2025)</span><span class="tempo">0:54 → 0:57 · 3 min · 2/2</span></div>
+  <h2>Funções e perfis</h2>
   <ul>
-    <li>A outra assimetria: no inquérito <span class="cit">“há atos de defesa, mas não existe o contraditório”</span> (p. 44).</li>
-    <li><b>Quatro funções</b> (p. 41-43): político-ideológica (participação), social (legitima a decisão), heurística (a dialética aproxima da verdade) e de controle (contém o arbítrio do Estado).</li>
-    <li>Para a heurística: <span class="cit">“o melhor método de obtenção da verdade é por meio da dialética entre as partes, muito superior à busca solipsista do inquisidor”</span> (p. 43).</li>
-    <li><b>Dois perfis:</b> garantia subjetiva do imputado e instrumento objetivo da decisão justa, que <span class="cit">“devem ser integradas”</span> (p. 43).</li>
+    <li>No inquérito <span class="cit">“há atos de defesa, mas não existe o contraditório”</span> (p. 44).</li>
+    <li><b>Quatro funções</b> (p. 41-43): político-ideológica (participação), social (legitima a decisão), heurística (aproxima da verdade) e de controle (contém o arbítrio).</li>
+    <li><b>Heurística:</b> <span class="cit">“o melhor método de obtenção da verdade é por meio da dialética entre as partes, muito superior à busca solipsista do inquisidor”</span> (p. 43).</li>
+    <li><b>Dois perfis:</b> garantia do imputado e instrumento da decisão justa, que <span class="cit">“devem ser integradas”</span> (p. 43).</li>
   </ul>
-  <p class="fonte">Mendonça (2025, p. 41-44); Ballan Junior (2025, p. 33).</p>
+  <p class="fonte">Mendonça (2025, p. 41-44).</p>
 </article>
 
 <!-- 6 · mend-provas -->
-<article class="ficha mend" id="f6">
-  <div class="topo"><span class="n">6</span><span class="texto">Mendonça (2025)</span><span class="slide">mend-provas</span><span class="tempo">0:57 → 1:01 · 4 min</span></div>
+<article class="ficha mend" id="f6a" data-rotulo="6a provas">
+  <div class="topo"><span class="n">6a</span><span class="texto">Mendonça (2025)</span><span class="tempo">0:57 → 1:01 · 4 min · 1/2</span></div>
   <h2>Duas fontes, dois contraditórios</h2>
-  <div class="duas">
-    <div class="caixa"><h3>Pré-constituída · fonte real</h3><p>A faca com sangue; a mensagem de WhatsApp com ameaça à vítima. Contraditório <b>diferido</b>, “sobre a prova” (p. 45-46). Depois dele, pode fundamentar sozinha a condenação (p. 52).</p></div>
-    <div class="caixa ameixa"><h3>Constituenda · fonte pessoal</h3><p>Testemunha, <b class="vit">declarações da vítima</b>, colaborador. Contraditório <b>real</b>, na formação da prova, e direito ao <b>confronto</b> (CADH, art. 8.2.f; PIDCP, art. 14.3.e) (p. 47-48).</p></div>
-  </div>
-  <p><b>O art. 155 do CPP em três partes</b> (p. 49-54):</p>
+  <div class="caixa"><h3>Pré-constituída · fonte real</h3><p>A faca com sangue; a mensagem de WhatsApp com ameaça à vítima. Contraditório <b>diferido</b>, “sobre a prova” (p. 45-46). Depois dele, pode fundamentar sozinha a condenação (p. 52).</p></div>
+  <div class="caixa ameixa"><h3>Constituenda · fonte pessoal</h3><p>Testemunha, <b class="vit">declarações da vítima</b>, colaborador. Contraditório <b>real</b>, na formação da prova, e direito ao <b>confronto</b> (CADH, art. 8.2.f; PIDCP, art. 14.3.e) (p. 47-48).</p></div>
+  <p class="fonte">Mendonça (2025, p. 44-48, 52).</p>
+</article>
+
+<article class="ficha mend" id="f6b" data-rotulo="6b provas">
+  <div class="topo"><span class="n">6b</span><span class="texto">Mendonça (2025)</span><span class="tempo">0:57 → 1:01 · 4 min · 2/2</span></div>
+  <h2>O art. 155 em três partes</h2>
   <ol>
-    <li>só é prova o que passou pelo contraditório judicial, <span class="cit">“verdadeira condição de existência da prova”</span> (Gomes Filho <i>apud</i> p. 50);</li>
-    <li>o juiz não pode se fundar “exclusivamente” nos elementos informativos; o advérbio criou <span class="cit">“um desequilíbrio no artigo”</span> (p. 51);</li>
-    <li>ressalva das provas cautelares, não repetíveis e antecipadas (p. 53-54).</li>
+    <li>Só é prova o que passou pelo contraditório judicial: <span class="cit">“verdadeira condição de existência da prova”</span> (Gomes Filho <i>apud</i> p. 50).</li>
+    <li>Não fundar a decisão “exclusivamente” no inquérito; o advérbio criou <span class="cit">“um desequilíbrio no artigo”</span> (p. 51).</li>
+    <li>Ressalva: cautelares, não repetíveis e antecipadas (p. 53-54).</li>
   </ol>
-  <blockquote class="ler"><span class="rot">Ler em voz alta</span><q>Sem a incidência de uma destas exceções, as fontes de prova pessoais unilateralmente colhidas não podem ser valoradas pelo juiz, sequer para fins de corroboração, sob pena de afronta ao princípio do contraditório.</q> (p. 79)</blockquote>
-  <p>É mais restritivo que o STF, que admite a corroboração (AgR no RE 425.734, citado na p. 52).</p>
-  <p class="fonte">Mendonça (2025, p. 44-57, 79).</p>
+  <blockquote class="ler"><span class="rot">Ler em voz alta · mais restritivo que o STF (p. 52)</span><q>Sem a incidência de uma destas exceções, as fontes de prova pessoais unilateralmente colhidas não podem ser valoradas pelo juiz, sequer para fins de corroboração, sob pena de afronta ao princípio do contraditório.</q> (p. 79)</blockquote>
+  <p class="fonte">Mendonça (2025, p. 49-54, 79).</p>
 </article>
 
 <!-- 7 · mend-excecoes -->
-<article class="ficha mend" id="f7">
-  <div class="topo"><span class="n">7</span><span class="texto">Mendonça (2025)</span><span class="slide">mend-excecoes</span><span class="tempo">1:01 → 1:05 · 4 min</span></div>
-  <h2>Três exceções ao contraditório real</h2>
-  <p class="abrir"><span class="rot">Abrir</span>São as categorias a que o professor pediu atenção em 21 out. Vêm do art. 111.5 da Constituição italiana: consenso do imputado, impossibilidade objetiva comprovada ou conduta ilícita provada (p. 58-59). O contraditório é mandamento de otimização, e não regra absoluta (Alexy; p. 58).</p>
-  <div class="tres compacta">
-    <div class="caixa"><h3>Implícito · p. 59-64</h3><ul>
-      <li><b>Pressuposto:</b> consenso da parte <b>contrária</b>, consciente, voluntário, informado e posterior ao ato (p. 62, 64).</li>
-      <li>Ninguém valida os próprios elementos: seria <span class="cit">“desequilíbrio inaceitável à luz da paridade de armas”</span> (p. 62).</li>
-      <li>Ex.: transação, suspensão do processo, ANPP (p. 60); ata notarial com declaração (p. 62-63).</li>
-      <li><b>Valor:</b> admitida; o juiz não fica vinculado (p. 64).</li></ul></div>
-    <div class="caixa"><h3>Impossível · p. 64-69</h3><ul>
-      <li><b>Pressuposto:</b> causa objetiva, real e <b>não imputável às partes</b>; do contrário, haveria <span class="cit">“um direito potestativo de impedir o contraditório”</span> (p. 65).</li>
-      <li>Ex.: a única testemunha de um latrocínio morre em acidente (p. 67).</li>
-      <li><b>Valor:</b> só <b>reforço</b>, nunca prova única ou decisiva (TEDH, <i>Al-Khawaja</i>) (p. 67-69).</li></ul></div>
-    <div class="caixa ameixa"><h3>Inquinado · p. 69-77</h3><ul>
-      <li><b>Pressuposto:</b> <b>conduta ilícita</b> comprovada para silenciar a fonte; renúncia tácita (p. 70, 76).</li>
-      <li>Origem: <i>forfeiture by wrongdoing</i> (<i>Giles v. California</i>, 2008); <i>Al-Khawaja e Tahery</i>, § 123 (p. 71-73).</li>
-      <li><b>Valor:</b> <b>pleno</b>, até como base exclusiva da condenação (p. 74-75).</li></ul></div>
-  </div>
+<article class="ficha mend" id="f7a" data-rotulo="7a exceções">
+  <div class="topo"><span class="n">7a</span><span class="texto">Mendonça (2025)</span><span class="tempo">1:01 → 1:05 · 4 min · 1/3</span></div>
+  <h2>Três exceções: de onde vêm</h2>
+  <p class="abrir"><span class="rot">Abrir</span>São as categorias a que o professor pediu atenção em 21 out. Vêm do art. 111.5 da Constituição italiana: consenso do imputado, impossibilidade objetiva comprovada ou conduta ilícita provada (p. 58-59).</p>
+  <p>O contraditório é mandamento de otimização, e não regra absoluta (Alexy; p. 58).</p>
+  <p class="cuidado"><span class="rot">Antes que perguntem · 20 s</span>Depois da tarde de 22 out.: Mendonça declara a origem italiana, ancora as exceções no art. 155 do CPP e usa a experiência estrangeira para delimitar pressupostos, e não para importar o sistema. É <b>tradução declarada</b>, e não recorte escondido (R2).</p>
+  <p class="fonte">Mendonça (2025, p. 58-59); roteiro <code>13</code>, seção 6.3.2.</p>
+</article>
+
+<article class="ficha mend" id="f7b" data-rotulo="7b exceções">
+  <div class="topo"><span class="n">7b</span><span class="texto">Mendonça (2025)</span><span class="tempo">1:01 → 1:05 · 4 min · 2/3</span></div>
+  <h2>Implícito e impossível</h2>
+  <div class="caixa"><h3>Implícito · p. 59-64</h3><ul>
+    <li><b>Pressuposto:</b> consenso da parte <b>contrária</b>, consciente, informado e posterior ao ato (p. 62, 64).</li>
+    <li>Ninguém valida os próprios elementos: <span class="cit">“desequilíbrio inaceitável à luz da paridade de armas”</span> (p. 62).</li>
+    <li><b>Valor:</b> admitida; o juiz não fica vinculado (p. 64).</li></ul></div>
+  <div class="caixa"><h3>Impossível · p. 64-69</h3><ul>
+    <li><b>Pressuposto:</b> causa objetiva, <b>não imputável às partes</b>; senão haveria <span class="cit">“um direito potestativo de impedir o contraditório”</span> (p. 65).</li>
+    <li><b>Valor:</b> só <b>reforço</b>, nunca prova única ou decisiva (p. 67-69).</li></ul></div>
+  <p class="fonte">Mendonça (2025, p. 59-69).</p>
+</article>
+
+<article class="ficha mend" id="f7c" data-rotulo="7c exceções">
+  <div class="topo"><span class="n">7c</span><span class="texto">Mendonça (2025)</span><span class="tempo">1:01 → 1:05 · 4 min · 3/3</span></div>
+  <h2>Inquinado</h2>
+  <div class="caixa ameixa"><h3>Inquinado · p. 69-77</h3><ul>
+    <li><b>Pressuposto:</b> <b>conduta ilícita</b> comprovada para silenciar a fonte; renúncia tácita (p. 70, 76).</li>
+    <li><b>Origem:</b> <i>forfeiture by wrongdoing</i> (<i>Giles v. California</i>, 2008); <i>Al-Khawaja e Tahery</i>, § 123 (p. 71-73).</li>
+    <li><b>Valor:</b> <b>pleno</b>, até como base exclusiva da condenação (p. 74-75).</li></ul></div>
   <p class="fechar"><span class="rot">Fechar</span>Perde o confronto quem o impediu por <b>conduta própria</b>. <span class="m inf">inferência</span></p>
-  <p class="fonte">Mendonça (2025, p. 58-77).</p>
+  <p class="fonte">Mendonça (2025, p. 69-77).</p>
 </article>
 
 <!-- 8 · mend-vitima -->
-<article class="ficha mend" id="f8">
-  <div class="topo"><span class="n">8</span><span class="texto">Mendonça (2025)</span><span class="slide">mend-vitima</span><span class="tempo">1:05 → 1:08 · 3 min</span></div>
+<article class="ficha mend" id="f8a" data-rotulo="8a vítima">
+  <div class="topo"><span class="n">8a</span><span class="texto">Mendonça (2025)</span><span class="tempo">1:05 → 1:08 · 3 min · 1/2</span></div>
   <h2>Onde entra a vítima</h2>
   <blockquote class="ler"><span class="rot">Ler em voz alta</span><q>Aqui podem entrar em consideração, ao lado do direito ao contraditório, outros valores, como os direitos da vítima e das testemunhas, bem como o interesse público na administração eficaz da justiça</q> (p. 58)</blockquote>
   <ul>
-    <li><b>Vale nos dois sentidos:</b> o inquinado alcança a autoridade que ameaça testemunha de defesa (p. 71); o implícito exige o consenso da parte contrária, seja a defesa, seja o MP (p. 62).</li>
-    <li><b>Fundamento:</b> <span class="cit">“Permitir que o réu se beneficie do medo que ele próprio causou nas testemunhas seria incompatível com os direitos das vítimas e das próprias testemunhas”</span> (tradução do autor de <i>Al-Khawaja</i>, § 123; p. 72).</li>
+    <li><b>Nos dois sentidos:</b> o inquinado alcança a autoridade que ameaça testemunha de defesa (p. 71).</li>
+    <li><b>Fundamento:</b> <span class="cit">“Permitir que o réu se beneficie do medo que ele próprio causou nas testemunhas seria incompatível com os direitos das vítimas e das próprias testemunhas”</span> (<i>Al-Khawaja</i>, § 123, trad. do autor; p. 72).</li>
+  </ul>
+  <p class="fonte">Mendonça (2025, p. 58, 71-72).</p>
+</article>
+
+<article class="ficha mend" id="f8b" data-rotulo="8b vítima">
+  <div class="topo"><span class="n">8b</span><span class="texto">Mendonça (2025)</span><span class="tempo">1:05 → 1:08 · 3 min · 2/2</span></div>
+  <h2>O ponto crítico e a passagem</h2>
+  <ul>
     <li><b>Ponto crítico:</b> a conduta é apurada em incidente, por juízo de <b>probabilidade</b>, e não basta suspeita genérica (p. 75-76); a prova resultante pode ser decisiva (p. 74-75). Letícia pode completar pela defesa.</li>
     <li><b class="vit">Síntese:</b> em Mendonça, a vítima é fonte de prova e valor de ponderação, e não sujeito do contraditório. <span class="m inf">inferência</span></li>
   </ul>
   <p class="passa"><span class="rot">Passar a Guilherme</span>Até aqui, a vítima foi titular de uma representação que se torna irretratável, fonte de prova e valor de ponderação. Mas e quando o processo nem começa, porque uma prerrogativa o bloqueia ou porque quem investiga é o próprio Estado?</p>
-  <p class="fonte">Mendonça (2025, p. 58, 62, 71-76).</p>
+  <p class="fonte">Mendonça (2025, p. 74-76).</p>
+</article>
+
+<!-- S · síntese: questão 3 e enquete final -->
+<article class="ficha visao" id="s1" data-rotulo="S1 questão 3">
+  <div class="topo"><span class="n">S1</span><span class="texto">Síntese · questão 3</span><span class="tempo">1:52 → 1:55 · 3 min · 1/2</span></div>
+  <h2>A quem pertencem as garantias?</h2>
+  <p class="abrir"><span class="rot">Resposta em uma frase</span><span class="fala">A pessoas, não a lados; e o Estado é o devedor comum.</span></p>
+  <ul>
+    <li><b>À defesa:</b> a ampla defesa é só do acusado (Mendonça, 2025, p. 44).</li>
+    <li><b>Às duas partes:</b> o contraditório <span class="cit">“também se aplica à acusação”</span> (Mendonça, 2025, p. 44).</li>
+    <li><b class="vit">À vítima e aos familiares:</b> as garantias judiciais também são deles (Corte IDH, 2021, § 151), com proteção e investigação diligente.</li>
+  </ul>
+  <p class="fonte">Roteiro <code>13</code>, seção 6.5, item 3. Mais apoio na R8.</p>
+</article>
+
+<article class="ficha visao" id="s2" data-rotulo="S2 questão 3">
+  <div class="topo"><span class="n">S2</span><span class="texto">Síntese · questão 3</span><span class="tempo">1:52 → 1:55 · 3 min · 2/2</span></div>
+  <h2>Bilateral, mas assimétrica</h2>
+  <ul>
+    <li>No conflito irredutível, prevalecem <span class="cit">“as garantias essenciais da defesa”</span> (Fernandes, 1995, p. 233): a cláusula de limite de Scarance.</li>
+    <li>Retomar a pergunta com que o professor abriu a disciplina: <span class="fala">o Estado presta jurisdição penal a quem?</span> Às pessoas que o processo pode ferir, dos dois lados.</li>
+    <li><b>Imagem:</b> <span class="fala">permissões diferentes para perfis diferentes, todas concedidas pelo mesmo administrador.</span> <span class="m inf">analogia</span></li>
+  </ul>
+  <p class="passa"><span class="rot">Passar a Letícia</span>A síntese da disciplina.</p>
+  <p class="fonte">Roteiro <code>13</code>, seção 6.5, item 3. Resposta: leitura do trio.</p>
+</article>
+
+<article class="ficha visao" id="s3" data-rotulo="S3 enquete final">
+  <div class="topo"><span class="n">S3</span><span class="texto">Síntese · enquete final</span><span class="tempo">1:58 → 2:00 · 2 min</span></div>
+  <h2>Enquete final</h2>
+  <p class="abrir"><span class="rot">Perguntar de novo</span><span class="fala">E agora: ampliar os direitos da vítima reduz os direitos do acusado? Sim, não ou depende?</span></p>
+  <ul>
+    <li>Mão levantada; <b>Guilherme compara</b> com o resultado do início, anotado no quadro.</li>
+    <li>Se a turma foi para “depende”: depende de <b>quem paga o custo</b> da ampliação, o Estado ou a parte contrária.</li>
+    <li>Quando paga o Estado, ampliar um lado não reduz o outro; quando paga a parte contrária, a escolha precisa de regra.</li>
+  </ul>
+  <p class="passa"><span class="rot">Entregar ao professor</span>Agradecer e passar a palavra ao professor para o debate.</p>
+  <p class="fonte">Roteiro <code>13</code>, seções 6.5, item 5, e 7.1.</p>
 </article>
 
 <!-- R1 -->
-<article class="ficha reserva" id="r1">
+<article class="ficha reserva" id="r1" data-rotulo="R1 concorda?">
   <div class="topo"><span class="n">R1</span><span class="texto">Reserva · debate</span><span class="tempo">Ballan Junior (2025)</span></div>
-  <h2>“O grupo concorda com a tese do oferecimento?”</h2>
-  <p class="abrir"><span class="rot">Tom</span>É o texto do professor: responder em forma de diálogo, e devolver uma pergunta.</p>
+  <h2>“O grupo concorda com a tese?”</h2>
   <ul>
-    <li><b>No núcleo, sim:</b> a tese é coerente com o art. 129, I, da CF e com o contraditório como ciência bilateral (p. 26, 33).</li>
-    <li><b>O próprio autor limita a consequência:</b> a nulidade seria só “em abstrato”, dependente de prova do prejuízo (nota 62, p. 35).</li>
-    <li><b>Uma dúvida, e não uma objeção:</b> os marcos ligados ao recebimento, como a interrupção da prescrição, que o autor situa no direito material (p. 21). A tese antecipa o contraditório, e não esses efeitos (p. 27, 35). <span class="m inf">inferência</span></li>
+    <li><b>No núcleo, sim:</b> coerente com o art. 129, I, da CF e com o contraditório como ciência bilateral (p. 26, 33).</li>
+    <li><b>O autor limita a consequência:</b> nulidade só “em abstrato” (nota 62, p. 35).</li>
+    <li><b>Dúvida, e não objeção:</b> os marcos ligados ao recebimento, como a interrupção da prescrição (p. 21); a tese antecipa o contraditório, e não esses efeitos (p. 27, 35). <span class="m inf">inferência</span></li>
   </ul>
-  <p class="fechar"><span class="rot">Devolver</span>Professor, o Quadro 1 separa o início da ação, a relação processual e o contraditório (p. 35). Essa separação permite distinguir a existência do processo, desde o oferecimento, dos efeitos gravosos, que só viriam com o recebimento?</p>
-  <p class="fonte">Ballan Junior (2025, p. 21, 26-27, 33-35); roteiro <code>13</code>, seção 9.</p>
+  <p class="fechar"><span class="rot">Devolver</span>Professor, o Quadro 1 permite separar a existência do processo, desde o oferecimento, dos efeitos gravosos, que só viriam com o recebimento?</p>
+  <p class="fonte">Ballan Junior (2025, p. 21, 26-27, 33-35).</p>
 </article>
 
-<!-- R2 -->
-<article class="ficha reserva" id="r2">
-  <div class="topo"><span class="n">R2</span><span class="texto">Reserva · debate</span><span class="tempo">Ballan Junior (2025)</span></div>
-  <h2>“E o sigilo da colaboração até o recebimento?”</h2>
-  <ul>
-    <li>Foi um dos fundamentos da Turma: não haveria previsão legal sequer para levantar o sigilo da colaboração antes do recebimento (p. 18).</li>
-    <li>O capítulo não enfrenta esse ponto diretamente. <span class="m inf">inferência</span></li>
-    <li><b>Linha possível:</b> a ordem entre a resposta e o recebimento é escolha do legislador (p. 34), e o Quadro 1 separa ação, relação e contraditório (p. 35). O contraditório desde o oferecimento exige ciência da imputação, e não necessariamente a publicidade de todo o acordo. <span class="m inf">inferência</span></li>
-    <li>A regra legal do sigilo até o recebimento estaria na Lei 12.850/2013, art. 7º, § 3º. <span class="m ext">externo · conferir</span></li>
-  </ul>
-  <p class="fechar"><span class="rot">Devolver</span>Professor, como conciliar o contraditório desde o oferecimento com o sigilo até o recebimento?</p>
-  <p class="fonte">Ballan Junior (2025, p. 18, 34-35); roteiro <code>13</code>, seção 8, pergunta 2.</p>
+<!-- R2 · tarde de 22 out. -->
+<article class="ficha reserva" id="r2a" data-rotulo="R2a recorte?">
+  <div class="topo"><span class="n">R2a</span><span class="texto">Reserva · debate</span><span class="tempo">Mendonça · tarde de 22 out. · 1/2</span></div>
+  <h2>“Isso não é o recorte que o senhor criticou?”</h2>
+  <ol>
+    <li><b>O que o professor criticou:</b> não a importação, mas o recorte não declarado e sem adaptação, usado para tirar consequências para o nosso sistema. <span class="cit">“Descrever um modelo não é comparar”</span> (fichamento <code>35</code>, seção 4).</li>
+    <li><b>Mendonça declara a origem:</b> a tríade, do art. 111.5 da Constituição italiana e de Ubertis (p. 58-59); o <i>forfeiture</i>, de <i>Giles v. California</i> (p. 71-72); a testemunha intimidada, de <i>Al-Khawaja e Tahery</i> (p. 72-73).</li>
+  </ol>
+  <p class="fonte">Roteiro <code>13</code>, seção 8, pergunta 11, e seção 9.</p>
 </article>
 
-<!-- R3 -->
-<article class="ficha reserva" id="r3">
-  <div class="topo"><span class="n">R3</span><span class="texto">Reserva · debate</span><span class="tempo">Ballan Junior (2025)</span></div>
-  <h2>“E a vítima no marco do oferecimento?”</h2>
+<article class="ficha reserva" id="r2b" data-rotulo="R2b recorte?">
+  <div class="topo"><span class="n">R2b</span><span class="texto">Reserva · debate</span><span class="tempo">Mendonça · tarde de 22 out. · 2/2</span></div>
+  <h2>Tradução declarada</h2>
+  <ol start="3">
+    <li><b>E a ancora no direito interno:</b> interpretação conforme do art. 155 do CPP, para erguer <span class="cit">“barreiras contra a expansão indevida”</span> (p. 59). É o uso que o professor admitiu: a experiência estrangeira <span class="cit">“como uma argumentação”</span>, e não como modelo importado (fichamento <code>35</code>, seção 4.2).</li>
+    <li><b>A ressalva:</b> o art. 155 fala em provas cautelares, não repetíveis e antecipadas, e não em consenso nem em conduta ilícita. Na grade do professor (slide C4 de 21 out.), o inquinado é <b>tradução</b>; a questão é se o terreno o sustenta. <span class="m inf">inferência</span></li>
+  </ol>
+  <p class="fechar"><span class="rot">Devolver</span>Professor, na leitura de Mendonça, a tríade é tradução ou recorte?</p>
+  <p class="fonte">Mendonça (2025, p. 59); roteiro <code>13</code>, seção 9.</p>
+</article>
+
+<!-- R3 · tarde de 22 out. -->
+<article class="ficha reserva" id="r3a" data-rotulo="R3a juiz protagonista">
+  <div class="topo"><span class="n">R3a</span><span class="texto">Reserva · debate</span><span class="tempo">Ballan Junior · tarde de 22 out. · 1/2</span></div>
+  <h2>“Por que tantos juízes ainda são protagonistas?”</h2>
   <ul>
-    <li>Nenhum dos dois textos propõe ouvir a vítima no recebimento.</li>
-    <li>Em Ballan Junior, a vítima aparece pela <b>representação</b>, irretratável depois do oferecimento (p. 22-23), pelo <b>perdão do ofendido</b> (p. 23) e pelo <b>querelante</b> (p. 26, 36).</li>
-    <li>O mesmo ato que abre o contraditório da defesa encerra a retratação da vítima: o oferecimento ordena as duas faces sem tirar nada de nenhuma. <span class="m inf">inferência</span></li>
-    <li><b>Critério funcional</b> (p. 17-18): fala depois quem é atingido por manifestação com carga acusatória. Aplicado ao assistente de acusação, a defesa falaria depois dele. <span class="m inf">inferência</span> <span class="m ext">CPP, arts. 268-273 · conferir</span></li>
+    <li><b>Até 2003:</b> o interrogatório era o primeiro ato, e o defensor não podia intervir (art. 187 original; Ballan Junior, p. 28).</li>
+    <li><b>2003:</b> interrogatório <span class="cit">“na presença de seu defensor”</span> (art. 185).</li>
+    <li><b>2008:</b> interrogatório ao fim (art. 400); fato novo exige aditamento do MP (art. 384; p. 28-29); <span class="cit">“As perguntas serão formuladas pelas partes diretamente à testemunha”</span> (art. 212).</li>
   </ul>
-  <p class="fechar"><span class="rot">Devolver</span>Professor, se a ação começa no oferecimento, o ofendido poderia habilitar-se como assistente desde então?</p>
-  <p class="fonte">Ballan Junior (2025, p. 17-18, 22-23, 26, 36); roteiro <code>13</code>, seção 8, pergunta 1.</p>
+  <p class="fonte">CPP conferido no <code>treto</code>; roteiro <code>13</code>, seção 9.</p>
+</article>
+
+<article class="ficha reserva" id="r3b" data-rotulo="R3b juiz protagonista">
+  <div class="topo"><span class="n">R3b</span><span class="texto">Reserva · debate</span><span class="tempo">Ballan Junior · tarde de 22 out. · 2/2</span></div>
+  <h2>A geração moldada</h2>
+  <ul>
+    <li>O professor, em 21 out.: <span class="cit">“toda uma geração extensa de juízes moldados, formados nesse processo penal”</span>. Na tarde de 22 out.: o juiz que repetia a pergunta do advogado e ditava a resposta, <span class="cit">“uma conversa de bêbado”</span>, e o que hoje se incomoda de estar <span class="cit">“só assistindo”</span>.</li>
+    <li><b>Limite atual:</b> o art. 3º-A veda <span class="cit">“a substituição da atuação probatória do órgão de acusação”</span>.</li>
+    <li><b>Ligação:</b> a tese do oferecimento amplia acusação e defesa à custa do protagonismo do juiz (p. 26, 29). <span class="m inf">inferência</span></li>
+  </ul>
+  <p class="fonte">Fichamentos <code>26</code>, seção 8.5, e <code>35</code>, seção 5.2.</p>
 </article>
 
 <!-- R4 -->
-<article class="ficha reserva" id="r4">
-  <div class="topo"><span class="n">R4</span><span class="texto">Reserva · debate</span><span class="tempo">Mendonça (2025)</span></div>
-  <h2>“O inquinado não fere a presunção de inocência?”</h2>
+<article class="ficha reserva" id="r4" data-rotulo="R4 sigilo">
+  <div class="topo"><span class="n">R4</span><span class="texto">Reserva · debate</span><span class="tempo">Ballan Junior (2025)</span></div>
+  <h2>“E o sigilo da colaboração?”</h2>
   <ul>
-    <li><b>O risco existe:</b> a conduta é apurada em incidente, por probabilidade (p. 75-76), e a declaração pode ser a prova única ou decisiva (p. 74-75).</li>
-    <li><b>Os contrapesos do autor:</b> circunstâncias com <i>obiettività e significatività</i> (p. 75); quatro requisitos, entre eles a intenção de silenciar a fonte e o contraditório sobre a própria conduta (p. 76); em concurso de agentes, só o responsável sofre o efeito (p. 76).</li>
-    <li><b>Contraponto no próprio texto:</b> em <i>Lucà v. Itália</i>, o silêncio do coimputado sem conduta ilícita do réu não autorizou a condenação exclusiva (nota 164, p. 73).</li>
-    <li><b>Os casos do STJ</b> que o autor lê como inquinado (p. 76-77): AgRg no REsp 2.192.889/MG (2025: testemunhas ameaçadas, comunidade temerosa) e AgRg no HC 810.692/RJ (2023: grupo de extermínio, policial como testemunha de ouvir dizer). O medo difuso da comunidade parece mais perto de <i>Lucà</i> do que de <i>Al-Khawaja</i>. <span class="m inf">inferência</span></li>
+    <li>Foi fundamento da Turma: não haveria previsão para levantar o sigilo antes do recebimento (p. 18). O capítulo não enfrenta o ponto. <span class="m inf">inferência</span></li>
+    <li><b>Linha possível:</b> a ordem entre resposta e recebimento é escolha do legislador (p. 34), e o Quadro 1 separa ação, relação e contraditório (p. 35). Contraditório desde o oferecimento exige ciência da imputação, e não a publicidade de todo o acordo. <span class="m inf">inferência</span></li>
+    <li>Lei 12.850/2013, art. 7º, § 3º. <span class="m ext">externo · conferir</span></li>
   </ul>
-  <p class="fonte">Mendonça (2025, p. 73-77); roteiro <code>13</code>, seção 8, pergunta 5.</p>
+  <p class="fonte">Ballan Junior (2025, p. 18, 34-35).</p>
 </article>
 
 <!-- R5 -->
-<article class="ficha reserva" id="r5">
-  <div class="topo"><span class="n">R5</span><span class="texto">Reserva · debate</span><span class="tempo">Os dois textos</span></div>
-  <h2>“Há solução em que defesa e vítima ganham juntas?”</h2>
+<article class="ficha reserva" id="r5" data-rotulo="R5 vítima">
+  <div class="topo"><span class="n">R5</span><span class="texto">Reserva · debate</span><span class="tempo">Ballan Junior (2025)</span></div>
+  <h2>“E a vítima no oferecimento?”</h2>
   <ul>
-    <li><b>A prova antecipada:</b> produzida antes do momento normal, perante o juiz, <b>com contraditório real</b> (CPP, art. 156; art. 3º-B, VII) (p. 54-55). Ex.: a única testemunha presencial, gravemente doente, ouvida desde logo (p. 55).</li>
-    <li>Preserva a fonte, que interessa à vítima e à apuração, e o confronto, que interessa à defesa. <span class="m inf">inferência</span></li>
-    <li><b>Se o risco era previsível e não se antecipou, a prova se perde</b> (p. 57): a omissão do Estado não recai sobre a defesa. <span class="m inf">inferência</span></li>
-    <li><b>Em Ballan Junior:</b> a ciência não é bem rival, porque informar um lado não priva o outro (p. 33); a última palavra é bem rival e se resolve por regra de ordenação, a carga acusatória (p. 17-18). <span class="m inf">inferência</span></li>
+    <li>Nenhum dos dois textos propõe ouvir a vítima no recebimento.</li>
+    <li>Em Ballan Junior, a vítima aparece pela <b>representação</b>, irretratável após o oferecimento (p. 22-23), pelo <b>perdão do ofendido</b> (p. 23) e pelo <b>querelante</b> (p. 26, 36).</li>
+    <li>O mesmo ato abre o contraditório da defesa e encerra a retratação da vítima. <span class="m inf">inferência</span></li>
   </ul>
-  <p class="fonte">Mendonça (2025, p. 54-57); Ballan Junior (2025, p. 17-18, 33); roteiro <code>13</code>, Tese 2.</p>
+  <p class="fechar"><span class="rot">Devolver</span>Professor, o ofendido poderia ser assistente desde o oferecimento? <span class="m ext">CPP, arts. 268-273 · conferir</span></p>
+  <p class="fonte">Ballan Junior (2025, p. 17-18, 22-23, 26, 36).</p>
 </article>
 
 <!-- R6 -->
-<article class="ficha reserva" id="r6">
-  <div class="topo"><span class="n">R6</span><span class="texto">Reserva · síntese</span><span class="tempo">Questão 3 · os dois textos</span></div>
-  <h2>“A quem pertencem as garantias?”</h2>
+<article class="ficha reserva" id="r6a" data-rotulo="R6a inquinado">
+  <div class="topo"><span class="n">R6a</span><span class="texto">Reserva · debate</span><span class="tempo">Mendonça (2025) · 1/2</span></div>
+  <h2>“O inquinado fere a presunção de inocência?”</h2>
   <ul>
-    <li><b>Contraditório, às duas partes:</b> <span class="cit">“O essencial é que as partes sejam postas em condições de se contrariarem”</span> (Canuto Mendes de Almeida <i>apud</i> Ballan Junior, p. 33); ele <span class="cit">“também se aplica à acusação”</span> (Mendonça, p. 44).</li>
-    <li><b>Ampla defesa, ao acusado</b> (Mendonça, p. 44), exercível “em alguma medida” já na investigação (Ballan Junior, p. 30).</li>
-    <li><b>Ação, à parte que acusa:</b> é <span class="cit">“um direito da parte”</span> (Ballan Junior, p. 34); o princípio acusatório distribui ação, defesa e jurisdição entre autor, réu e juiz (Garcete <i>apud</i> Ballan Junior, p. 26).</li>
-    <li><b>Ao próprio processo:</b> o perfil objetivo do contraditório serve à decisão justa e à verdade (Mendonça, p. 43).</li>
-    <li><b class="vit">À vítima:</b> direitos que entram na ponderação e prevalecem no inquinado (Mendonça, p. 58, 72, 74); não é titular do contraditório. <span class="m inf">inferência</span></li>
+    <li><b>O risco existe:</b> a conduta é apurada em incidente, por probabilidade (p. 75-76), e a declaração pode ser a prova única ou decisiva (p. 74-75).</li>
+    <li><b>Os contrapesos:</b> circunstâncias com <i>obiettività e significatività</i> (p. 75); intenção de silenciar e contraditório sobre a própria conduta (p. 76); só o responsável sofre o efeito (p. 76).</li>
   </ul>
-  <p class="fonte">Ballan Junior (2025, p. 26, 30, 33-34); Mendonça (2025, p. 43-44, 58, 72, 74).</p>
+  <p class="fonte">Mendonça (2025, p. 74-76); roteiro <code>13</code>, seção 8, pergunta 5.</p>
+</article>
+
+<article class="ficha reserva" id="r6b" data-rotulo="R6b inquinado">
+  <div class="topo"><span class="n">R6b</span><span class="texto">Reserva · debate</span><span class="tempo">Mendonça (2025) · 2/2</span></div>
+  <h2><i>Lucà</i> e os casos do STJ</h2>
+  <ul>
+    <li><b>Contraponto no texto:</b> em <i>Lucà v. Itália</i>, o silêncio do coimputado sem conduta ilícita do réu não autorizou a condenação exclusiva (nota 164, p. 73).</li>
+    <li><b>STJ</b> (p. 76-77): AgRg no REsp 2.192.889/MG (2025, testemunhas ameaçadas) e AgRg no HC 810.692/RJ (2023, grupo de extermínio). O medo difuso da comunidade parece mais perto de <i>Lucà</i> do que de <i>Al-Khawaja</i>. <span class="m inf">inferência</span></li>
+  </ul>
+  <p class="fonte">Mendonça (2025, p. 73, 76-77).</p>
 </article>
 
 <!-- R7 -->
-<article class="ficha reserva" id="r7">
-  <div class="topo"><span class="n">R7</span><span class="texto">Reserva · debate</span><span class="tempo">Mendonça (2025)</span></div>
-  <h2>“Por que um profissional de TI apresenta o contraditório?”</h2>
+<article class="ficha reserva" id="r7" data-rotulo="R7 soma positiva">
+  <div class="topo"><span class="n">R7</span><span class="texto">Reserva · debate</span><span class="tempo">Os dois textos</span></div>
+  <h2>“Defesa e vítima ganham juntas?”</h2>
   <ul>
-    <li>Porque a distinção de Mendonça é o centro da prova digital: a mensagem de WhatsApp é prova <b>pré-constituída</b> (p. 45), e as provas digitais, depois do contraditório diferido, muitas vezes já bastam para condenar (p. 52-53).</li>
-    <li>O autor nota que os mecanismos consensuais, somados às provas digitais, deslocam o <span class="cit">“centro gravitacional”</span> da persecução para a investigação (nota 132, p. 60).</li>
-    <li>Na prova digital, o contraditório diferido é contraditório sobre o <b>método</b>: as duas partes precisam poder examinar como a prova foi colhida e analisada. É o problema que estudo no doutorado, a prova do conteúdo sintético na Justiça Eleitoral. <span class="m inf">inferência</span></li>
+    <li><b>Prova antecipada:</b> perante o juiz, <b>com contraditório real</b> (CPP, art. 156; art. 3º-B, VII) (p. 54-55). Preserva a fonte e o confronto. <span class="m inf">inferência</span></li>
+    <li><b>Risco previsível sem antecipação: a prova se perde</b> (p. 57); a omissão do Estado não recai sobre a defesa. <span class="m inf">inferência</span></li>
+    <li><b>Ballan Junior:</b> a ciência não é bem rival (p. 33); a última palavra é, e se resolve por regra de ordenação, a carga acusatória (p. 17-18). <span class="m inf">inferência</span></li>
   </ul>
-  <p class="fonte">Mendonça (2025, p. 45, 52-53, 60); roteiro <code>13</code>, seção 9.</p>
+  <p class="fonte">Mendonça (2025, p. 54-57); Ballan Junior (2025, p. 17-18, 33).</p>
+</article>
+
+<!-- R8 -->
+<article class="ficha reserva" id="r8" data-rotulo="R8 a quem pertencem">
+  <div class="topo"><span class="n">R8</span><span class="texto">Reserva · síntese</span><span class="tempo">Questão 3 · os dois textos</span></div>
+  <h2>“A quem pertencem as garantias?”</h2>
+  <ul>
+    <li><b>Contraditório, às duas partes:</b> <span class="cit">“O essencial é que as partes sejam postas em condições de se contrariarem”</span> (Canuto <i>apud</i> Ballan Junior, p. 33); <span class="cit">“também se aplica à acusação”</span> (Mendonça, p. 44).</li>
+    <li><b>Ampla defesa, ao acusado</b> (Mendonça, p. 44). <b>Ação, à parte que acusa:</b> <span class="cit">“um direito da parte”</span> (Ballan Junior, p. 34).</li>
+    <li><b>Ao processo:</b> o perfil objetivo serve à decisão justa (Mendonça, p. 43).</li>
+    <li><b class="vit">À vítima:</b> direitos que pesam na ponderação e prevalecem no inquinado (Mendonça, p. 58, 74). <span class="m inf">inferência</span></li>
+  </ul>
+  <p class="fonte">Ballan Junior (2025, p. 33-34); Mendonça (2025, p. 43-44, 58, 74).</p>
+</article>
+
+<!-- R9 -->
+<article class="ficha reserva" id="r9" data-rotulo="R9 por que TI">
+  <div class="topo"><span class="n">R9</span><span class="texto">Reserva · debate</span><span class="tempo">Mendonça (2025)</span></div>
+  <h2>“Por que um profissional de TI?”</h2>
+  <ul>
+    <li>A distinção de Mendonça é o centro da prova digital: a mensagem de WhatsApp é prova <b>pré-constituída</b> (p. 45), e as provas digitais, depois do contraditório diferido, muitas vezes bastam para condenar (p. 52-53).</li>
+    <li>Na prova digital, o contraditório é sobre o <b>método</b>: as duas partes precisam examinar como a prova foi colhida e analisada. É o problema que estudo no doutorado, a prova do conteúdo sintético na Justiça Eleitoral. <span class="m inf">inferência</span></li>
+  </ul>
+  <p class="fonte">Mendonça (2025, p. 45, 52-53).</p>
 </article>
 
 </main>
@@ -635,14 +902,14 @@ main{display:flex; flex-direction:column; gap:1.4rem}
   function ler(k) { try { return localStorage.getItem(PREFIXO + k); } catch (e) { return null; } }
   function gravar(k, v) { try { localStorage.setItem(PREFIXO + k, String(v)); } catch (e) {} }
 
-  // Rótulos e cores vêm dos atalhos da lista ("2 tese", "R4 inquinado").
+  // Rótulos e cores dos grupos vêm dos atalhos da lista ("2 tese", "R6 inquinado").
   var rotulo = {}, cor = {};
   Array.prototype.forEach.call(document.querySelectorAll('nav.atalhos a'), function (a) {
     var id = a.getAttribute('href').slice(1);
     rotulo[id] = a.textContent.trim();
     cor[id] = a.getAttribute('style') || '';
   });
-  function nome(i) { return rotulo[fichas[i].id] || String(i); }
+  function nome(i) { return fichas[i].getAttribute('data-rotulo') || rotulo[fichas[i].id] || String(i); }
 
   var atual = 0, apresentando = false, trava = null;
 
@@ -698,9 +965,11 @@ main{display:flex; flex-direction:column; gap:1.4rem}
     atual = Math.max(0, Math.min(fichas.length - 1, n));
     fichas.forEach(function (f, j) { f.classList.toggle('atual', j === atual); });
     var f = fichas[atual]; f.scrollTop = 0;
-    var tempo = f.querySelector('.topo .tempo'), inicio = tempo && tempo.textContent.match(/\d:\d\d/);
+    var tempo = f.querySelector('.topo .tempo'), texto = tempo ? tempo.textContent : '',
+        inicio = texto.match(/\d:\d\d/), parte = texto.match(/(\d\/\d)\s*$/);
     cont.textContent = nome(atual) + ' ';
-    if (inicio) { var hora = document.createElement('small'); hora.textContent = '· ' + inicio[0]; cont.appendChild(hora); }
+    var extra = [inicio && inicio[0], parte && parte[1]].filter(Boolean).join(' · ');
+    if (extra) { var miuda = document.createElement('small'); miuda.textContent = '· ' + extra; cont.appendChild(miuda); }
     prog.style.width = ((atual + 1) / fichas.length * 100) + '%';
     gravar('pos', atual);
     avisar();
@@ -768,16 +1037,21 @@ main{display:flex; flex-direction:column; gap:1.4rem}
   $('ap-sair-menu').addEventListener('click', sair);
 
   // ---- menu ----
+  // Um botão por parte ou reserva (a primeira ficha de cada grupo, como nos atalhos da lista).
+  var botoes = [];
   fichas.forEach(function (f, j) {
+    if (!rotulo[f.id]) return;
     var b = document.createElement('button');
-    b.type = 'button'; b.textContent = nome(j); b.setAttribute('style', cor[f.id] || '');
+    b.type = 'button'; b.textContent = rotulo[f.id]; b.setAttribute('style', cor[f.id] || '');
     b.addEventListener('click', function () { fecharMenu(); mostrar(j); });
-    grade.appendChild(b);
+    grade.appendChild(b); botoes.push({ b: b, j: j });
   });
   function abrirMenu() {
-    Array.prototype.forEach.call(grade.children, function (b, j) { b.classList.toggle('atual', j === atual); });
+    var ativo = null;
+    botoes.forEach(function (x) { if (x.j <= atual) ativo = x; });
+    botoes.forEach(function (x) { x.b.classList.toggle('atual', x === ativo); });
     mostrarFonte(); marcarToque(); dica.hidden = true; menu.hidden = false;
-    var b = grade.children[atual]; if (b) b.focus({ preventScroll: true });
+    if (ativo) ativo.b.focus({ preventScroll: true });
   }
   function fecharMenu() { menu.hidden = true; }
   $('ap-abrir-menu').addEventListener('click', abrirMenu);
