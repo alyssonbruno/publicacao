@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Fichas de fala do bloco II do Seminário 5 (PPGPJDH UFT/ESMAT): Ballan Junior (2025) e Mendonça (2025), com modo apresentação para o celular.">
+<meta name="robots" content="noindex">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Fichas S5">
+<meta name="theme-color" content="#F6F3EE" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16141B" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icone-180.png">
+<link rel="icon" type="image/png" href="icone-192.png">
+<!-- Gerado de alyssonbruno/doutorado: aulas/garantias-constitucionais-processo/35-fichas-alysson-e2-e3.html.
+     Edite lá e copie de novo; esta cabeça só acrescenta o que a página precisa fora do claude.ai. -->
+<style>:root{padding-top:env(safe-area-inset-top, 0px); padding-bottom:env(safe-area-inset-bottom, 0px)}</style>
+</head>
+<body>
+<title>Fichas dos textos e.2 e e.3</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400..700;1,400..700&family=Public+Sans:ital,wght@0,400..700;1,400..700&display=swap">
+<style>
+/* Fichas de fala do bloco II do Seminário 5 (Alysson): uma ficha por slide, na ordem da
+   projeção, e fichas de reserva para o debate. Três usos: na tela, pilha de cartões com
+   atalhos; no modo apresentação (celular), uma ficha por vez em tela cheia, com toque para
+   avançar e deslize para voltar; na impressão, duas fichas A5 deitadas por folha A4.
+   Mesmo sistema visual da disciplina: marfim, Public Sans e Source Serif 4; azul = Ballan
+   Junior, verde = Mendonça, ameixa = reserva e vítima, ouro = ler em voz alta, terracota = cuidado. */
+:root{
+  --papel:#F6F3EE; --cartao:#FFFDFA; --tinta:#211D2B; --texto-2:#48445A; --apoio:#6A6577;
+  --linha:#D9D2DE; --faixa-fg:#FFFFFF; --veu:rgba(33,29,43,.5);
+  --azul:#2F5D8A; --azul-l:#EAF0F7;
+  --verde:#2E6F62; --verde-l:#E2EFEB;
+  --ameixa:#6B3A5B; --ameixa-l:#F3E6EE;
+  --ouro:#8A5A0B; --ouro-l:#F5ECDD;
+  --terra:#A3442A; --terra-l:#F7E5DE;
+  --serif:'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --sans:'Public Sans', 'Segoe UI', Arial, Helvetica, sans-serif;
+  --fs-ap:clamp(21px, calc(14px + 2.2vw), 32px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --papel:#16141B; --cartao:#201D26; --tinta:#ECE8F0; --texto-2:#CFC8D8; --apoio:#ABA4B6;
+    --linha:#3B3645; --faixa-fg:#16141B; --veu:rgba(0,0,0,.6);
+    --azul:#8EB8E2; --azul-l:#1C2A39; --verde:#7FC8B6; --verde-l:#192E29;
+    --ameixa:#D9AACB; --ameixa-l:#382432; --ouro:#E3B868; --ouro-l:#33280F;
+    --terra:#EA9C80; --terra-l:#3A221B; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --papel:#16141B; --cartao:#201D26; --tinta:#ECE8F0; --texto-2:#CFC8D8; --apoio:#ABA4B6;
+  --linha:#3B3645; --faixa-fg:#16141B; --veu:rgba(0,0,0,.6);
+  --azul:#8EB8E2; --azul-l:#1C2A39; --verde:#7FC8B6; --verde-l:#192E29;
+  --ameixa:#D9AACB; --ameixa-l:#382432; --ouro:#E3B868; --ouro-l:#33280F;
+  --terra:#EA9C80; --terra-l:#3A221B; color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+[hidden]{display:none !important}
+body{
+  background:var(--papel); color:var(--tinta); font-family:var(--sans);
+  font-size:1.125rem; line-height:1.45; margin:0;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));
+  padding-right:max(16px, env(safe-area-inset-right, 0px));
+  padding-block:0 3rem;
+}
+table{font-size:inherit; line-height:inherit; color:inherit}
+b,strong{font-weight:650}
+button{font:inherit}
+.pagina{max-width:54rem; margin-inline:auto}
+
+/* ---------- cabeçalho e atalhos (só na tela) ---------- */
+.intro{padding-block:2rem 1rem}
+.intro .sobre{font-size:.8rem; letter-spacing:.08em; text-transform:uppercase; color:var(--apoio); margin:0}
+.intro h1{font-family:var(--serif); font-weight:600; font-size:clamp(1.9rem, 6vw, 2.7rem);
+  line-height:1.1; margin:.35rem 0 .6rem; text-wrap:balance}
+.intro p{margin:.4rem 0; max-width:65ch; color:var(--texto-2)}
+.comecar{display:flex; flex-wrap:wrap; gap:.6rem; margin:1rem 0 .4rem}
+.bt{font-weight:700; border-radius:999px; padding:.8rem 1.4rem; min-height:52px; cursor:pointer;
+  border:2px solid var(--tinta); background:var(--cartao); color:var(--tinta)}
+.bt.principal{background:var(--tinta); color:var(--cartao); font-size:1.15rem}
+.bt:focus-visible{outline:3px solid var(--azul); outline-offset:2px}
+.intro p.dica-iphone{background:var(--azul-l); color:var(--tinta); border-radius:10px; padding:.7rem .9rem; font-size:1rem}
+.legenda{display:flex; flex-wrap:wrap; gap:.4rem .9rem; margin-top:.8rem; font-size:.9rem; color:var(--texto-2)}
+.legenda span{display:inline-flex; align-items:center; gap:.35rem}
+.legenda i{width:.8rem; height:.8rem; border-radius:3px; display:inline-block; background:var(--c)}
+details.ajuda{margin-top:.7rem; font-size:1rem; color:var(--texto-2); max-width:65ch}
+details.ajuda summary{cursor:pointer; font-weight:600; color:var(--tinta); min-height:32px}
+details.ajuda summary:focus-visible{outline:2px solid var(--azul); outline-offset:2px}
+
+nav.atalhos{position:sticky; top:env(safe-area-inset-top, 0px); z-index:5; background:var(--papel);
+  padding-block:.6rem; border-bottom:1px solid var(--linha); margin-bottom:1.2rem}
+body::before{content:""; position:fixed; inset:0 0 auto; height:env(safe-area-inset-top, 0px); z-index:10; background:var(--papel)}
+.trilho{display:flex; gap:.35rem; overflow-x:auto; scrollbar-width:thin; padding-bottom:.15rem}
+.trilho a{flex:0 0 auto; text-decoration:none; font-variant-numeric:tabular-nums; font-weight:600;
+  font-size:.9rem; padding:.35rem .7rem; border-radius:999px; border:1px solid var(--c);
+  color:var(--c); background:var(--cartao); white-space:nowrap}
+.trilho a:hover{background:var(--c); color:var(--faixa-fg)}
+.trilho a:focus-visible{outline:2px solid var(--c); outline-offset:2px}
+
+/* ---------- a ficha (tamanhos em em, para crescer junto no modo apresentação) ---------- */
+main{display:flex; flex-direction:column; gap:1.4rem}
+.ficha{--c:var(--tinta); --cl:var(--linha);
+  background:var(--cartao); border:1px solid var(--linha); border-radius:10px;
+  padding:1rem 1.2rem 1.1rem; display:flex; flex-direction:column; gap:.55em;
+  scroll-margin-top:4.5rem; min-width:0}
+.visao{--c:var(--tinta); --cl:var(--linha)}
+.ballan{--c:var(--azul); --cl:var(--azul-l)}
+.mend{--c:var(--verde); --cl:var(--verde-l)}
+.reserva{--c:var(--ameixa); --cl:var(--ameixa-l)}
+.visao .topo{color:var(--cartao)}
+
+.topo{display:flex; flex-wrap:wrap; align-items:center; gap:.25em .8em;
+  background:var(--c); color:var(--faixa-fg); border-radius:6px; padding:.3em .7em;
+  font-size:.78em; letter-spacing:.04em; font-variant-numeric:tabular-nums}
+.topo .n{font-weight:700; font-size:1.28em; letter-spacing:0}
+.topo .texto{font-weight:600; text-transform:uppercase}
+.topo .slide{font-family:ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; letter-spacing:0}
+.topo .tempo{margin-left:auto; font-weight:700; letter-spacing:0}
+
+.ficha h2{font-family:var(--serif); font-weight:650; font-size:1.3em; line-height:1.2; margin:.1em 0 0; text-wrap:balance}
+.ficha p{margin:0}
+.ficha ul,.ficha ol{margin:0; padding-left:1.15em; display:flex; flex-direction:column; gap:.22em}
+.ficha li::marker{color:var(--c); font-weight:700}
+.ficha ul ul{gap:.1em; margin-top:.1em}
+
+.rot{display:inline-block; font-size:.7em; font-weight:700; letter-spacing:.08em; text-transform:uppercase; margin-right:.35em}
+.abrir .rot,.fechar .rot{color:var(--c)}
+.ler{margin:0; padding:.45em .7em; border-left:4px solid var(--ouro); background:var(--ouro-l); border-radius:0 6px 6px 0}
+.ler .rot{color:var(--ouro); display:block; margin-bottom:.1em}
+.ler q,.cit{font-family:var(--serif); font-style:italic; quotes:"“" "”" "‘" "’"}
+.ler q{font-size:1.04em}
+.cuidado{padding:.3em .6em; background:var(--terra-l); border-radius:6px}
+.cuidado .rot{color:var(--terra)}
+.passa{font-style:italic; color:var(--texto-2); border-top:1px dashed var(--linha); padding-top:.4em}
+.passa .rot{font-style:normal; color:var(--c)}
+.ficha .fonte{margin-top:auto; font-size:.74em; color:var(--apoio); padding-top:.2em}
+
+.m{display:inline-block; font-size:.68em; font-weight:700; letter-spacing:.04em; text-transform:uppercase;
+  padding:.05em .35em; border-radius:4px; vertical-align:.08em; white-space:nowrap}
+.m.inf{background:var(--ameixa-l); color:var(--ameixa)}
+.m.ext{background:var(--terra-l); color:var(--terra)}
+.vit{color:var(--ameixa); font-weight:650}
+
+.duas{display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:.6em}
+.tres{display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:.6em}
+.caixa{background:var(--cl); border-radius:6px; padding:.45em .6em; min-width:0}
+.caixa h3{font-size:.95em; margin:0 0 .2em; color:var(--c)}
+.caixa ul{padding-left:1em}
+.caixa.ameixa{--c:var(--ameixa); --cl:var(--ameixa-l)}
+
+.tabela{overflow-x:auto}
+.tabela table{border-collapse:collapse; width:100%; font-variant-numeric:tabular-nums}
+.tabela th,.tabela td{text-align:left; padding:.2em .5em; border-bottom:1px solid var(--linha); vertical-align:top}
+.tabela th{font-size:.78em; text-transform:uppercase; letter-spacing:.05em; color:var(--apoio); font-weight:600}
+.tabela td.mono{font-family:ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; font-size:.9em}
+.horario{display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:0 1em}
+
+@media (max-width:640px){
+  .duas,.tres,.horario{grid-template-columns:1fr}
+  .topo .tempo{margin-left:0}
+  .ficha{padding:.9rem .9rem 1rem}
+}
+
+/* ---------- modo apresentação: uma ficha por vez, na tela inteira ---------- */
+.ap-barra,.ap-progresso,.ap-aviso,.ap-dica,.ap-menu{display:none}
+.apresentando,.apresentando body{height:100%; overflow:hidden}
+.apresentando body{padding:0}
+.apresentando body::before,.apresentando .intro,.apresentando nav.atalhos{display:none}
+.apresentando main{position:fixed; inset:0; z-index:20; display:block; background:var(--cartao); cursor:pointer;
+  -webkit-user-select:none; user-select:none; -webkit-touch-callout:none; -webkit-tap-highlight-color:transparent}
+.apresentando .ficha{display:none}
+.apresentando .ficha.atual{display:flex; position:absolute; inset:0; overflow-y:auto; overscroll-behavior:contain;
+  -webkit-overflow-scrolling:touch; touch-action:pan-y; border:0; border-radius:0;
+  font-size:var(--fs-ap); line-height:1.38; gap:.6em;
+  padding:calc(env(safe-area-inset-top, 0px) + 64px) max(18px, env(safe-area-inset-right, 0px))
+          calc(env(safe-area-inset-bottom, 0px) + 64px) max(18px, env(safe-area-inset-left, 0px))}
+.apresentando .ficha.atual .fonte{margin-top:.4em}
+@media (max-width:999px){
+  .apresentando .duas,.apresentando .tres,.apresentando .horario{grid-template-columns:1fr}
+}
+.apresentando .ap-barra{display:flex; position:fixed; z-index:30; inset:0 0 auto; align-items:center; gap:.4rem;
+  height:calc(env(safe-area-inset-top, 0px) + 52px);
+  padding:env(safe-area-inset-top, 0px) max(8px, env(safe-area-inset-right, 0px)) 0 max(8px, env(safe-area-inset-left, 0px));
+  background:var(--cartao); border-bottom:1px solid var(--linha); font-size:17px; font-variant-numeric:tabular-nums}
+.ap-barra .cont{flex:1; min-width:0; text-align:center; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.ap-barra .cont small{font-weight:500; color:var(--apoio); font-size:inherit}
+.ap-icone{width:48px; height:48px; flex:0 0 auto; display:grid; place-items:center; border:0; border-radius:12px;
+  background:transparent; color:var(--tinta); cursor:pointer}
+.ap-icone svg{width:26px; height:26px}
+.ap-icone:focus-visible{outline:3px solid var(--azul); outline-offset:-3px}
+.apresentando .ap-progresso{display:block; position:fixed; z-index:30; inset:auto 0 0;
+  height:calc(5px + env(safe-area-inset-bottom, 0px)); background:var(--linha)}
+.ap-progresso i{display:block; height:5px; width:0; background:var(--tinta)}
+.apresentando .ap-aviso{display:block; position:fixed; z-index:30; right:max(12px, env(safe-area-inset-right, 0px));
+  bottom:calc(env(safe-area-inset-bottom, 0px) + 14px); background:var(--tinta); color:var(--cartao);
+  font-size:15px; font-weight:700; white-space:nowrap; padding:.35rem .75rem; border-radius:999px; pointer-events:none; opacity:.92}
+.apresentando .ap-dica{display:block; position:fixed; z-index:30; left:50%; transform:translateX(-50%);
+  top:calc(env(safe-area-inset-top, 0px) + 62px); width:max-content; max-width:calc(100% - 32px);
+  background:var(--tinta); color:var(--cartao); font-size:16px; font-weight:600; text-align:center;
+  padding:.5rem .9rem; border-radius:12px; pointer-events:none}
+.apresentando .ap-menu{display:flex; position:fixed; z-index:40; inset:0; background:var(--veu);
+  align-items:flex-end; justify-content:center}
+.ap-menu .caixa-menu{background:var(--cartao); color:var(--tinta); width:min(100%, 40rem); max-height:88%;
+  overflow-y:auto; overscroll-behavior:contain; border-radius:18px 18px 0 0; font-size:18px;
+  padding:1rem max(16px, env(safe-area-inset-right, 0px)) calc(env(safe-area-inset-bottom, 0px) + 1rem) max(16px, env(safe-area-inset-left, 0px));
+  display:flex; flex-direction:column; gap:.6rem}
+.caixa-menu h2{font-size:.8rem; letter-spacing:.08em; text-transform:uppercase; color:var(--apoio); margin:.4rem 0 0}
+.grade-fichas{display:grid; grid-template-columns:repeat(auto-fill, minmax(9rem, 1fr)); gap:.45rem}
+.grade-fichas button{min-height:48px; text-align:left; font-weight:650; padding:.5rem .7rem; border-radius:10px;
+  border:2px solid var(--c); color:var(--c); background:var(--cartao); cursor:pointer}
+.grade-fichas button.atual{background:var(--c); color:var(--faixa-fg)}
+.linha-menu{display:flex; flex-wrap:wrap; align-items:center; gap:.5rem}
+.linha-menu button{min-height:48px; min-width:48px; padding:.5rem .9rem; border-radius:10px; border:2px solid var(--linha);
+  background:var(--cartao); color:var(--tinta); font-weight:650; cursor:pointer}
+.linha-menu button[aria-pressed="true"]{border-color:var(--tinta); background:var(--tinta); color:var(--cartao)}
+.linha-menu .valor{min-width:4.5rem; text-align:center; font-variant-numeric:tabular-nums; font-weight:700}
+.grade-fichas button:focus-visible,.linha-menu button:focus-visible{outline:3px solid var(--azul); outline-offset:2px}
+
+/* ---------- impressão: duas fichas A5 deitadas por folha A4 ---------- */
+@media print{
+  :root,:root[data-theme]{
+    --papel:#FFFFFF; --cartao:#FFFFFF; --tinta:#211D2B; --texto-2:#48445A; --apoio:#6A6577;
+    --linha:#D9D2DE; --faixa-fg:#FFFFFF;
+    --azul:#2F5D8A; --azul-l:#EAF0F7; --verde:#2E6F62; --verde-l:#E2EFEB;
+    --ameixa:#6B3A5B; --ameixa-l:#F3E6EE; --ouro:#8A5A0B; --ouro-l:#F5ECDD;
+    --terra:#A3442A; --terra-l:#F7E5DE; color-scheme:light;
+  }
+  @page{size:A4 portrait; margin:0}
+  html,body{padding:0 !important; margin:0; background:#FFFFFF}
+  body::before{display:none}
+  *{-webkit-print-color-adjust:exact; print-color-adjust:exact}
+  .intro,nav.atalhos,.ap-barra,.ap-progresso,.ap-aviso,.ap-dica,.ap-menu{display:none !important}
+  .pagina{max-width:none}
+  main{display:block}
+  .ficha{width:210mm; height:148.5mm; overflow:hidden; border:0; border-radius:0;
+    padding:7mm 10mm 6mm; gap:2mm; font-size:11.8pt; line-height:1.3; break-inside:avoid}
+  .ficha:nth-of-type(odd){border-bottom:.3mm dashed #9A93A6}
+  .ficha:nth-of-type(even){break-after:page}
+  .topo{font-size:8.2pt; padding:1mm 3mm}
+  .topo .n{font-size:11.5pt}
+  .ficha h2{font-size:15.5pt}
+  .ler q{font-size:12pt}
+  .rot{font-size:6.8pt}
+  .m{font-size:6.4pt}
+  .ficha .fonte{font-size:7.6pt}
+  .tabela th{font-size:7.4pt}
+  .caixa h3{font-size:11pt}
+  .compacta{font-size:10.6pt; line-height:1.26}
+  .reserva{font-size:13pt}
+  .reserva h2{font-size:16.5pt}
+}
+</style>
+
+<div class="pagina">
+<header class="intro">
+  <p class="sobre">Seminário 5 · Bloco II · Alysson</p>
+  <h1>Fichas dos textos e.2 e e.3</h1>
+  <p>Ballan Junior (2025) e Mendonça (2025), na ordem dos slides <code>ballan-caso</code> a <code>mend-vitima</code>, com os minutos do roteiro de 2 h. Depois delas, sete fichas de reserva para o debate. Todo o conteúdo vem dos dois textos, com a página; o que é leitura do trio leva a marca <span class="m inf">inferência</span>, e o que vem de fora, <span class="m ext">externo · conferir</span>.</p>
+  <div class="comecar">
+    <button type="button" class="bt principal" id="ap-iniciar">▶ Iniciar apresentação</button>
+    <button type="button" class="bt" id="ap-retomar" hidden>Retomar</button>
+  </div>
+  <p class="dica-iphone" id="dica-iphone" hidden>No iPhone, a tela cheia vem pelo atalho: no Safari, toque em Compartilhar e depois em “Adicionar à Tela de Início”. Abra as fichas pelo ícone que aparece na tela do celular e toque em Iniciar apresentação.</p>
+  <details class="ajuda">
+    <summary>Como apresentar</summary>
+    <p>Toque em <b>Iniciar apresentação</b>. Um toque na tela avança: se a ficha continua embaixo (a etiqueta “↓ continua” aparece no canto), o toque mostra o resto; no fim da ficha, vai para a próxima. Deslizar o dedo para a direita volta uma ficha, e para a esquerda pula direto para a próxima. A ficha também rola com o dedo, como qualquer página. No menu dá para fazer o toque ir direto à próxima ficha. O botão de menu, no canto direito, pula para qualquer ficha (útil no debate), aumenta ou diminui a letra e troca o tema claro ou escuro. O X, no canto esquerdo, sai. Enquanto a apresentação estiver aberta, a tela não apaga, se o aparelho permitir. No computador, as setas e a barra de espaço também funcionam.</p>
+  </details>
+  <div class="legenda">
+    <span style="--c:var(--tinta)"><i></i>Visão do bloco</span>
+    <span style="--c:var(--azul)"><i></i>Ballan Junior (2025)</span>
+    <span style="--c:var(--verde)"><i></i>Mendonça (2025)</span>
+    <span style="--c:var(--ameixa)"><i></i>Reserva para o debate</span>
+    <span style="--c:var(--ouro)"><i></i>Ler em voz alta</span>
+    <span style="--c:var(--terra)"><i></i>Cuidado</span>
+  </div>
+  <details class="ajuda">
+    <summary>Como imprimir</summary>
+    <p>Abra a página no Chrome ou no Edge do computador e imprima em A4, retrato, escala 100%, sem margens e com “Gráficos de plano de fundo” ligado. Saem duas fichas por folha; corte na linha tracejada e cada ficha fica em A5 (21 × 14,8 cm). As 16 fichas ocupam 8 folhas. A visualização no claude.ai não imprime.</p>
+  </details>
+</header>
+
+<nav class="atalhos" aria-label="Fichas">
+  <div class="trilho">
+    <a href="#f0" style="--c:var(--tinta)">0</a>
+    <a href="#f1" style="--c:var(--azul)">1 caso</a>
+    <a href="#f2" style="--c:var(--azul)">2 tese</a>
+    <a href="#f3" style="--c:var(--azul)">3 argumento</a>
+    <a href="#f4" style="--c:var(--azul)">4 quadro</a>
+    <a href="#f5" style="--c:var(--verde)">5 conceito</a>
+    <a href="#f6" style="--c:var(--verde)">6 provas</a>
+    <a href="#f7" style="--c:var(--verde)">7 exceções</a>
+    <a href="#f8" style="--c:var(--verde)">8 vítima</a>
+    <a href="#r1" style="--c:var(--ameixa)">R1 concorda?</a>
+    <a href="#r2" style="--c:var(--ameixa)">R2 sigilo</a>
+    <a href="#r3" style="--c:var(--ameixa)">R3 vítima</a>
+    <a href="#r4" style="--c:var(--ameixa)">R4 inquinado</a>
+    <a href="#r5" style="--c:var(--ameixa)">R5 soma positiva</a>
+    <a href="#r6" style="--c:var(--ameixa)">R6 a quem pertencem</a>
+    <a href="#r7" style="--c:var(--ameixa)">R7 por que TI</a>
+  </div>
+</nav>
+
+<main>
+
+<!-- 0 · visão do bloco -->
+<article class="ficha visao" id="f0">
+  <div class="topo"><span class="n">0</span><span class="texto">Visão do bloco II</span><span class="tempo">0:38 → 1:08 · 30 min</span></div>
+  <h2>O contraditório, do início às exceções</h2>
+  <p><b>Fio do par:</b> Ballan Junior diz <b>quando</b> o contraditório começa; Mendonça diz <b>o que</b> ele é e <b>quando pode ceder</b>.</p>
+  <ul>
+    <li><b>Ballan Junior (2025):</b> a ação penal, e com ela o contraditório, começa no <b>oferecimento</b> da denúncia, e não no recebimento (p. 19, 36).</li>
+    <li><b>Mendonça (2025):</b> a intensidade do contraditório depende da <b>fonte de prova</b>; fora de três exceções, a declaração colhida unilateralmente não vale <span class="cit">“sequer para fins de corroboração”</span> (p. 79).</li>
+  </ul>
+  <div class="tabela horario">
+    <table>
+      <tr><th>Ficha</th><th>Slide</th><th>Início</th></tr>
+      <tr><td>1</td><td class="mono">ballan-caso</td><td>0:38</td></tr>
+      <tr><td>2</td><td class="mono">ballan-tese</td><td>0:41</td></tr>
+      <tr><td>3</td><td class="mono">ballan-argumento</td><td>0:45</td></tr>
+      <tr><td>4</td><td class="mono">ballan-quadro</td><td>0:50</td></tr>
+    </table>
+    <table>
+      <tr><th>Ficha</th><th>Slide</th><th>Início</th></tr>
+      <tr><td>5</td><td class="mono">mend-conceito</td><td>0:54</td></tr>
+      <tr><td>6</td><td class="mono">mend-provas</td><td>0:57</td></tr>
+      <tr><td>7</td><td class="mono">mend-excecoes</td><td>1:01</td></tr>
+      <tr><td>8</td><td class="mono">mend-vitima</td><td>1:05 → 1:08</td></tr>
+    </table>
+  </div>
+  <p class="cuidado"><span class="rot">Texto do professor</span>Tese nas palavras do autor; o caso como problema dogmático, sem juízo de mérito; não atribuir a ministros as falas da nota 10; ler a nota 62 em voz alta (ficha 4).</p>
+  <p><b>Se atrasar:</b> na ficha 3, só os três títulos dos passos; na ficha 5, pular as quatro funções. Os minutos por slide são sugestão; o roteiro fixa 16 min para Ballan Junior e 14 min para Mendonça.</p>
+  <p class="fonte">Roteiro <code>13</code>, seções 5 e 6.3; slides <code>33</code>.</p>
+</article>
+
+<!-- 1 · ballan-caso -->
+<article class="ficha ballan" id="f1">
+  <div class="topo"><span class="n">1</span><span class="texto">Ballan Junior (2025)</span><span class="slide">ballan-caso</span><span class="tempo">0:38 → 0:41 · 3 min</span></div>
+  <h2>O caso que motiva o texto</h2>
+  <p class="abrir"><span class="rot">Abrir</span>Letícia fechou com Scarance (2002): a defesa não fala antes do recebimento. O professor faz a pergunta anterior: <b>quando começa a ação penal?</b></p>
+  <ul>
+    <li><b>Março de 2025, STF, 1ª Turma:</b> recebimento da denúncia no denominado “núcleo 1”, na Pet 12.100/DF (p. 16).</li>
+    <li><b>Questão de ordem:</b> que a defesa do colaborador falasse primeiro. Base: Lei 12.850/2013, art. 4º, § 10-A, que garante ao delatado manifestar-se depois <span class="cit">“em todas as fases do processo”</span> (p. 17). A regra positivou a jurisprudência do próprio STF (HC 157.627/PR, 2019; HC 166.373/PR, 2022) (p. 17).</li>
+    <li><b>Por quê:</b> o colaborador tem dever de lealdade, não pode negar o que delatou e depende da utilidade da colaboração; sua fala tem <span class="cit">“alguma carga acusatória, ao menos em potencial”</span> (p. 18).</li>
+    <li><b>Decisão:</b> pedido rejeitado por unanimidade. A inversão só valeria no curso da ação, que começaria com o <b>recebimento</b>; antes dele haveria só uma petição (p. 18).</li>
+  </ul>
+  <p class="cuidado"><span class="rot">Cuidado</span>Não nomear ministros: a nota 10 não identifica quem falou. Problema dogmático, sem juízo de mérito.</p>
+  <p class="fechar"><span class="rot">Fechar</span>O problema do capítulo, nas palavras do autor: <span class="cit">“quando se inicia a ação penal e por que isso interessa ao contraditório?”</span> (p. 19)</p>
+  <p class="fonte">Ballan Junior (2025, p. 16-19).</p>
+</article>
+
+<!-- 2 · ballan-tese -->
+<article class="ficha ballan" id="f2">
+  <div class="topo"><span class="n">2</span><span class="texto">Ballan Junior (2025)</span><span class="slide">ballan-tese</span><span class="tempo">0:41 → 0:45 · 4 min</span></div>
+  <h2>A tese, nas palavras do autor</h2>
+  <blockquote class="ler"><span class="rot">Ler em voz alta, devagar</span><q>este artigo defende, com base em uma releitura constitucional e dogmática do processo penal, que o início da ação penal se dá com o oferecimento da denúncia, e não com o seu recebimento.</q> (p. 19)</blockquote>
+  <ul>
+    <li><b>Definições</b> (nota 11, p. 20): <b>ação penal</b> é o exercício do direito de provocar a jurisdição por meio de imputação formal; <b>processo penal</b>, o conjunto de atos coordenados pela jurisdição depois dessa provocação.</li>
+    <li><b>Por que o marco era o juiz</b> (linha do tempo do slide): na redação original do CPP, o juiz podia alterar a acusação (arts. 383 e 384) e o defensor não intervinha no interrogatório (art. 187). Num sistema assim, era natural que o ajuizamento dependesse de despacho judicial (p. 28).</li>
+    <li>Só a <b>Lei 11.719/2008</b> vedou ao juiz mudar o objeto da imputação (p. 28-29). Base atual: CF, art. 129, I, e CPP, art. 3º-A, daí a <span class="cit">“filtragem constitucional”</span> (p. 24-25).</li>
+    <li>No slide, o marco de <b>2003</b> (art. 185) é contexto do CPP, e não do texto.</li>
+  </ul>
+  <p class="fechar"><span class="rot">Ponte, 30 s</span>O professor contou essa história em aula, em 21 out. O texto e a fala se reforçam: a tese do oferecimento é mais um passo na redução do protagonismo do juiz.</p>
+  <p class="fonte">Ballan Junior (2025, p. 19-20, 24-29).</p>
+</article>
+
+<!-- 3 · ballan-argumento -->
+<article class="ficha ballan" id="f3">
+  <div class="topo"><span class="n">3</span><span class="texto">Ballan Junior (2025)</span><span class="slide">ballan-argumento</span><span class="tempo">0:45 → 0:50 · 5 min</span></div>
+  <h2>Três passos do argumento</h2>
+  <ol>
+    <li><b>Os três fundamentos do recebimento não se sustentam</b> (Greco Filho; p. 20-22):
+      <ul>
+        <li><i>prescrição:</i> os marcos são do direito penal; o argumento <span class="cit">“acaba por recusar a autonomia do direito processual”</span> (p. 21);</li>
+        <li><i>autoridade coatora:</i> o juiz já <span class="cit">“assume a coação”</span> antes da denúncia, por exemplo ao decretar a prisão temporária (p. 21);</li>
+        <li><i>notificação × citação:</i> a lei já chama o denunciado a se defender antes do recebimento (Lei 8.038/1990; CPP, art. 514; Lei 11.343/2006) (p. 21-22).</li>
+      </ul></li>
+    <li><b>No modelo acusatório, o juiz não abre a ação:</b> o recebimento <span class="cit">“não pode ser tido como o ato que deflagra a ação penal e inicia o processo, porque o Poder Judiciário não promove a ação penal”</span> (p. 26). Dele depende só a <b>fase instrutória</b> (p. 27). Na impronúncia, ninguém nega que houve ação e processo (p. 27).</li>
+    <li><b>Já há contraditório antes do recebimento:</b> nos ritos com resposta preliminar, <span class="cit">“É inegável que já há contraditório”</span> (p. 32); notificar também é contraditório (p. 32-33).</li>
+  </ol>
+  <p><b>Além de Scarance:</b> o CPP suprimiu a fase intermediária de defesa; o autor vai além e afirma que, em <b>qualquer rito</b>, o denunciado pode juntar documentos e discutir a imputação antes da decisão (CPP, art. 231) (p. 32-33).</p>
+  <p class="fechar"><span class="rot">Fechar</span>A tese amplia acusação e defesa; o que se reduz é o protagonismo do juiz (p. 26, 34). <span class="m inf">inferência</span></p>
+  <p class="fonte">Ballan Junior (2025, p. 20-34).</p>
+</article>
+
+<!-- 4 · ballan-quadro -->
+<article class="ficha ballan" id="f4">
+  <div class="topo"><span class="n">4</span><span class="texto">Ballan Junior (2025)</span><span class="slide">ballan-quadro</span><span class="tempo">0:50 → 0:54 · 4 min</span></div>
+  <h2>Quadro 1: quando começam a ação e o contraditório?</h2>
+  <div class="tabela">
+    <table>
+      <tr><th></th><th>STF e doutrina tradicional</th><th>O autor</th></tr>
+      <tr><td><b>Ação penal</b></td><td>começa no recebimento</td><td>começa no <b>oferecimento</b></td></tr>
+      <tr><td><b>Relação processual</b></td><td>após a citação</td><td>desde o oferecimento: <b>linear</b>, e <b>angular</b> com a citação (p. 22-23, 36)</td></tr>
+      <tr><td><b>Contraditório</b></td><td>após o recebimento</td><td>possível desde o oferecimento</td></tr>
+    </table>
+  </div>
+  <ul>
+    <li>Ler: o direito de ação <span class="cit">“traz consigo, como uma outra face da mesma moeda e de imediato, o direito de defesa”</span> (p. 33-34).</li>
+    <li><b class="vit">Linha da vítima:</b> o oferecimento é também o ato que torna a representação <b>irretratável</b> (CP, art. 102; CPP, art. 25, via Tourinho Filho, p. 22-23). <span class="m inf">inferência</span></li>
+  </ul>
+  <blockquote class="ler"><span class="rot">Ler em voz alta · nota 62</span><q>Por isso se disse que ‘em abstrato’ poderia haver nulidade, dependente de prova do prejuízo, o que dificilmente será (seria) demonstrado no caso mencionado.</q> (p. 35)</blockquote>
+  <p>Depois da nota: a crítica é à <b>premissa conceitual</b> do julgado, e não ao seu resultado.</p>
+  <p class="passa"><span class="rot">Transição</span>Se o contraditório começa no oferecimento e é bilateral, o que ele é? E quando pode ceder?</p>
+  <p class="fonte">Ballan Junior (2025, p. 22-23, 33-36, Quadro 1 e nota 62).</p>
+</article>
+
+<!-- 5 · mend-conceito -->
+<article class="ficha mend" id="f5">
+  <div class="topo"><span class="n">5</span><span class="texto">Mendonça (2025)</span><span class="slide">mend-conceito</span><span class="tempo">0:54 → 0:57 · 3 min</span></div>
+  <h2>Um contraditório de duas partes</h2>
+  <p class="abrir"><span class="rot">Diálogo entre os autores</span>Os dois partem da mesma definição, de Canuto Mendes de Almeida: contraditório é <b>ciência bilateral</b> dos atos e possibilidade de contrariá-los (Ballan Junior, p. 33; Mendonça, p. 41).</p>
+  <ul>
+    <li>Mendonça acrescenta a <b>influência</b>: <span class="cit">“Todo aquele que puder ser atingido por uma decisão, ato ou prova deve ter a possibilidade de participar de sua produção e de influenciar o magistrado.”</span> (p. 41)</li>
+  </ul>
+  <blockquote class="ler"><span class="rot">Ler em voz alta</span><q>No entanto, o contraditório também se aplica à acusação – para a qual não há que se falar em ampla defesa.</q> (p. 44)</blockquote>
+  <ul>
+    <li>A outra assimetria: no inquérito <span class="cit">“há atos de defesa, mas não existe o contraditório”</span> (p. 44).</li>
+    <li><b>Quatro funções</b> (p. 41-43): político-ideológica (participação), social (legitima a decisão), heurística (a dialética aproxima da verdade) e de controle (contém o arbítrio do Estado).</li>
+    <li>Para a heurística: <span class="cit">“o melhor método de obtenção da verdade é por meio da dialética entre as partes, muito superior à busca solipsista do inquisidor”</span> (p. 43).</li>
+    <li><b>Dois perfis:</b> garantia subjetiva do imputado e instrumento objetivo da decisão justa, que <span class="cit">“devem ser integradas”</span> (p. 43).</li>
+  </ul>
+  <p class="fonte">Mendonça (2025, p. 41-44); Ballan Junior (2025, p. 33).</p>
+</article>
+
+<!-- 6 · mend-provas -->
+<article class="ficha mend" id="f6">
+  <div class="topo"><span class="n">6</span><span class="texto">Mendonça (2025)</span><span class="slide">mend-provas</span><span class="tempo">0:57 → 1:01 · 4 min</span></div>
+  <h2>Duas fontes, dois contraditórios</h2>
+  <div class="duas">
+    <div class="caixa"><h3>Pré-constituída · fonte real</h3><p>A faca com sangue; a mensagem de WhatsApp com ameaça à vítima. Contraditório <b>diferido</b>, “sobre a prova” (p. 45-46). Depois dele, pode fundamentar sozinha a condenação (p. 52).</p></div>
+    <div class="caixa ameixa"><h3>Constituenda · fonte pessoal</h3><p>Testemunha, <b class="vit">declarações da vítima</b>, colaborador. Contraditório <b>real</b>, na formação da prova, e direito ao <b>confronto</b> (CADH, art. 8.2.f; PIDCP, art. 14.3.e) (p. 47-48).</p></div>
+  </div>
+  <p><b>O art. 155 do CPP em três partes</b> (p. 49-54):</p>
+  <ol>
+    <li>só é prova o que passou pelo contraditório judicial, <span class="cit">“verdadeira condição de existência da prova”</span> (Gomes Filho <i>apud</i> p. 50);</li>
+    <li>o juiz não pode se fundar “exclusivamente” nos elementos informativos; o advérbio criou <span class="cit">“um desequilíbrio no artigo”</span> (p. 51);</li>
+    <li>ressalva das provas cautelares, não repetíveis e antecipadas (p. 53-54).</li>
+  </ol>
+  <blockquote class="ler"><span class="rot">Ler em voz alta</span><q>Sem a incidência de uma destas exceções, as fontes de prova pessoais unilateralmente colhidas não podem ser valoradas pelo juiz, sequer para fins de corroboração, sob pena de afronta ao princípio do contraditório.</q> (p. 79)</blockquote>
+  <p>É mais restritivo que o STF, que admite a corroboração (AgR no RE 425.734, citado na p. 52).</p>
+  <p class="fonte">Mendonça (2025, p. 44-57, 79).</p>
+</article>
+
+<!-- 7 · mend-excecoes -->
+<article class="ficha mend" id="f7">
+  <div class="topo"><span class="n">7</span><span class="texto">Mendonça (2025)</span><span class="slide">mend-excecoes</span><span class="tempo">1:01 → 1:05 · 4 min</span></div>
+  <h2>Três exceções ao contraditório real</h2>
+  <p class="abrir"><span class="rot">Abrir</span>São as categorias a que o professor pediu atenção em 21 out. Vêm do art. 111.5 da Constituição italiana: consenso do imputado, impossibilidade objetiva comprovada ou conduta ilícita provada (p. 58-59). O contraditório é mandamento de otimização, e não regra absoluta (Alexy; p. 58).</p>
+  <div class="tres compacta">
+    <div class="caixa"><h3>Implícito · p. 59-64</h3><ul>
+      <li><b>Pressuposto:</b> consenso da parte <b>contrária</b>, consciente, voluntário, informado e posterior ao ato (p. 62, 64).</li>
+      <li>Ninguém valida os próprios elementos: seria <span class="cit">“desequilíbrio inaceitável à luz da paridade de armas”</span> (p. 62).</li>
+      <li>Ex.: transação, suspensão do processo, ANPP (p. 60); ata notarial com declaração (p. 62-63).</li>
+      <li><b>Valor:</b> admitida; o juiz não fica vinculado (p. 64).</li></ul></div>
+    <div class="caixa"><h3>Impossível · p. 64-69</h3><ul>
+      <li><b>Pressuposto:</b> causa objetiva, real e <b>não imputável às partes</b>; do contrário, haveria <span class="cit">“um direito potestativo de impedir o contraditório”</span> (p. 65).</li>
+      <li>Ex.: a única testemunha de um latrocínio morre em acidente (p. 67).</li>
+      <li><b>Valor:</b> só <b>reforço</b>, nunca prova única ou decisiva (TEDH, <i>Al-Khawaja</i>) (p. 67-69).</li></ul></div>
+    <div class="caixa ameixa"><h3>Inquinado · p. 69-77</h3><ul>
+      <li><b>Pressuposto:</b> <b>conduta ilícita</b> comprovada para silenciar a fonte; renúncia tácita (p. 70, 76).</li>
+      <li>Origem: <i>forfeiture by wrongdoing</i> (<i>Giles v. California</i>, 2008); <i>Al-Khawaja e Tahery</i>, § 123 (p. 71-73).</li>
+      <li><b>Valor:</b> <b>pleno</b>, até como base exclusiva da condenação (p. 74-75).</li></ul></div>
+  </div>
+  <p class="fechar"><span class="rot">Fechar</span>Perde o confronto quem o impediu por <b>conduta própria</b>. <span class="m inf">inferência</span></p>
+  <p class="fonte">Mendonça (2025, p. 58-77).</p>
+</article>
+
+<!-- 8 · mend-vitima -->
+<article class="ficha mend" id="f8">
+  <div class="topo"><span class="n">8</span><span class="texto">Mendonça (2025)</span><span class="slide">mend-vitima</span><span class="tempo">1:05 → 1:08 · 3 min</span></div>
+  <h2>Onde entra a vítima</h2>
+  <blockquote class="ler"><span class="rot">Ler em voz alta</span><q>Aqui podem entrar em consideração, ao lado do direito ao contraditório, outros valores, como os direitos da vítima e das testemunhas, bem como o interesse público na administração eficaz da justiça</q> (p. 58)</blockquote>
+  <ul>
+    <li><b>Vale nos dois sentidos:</b> o inquinado alcança a autoridade que ameaça testemunha de defesa (p. 71); o implícito exige o consenso da parte contrária, seja a defesa, seja o MP (p. 62).</li>
+    <li><b>Fundamento:</b> <span class="cit">“Permitir que o réu se beneficie do medo que ele próprio causou nas testemunhas seria incompatível com os direitos das vítimas e das próprias testemunhas”</span> (tradução do autor de <i>Al-Khawaja</i>, § 123; p. 72).</li>
+    <li><b>Ponto crítico:</b> a conduta é apurada em incidente, por juízo de <b>probabilidade</b>, e não basta suspeita genérica (p. 75-76); a prova resultante pode ser decisiva (p. 74-75). Letícia pode completar pela defesa.</li>
+    <li><b class="vit">Síntese:</b> em Mendonça, a vítima é fonte de prova e valor de ponderação, e não sujeito do contraditório. <span class="m inf">inferência</span></li>
+  </ul>
+  <p class="passa"><span class="rot">Passar a Guilherme</span>Até aqui, a vítima foi titular de uma representação que se torna irretratável, fonte de prova e valor de ponderação. Mas e quando o processo nem começa, porque uma prerrogativa o bloqueia ou porque quem investiga é o próprio Estado?</p>
+  <p class="fonte">Mendonça (2025, p. 58, 62, 71-76).</p>
+</article>
+
+<!-- R1 -->
+<article class="ficha reserva" id="r1">
+  <div class="topo"><span class="n">R1</span><span class="texto">Reserva · debate</span><span class="tempo">Ballan Junior (2025)</span></div>
+  <h2>“O grupo concorda com a tese do oferecimento?”</h2>
+  <p class="abrir"><span class="rot">Tom</span>É o texto do professor: responder em forma de diálogo, e devolver uma pergunta.</p>
+  <ul>
+    <li><b>No núcleo, sim:</b> a tese é coerente com o art. 129, I, da CF e com o contraditório como ciência bilateral (p. 26, 33).</li>
+    <li><b>O próprio autor limita a consequência:</b> a nulidade seria só “em abstrato”, dependente de prova do prejuízo (nota 62, p. 35).</li>
+    <li><b>Uma dúvida, e não uma objeção:</b> os marcos ligados ao recebimento, como a interrupção da prescrição, que o autor situa no direito material (p. 21). A tese antecipa o contraditório, e não esses efeitos (p. 27, 35). <span class="m inf">inferência</span></li>
+  </ul>
+  <p class="fechar"><span class="rot">Devolver</span>Professor, o Quadro 1 separa o início da ação, a relação processual e o contraditório (p. 35). Essa separação permite distinguir a existência do processo, desde o oferecimento, dos efeitos gravosos, que só viriam com o recebimento?</p>
+  <p class="fonte">Ballan Junior (2025, p. 21, 26-27, 33-35); roteiro <code>13</code>, seção 9.</p>
+</article>
+
+<!-- R2 -->
+<article class="ficha reserva" id="r2">
+  <div class="topo"><span class="n">R2</span><span class="texto">Reserva · debate</span><span class="tempo">Ballan Junior (2025)</span></div>
+  <h2>“E o sigilo da colaboração até o recebimento?”</h2>
+  <ul>
+    <li>Foi um dos fundamentos da Turma: não haveria previsão legal sequer para levantar o sigilo da colaboração antes do recebimento (p. 18).</li>
+    <li>O capítulo não enfrenta esse ponto diretamente. <span class="m inf">inferência</span></li>
+    <li><b>Linha possível:</b> a ordem entre a resposta e o recebimento é escolha do legislador (p. 34), e o Quadro 1 separa ação, relação e contraditório (p. 35). O contraditório desde o oferecimento exige ciência da imputação, e não necessariamente a publicidade de todo o acordo. <span class="m inf">inferência</span></li>
+    <li>A regra legal do sigilo até o recebimento estaria na Lei 12.850/2013, art. 7º, § 3º. <span class="m ext">externo · conferir</span></li>
+  </ul>
+  <p class="fechar"><span class="rot">Devolver</span>Professor, como conciliar o contraditório desde o oferecimento com o sigilo até o recebimento?</p>
+  <p class="fonte">Ballan Junior (2025, p. 18, 34-35); roteiro <code>13</code>, seção 8, pergunta 2.</p>
+</article>
+
+<!-- R3 -->
+<article class="ficha reserva" id="r3">
+  <div class="topo"><span class="n">R3</span><span class="texto">Reserva · debate</span><span class="tempo">Ballan Junior (2025)</span></div>
+  <h2>“E a vítima no marco do oferecimento?”</h2>
+  <ul>
+    <li>Nenhum dos dois textos propõe ouvir a vítima no recebimento.</li>
+    <li>Em Ballan Junior, a vítima aparece pela <b>representação</b>, irretratável depois do oferecimento (p. 22-23), pelo <b>perdão do ofendido</b> (p. 23) e pelo <b>querelante</b> (p. 26, 36).</li>
+    <li>O mesmo ato que abre o contraditório da defesa encerra a retratação da vítima: o oferecimento ordena as duas faces sem tirar nada de nenhuma. <span class="m inf">inferência</span></li>
+    <li><b>Critério funcional</b> (p. 17-18): fala depois quem é atingido por manifestação com carga acusatória. Aplicado ao assistente de acusação, a defesa falaria depois dele. <span class="m inf">inferência</span> <span class="m ext">CPP, arts. 268-273 · conferir</span></li>
+  </ul>
+  <p class="fechar"><span class="rot">Devolver</span>Professor, se a ação começa no oferecimento, o ofendido poderia habilitar-se como assistente desde então?</p>
+  <p class="fonte">Ballan Junior (2025, p. 17-18, 22-23, 26, 36); roteiro <code>13</code>, seção 8, pergunta 1.</p>
+</article>
+
+<!-- R4 -->
+<article class="ficha reserva" id="r4">
+  <div class="topo"><span class="n">R4</span><span class="texto">Reserva · debate</span><span class="tempo">Mendonça (2025)</span></div>
+  <h2>“O inquinado não fere a presunção de inocência?”</h2>
+  <ul>
+    <li><b>O risco existe:</b> a conduta é apurada em incidente, por probabilidade (p. 75-76), e a declaração pode ser a prova única ou decisiva (p. 74-75).</li>
+    <li><b>Os contrapesos do autor:</b> circunstâncias com <i>obiettività e significatività</i> (p. 75); quatro requisitos, entre eles a intenção de silenciar a fonte e o contraditório sobre a própria conduta (p. 76); em concurso de agentes, só o responsável sofre o efeito (p. 76).</li>
+    <li><b>Contraponto no próprio texto:</b> em <i>Lucà v. Itália</i>, o silêncio do coimputado sem conduta ilícita do réu não autorizou a condenação exclusiva (nota 164, p. 73).</li>
+    <li><b>Os casos do STJ</b> que o autor lê como inquinado (p. 76-77): AgRg no REsp 2.192.889/MG (2025: testemunhas ameaçadas, comunidade temerosa) e AgRg no HC 810.692/RJ (2023: grupo de extermínio, policial como testemunha de ouvir dizer). O medo difuso da comunidade parece mais perto de <i>Lucà</i> do que de <i>Al-Khawaja</i>. <span class="m inf">inferência</span></li>
+  </ul>
+  <p class="fonte">Mendonça (2025, p. 73-77); roteiro <code>13</code>, seção 8, pergunta 5.</p>
+</article>
+
+<!-- R5 -->
+<article class="ficha reserva" id="r5">
+  <div class="topo"><span class="n">R5</span><span class="texto">Reserva · debate</span><span class="tempo">Os dois textos</span></div>
+  <h2>“Há solução em que defesa e vítima ganham juntas?”</h2>
+  <ul>
+    <li><b>A prova antecipada:</b> produzida antes do momento normal, perante o juiz, <b>com contraditório real</b> (CPP, art. 156; art. 3º-B, VII) (p. 54-55). Ex.: a única testemunha presencial, gravemente doente, ouvida desde logo (p. 55).</li>
+    <li>Preserva a fonte, que interessa à vítima e à apuração, e o confronto, que interessa à defesa. <span class="m inf">inferência</span></li>
+    <li><b>Se o risco era previsível e não se antecipou, a prova se perde</b> (p. 57): a omissão do Estado não recai sobre a defesa. <span class="m inf">inferência</span></li>
+    <li><b>Em Ballan Junior:</b> a ciência não é bem rival, porque informar um lado não priva o outro (p. 33); a última palavra é bem rival e se resolve por regra de ordenação, a carga acusatória (p. 17-18). <span class="m inf">inferência</span></li>
+  </ul>
+  <p class="fonte">Mendonça (2025, p. 54-57); Ballan Junior (2025, p. 17-18, 33); roteiro <code>13</code>, Tese 2.</p>
+</article>
+
+<!-- R6 -->
+<article class="ficha reserva" id="r6">
+  <div class="topo"><span class="n">R6</span><span class="texto">Reserva · síntese</span><span class="tempo">Questão 3 · os dois textos</span></div>
+  <h2>“A quem pertencem as garantias?”</h2>
+  <ul>
+    <li><b>Contraditório, às duas partes:</b> <span class="cit">“O essencial é que as partes sejam postas em condições de se contrariarem”</span> (Canuto Mendes de Almeida <i>apud</i> Ballan Junior, p. 33); ele <span class="cit">“também se aplica à acusação”</span> (Mendonça, p. 44).</li>
+    <li><b>Ampla defesa, ao acusado</b> (Mendonça, p. 44), exercível “em alguma medida” já na investigação (Ballan Junior, p. 30).</li>
+    <li><b>Ação, à parte que acusa:</b> é <span class="cit">“um direito da parte”</span> (Ballan Junior, p. 34); o princípio acusatório distribui ação, defesa e jurisdição entre autor, réu e juiz (Garcete <i>apud</i> Ballan Junior, p. 26).</li>
+    <li><b>Ao próprio processo:</b> o perfil objetivo do contraditório serve à decisão justa e à verdade (Mendonça, p. 43).</li>
+    <li><b class="vit">À vítima:</b> direitos que entram na ponderação e prevalecem no inquinado (Mendonça, p. 58, 72, 74); não é titular do contraditório. <span class="m inf">inferência</span></li>
+  </ul>
+  <p class="fonte">Ballan Junior (2025, p. 26, 30, 33-34); Mendonça (2025, p. 43-44, 58, 72, 74).</p>
+</article>
+
+<!-- R7 -->
+<article class="ficha reserva" id="r7">
+  <div class="topo"><span class="n">R7</span><span class="texto">Reserva · debate</span><span class="tempo">Mendonça (2025)</span></div>
+  <h2>“Por que um profissional de TI apresenta o contraditório?”</h2>
+  <ul>
+    <li>Porque a distinção de Mendonça é o centro da prova digital: a mensagem de WhatsApp é prova <b>pré-constituída</b> (p. 45), e as provas digitais, depois do contraditório diferido, muitas vezes já bastam para condenar (p. 52-53).</li>
+    <li>O autor nota que os mecanismos consensuais, somados às provas digitais, deslocam o <span class="cit">“centro gravitacional”</span> da persecução para a investigação (nota 132, p. 60).</li>
+    <li>Na prova digital, o contraditório diferido é contraditório sobre o <b>método</b>: as duas partes precisam poder examinar como a prova foi colhida e analisada. É o problema que estudo no doutorado, a prova do conteúdo sintético na Justiça Eleitoral. <span class="m inf">inferência</span></li>
+  </ul>
+  <p class="fonte">Mendonça (2025, p. 45, 52-53, 60); roteiro <code>13</code>, seção 9.</p>
+</article>
+
+</main>
+
+<div class="ap-barra" id="ap-barra">
+  <button type="button" class="ap-icone" id="ap-sair" aria-label="Sair da apresentação"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <span class="cont" id="ap-cont"></span>
+  <button type="button" class="ap-icone" id="ap-abrir-menu" aria-label="Menu: ir para outra ficha, tamanho da letra, tema"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+</div>
+<div class="ap-progresso" aria-hidden="true"><i id="ap-prog"></i></div>
+<div class="ap-aviso" id="ap-aviso" hidden>↓ continua</div>
+<div class="ap-dica" id="ap-dica" hidden>Toque: avança · deslize para a direita: volta</div>
+<div class="ap-menu" id="ap-menu" role="dialog" aria-modal="true" aria-label="Menu da apresentação" hidden>
+  <div class="caixa-menu">
+    <h2>Ir para a ficha</h2>
+    <div class="grade-fichas" id="ap-grade"></div>
+    <h2>Toque na tela</h2>
+    <div class="linha-menu" id="ap-toques">
+      <button type="button" data-toque="pagina">Mostra o resto da ficha antes</button>
+      <button type="button" data-toque="ficha">Vai direto à próxima ficha</button>
+    </div>
+    <h2>Tamanho da letra</h2>
+    <div class="linha-menu">
+      <button type="button" id="ap-fonte-menos" aria-label="Diminuir a letra">A−</button>
+      <span class="valor" id="ap-fonte-valor"></span>
+      <button type="button" id="ap-fonte-mais" aria-label="Aumentar a letra">A+</button>
+      <button type="button" id="ap-fonte-padrao">Padrão</button>
+    </div>
+    <h2>Tema</h2>
+    <div class="linha-menu" id="ap-temas">
+      <button type="button" data-tema="">Do aparelho</button>
+      <button type="button" data-tema="light">Claro</button>
+      <button type="button" data-tema="dark">Escuro</button>
+    </div>
+    <div class="linha-menu" style="margin-top:.6rem">
+      <button type="button" id="ap-fechar-menu">Voltar à ficha</button>
+      <button type="button" id="ap-sair-menu">Sair da apresentação</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* Modo apresentação: um toque avança (primeiro o resto da ficha, se ela continua embaixo; depois
+   a próxima ficha); deslizar para a direita volta uma ficha, e para a esquerda pula para a próxima.
+   O menu pula de ficha, escolhe o que o toque faz, muda a letra e o tema. Posição e preferências
+   ficam no aparelho. */
+(function () {
+  var raiz = document.documentElement;
+  var palco = document.querySelector('main');
+  var fichas = Array.prototype.slice.call(document.querySelectorAll('main > .ficha'));
+  if (!palco || !fichas.length) return;
+  function $(id) { return document.getElementById(id); }
+  var cont = $('ap-cont'), prog = $('ap-prog'), aviso = $('ap-aviso'), dica = $('ap-dica'), menu = $('ap-menu'),
+      grade = $('ap-grade'), valorFonte = $('ap-fonte-valor'), retomar = $('ap-retomar');
+  var PREFIXO = 'fichas-s5-';
+  function ler(k) { try { return localStorage.getItem(PREFIXO + k); } catch (e) { return null; } }
+  function gravar(k, v) { try { localStorage.setItem(PREFIXO + k, String(v)); } catch (e) {} }
+
+  // Rótulos e cores vêm dos atalhos da lista ("2 tese", "R4 inquinado").
+  var rotulo = {}, cor = {};
+  Array.prototype.forEach.call(document.querySelectorAll('nav.atalhos a'), function (a) {
+    var id = a.getAttribute('href').slice(1);
+    rotulo[id] = a.textContent.trim();
+    cor[id] = a.getAttribute('style') || '';
+  });
+  function nome(i) { return rotulo[fichas[i].id] || String(i); }
+
+  var atual = 0, apresentando = false, trava = null;
+
+  // ---- tema e letra ----
+  function marcarTema(t) {
+    Array.prototype.forEach.call($('ap-temas').querySelectorAll('button'), function (b) {
+      b.setAttribute('aria-pressed', String(b.getAttribute('data-tema') === (t || '')));
+    });
+  }
+  function aplicarTema(t) {
+    if (t === 'light' || t === 'dark') raiz.setAttribute('data-theme', t); else raiz.removeAttribute('data-theme');
+    marcarTema(t);
+  }
+  var temaSalvo = ler('tema');
+  if (temaSalvo === 'light' || temaSalvo === 'dark') aplicarTema(temaSalvo); else marcarTema('');
+  $('ap-temas').addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    var t = b.getAttribute('data-tema'); aplicarTema(t); gravar('tema', t);
+  });
+
+  var modoToque = ler('toque') === 'ficha' ? 'ficha' : 'pagina';
+  function marcarToque() {
+    Array.prototype.forEach.call($('ap-toques').querySelectorAll('button'), function (b) {
+      b.setAttribute('aria-pressed', String(b.getAttribute('data-toque') === modoToque));
+    });
+  }
+  marcarToque();
+  $('ap-toques').addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    modoToque = b.getAttribute('data-toque'); gravar('toque', modoToque); marcarToque();
+  });
+
+  var fonte = parseInt(ler('fonte'), 10);
+  if (fonte >= 16 && fonte <= 44) raiz.style.setProperty('--fs-ap', fonte + 'px'); else fonte = 0;
+  function tamanhoAtual() { return Math.round(parseFloat(getComputedStyle(fichas[atual]).fontSize)); }
+  function mostrarFonte() { valorFonte.textContent = tamanhoAtual() + ' px'; }
+  function mudarFonte(passo) {
+    fonte = Math.max(16, Math.min(44, tamanhoAtual() + passo));
+    raiz.style.setProperty('--fs-ap', fonte + 'px'); gravar('fonte', fonte); mostrarFonte(); avisar();
+  }
+  $('ap-fonte-menos').addEventListener('click', function () { mudarFonte(-2); });
+  $('ap-fonte-mais').addEventListener('click', function () { mudarFonte(2); });
+  $('ap-fonte-padrao').addEventListener('click', function () {
+    fonte = 0; raiz.style.removeProperty('--fs-ap'); gravar('fonte', ''); mostrarFonte(); avisar();
+  });
+
+  // ---- mostrar uma ficha ----
+  function avisar() {
+    var f = fichas[atual];
+    aviso.hidden = !(f.scrollHeight - f.clientHeight - f.scrollTop > 12);
+  }
+  function mostrar(n) {
+    atual = Math.max(0, Math.min(fichas.length - 1, n));
+    fichas.forEach(function (f, j) { f.classList.toggle('atual', j === atual); });
+    var f = fichas[atual]; f.scrollTop = 0;
+    var tempo = f.querySelector('.topo .tempo'), inicio = tempo && tempo.textContent.match(/\d:\d\d/);
+    cont.textContent = nome(atual) + ' ';
+    if (inicio) { var hora = document.createElement('small'); hora.textContent = '· ' + inicio[0]; cont.appendChild(hora); }
+    prog.style.width = ((atual + 1) / fichas.length * 100) + '%';
+    gravar('pos', atual);
+    avisar();
+  }
+  fichas.forEach(function (f) { f.addEventListener('scroll', avisar, { passive: true }); });
+  window.addEventListener('resize', function () { if (apresentando) avisar(); });
+
+  function proxima() { if (atual < fichas.length - 1) mostrar(atual + 1); }
+  var suave = !(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+  function avancar() {
+    var f = fichas[atual];
+    if (modoToque === 'pagina' && f.scrollHeight - f.clientHeight - f.scrollTop > 12) {
+      var passo = Math.max(160, f.clientHeight - 170);
+      try { f.scrollBy({ top: passo, behavior: suave ? 'smooth' : 'auto' }); } catch (e) { f.scrollTop += passo; }
+    } else proxima();
+  }
+  function anterior() { if (atual > 0) mostrar(atual - 1); }
+
+  // ---- tela cheia e tela acesa ----
+  function telaCheia(ligar) {
+    try {
+      var ativa = document.fullscreenElement || document.webkitFullscreenElement;
+      if (ligar && !ativa) {
+        var pedir = raiz.requestFullscreen || raiz.webkitRequestFullscreen;
+        if (pedir) { var p = pedir.call(raiz); if (p && p.catch) p.catch(function () {}); }
+      } else if (!ligar && ativa) {
+        var sair = document.exitFullscreen || document.webkitExitFullscreen;
+        if (sair) { var q = sair.call(document); if (q && q.catch) q.catch(function () {}); }
+      }
+    } catch (e) {}
+  }
+  function manterTela() {
+    try {
+      if (navigator.wakeLock && navigator.wakeLock.request) {
+        navigator.wakeLock.request('screen').then(function (t) { trava = t; }).catch(function () {});
+      }
+    } catch (e) {}
+  }
+  function soltarTela() { try { if (trava) trava.release(); } catch (e) {} trava = null; }
+  document.addEventListener('visibilitychange', function () {
+    if (apresentando && document.visibilityState === 'visible') manterTela();
+  });
+
+  // ---- entrar e sair ----
+  function iniciar(n) {
+    apresentando = true; raiz.classList.add('apresentando'); fecharMenu(); mostrar(n || 0);
+    dica.hidden = false; setTimeout(function () { dica.hidden = true; }, 3500);
+    try { history.pushState({ fichasAp: 1 }, ''); } catch (e) {}
+    telaCheia(true); manterTela();
+  }
+  function encerrar() {
+    if (!apresentando) return;
+    apresentando = false; fecharMenu(); telaCheia(false); soltarTela(); dica.hidden = true;
+    raiz.classList.remove('apresentando');
+    fichas.forEach(function (f) { f.classList.remove('atual'); });
+    try { fichas[atual].scrollIntoView({ block: 'start' }); } catch (e) {}
+    atualizarRetomar();
+  }
+  function sair() {
+    var st = null; try { st = history.state; } catch (e) {}
+    if (st && st.fichasAp) history.back(); else encerrar();
+  }
+  window.addEventListener('popstate', function () { if (apresentando) encerrar(); });
+  $('ap-sair').addEventListener('click', sair);
+  $('ap-sair-menu').addEventListener('click', sair);
+
+  // ---- menu ----
+  fichas.forEach(function (f, j) {
+    var b = document.createElement('button');
+    b.type = 'button'; b.textContent = nome(j); b.setAttribute('style', cor[f.id] || '');
+    b.addEventListener('click', function () { fecharMenu(); mostrar(j); });
+    grade.appendChild(b);
+  });
+  function abrirMenu() {
+    Array.prototype.forEach.call(grade.children, function (b, j) { b.classList.toggle('atual', j === atual); });
+    mostrarFonte(); marcarToque(); dica.hidden = true; menu.hidden = false;
+    var b = grade.children[atual]; if (b) b.focus({ preventScroll: true });
+  }
+  function fecharMenu() { menu.hidden = true; }
+  $('ap-abrir-menu').addEventListener('click', abrirMenu);
+  $('ap-fechar-menu').addEventListener('click', fecharMenu);
+  menu.addEventListener('click', function (e) { if (e.target === menu) fecharMenu(); });
+
+  // ---- toque, deslize e teclado ----
+  var x0 = null, y0 = 0, deslizou = false;
+  palco.addEventListener('touchstart', function (e) {
+    if (!apresentando || e.touches.length !== 1) { x0 = null; return; }
+    x0 = e.touches[0].clientX; y0 = e.touches[0].clientY;
+  }, { passive: true });
+  palco.addEventListener('touchend', function (e) {
+    if (!apresentando || x0 === null) return;
+    var t = e.changedTouches[0], dx = t.clientX - x0, dy = t.clientY - y0; x0 = null;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+      deslizou = true; setTimeout(function () { deslizou = false; }, 450);
+      if (dx > 0) anterior(); else proxima();
+    }
+  }, { passive: true });
+  palco.addEventListener('click', function (e) {
+    if (!apresentando) return;
+    if (deslizou) { deslizou = false; return; }
+    if (e.target.closest && e.target.closest('a, button, summary, input')) return;
+    dica.hidden = true;
+    avancar();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (!apresentando) return;
+    if (!menu.hidden) { if (e.key === 'Escape') fecharMenu(); return; }
+    var k = e.key;
+    if (k === ' ' || k === 'PageDown' || k === 'Enter') { e.preventDefault(); avancar(); }
+    else if (k === 'ArrowRight') { e.preventDefault(); proxima(); }
+    else if (k === 'ArrowLeft' || k === 'PageUp' || k === 'Backspace') { e.preventDefault(); anterior(); }
+    else if (k === 'Home') { e.preventDefault(); mostrar(0); }
+    else if (k === 'End') { e.preventDefault(); mostrar(fichas.length - 1); }
+    else if (k === 'Escape') { sair(); }
+  });
+
+  // ---- botões da página ----
+  function atualizarRetomar() {
+    var p = parseInt(ler('pos'), 10);
+    if (p > 0 && p < fichas.length) { retomar.hidden = false; retomar.textContent = 'Retomar na ficha ' + nome(p); retomar.setAttribute('data-pos', p); }
+    else retomar.hidden = true;
+  }
+  $('ap-iniciar').addEventListener('click', function () { iniciar(0); });
+  retomar.addEventListener('click', function () { iniciar(parseInt(retomar.getAttribute('data-pos'), 10) || 0); });
+  atualizarRetomar();
+
+  var temTelaCheia = !!(raiz.requestFullscreen || raiz.webkitRequestFullscreen);
+  var instalado = window.navigator.standalone === true ||
+      (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
+  var emMoldura = true; try { emMoldura = window.self !== window.top; } catch (e) {}
+  if (!temTelaCheia && !instalado && !emMoldura) $('dica-iphone').hidden = false;
+})();
+</script>
+</div>
+</body>
+</html>
