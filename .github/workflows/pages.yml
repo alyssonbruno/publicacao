@@ -1,0 +1,64 @@
+# Publica o site do GitHub Pages (https://alyssonbruno.github.io/publicacao/) a cada push no
+# main. Faz o mesmo que o "pages build and deployment" automático do GitHub: o mesmo container do
+# Jekyll (jekyll-build-pages v1.0.13, com o tema e os plugins do github-pages), a raiz do
+# repositório como origem. Muda só a versão das ações: o automático ainda usa
+# actions/upload-pages-artifact@v3, que chama o actions/upload-artifact@v4, feito para o Node.js
+# 20, e por isso toda execução terminava com o aviso de que o Node.js 20 está depreciado. Aqui,
+# as ações já rodam no Node.js 24.
+#
+# Só vale com o Pages publicando por Actions: Settings → Pages → Build and deployment → Source:
+# "GitHub Actions". Enquanto a origem for "Deploy from a branch", o automático continua rodando
+# (e avisando) a cada push.
+name: Publica o GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Uma publicação de cada vez: a que está em andamento termina antes de a próxima começar.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  montar:
+    name: Monta o site com o Jekyll
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      # O jekyll-github-metadata consulta a API do Pages para saber o endereço do site.
+      pages: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Monta com o Jekyll do GitHub Pages
+        uses: actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697 # v1.0.13
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Empacota o site para o Pages
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: ./_site
+
+  publicar:
+    name: Publica no GitHub Pages
+    needs: montar
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publicacao.outputs.page_url }}
+    steps:
+      - name: Publica
+        id: publicacao
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
