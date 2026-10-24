@@ -5,7 +5,7 @@ import java.util.Random;
  * Aula 7 — Hands-on: OS TRÊS ALGORITMOS QUADRÁTICOS lado a lado.
  *
  * <p>Como usar no JDoodle (https://www.jdoodle.com/online-java-compiler-ide):
- * escolha a linguagem <b>Java</b> e o <b>JDK 25</b>, apague o exemplo da tela,
+ * escolha a linguagem <b>Java</b> e o <b>JDK 21</b>, apague o exemplo da tela,
  * cole este arquivo inteiro e clique em <b>Execute</b>.
  * Não é preciso digitar nada: o programa roda sozinho.</p>
  *

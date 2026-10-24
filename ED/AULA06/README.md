@@ -6,7 +6,7 @@ Programas usados nas práticas da Aula 06 de Estrutura de Dados
 ## Como executar
 
 1. abra <https://www.jdoodle.com/online-java-compiler-ide>;
-2. escolha a linguagem **Java** e a versão **JDK 25**;
+2. escolha a linguagem **Java** e a versão **JDK 21** (serve qualquer uma a partir da 17);
 3. apague o exemplo que aparece na tela;
 4. cole **um arquivo inteiro** desta pasta;
 5. clique em **Execute**.
@@ -35,5 +35,5 @@ Cada arquivo é **autossuficiente**: reúne todas as classes necessárias e **n�
 ## E se eu tiver computador?
 
 A pasta `../codigo/` traz os mesmos exemplos organizados como projeto Maven, com as classes no
-pacote `br.unitins.ed` e o `pom.xml` configurado para o **JDK 25**. O resultado é o mesmo do
+pacote `br.unitins.ed` e o `pom.xml` configurado para o **JDK 21**. O resultado é o mesmo do
 JDoodle — muda apenas a organização dos arquivos.

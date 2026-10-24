@@ -7,7 +7,7 @@ AVL e num `HashMap`, com n crescente).
 ## Como executar
 
 1. abra <https://www.jdoodle.com/online-java-compiler-ide>;
-2. escolha a linguagem **Java** e a versão **JDK 25**;
+2. escolha a linguagem **Java** e a versão **JDK 21** (serve qualquer uma a partir da 17);
 3. apague o exemplo que aparece na tela;
 4. cole o arquivo inteiro;
 5. clique em **Execute**.
@@ -37,7 +37,7 @@ quando o n dobra, e não os números exatos.
 
 ## Desafios
 
-- No começo do `main`, troque `embaralhar = false` por `embaralhar = true`. Antes de executar,
+- Logo acima do `main`, troque `embaralhar = false` por `embaralhar = true`. Antes de executar,
   diga o que vai acontecer com os passos e a altura da BST simples.
 - Troque os tamanhos por `{4_000, 8_000, 16_000, 32_000}`. Se aparecer `estourou` na coluna da
   BST, a inserção recursiva desceu fundo demais e estourou a pilha (`StackOverflowError`, Aula 03):

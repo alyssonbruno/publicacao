@@ -6,7 +6,7 @@ Programa usado no laboratório da Aula 12 de Estrutura de Dados
 ## Como executar
 
 1. abra <https://www.jdoodle.com/online-java-compiler-ide>;
-2. escolha a linguagem **Java** e a versão **JDK 25**;
+2. escolha a linguagem **Java** e a versão **JDK 21** (serve qualquer uma a partir da 17);
 3. apague o exemplo que aparece na tela;
 4. cole o arquivo inteiro;
 5. clique em **Execute**.

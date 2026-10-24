@@ -25,7 +25,7 @@ Os arquivos `.java` de cada aula são **autossuficientes**: cada um reúne todas
 classes de que precisa e não declara `package`. Para executar:
 
 1. abra <https://www.jdoodle.com/online-java-compiler-ide>;
-2. escolha a linguagem **Java** e a versão **JDK 25**;
+2. escolha a linguagem **Java** e a versão **JDK 21** (serve qualquer uma a partir da 17);
 3. apague o exemplo que aparece na tela;
 4. cole **um arquivo inteiro**;
 5. clique em **Execute**.

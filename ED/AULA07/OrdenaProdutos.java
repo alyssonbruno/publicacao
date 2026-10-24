@@ -6,7 +6,7 @@ record Produto(String nome, double preco, int estoque) {}
  * Aula 7 — Hands-on: ORDENAR OBJETOS com Comparator.
  *
  * <p>Como usar no JDoodle (https://www.jdoodle.com/online-java-compiler-ide):
- * escolha a linguagem <b>Java</b> e o <b>JDK 25</b>, apague o exemplo da tela,
+ * escolha a linguagem <b>Java</b> e o <b>JDK 21</b>, apague o exemplo da tela,
  * cole este arquivo inteiro e clique em <b>Execute</b>.
  * Não é preciso digitar nada: o programa roda sozinho.</p>
  *
