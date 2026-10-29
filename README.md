@@ -22,13 +22,20 @@ entram aqui — ficam no repositório privado de origem.
 ## Estrutura de Dados — como usar
 
 Os arquivos `.java` de cada aula são **autossuficientes**: cada um reúne todas as
-classes de que precisa e não declara `package`. Para executar:
+classes de que precisa e não declara `package`. Para executar, o caminho principal
+é o **OneCompiler**:
 
-1. abra <https://www.jdoodle.com/online-java-compiler-ide>;
-2. escolha a linguagem **Java** e a versão **JDK 21** (serve qualquer uma a partir da 17);
-3. apague o exemplo que aparece na tela;
-4. cole **um arquivo inteiro**;
-5. clique em **Execute**.
+1. abra <https://onecompiler.com/java>;
+2. apague o exemplo que aparece na tela;
+3. cole **um arquivo inteiro**, sem mudar nada (nem o nome da classe);
+4. clique em **Run**.
+
+O **JDoodle** (<https://www.jdoodle.com/online-java-compiler-ide>) também serve,
+com dois cuidados desde outubro de 2026. Sem login, ele só roda a versão mais nova
+do Java e as execuções acabam depressa ("You've used your runs for this session");
+uma conta gratuita resolve. E ele grava o código num arquivo chamado `MyClass.java`:
+troque `public class NomeDoArquivo` por `public class MyClass` antes de clicar em
+**Execute** (se o nome da classe aparecer em outras linhas, troque lá também).
 
 Funciona no computador e também no navegador do celular. O `README.md` de cada
 aula diz o que cada programa demonstra e traz os desafios.

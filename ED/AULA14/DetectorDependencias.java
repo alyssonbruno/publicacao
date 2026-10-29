@@ -3,9 +3,13 @@ import java.util.*;
 /**
  * Aula 14 — Hands-on: DETECÇÃO DE CICLO em grafo de dependências (DFS com três cores).
  *
- * <p>Como usar no JDoodle (https://www.jdoodle.com/online-java-compiler-ide):
- * escolha a linguagem <b>Java</b> e o <b>JDK 21</b>, apague o exemplo da tela,
- * cole este arquivo inteiro e clique em <b>Execute</b>.
+ * <p>Como usar: no OneCompiler (https://onecompiler.com/java) roda como está:
+ * apague o exemplo da tela, cole este arquivo inteiro e clique em <b>Run</b>.
+ * No JDoodle (https://www.jdoodle.com/online-java-compiler-ide), deixe a
+ * versão mais nova e troque <b>DetectorDependencias</b> por <b>MyClass</b> nas
+ * três linhas em que o nome aparece (a da classe e as duas do <code>main</code>
+ * que criam o detector, onde ele aparece duas vezes em cada linha); depois,
+ * clique em <b>Execute</b>.
  * Não é preciso digitar nada: o programa roda sozinho.</p>
  *
  * <p>O que observar na saída:</p>
