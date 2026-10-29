@@ -1,4 +1,4 @@
-# Aula 13 — Código para o JDoodle
+# Aula 13 — Código para o compilador on-line
 
 Programa usado no laboratório da Aula 13 de Estrutura de Dados
 (análise de complexidade aplicada: quanto custa achar uma chave numa lista, numa BST simples, numa
@@ -6,15 +6,24 @@ AVL e num `HashMap`, com n crescente).
 
 ## Como executar
 
-1. abra <https://www.jdoodle.com/online-java-compiler-ide>;
-2. escolha a linguagem **Java** e a versão **JDK 21** (serve qualquer uma a partir da 17);
-3. apague o exemplo que aparece na tela;
-4. cole o arquivo inteiro;
-5. clique em **Execute**.
+**Caminho principal — OneCompiler.**
 
-**Caminho alternativo — OneCompiler.** Se o JDoodle não abrir ou estiver lento, abra
-<https://onecompiler.com/java>, apague o exemplo, cole o arquivo inteiro **sem mudar nada** (nem o
-nome da classe) e clique em **Run**.
+1. abra <https://onecompiler.com/java>;
+2. apague o exemplo que aparece na tela;
+3. cole o arquivo inteiro, **sem mudar nada** (nem o nome da classe);
+4. clique em **Run**.
+
+**Caminho alternativo — JDoodle.** O JDoodle mudou em outubro de 2026: sem login, só roda a
+versão mais nova do Java e o número de execuções acaba depressa ("You've used your runs for this
+session"). Se quiser usá-lo:
+
+1. abra <https://www.jdoodle.com/online-java-compiler-ide>;
+2. deixe a versão que já vem escolhida, a mais nova (as anteriores pedem login);
+3. apague o exemplo que aparece na tela e cole o arquivo inteiro;
+4. troque `public class ExperimentoBuscaApp` por `public class MyClass`: o JDoodle grava o código
+   num arquivo chamado `MyClass.java`, e em Java a classe pública tem o nome do arquivo;
+5. clique em **Execute**. Se as execuções acabarem, use o OneCompiler ou entre com uma conta
+   gratuita do JDoodle.
 
 Funciona no computador e também no navegador do celular. O programa não pede digitação:
 basta executar. Ele leva menos de um segundo num computador comum; num site on-line, alguns
@@ -27,8 +36,8 @@ segundos.
 | `ExperimentoBuscaApp.java` | Guarda as chaves 1, 2, ..., n numa lista (`ArrayList`), na BST simples da Aula 11, na AVL da Aula 12 e num `HashMap`, com n = 500, 1.000, 2.000 e 4.000. Mede o custo de achar uma chave de dois jeitos: **contando os passos** de cada busca (posições olhadas na lista, nós visitados nas árvores) e **cronometrando** 10.000 buscas com o `System.nanoTime`. Mostra também a altura das duas árvores ao lado de log₂ n. |
 
 O arquivo é **autossuficiente**: reúne a classe do experimento, a mesma `ArvoreAVL` da Aula 12 e a
-mesma `ArvoreBuscaBinaria` da Aula 11, e **não declara `package`**, para poder ser colado no
-JDoodle sem nenhuma alteração.
+mesma `ArvoreBuscaBinaria` da Aula 11, e **não declara `package`**, para poder ser colado num
+compilador on-line (no OneCompiler, sem nenhuma alteração).
 
 **Como ler a saída:** a parte 1 traz a média de passos de n buscas e, entre parênteses, o pior
 caso; a parte 2, a altura das árvores; a parte 3, o tempo de 10.000 buscas em milissegundos. Os
@@ -49,4 +58,4 @@ quando o n dobra, e não os números exatos.
 ## E se eu tiver computador?
 
 O exemplo também existe como projeto Maven, com as classes separadas no pacote `br.unitins.ed`.
-O resultado é o mesmo do JDoodle — muda apenas a organização dos arquivos.
+O resultado é o mesmo do compilador on-line — muda apenas a organização dos arquivos.

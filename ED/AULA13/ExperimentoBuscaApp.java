@@ -12,9 +12,11 @@ import java.util.function.IntUnaryOperator;
 /**
  * Aula 13 — Laboratório: QUANTO CUSTA ACHAR UMA CHAVE? Lista, BST, AVL e HashMap.
  *
- * <p>Como usar no JDoodle (https://www.jdoodle.com/online-java-compiler-ide):
- * escolha a linguagem <b>Java</b> e o <b>JDK 21</b>, apague o exemplo da tela,
- * cole este arquivo inteiro e clique em <b>Execute</b>.
+ * <p>Como usar: no OneCompiler (https://onecompiler.com/java) roda como está:
+ * apague o exemplo da tela, cole este arquivo inteiro e clique em <b>Run</b>.
+ * No JDoodle (https://www.jdoodle.com/online-java-compiler-ide), deixe a
+ * versão mais nova e troque <b>public class ExperimentoBuscaApp</b> por
+ * <b>public class MyClass</b>; depois, clique em <b>Execute</b>.
  * Não é preciso digitar nada: o programa roda sozinho.</p>
  *
  * <p>O programa guarda as chaves 1, 2, ..., n em quatro estruturas — uma lista
