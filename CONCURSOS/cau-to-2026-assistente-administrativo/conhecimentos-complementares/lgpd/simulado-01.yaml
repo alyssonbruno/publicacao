@@ -1,0 +1,70 @@
+# Treino de proteção de dados pessoais — CAU/TO 2026, Assistente Administrativo. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Proteção de dados pessoais (Lei nº 13.709/2018 – LGPD)
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no estilo de certo ou errado do Instituto Quadrix: itens de uma afirmação,
+      agrupáveis pelo comando "com base na Lei nº 13.709/2018 (LGPD)", na letra da lei, com o erro
+      num absoluto, numa dispensa ou num conceito trocado.'
+    - 'Referência de estilo (sem cópia de itens): os blocos de LGPD das provas de nível médio da
+      Quadrix em conselhos profissionais (CREFONO-1 2026, CRB-5 2025, CREFITO-13 2025 e CRM-MS 2025),
+      registrados na curadoria do tópico.'
+    - 'Base dos itens: Lei nº 13.709/2018, texto atualizado da Câmara dos Deputados (gerado em
+      26/2/2026, com a Lei nº 15.352/2026), conferido com o texto compilado do Planalto e com a Lei nº
+      15.352/2026 no Planalto (consultados em 30/10/2026).'
+questoes:
+  - id: q01
+    topico: conhecimentos-complementares/lgpd
+    enunciado: Segundo a Lei nº 13.709/2018, o tratamento de dados pessoais realizado por órgãos e
+      entidades da Administração Pública é regido exclusivamente pela Lei nº 12.527/2011 (Lei de Acesso
+      à Informação), sendo-lhe inaplicável a LGPD.
+  - id: q02
+    topico: conhecimentos-complementares/lgpd
+    enunciado: De acordo com a LGPD, o dado referente à filiação a sindicato, quando vinculado a uma
+      pessoa natural, é considerado dado pessoal sensível.
+  - id: q03
+    topico: conhecimentos-complementares/lgpd
+    enunciado: Conforme a LGPD, operador é a pessoa natural ou jurídica a quem competem as decisões
+      referentes ao tratamento de dados pessoais, cabendo ao controlador realizar o tratamento em nome
+      do operador.
+  - id: q04
+    topico: conhecimentos-complementares/lgpd
+    enunciado: Nos termos da LGPD, o tratamento de dados pessoais somente pode ser realizado mediante o
+      fornecimento de consentimento pelo titular.
+  - id: q05
+    topico: conhecimentos-complementares/lgpd
+    enunciado: Segundo a LGPD, o tratamento de dados pessoais pode ser realizado pela administração
+      pública para o tratamento e o uso compartilhado de dados necessários à execução de políticas
+      públicas previstas em leis e regulamentos.
+  - id: q06
+    topico: conhecimentos-complementares/lgpd
+    enunciado: De acordo com a LGPD, o uso compartilhado de dados pessoais pelo Poder Público, por se
+      destinar ao interesse público, dispensa o atendimento a finalidades específicas e a observância
+      dos princípios de proteção de dados pessoais.
+  - id: q07
+    topico: conhecimentos-complementares/lgpd
+    enunciado: A LGPD veda, de forma absoluta, que o Poder Público transfira a entidades privadas dados
+      pessoais constantes de bases de dados a que tenha acesso.
+  - id: q08
+    topico: conhecimentos-complementares/lgpd
+    enunciado: Conforme a LGPD, os órgãos e as entidades do Poder Público que realizam operações de
+      tratamento de dados pessoais devem indicar um encarregado.
+  - id: q09
+    topico: conhecimentos-complementares/lgpd
+    enunciado: Segundo a LGPD, o titular dos dados pessoais tem direito a obter do controlador, a
+      qualquer momento e mediante requisição, a correção de dados incompletos, inexatos ou
+      desatualizados.
+  - id: q10
+    topico: conhecimentos-complementares/lgpd
+    enunciado: Nos termos da LGPD, todas as sanções administrativas nela previstas podem ser aplicadas
+      às entidades e aos órgãos públicos, inclusive a multa simples de até 2% do faturamento.
+  - id: q11
+    topico: conhecimentos-complementares/lgpd
+    enunciado: De acordo com a Lei nº 13.709/2018, a ANPD é autarquia de natureza especial, vinculada ao
+      Ministério da Justiça e Segurança Pública, dotada de autonomia funcional, técnica, decisória,
+      administrativa e financeira.
+  - id: q12
+    topico: conhecimentos-complementares/lgpd
+    enunciado: Conforme a LGPD, a lei não se aplica ao tratamento de dados pessoais realizado por pessoa
+      natural para fins exclusivamente particulares e não econômicos.

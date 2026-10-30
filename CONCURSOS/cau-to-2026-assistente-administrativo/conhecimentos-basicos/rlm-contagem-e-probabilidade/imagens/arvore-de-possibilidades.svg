@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="380" fill="#ffffff"/>
+  <text x="16" y="28" font-size="15" font-weight="700" fill="#0b0b0b">Escala de atendimento: escolher o turno e depois o guichê</text>
+
+  <!-- Títulos das etapas -->
+  <g font-size="12.5" font-weight="600" fill="#52514e" text-anchor="middle">
+    <text x="232" y="56">1ª etapa: turno (2)</text>
+    <text x="420" y="56">2ª etapa: guichê (3)</text>
+    <text x="608" y="56">resultado</text>
+  </g>
+
+  <!-- Galhos -->
+  <g stroke="#8a8880" stroke-width="1.6" fill="none">
+    <line x1="90" y1="210" x2="190" y2="130"/>
+    <line x1="90" y1="210" x2="190" y2="290"/>
+    <line x1="274" y1="130" x2="390" y2="90"/>
+    <line x1="274" y1="130" x2="390" y2="130"/>
+    <line x1="274" y1="130" x2="390" y2="170"/>
+    <line x1="274" y1="290" x2="390" y2="250"/>
+    <line x1="274" y1="290" x2="390" y2="290"/>
+    <line x1="274" y1="290" x2="390" y2="330"/>
+  </g>
+
+  <!-- Início -->
+  <circle cx="70" cy="210" r="20" fill="#f9f9f7" stroke="#52514e" stroke-width="1.6"/>
+  <text x="70" y="250" font-size="12" fill="#52514e" text-anchor="middle">início</text>
+
+  <!-- Turnos -->
+  <g text-anchor="middle" font-size="14" font-weight="700">
+    <rect x="190" y="112" width="84" height="36" rx="8" fill="#e3edf9" stroke="#256abf" stroke-width="1.8"/>
+    <text x="232" y="135" fill="#1c5cab">manhã</text>
+    <rect x="190" y="272" width="84" height="36" rx="8" fill="#e3edf9" stroke="#256abf" stroke-width="1.8"/>
+    <text x="232" y="295" fill="#1c5cab">tarde</text>
+  </g>
+
+  <!-- Guichês -->
+  <g text-anchor="middle" font-size="13" font-weight="600" fill="#127a55">
+    <rect x="390" y="76" width="60" height="28" rx="7" fill="#e6f4ee" stroke="#127a55" stroke-width="1.5"/>
+    <text x="420" y="95">G1</text>
+    <rect x="390" y="116" width="60" height="28" rx="7" fill="#e6f4ee" stroke="#127a55" stroke-width="1.5"/>
+    <text x="420" y="135">G2</text>
+    <rect x="390" y="156" width="60" height="28" rx="7" fill="#e6f4ee" stroke="#127a55" stroke-width="1.5"/>
+    <text x="420" y="175">G3</text>
+    <rect x="390" y="236" width="60" height="28" rx="7" fill="#e6f4ee" stroke="#127a55" stroke-width="1.5"/>
+    <text x="420" y="255">G1</text>
+    <rect x="390" y="276" width="60" height="28" rx="7" fill="#e6f4ee" stroke="#127a55" stroke-width="1.5"/>
+    <text x="420" y="295">G2</text>
+    <rect x="390" y="316" width="60" height="28" rx="7" fill="#e6f4ee" stroke="#127a55" stroke-width="1.5"/>
+    <text x="420" y="335">G3</text>
+  </g>
+
+  <!-- Resultados -->
+  <g font-size="13" fill="#0b0b0b">
+    <text x="470" y="95">1. manhã, guichê 1</text>
+    <text x="470" y="135">2. manhã, guichê 2</text>
+    <text x="470" y="175">3. manhã, guichê 3</text>
+    <text x="470" y="255">4. tarde, guichê 1</text>
+    <text x="470" y="295">5. tarde, guichê 2</text>
+    <text x="470" y="335">6. tarde, guichê 3</text>
+  </g>
+
+  <!-- Conta -->
+  <rect x="16" y="66" width="150" height="50" rx="8" fill="#fdeee7" stroke="#eb6834" stroke-width="1.6"/>
+  <text x="91" y="88" font-size="12" fill="#b84a1c" text-anchor="middle" font-weight="600">princípio multiplicativo</text>
+  <text x="91" y="107" font-size="15" fill="#0b0b0b" text-anchor="middle" font-weight="700">2 × 3 = 6</text>
+</svg>

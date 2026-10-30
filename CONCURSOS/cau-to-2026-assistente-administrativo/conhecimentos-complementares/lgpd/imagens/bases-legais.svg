@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="420" fill="#ffffff"/>
+
+  <text x="20" y="32" font-size="16" font-weight="700" fill="#1c5cab">As dez bases legais (art. 7º)</text>
+  <text x="20" y="52" font-size="12" fill="#52514e">O tratamento "somente poderá ser realizado" numa destas hipóteses. O consentimento é só uma delas.</text>
+
+  <g font-size="13" fill="#0b0b0b">
+    <!-- coluna esquerda -->
+    <g transform="translate(20 70)">
+      <rect width="330" height="40" rx="8" fill="#fcfcfb" stroke="#e1e0d9"/>
+      <text x="14" y="25"><tspan font-weight="700">I</tspan>  consentimento do titular</text>
+    </g>
+    <g transform="translate(20 118)">
+      <rect width="330" height="40" rx="8" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+      <text x="14" y="25"><tspan font-weight="700">II</tspan>  obrigação legal ou regulatória</text>
+    </g>
+    <g transform="translate(20 166)">
+      <rect width="330" height="40" rx="8" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+      <text x="14" y="25"><tspan font-weight="700">III</tspan>  políticas públicas (administração pública)</text>
+    </g>
+    <g transform="translate(20 214)">
+      <rect width="330" height="40" rx="8" fill="#fcfcfb" stroke="#e1e0d9"/>
+      <text x="14" y="25"><tspan font-weight="700">IV</tspan>  estudos por órgão de pesquisa</text>
+    </g>
+    <g transform="translate(20 262)">
+      <rect width="330" height="40" rx="8" fill="#fcfcfb" stroke="#e1e0d9"/>
+      <text x="14" y="25"><tspan font-weight="700">V</tspan>  execução de contrato do titular</text>
+    </g>
+    <!-- coluna direita -->
+    <g transform="translate(370 70)">
+      <rect width="330" height="40" rx="8" fill="#fcfcfb" stroke="#e1e0d9"/>
+      <text x="14" y="25"><tspan font-weight="700">VI</tspan>  exercício regular de direitos em processo</text>
+    </g>
+    <g transform="translate(370 118)">
+      <rect width="330" height="40" rx="8" fill="#fcfcfb" stroke="#e1e0d9"/>
+      <text x="14" y="25"><tspan font-weight="700">VII</tspan>  proteção da vida ou da incolumidade física</text>
+    </g>
+    <g transform="translate(370 166)">
+      <rect width="330" height="40" rx="8" fill="#fcfcfb" stroke="#e1e0d9"/>
+      <text x="14" y="25"><tspan font-weight="700">VIII</tspan>  tutela da saúde (profissionais de saúde)</text>
+    </g>
+    <g transform="translate(370 214)">
+      <rect width="330" height="40" rx="8" fill="#fcfcfb" stroke="#e1e0d9"/>
+      <text x="14" y="25"><tspan font-weight="700">IX</tspan>  legítimo interesse do controlador</text>
+    </g>
+    <g transform="translate(370 262)">
+      <rect width="330" height="40" rx="8" fill="#fcfcfb" stroke="#e1e0d9"/>
+      <text x="14" y="25"><tspan font-weight="700">X</tspan>  proteção do crédito</text>
+    </g>
+  </g>
+
+  <g transform="translate(20 316)">
+    <rect width="14" height="14" rx="3" fill="#e3edf9" stroke="#256abf" stroke-width="1.5"/>
+    <text x="22" y="12" font-size="12" fill="#52514e">as bases típicas do Poder Público (leitura nossa, a partir do guia da ANPD de 2023)</text>
+  </g>
+
+  <g transform="translate(20 342)">
+    <rect width="680" height="62" rx="10" fill="#fdeee6" stroke="#f3c9b4"/>
+    <text x="16" y="25" font-size="14" font-weight="700" fill="#9a3a12">Dados sensíveis seguem o art. 11, não esta lista</text>
+    <text x="16" y="46" font-size="13" fill="#0b0b0b">Consentimento específico e destacado, ou casos indispensáveis; sem legítimo interesse nem crédito.</text>
+  </g>
+</svg>

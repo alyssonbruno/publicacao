@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <defs>
+    <marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#52514e"/>
+    </marker>
+  </defs>
+  <text x="16" y="28" font-size="15" font-weight="700" fill="#0b0b0b">C = {−3; −1,5; 0; 2/3; √9; √7; π} na reta</text>
+
+  <!-- Reta: 0 em x = 360, 80 px por unidade -->
+  <line x1="24" y1="150" x2="700" y2="150" stroke="#52514e" stroke-width="2" marker-end="url(#seta)"/>
+  <g stroke="#52514e" stroke-width="1.5">
+    <line x1="40" y1="143" x2="40" y2="157"/>
+    <line x1="120" y1="143" x2="120" y2="157"/>
+    <line x1="200" y1="143" x2="200" y2="157"/>
+    <line x1="280" y1="143" x2="280" y2="157"/>
+    <line x1="360" y1="143" x2="360" y2="157"/>
+    <line x1="440" y1="143" x2="440" y2="157"/>
+    <line x1="520" y1="143" x2="520" y2="157"/>
+    <line x1="600" y1="143" x2="600" y2="157"/>
+    <line x1="680" y1="143" x2="680" y2="157"/>
+  </g>
+  <g font-size="12" fill="#8a8880" text-anchor="middle">
+    <text x="40" y="174">−4</text>
+    <text x="200" y="174">−2</text>
+    <text x="280" y="174">−1</text>
+    <text x="440" y="174">1</text>
+    <text x="520" y="174">2</text>
+    <text x="680" y="174">4</text>
+  </g>
+
+  <!-- Racionais (azul) -->
+  <g fill="#256abf">
+    <circle cx="120" cy="150" r="6"/>
+    <circle cx="240" cy="150" r="6"/>
+    <circle cx="360" cy="150" r="6"/>
+    <circle cx="413.3" cy="150" r="6"/>
+    <circle cx="600" cy="150" r="6"/>
+  </g>
+  <g font-size="15" font-weight="700" fill="#1c5cab" text-anchor="middle">
+    <text x="120" y="128">−3</text>
+    <text x="240" y="128">−1,5</text>
+    <text x="360" y="196">0</text>
+    <text x="413.3" y="128">2/3</text>
+    <text x="600" y="196">√9 = 3</text>
+  </g>
+  <text x="413.3" y="108" font-size="11" fill="#52514e" text-anchor="middle">≈ 0,67</text>
+
+  <!-- Irracionais (laranja) -->
+  <g fill="#eb6834">
+    <circle cx="571.7" cy="150" r="6"/>
+    <circle cx="611.3" cy="150" r="6"/>
+  </g>
+  <g font-size="15" font-weight="700" fill="#b84a1c" text-anchor="middle">
+    <text x="556" y="128">√7</text>
+    <text x="630" y="128">π</text>
+  </g>
+  <g font-size="11" fill="#52514e" text-anchor="middle">
+    <text x="556" y="96">entre</text>
+    <text x="556" y="108">2,6 e 2,7</text>
+    <text x="630" y="108">≈ 3,14</text>
+  </g>
+
+  <!-- Legenda -->
+  <circle cx="30" cy="236" r="6" fill="#256abf"/>
+  <text x="44" y="241" font-size="13" fill="#0b0b0b">racionais: −3; −1,5; 0; 2/3; 3</text>
+  <circle cx="30" cy="264" r="6" fill="#eb6834"/>
+  <text x="44" y="269" font-size="13" fill="#0b0b0b">irracionais: √7 e π</text>
+  <text x="380" y="241" font-size="13" fill="#52514e">√7: 2,6² = 6,76 &lt; 7 &lt; 7,29 = 2,7²</text>
+  <text x="380" y="269" font-size="13" fill="#52514e">√9 = 3: natural, inteiro e racional</text>
+</svg>

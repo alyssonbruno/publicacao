@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="420" fill="#ffffff"/>
+  <text x="16" y="28" font-size="15" font-weight="700" fill="#0b0b0b">Como os conjuntos numéricos se encaixam</text>
+
+  <!-- R -->
+  <rect x="16" y="44" width="688" height="290" rx="14" fill="#f9f9f7" stroke="#52514e" stroke-width="2"/>
+  <text x="32" y="70" font-size="17" font-weight="700" fill="#0b0b0b">R</text>
+  <text x="52" y="70" font-size="13" fill="#52514e">reais: todos os números da reta</text>
+
+  <!-- Q -->
+  <rect x="32" y="84" width="440" height="234" rx="12" fill="#e3edf9" stroke="#256abf" stroke-width="2"/>
+  <text x="46" y="108" font-size="17" font-weight="700" fill="#1c5cab">Q</text>
+  <text x="66" y="108" font-size="13" fill="#1c5cab">racionais</text>
+  <text x="405" y="160" font-size="14" fill="#0b0b0b" text-anchor="middle">1/2</text>
+  <text x="405" y="210" font-size="14" fill="#0b0b0b" text-anchor="middle">−0,75</text>
+  <text x="405" y="260" font-size="14" fill="#0b0b0b" text-anchor="middle">0,333...</text>
+
+  <!-- Z -->
+  <rect x="48" y="120" width="290" height="182" rx="10" fill="#d2e2f5" stroke="#1c5cab" stroke-width="2"/>
+  <text x="62" y="144" font-size="17" font-weight="700" fill="#14467f">Z</text>
+  <text x="82" y="144" font-size="13" fill="#14467f">inteiros</text>
+  <text x="280" y="180" font-size="14" fill="#0b0b0b" text-anchor="middle">−1</text>
+  <text x="280" y="230" font-size="14" fill="#0b0b0b" text-anchor="middle">−8</text>
+
+  <!-- N -->
+  <rect x="64" y="158" width="160" height="128" rx="8" fill="#ffffff" stroke="#14467f" stroke-width="2"/>
+  <text x="78" y="182" font-size="17" font-weight="700" fill="#14467f">N</text>
+  <text x="98" y="182" font-size="13" fill="#14467f">naturais</text>
+  <text x="104" y="222" font-size="14" fill="#0b0b0b" text-anchor="middle">0</text>
+  <text x="144" y="222" font-size="14" fill="#0b0b0b" text-anchor="middle">3</text>
+  <text x="184" y="222" font-size="14" fill="#0b0b0b" text-anchor="middle">25</text>
+  <text x="144" y="262" font-size="12" fill="#52514e" text-anchor="middle">N* = N sem o 0</text>
+
+  <!-- I -->
+  <rect x="490" y="84" width="198" height="234" rx="12" fill="#fdeee7" stroke="#eb6834" stroke-width="2"/>
+  <text x="504" y="108" font-size="17" font-weight="700" fill="#b84a1c">I</text>
+  <text x="518" y="108" font-size="13" fill="#b84a1c">irracionais</text>
+  <text x="589" y="160" font-size="15" fill="#0b0b0b" text-anchor="middle">√2</text>
+  <text x="589" y="200" font-size="15" fill="#0b0b0b" text-anchor="middle">√7</text>
+  <text x="589" y="240" font-size="15" fill="#0b0b0b" text-anchor="middle">π</text>
+  <text x="589" y="290" font-size="12" fill="#52514e" text-anchor="middle">decimal infinito</text>
+  <text x="589" y="306" font-size="12" fill="#52514e" text-anchor="middle">e não periódico</text>
+
+  <!-- Relações -->
+  <g font-size="14" fill="#0b0b0b" text-anchor="middle">
+    <text x="130" y="368" font-weight="700">N ⊂ Z ⊂ Q ⊂ R</text>
+    <text x="360" y="368" font-weight="700">Q ∩ I = ∅</text>
+    <text x="590" y="368" font-weight="700">Q ∪ I = R</text>
+    <text x="130" y="392" font-size="12" fill="#52514e">cada um contém o anterior</text>
+    <text x="360" y="392" font-size="12" fill="#52514e">nenhum número está nos dois</text>
+    <text x="590" y="392" font-size="12" fill="#52514e">por isso, I = R − Q</text>
+  </g>
+</svg>
