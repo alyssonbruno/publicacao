@@ -1,0 +1,1829 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Árvores Balanceadas Passo a Passo</title>
+<script>
+  /* Aplica o tema salvo antes de desenhar a página, para não piscar. */
+  try {
+    var temaSalvo = localStorage.getItem("ed-visualizador-tema");
+    if (temaSalvo === "dark" || temaSalvo === "light") {
+      document.documentElement.setAttribute("data-theme", temaSalvo);
+    }
+  } catch (e) { /* sem armazenamento: segue o tema do sistema */ }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;700&display=swap">
+
+<style>
+  :root {
+    --laranja:   #e67e22;
+    --laranja-f: #b8601a;
+    --azul:      #2563eb;
+    --tijolo:    #c0392b;
+    --verde:     #1e8449;
+    --sobre-laranja: #ffffff;
+    --sobre-tijolo:  #ffffff;
+
+    /* As mesmas cores das figuras da Aula 12. Na AVL: os nós em cinza,
+       o desbalanceado (que desce na rotação) em vermelho, o filho que sobe
+       em laranja e a subárvore do meio em roxo. Na rubro-negra: preto e
+       vermelho. Tons ajustados para o número dentro do nó passar de 4,5:1. */
+    --avl-base:   #5d6d7e;  --avl-base-tx:  #ffffff;
+    --avl-desce:  #c0392b;  --avl-desce-tx: #ffffff;
+    --avl-sobe:   #e67e22;  --avl-sobe-tx:  #211c17;
+    --avl-meio:   #8e44ad;  --avl-meio-tx:  #ffffff;
+    --rn-preto:   #2d3436;  --rn-preto-tx:  #ffffff;  --rn-borda: #ffffff;
+    --rn-verm:    #c0392b;  --rn-verm-tx:   #ffffff;
+
+    --fundo:      #faf7f3;
+    --papel:      #ffffff;
+    --tinta:      #211c17;
+    --tinta-fraca:#6b6055;
+    --linha:      #e3dbd1;
+    --linha-forte:#b5a796;
+    --codigo-bg:  #2b241d;
+    --codigo-tx:  #efe6da;
+    --codigo-cmt: #a8998a;
+    --marca:      rgba(230, 126, 34, 0.22);
+    --sombra:     0 1px 2px rgba(33, 28, 23, .06), 0 6px 18px rgba(33, 28, 23, .07);
+
+    --display: "Bricolage Grotesque", "Trebuchet MS", sans-serif;
+    --corpo:   "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+    --mono:    "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --fundo:      #17140f;
+      --papel:      #221d17;
+      --tinta:      #f2ece3;
+      --tinta-fraca:#a89a89;
+      --linha:      #3a322a;
+      --linha-forte:#6a5d50;
+      --codigo-bg:  #100e0b;
+      --codigo-tx:  #efe6da;
+      --codigo-cmt: #8d8073;
+      --laranja:    #f2903a;
+      --laranja-f:  #ffb06b;
+      --azul:       #6b9bff;
+      --tijolo:     #e2674f;
+      --verde:      #4ec27a;
+      --marca:      rgba(242, 144, 58, 0.26);
+      --sobre-laranja: #17140f;
+      --sobre-tijolo:  #17140f;
+      --sombra:     0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+      --avl-base:   #8a99a8;  --avl-base-tx:  #17140f;
+      --avl-desce:  #e2674f;  --avl-desce-tx: #17140f;
+      --avl-sobe:   #f2903a;  --avl-sobe-tx:  #17140f;
+      --avl-meio:   #b98ad6;  --avl-meio-tx:  #17140f;
+      --rn-preto:   #050403;  --rn-preto-tx:  #f2ece3;  --rn-borda: #a89a89;
+      --rn-verm:    #e2674f;  --rn-verm-tx:   #17140f;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --fundo:      #17140f;
+    --papel:      #221d17;
+    --tinta:      #f2ece3;
+    --tinta-fraca:#a89a89;
+    --linha:      #3a322a;
+    --linha-forte:#6a5d50;
+    --codigo-bg:  #100e0b;
+    --codigo-tx:  #efe6da;
+    --codigo-cmt: #8d8073;
+    --laranja:    #f2903a;
+    --laranja-f:  #ffb06b;
+    --azul:       #6b9bff;
+    --tijolo:     #e2674f;
+    --verde:      #4ec27a;
+    --marca:      rgba(242, 144, 58, 0.26);
+    --sobre-laranja: #17140f;
+    --sobre-tijolo:  #17140f;
+    --sombra:     0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+    --avl-base:   #8a99a8;  --avl-base-tx:  #17140f;
+    --avl-desce:  #e2674f;  --avl-desce-tx: #17140f;
+    --avl-sobe:   #f2903a;  --avl-sobe-tx:  #17140f;
+    --avl-meio:   #b98ad6;  --avl-meio-tx:  #17140f;
+    --rn-preto:   #050403;  --rn-preto-tx:  #f2ece3;  --rn-borda: #a89a89;
+    --rn-verm:    #e2674f;  --rn-verm-tx:   #17140f;
+  }
+
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  /* A JetBrains Mono junta "==" e "!=" em um símbolo só (≠). Quem está
+     aprendendo Java precisa ver os caracteres que vai digitar. */
+  .codigo pre, .expr, .var, .pilha li, .caixa, .arvore text, .placar, .passo-conta, .narracao .num, .metodos span {
+    font-variant-ligatures: none; font-feature-settings: "liga" 0, "calt" 0;
+  }
+  body {
+    margin: 0;
+    background: var(--fundo);
+    color: var(--tinta);
+    font-family: var(--corpo);
+    font-size: 17px;
+    line-height: 1.55;
+    padding-inline: 16px;
+    padding-block: 28px 56px;
+  }
+  .folha { max-width: 620px; margin-inline: auto; display: flex; flex-direction: column; gap: 22px; }
+
+  /* ---------- cabeçalho ---------- */
+  .eyebrow {
+    font-family: var(--mono); font-size: .72rem; font-weight: 700; margin: 0;
+    letter-spacing: .16em; text-transform: uppercase; color: var(--laranja-f);
+  }
+  h1 {
+    font-family: var(--display); font-weight: 800; font-size: clamp(1.9rem, 8vw, 2.6rem);
+    line-height: 1.05; margin: 6px 0 0; text-wrap: balance; letter-spacing: -.015em;
+  }
+  .subtitulo { color: var(--tinta-fraca); margin: 10px 0 0; max-width: 46ch; }
+
+  /* ---------- seletor de árvore ---------- */
+  .abas { display: flex; gap: 5px; background: var(--papel); border: 1px solid var(--linha);
+          border-radius: 12px; padding: 5px; box-shadow: var(--sombra); }
+  .abas button {
+    flex: 1; min-width: 0; min-height: 48px; padding: 0 4px; border: 0; border-radius: 8px; cursor: pointer;
+    background: transparent; color: var(--tinta-fraca);
+    font-family: var(--display); font-weight: 600; font-size: clamp(.82rem, 3.7vw, .95rem); letter-spacing: -.01em;
+  }
+  .abas button[aria-selected="true"] { background: var(--laranja); color: var(--sobre-laranja); }
+  .abas button:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+
+  /* ---------- palco da árvore ---------- */
+  .palco {
+    background: var(--papel); border: 1px solid var(--linha); border-radius: 16px;
+    padding: 14px 12px 16px; box-shadow: var(--sombra);
+  }
+  .arvore { display: block; width: 100%; height: auto; margin-inline: auto; }
+  .arvore .aresta { stroke: var(--linha-forte); stroke-width: 5; stroke-linecap: round; }
+  .arvore .aresta.ativa { stroke: var(--laranja-f); stroke-width: 10; }
+  .arvore .aresta.pendente { stroke: var(--tinta-fraca); stroke-width: 5; stroke-dasharray: 14 11; }
+  .arvore .aresta.nova { stroke: var(--laranja-f); stroke-width: 8; stroke-dasharray: 16 10; fill: none; }
+  .arvore .ponta { fill: var(--laranja-f); }
+  .arvore .aresta.cortada { stroke: var(--tijolo); stroke-width: 5; stroke-dasharray: 3 12; }
+  .arvore .aresta.fina { stroke-width: 3; }
+  .arvore .aresta.fora, .arvore .no.fora { opacity: .25; }
+  .arvore .corpo { stroke: var(--papel); stroke-width: 4; }
+  .arvore .val { font-family: var(--mono); font-weight: 700; font-size: 42px; text-anchor: middle; }
+  .arvore .no.base  .corpo { fill: var(--avl-base); }  .arvore .no.base  .val { fill: var(--avl-base-tx); }
+  .arvore .no.desce .corpo { fill: var(--avl-desce); } .arvore .no.desce .val { fill: var(--avl-desce-tx); }
+  .arvore .no.sobe  .corpo { fill: var(--avl-sobe); }  .arvore .no.sobe  .val { fill: var(--avl-sobe-tx); }
+  .arvore .no.meio  .corpo { fill: var(--avl-meio); }  .arvore .no.meio  .val { fill: var(--avl-meio-tx); }
+  .arvore .no.rn-p  .corpo { fill: var(--rn-preto); stroke: var(--rn-borda); } .arvore .no.rn-p .val { fill: var(--rn-preto-tx); }
+  .arvore .no.rn-v  .corpo { fill: var(--rn-verm); }   .arvore .no.rn-v  .val { fill: var(--rn-verm-tx); }
+  .arvore .halo { fill: var(--marca); }
+  .arvore .anel { fill: none; stroke: var(--tinta); stroke-width: 7; }
+  .arvore .anel.trac { stroke-dasharray: 13 9; }
+  .arvore .tag { font-family: var(--mono); font-weight: 700; font-size: 30px; fill: var(--tinta); text-anchor: middle;
+                 paint-order: stroke; stroke: var(--papel); stroke-width: 8px; stroke-linejoin: round; }
+  .arvore .fant .corpo { fill: none; stroke: var(--tinta-fraca); stroke-width: 4; stroke-dasharray: 12 9; }
+  .arvore .fant .val { fill: var(--tinta-fraca); font-size: 30px; font-weight: 400; }
+  .arvore .fb circle { fill: var(--papel); stroke: var(--linha-forte); stroke-width: 3; }
+  .arvore .fb text { fill: var(--tinta); font-family: var(--mono); font-weight: 700; font-size: 26px; text-anchor: middle; }
+  .arvore .fb.ruim circle { fill: var(--tijolo); stroke: var(--papel); }
+  .arvore .fb.ruim text { fill: var(--sobre-tijolo); }
+  .arvore .nulo rect { fill: var(--rn-preto); stroke: var(--rn-borda); stroke-width: 3; }
+  .arvore .nulo text { fill: var(--rn-preto-tx); font-family: var(--mono); font-weight: 700; font-size: 26px; text-anchor: middle; }
+  .arvore .vazia { fill: var(--tinta-fraca); font-family: var(--mono); font-size: 40px; text-anchor: middle; }
+
+  /* sequência de entrada e as rotações feitas até agora */
+  .aux { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 12px; padding-top: 12px;
+         border-top: 1px dashed var(--linha); }
+  .aux:empty { display: none; }
+  .aux-linha { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+  .aux-linha > b { font-family: var(--mono); font-size: .9rem; font-weight: 700; color: var(--tinta-fraca); margin-right: 2px; }
+  .caixa { min-width: 38px; height: 36px; padding: 0 7px; border-radius: 7px; display: grid; place-items: center;
+           font-family: var(--mono); font-weight: 700; font-variant-numeric: tabular-nums; font-size: .9rem;
+           border: 2px solid var(--linha); background: var(--papel); color: var(--tinta); }
+  .caixa[data-estado="atual"] { border-color: var(--laranja); color: var(--laranja-f); background: var(--marca); }
+  .caixa[data-estado="usado"] { opacity: .4; }
+  .aux-vazio { font-family: var(--mono); font-size: .9rem; color: var(--tinta-fraca); }
+
+  /* ---------- narração ---------- */
+  .narracao {
+    font-family: var(--display); font-weight: 600; font-size: 1.12rem; line-height: 1.35;
+    margin: 14px 0 0; min-height: 3.1em; text-wrap: pretty;
+  }
+  .narracao b { color: var(--laranja-f); }
+  .narracao .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+  /* ---------- contadores ---------- */
+  .placar { display: flex; gap: 10px; margin: 14px 0 0; padding-top: 14px; border-top: 1px solid var(--linha); }
+  .placar div { flex: 1; }
+  .placar dt {
+    font-family: var(--mono); font-size: .66rem; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--tinta-fraca);
+  }
+  .placar dd {
+    margin: 2px 0 0; font-family: var(--mono); font-weight: 700;
+    font-size: 1.3rem; font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- variáveis e pilha ---------- */
+  .vars {
+    background: var(--papel); border: 1px solid var(--linha); border-radius: 16px;
+    padding: 14px 16px; box-shadow: var(--sombra);
+  }
+  .vars h3 {
+    font-family: var(--mono); font-size: .66rem; font-weight: 700; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--tinta-fraca); margin: 0 0 10px;
+  }
+  .vars-lista { display: flex; flex-wrap: wrap; gap: 8px; }
+  .var {
+    display: inline-flex; align-items: baseline; gap: 7px;
+    border: 1px solid var(--linha); border-radius: 999px; padding: 5px 13px;
+    font-family: var(--mono); font-size: .92rem; font-variant-numeric: tabular-nums;
+    transition: background-color .18s ease, border-color .18s ease;
+  }
+  .var b     { font-weight: 400; color: var(--tinta-fraca); }
+  .var i     { font-style: normal; font-weight: 700; }
+  .var[data-mudou="true"] { border-color: var(--laranja); background: var(--marca); }
+  .var[data-mudou="true"] b,
+  .var[data-mudou="true"] i { color: var(--laranja-f); }
+  .var[data-indef="true"]   { opacity: .45; }
+  .var .ponto { width: 12px; height: 12px; border-radius: 50%; align-self: center; flex: none; }
+  .ponto.P { background: var(--rn-preto); box-shadow: 0 0 0 1.5px var(--rn-borda), 0 0 0 2.5px var(--linha-forte); }
+  .ponto.V { background: var(--rn-verm); }
+
+  .expr {
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 9px;
+    margin: 12px 0 0; padding-top: 11px; border-top: 1px dashed var(--linha);
+    font-family: var(--mono); font-size: .88rem;
+  }
+  .expr code { color: var(--tinta); }
+  .expr s    { color: var(--tinta-fraca); text-decoration: none; }
+  .expr em   { font-style: normal; font-weight: 700; }
+  .expr em.sim { color: var(--laranja-f); }
+  .expr em.nao { color: var(--tijolo); }
+  .expr em.res { color: var(--laranja-f); }
+
+  .pilha { margin-top: 12px; padding-top: 11px; border-top: 1px dashed var(--linha); }
+  .pilha h3 { margin-bottom: 8px; }
+  .pilha ol { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+  .pilha li { font-family: var(--mono); font-size: .86rem; padding: 4px 11px; border-radius: 7px;
+              border: 1px solid var(--linha); color: var(--tinta-fraca); white-space: nowrap;
+              overflow: hidden; text-overflow: ellipsis; }
+  .pilha li:first-child { border-color: var(--laranja); background: var(--marca); color: var(--laranja-f); font-weight: 700; }
+  .pilha li.publico { border-style: dashed; }
+  .pilha .vazia-pilha { font-family: var(--mono); font-size: .86rem; color: var(--tinta-fraca); }
+
+  /* ---------- as cinco regras da rubro-negra ---------- */
+  .regras { margin-top: 12px; padding-top: 11px; border-top: 1px dashed var(--linha); }
+  .regras ol { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 3px; }
+  .regras li { display: flex; gap: 9px; align-items: baseline; font-size: .95rem; line-height: 1.35; }
+  .regras li .ic { flex: none; width: 1.2em; font-weight: 700; text-align: center; }
+  .regras li.ok .ic { color: var(--verde); }
+  .regras li.falha { color: var(--tijolo); font-weight: 600; }
+  .regras li .det { color: var(--tinta-fraca); font-weight: 400; }
+  .regras li.falha .det { color: var(--tijolo); }
+
+  @media (prefers-reduced-motion: reduce) { .var { transition: none; } }
+
+  /* ---------- controles ---------- */
+  .controles { display: flex; gap: 8px; }
+  .controles button {
+    min-height: 54px; border-radius: 12px; cursor: pointer; border: 1px solid var(--linha);
+    background: var(--papel); color: var(--tinta); box-shadow: var(--sombra);
+    font-family: var(--display); font-weight: 600; font-size: 1rem;
+  }
+  .controles button:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+  .controles button:disabled { opacity: .4; cursor: default; }
+  #proximo { flex: 2; background: var(--laranja); border-color: var(--laranja); color: var(--sobre-laranja); }
+  #anterior, #tocar, #reiniciar { flex: 1; }
+
+  .progresso { display: block; height: 5px; border-radius: 3px; background: var(--linha); overflow: hidden; }
+  .progresso i { display: block; height: 100%; background: var(--laranja); transition: width .18s ease; }
+  .passo-conta {
+    font-family: var(--mono); font-size: .75rem; color: var(--tinta-fraca);
+    text-align: center; margin: 7px 0 0; font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- legenda ---------- */
+  .legenda { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: .85rem; color: var(--tinta-fraca); }
+  .legenda span { display: inline-flex; align-items: center; gap: 7px; }
+  .chave { width: 16px; height: 16px; border-radius: 50%; flex: none; }
+  .chave-fb { min-width: 26px; height: 20px; border-radius: 10px; flex: none; display: grid; place-items: center;
+              border: 2px solid var(--linha-forte); background: var(--papel); color: var(--tinta);
+              font-family: var(--mono); font-style: normal; font-weight: 700; font-size: .7rem; }
+  .chave-linha { width: 26px; height: 0; flex: none; border-top: 3px dashed var(--tinta-fraca); }
+  .chave-nulo { padding: 0 6px; height: 18px; border-radius: 4px; flex: none; display: grid; place-items: center;
+                background: var(--rn-preto); color: var(--rn-preto-tx); box-shadow: 0 0 0 1px var(--rn-borda);
+                font-family: var(--mono); font-style: normal; font-weight: 700; font-size: .66rem; }
+
+  /* ---------- código e tabela da rubro-negra ---------- */
+  .metodos { display: flex; flex-wrap: wrap; gap: 6px; }
+  .metodos span {
+    font-family: var(--mono); font-size: .78rem; padding: 3px 10px; border-radius: 999px;
+    border: 1px solid var(--linha); color: var(--tinta-fraca); background: var(--papel);
+  }
+  .metodos span[data-ativo="true"] { border-color: var(--laranja); background: var(--marca); color: var(--laranja-f); font-weight: 700; }
+  .codigo {
+    background: var(--codigo-bg); border-radius: 14px; padding: 16px 0;
+    overflow-x: auto; box-shadow: var(--sombra);
+  }
+  .codigo pre { margin: 0; font-family: var(--mono); font-size: .82rem; line-height: 1.7; }
+  .codigo .ln { display: block; padding: 0 18px; color: var(--codigo-tx); white-space: pre; }
+  .codigo .ln.ativa { background: var(--marca); box-shadow: inset 3px 0 0 var(--laranja); }
+  .codigo .cm { color: var(--codigo-cmt); }
+
+  .tabela-rn {
+    list-style: none; margin: 0; padding: 8px 0; background: var(--papel); border: 1px solid var(--linha);
+    border-radius: 14px; box-shadow: var(--sombra); display: flex; flex-direction: column;
+  }
+  .tabela-rn li { padding: 8px 16px; border-left: 4px solid transparent; font-size: .98rem; line-height: 1.4; color: var(--tinta-fraca); }
+  .tabela-rn li + li { border-top: 1px solid var(--linha); }
+  .tabela-rn li b { color: var(--tinta); }
+  .tabela-rn li.ativa { background: var(--marca); border-left-color: var(--laranja); color: var(--tinta); }
+  .tabela-rn li.ativa b { color: var(--laranja-f); }
+
+  /* ---------- entradas ---------- */
+  .entradas { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .entradas .seg { display: inline-flex; }
+  .entradas .seg button:first-child { border-radius: 999px 0 0 999px; }
+  .entradas .seg button:last-child { border-radius: 0 999px 999px 0; margin-left: -1px; }
+  .entradas .seg button[aria-pressed="true"] { position: relative; z-index: 1; }
+  .entradas .caso { min-width: 58px; font-family: var(--mono); font-weight: 700; }
+  .entradas button {
+    min-height: 44px; padding: 0 14px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--linha); background: var(--papel); color: var(--tinta-fraca);
+    font-family: var(--corpo); font-size: .9rem;
+  }
+  .entradas button[aria-pressed="true"] { border-color: var(--laranja); color: var(--laranja-f); font-weight: 600; background: var(--marca); }  .entradas button:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+
+  h2 {
+    font-family: var(--display); font-weight: 600; font-size: 1.05rem;
+    margin: 0 0 -8px; letter-spacing: -.01em;
+  }
+  .nota { font-size: .9rem; color: var(--tinta-fraca); margin: 0; }
+  .nota a { color: var(--laranja-f); }
+  footer {
+    border-top: 1px solid var(--linha); padding-top: 16px;
+    font-size: .84rem; color: var(--tinta-fraca);
+  }
+
+  /* No celular as duas colunas não existem: os blocos entram na coluna única
+     nesta ordem — árvore, desenho, botões, variáveis, legenda, código, entradas. */
+  .coluna, .painel { display: contents; }
+  .abas { order: 1; } .palco { order: 2; } .bloco-controles { order: 3; } .vars { order: 4; }
+  .legenda { order: 5; } .t-codigo { order: 6; } .metodos { order: 7; } .codigo, .tabela-rn { order: 8; }
+  .nota-codigo { order: 9; } .t-entradas { order: 10; } .entradas { order: 11; } #dica-preset { order: 12; }
+  footer { order: 13; }
+
+  /* =========================================================
+     Tela da sala: o código e o estado da recursão vão para o lado
+     do desenho. Os botões (abas, controles e entradas) ficam todos
+     na coluna da esquerda, que cabe sem rolar em 1366×768.
+     ========================================================= */
+  @media (min-width: 940px) {
+    body { padding-block: 12px 20px; }
+    .folha {
+      max-width: 1340px;
+      display: grid;
+      align-items: start;
+      column-gap: 28px;
+      row-gap: 10px;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+    .folha > header { grid-column: 1 / -1; }
+    .folha > footer { grid-column: 1 / -1; }
+    .coluna { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+    .coluna > *, .painel > * { order: 0; }
+    .t-entradas { display: none; }
+
+    h2 { margin: 0; }
+    h1 { font-size: 1.7rem; margin-top: 2px; }
+    .subtitulo { display: none; }
+
+    .palco { padding: 10px 14px 10px; }
+    .arvore { max-height: min(240px, 31vh); }
+    .aux { margin-top: 6px; padding-top: 8px; gap: 6px 18px; }
+    .caixa { height: 30px; }
+    /* três linhas reservadas: a narração não empurra os botões a cada passo */
+    .narracao { font-size: 1.08rem; min-height: 4.05em; margin-top: 8px; }
+    #dica-preset { order: 0; }
+    .placar { margin-top: 8px; padding-top: 8px; }
+    .placar dd { font-size: 1.35rem; }
+    .controles button { min-height: 48px; font-size: 1.05rem; }
+    .passo-conta { margin-top: 4px; }
+    .entradas { gap: 6px 8px; }
+    .entradas button { min-height: 38px; }
+    .legenda { font-size: .9rem; }
+    .var { font-size: 1rem; padding: 4px 14px; }
+    .expr { font-size: .98rem; margin-top: 9px; padding-top: 9px; }
+    .vars { padding: 12px 16px; }
+    .vars h3 { margin-bottom: 8px; }
+
+    .codigo { padding: 10px 0; }
+    .codigo pre { font-size: .76rem; line-height: 1.42; }
+    .codigo .ln { padding: 0 14px; }
+    .tabela-rn li { padding: 7px 16px; }
+
+    /* a pilha deitada: do método público (esquerda) até o topo (direita) */
+    .pilha ol { flex-direction: row-reverse; flex-wrap: wrap; justify-content: flex-end; gap: 6px; }
+    .pilha li { padding: 3px 10px; }
+    .pilha h3 { margin-bottom: 6px; }
+  }
+
+  /* Projetor e TV da sala: mais um degrau de tamanho. */
+  @media (min-width: 1400px) {
+    .folha { max-width: 1560px; }
+    h1 { font-size: 2.2rem; }
+    .arvore { max-height: min(400px, 38vh); }
+    .narracao { font-size: 1.4rem; }
+    .placar dt { font-size: .76rem; }
+    .placar dd { font-size: 1.8rem; }
+    .codigo pre { font-size: .9rem; }
+    .abas button { font-size: 1.1rem; min-height: 56px; }
+    .var { font-size: 1.12rem; }
+    .expr { font-size: 1.06rem; }
+    .caixa { min-width: 44px; height: 38px; font-size: 1.05rem; }
+    .pilha li { font-size: .98rem; }
+    .tabela-rn li { font-size: 1.12rem; }
+    .regras li { font-size: 1.08rem; }
+  }
+
+  /* ---------- botão de tema claro / escuro ---------- */
+  .topo { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; }
+  .topo > div { min-width: 0; }
+  .tema {
+    flex: none; display: inline-flex; align-items: center; gap: 7px;
+    min-height: 44px; padding: 0 14px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--linha); background: var(--papel); color: var(--tinta);
+    box-shadow: var(--sombra); font-family: var(--corpo); font-size: .9rem; font-weight: 600;
+  }
+  .tema:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+  .tema .ic { font-size: 1.05rem; line-height: 1; }
+</style>
+</head>
+<body>
+
+<div class="folha">
+
+  <header class="topo">
+    <div>
+      <p class="eyebrow">Estrutura de Dados · Aula 12</p>
+      <h1>Árvores balanceadas passo a passo</h1>
+      <p class="subtitulo">Escolha a árvore e toque em <b>Próximo passo</b>. Na <b>AVL</b>, você acompanha o fator de balanceamento (fb) de cada nó, a linha que o Java está executando e a <b>pilha de chamadas</b>. Na <b>rubro-negra</b>, as cores e a regra que está sendo aplicada.</p>
+    </div>
+    <button class="tema" id="tema" type="button" aria-pressed="false">
+      <span class="ic" aria-hidden="true">☾</span><span class="rt">Escuro</span>
+    </button>
+  </header>
+
+  <div class="coluna esq">
+  <div class="abas" role="tablist" aria-label="Árvore">
+    <button role="tab" aria-selected="true"  data-alg="avl">AVL: inserir</button>
+    <button role="tab" aria-selected="false" data-alg="casos">AVL: 4 casos</button>
+    <button role="tab" aria-selected="false" data-alg="rn">Rubro-negra</button>
+  </div>
+
+  <section class="palco" aria-live="polite">
+    <svg class="arvore" id="arvore" viewBox="0 0 1000 500" role="img" aria-label="Desenho da árvore no passo atual"></svg>
+    <div class="aux" id="aux"></div>
+    <p class="narracao" id="narracao"></p>
+    <dl class="placar">
+      <div><dt id="rotulo-1">Rotações</dt><dd id="c-1">0</dd></div>
+      <div><dt id="rotulo-2">Na pilha</dt><dd id="c-2">0</dd></div>
+      <div><dt>Altura</dt><dd id="c-altura">−1</dd></div>
+    </dl>
+  </section>
+
+  <div class="bloco-controles">
+    <div class="controles">
+      <button id="anterior" type="button" aria-label="Passo anterior">◀</button>
+      <button id="proximo" type="button">Próximo passo</button>
+      <button id="tocar" type="button">▶ Tocar</button>
+      <button id="reiniciar" type="button" aria-label="Recomeçar">↺</button>
+    </div>
+    <div style="margin-top:10px">
+      <span class="progresso"><i id="barra-progresso" style="width:0%"></i></span>
+      <p class="passo-conta" id="passo-conta">passo 1 de 1</p>
+    </div>
+  </div>
+
+  <h2 class="t-entradas">Experimente outro caso</h2>
+  <div class="entradas" id="entradas"></div>
+  <p class="nota" id="dica-preset"></p>
+
+  <div class="legenda" id="legenda"></div>
+  </div>
+
+  <div class="coluna dir">
+  <div class="painel" id="painel-avl">
+    <h2 class="t-codigo">O código que está rodando</h2>
+    <div class="metodos" id="metodos" aria-label="Métodos da AVL; o destacado está executando"></div>
+    <div class="codigo"><pre id="codigo"></pre></div>
+
+    <section class="vars" aria-live="polite">
+      <h3>Variáveis de quem está executando agora</h3>
+      <div class="vars-lista" id="vars-lista"></div>
+      <p class="expr" id="expr" hidden></p>
+      <div class="pilha">
+        <h3>Pilha de chamadas — quem está executando é o topo, destacado</h3>
+        <ol id="pilha"></ol>
+      </div>
+    </section>
+
+    <p class="nota nota-codigo">É o mesmo código dos slides e do texto-base da aula. A execução <b>salta</b> de um método
+    para o outro: na volta da recursão, o <code>inserir</code> chama o <code>rebalancear</code>, e ele chama as rotações —
+    a pilha mostra quem chamou quem. A <code>rotacaoEsquerda</code> aparece só descrita: escrevê-la em Java é o Passo 7
+    do laboratório. O programa pronto para colar no OneCompiler ou no JDoodle vai anexado à aula no Classroom e está em
+    <a href="https://raw.githubusercontent.com/alyssonbruno/publicacao/main/ED/AULA12/ArvoreAVLApp.java">ArvoreAVLApp.java</a>.</p>
+  </div>
+
+  <div class="painel" id="painel-rn" hidden>
+    <h2 class="t-codigo">A regra que está sendo aplicada</h2>
+    <ol class="tabela-rn" id="tabela-rn"></ol>
+
+    <section class="vars" aria-live="polite">
+      <h3>Papéis neste passo</h3>
+      <div class="vars-lista" id="papeis"></div>
+      <div class="regras">
+        <h3>As cinco regras, conferidas agora</h3>
+        <ol id="regras"></ol>
+      </div>
+    </section>
+
+    <p class="nota nota-codigo">A rubro-negra desta aula é introdutória, como nos slides: a ideia e a inserção, sem
+    código e sem remoção. A rotação é a mesma da AVL; o que muda é o critério para decidir quando usá-la. No Java, a
+    rubro-negra vem pronta no <code>TreeMap</code> e no <code>TreeSet</code>.</p>
+  </div>
+  </div>
+
+  <footer>
+    Estrutura de Dados — 3º período do Bacharelado em Sistemas de Informação — UNITINS<br>
+    Prof. Me. Alysson Martins Bruno
+  </footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ---------------------------------------------------------------
+     O código exibido: o mesmo dos slides da Aula 12. Cada passo diz
+     qual método está executando e qual linha; o índice da linha é a
+     posição no vetor. O trecho depois de "//" é pintado como comentário.
+     A rotacaoEsquerda aparece só descrita, como nos slides: escrevê-la
+     é o Passo 7 do laboratório.
+  --------------------------------------------------------------- */
+  var CODIGO = {
+    inserir: [
+      "public void inserir(int valor) { raiz = inserir(raiz, valor); }",
+      "",
+      "private No inserir(No no, int valor) {",
+      "    if (no == null) {                  // achou o lugar vazio",
+      "        return new No(valor);",
+      "    }",
+      "    if (valor < no.valor) {",
+      "        no.esquerdo = inserir(no.esquerdo, valor);",
+      "    } else if (valor > no.valor) {",
+      "        no.direito = inserir(no.direito, valor);",
+      "    }                                  // igual: repetido, ignora",
+      "    return rebalancear(no);            // a linha nova: confere na volta",
+      "}"
+    ],
+    rebalancear: [
+      "private No rebalancear(No no) {",
+      "    atualizarAltura(no);",
+      "    int fb = fatorBalanceamento(no);",
+      "    if (fb > 1) {                                  // pesado à esquerda",
+      "        if (fatorBalanceamento(no.esquerdo) < 0) { // LR: o filho pende à direita",
+      "            no.esquerdo = rotacaoEsquerda(no.esquerdo);",
+      "        }",
+      "        return rotacaoDireita(no);                 // LL (ou o fim do LR)",
+      "    }",
+      "    if (fb < -1) {                                 // pesado à direita",
+      "        if (fatorBalanceamento(no.direito) > 0) {  // RL: o filho pende à esquerda",
+      "            no.direito = rotacaoDireita(no.direito);",
+      "        }",
+      "        return rotacaoEsquerda(no);                // RR (ou o fim do RL)",
+      "    }",
+      "    return no;                                     // fb -1, 0 ou +1: nada a fazer",
+      "}"
+    ],
+    rotacaoDireita: [
+      "private No rotacaoDireita(No no) {",
+      "    No filho = no.esquerdo;      // o filho esquerdo sobe",
+      "    No meio = filho.direito;     // a subárvore do meio troca de pai",
+      "    filho.direito = no;          // o nó desce para a direita do filho",
+      "    no.esquerdo = meio;",
+      "    atualizarAltura(no);         // primeiro quem desceu",
+      "    atualizarAltura(filho);      // depois quem subiu",
+      "    return filho;                // a nova raiz deste trecho",
+      "}"
+    ],
+    rotacaoEsquerda: [
+      "private No rotacaoEsquerda(No no) {",
+      "    // 1. o filho DIREITO sobe",
+      "    // 2. a subárvore do meio é o filho ESQUERDO dele",
+      "    // 3. o nó desce para a ESQUERDA do filho",
+      "    // 4. o meio vira o filho DIREITO do nó",
+      "    // 5. atualiza as alturas: primeiro quem desceu",
+      "    // 6. devolve o filho, a nova raiz deste trecho",
+      "    // Em Java: é o Passo 7 do laboratório.",
+      "}"
+    ]
+  };
+  var METODOS = ["inserir", "rebalancear", "rotacaoDireita", "rotacaoEsquerda"];
+
+  /* Variáveis mostradas no painel, na ordem do código. Quem ainda não
+     recebeu valor aparece apagado, com "—". */
+  var VARIAVEIS = {
+    inserir:         ["no", "valor"],
+    rebalancear:     ["no", "fb"],
+    rotacaoDireita:  ["no", "filho", "meio"],
+    rotacaoEsquerda: ["no", "filho", "meio"]
+  };
+
+  /* A tabela da inserção na rubro-negra, como no slide de resumo. */
+  var TABELA_RN = [
+    "<b>Entra como na BST</b>, como folha, e nasce <b>vermelho</b>",
+    "Pai <b>preto</b> → nada a fazer",
+    "Pai vermelho e tio <b>vermelho</b> → pai e tio ficam pretos, o avô fica vermelho; confere de novo a partir do avô",
+    "Pai vermelho, tio <b>preto</b>, em <b>linha reta</b> → uma rotação no avô; quem sobe fica preto, o avô fica vermelho",
+    "Pai vermelho, tio <b>preto</b>, em <b>zigue-zague</b> → rotação no pai (fica em linha reta) e depois o caso de cima",
+    "No fim → a <b>raiz fica preta</b>"
+  ];
+
+  var ROTULOS = { avl: ["Rotações", "Na pilha"], casos: ["Rotações", "Na pilha"], rn: ["Rotações", "Trocas de cor"] };
+
+  var LEGENDA_AVL = [
+    ["c", "var(--avl-base)", "nó"],
+    ["c", "var(--avl-desce)", "desbalanceado (fb ±2); na rotação, quem desce"],
+    ["c", "var(--avl-sobe)", "quem sobe na rotação"],
+    ["c", "var(--avl-meio)", "subárvore do meio: troca de pai"],
+    ["c", "transparent;border:3px solid var(--tinta)", "no: o nó da chamada do topo"],
+    ["c", "transparent;border:3px dashed var(--tinta)", "acabou de entrar"],
+    ["fb", "", "fb, pelas alturas guardadas nos filhos"],
+    ["l", "", "ligação que ainda vai ser feita"]
+  ];
+  var LEGENDAS = {
+    avl: LEGENDA_AVL,
+    casos: LEGENDA_AVL,
+    rn: [
+      ["c", "var(--rn-preto);box-shadow:0 0 0 1.5px var(--rn-borda),0 0 0 2.5px var(--linha-forte)", "preto"],
+      ["c", "var(--rn-verm)", "vermelho"],
+      ["n", "", "null: conta como preto"],
+      ["c", "transparent;border:3px solid var(--tinta)", "o nó que está sendo conferido"],
+      ["c", "transparent;border:3px dashed var(--tinta)", "acabou de entrar"]
+    ]
+  };
+
+  var CASOS = ["ll", "rr", "lr", "rl"];
+  var BASE_E = [50, 30, 70, 20, 40];
+  var BASE_D = [50, 30, 70, 60, 80];
+
+  var PRESETS = {
+    avl: [
+      { id: "crescente", rotulo: "20 a 80, em ordem", base: [], seq: [20, 30, 40, 50, 60, 70, 80],
+        dica: "Os valores da Aula 11 chegando em ordem crescente: a BST simples viraria uma lista de altura 6. A AVL faz 4 rotações à esquerda — no 20, no 40, no 30 e no 60 — e termina igual à árvore da Aula 11, com altura 2. No 70, quem desequilibra é a raiz." },
+      { id: "exercicio", rotulo: "Exercício: 40, 50, 60, 20, 30", base: [], seq: [40, 50, 60, 20, 30],
+        dica: "O exercício dos slides: tente no papel antes de tocar. No 60, um caso RR no 40; no 30, um caso LR, também no 40, longe da raiz. No fim: 50 com 30 (20, 40) à esquerda e 60 à direita, altura 2." },
+      { id: "sem", rotulo: "Sem rotação", base: [], seq: [40, 20, 60, 10, 30, 50, 70],
+        dica: "40, 20, 60, 10, 30, 50, 70: cada nível se completa antes do próximo, e nenhum nó passa de fb ±1. Zero rotações, altura 2." },
+      { id: "sorteio", rotulo: "Sortear", base: [], seq: null,
+        dica: "Sete valores sorteados entre 1 e 99. Conte as rotações e confira no fim: todo nó tem fb −1, 0 ou +1, e a altura não passa de 3." }
+    ],
+    casos: [
+      { id: "ll3", rotulo: "LL: 30, 20, 10", base: [], seq: [30, 20, 10],
+        dica: "O 30 fica com fb +2, e o filho dele, o 20, com +1: os dois pendem para a esquerda. Uma rotação à direita no 30 resolve, e o 20 vai para a raiz." },
+      { id: "rr3", rotulo: "RR: 10, 20, 30", base: [], seq: [10, 20, 30],
+        dica: "O espelho do LL: o 10 fica com fb −2, e o 20 com −1. Uma rotação à esquerda no 10, e o 20 vai para a raiz." },
+      { id: "lr3", rotulo: "LR: 30, 10, 20", base: [], seq: [30, 10, 20],
+        dica: "Zigue-zague: o 30 fica com fb +2, mas o filho dele, o 10, com −1. Uma rotação só espelharia o problema. Primeiro à esquerda no 10, depois à direita no 30: o 20, o neto, sobe duas vezes." },
+      { id: "rl3", rotulo: "RL: 10, 30, 20", base: [], seq: [10, 30, 20],
+        dica: "O espelho do LR: o 10 fica com fb −2, e o 30 com +1. Primeiro à direita no 30, depois à esquerda no 10." },
+      { id: "ll", rotulo: "LL: insere 10", base: BASE_E, seq: [10],
+        dica: "A árvore 50, 30, 70, 20, 40 já está pronta. O 10 desequilibra o 50 (fb +2), e o 30 pende para o mesmo lado: rotação à direita no 50. O 30 sobe, e o 40 troca de pai." },
+      { id: "rr", rotulo: "RR: insere 90", base: BASE_D, seq: [90],
+        dica: "A árvore 50, 30, 70, 60, 80 já está pronta. O 90 desequilibra o 50 (fb −2), e o 70 pende para o mesmo lado: rotação à esquerda no 50. O 70 sobe, e o 60 troca de pai." },
+      { id: "lr", rotulo: "LR: insere 45", base: BASE_E, seq: [45],
+        dica: "A árvore 50, 30, 70, 20, 40 já está pronta. O 45 desequilibra o 50 (fb +2), mas o 30 pende para a direita: rotação dupla. O 40 sobe duas vezes, e o 45 troca de pai." },
+      { id: "rl", rotulo: "RL: insere 55", base: BASE_D, seq: [55],
+        dica: "A árvore 50, 30, 70, 60, 80 já está pronta. O 55 desequilibra o 50 (fb −2), mas o 70 pende para a esquerda: rotação dupla. O 60 sobe duas vezes, e o 55 troca de pai." }
+    ],
+    rn: [
+      { id: "crescente", rotulo: "10 a 50, em ordem", seq: [10, 20, 30, 40, 50],
+        dica: "A ordem crescente que estraga a BST simples. No 30, uma rotação; no 40, só troca de cores; no 50, outra rotação. No fim, altura 2 — a BST simples teria altura 4." },
+      { id: "zigue", rotulo: "Zigue-zague: 10, 30, 20", seq: [10, 30, 20],
+        dica: "O 20 entra à esquerda do 30, que está à direita do 10: zigue-zague, com o tio null (preto). Primeiro uma rotação no pai, o 30; depois outra no avô, o 10." },
+      { id: "dois", rotulo: "Os dois casos: 30, 20, 40, 10, 5", seq: [30, 20, 40, 10, 5],
+        dica: "No 10, pai (20) e tio (40) são vermelhos: só troca de cores. No 5, o tio é null, que conta como preto: rotação à direita no 20 e troca de cores." },
+      { id: "sorteio", rotulo: "Sortear", seq: null,
+        dica: "Sete valores sorteados entre 1 e 99. O sorteio descarta os casos em que o desenho não caberia na tela. Confira no fim: as cinco regras valem." }
+    ]
+  };
+
+  /* ------------------------------ a árvore ------------------------------ */
+
+  var proximoId = 0;
+  function No(v) { this.id = ++proximoId; this.v = v; this.e = null; this.d = null; this.h = 0; this.cor = "V"; this.p = null; }
+
+  function h(no) { return no ? no.h : -1; }                 // a altura guardada no nó
+  function atualizar(no) { no.h = 1 + Math.max(h(no.e), h(no.d)); }
+  function fbDe(no) { return h(no.e) - h(no.d); }
+  function altura(no) { return no ? 1 + Math.max(altura(no.e), altura(no.d)) : -1; }   // a altura de verdade
+  function contar(no) { return no ? 1 + contar(no.e) + contar(no.d) : 0; }
+  function preOrdem(no, out) { if (no) { out.push(no.v); preOrdem(no.e, out); preOrdem(no.d, out); } return out; }
+  function nivelDe(raiz, id) {
+    function busca(no, nivel) {
+      if (!no) { return -1; }
+      if (no.id === id) { return nivel; }
+      var r = busca(no.e, nivel + 1);
+      return r >= 0 ? r : busca(no.d, nivel + 1);
+    }
+    return busca(raiz, 0);
+  }
+
+  /* Uma AVL pronta, sem passos: o ponto de partida dos casos "numa árvore maior". */
+  function montarAVL(seq) {
+    var raiz = null, k;
+    function dir(no) { var f = no.e; no.e = f.d; f.d = no; atualizar(no); atualizar(f); return f; }
+    function esq(no) { var f = no.d; no.d = f.e; f.e = no; atualizar(no); atualizar(f); return f; }
+    function rebal(no) {
+      atualizar(no);
+      var fb = fbDe(no);
+      if (fb > 1) { if (fbDe(no.e) < 0) { no.e = esq(no.e); } return dir(no); }
+      if (fb < -1) { if (fbDe(no.d) > 0) { no.d = dir(no.d); } return esq(no); }
+      return no;
+    }
+    function ins(no, x) {
+      if (!no) { return new No(x); }
+      if (x < no.v) { no.e = ins(no.e, x); } else if (x > no.v) { no.d = ins(no.d, x); }
+      return rebal(no);
+    }
+    for (k = 0; k < seq.length; k++) { raiz = ins(raiz, seq[k]); }
+    return raiz;
+  }
+  /* A BST simples da Aula 11, só para comparar a altura no fim. */
+  function montarBST(seq) {
+    var raiz = null, k;
+    function ins(no, x) {
+      if (!no) { return { v: x, e: null, d: null }; }
+      if (x < no.v) { no.e = ins(no.e, x); } else if (x > no.v) { no.d = ins(no.d, x); }
+      return no;
+    }
+    for (k = 0; k < seq.length; k++) { raiz = ins(raiz, seq[k]); }
+    return raiz;
+  }
+
+  /* --------------------------- textos curtos --------------------------- */
+  function n(x) { return '<span class="num">' + x + "</span>"; }
+  function ref(no) { return no ? "→ " + no.v : "null"; }
+  function nome(no) { return no ? "nó " + no.v : "null"; }
+  function sinal(x) { return x > 0 ? "+" + x : (x < 0 ? "−" + (-x) : "0"); }
+  function par(x) { return x < 0 ? "(" + x + ")" : String(x); }
+  function cond(texto, valores, ok) { return { texto: texto, valores: valores, ok: !!ok }; }
+  function conta(texto, valores, res) { return { texto: texto, valores: valores, res: String(res) }; }
+  function copiar(o) {
+    var r = {}, k;
+    for (k in o) { if (Object.prototype.hasOwnProperty.call(o, k)) { r[k] = o[k]; } }
+    return r;
+  }
+  function lista(arr) { return n(arr.join(", ")); }
+  function lado(l) { return l === "e" ? "esquerda" : "direita"; }
+  function plural(q, um, varios, nenhum) { return q === 0 && nenhum ? nenhum : n(q) + " " + (q === 1 ? um : varios); }
+
+  /* ======================================================================
+     AVL
+     A máquina guarda a árvore, a pilha de chamadas e o que já foi visto,
+     e tira uma "foto" a cada passo. A rotação devolve a nova raiz do
+     trecho, mas quem está acima só passa a apontar para ela quando o pai
+     receber o valor devolvido. Até lá, a foto já desenha o trecho novo no
+     lugar do antigo, com a ligação de cima tracejada: é o mapa "pend".
+     ====================================================================== */
+  function Maquina(raiz) {
+    this.raiz = raiz;
+    this.passos = [];
+    this.frames = [];
+    this.ativos = [];   // ids dos nós das chamadas de inserir em andamento
+    this.vistos = [];   // ids dos nós comparados na inserção atual
+    this.fixas = {};    // papéis que duram a inserção: desb, desce, sobe, meio
+    this.novo = null;   // id do nó que acabou de entrar
+    this.pend = {};     // "idDoPai" + "e"/"d" (ou "raiz") -> nó devolvido, ainda não religado
+    this.rotacoes = [];
+    this.seq = null;
+  }
+  Maquina.prototype.chamar = function (rot, metodo, vars, no, publico, fantasma) {
+    var t = this.topo();
+    this.frames.push({
+      rot: rot, metodo: metodo, vars: vars, publico: !!publico,
+      noId: publico ? null : (no ? no.id : "fantasma"),
+      fantasma: fantasma || null,
+      /* o trecho que a chamada de inserir enxerga; rebalancear e as
+         rotações não apagam nada */
+      foco: (publico || metodo !== "inserir") ? null : (no ? no.id : (t ? t.foco : null))
+    });
+    if (no && !publico && metodo === "inserir") { this.ativos.push(no.id); }
+  };
+  Maquina.prototype.voltar = function () {
+    var f = this.frames.pop();
+    if (f && !f.publico && f.metodo === "inserir" && f.noId !== "fantasma") { this.ativos.pop(); }
+  };
+  Maquina.prototype.topo = function () { return this.frames[this.frames.length - 1]; };
+  Maquina.prototype.ver = function (no) { if (this.vistos.indexOf(no.id) < 0) { this.vistos.push(no.id); } };
+  Maquina.prototype.vista = function () {
+    var pend = this.pend;
+    function tem(k) { return Object.prototype.hasOwnProperty.call(pend, k); }
+    function c(no) {
+      if (!no) { return null; }
+      var ke = no.id + "e", kd = no.id + "d";
+      return { id: no.id, v: no.v, h: no.h,
+               e: c(tem(ke) ? pend[ke] : no.e), d: c(tem(kd) ? pend[kd] : no.d),
+               pe: tem(ke), pd: tem(kd) };
+    }
+    return c(tem("raiz") ? pend.raiz : this.raiz);
+  };
+  Maquina.prototype.foto = function (o) {
+    var t = this.topo(), pilha = [], k, naPilha = 0, arv = this.vista(), fant, prof;
+    for (k = this.frames.length - 1; k >= 0; k--) {
+      pilha.push({ rot: this.frames[k].rot, publico: this.frames[k].publico });
+      if (!this.frames[k].publico) { naPilha++; }
+    }
+    fant = o.fantasma !== undefined ? o.fantasma : (t ? t.fantasma : null);
+    prof = altura(arv);
+    if (fant) { prof = Math.max(prof, fant.pai === null ? 0 : nivelDe(arv, fant.pai) + 1); }
+    this.passos.push({
+      tipo: "avl", arvore: arv, fantasma: fant, nulo: null,
+      atual: o.atual !== undefined ? o.atual : (t ? t.noId : null),
+      marcas: copiar(this.fixas), novo: this.novo, papeis: null,
+      ativos: this.ativos.slice(), vistos: this.vistos.slice(),
+      foco: o.foco !== undefined ? o.foco : (t ? t.foco : null),
+      ligacoes: o.ligacoes || null,
+      linha: o.linha, metodo: o.metodo || (t ? t.metodo : "inserir"),
+      texto: o.texto, vars: t ? copiar(t.vars) : {}, destaque: o.destaque || "",
+      expr: o.expr || null, pilha: pilha,
+      cont: [this.rotacoes.length, naPilha], altura: altura(arv), prof: prof,
+      rotacoes: this.rotacoes.slice(),
+      seq: this.seq ? { titulo: this.seq.titulo, lista: this.seq.lista.slice(), pos: this.seq.pos } : null
+    });
+  };
+
+  function passosAVL(base, seq) {
+    proximoId = 0;
+    var m = new Maquina(montarAVL(base)), todos = base.concat(seq), k, hA, hB, r;
+    m.seq = { titulo: "Inserir", lista: todos.slice(), pos: base.length };
+
+    if (base.length) {
+      m.foto({ linha: 0, metodo: "inserir", foco: null, atual: null,
+        texto: "Ponto de partida: a AVL com " + lista(base) + " já inseridos, todo nó com fb −1, 0 ou +1. Agora entra o " + n(seq[0]) + "." });
+    }
+    for (k = 0; k < seq.length; k++) { m.seq.pos = base.length + k; publico(seq[k]); }
+
+    m.seq.pos = todos.length;
+    m.vistos = []; m.fixas = {}; m.novo = null;
+    hA = altura(m.raiz); hB = altura(montarBST(todos)); r = m.rotacoes.length;
+    m.foto({ linha: 0, metodo: "inserir", foco: null, atual: null,
+      texto: "Pronto: " + plural(contar(m.raiz), "nó", "nós") + ", altura " + n(hA) + ", " +
+             plural(r, "rotação", "rotações", "nenhuma rotação") +
+             ". Todo nó tem fb −1, 0 ou +1. Pré-ordem: " + lista(preOrdem(m.raiz, [])) + ". " +
+             (hB > hA ? "Uma BST simples, com a mesma ordem de chegada, teria altura " + n(hB) + "."
+                      : "Uma BST simples teria a mesma altura: nessa ordem de chegada, ela já sai equilibrada.") });
+    return m.passos;
+
+    function publico(x) {
+      var antes = m.raiz, quantas = m.rotacoes.length, res, novas;
+      m.vistos = []; m.fixas = {}; m.novo = null;
+      m.chamar("inserir(" + x + ")", "inserir", { valor: x }, null, true);
+      m.foto({ linha: 0, destaque: "valor",
+        texto: antes
+          ? "Inserir o " + n(x) + ". O método público chama o privado <b>começando pela raiz</b>, o " + n(antes.v) + ". O que voltar vira a raiz — e ela pode mudar, se houver rotação lá em cima."
+          : "Inserir o " + n(x) + ". A árvore está <b>vazia</b>: raiz = null. O método público chama o privado com essa raiz." });
+      res = inserir(m.raiz, x, null, null);
+      delete m.pend.raiz;
+      m.raiz = res;
+      m.foto({ linha: 0,
+        texto: !antes
+          ? "Voltou o nó novo: <b>raiz</b> passa a apontar para ele. O " + n(x) + " é a raiz, com altura " + n(0) + "."
+          : (res === antes
+              ? "Voltou o próprio " + n(res.v) + ": <b>raiz</b> recebe o mesmo nó — a raiz não muda."
+              : "Voltou o " + n(res.v) + ": <b>raiz</b> passa a apontar para ele. A rotação lá em cima <b>trocou a raiz</b>.") });
+      novas = m.rotacoes.slice(quantas);
+      m.foto({ linha: 0,
+        texto: novas.length === 0
+          ? (antes ? "O " + n(x) + " entrou, e ninguém precisou de rotação: todo nó do caminho ficou com fb −1, 0 ou +1." : "O " + n(x) + " entrou. Próximo valor.")
+          : "O " + n(x) + " entrou com " + (novas.length === 1 ? "uma rotação <b>simples</b> (" : "uma rotação <b>dupla</b> (") +
+            novas.join(" e ") + "). Todo nó voltou a ter fb −1, 0 ou +1." });
+      m.voltar();
+    }
+
+    function textoVolta(pai, campo, antes, depois) {
+      if (!antes) {
+        return "Voltou o nó novo: <b>no." + campo + "</b> do " + n(pai.v) + " passa a apontar para o " + n(depois.v) + ".";
+      }
+      if (antes === depois) {
+        return "Voltou o próprio " + n(depois.v) + ": <b>no." + campo + "</b> recebe o mesmo nó — nada muda.";
+      }
+      return "Voltou o " + n(depois.v) + ", a nova raiz daquele trecho: <b>no." + campo + "</b> do " + n(pai.v) +
+             " passa a apontar para ele. A linha tracejada vira ligação de verdade.";
+    }
+
+    function inserir(no, x, pai, ladoPai) {
+      var vars = { no: ref(no), valor: x }, antes, r, res, novo, fant = { pai: pai ? pai.id : null, lado: ladoPai };
+      m.chamar("inserir(" + nome(no) + ", " + x + ")", "inserir", vars, no, false, no ? null : fant);
+
+      if (!no) {
+        m.foto({ linha: 3, expr: cond("no == null", "null == null", true), destaque: "no",
+          texto: "Chamada com no = <b>null</b>: achou o lugar vazio. <b>É aqui</b> que o " + n(x) + " entra." });
+        novo = new No(x);
+        m.novo = novo.id;
+        m.foto({ linha: 4, fantasma: { pai: fant.pai, lado: ladoPai, v: x },
+          texto: "Cria o nó " + n(x) + " — uma folha, com altura " + n(0) + " — e o <b>devolve</b> para quem chamou. Por enquanto, ninguém aponta para ele." });
+        m.voltar();
+        return novo;
+      }
+
+      m.ver(no);
+      m.foto({ linha: 3, expr: cond("no == null", nome(no) + " == null", false), destaque: "no",
+        texto: "Chamada com no = " + n(no.v) + ". Não é null: há um nó para comparar." });
+
+      if (x < no.v) {
+        m.foto({ linha: 6, expr: cond("valor < no.valor", x + " < " + no.v, true),
+          texto: n(x) + " é menor que " + n(no.v) + ": o lugar dele fica à <b>esquerda</b>." });
+        m.foto({ linha: 7,
+          texto: "Desce para a esquerda: chama <b>inserir(no.esquerdo, " + x + ")</b>" +
+                 (no.e ? ", com o " + n(no.e.v) + "." : ". O filho esquerdo do " + n(no.v) + " é null.") +
+                 " Esta chamada fica esperando na pilha." });
+        antes = no.e;
+        r = inserir(no.e, x, no, "e");
+        delete m.pend[no.id + "e"];
+        no.e = r;
+        m.foto({ linha: 7, texto: textoVolta(no, "esquerdo", antes, r) });
+      } else {
+        m.foto({ linha: 6, expr: cond("valor < no.valor", x + " < " + no.v, false),
+          texto: n(x) + " não é menor que " + n(no.v) + "." });
+        if (x > no.v) {
+          m.foto({ linha: 8, expr: cond("valor > no.valor", x + " > " + no.v, true),
+            texto: n(x) + " é maior que " + n(no.v) + ": o lugar dele fica à <b>direita</b>." });
+          m.foto({ linha: 9,
+            texto: "Desce para a direita: chama <b>inserir(no.direito, " + x + ")</b>" +
+                   (no.d ? ", com o " + n(no.d.v) + "." : ". O filho direito do " + n(no.v) + " é null.") +
+                   " Esta chamada fica esperando na pilha." });
+          antes = no.d;
+          r = inserir(no.d, x, no, "d");
+          delete m.pend[no.id + "d"];
+          no.d = r;
+          m.foto({ linha: 9, texto: textoVolta(no, "direito", antes, r) });
+        } else {
+          m.foto({ linha: 8, expr: cond("valor > no.valor", x + " > " + no.v, false),
+            texto: "O " + n(x) + " é <b>igual</b> ao " + n(no.v) + ": valor repetido. Repetidos são <b>ignorados</b>." });
+        }
+      }
+
+      m.foto({ linha: 11,
+        texto: "Na <b>volta</b> da recursão, antes de devolver o " + n(no.v) + ", chama <b>rebalancear(no)</b>: atualizar a altura do " + n(no.v) + " e conferir o fb dele." });
+      res = rebalancear(no, pai ? pai.id + ladoPai : "raiz", pai);
+      m.foto({ linha: 11,
+        texto: res === no
+          ? "<b>rebalancear</b> devolveu o próprio " + n(no.v) + ", e o <b>return</b> o devolve para quem chamou."
+          : "<b>rebalancear</b> devolveu o " + n(res.v) + ", a nova raiz deste trecho depois da rotação, e o <b>return</b> o devolve para quem chamou." });
+      m.voltar();
+      return res;
+    }
+
+    function rebalancear(no, vaga, pai) {
+      var vars = { no: ref(no), fb: null }, he = h(no.e), hd = h(no.d), hAntes = no.h, fb, ff, c, nf, res;
+      m.chamar("rebalancear(" + nome(no) + ")", "rebalancear", vars, no, false);
+
+      atualizar(no);
+      m.foto({ linha: 1, expr: conta("no.altura = 1 + max(altura(no.esquerdo), altura(no.direito))", "1 + max(" + he + ", " + hd + ")", no.h),
+        texto: no.h !== hAntes
+          ? "<b>atualizarAltura</b>: a altura guardada no " + n(no.v) + " era " + n(hAntes) + " e passa a " + n(no.h) + ", porque um dos lados cresceu."
+          : "<b>atualizarAltura</b>: a altura guardada no " + n(no.v) + " continua " + n(no.h) + "." });
+
+      fb = he - hd;
+      vars.fb = String(fb);
+      if (Math.abs(fb) > 1) { m.fixas[no.id] = "desb"; }
+      m.foto({ linha: 2, destaque: "fb", expr: conta("altura(no.esquerdo) - altura(no.direito)", he + " - " + par(hd), fb),
+        texto: Math.abs(fb) <= 1
+          ? "fb do " + n(no.v) + " = " + n(sinal(fb)) + ": permitido."
+          : "fb do " + n(no.v) + " = " + n(sinal(fb)) + ": um lado está <b>dois níveis</b> mais alto. O " + n(no.v) + " está desbalanceado e precisa de rotação." });
+
+      if (fb > 1) {
+        ff = fbDe(no.e);
+        m.foto({ linha: 3, expr: cond("fb > 1", fb + " > 1", true),
+          texto: "Pesa à <b>esquerda</b>. Segunda pergunta: o filho esquerdo, o " + n(no.e.v) + ", pende para que lado?" });
+        m.foto({ linha: 4, expr: cond("fatorBalanceamento(no.esquerdo) < 0", par(ff) + " < 0", ff < 0),
+          texto: ff < 0
+            ? "O " + n(no.e.v) + " tem fb " + n(sinal(ff)) + ": pende para a <b>direita</b>, o lado contrário. Zigue-zague: <b>caso LR</b>. Primeiro, uma rotação à esquerda no " + n(no.e.v) + "."
+            : "O " + n(no.e.v) + " tem fb " + n(sinal(ff)) + ": pende para o <b>mesmo lado</b>" + (ff === 0 ? " (ou para nenhum)" : "") + ". <b>Caso LL</b>: uma rotação à direita no " + n(no.v) + " resolve." });
+        if (ff < 0) {
+          c = no.e;
+          m.foto({ linha: 5, texto: "Chama <b>rotacaoEsquerda(no.esquerdo)</b>, no " + n(c.v) + ". O que voltar será o novo filho esquerdo do " + n(no.v) + "." });
+          nf = rotacao(c, "esquerda", no.id + "e", no);
+          delete m.pend[no.id + "e"];
+          no.e = nf;
+          m.foto({ linha: 5, texto: "Voltou o " + n(nf.v) + ": <b>no.esquerdo</b> do " + n(no.v) + " passa a apontar para ele. O zigue-zague virou <b>linha reta</b>: agora é um caso LL." });
+        }
+        m.foto({ linha: 7, texto: (ff < 0 ? "O fim do LR: " : "") + "chama <b>rotacaoDireita(no)</b>, no " + n(no.v) + "." });
+        res = rotacao(no, "direita", vaga, pai);
+        m.foto({ linha: 7, texto: "Voltou o " + n(res.v) + ": o <b>return</b> devolve a nova raiz deste trecho para o inserir." });
+        m.voltar();
+        return res;
+      }
+
+      if (fb < -1) {
+        ff = fbDe(no.d);
+        m.foto({ linha: 9, expr: cond("fb < -1", fb + " < -1", true),
+          texto: "<b>fb > 1</b> é falso, mas <b>fb < −1</b> é verdadeiro: pesa à <b>direita</b>. Segunda pergunta: o filho direito, o " + n(no.d.v) + ", pende para que lado?" });
+        m.foto({ linha: 10, expr: cond("fatorBalanceamento(no.direito) > 0", ff + " > 0", ff > 0),
+          texto: ff > 0
+            ? "O " + n(no.d.v) + " tem fb " + n(sinal(ff)) + ": pende para a <b>esquerda</b>, o lado contrário. Zigue-zague: <b>caso RL</b>. Primeiro, uma rotação à direita no " + n(no.d.v) + "."
+            : "O " + n(no.d.v) + " tem fb " + n(sinal(ff)) + ": pende para o <b>mesmo lado</b>" + (ff === 0 ? " (ou para nenhum)" : "") + ". <b>Caso RR</b>: uma rotação à esquerda no " + n(no.v) + " resolve." });
+        if (ff > 0) {
+          c = no.d;
+          m.foto({ linha: 11, texto: "Chama <b>rotacaoDireita(no.direito)</b>, no " + n(c.v) + ". O que voltar será o novo filho direito do " + n(no.v) + "." });
+          nf = rotacao(c, "direita", no.id + "d", no);
+          delete m.pend[no.id + "d"];
+          no.d = nf;
+          m.foto({ linha: 11, texto: "Voltou o " + n(nf.v) + ": <b>no.direito</b> do " + n(no.v) + " passa a apontar para ele. O zigue-zague virou <b>linha reta</b>: agora é um caso RR." });
+        }
+        m.foto({ linha: 13, texto: (ff > 0 ? "O fim do RL: " : "") + "chama <b>rotacaoEsquerda(no)</b>, no " + n(no.v) + "." });
+        res = rotacao(no, "esquerda", vaga, pai);
+        m.foto({ linha: 13, texto: "Voltou o " + n(res.v) + ": o <b>return</b> devolve a nova raiz deste trecho para o inserir." });
+        m.voltar();
+        return res;
+      }
+
+      m.foto({ linha: 15,
+        texto: "fb " + n(sinal(fb)) + ": os dois <b>if</b> são falsos — nem maior que 1, nem menor que −1. <b>return no</b>: devolve o próprio " + n(no.v) + ", nada a fazer." });
+      m.voltar();
+      return no;
+    }
+
+    /* As duas rotações num método só: "direita" segue o código dos slides,
+       linha por linha; "esquerda" segue a descrição numerada, porque o
+       código dela é o Passo 7 do laboratório. */
+    function rotacao(no, sentido, vaga, quemReliga) {
+      var dir = sentido === "direita", met = dir ? "rotacaoDireita" : "rotacaoEsquerda";
+      var vars = { no: ref(no), filho: null, meio: null }, filho, meio, hNo, hFi, k, sobe, acima, frase, fbVisto, fbCerto;
+      var L = dir ? { filho: 1, meio: 2, desce: 3, liga: 4, hNo: 5, hFi: 6, ret: 7 }
+                  : { filho: 1, meio: 2, desce: 3, liga: 4, hNo: 5, hFi: 5, ret: 6 };
+      var ladoSobe = dir ? "esquerdo" : "direito", ladoDesce = dir ? "direito" : "esquerdo";
+
+      m.chamar(met + "(" + nome(no) + ")", met, vars, no, false);
+      m.rotacoes.push(sentido + " no " + no.v);
+      for (k in m.fixas) {
+        if (Object.prototype.hasOwnProperty.call(m.fixas, k) && m.fixas[k] !== "desb") { delete m.fixas[k]; }
+      }
+
+      filho = dir ? no.e : no.d;
+      vars.filho = ref(filho);
+      m.fixas[no.id] = "desce";
+      m.fixas[filho.id] = "sobe";
+      m.foto({ linha: L.filho, destaque: "filho",
+        texto: (dir ? "<b>filho = no.esquerdo</b>: o " : "O filho " + ladoSobe + ", o ") + n(filho.v) + ", é quem <b>sobe</b>. O " + n(no.v) + " vai <b>descer</b> para a " + (dir ? "direita" : "esquerda") + " dele." });
+
+      meio = dir ? filho.d : filho.e;
+      vars.meio = ref(meio);
+      if (meio) { m.fixas[meio.id] = "meio"; }
+      m.foto({ linha: L.meio, destaque: "meio",
+        texto: meio
+          ? (dir ? "<b>meio = filho.direito</b>: o " : "A subárvore do meio é o filho " + ladoDesce + " do " + n(filho.v) + ": o ") + n(meio.v) + ". Ela vai <b>trocar de pai</b>, e fica guardada na variável meio para não se perder."
+          : (dir ? "<b>meio = filho.direito</b>, que é " : "A subárvore do meio, o filho " + ladoDesce + " do " + n(filho.v) + ", é ") + "<b>null</b>: aqui não há ninguém para trocar de pai." });
+
+      m.foto({ linha: L.desce, ligacoes: { novas: [[filho.id, no.id]], cortadas: meio ? [[filho.id, meio.id]] : [], lado: dir ? 1 : -1 },
+        texto: (dir ? "<b>filho.direito = no</b>: o " : "O ") + n(no.v) + " passa a ser filho " + ladoDesce + " do " + n(filho.v) + " (a linha laranja)." +
+               (meio ? " O " + n(meio.v) + " deixa de ser filho do " + n(filho.v) + ", mas não se perde: está na variável meio." : "") });
+
+      if (dir) { filho.d = no; no.e = meio; } else { filho.e = no; no.d = meio; }
+      m.pend[vaga] = filho;
+      sobe = n(filho.v);
+      if (vaga === "raiz") {
+        acima = " A variável <b>raiz</b> ainda aponta para o " + n(no.v) + ": só muda quando o " + sobe + " chegar ao método público.";
+      } else {
+        acima = " O " + n(quemReliga.v) + " ainda aponta para o " + n(no.v) + " — a linha tracejada mostra o lugar novo — e só religa quando receber o " + sobe + ".";
+      }
+      /* Entre a troca das ligações e o atualizarAltura, o fb de quem subiu
+         é calculado com a altura antiga de quem desceu. */
+      fbVisto = h(filho.e) - h(filho.d);
+      hNo = 1 + Math.max(h(no.e), h(no.d));
+      fbCerto = dir ? h(filho.e) - hNo : hNo - h(filho.d);
+      frase = meio ? "o " + n(meio.v) + " vira filho " + ladoSobe + " do " + n(no.v) + "." : "o filho " + ladoSobe + " do " + n(no.v) + " passa a ser null.";
+      m.foto({ linha: L.liga,
+        texto: (dir ? "<b>no.esquerdo = meio</b>: " + frase : frase.charAt(0).toUpperCase() + frase.slice(1)) +
+               " Três ligações mudaram: o " + sobe + " subiu, o " + n(no.v) + " desceu" + (meio ? " e o " + n(meio.v) + " trocou de pai" : "") + "." +
+               (fbVisto !== fbCerto ? " O fb mostrado no " + sobe + " ainda usa a altura antiga do " + n(no.v) + "." : "") });
+
+      hNo = no.h;
+      atualizar(no);
+      m.foto({ linha: L.hNo, expr: conta("no.altura = 1 + max(altura(no.esquerdo), altura(no.direito))", "1 + max(" + h(no.e) + ", " + h(no.d) + ")", no.h),
+        texto: "Atualiza primeiro quem <b>desceu</b>: a altura guardada no " + n(no.v) + " era " + n(hNo) + " e passa a " + n(no.h) + "." });
+
+      hFi = filho.h;
+      atualizar(filho);
+      m.foto({ linha: L.hFi, expr: conta("filho.altura = 1 + max(altura(filho.esquerdo), altura(filho.direito))", "1 + max(" + h(filho.e) + ", " + h(filho.d) + ")", filho.h),
+        texto: "Depois quem <b>subiu</b>, porque a altura do " + sobe + " depende da do " + n(no.v) + ": era " + n(hFi) + " e passa a " + n(filho.h) + "." });
+
+      m.foto({ linha: L.ret,
+        texto: (dir ? "<b>return filho</b>: d" : "D") + "evolve o " + sobe + ", a <b>nova raiz deste trecho</b>. O em ordem não mudou." + acima });
+      m.voltar();
+      return filho;
+    }
+  }
+
+  /* ======================================================================
+     RUBRO-NEGRA (introdução, sem código, como nos slides)
+     A inserção segue a tabela do slide de resumo: entra como na BST,
+     vermelho; pai preto, nada; tio vermelho, troca de cores e sobe para o
+     avô; tio preto, rotação (dupla, no zigue-zague) e troca de cores.
+     ====================================================================== */
+  function clonarRN(no) { return no ? { id: no.id, v: no.v, cor: no.cor, e: clonarRN(no.e), d: clonarRN(no.d) } : null; }
+
+  function regrasRN(raiz) {
+    var par4 = null, ok5 = true, p;
+    (function r4(no) {
+      var f;
+      if (!no || par4) { return; }
+      if (no.cor === "V") {
+        f = (no.e && no.e.cor === "V") ? no.e : ((no.d && no.d.cor === "V") ? no.d : null);
+        if (f) { par4 = [no.v, f.v]; return; }
+      }
+      r4(no.e); r4(no.d);
+    })(raiz);
+    function pretos(no) {
+      if (!no) { return 0; }
+      var a = pretos(no.e), b = pretos(no.d);
+      if (a !== b) { ok5 = false; }
+      return Math.max(a, b) + (no.cor === "P" ? 1 : 0);
+    }
+    p = pretos(raiz);
+    return { r2: !raiz || raiz.cor === "P", raiz: raiz ? raiz.v : null, par: par4, ok5: ok5, p: p };
+  }
+
+  function passosRN(seq) {
+    proximoId = 0;
+    var raiz = null, passos = [], vistos = [], novoId = null, papeis = null, rot = 0, trocas = 0, pos = 0, k, hR, hB;
+
+    for (k = 0; k < seq.length; k++) { pos = k; inserir(seq[k]); }
+
+    pos = seq.length; vistos = []; novoId = null; papeis = null;
+    hR = altura(raiz); hB = altura(montarBST(seq));
+    foto({ linha: -1,
+      texto: "Pronto: " + plural(contar(raiz), "nó", "nós") + ", altura " + n(hR) + ", com " + plural(rot, "rotação", "rotações", "nenhuma rotação") +
+             " e " + plural(trocas, "troca de cores", "trocas de cores", "nenhuma troca de cores") + ". As cinco regras valem: da raiz até qualquer null, sempre " +
+             plural(regrasRN(raiz).p, "nó preto", "nós pretos") + ". " +
+             (hB > hR ? "Uma BST simples, com a mesma ordem de chegada, teria altura " + n(hB) + "."
+                      : "Uma BST simples teria a mesma altura nessa ordem de chegada.") });
+    return passos;
+
+    function foto(o) {
+      var arv = clonarRN(raiz), prof = altura(arv);
+      if (o.nulo) { prof = Math.max(prof, nivelDe(arv, o.nulo.pai) + 1); }
+      passos.push({
+        tipo: "rn", arvore: arv, fantasma: null, nulo: o.nulo || null,
+        atual: o.atual !== undefined ? o.atual : null, marcas: {}, novo: novoId,
+        papeis: papeis ? copiar(papeis) : null, ativos: [], vistos: vistos.slice(), foco: null, ligacoes: null,
+        linha: o.linha, texto: o.texto, regras: regrasRN(raiz),
+        cont: [rot, trocas], altura: altura(arv), prof: prof, rotacoes: null,
+        seq: { titulo: "Inserir", lista: seq.slice(), pos: pos }
+      });
+    }
+
+    function rotacionar(x, sentido) {
+      var y;
+      if (sentido === "esquerda") {
+        y = x.d; x.d = y.e; if (y.e) { y.e.p = x; } y.e = x;
+      } else {
+        y = x.e; x.e = y.d; if (y.d) { y.d.p = x; } y.d = x;
+      }
+      y.p = x.p;
+      if (!x.p) { raiz = y; } else if (x.p.e === x) { x.p.e = y; } else { x.p.d = y; }
+      x.p = y;
+      rot++;
+    }
+
+    function inserir(x) {
+      var no = raiz, pai = null, l = null, z, avo, tio, ladoPai, ladoZ, t, nulo, tioTxt, sentido;
+      vistos = []; novoId = null; papeis = null;
+      foto({ linha: 0,
+        texto: raiz
+          ? "Inserir o " + n(x) + ". Primeiro, como na BST: desce comparando, a partir da raiz, o " + n(raiz.v) + "."
+          : "Inserir o " + n(x) + ". A árvore está vazia." });
+
+      while (no) {
+        vistos.push(no.id);
+        if (x === no.v) {
+          foto({ linha: 0, atual: no.id, texto: "O " + n(x) + " já está na árvore: valor repetido, ignorado." });
+          return;
+        }
+        l = x < no.v ? "e" : "d";
+        foto({ linha: 0, atual: no.id,
+          texto: l === "e" ? n(x) + " é menor que " + n(no.v) + ": desce para a <b>esquerda</b>." : n(x) + " é maior que " + n(no.v) + ": desce para a <b>direita</b>." });
+        pai = no;
+        no = l === "e" ? no.e : no.d;
+      }
+
+      z = new No(x);
+      z.cor = "V";
+      z.p = pai;
+      if (!pai) { raiz = z; } else if (l === "e") { pai.e = z; } else { pai.d = z; }
+      novoId = z.id;
+      foto({ linha: 0, atual: z.id,
+        texto: pai
+          ? "Achou o lugar vazio: o " + n(x) + " entra como folha, filho " + (l === "e" ? "esquerdo" : "direito") + " do " + n(pai.v) + ". Nasce <b>vermelho</b>: um vermelho não muda a contagem de pretos de nenhum caminho, então a regra 5 continua valendo."
+          : "O " + n(x) + " vira a raiz. Nasce <b>vermelho</b>, como todo nó novo." });
+
+      while (true) {
+        pai = z.p;
+        if (!pai) { break; }
+        if (pai.cor === "P") {
+          papeis = { novo: z.id, pai: pai.id };
+          foto({ linha: 1, atual: z.id,
+            texto: "O pai, o " + n(pai.v) + ", é <b>preto</b>: não há dois vermelhos seguidos. Nada a fazer." });
+          break;
+        }
+        avo = pai.p;
+        ladoPai = avo.e === pai ? "e" : "d";
+        tio = ladoPai === "e" ? avo.d : avo.e;
+        papeis = { novo: z.id, pai: pai.id, tio: tio ? tio.id : null, avo: avo.id };
+        nulo = tio ? null : { pai: avo.id, lado: ladoPai === "e" ? "d" : "e" };
+
+        if (tio && tio.cor === "V") {
+          foto({ linha: 2, atual: z.id,
+            texto: "O pai, o " + n(pai.v) + ", é vermelho: <b>dois vermelhos seguidos</b>, e a regra 4 quebrou. Quem decide é o <b>tio</b>, o outro filho do avô: o " + n(tio.v) + ", <b>vermelho</b>." });
+          pai.cor = "P"; tio.cor = "P"; avo.cor = "V";
+          trocas++;
+          foto({ linha: 2, atual: z.id,
+            texto: "Tio vermelho: <b>troca de cores</b>, sem rotação. O " + n(pai.v) + " e o " + n(tio.v) + " ficam pretos, e o avô, o " + n(avo.v) + ", fica vermelho. Cada caminho continua com o mesmo número de pretos." });
+          z = avo;
+          papeis = { novo: z.id };
+          foto({ linha: 2, atual: z.id,
+            texto: z.p
+              ? "Agora o " + n(z.v) + " ficou vermelho, e o pai dele pode ser vermelho também. A conferência <b>continua a partir do " + z.v + "</b>, que faz o papel de novo."
+              : "O " + n(z.v) + " ficou vermelho, mas é a <b>raiz</b>: não tem pai para conferir. A regra 2 quebrou por um instante; o último passo resolve." });
+          continue;
+        }
+
+        tioTxt = tio ? "o " + n(tio.v) + ", <b>preto</b>" : "<b>null</b>, que conta como preto";
+        ladoZ = pai.e === z ? "e" : "d";
+        if (ladoZ !== ladoPai) {
+          foto({ linha: 4, atual: z.id, nulo: nulo,
+            texto: "O pai, o " + n(pai.v) + ", é vermelho: dois vermelhos seguidos. O tio é " + tioTxt + ". E avô, pai e novo fazem um <b>zigue-zague</b>: o " + n(pai.v) + " está à " + lado(ladoPai) + " do " + n(avo.v) + ", e o " + n(z.v) + ", à " + lado(ladoZ) + " do " + n(pai.v) + "." });
+          sentido = ladoZ === "d" ? "esquerda" : "direita";
+          rotacionar(pai, sentido);
+          t = z; z = pai; pai = t;
+          papeis = { novo: z.id, pai: pai.id, tio: tio ? tio.id : null, avo: avo.id };
+          foto({ linha: 4, atual: z.id, nulo: nulo,
+            texto: "Rotação à " + sentido + " no pai: o " + n(pai.v) + " subiu e o " + n(z.v) + " desceu. Agora os três estão em <b>linha reta</b> — é o caso de cima, com o " + n(z.v) + " no papel de novo." });
+        } else {
+          foto({ linha: 3, atual: z.id, nulo: nulo,
+            texto: "O pai, o " + n(pai.v) + ", é vermelho: dois vermelhos seguidos. O tio é " + tioTxt + ". Avô, pai e novo estão em <b>linha reta</b>, todos para a " + lado(ladoPai) + "." });
+        }
+
+        sentido = ladoPai === "d" ? "esquerda" : "direita";
+        rotacionar(avo, sentido);
+        foto({ linha: 3, atual: pai.id, nulo: nulo,
+          texto: "Rotação à " + sentido + " no avô, o " + n(avo.v) + ": o " + n(pai.v) + " sobe para o lugar dele, e o " + n(avo.v) + " desce. Ainda falta a troca de cores." });
+        pai.cor = "P"; avo.cor = "V";
+        foto({ linha: 3, atual: pai.id,
+          texto: "Troca de cores: quem subiu, o " + n(pai.v) + ", fica <b>preto</b>; o " + n(avo.v) + " fica <b>vermelho</b>. Não há mais vermelhos seguidos, e todo caminho tem o mesmo número de pretos." });
+        break;
+      }
+
+      papeis = null;
+      if (raiz.cor === "V") {
+        raiz.cor = "P";
+        foto({ linha: 5, atual: raiz.id,
+          texto: "No fim, a <b>raiz fica preta</b> (regra 2): o " + n(raiz.v) + " passa a preto. Isso põe um preto a mais em todos os caminhos de uma vez, e a regra 5 continua valendo." });
+      } else {
+        foto({ linha: 5,
+          texto: "No fim, a raiz precisa ser preta: o " + n(raiz.v) + " já é. O " + n(x) + " entrou." });
+      }
+    }
+  }
+
+  var GERADORES = {
+    avl:   function (pr) { return passosAVL(pr.base, pr.seq || sortear(false)); },
+    casos: function (pr) { return passosAVL(pr.base, pr.seq); },
+    rn:    function (pr) { return pr.seq ? passosRN(pr.seq) : sortearRN(); }
+  };
+
+  function sorteio7() {
+    var v = [], x;
+    while (v.length < 7) { x = 1 + Math.floor(Math.random() * 99); if (v.indexOf(x) < 0) { v.push(x); } }
+    return v;
+  }
+  /* Na AVL, sete valores sempre cabem: a altura não passa de 3. */
+  function sortear() { return sorteio7(); }
+  /* Na rubro-negra, descarta o sorteio cujo desenho passaria de quatro níveis. */
+  function sortearRN() {
+    var tent, ps, k, maior;
+    for (tent = 0; tent < 300; tent++) {
+      ps = passosRN(sorteio7());
+      maior = 0;
+      for (k = 0; k < ps.length; k++) { if (ps[k].prof > maior) { maior = ps[k].prof; } }
+      if (maior <= 3) { return ps; }
+    }
+    return passosRN([10, 20, 30, 40, 50]);
+  }
+
+  /* --------------------------- estado --------------------------- */
+  var alg = "avl", presetId = "crescente", passos = [], indice = 0, tocando = null, altoSvg = 500, codigoMostrado = null;
+
+  var elArvore   = document.getElementById("arvore");
+  var elAux      = document.getElementById("aux");
+  var elNarracao = document.getElementById("narracao");
+  var elCodigo   = document.getElementById("codigo");
+  var elMetodos  = document.getElementById("metodos");
+  var elConta    = document.getElementById("passo-conta");
+  var elProg     = document.getElementById("barra-progresso");
+  var elDica     = document.getElementById("dica-preset");
+  var elVars     = document.getElementById("vars-lista");
+  var elExpr     = document.getElementById("expr");
+  var elPilha    = document.getElementById("pilha");
+  var elTabela   = document.getElementById("tabela-rn");
+  var elPapeis   = document.getElementById("papeis");
+  var elRegras   = document.getElementById("regras");
+  var elLegenda  = document.getElementById("legenda");
+  var elEntradas = document.getElementById("entradas");
+  var elPainelAvl = document.getElementById("painel-avl");
+  var elPainelRn  = document.getElementById("painel-rn");
+  var btProximo  = document.getElementById("proximo");
+  var btAnterior = document.getElementById("anterior");
+  var btTocar    = document.getElementById("tocar");
+
+  function presetAtual() {
+    var l = PRESETS[alg], k;
+    for (k = 0; k < l.length; k++) { if (l[k].id === presetId) { return l[k]; } }
+    return l[0];
+  }
+
+  function escapar(t) {
+    return String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  /* ---------------------- desenho da árvore (SVG) ----------------------
+     Cada nó tem um lugar que depende só do caminho desde a raiz. Inserir
+     não mexe em quem já estava; numa rotação, quem sobe e quem desce
+     trocam de lugar de fato. */
+  var W = 1000, MARGEM = 70, R = 46, TOPO = 100, VAO = 135;
+  var SVGNS = "http://www.w3.org/2000/svg";
+  var TAG_PAPEL = { desce: "desce", sobe: "sobe", meio: "meio" };
+  var TAG_RN = { novo: "novo", pai: "pai", tio: "tio", avo: "avô" };
+
+  function px(fx) { return MARGEM + fx * (W - 2 * MARGEM); }
+  function desvio(prof) { return 0.25 / Math.pow(2, prof); }
+  function elSvg(tag, attrs, pai) {
+    var e = document.createElementNS(SVGNS, tag), k;
+    for (k in attrs) { if (Object.prototype.hasOwnProperty.call(attrs, k)) { e.setAttribute(k, attrs[k]); } }
+    if (pai) { pai.appendChild(e); }
+    return e;
+  }
+
+  function desenharArvore(p) {
+    var pos = {}, nos = [], arestas = [], noFoco = null, dentro = {}, caminho = {}, k, id, g, fant = null, nulo = null;
+    var cortadas = {}, papelDe = {}, pa, a, b, cls, q, marca, rotulos, classe, fb;
+
+    (function dispor(no, fx, prof, paiId, pendente) {
+      if (!no) { return; }
+      pos[no.id] = { x: px(fx), y: TOPO + prof * VAO, fx: fx, prof: prof };
+      nos.push(no);
+      if (paiId !== null) { arestas.push([paiId, no.id, pendente]); }
+      if (no.id === p.foco) { noFoco = no; }
+      dispor(no.e, fx - desvio(prof), prof + 1, no.id, !!no.pe);
+      dispor(no.d, fx + desvio(prof), prof + 1, no.id, !!no.pd);
+    })(p.arvore, 0.5, 0, null, false);
+
+    function lugarFilho(paiId, lado) {
+      var pp = pos[paiId];
+      if (!pp) { return null; }
+      return { x: px(pp.fx + (lado === "e" ? -1 : 1) * desvio(pp.prof)), y: TOPO + (pp.prof + 1) * VAO, pai: paiId };
+    }
+    if (p.fantasma) {
+      fant = p.fantasma.pai === null ? { x: px(0.5), y: TOPO, pai: null } : lugarFilho(p.fantasma.pai, p.fantasma.lado);
+    }
+    if (p.nulo) { nulo = lugarFilho(p.nulo.pai, p.nulo.lado); }
+    if (p.ligacoes) {
+      for (k = 0; k < p.ligacoes.cortadas.length; k++) { cortadas[p.ligacoes.cortadas[k].join("-")] = true; }
+    }
+    if (p.papeis) {
+      for (k in p.papeis) { if (Object.prototype.hasOwnProperty.call(p.papeis, k) && p.papeis[k] !== null) { papelDe[p.papeis[k]] = k; } }
+    }
+
+    /* o trecho que a chamada do topo enxerga; o resto fica apagado */
+    if (noFoco) { (function marcar(no) { if (no) { dentro[no.id] = true; marcar(no.e); marcar(no.d); } })(noFoco); }
+    for (k = 0; k < p.ativos.length; k++) { caminho[p.ativos[k]] = true; }
+    for (k = 0; k < p.vistos.length; k++) { caminho[p.vistos[k]] = true; }
+    function apagado(i) { return noFoco !== null && !dentro[i] && !caminho[i]; }
+
+    while (elArvore.firstChild) { elArvore.removeChild(elArvore.firstChild); }
+    elArvore.setAttribute("viewBox", "0 0 " + W + " " + altoSvg);
+
+    var camadaArestas = elSvg("g", {}, elArvore), camadaNos = elSvg("g", {}, elArvore);
+
+    for (k = 0; k < arestas.length; k++) {
+      a = pos[arestas[k][0]]; b = pos[arestas[k][1]];
+      cls = "aresta";
+      if (cortadas[arestas[k][0] + "-" + arestas[k][1]]) { cls += " cortada"; }
+      else if (arestas[k][2]) { cls += " pendente"; }
+      else if (caminho[arestas[k][0]] && caminho[arestas[k][1]]) { cls += " ativa"; }
+      if (apagado(arestas[k][1])) { cls += " fora"; }
+      elSvg("line", { x1: a.x, y1: a.y, x2: b.x, y2: b.y, "class": cls }, camadaArestas);
+    }
+    /* A ligação nova da rotação liga o filho ao próprio pai, por cima da
+       aresta que já existe: sai curva, para o lado em que o nó vai ficar,
+       com a ponta no nó para o qual passa a apontar. */
+    if (p.ligacoes) {
+      var marcador = elSvg("marker", { id: "seta", viewBox: "0 0 10 10", refX: "6", refY: "5",
+                                       markerWidth: "4", markerHeight: "4", orient: "auto" }, elSvg("defs", {}, elArvore));
+      elSvg("path", { d: "M0,0 L10,5 L0,10 z", "class": "ponta" }, marcador);
+      for (k = 0; k < p.ligacoes.novas.length; k++) {
+        a = pos[p.ligacoes.novas[k][0]]; b = pos[p.ligacoes.novas[k][1]];
+        if (!a || !b) { continue; }
+        var dx = b.x - a.x, dy = b.y - a.y, comp = Math.sqrt(dx * dx + dy * dy), nx = -dy / comp, ny = dx / comp;
+        if ((nx > 0 ? 1 : -1) !== p.ligacoes.lado) { nx = -nx; ny = -ny; }
+        var cx = (a.x + b.x) / 2 + nx * 62, cy = (a.y + b.y) / 2 + ny * 62;
+        var ux = b.x - cx, uy = b.y - cy, ul = Math.sqrt(ux * ux + uy * uy);
+        elSvg("path", { d: "M" + a.x + "," + a.y + " Q" + cx + "," + cy + " " + (b.x - ux / ul * (R + 14)) + "," + (b.y - uy / ul * (R + 14)),
+                        "class": "aresta nova", "marker-end": "url(#seta)" }, camadaArestas);
+      }
+    }
+    if (fant && fant.pai !== null) {
+      pa = pos[fant.pai];
+      elSvg("line", { x1: pa.x, y1: pa.y, x2: fant.x, y2: fant.y,
+                      "class": "aresta pendente" + (p.fantasma.v === undefined && p.atual === "fantasma" ? " ativa" : "") }, camadaArestas);
+    }
+    if (nulo) {
+      pa = pos[nulo.pai];
+      elSvg("line", { x1: pa.x, y1: pa.y, x2: nulo.x, y2: nulo.y, "class": "aresta fina" }, camadaArestas);
+    }
+
+    for (k = 0; k < nos.length; k++) {
+      id = nos[k].id;
+      q = pos[id];
+      marca = p.marcas[id] || "";
+      rotulos = [];
+      if (p.tipo === "rn") {
+        classe = nos[k].cor === "P" ? "rn-p" : "rn-v";
+      } else {
+        classe = marca === "desb" ? "desce" : (TAG_PAPEL[marca] ? marca : "base");
+      }
+      g = elSvg("g", { "class": "no " + classe + (apagado(id) ? " fora" : "") }, camadaNos);
+      if (p.vistos.indexOf(id) >= 0) { elSvg("circle", { cx: q.x, cy: q.y, r: R + 17, "class": "halo" }, g); }
+      elSvg("circle", { cx: q.x, cy: q.y, r: R, "class": "corpo" }, g);
+      elSvg("text", { x: q.x, y: q.y, dy: "0.35em", "class": "val" }, g).textContent = nos[k].v;
+      if (p.atual === id) {
+        elSvg("circle", { cx: q.x, cy: q.y, r: R + 9, "class": "anel" }, g);
+        if (p.novo === id) { elSvg("circle", { cx: q.x, cy: q.y, r: R + 19, "class": "anel trac" }, g); }
+      } else if (p.novo === id) {
+        elSvg("circle", { cx: q.x, cy: q.y, r: R + 9, "class": "anel trac" }, g);
+      }
+
+      if (p.tipo === "rn") {
+        if (papelDe[id]) { rotulos.push(TAG_RN[papelDe[id]]); }
+        else if (p.novo === id) { rotulos.push("novo"); }
+      } else {
+        if (p.atual === id) { rotulos.push("no"); }
+        if (TAG_PAPEL[marca]) { rotulos.push(TAG_PAPEL[marca]); }
+        else if (p.novo === id) { rotulos.push("novo"); }
+      }
+      if (rotulos.length) {
+        elSvg("text", { x: q.x, y: q.y - R - 18, "class": "tag" }, g).textContent = rotulos.join(" · ");
+      }
+
+      if (p.tipo === "avl") {
+        fb = (nos[k].e ? nos[k].e.h : -1) - (nos[k].d ? nos[k].d.h : -1);
+        var selo = elSvg("g", { "class": "fb" + (Math.abs(fb) > 1 ? " ruim" : "") }, g);
+        elSvg("circle", { cx: q.x + R * 0.84, cy: q.y - R * 0.84, r: 25 }, selo);
+        elSvg("text", { x: q.x + R * 0.84, y: q.y - R * 0.84, dy: "0.36em" }, selo).textContent = sinal(fb);
+      }
+    }
+
+    if (fant) {
+      if (p.fantasma.v !== undefined) {
+        g = elSvg("g", { "class": "no base" }, camadaNos);
+        elSvg("circle", { cx: fant.x, cy: fant.y, r: R, "class": "corpo" }, g);
+        elSvg("text", { x: fant.x, y: fant.y, dy: "0.35em", "class": "val" }, g).textContent = p.fantasma.v;
+        elSvg("circle", { cx: fant.x, cy: fant.y, r: R + 9, "class": "anel trac" }, g);
+        elSvg("text", { x: fant.x, y: fant.y - R - 18, "class": "tag" }, g).textContent = "novo";
+      } else {
+        g = elSvg("g", { "class": "fant" }, camadaNos);
+        elSvg("circle", { cx: fant.x, cy: fant.y, r: R, "class": "corpo" }, g);
+        elSvg("text", { x: fant.x, y: fant.y, dy: "0.35em", "class": "val" }, g).textContent = "null";
+        if (p.atual === "fantasma") {
+          elSvg("circle", { cx: fant.x, cy: fant.y, r: R + 9, "class": "anel" }, g);
+          elSvg("text", { x: fant.x, y: fant.y - R - 18, "class": "tag" }, g).textContent = "no";
+        }
+      }
+    }
+
+    if (nulo) {
+      g = elSvg("g", { "class": "nulo" }, camadaNos);
+      elSvg("rect", { x: nulo.x - 44, y: nulo.y - 22, width: 88, height: 44, rx: 8 }, g);
+      elSvg("text", { x: nulo.x, y: nulo.y, dy: "0.35em" }, g).textContent = "null";
+      elSvg("text", { x: nulo.x, y: nulo.y - 22 - 18, "class": "tag" }, g).textContent = "tio";
+    }
+
+    if (!p.arvore && !fant) {
+      elSvg("text", { x: W / 2, y: altoSvg / 2, dy: "0.35em", "class": "vazia" }, elArvore).textContent = "árvore vazia: raiz = null";
+    }
+  }
+
+  function desenharAux(p) {
+    var html = "", k, est;
+    if (p.seq) {
+      html += '<div class="aux-linha"><b>' + p.seq.titulo + "</b>";
+      for (k = 0; k < p.seq.lista.length; k++) {
+        est = k < p.seq.pos ? "usado" : (k === p.seq.pos ? "atual" : "");
+        html += '<span class="caixa" data-estado="' + est + '">' + p.seq.lista[k] + "</span>";
+      }
+      html += "</div>";
+    }
+    elAux.innerHTML = html;
+  }
+
+  function desenharVars(p) {
+    var nomes = VARIAVEIS[p.metodo], html = "", k, valor, existe, i;
+    for (i = 0; i < nomes.length; i++) {
+      k = nomes[i];
+      valor = p.vars[k];
+      existe = valor !== null && valor !== undefined;
+      html += '<span class="var" data-mudou="' + (p.destaque === k)
+            + '" data-indef="' + (!existe) + '">'
+            + "<b>" + k + "</b><i>" + (existe ? escapar(valor) : "—") + "</i></span>";
+    }
+    elVars.innerHTML = html;
+
+    if (p.expr) {
+      elExpr.hidden = false;
+      elExpr.innerHTML = "<code>" + escapar(p.expr.texto) + "</code>"
+        + "<s>→</s><code>" + escapar(p.expr.valores) + "</code>"
+        + (p.expr.res !== undefined
+            ? '<s>→</s><em class="res">' + escapar(p.expr.res) + "</em>"
+            : '<s>→</s><em class="' + (p.expr.ok ? "sim" : "nao") + '">' + (p.expr.ok ? "verdadeiro" : "falso") + "</em>");
+    } else {
+      elExpr.hidden = true;
+      elExpr.innerHTML = "";
+    }
+
+    html = "";
+    for (i = 0; i < p.pilha.length; i++) {
+      html += "<li" + (p.pilha[i].publico ? ' class="publico"' : "") + ">" + escapar(p.pilha[i].rot) + "</li>";
+    }
+    elPilha.innerHTML = html || '<li class="vazia-pilha">vazia: nenhum método executando</li>';
+  }
+
+  function desenharCodigo(metodo, linha) {
+    var linhas, html = "", i, t, c, corte, ativa, nova;
+    if (metodo !== codigoMostrado) {
+      linhas = CODIGO[metodo];
+      for (i = 0; i < linhas.length; i++) {
+        t = linhas[i];
+        corte = t.indexOf("//");
+        c = corte < 0 ? escapar(t) : escapar(t.slice(0, corte)) + '<span class="cm">' + escapar(t.slice(corte)) + "</span>";
+        html += '<span class="ln" data-ln="' + i + '">' + (c || " ") + "</span>";
+      }
+      elCodigo.innerHTML = html;
+      html = "";
+      for (i = 0; i < METODOS.length; i++) {
+        html += '<span data-ativo="' + (METODOS[i] === metodo) + '">' + METODOS[i] + "</span>";
+      }
+      elMetodos.innerHTML = html;
+      codigoMostrado = metodo;
+    }
+    ativa = elCodigo.querySelector(".ativa");
+    if (ativa) { ativa.classList.remove("ativa"); }
+    nova = elCodigo.querySelector('[data-ln="' + linha + '"]');
+    if (nova) { nova.classList.add("ativa"); }
+  }
+
+  function desenharTabela(p) {
+    var html = "", i;
+    for (i = 0; i < TABELA_RN.length; i++) {
+      html += "<li" + (i === p.linha ? ' class="ativa"' : "") + ">" + TABELA_RN[i] + "</li>";
+    }
+    elTabela.innerHTML = html;
+  }
+
+  function desenharPapeis(p) {
+    var html = "", ordem = ["novo", "pai", "tio", "avo"], k, papel, id, no, achado;
+    function busca(raiz, alvo) {
+      if (!raiz) { return null; }
+      if (raiz.id === alvo) { return raiz; }
+      return busca(raiz.e, alvo) || busca(raiz.d, alvo);
+    }
+    for (k = 0; k < ordem.length; k++) {
+      papel = ordem[k];
+      if (!p.papeis || !Object.prototype.hasOwnProperty.call(p.papeis, papel)) {
+        html += '<span class="var" data-indef="true"><b>' + TAG_RN[papel] + "</b><i>—</i></span>";
+        continue;
+      }
+      id = p.papeis[papel];
+      no = id === null ? null : busca(p.arvore, id);
+      achado = no
+        ? "<i>" + no.v + '</i><span class="ponto ' + no.cor + '" aria-label="' + (no.cor === "P" ? "preto" : "vermelho") + '"></span>'
+        : '<i>null</i><span class="ponto P" aria-label="conta como preto"></span>';
+      html += '<span class="var"><b>' + TAG_RN[papel] + "</b>" + achado + "</span>";
+    }
+    elPapeis.innerHTML = html;
+
+    var r = p.regras, itens = [
+      [true, "Todo nó é vermelho ou preto.", ""],
+      [r.r2, "A raiz é preta.", r.r2 ? "" : "a raiz, o " + r.raiz + ", está vermelha"],
+      [true, "Todo null conta como preto.", ""],
+      [!r.par, "Nó vermelho não tem filho vermelho.", r.par ? "o " + r.par[0] + " e o " + r.par[1] + " são vermelhos seguidos" : ""],
+      [r.ok5, "Todo caminho até um null tem o mesmo número de pretos.", r.ok5 ? (r.p === 1 ? "1 preto" : r.p + " pretos") + " em todo caminho" : "há caminhos com números diferentes de pretos"]
+    ];
+    html = "";
+    for (k = 0; k < itens.length; k++) {
+      html += '<li class="' + (itens[k][0] ? "ok" : "falha") + '"><span class="ic" aria-label="' + (itens[k][0] ? "vale" : "quebrada") + '">' +
+              (itens[k][0] ? "✓" : "✗") + "</span><span>" + (k + 1) + ". " + itens[k][1] +
+              (itens[k][2] ? ' <span class="det">(' + itens[k][2] + ")</span>" : "") + "</span></li>";
+    }
+    elRegras.innerHTML = html;
+  }
+
+  function desenharLegenda() {
+    var html = "", l = LEGENDAS[alg], i;
+    for (i = 0; i < l.length; i++) {
+      if (l[i][0] === "fb") { html += '<span><i class="chave-fb">+1</i> ' + l[i][2] + "</span>"; }
+      else if (l[i][0] === "l") { html += '<span><i class="chave-linha"></i> ' + l[i][2] + "</span>"; }
+      else if (l[i][0] === "n") { html += '<span><i class="chave-nulo">null</i> ' + l[i][2] + "</span>"; }
+      else { html += '<span><i class="chave" style="background:' + l[i][1] + '"></i> ' + l[i][2] + "</span>"; }
+    }
+    elLegenda.innerHTML = html;
+  }
+
+  /* Na aba dos quatro casos, os oito exemplos viram duas escolhas numa
+     linha só: o tamanho (três valores ou a árvore maior) e o caso. */
+  function desenharEntradas() {
+    var l = PRESETS[alg], html = "", k, tres, caso;
+    if (alg === "casos") {
+      tres = /3$/.test(presetId);
+      caso = presetId.replace(/3$/, "");
+      html += '<span class="seg" role="group" aria-label="Tamanho do exemplo">' +
+              '<button type="button" data-tam="3" aria-pressed="' + tres + '">Três valores</button>' +
+              '<button type="button" data-tam="g" aria-pressed="' + !tres + '">Árvore maior</button></span>';
+      for (k = 0; k < CASOS.length; k++) {
+        html += '<button type="button" class="caso" data-caso="' + CASOS[k] + '" aria-pressed="' + (CASOS[k] === caso) + '">' + CASOS[k].toUpperCase() + "</button>";
+      }
+    } else {
+      for (k = 0; k < l.length; k++) {
+        html += '<button type="button" data-preset="' + l[k].id + '" aria-pressed="' + (l[k].id === presetId) + '">' + l[k].rotulo + "</button>";
+      }
+    }
+    elEntradas.innerHTML = html;
+    elDica.textContent = presetAtual().dica;
+  }
+
+  function desenhar() {
+    var p = passos[indice];
+    desenharArvore(p);
+    desenharAux(p);
+    elNarracao.innerHTML = p.texto;
+    if (p.tipo === "avl") {
+      desenharCodigo(p.metodo, p.linha);
+      desenharVars(p);
+    } else {
+      desenharTabela(p);
+      desenharPapeis(p);
+    }
+    document.getElementById("c-1").textContent = p.cont[0];
+    document.getElementById("c-2").textContent = p.cont[1];
+    document.getElementById("c-altura").textContent = p.altura < 0 ? "−1" : p.altura;
+
+    elConta.textContent = "passo " + (indice + 1) + " de " + passos.length;
+    elProg.style.width = (passos.length < 2 ? 100 : (indice / (passos.length - 1)) * 100) + "%";
+    btAnterior.disabled = indice === 0;
+    btProximo.disabled = indice === passos.length - 1;
+    if (indice === passos.length - 1) { parar(); }
+  }
+
+  function recomecar() {
+    var k, maior = 0;
+    passos = GERADORES[alg](presetAtual());
+    for (k = 0; k < passos.length; k++) { if (passos[k].prof > maior) { maior = passos[k].prof; } }
+    /* tamanho do desenho fixo durante a execução, para a árvore não pular */
+    W = maior <= 2 ? 700 : 1000;
+    altoSvg = TOPO + Math.max(maior, 1) * VAO + R + 34;
+    indice = 0;
+    codigoMostrado = null;
+    desenharLegenda();
+    desenhar();
+  }
+
+  function parar() {
+    if (tocando) { clearInterval(tocando); tocando = null; }
+    btTocar.textContent = "▶ Tocar";
+  }
+
+  /* --------------------------- eventos --------------------------- */
+  btProximo.addEventListener("click", function () {
+    if (indice < passos.length - 1) { indice++; desenhar(); }
+  });
+  btAnterior.addEventListener("click", function () {
+    parar();
+    if (indice > 0) { indice--; desenhar(); }
+  });
+  document.getElementById("reiniciar").addEventListener("click", function () {
+    parar(); indice = 0; desenhar();
+  });
+  btTocar.addEventListener("click", function () {
+    if (tocando) { parar(); return; }
+    if (indice === passos.length - 1) { indice = 0; desenhar(); }
+    btTocar.textContent = "⏸ Pausar";
+    tocando = setInterval(function () {
+      if (indice < passos.length - 1) { indice++; desenhar(); } else { parar(); }
+    }, 900);
+  });
+  document.addEventListener("keydown", function (ev) {
+    if (ev.target && /^(INPUT|TEXTAREA|SELECT)$/.test(ev.target.tagName)) { return; }
+    if (ev.key === "ArrowRight") { btProximo.click(); }
+    else if (ev.key === "ArrowLeft") { btAnterior.click(); }
+  });
+
+  function escolherAlg(novo) {
+    alg = novo;
+    presetId = PRESETS[alg][0].id;
+    Array.prototype.forEach.call(document.querySelectorAll(".abas button"), function (o) {
+      o.setAttribute("aria-selected", String(o.getAttribute("data-alg") === alg));
+    });
+    elPainelAvl.hidden = alg === "rn";
+    elPainelRn.hidden = alg !== "rn";
+    document.getElementById("rotulo-1").textContent = ROTULOS[alg][0];
+    document.getElementById("rotulo-2").textContent = ROTULOS[alg][1];
+    desenharEntradas();
+    recomecar();
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll(".abas button"), function (b) {
+    b.addEventListener("click", function () {
+      parar();
+      try { localStorage.setItem("ed-aula12-alg", b.getAttribute("data-alg")); } catch (e) { /* sem armazenamento */ }
+      escolherAlg(b.getAttribute("data-alg"));
+    });
+  });
+
+  elEntradas.addEventListener("click", function (ev) {
+    var b = ev.target.closest ? ev.target.closest("button") : null, tres = /3$/.test(presetId);
+    if (!b) { return; }
+    parar();
+    if (b.hasAttribute("data-preset")) { presetId = b.getAttribute("data-preset"); }
+    else if (b.hasAttribute("data-tam")) { presetId = presetId.replace(/3$/, "") + (b.getAttribute("data-tam") === "3" ? "3" : ""); }
+    else if (b.hasAttribute("data-caso")) { presetId = b.getAttribute("data-caso") + (tres ? "3" : ""); }
+    desenharEntradas();
+    recomecar();
+  });
+
+  var inicial = "avl";
+  try {
+    var salvo = localStorage.getItem("ed-aula12-alg");
+    if (salvo && GERADORES[salvo]) { inicial = salvo; }
+  } catch (e) { /* sem armazenamento */ }
+  escolherAlg(inicial);
+
+  /* Para a conferência automática: gera os passos de um caso sem desenhar,
+     e leva a página a um caso e a um passo. */
+  window.__arvores = {
+    gerar: function (a, id) { var al = alg, pr = presetId, r; alg = a; presetId = id; r = GERADORES[a](presetAtual()); alg = al; presetId = pr; return r; },
+    ir: function (a, id, passo) {
+      escolherAlg(a); presetId = id; desenharEntradas(); recomecar();
+      indice = Math.max(0, Math.min(passos.length - 1, passo)); desenhar(); return passos.length;
+    },
+    total: function () { return passos.length; }
+  };
+})();
+</script>
+
+<script>
+(function () {
+  "use strict";
+  /* Botão de tema: alterna claro/escuro e lembra a escolha neste navegador.
+     Sem escolha salva, a página segue o tema do sistema (celular ou computador). */
+  var raiz = document.documentElement;
+  var bt = document.getElementById("tema");
+  var midia = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+
+  function atual() {
+    var t = raiz.getAttribute("data-theme");
+    if (t === "dark" || t === "light") { return t; }
+    return midia && midia.matches ? "dark" : "light";
+  }
+  function rotular() {
+    var escuro = atual() === "dark";
+    bt.querySelector(".ic").textContent = escuro ? "☀" : "☾";
+    bt.querySelector(".rt").textContent = escuro ? "Claro" : "Escuro";
+    bt.setAttribute("aria-label", escuro ? "Mudar para o modo claro" : "Mudar para o modo escuro");
+    bt.setAttribute("aria-pressed", String(escuro));
+  }
+  bt.addEventListener("click", function () {
+    var novo = atual() === "dark" ? "light" : "dark";
+    raiz.setAttribute("data-theme", novo);
+    try { localStorage.setItem("ed-visualizador-tema", novo); } catch (e) { /* sem armazenamento */ }
+    rotular();
+  });
+  if (midia) {
+    if (midia.addEventListener) { midia.addEventListener("change", rotular); }
+    else if (midia.addListener) { midia.addListener(rotular); }
+  }
+  rotular();
+})();
+</script>
+</body>
+</html>
