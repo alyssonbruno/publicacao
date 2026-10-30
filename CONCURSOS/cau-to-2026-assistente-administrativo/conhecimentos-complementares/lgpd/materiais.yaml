@@ -1,0 +1,31 @@
+# Sem vídeo nem podcast: nenhum foi assistido ou ouvido na curadoria, e a lacuna fica registrada em vez de indicar material não conferido.
+materiais:
+  - tipo: texto
+    titulo: "Proteção de dados pessoais: noções da LGPD (Lei nº 13.709/2018)"
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: link
+    titulo: Lei nº 13.709/2018 (LGPD), texto atualizado
+    url: https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.pdf
+    autor: Câmara dos Deputados, Centro de Documentação e Informação
+    descricao: >-
+      A lei só com o texto em vigor, já com a ANPD como Agência (Lei nº 15.352/2026). Para a
+      prova, leia os arts. 1º a 7º, 11, 18, 23 a 27, 52 e 55-A.
+  - tipo: link
+    titulo: "Guia orientativo: tratamento de dados pessoais pelo Poder Público (versão 2.0, 2023)"
+    url: https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia-poder-publico-anpd-versao-final.pdf/@@display-file/file
+    autor: ANPD
+    descricao: >-
+      Leia só as p. 7 a 9 (quem é Poder Público na LGPD) e 37 a 43 (divulgação de dados
+      pessoais, o encontro com a LAI). É anterior à Lei nº 15.352/2026: onde diz "Autoridade",
+      leia "Agência".
+  - tipo: link
+    titulo: Guia orientativo para definições dos agentes de tratamento e do encarregado (versão 2.0, 2022)
+    url: https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia_agentes_de_tratamento_e_encarregado___defeso_eleitoral.pdf/@@display-file/file
+    autor: ANPD
+    descricao: >-
+      Opcional. Leia a seção 2.3, p. 9 e 10 (o órgão público como controlador), e o Exemplo 10,
+      p. 19 (uma autarquia: quem é controlador e por que os servidores não são operadores).
+      Também chama a ANPD de "Autoridade".

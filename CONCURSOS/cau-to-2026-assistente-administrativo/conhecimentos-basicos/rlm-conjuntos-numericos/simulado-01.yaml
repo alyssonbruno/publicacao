@@ -1,0 +1,103 @@
+# Treino de operações com conjuntos numéricos — CAU/TO 2026, Assistente Administrativo. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Operações com conjuntos numéricos
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no molde de conjuntos numéricos do Instituto Quadrix em provas de conselhos:
+      um conjunto finito dado no comando, cruzado com N, Z e Q, e itens curtos sobre propriedades.
+      Referências de estilo, sem cópia de conjuntos, números nem frases: itens do CRF-GO 2022, do
+      CRP-14 2021 e do CRBM-3 2022 transcritos nas descrições de vídeos de questões comentadas
+      (YouTube, 0Lc40bFPNH4 e Y3Z6sU2K77U), os itens de Matemática do CRA-PR 2019 (Auxiliar
+      Administrativo) no Aprova Concursos e o bloco de MMC e MDC do CRT-04 2024 (Auxiliar
+      Administrativo). Os dados são fictícios.'
+    - 'Bases do gabarito: materiais teóricos do Portal da Matemática OBMEP/IMPA (Conjuntos Numéricos,
+      Partes 01 a 03, 9º ano; Números Irracionais e Reais, 8º ano; MDC e MMC, Partes 1 e 2, 6º ano) e
+      REAMAT/UFRGS (Pré-cálculo, 2.1 e 2.3), consultados em 30/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/rlm-conjuntos-numericos
+    enunciado: |-
+      Considere o conjunto A = {−5; −1,2; 0; 7/4; √36; √10; 0,333...}, cujos elementos estão separados por ponto e vírgula, e os conjuntos N = {0, 1, 2, 3, ...}, dos números naturais, Z, dos números inteiros, e Q, dos números racionais.
+
+      Com base nessas informações, julgue o item.
+
+      O conjunto A ∩ N tem exatamente dois elementos.
+  - id: q02
+    topico: conhecimentos-basicos/rlm-conjuntos-numericos
+    enunciado: |-
+      Considere o conjunto A = {−5; −1,2; 0; 7/4; √36; √10; 0,333...}, cujos elementos estão separados por ponto e vírgula, e os conjuntos N = {0, 1, 2, 3, ...}, dos números naturais, Z, dos números inteiros, e Q, dos números racionais.
+
+      Com base nessas informações, julgue o item.
+
+      O conjunto A − Q tem dois elementos.
+  - id: q03
+    topico: conhecimentos-basicos/rlm-conjuntos-numericos
+    enunciado: |-
+      Considere o conjunto A = {−5; −1,2; 0; 7/4; √36; √10; 0,333...}, cujos elementos estão separados por ponto e vírgula, e os conjuntos N = {0, 1, 2, 3, ...}, dos números naturais, Z, dos números inteiros, e Q, dos números racionais.
+
+      Com base nessas informações, julgue o item.
+
+      O conjunto (A ∩ Z) − N é unitário.
+  - id: q04
+    topico: conhecimentos-basicos/rlm-conjuntos-numericos
+    enunciado: |-
+      Considere os conjuntos N = {0, 1, 2, 3, ...}, dos números naturais, e Z, dos números inteiros.
+
+      Com base nessas informações, julgue o item.
+
+      O conjunto Z − N é formado apenas pelos números inteiros negativos.
+  - id: q05
+    topico: conhecimentos-basicos/rlm-conjuntos-numericos
+    enunciado: |-
+      Acerca dos conjuntos numéricos, julgue o item.
+
+      O complementar do conjunto dos números racionais em relação ao conjunto dos números reais não possui elementos cuja representação decimal seja infinita.
+  - id: q06
+    topico: conhecimentos-basicos/rlm-conjuntos-numericos
+    enunciado: |-
+      Acerca das propriedades das operações nos conjuntos numéricos, julgue o item.
+
+      O produto de dois números irracionais distintos é sempre um número irracional.
+  - id: q07
+    topico: conhecimentos-basicos/rlm-conjuntos-numericos
+    enunciado: |-
+      Acerca das propriedades das operações nos conjuntos numéricos, julgue o item.
+
+      O produto de um número racional diferente de zero por um número irracional é sempre um número irracional.
+  - id: q08
+    topico: conhecimentos-basicos/rlm-conjuntos-numericos
+    enunciado: |-
+      Sendo Z o conjunto dos números inteiros e Q, o dos números racionais, julgue o item.
+
+      O número √0,49 pertence ao conjunto Q − Z.
+  - id: q09
+    topico: conhecimentos-basicos/rlm-conjuntos-numericos
+    enunciado: |-
+      Considere a dízima periódica x = 2,1666..., em que o algarismo 6 se repete indefinidamente.
+
+      Com base nessa informação, julgue o item.
+
+      Escrito como fração irredutível, x tem denominador igual a 9.
+  - id: q10
+    topico: conhecimentos-basicos/rlm-conjuntos-numericos
+    enunciado: |-
+      Julgue o item, relativo a expressões numéricas.
+
+      O valor da expressão 18 − 12 ÷ 3 × 2 + 2³ é igual a 18.
+  - id: q11
+    topico: conhecimentos-basicos/rlm-conjuntos-numericos
+    enunciado: |-
+      Considere a seguinte situação hipotética. Um conselho profissional precisa organizar 84 processos de registro e 120 processos de fiscalização em lotes. Todos os lotes devem ter a mesma quantidade de processos, cada lote deve conter processos de um só tipo, nenhum processo pode sobrar, e cada lote deve ter o maior número possível de processos.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      Cada lote terá 6 processos.
+  - id: q12
+    topico: conhecimentos-basicos/rlm-conjuntos-numericos
+    enunciado: |-
+      Considere os conjuntos B = {x ∈ Z | −2 ≤ x < 3}, em que Z é o conjunto dos números inteiros, e N = {0, 1, 2, 3, ...}, dos números naturais.
+
+      Com base nessas informações, julgue o item.
+
+      B − N = {−2, −1, 0}.

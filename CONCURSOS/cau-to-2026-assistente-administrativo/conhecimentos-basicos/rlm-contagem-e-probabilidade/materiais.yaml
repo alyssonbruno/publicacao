@@ -1,0 +1,64 @@
+# Sem vídeo nem podcast: nenhum da curadoria de 30/10/2026 ficou `indicado` (ninguém assistiu
+# nem ouviu, e não houve transcrição). Os textos abaixo são os `indicado` da curadoria.
+materiais:
+  - tipo: texto
+    titulo: Contagem e probabilidade
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: link
+    titulo: Arranjos e Combinações Simples (Portal da Matemática OBMEP)
+    url: https://cdnportaldaobmep.impa.br/portaldaobmep/uploads/material_teorico/dds0ww9e3tsgo.pdf
+    autor: Portal da Matemática OBMEP/IMPA
+    descricao: >-
+      Material teórico de 9 páginas, do 2º ano do ensino médio. É a melhor leitura para a
+      diferença entre arranjo e combinação: mostra, com o sorteio de uma equipe, por que se divide
+      o arranjo por r!. Leia até o Exemplo 13; a seção "codificando subconjuntos" pode ficar de
+      fora.
+  - tipo: link
+    titulo: Métodos de Contagem e Probabilidade (apostila do PIC da OBMEP)
+    url: https://www.obmep.org.br/docs/apostila2.pdf
+    autor: Paulo Cezar Pinto Carvalho (IMPA), OBMEP
+    descricao: >-
+      Apostila de 97 páginas. Leia o Capítulo 1 (Métodos de Contagem), sobretudo o Exemplo 8, em
+      que a conta de arranjo "parece certa" numa escolha sem ordem, e o Capítulo 4, Exemplo 2
+      (comissões com "pelo menos"). O resto é opcional.
+  - tipo: link
+    titulo: Princípio Fundamental da Contagem (Portal da Matemática OBMEP)
+    url: https://cdnportaldaobmep.impa.br/portaldaobmep/uploads/material_teorico/7sv28v642xc8k.pdf
+    autor: Portal da Matemática OBMEP/IMPA
+    descricao: >-
+      Material teórico de 7 páginas: princípio multiplicativo com a árvore de decisão, a dica de
+      começar pela restrição e a divisão em casos que se somam.
+  - tipo: link
+    titulo: O fatorial de um número e as permutações simples (Portal da Matemática OBMEP)
+    url: https://cdnportaldaobmep.impa.br/portaldaobmep/uploads/material_teorico/opxoni3ht1woc.pdf
+    autor: Portal da Matemática OBMEP/IMPA
+    descricao: >-
+      Material teórico de 7 páginas: fatorial, como simplificar frações com fatoriais sem
+      calculadora e permutações (filas, ordem de tarefas).
+  - tipo: link
+    titulo: Permutações com elementos repetidos (Portal da Matemática OBMEP)
+    url: https://cdnportaldaobmep.impa.br/portaldaobmep/uploads/material_teorico/9kfgsvbenaos0.pdf
+    autor: Portal da Matemática OBMEP/IMPA
+    descricao: >-
+      Material teórico de 6 páginas sobre anagramas com letras repetidas, com a tabela que mostra
+      cada anagrama contado duas vezes. Na tabela, "JIHIJ" é erro de digitação.
+  - tipo: link
+    titulo: Frações como Probabilidade, Parte 1 (Portal da Matemática OBMEP)
+    url: https://cdnportaldaobmep.impa.br/portaldaobmep/uploads/material_teorico/64p44aa3jr0go.pdf
+    autor: Portal da Matemática OBMEP/IMPA
+    descricao: >-
+      Material do 6º ano, a entrada mais suave em probabilidade: casos favoráveis sobre casos
+      possíveis, com os resultados listados um a um. Leia antes do material de Ferramentas
+      básicas.
+  - tipo: link
+    titulo: "Introdução à Probabilidade: Ferramentas básicas (Portal da Matemática OBMEP)"
+    url: https://cdnportaldaobmep.impa.br/portaldaobmep/uploads/material_teorico/7t27369hjy80k.pdf
+    autor: Portal da Matemática OBMEP/IMPA
+    descricao: >-
+      Material teórico de 7 páginas, do 2º ano do ensino médio. Leia as partes de evento
+      complementar e de "pelo menos um" (o sorteio de 5 entre 6 homens e 4 mulheres); o começo,
+      sobre o problema dos pontos, vai além da prova. Algumas referências internas aparecem
+      como "(??)" no PDF.

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="300" fill="#ffffff"/>
+
+  <text x="16" y="26" font-size="15" font-weight="700" fill="#0b0b0b">O Número Único de Protocolo (NUP): 17 dígitos em quatro grupos</text>
+
+  <!-- Número -->
+  <text x="360" y="88" font-size="40" font-weight="700" fill="#0b0b0b" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">
+    <tspan fill="#256abf">35041</tspan><tspan fill="#3d3c39">.</tspan><tspan fill="#137a55">000387</tspan><tspan fill="#3d3c39">/</tspan><tspan fill="#b06f00">2000</tspan><tspan fill="#3d3c39">-</tspan><tspan fill="#8a3ab9">19</tspan>
+  </text>
+
+  <!-- Caixas -->
+  <rect x="16" y="120" width="160" height="112" rx="8" fill="#e3edf9" stroke="#256abf"/>
+  <text x="96" y="144" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle">1º grupo · 5 dígitos</text>
+  <text x="96" y="166" font-size="12" fill="#3d3c39" text-anchor="middle">código da unidade</text>
+  <text x="96" y="182" font-size="12" fill="#3d3c39" text-anchor="middle">protocolizadora</text>
+  <text x="96" y="198" font-size="12" fill="#3d3c39" text-anchor="middle">de origem</text>
+
+  <rect x="190" y="120" width="160" height="112" rx="8" fill="#dff3ea" stroke="#137a55"/>
+  <text x="270" y="144" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle">2º grupo · 6 dígitos</text>
+  <text x="270" y="166" font-size="12" fill="#3d3c39" text-anchor="middle">número sequencial,</text>
+  <text x="270" y="182" font-size="12" fill="#3d3c39" text-anchor="middle">reiniciado</text>
+  <text x="270" y="198" font-size="12" fill="#3d3c39" text-anchor="middle">a cada ano</text>
+
+  <rect x="364" y="120" width="160" height="112" rx="8" fill="#fdf1d6" stroke="#b06f00"/>
+  <text x="444" y="144" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle">3º grupo · 4 dígitos</text>
+  <text x="444" y="166" font-size="12" fill="#3d3c39" text-anchor="middle">ano em que o NUP</text>
+  <text x="444" y="182" font-size="12" fill="#3d3c39" text-anchor="middle">foi atribuído</text>
+
+  <rect x="538" y="120" width="166" height="112" rx="8" fill="#f1e6f8" stroke="#8a3ab9"/>
+  <text x="621" y="144" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle">4º grupo · 2 dígitos</text>
+  <text x="621" y="166" font-size="12" fill="#3d3c39" text-anchor="middle">dígitos verificadores,</text>
+  <text x="621" y="182" font-size="12" fill="#3d3c39" text-anchor="middle">calculados pelos</text>
+  <text x="621" y="198" font-size="12" fill="#3d3c39" text-anchor="middle">outros 15</text>
+
+  <text x="96" y="222" font-size="11" fill="#52514e" text-anchor="middle">separado por ponto →</text>
+  <text x="270" y="222" font-size="11" fill="#52514e" text-anchor="middle">separado por barra →</text>
+  <text x="444" y="222" font-size="11" fill="#52514e" text-anchor="middle">separado por hífen →</text>
+
+  <text x="16" y="262" font-size="11.5" fill="#52514e">5 + 6 + 4 + 2 = 17 dígitos. Número do exemplo do Anexo da Portaria Interministerial nº 11/2019,</text>
+  <text x="16" y="280" font-size="11.5" fill="#52514e">que o próprio anexo chama de fictício (art. 3º e Anexo).</text>
+</svg>

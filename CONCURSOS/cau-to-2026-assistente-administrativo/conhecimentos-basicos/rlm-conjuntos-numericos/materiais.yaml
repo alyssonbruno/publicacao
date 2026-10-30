@@ -1,0 +1,42 @@
+materiais:
+  - tipo: texto
+    titulo: Operações com conjuntos numéricos
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: video
+    titulo: Os números naturais e os números inteiros
+    url: https://www.youtube.com/watch?v=h0OjKutX1h8
+    autor: Portal da Matemática OBMEP
+    duracao_min: 14
+    descricao: >-
+      Videoaula do Portal da Matemática (OBMEP/IMPA), a primeira da sequência "Conjuntos
+      numéricos", do mesmo módulo do material escrito da aula: definição intuitiva dos naturais e
+      dos inteiros e as suas propriedades, segundo a descrição. Ninguém da equipe assistiu ao
+      vídeo. O material escrito do módulo começa os naturais pelo 1; se o vídeo fizer o mesmo, é
+      a outra convenção: na prova, siga a do texto da aula (0 natural, N* sem o 0).
+  - tipo: link
+    titulo: "Conjuntos Numéricos, Parte 01 — naturais, inteiros e operação fechada"
+    url: https://cdnportaldaobmep.impa.br/portaldaobmep/uploads/material_teorico/cbgmun536g5k.pdf
+    autor: Portal da Matemática OBMEP (Francisco Bruno Holanda e Antônio Caminha Muniz Neto)
+    descricao: >-
+      Material teórico do 9º ano, 5 páginas: naturais e inteiros na reta, operação fechada (a
+      subtração não é fechada em N), propriedades das operações e potências. Começa os naturais
+      pelo 1: na prova, vale a convenção do texto da aula.
+  - tipo: link
+    titulo: "Conjuntos Numéricos, Parte 02 — racionais, decimais e dízimas"
+    url: https://cdnportaldaobmep.impa.br/portaldaobmep/uploads/material_teorico/h2930ro8968s0.pdf
+    autor: Portal da Matemática OBMEP (Francisco Bruno Holanda e Antônio Caminha Muniz Neto)
+    descricao: >-
+      Material teórico do 9º ano, 4 páginas: frações, as quatro operações em Q, representação
+      decimal, dízimas periódicas e fração geratriz, com exemplos resolvidos. Bom para quem quer
+      ver o porquê da regra prática da geratriz.
+  - tipo: link
+    titulo: "Conjuntos Numéricos, Parte 03 — irracionais, reais e intervalos"
+    url: https://cdnportaldaobmep.impa.br/portaldaobmep/uploads/material_teorico/1soit63r3q6g.pdf
+    autor: Portal da Matemática OBMEP (Francisco Bruno Holanda e Antônio Caminha Muniz Neto)
+    descricao: >-
+      Material teórico do 9º ano, 5 páginas: por que √2 é irracional, I = R − Q, intervalos,
+      operações entre intervalos e o diagrama dos conjuntos. Um exercício pede calculadora, que é
+      proibida na prova: para estimar raízes, use a comparação de quadrados do texto da aula.

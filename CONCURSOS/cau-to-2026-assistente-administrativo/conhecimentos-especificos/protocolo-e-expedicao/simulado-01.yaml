@@ -1,0 +1,71 @@
+# Treino do tópico. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Protocolo e expedição de correspondência
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no formato de certo ou errado do Instituto Quadrix: itens de uma frase, agrupados
+      por assunto. Referências de estilo: itens da banca sobre protocolo em concursos de conselhos
+      profissionais de nível médio (CRO-AC 2019, CONRERP 2ª Região 2019, CRA-PA 2019, CRECI 24ª Região 2022,
+      CREF 21ª Região 2021 e CRQ 20ª Região 2021), listados no Aprova Concursos, e o perfil da banca (nenhum
+      item reproduzido).'
+    - 'Bases: Anexo da Portaria Interministerial MJ/MP nº 1.677/2015, itens 2 a 2.5, 3.4 e glossário;
+      Portaria Interministerial nº 11/2019, arts. 2º a 4º (NUP); Lei nº 6.538/1978, art. 47; página de serviços
+      adicionais dos Correios (consultada em 30/10/2026).'
+questoes:
+  - id: q01
+    topico: conhecimentos-especificos/protocolo-e-expedicao
+    enunciado: Acerca das atividades de protocolo, julgue o item. O arquivamento dos documentos cuja
+      tramitação se encerrou está entre as atividades de responsabilidade da unidade de protocolo.
+  - id: q02
+    topico: conhecimentos-especificos/protocolo-e-expedicao
+    enunciado: Acerca das atividades de protocolo, julgue o item. O registro do documento recebido, feito
+      antes da distribuição, é o que permite à unidade de protocolo controlar a tramitação e informar,
+      depois, onde o documento se encontra.
+  - id: q03
+    topico: conhecimentos-especificos/protocolo-e-expedicao
+    enunciado: Acerca das atividades de protocolo, julgue o item. O documento marcado como "Urgente" pode ser
+      encaminhado ao setor de destino antes de ser registrado, ficando o registro para quando o documento
+      retornar à unidade de protocolo.
+  - id: q04
+    topico: conhecimentos-especificos/protocolo-e-expedicao
+    enunciado: Acerca das atividades de protocolo, julgue o item. Na rotina de recebimento, o Número Único
+      de Protocolo (NUP) do documento é atribuído pelo setor de destino, depois que a unidade de protocolo
+      lhe distribui o documento.
+  - id: q05
+    topico: conhecimentos-especificos/protocolo-e-expedicao
+    enunciado: Com base na Portaria Interministerial nº 1.677/2015, julgue o item. Ao receber um documento,
+      verifica-se se ele se destina ao órgão, independentemente de o destinatário nele indicado ocupar ou não
+      o cargo mencionado.
+  - id: q06
+    topico: conhecimentos-especificos/protocolo-e-expedicao
+    enunciado: Com base na Portaria Interministerial nº 1.677/2015, julgue o item. Constatado dano no
+      invólucro de documento recebido, o fato deve ser registrado no ato do recebimento e comunicado
+      imediatamente à autoridade competente.
+  - id: q07
+    topico: conhecimentos-especificos/protocolo-e-expedicao
+    enunciado: Com base na Portaria Interministerial nº 1.677/2015, julgue o item. A correspondência
+      particular dos servidores pode ser expedida pela unidade de protocolo do órgão, desde que seja
+      previamente registrada.
+  - id: q08
+    topico: conhecimentos-especificos/protocolo-e-expedicao
+    enunciado: Com base na Portaria Interministerial nº 1.677/2015, julgue o item. Na expedição, se a
+      unidade de protocolo verificar que o documento não foi registrado ou que lhe falta o anexo indicado,
+      deverá devolvê-lo à unidade administrativa para que a falha seja corrigida.
+  - id: q09
+    topico: conhecimentos-especificos/protocolo-e-expedicao
+    enunciado: Acerca da expedição de correspondência, julgue o item. Distribuição e expedição são termos
+      equivalentes, pois ambos designam o envio do documento ao seu destinatário, seja dentro, seja fora do
+      órgão.
+  - id: q10
+    topico: conhecimentos-especificos/protocolo-e-expedicao
+    enunciado: Acerca da expedição de correspondência, julgue o item. O registro postal comprova a entrega do
+      objeto ao destinatário, com a identificação de quem o recebeu.
+  - id: q11
+    topico: conhecimentos-especificos/protocolo-e-expedicao
+    enunciado: Acerca da expedição de correspondência, julgue o item. Entre as modalidades de aviso de
+      recebimento (AR) oferecidas pelos Correios, somente o AR digital é exclusivo de clientes com contrato.
+  - id: q12
+    topico: conhecimentos-especificos/protocolo-e-expedicao
+    enunciado: Acerca do Número Único de Protocolo (NUP), julgue o item. O NUP é composto de dezessete
+      dígitos, e o grupo que indica o registro sequencial dos documentos é reiniciado a cada ano.

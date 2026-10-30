@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="720" height="420" fill="#ffffff"/>
+  <text x="16" y="28" font-size="15" font-weight="700" fill="#0b0b0b">8 servidores, 3 escolhidos: trocar a ordem muda o resultado?</text>
+
+  <!-- Painel do arranjo -->
+  <rect x="16" y="46" width="336" height="250" rx="10" fill="#e3edf9" stroke="#256abf" stroke-width="2"/>
+  <text x="184" y="72" font-size="14" font-weight="700" fill="#1c5cab" text-anchor="middle">Com cargos: presidente, vice, secretário</text>
+  <g font-size="13" fill="#0b0b0b">
+    <text x="32" y="102" font-weight="600" fill="#52514e">presidente · vice · secretário</text>
+    <text x="32" y="126">Ana · Bruno · Carla</text>
+    <text x="32" y="148">Bruno · Ana · Carla</text>
+    <text x="32" y="170">Carla · Bruno · Ana</text>
+    <text x="32" y="192" fill="#52514e">… mais 3 ordens</text>
+  </g>
+  <text x="32" y="222" font-size="13" font-weight="700" fill="#1c5cab">Sim: cada ordem é outra diretoria.</text>
+  <text x="32" y="248" font-size="13" fill="#0b0b0b">Arranjo: 8 × 7 × 6 = <tspan font-weight="700">336</tspan></text>
+  <text x="32" y="272" font-size="12" fill="#52514e">conta-se cada lista ordenada</text>
+
+  <!-- Painel da combinação -->
+  <rect x="368" y="46" width="336" height="250" rx="10" fill="#e6f4ee" stroke="#127a55" stroke-width="2"/>
+  <text x="536" y="72" font-size="14" font-weight="700" fill="#127a55" text-anchor="middle">Sem cargos: comissão de 3 membros</text>
+  <g font-size="13" fill="#0b0b0b">
+    <text x="384" y="102" font-weight="600" fill="#52514e">membros</text>
+    <text x="384" y="126">{Ana, Bruno, Carla}</text>
+    <text x="384" y="148">{Bruno, Ana, Carla}</text>
+    <text x="384" y="170">{Carla, Bruno, Ana}</text>
+    <text x="384" y="192" fill="#52514e">… as 6 ordens são a mesma comissão</text>
+  </g>
+  <text x="384" y="222" font-size="13" font-weight="700" fill="#127a55">Não: é sempre a mesma comissão.</text>
+  <text x="384" y="248" font-size="13" fill="#0b0b0b">Combinação: 336 ÷ 6 = <tspan font-weight="700">56</tspan></text>
+  <text x="384" y="272" font-size="12" fill="#52514e">divide-se por 3! = 3 × 2 × 1 = 6, e não por 3</text>
+
+  <!-- Regra -->
+  <rect x="16" y="314" width="688" height="90" rx="10" fill="#f9f9f7" stroke="#8a8880" stroke-width="1.2"/>
+  <text x="360" y="340" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">O teste: monte um resultado, troque a ordem e pergunte se virou outro.</text>
+  <text x="360" y="364" font-size="13" fill="#52514e" text-anchor="middle">Virou outro (cargos, senha, fila, 1º e 2º lugar) → arranjo, a ordem importa.</text>
+  <text x="360" y="386" font-size="13" fill="#52514e" text-anchor="middle">Continua o mesmo (comissão, grupo, equipe, dupla) → combinação: divida pelas ordens.</text>
+</svg>

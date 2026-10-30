@@ -1,0 +1,46 @@
+materiais:
+  - tipo: texto
+    titulo: Protocolo e expedição de correspondência
+    arquivo: texto.md
+  - tipo: resumo
+    titulo: Resumo em uma página
+    arquivo: resumo.md
+  - tipo: link
+    titulo: Anexo da Portaria Interministerial nº 1.677/2015 — procedimentos de protocolo
+    url: https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/portarias/anexoportariaprocedimentosdeprotocolo.pdf
+    autor: Ministério da Justiça e Ministério do Planejamento (Portal de Compras, gov.br)
+    descricao: >-
+      A norma federal de referência do tópico. O PDF tem 41 páginas, mas para a prova bastam as
+      oito primeiras (atividades de protocolo, recebimento, registro, distribuição, controle da
+      tramitação e expedição) e o glossário do fim (p. 37 a 41). Feita para a Administração
+      federal: aplicá-la ao CAU/TO é leitura nossa, como explica o texto da aula.
+  - tipo: link
+    titulo: Portaria Interministerial nº 11/2019 — Número Único de Protocolo (NUP)
+    url: https://www.in.gov.br/web/dou/-/portaria-interministerial-n-11-de-25-de-novembro-de-2019-229645093
+    autor: Ministério da Justiça e Segurança Pública e Ministério da Economia (Diário Oficial da União)
+    descricao: >-
+      O texto oficial, no Diário Oficial. Leia os arts. 2º a 4º: as definições, os quatro grupos
+      do NUP e as regras de quando ele é atribuído ou mantido. O cálculo dos dígitos verificadores,
+      no anexo, não precisa ser decorado.
+  - tipo: link
+    titulo: Lei nº 6.538/1978 — serviços postais
+    url: https://www.planalto.gov.br/ccivil_03/leis/l6538.htm
+    autor: Presidência da República (Planalto)
+    descricao: >-
+      Leia só o art. 47, quase no fim: as definições de carta, correspondência, correspondência
+      agrupada e registro. O resto da lei trata do monopólio postal e de crimes, fora do edital.
+  - tipo: link
+    titulo: Serviços adicionais dos Correios (AR, Mão Própria, Valor Declarado, Registro)
+    url: https://www.correios.com.br/enviar/servicos-adicionais
+    autor: Empresa Brasileira de Correios e Telégrafos
+    descricao: >-
+      A página oficial com o que cada serviço adicional faz: as três modalidades de AR, Mão
+      Própria, Valor Declarado e Registro. Os preços e as tabelas não caem na prova.
+  - tipo: link
+    titulo: Manual de Gestão Documental do CAU/SP
+    url: https://transparencia.causp.gov.br/wp-content/uploads/2024/02/Manual-de-Gestao-Documental.pdf
+    autor: Conselho de Arquitetura e Urbanismo de São Paulo (CAU/SP)
+    descricao: >-
+      O protocolo no dia a dia de um conselho de arquitetura. O PDF é longo (283 páginas, quase
+      todas de anexos): leia a p. 8 (rotinas mínimas) e o capítulo 8, Protocolo e correspondência
+      (p. 27 a 29). Horários e setores são regras internas do CAU/SP e não caem na prova.

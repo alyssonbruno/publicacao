@@ -1,0 +1,113 @@
+# Treino de contagem e probabilidade — CAU/TO 2026, Assistente Administrativo. Só os enunciados: o gabarito comentado fica no repositório privado.
+simulado:
+  titulo: Treino — Contagem e probabilidade
+  tipo: treino
+  estilo: certo_errado
+  fontes:
+    - 'Questões próprias, no molde de matemática do Instituto Quadrix em provas de conselhos: uma
+      situação hipotética curta, com poucos números, e itens que afirmam uma contagem ou uma
+      probabilidade, às vezes com limite percentual. Referências de estilo, sem cópia de situações
+      nem de números: itens da banca de análise combinatória e de probabilidade (2017 a 2025)
+      listados no Estude Grátis e o item de anagramas do CFO/DF 2017. Os dados são fictícios.'
+    - 'Bases do gabarito: materiais teóricos do Portal da Matemática OBMEP/IMPA (Princípio
+      Fundamental da Contagem; O fatorial de um número e as permutações simples; Permutações com
+      elementos repetidos; Arranjos e Combinações Simples; Introdução à Probabilidade: Ferramentas
+      básicas) e a apostila 2 do PIC da OBMEP (Métodos de Contagem e Probabilidade), consultados
+      em 30/10/2026.'
+questoes:
+  - id: q01
+    topico: conhecimentos-basicos/rlm-contagem-e-probabilidade
+    enunciado: |-
+      Considere a seguinte situação hipotética. Um setor de um conselho profissional tem 10 servidores. Dois deles serão escolhidos para representar o setor em um congresso: um como titular e o outro como suplente.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      Há 90 maneiras diferentes de fazer essa escolha.
+  - id: q02
+    topico: conhecimentos-basicos/rlm-contagem-e-probabilidade
+    enunciado: |-
+      Considere a seguinte situação hipotética. Um conselho profissional tem 9 conselheiros. Dois deles serão escolhidos para visitar, juntos e com as mesmas atribuições, uma obra no interior do estado.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      Há 72 maneiras diferentes de escolher a dupla de conselheiros.
+  - id: q03
+    topico: conhecimentos-basicos/rlm-contagem-e-probabilidade
+    enunciado: |-
+      Considere a seguinte situação hipotética. Uma comissão de 4 membros será formada a partir de um grupo de 7 servidores de um conselho profissional.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      Se nenhum membro da comissão tiver função específica, será possível formar mais de 800 comissões diferentes.
+  - id: q04
+    topico: conhecimentos-basicos/rlm-contagem-e-probabilidade
+    enunciado: |-
+      Considere a seguinte situação hipotética. Uma comissão de 4 membros será formada a partir de um grupo de 7 servidores de um conselho profissional.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      Se, na comissão, um membro for o presidente, outro for o vice-presidente e os outros dois não tiverem função específica, será possível formar 420 comissões diferentes.
+  - id: q05
+    topico: conhecimentos-basicos/rlm-contagem-e-probabilidade
+    enunciado: |-
+      Considere a seguinte situação hipotética. A senha de acesso ao sistema de protocolo de um conselho profissional tem 4 algarismos diferentes entre si, escolhidos entre os algarismos de 1 a 6.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      O número de senhas possíveis é igual ao número de grupos de 4 algarismos que podem ser escolhidos entre os algarismos de 1 a 6.
+  - id: q06
+    topico: conhecimentos-basicos/rlm-contagem-e-probabilidade
+    enunciado: |-
+      Considere a seguinte situação hipotética. Em uma atividade de integração de um conselho profissional, os servidores formaram anagramas com as letras da palavra PROJETO, isto é, todas as sequências que podem ser formadas com essas 7 letras, tenham elas sentido ou não.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      A palavra PROJETO tem menos de 3.000 anagramas.
+  - id: q07
+    topico: conhecimentos-basicos/rlm-contagem-e-probabilidade
+    enunciado: |-
+      Considere a seguinte situação hipotética. Em uma atividade de integração de um conselho profissional, os servidores formaram anagramas com as letras da palavra PROJETO, isto é, todas as sequências que podem ser formadas com essas 7 letras, tenham elas sentido ou não.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      Escolhido ao acaso um dos anagramas de PROJETO, a probabilidade de que ele comece por uma vogal é superior a 40%.
+  - id: q08
+    topico: conhecimentos-basicos/rlm-contagem-e-probabilidade
+    enunciado: |-
+      Considere a seguinte situação hipotética. Um setor de um conselho profissional tem 10 servidores: 6 arquitetos e 4 servidores administrativos. Dois servidores do setor serão sorteados, ao mesmo tempo, para acompanhar uma auditoria.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      A probabilidade de os dois sorteados serem arquitetos é superior a 35%.
+  - id: q09
+    topico: conhecimentos-basicos/rlm-contagem-e-probabilidade
+    enunciado: |-
+      Considere a seguinte situação hipotética. Um setor de um conselho profissional tem 10 servidores: 6 arquitetos e 4 servidores administrativos. Dois servidores do setor serão sorteados, ao mesmo tempo, para acompanhar uma auditoria.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      A probabilidade de pelo menos um dos sorteados ser servidor administrativo é igual a 2/3.
+  - id: q10
+    topico: conhecimentos-basicos/rlm-contagem-e-probabilidade
+    enunciado: |-
+      Considere a seguinte situação hipotética. Um setor de um conselho profissional tem 10 servidores, entre os quais estão Lúcia e Caio. Dois servidores do setor serão sorteados, ao mesmo tempo, para acompanhar uma auditoria.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      A probabilidade de que Lúcia ou Caio esteja entre os sorteados, incluído o caso em que os dois são sorteados, é igual a 16/45.
+  - id: q11
+    topico: conhecimentos-basicos/rlm-contagem-e-probabilidade
+    enunciado: |-
+      Considere a seguinte situação hipotética. Um conselho profissional identifica cada processo por um código formado por 2 letras, escolhidas entre A, B, C, D e E, podendo haver repetição, seguidas de 2 algarismos ímpares diferentes entre si.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      É possível formar 500 códigos diferentes.
+  - id: q12
+    topico: conhecimentos-basicos/rlm-contagem-e-probabilidade
+    enunciado: |-
+      Considere a seguinte situação hipotética. Um conselho profissional oferece aos servidores 4 cursos de capacitação presenciais e 6 cursos a distância, todos diferentes entre si. Cada servidor deve se inscrever em um único curso, presencial ou a distância.
+
+      Com base nessa situação hipotética, julgue o item.
+
+      Cada servidor tem 24 opções de inscrição.
