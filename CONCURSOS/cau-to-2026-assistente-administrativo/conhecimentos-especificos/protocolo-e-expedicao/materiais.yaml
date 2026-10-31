@@ -25,10 +25,13 @@ materiais:
   - tipo: link
     titulo: Lei nº 6.538/1978 — serviços postais
     url: https://www.planalto.gov.br/ccivil_03/leis/l6538.htm
+    # O Planalto não dá a cópia ao painel (devolve uma página de bloqueio): fica só o link.
+    copia: false
     autor: Presidência da República (Planalto)
     descricao: >-
-      Leia só o art. 47, quase no fim: as definições de carta, correspondência, correspondência
-      agrupada e registro. O resto da lei trata do monopólio postal e de crimes, fora do edital.
+      Abre no site do Planalto, em outra aba. Leia só o art. 47, quase no fim: as definições de
+      carta, correspondência, correspondência agrupada e registro. O resto da lei trata do
+      monopólio postal e de crimes, fora do edital.
   - tipo: link
     titulo: Serviços adicionais dos Correios (AR, Mão Própria, Valor Declarado, Registro)
     url: https://www.correios.com.br/enviar/servicos-adicionais
