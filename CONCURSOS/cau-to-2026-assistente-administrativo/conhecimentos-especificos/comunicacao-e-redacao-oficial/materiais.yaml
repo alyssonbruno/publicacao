@@ -8,12 +8,15 @@ materiais:
   - tipo: link
     titulo: Decreto nº 9.758/2019 — formas de tratamento com agentes públicos federais
     url: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9758.htm
+    # O Planalto não dá a cópia ao painel (devolve uma página de bloqueio): fica só o link.
+    copia: false
     autor: Presidência da República (Planalto)
     descricao: >-
-      O texto oficial do decreto, curto (cinco artigos). Leia os arts. 2º a 4º: "senhor" como único
-      pronome, as formas vedadas e o endereçamento sem pronome e sem nome. Ele não trata de fechos
-      nem do padrão ofício, que continuam os do Manual. Se o decreto vale ou não para o CAU/TO é
-      questão sem resposta em fonte aberta: veja a parte do texto da aula sobre isso.
+      Abre no site do Planalto, em outra aba. O texto oficial do decreto, curto (cinco artigos).
+      Leia os arts. 2º a 4º: "senhor" como único pronome, as formas vedadas e o endereçamento sem
+      pronome e sem nome. Ele não trata de fechos nem do padrão ofício, que continuam os do Manual.
+      Se o decreto vale ou não para o CAU/TO é questão sem resposta em fonte aberta: veja a parte
+      do texto da aula sobre isso.
   - tipo: link
     titulo: Guia prático de elaboração de documentos oficiais (UFSC)
     url: https://redacaooficial.paginas.ufsc.br/files/2020/02/GUIA-PR%C3%81TICO-DE-ELABORA%C3%87%C3%83O-DE-DOCUMENTOS-OFICIAIS-E-ATOS-NORMATIVOS-NA-UFSC.pdf
