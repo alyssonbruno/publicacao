@@ -1,0 +1,1887 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grafos Passo a Passo</title>
+<script>
+  /* Aplica o tema salvo antes de desenhar a página, para não piscar. */
+  try {
+    var temaSalvo = localStorage.getItem("ed-visualizador-tema");
+    if (temaSalvo === "dark" || temaSalvo === "light") {
+      document.documentElement.setAttribute("data-theme", temaSalvo);
+    }
+  } catch (e) { /* sem armazenamento: segue o tema do sistema */ }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;700&display=swap">
+
+<style>
+  :root {
+    --laranja:   #e67e22;
+    --laranja-f: #b8601a;
+    --azul:      #2563eb;
+    --tijolo:    #c0392b;
+    --verde:     #1e8449;
+    --sobre-laranja: #ffffff;
+
+    /* As cores das figuras da Aula 14: laranja para quem já foi descoberto e
+       para "quem descobriu quem", azul para o segundo componente, verde para o
+       caminho. Tons ajustados para a letra dentro do vértice passar de 4,5:1.
+       No detector de ciclos, branco, cinza e preto, como nos livros e no enum
+       do DetectorDependencias.java. */
+    --no-fila:    #fde3c8;  --no-fila-tx:  #211c17;
+    --no-feito:   #e67e22;  --no-feito-tx: #211c17;
+    --no-c2:      #2563eb;  --no-c2-tx:    #ffffff;
+    --comp-1:     #fdebd0;  --comp-2:      #e8f1fb;
+    --est-cinza:  #a3a7ad;  --est-cinza-tx: #211c17;
+    --est-preto:  #2d3436;  --est-preto-tx: #ffffff;  --est-preto-borda: #2d3436;
+
+    --fundo:      #faf7f3;
+    --papel:      #ffffff;
+    --tinta:      #211c17;
+    --tinta-fraca:#6b6055;
+    --linha:      #e3dbd1;
+    --linha-forte:#b5a796;
+    --codigo-bg:  #2b241d;
+    --codigo-tx:  #efe6da;
+    --codigo-cmt: #a8998a;
+    --marca:      rgba(230, 126, 34, 0.22);
+    --sombra:     0 1px 2px rgba(33, 28, 23, .06), 0 6px 18px rgba(33, 28, 23, .07);
+
+    --display: "Bricolage Grotesque", "Trebuchet MS", sans-serif;
+    --corpo:   "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+    --mono:    "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --fundo:      #17140f;
+      --papel:      #221d17;
+      --tinta:      #f2ece3;
+      --tinta-fraca:#a89a89;
+      --linha:      #3a322a;
+      --linha-forte:#6a5d50;
+      --codigo-bg:  #100e0b;
+      --codigo-tx:  #efe6da;
+      --codigo-cmt: #8d8073;
+      --laranja:    #f2903a;
+      --laranja-f:  #ffb06b;
+      --azul:       #6b9bff;
+      --tijolo:     #e2674f;
+      --verde:      #4ec27a;
+      --marca:      rgba(242, 144, 58, 0.26);
+      --sobre-laranja: #17140f;
+      --sombra:     0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+      --no-fila:    #4b3522;  --no-fila-tx:  #f2ece3;
+      --no-feito:   #f2903a;  --no-feito-tx: #17140f;
+      --no-c2:      #6b9bff;  --no-c2-tx:    #17140f;
+      --comp-1:     rgba(242, 144, 58, 0.12);  --comp-2: rgba(107, 155, 255, 0.14);
+      --est-cinza:  #8b9098;  --est-cinza-tx: #17140f;
+      --est-preto:  #050403;  --est-preto-tx: #f2ece3;  --est-preto-borda: #a89a89;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --fundo:      #17140f;
+    --papel:      #221d17;
+    --tinta:      #f2ece3;
+    --tinta-fraca:#a89a89;
+    --linha:      #3a322a;
+    --linha-forte:#6a5d50;
+    --codigo-bg:  #100e0b;
+    --codigo-tx:  #efe6da;
+    --codigo-cmt: #8d8073;
+    --laranja:    #f2903a;
+    --laranja-f:  #ffb06b;
+    --azul:       #6b9bff;
+    --tijolo:     #e2674f;
+    --verde:      #4ec27a;
+    --marca:      rgba(242, 144, 58, 0.26);
+    --sobre-laranja: #17140f;
+    --sombra:     0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+    --no-fila:    #4b3522;  --no-fila-tx:  #f2ece3;
+    --no-feito:   #f2903a;  --no-feito-tx: #17140f;
+    --no-c2:      #6b9bff;  --no-c2-tx:    #17140f;
+    --comp-1:     rgba(242, 144, 58, 0.12);  --comp-2: rgba(107, 155, 255, 0.14);
+    --est-cinza:  #8b9098;  --est-cinza-tx: #17140f;
+    --est-preto:  #050403;  --est-preto-tx: #f2ece3;  --est-preto-borda: #a89a89;
+  }
+
+  * { box-sizing: border-box; }
+  /* A JetBrains Mono junta "==" e "!=" em um símbolo só (≠). Quem está
+     aprendendo Java precisa ver os caracteres que vai digitar. */
+  .codigo pre, .expr, .var, .pilha li, .caixa, .grafo text, .placar, .passo-conta, .narracao .num, .metodos span, .tab-dist {
+    font-variant-ligatures: none; font-feature-settings: "liga" 0, "calt" 0;
+  }
+  body {
+    margin: 0;
+    background: var(--fundo);
+    color: var(--tinta);
+    font-family: var(--corpo);
+    font-size: 17px;
+    line-height: 1.55;
+    padding-inline: 16px;
+    padding-block: 28px 56px;
+  }
+  .folha { max-width: 620px; margin-inline: auto; display: flex; flex-direction: column; gap: 22px; }
+
+  /* ---------- cabeçalho ---------- */
+  .eyebrow {
+    font-family: var(--mono); font-size: .72rem; font-weight: 700; margin: 0;
+    letter-spacing: .16em; text-transform: uppercase; color: var(--laranja-f);
+  }
+  h1 {
+    font-family: var(--display); font-weight: 800; font-size: clamp(1.9rem, 8vw, 2.6rem);
+    line-height: 1.05; margin: 6px 0 0; text-wrap: balance; letter-spacing: -.015em;
+  }
+  .subtitulo { color: var(--tinta-fraca); margin: 10px 0 0; max-width: 46ch; }
+
+  /* ---------- seletor de algoritmo ---------- */
+  .abas { display: flex; gap: 5px; background: var(--papel); border: 1px solid var(--linha);
+          border-radius: 12px; padding: 5px; box-shadow: var(--sombra); }
+  .abas button {
+    flex: 1; min-width: 0; min-height: 48px; padding: 0 4px; border: 0; border-radius: 8px; cursor: pointer;
+    background: transparent; color: var(--tinta-fraca);
+    font-family: var(--display); font-weight: 600; font-size: clamp(.86rem, 3.9vw, .98rem); letter-spacing: -.01em;
+  }
+  .abas button[aria-selected="true"] { background: var(--laranja); color: var(--sobre-laranja); }
+  .abas button:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+
+  /* ---------- palco do grafo ---------- */
+  .palco {
+    background: var(--papel); border: 1px solid var(--linha); border-radius: 16px;
+    padding: 14px 12px 16px; box-shadow: var(--sombra);
+  }
+  .grafo { display: block; width: 100%; height: auto; margin-inline: auto; }
+  .grafo .ar { fill: none; stroke: var(--linha-forte); stroke-width: 5; stroke-linecap: round; }
+  .grafo .ar.arv { stroke: var(--laranja-f); stroke-width: 8; }
+  .grafo .ar.vista { stroke: var(--tinta-fraca); stroke-width: 4; stroke-dasharray: 12 10; stroke-linecap: butt; }
+  .grafo .ar.exam { stroke: var(--azul); stroke-width: 10; }
+  .grafo .ar.caminho { stroke: var(--verde); stroke-width: 11; }
+  .grafo .ar.ciclo { stroke: var(--tijolo); stroke-width: 10; }
+  .grafo .mk { fill: var(--linha-forte); }
+  .grafo .mk.arv { fill: var(--laranja-f); }
+  .grafo .mk.vista { fill: var(--tinta-fraca); }
+  .grafo .mk.exam { fill: var(--azul); }
+  .grafo .mk.caminho { fill: var(--verde); }
+  .grafo .mk.ciclo { fill: var(--tijolo); }
+  .grafo .corpo { fill: var(--papel); stroke: var(--tinta); stroke-width: 4; }
+  .grafo .nome { font-family: var(--mono); font-weight: 700; font-size: 38px; text-anchor: middle; fill: var(--tinta); }
+  .grafo .v.caixa .nome { font-size: 30px; }
+  .grafo .v.fila  .corpo { fill: var(--no-fila); stroke: var(--laranja); }  .grafo .v.fila  .nome { fill: var(--no-fila-tx); }
+  .grafo .v.feito .corpo, .grafo .v.c1 .corpo { fill: var(--no-feito); stroke: var(--no-feito); }
+  .grafo .v.feito .nome, .grafo .v.c1 .nome { fill: var(--no-feito-tx); }
+  .grafo .v.c2    .corpo { fill: var(--no-c2); stroke: var(--no-c2); }      .grafo .v.c2    .nome { fill: var(--no-c2-tx); }
+  .grafo .v.cinza .corpo { fill: var(--est-cinza); stroke: var(--est-cinza); }  .grafo .v.cinza .nome { fill: var(--est-cinza-tx); }
+  .grafo .v.preto .corpo { fill: var(--est-preto); stroke: var(--est-preto-borda); }  .grafo .v.preto .nome { fill: var(--est-preto-tx); }
+  .grafo .anel { fill: none; stroke: var(--tinta); stroke-width: 7; }
+  .grafo .anel.viz { stroke: var(--azul); }
+  .grafo .anel.caminho { stroke: var(--verde); stroke-width: 8; }
+  .grafo .tag { font-family: var(--mono); font-weight: 700; font-size: 28px; fill: var(--tinta); text-anchor: middle;
+                paint-order: stroke; stroke: var(--papel); stroke-width: 8px; stroke-linejoin: round; }
+  .grafo .tag.viz { fill: var(--azul); }
+  .grafo .tag.caminho { fill: var(--verde); }
+  .grafo .selo circle { fill: var(--laranja-f); stroke: var(--papel); stroke-width: 4; }
+  .grafo .selo text { fill: var(--papel); font-family: var(--mono); font-weight: 700; font-size: 25px; text-anchor: middle; }
+  .grafo .sub { font-family: var(--mono); font-weight: 700; font-size: 27px; fill: var(--laranja-f); text-anchor: middle;
+                paint-order: stroke; stroke: var(--papel); stroke-width: 7px; stroke-linejoin: round; }
+  .grafo .comp { stroke-width: 3; stroke-dasharray: 14 10; }
+  .grafo .comp.c1 { fill: var(--comp-1); stroke: var(--laranja); }
+  .grafo .comp.c2 { fill: var(--comp-2); stroke: var(--azul); }
+  .grafo .comp-rot { font-family: var(--mono); font-weight: 700; font-size: 25px; }
+  .grafo .comp-rot.c1 { fill: var(--laranja-f); }
+  .grafo .comp-rot.c2 { fill: var(--azul); text-anchor: end; }
+
+  /* fila, pilha, ordem, caminho e a tabela de distâncias */
+  .aux { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 8px 22px; margin-top: 12px; padding-top: 12px;
+         border-top: 1px dashed var(--linha); }
+  .aux:empty { display: none; }
+  .aux-col { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+  .aux-linha { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+  .aux-linha > b { font-family: var(--mono); font-size: .9rem; font-weight: 700; color: var(--tinta-fraca); margin-right: 2px; }
+  .aux-linha > small { font-family: var(--mono); font-size: .72rem; color: var(--tinta-fraca); }
+  .caixa { min-width: 38px; height: 36px; padding: 0 7px; border-radius: 7px; display: grid; place-items: center;
+           font-family: var(--mono); font-weight: 700; font-variant-numeric: tabular-nums;
+           border: 2px solid var(--linha); background: var(--papel); color: var(--tinta); }
+  .caixa[data-estado="atual"] { border-color: var(--laranja); color: var(--laranja-f); background: var(--marca); }
+  .caixa[data-estado="caminho"] { border-color: var(--verde); color: var(--verde); }
+  .caixa[data-estado="usado"] { opacity: .4; text-decoration: line-through; }
+  .caixa[data-estado="feito"] { opacity: .4; }
+  .grupo { display: inline-flex; gap: 4px; padding: 3px; border-radius: 10px; border: 2px dashed var(--laranja); }
+  .grupo.c2 { border-color: var(--azul); }
+  .aux-vazio { font-family: var(--mono); font-size: .9rem; color: var(--tinta-fraca); }
+  /* No celular a tabela ocupa a largura do palco, com as colunas divididas por igual:
+     com a largura natural, em 320 px, as colunas G e H passavam da moldura. */
+  .tab-dist { border-collapse: collapse; font-family: var(--mono); font-size: .76rem; font-variant-numeric: tabular-nums;
+              width: 100%; table-layout: fixed; }
+  .tab-dist th, .tab-dist td { border: 1px solid var(--linha); padding: 2px 0; text-align: center; overflow: hidden; }
+  .tab-dist th:first-child { width: 6.6em; }
+  .tab-dist thead th { color: var(--tinta-fraca); }
+  .tab-dist tbody th { padding: 2px 4px; text-align: left; color: var(--tinta-fraca); font-weight: 700; }
+  .tab-dist td { font-weight: 700; }
+  .tab-dist td.vazio { color: var(--tinta-fraca); font-weight: 400; }
+  .tab-dist td.mudou { background: var(--marca); color: var(--laranja-f); }
+
+  /* ---------- narração ---------- */
+  .narracao {
+    font-family: var(--display); font-weight: 600; font-size: 1.12rem; line-height: 1.35;
+    margin: 14px 0 0; min-height: 3.1em; text-wrap: pretty;
+  }
+  .narracao b { color: var(--laranja-f); }
+  .narracao .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+  /* ---------- contadores ---------- */
+  .placar { display: flex; gap: 10px; margin: 14px 0 0; padding-top: 14px; border-top: 1px solid var(--linha); }
+  .placar div { flex: 1; min-width: 0; }
+  .placar dt {
+    font-family: var(--mono); font-size: .66rem; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--tinta-fraca);
+  }
+  .placar dd {
+    margin: 2px 0 0; font-family: var(--mono); font-weight: 700;
+    font-size: 1.3rem; font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- variáveis e pilha ---------- */
+  .vars {
+    background: var(--papel); border: 1px solid var(--linha); border-radius: 16px;
+    padding: 14px 16px; box-shadow: var(--sombra);
+  }
+  .vars h3 {
+    font-family: var(--mono); font-size: .66rem; font-weight: 700; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--tinta-fraca); margin: 0 0 10px;
+  }
+  .vars-lista { display: flex; flex-wrap: wrap; gap: 8px; }
+  .var {
+    display: inline-flex; align-items: baseline; gap: 7px;
+    border: 1px solid var(--linha); border-radius: 999px; padding: 5px 13px;
+    font-family: var(--mono); font-size: .92rem; font-variant-numeric: tabular-nums;
+    transition: background-color .18s ease, border-color .18s ease;
+  }
+  .var b     { font-weight: 400; color: var(--tinta-fraca); }
+  .var i     { font-style: normal; font-weight: 700; }
+  .var[data-mudou="true"] { border-color: var(--laranja); background: var(--marca); }
+  .var[data-mudou="true"] b,
+  .var[data-mudou="true"] i { color: var(--laranja-f); }
+  .var[data-indef="true"]   { opacity: .45; }
+
+  .expr {
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 9px;
+    margin: 12px 0 0; padding-top: 11px; border-top: 1px dashed var(--linha);
+    font-family: var(--mono); font-size: .88rem;
+  }
+  .expr[hidden] { display: none; }
+  .expr code { color: var(--tinta); }
+  .expr s    { color: var(--tinta-fraca); text-decoration: none; }
+  .expr em   { font-style: normal; font-weight: 700; }
+  .expr em.sim { color: var(--laranja-f); }
+  .expr em.nao { color: var(--tijolo); }
+
+  .pilha { margin-top: 12px; padding-top: 11px; border-top: 1px dashed var(--linha); }
+  .pilha h3 { margin-bottom: 8px; }
+  .pilha ol { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+  .pilha li { font-family: var(--mono); font-size: .86rem; padding: 4px 11px; border-radius: 7px;
+              border: 1px solid var(--linha); color: var(--tinta-fraca); white-space: nowrap;
+              overflow: hidden; text-overflow: ellipsis; }
+  .pilha li:first-child { border-color: var(--laranja); background: var(--marca); color: var(--laranja-f); font-weight: 700; }
+  .pilha li.publico { border-style: dashed; }
+  .pilha .vazia-pilha { font-family: var(--mono); font-size: .86rem; color: var(--tinta-fraca); }
+
+  @media (prefers-reduced-motion: reduce) { .var, .progresso i { transition: none; } }
+
+  /* ---------- controles ---------- */
+  .controles { display: flex; gap: 8px; }
+  .controles button {
+    min-height: 54px; border-radius: 12px; cursor: pointer; border: 1px solid var(--linha);
+    background: var(--papel); color: var(--tinta); box-shadow: var(--sombra);
+    font-family: var(--display); font-weight: 600; font-size: 1rem;
+  }
+  .controles button:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+  .controles button:disabled { opacity: .4; cursor: default; }
+  #proximo { flex: 2; background: var(--laranja); border-color: var(--laranja); color: var(--sobre-laranja); }
+  #anterior, #tocar, #reiniciar { flex: 1; }
+
+  .progresso { display: block; height: 5px; border-radius: 3px; background: var(--linha); overflow: hidden; }
+  .progresso i { display: block; height: 100%; background: var(--laranja); transition: width .18s ease; }
+  .passo-conta {
+    font-family: var(--mono); font-size: .75rem; color: var(--tinta-fraca);
+    text-align: center; margin: 7px 0 0; font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- legenda ---------- */
+  .legenda { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: .85rem; color: var(--tinta-fraca); }
+  .legenda span { display: inline-flex; align-items: center; gap: 7px; }
+  .chave { width: 16px; height: 16px; border-radius: 50%; flex: none; }
+  .chave.quadrada { border-radius: 4px; }
+  .chave-linha { width: 26px; height: 0; flex: none; border-top: 4px solid; }
+  .chave-linha.trac { border-top-style: dashed; border-top-width: 3px; }
+  .chave-selo { width: 20px; height: 20px; border-radius: 50%; flex: none; display: grid; place-items: center;
+                background: var(--laranja-f); color: var(--papel);
+                font-family: var(--mono); font-style: normal; font-weight: 700; font-size: .7rem; }
+
+  /* ---------- código ---------- */
+  .metodos { display: flex; flex-wrap: wrap; gap: 6px; }
+  .metodos span {
+    font-family: var(--mono); font-size: .78rem; padding: 3px 10px; border-radius: 999px;
+    border: 1px solid var(--linha); color: var(--tinta-fraca); background: var(--papel);
+  }
+  .metodos span[data-ativo="true"] { border-color: var(--laranja); background: var(--marca); color: var(--laranja-f); font-weight: 700; }
+  .codigo {
+    background: var(--codigo-bg); border-radius: 14px; padding: 16px 0;
+    overflow-x: auto; box-shadow: var(--sombra);
+  }
+  .codigo pre { margin: 0; font-family: var(--mono); font-size: .82rem; line-height: 1.7; }
+  .codigo .ln { display: block; padding: 0 18px; color: var(--codigo-tx); white-space: pre; }
+  .codigo .ln.ativa { background: var(--marca); box-shadow: inset 3px 0 0 var(--laranja); }
+  .codigo .cm { color: var(--codigo-cmt); }
+
+  /* ---------- entradas ---------- */
+  .entradas { display: flex; flex-wrap: wrap; gap: 8px; }
+  .entradas button {
+    min-height: 44px; padding: 0 14px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--linha); background: var(--papel); color: var(--tinta-fraca);
+    font-family: var(--corpo); font-size: .9rem;
+  }
+  .entradas button[aria-pressed="true"] { border-color: var(--laranja); color: var(--laranja-f); font-weight: 600; background: var(--marca); }
+  .entradas button:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+
+  h2 {
+    font-family: var(--display); font-weight: 600; font-size: 1.05rem;
+    margin: 0 0 -8px; letter-spacing: -.01em;
+  }
+  .nota { font-size: .9rem; color: var(--tinta-fraca); margin: 0; }
+  .nota a { color: var(--laranja-f); }
+  .nota code { font-family: var(--mono); font-size: .86em; }
+  footer {
+    border-top: 1px solid var(--linha); padding-top: 16px;
+    font-size: .84rem; color: var(--tinta-fraca);
+  }
+
+  /* No celular as duas colunas não existem: os blocos entram na coluna única
+     nesta ordem — algoritmo, desenho, botões, variáveis, legenda, código, entradas. */
+  .coluna { display: contents; }
+  .abas { order: 1; } .palco { order: 2; } .bloco-controles { order: 3; } .vars { order: 4; }
+  .legenda { order: 5; } .t-codigo { order: 6; } .metodos { order: 7; } .codigo { order: 8; }
+  .nota-codigo { order: 9; } .t-entradas { order: 10; } .entradas { order: 11; } #dica-preset { order: 12; }
+  footer { order: 13; }
+
+  /* =========================================================
+     Tela da sala: o código e o estado das chamadas vão para o lado
+     do desenho. Os botões (abas, controles e entradas) ficam todos
+     na coluna da esquerda, que cabe sem rolar em 1366×768.
+     ========================================================= */
+  @media (min-width: 940px) {
+    body { padding-block: 12px 20px; }
+    .folha {
+      max-width: 1340px;
+      display: grid;
+      align-items: start;
+      column-gap: 28px;
+      row-gap: 10px;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+    .folha > header { grid-column: 1 / -1; }
+    .folha > footer { grid-column: 1 / -1; }
+    .coluna { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+    .coluna > * { order: 0; }
+    .t-entradas { display: none; }
+
+    h2 { margin: 0; }
+    h1 { font-size: 1.7rem; margin-top: 2px; }
+    .subtitulo { display: none; }
+
+    .palco { padding: 10px 14px 10px; }
+    .grafo { max-height: min(220px, 29vh); }
+    /* casos com mais estruturas debaixo do grafo (tabela, partes): desenho um
+       pouco menor, para os botões continuarem acima da dobra em 1366×768 */
+    .palco.compacto .grafo { max-height: min(196px, 26vh); }
+    .tab-dist { width: auto; table-layout: auto; }
+    .tab-dist th:first-child { width: auto; }
+    .tab-dist th, .tab-dist td { min-width: 26px; padding: 1px 0; }
+    .tab-dist tbody th { padding: 1px 6px; }
+    .aux { margin-top: 6px; padding-top: 8px; gap: 6px 18px; }
+    .aux-col { gap: 6px; }
+    .caixa { height: 30px; }
+    /* três linhas reservadas: a narração não empurra os botões a cada passo */
+    .narracao { font-size: 1.08rem; min-height: 4.05em; margin-top: 8px; }
+    .placar { margin-top: 8px; padding-top: 8px; }
+    .placar dd { font-size: 1.35rem; }
+    .controles button { min-height: 48px; font-size: 1.05rem; }
+    .passo-conta { margin-top: 4px; }
+    .entradas { gap: 6px 8px; }
+    .entradas button { min-height: 38px; }
+    .legenda { font-size: .9rem; }
+    .var { font-size: 1rem; padding: 4px 14px; }
+    .expr { font-size: .98rem; margin-top: 9px; padding-top: 9px; }
+    .vars { padding: 12px 16px; }
+    .vars h3 { margin-bottom: 8px; }
+
+    .codigo { padding: 10px 0; }
+    .codigo pre { font-size: .76rem; line-height: 1.42; }
+    .codigo .ln { padding: 0 14px; }
+
+    /* a pilha deitada: do método que começou (esquerda) até o topo (direita) */
+    .pilha ol { flex-direction: row-reverse; flex-wrap: wrap; justify-content: flex-end; gap: 6px; }
+    .pilha li { padding: 3px 10px; }
+    .pilha h3 { margin-bottom: 6px; }
+  }
+
+  /* Projetor e TV da sala: mais um degrau de tamanho. */
+  @media (min-width: 1400px) {
+    .folha { max-width: 1560px; }
+    h1 { font-size: 2.2rem; }
+    .grafo, .palco.compacto .grafo { max-height: min(400px, 36vh); }
+    .narracao { font-size: 1.4rem; }
+    .placar dt { font-size: .76rem; }
+    .placar dd { font-size: 1.8rem; }
+    .codigo pre { font-size: .9rem; }
+    .abas button { font-size: 1.1rem; min-height: 56px; }
+    .var { font-size: 1.12rem; }
+    .expr { font-size: 1.06rem; }
+    .caixa { min-width: 44px; height: 38px; font-size: 1.05rem; }
+    .tab-dist { font-size: 1rem; }
+    .tab-dist th, .tab-dist td { min-width: 36px; }
+    .pilha li { font-size: .98rem; }
+  }
+
+  /* ---------- botão de tema claro / escuro ---------- */
+  .topo { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; }
+  .topo > div { min-width: 0; }
+  .tema {
+    flex: none; display: inline-flex; align-items: center; gap: 7px;
+    min-height: 44px; padding: 0 14px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--linha); background: var(--papel); color: var(--tinta);
+    box-shadow: var(--sombra); font-family: var(--corpo); font-size: .9rem; font-weight: 600;
+  }
+  .tema:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+  .tema .ic { font-size: 1.05rem; line-height: 1; }
+</style>
+</head>
+<body>
+
+<div class="folha">
+
+  <header class="topo">
+    <div>
+      <p class="eyebrow">Estrutura de Dados · Aula 14</p>
+      <h1>Grafos passo a passo</h1>
+      <p class="subtitulo">Escolha a busca e toque em <b>Próximo passo</b>. Você acompanha ao mesmo tempo o vértice que o método está olhando, a linha que o Java está executando e a <b>fila</b> da BFS ou a <b>pilha</b> da DFS.</p>
+    </div>
+    <button class="tema" id="tema" type="button" aria-pressed="false">
+      <span class="ic" aria-hidden="true">☾</span><span class="rt">Escuro</span>
+    </button>
+  </header>
+
+  <div class="coluna esq">
+  <div class="abas" role="tablist" aria-label="Algoritmo">
+    <button role="tab" aria-selected="true"  data-alg="bfs">BFS</button>
+    <button role="tab" aria-selected="false" data-alg="caminho">Caminho</button>
+    <button role="tab" aria-selected="false" data-alg="dfs">DFS</button>
+    <button role="tab" aria-selected="false" data-alg="ciclo">Ciclo</button>
+  </div>
+
+  <section class="palco" aria-live="polite">
+    <svg class="grafo" id="grafo" viewBox="0 0 820 410" role="img" aria-label="Desenho do grafo no passo atual"></svg>
+    <div class="aux" id="aux"></div>
+    <p class="narracao" id="narracao"></p>
+    <dl class="placar">
+      <div><dt id="rotulo-1">Vizinhos examinados</dt><dd id="c-1">0</dd></div>
+      <div><dt id="rotulo-2">Na fila</dt><dd id="c-2">0</dd></div>
+      <div><dt id="rotulo-3">Visitados</dt><dd id="c-3">0</dd></div>
+    </dl>
+  </section>
+
+  <div class="bloco-controles">
+    <div class="controles">
+      <button id="anterior" type="button" aria-label="Passo anterior">◀</button>
+      <button id="proximo" type="button">Próximo passo</button>
+      <button id="tocar" type="button">▶ Tocar</button>
+      <button id="reiniciar" type="button" aria-label="Recomeçar">↺</button>
+    </div>
+    <div style="margin-top:10px">
+      <span class="progresso"><i id="barra-progresso" style="width:0%"></i></span>
+      <p class="passo-conta" id="passo-conta">passo 1 de 1</p>
+    </div>
+  </div>
+
+  <h2 class="t-entradas">Experimente outro caso</h2>
+  <div class="entradas" id="entradas"></div>
+  <p class="nota" id="dica-preset"></p>
+
+  <div class="legenda" id="legenda"></div>
+  </div>
+
+  <div class="coluna dir">
+  <h2 class="t-codigo">O código que está rodando</h2>
+  <div class="metodos" id="metodos" aria-label="Métodos deste caso; o destacado está executando"></div>
+  <div class="codigo"><pre id="codigo"></pre></div>
+
+  <section class="vars" aria-live="polite">
+    <h3>Variáveis de quem está executando agora</h3>
+    <div class="vars-lista" id="vars-lista"></div>
+    <p class="expr" id="expr" hidden></p>
+    <div class="pilha">
+      <h3>Pilha de chamadas — quem está executando é o topo, destacado</h3>
+      <ol id="pilha"></ol>
+    </div>
+  </section>
+
+  <p class="nota nota-codigo" id="nota-codigo"></p>
+  </div>
+
+  <footer>
+    Estrutura de Dados — 3º período do Bacharelado em Sistemas de Informação — UNITINS<br>
+    Prof. Me. Alysson Martins Bruno
+  </footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ---------------------------------------------------------------
+     O código exibido: o mesmo dos slides e do texto-base da Aula 14.
+     Onde o slide mostra só um trecho (DFS com pilha, bfsComPais,
+     possuiCiclo), vale o método inteiro do texto-base. O índice de
+     cada linha é o que os passos usam em `linha`; o trecho depois de
+     "//" é pintado como comentário.
+  --------------------------------------------------------------- */
+  var CODIGO = {
+    bfs: [
+      "List<String> bfs(String origem) {",
+      "    List<String> ordem = new ArrayList<>();",
+      "    Set<String> visitados = new HashSet<>();",
+      "    Deque<String> fila = new ArrayDeque<>();",
+      "    visitados.add(origem);                    // marca ao ENTRAR na fila",
+      "    fila.addLast(origem);",
+      "    while (!fila.isEmpty()) {",
+      "        String atual = fila.pollFirst();      // tira da FRENTE",
+      "        ordem.add(atual);",
+      "        for (String vizinho : vizinhos(atual)) {",
+      "            if (!visitados.contains(vizinho)) {",
+      "                visitados.add(vizinho);",
+      "                fila.addLast(vizinho);        // põe no FIM",
+      "            }",
+      "        }",
+      "    }",
+      "    return ordem;",
+      "}"
+    ],
+    componentes: [
+      "List<List<String>> componentes() {",
+      "    List<List<String>> partes = new ArrayList<>();",
+      "    Set<String> alcancados = new HashSet<>();",
+      "    for (String v : adj.keySet()) {",
+      "        if (!alcancados.contains(v)) {",
+      "            List<String> parte = bfs(v);      // tudo o que a BFS alcança",
+      "            alcancados.addAll(parte);",
+      "            partes.add(parte);",
+      "        }",
+      "    }",
+      "    return partes;",
+      "}"
+    ],
+    caminhoMaisCurto: [
+      "List<String> caminhoMaisCurto(String origem, String destino) {",
+      "    Map<String, Integer> distancia = new HashMap<>();",
+      "    Map<String, String> pai = bfsComPais(origem, distancia);",
+      "    List<String> caminho = new ArrayList<>();",
+      "    if (!distancia.containsKey(destino)) return caminho;   // sem caminho: vazia",
+      "    for (String v = destino; v != null; v = pai.get(v)) {",
+      "        caminho.add(0, v);                  // põe na frente",
+      "    }",
+      "    return caminho;",
+      "}"
+    ],
+    bfsComPais: [
+      "Map<String, String> bfsComPais(String origem, Map<String, Integer> distancia) {",
+      "    Map<String, String> pai = new HashMap<>();",
+      "    Deque<String> fila = new ArrayDeque<>();",
+      "    distancia.put(origem, 0);",
+      "    fila.addLast(origem);",
+      "    while (!fila.isEmpty()) {",
+      "        String atual = fila.pollFirst();",
+      "        for (String vizinho : vizinhos(atual)) {",
+      "            if (!distancia.containsKey(vizinho)) {      // ainda não descoberto",
+      "                distancia.put(vizinho, distancia.get(atual) + 1);",
+      "                pai.put(vizinho, atual);",
+      "                fila.addLast(vizinho);",
+      "            }",
+      "        }",
+      "    }",
+      "    return pai;",
+      "}"
+    ],
+    dfs: [
+      "List<String> dfs(String origem) {",
+      "    List<String> ordem = new ArrayList<>();",
+      "    dfsVisitar(origem, new HashSet<>(), ordem);",
+      "    return ordem;",
+      "}"
+    ],
+    dfsVisitar: [
+      "void dfsVisitar(String atual, Set<String> visitados, List<String> ordem) {",
+      "    visitados.add(atual);",
+      "    ordem.add(atual);",
+      "    for (String vizinho : vizinhos(atual)) {",
+      "        if (!visitados.contains(vizinho)) {",
+      "            dfsVisitar(vizinho, visitados, ordem);   // desce",
+      "        }",
+      "    }",
+      "    // ao sair do for, a chamada termina: é a volta",
+      "}"
+    ],
+    dfsComPilha: [
+      "List<String> dfsComPilha(String origem) {",
+      "    List<String> ordem = new ArrayList<>();",
+      "    Set<String> visitados = new HashSet<>();",
+      "    Deque<String> pilha = new ArrayDeque<>();",
+      "    pilha.push(origem);",
+      "    while (!pilha.isEmpty()) {",
+      "        String atual = pilha.pop();",
+      "        if (visitados.contains(atual)) {",
+      "            continue;                       // já visitado por outro caminho",
+      "        }",
+      "        visitados.add(atual);",
+      "        ordem.add(atual);",
+      "        List<String> viz = vizinhos(atual);",
+      "        for (int i = viz.size() - 1; i >= 0; i--) {   // de trás para frente",
+      "            if (!visitados.contains(viz.get(i))) {",
+      "                pilha.push(viz.get(i));",
+      "            }",
+      "        }",
+      "    }",
+      "    return ordem;",
+      "}"
+    ],
+    possuiCiclo: [
+      "public boolean possuiCiclo() {",
+      "    Map<String, Estado> estados = new HashMap<>();",
+      "    for (String modulo : grafo.keySet()) {",
+      "        estados.put(modulo, Estado.NAO_VISITADO);",
+      "    }",
+      "    for (String modulo : grafo.keySet()) {",
+      "        if (estados.get(modulo) == Estado.NAO_VISITADO",
+      "                && detectarCicloDFS(modulo, estados)) {",
+      "            return true;",
+      "        }",
+      "    }",
+      "    return false;",
+      "}"
+    ],
+    detectarCicloDFS: [
+      "private boolean detectarCicloDFS(String atual, Map<String, Estado> estados) {",
+      "    estados.put(atual, Estado.VISITANDO);              // entra no caminho",
+      "    for (String vizinho : grafo.get(atual)) {",
+      "        Estado estadoVizinho = estados.get(vizinho);",
+      "        if (estadoVizinho == Estado.VISITANDO) {",
+      "            return true;                               // voltou ao caminho: ciclo",
+      "        }",
+      "        if (estadoVizinho == Estado.NAO_VISITADO",
+      "                && detectarCicloDFS(vizinho, estados)) {",
+      "            return true;",
+      "        }",
+      "    }",
+      "    estados.put(atual, Estado.VISITADO);               // sai do caminho",
+      "    return false;",
+      "}"
+    ]
+  };
+
+  /* Os métodos de cada caso, na ordem em que um chama o outro. */
+  var METODOS = {
+    bfs: ["bfs"], componentes: ["componentes", "bfs"], caminho: ["caminhoMaisCurto", "bfsComPais"],
+    dfs: ["dfs", "dfsVisitar"], dfsPilha: ["dfsComPilha"], ciclo: ["possuiCiclo", "detectarCicloDFS"]
+  };
+
+  /* Variáveis mostradas no painel, na ordem do código, para o método do topo da pilha. */
+  var VARIAVEIS = {
+    bfs: ["origem", "atual", "vizinho", "visitados"],
+    componentes: ["v", "parte", "alcancados"],
+    caminhoMaisCurto: ["origem", "destino", "v"],
+    bfsComPais: ["origem", "atual", "vizinho"],
+    dfs: ["origem"],
+    dfsVisitar: ["atual", "vizinho", "visitados"],
+    dfsComPilha: ["atual", "i", "visitados"],
+    possuiCiclo: ["modulo"],
+    detectarCicloDFS: ["atual", "vizinho", "estadoVizinho"]
+  };
+
+  var RAW = "https://raw.githubusercontent.com/alyssonbruno/publicacao/main/ED/AULA14/";
+  var LINK_GRAFOS = '<a href="' + RAW + 'GrafosApp.java">GrafosApp.java</a>';
+  var NOTAS = {
+    bfs: "É o mesmo código dos slides e do texto-base da aula. Cada passo acende a linha que o Java está executando. No programa do laboratório, a <code>bfs</code> recebe um segundo parâmetro, que só liga a impressão da fila a cada passo. O programa pronto para colar no OneCompiler vai anexado à aula no Classroom e está em " + LINK_GRAFOS + ".",
+    componentes: "É o método <code>componentes</code> do programa do laboratório, em que a chamada é <code>bfs(v, false)</code>: o <code>false</code> só desliga a impressão. A BFS chamada aqui é a da aba anterior; para não repetir os passos dela, cada chamada aparece num passo só. O programa está em " + LINK_GRAFOS + ".",
+    caminho: "É o mesmo código dos slides e do texto-base. A execução <b>salta</b> de um método para o outro: o <code>caminhoMaisCurto</code> chama a <code>bfsComPais</code> e espera a volta — a pilha mostra quem chamou quem. O programa pronto para colar no OneCompiler está em " + LINK_GRAFOS + ".",
+    dfs: "É o mesmo código dos slides e do texto-base. Numa chamada recursiva, a execução <b>salta</b> para o começo do <code>dfsVisitar</code> e só volta quando a chamada termina: é a pilha de chamadas que guarda o caminho de volta. No programa do laboratório, o <code>dfsVisitar</code> tem dois parâmetros a mais, só para imprimir o rastro “entra em” e “volta de”. O programa está em " + LINK_GRAFOS + ".",
+    dfsPilha: "É o método inteiro do texto-base (o slide mostra o miolo). Aqui não há recursão: a pilha de chamadas tem um método só, e quem guarda o caminho é a pilha explícita, desenhada debaixo do grafo, com o topo à esquerda. O programa está em " + LINK_GRAFOS + ".",
+    ciclo: "É o mesmo código dos slides e do texto-base (seção 8.3). No programa do laboratório, a linha do ciclo também imprime a seta encontrada, e os testes do <code>&amp;&amp;</code> estão em dois <code>if</code>, um dentro do outro, com o mesmo efeito. O programa pronto está em <a href=\"" + RAW + "DetectorDependencias.java\">DetectorDependencias.java</a>."
+  };
+
+  /* ------------------------------ os grafos ------------------------------
+     A rede da aula (fig14-rede-exemplo.svg), com os mesmos lugares relativos:
+     A à esquerda, B em cima e C embaixo, D, E e F em linha, G e H à parte.
+     A lista de cada vértice segue a ordem em que os cabos foram ligados, como
+     no LinkedHashMap do GrafosApp.java. Nos testes do detector, a ordem do
+     keySet() é a que o HashMap do OpenJDK 21 devolveu (conferida executando). */
+  var REDE_POS = { A: [70, 205], B: [200, 88], C: [200, 322], D: [335, 205], E: [470, 205], F: [605, 205], G: [750, 110], H: [750, 300] };
+  var REDE_ARESTAS = [["A", "B"], ["A", "C"], ["B", "D"], ["C", "D"], ["D", "E"], ["E", "F"], ["G", "H"]];
+  var MODULOS_POS = { App: [110, 205], Services: [390, 88], Database: [670, 205], Utils: [390, 322] };
+  var DEFS = {
+    rede:   { dir: false, pos: REDE_POS, arestas: REDE_ARESTAS },
+    redeCE: { dir: false, pos: REDE_POS, arestas: REDE_ARESTAS.concat([["C", "E"]]), curvas: { "C|E": [372, 336] } },
+    teste1: { dir: true, pos: MODULOS_POS, chaves: ["App", "Services", "Utils", "Database"],
+              deps: [["App", ["Services", "Utils"]], ["Services", ["Database"]], ["Database", ["Utils"]]] },
+    teste2: { dir: true, pos: { ModuloA: [410, 88], ModuloB: [640, 322], ModuloC: [180, 322] },
+              chaves: ["ModuloA", "ModuloC", "ModuloB"],
+              deps: [["ModuloA", ["ModuloB"]], ["ModuloB", ["ModuloC"]], ["ModuloC", ["ModuloA"]]] },
+    teste3: { dir: true, pos: MODULOS_POS, chaves: ["App", "Services", "Utils", "Database"],
+              deps: [["App", ["Services", "Utils"]], ["Services", ["Database"]], ["Database", ["Utils"]], ["Utils", ["App"]]] }
+  };
+
+  var W = 820, H = 410, R = 38, ALT = 64, SETA = 24;
+  var cacheGrafos = {};
+
+  function chaveAresta(dir, a, b) { return dir ? a + ">" + b : (a < b ? a + "|" + b : b + "|" + a); }
+
+  function grafoDe(gid) {
+    if (cacheGrafos[gid]) { return cacheGrafos[gid]; }
+    var d = DEFS[gid], g = { gid: gid, dir: d.dir, pos: d.pos, nomes: [], adj: {}, arestas: [], larg: {}, chaves: d.chaves || null }, k, j;
+    function vertice(v) { if (!g.adj[v]) { g.adj[v] = []; g.nomes.push(v); } }
+    if (!d.dir) {
+      for (k = 0; k < d.arestas.length; k++) {
+        var a = d.arestas[k][0], b = d.arestas[k][1], ch = chaveAresta(false, a, b);
+        vertice(a); vertice(b);
+        g.adj[a].push(b); g.adj[b].push(a);   // não direcionado: o cabo serve nos dois sentidos
+        g.arestas.push({ a: a, b: b, key: ch, curva: (d.curvas && d.curvas[ch]) || null });
+      }
+    } else {
+      for (k = 0; k < d.deps.length; k++) {
+        var mod = d.deps[k][0], deps = d.deps[k][1];
+        vertice(mod);
+        for (j = 0; j < deps.length; j++) {
+          vertice(deps[j]);
+          g.adj[mod].push(deps[j]);
+          g.arestas.push({ a: mod, b: deps[j], key: chaveAresta(true, mod, deps[j]), curva: null });
+        }
+      }
+      /* seta de ida e de volta entre os mesmos dois módulos: as duas viram curvas */
+      for (k = 0; k < g.arestas.length; k++) {
+        var e = g.arestas[k], volta = chaveAresta(true, e.b, e.a);
+        for (j = 0; j < g.arestas.length; j++) {
+          if (g.arestas[j].key === volta) {
+            var pa = g.pos[e.a], pb = g.pos[e.b], dx = pb[0] - pa[0], dy = pb[1] - pa[1], L = Math.sqrt(dx * dx + dy * dy);
+            e.curva = [(pa[0] + pb[0]) / 2 - dy / L * 52, (pa[1] + pb[1]) / 2 + dx / L * 52];
+          }
+        }
+      }
+      for (k = 0; k < g.nomes.length; k++) { g.larg[g.nomes[k]] = Math.max(120, g.nomes[k].length * 18 + 44); }
+    }
+    g.chave = function (a, b) { return chaveAresta(g.dir, a, b); };
+    cacheGrafos[gid] = g;
+    return g;
+  }
+
+  /* --------------------------- textos curtos --------------------------- */
+  function q(x) { return '<span class="num">' + x + "</span>"; }
+  function txtLista(arr) { return "[" + arr.join(", ") + "]"; }
+  function lista(arr) { return q(txtLista(arr)); }
+  function txtConj(arr) { return "{" + arr.slice().sort().join(", ") + "}"; }
+  function txtMapa(m) {
+    var k = Object.keys(m).sort(), out = [], i;
+    for (i = 0; i < k.length; i++) { out.push(k[i] + "=" + m[k[i]]); }
+    return "{" + out.join(", ") + "}";
+  }
+  function listaE(arr) {
+    if (arr.length < 2) { return arr.join(""); }
+    return arr.slice(0, -1).join(", ") + " e " + arr[arr.length - 1];
+  }
+  function ordinal(i) { return i + "º"; }
+  function cond(texto, valores, ok) { return { texto: texto, valores: valores, ok: !!ok }; }
+  function copiar(o) {
+    var r = {}, k;
+    for (k in o) { if (Object.prototype.hasOwnProperty.call(o, k)) { r[k] = o[k]; } }
+    return r;
+  }
+  var NOME_ESTADO = { branco: "NAO_VISITADO", cinza: "VISITANDO", preto: "VISITADO" };
+
+  /* ------------------------- máquina de passos -------------------------
+     Guarda o estado de cada vértice e de cada aresta, a pilha de chamadas
+     e as estruturas do algoritmo, e tira uma "foto" a cada passo. */
+  function Maquina(gid) {
+    var k;
+    this.g = grafoDe(gid);
+    this.gid = gid;
+    this.passos = [];
+    this.frames = [];
+    this.est = {};      // vértice -> branco | fila | feito | c1 | c2 | cinza | preto
+    this.ar = {};       // aresta -> arv | vista | caminho | ciclo
+    this.seta = {};     // aresta -> [de, para]: quem descobriu quem
+    this.selo = {};     // número no canto do vértice (ordem ou distância)
+    this.sub = {};      // texto embaixo do vértice (o pai)
+    this.verde = {};    // vértices do caminho
+    this.atual = null; this.viz = null; this.rotAtual = "atual";
+    this.ex = 0;        // vizinhos (ou setas) examinados
+    this.fila = null; this.ordem = null; this.pilhaExp = null; this.dist = null; this.pai = null;
+    this.caminho = null; this.partes = null; this.chaves = null; this.alcancados = null;
+    for (k = 0; k < this.g.nomes.length; k++) { this.est[this.g.nomes[k]] = "branco"; }
+  }
+  Maquina.prototype.chamar = function (metodo, rot, vars, publico, conta) {
+    this.frames.push({ metodo: metodo, rot: rot, vars: vars, publico: !!publico, conta: !!conta });
+  };
+  Maquina.prototype.voltar = function () { this.frames.pop(); };
+  Maquina.prototype.topo = function () { return this.frames[this.frames.length - 1]; };
+  Maquina.prototype.foto = function (o) {
+    var t = this.topo(), pilha = [], k, conta = 0, partes = null;
+    for (k = this.frames.length - 1; k >= 0; k--) {
+      pilha.push({ rot: this.frames[k].rot, publico: this.frames[k].publico });
+      if (this.frames[k].conta) { conta++; }
+    }
+    if (this.partes) { partes = []; for (k = 0; k < this.partes.length; k++) { partes.push(this.partes[k].slice()); } }
+    this.passos.push({
+      gid: this.gid, metodo: o.metodo || (t ? t.metodo : null), linha: o.linha, texto: o.texto,
+      vars: t ? copiar(t.vars) : {}, destaque: o.destaque || "", expr: o.expr || null,
+      pilha: pilha, chamadas: conta,
+      est: copiar(this.est), ar: copiar(this.ar), seta: copiar(this.seta), selo: copiar(this.selo),
+      sub: copiar(this.sub), verde: copiar(this.verde),
+      atual: o.atual !== undefined ? o.atual : this.atual, viz: o.viz !== undefined ? o.viz : this.viz,
+      rotAtual: o.rotAtual || this.rotAtual, exam: o.exam || null, marca: o.marca || null, mudou: o.mudou || null,
+      ex: this.ex,
+      fila: this.fila ? this.fila.slice() : null, ordem: this.ordem ? this.ordem.slice() : null,
+      pilhaExp: this.pilhaExp ? this.pilhaExp.map(function (e) { return { v: e.v, de: e.de }; }) : null,
+      visitados: o.visitados || null,
+      dist: this.dist ? copiar(this.dist) : null, pai: this.pai ? copiar(this.pai) : null,
+      caminho: this.caminho ? this.caminho.slice() : null, partes: partes,
+      chaves: this.chaves ? { lista: this.chaves.lista.slice(), pos: this.chaves.pos } : null,
+      alcancados: this.alcancados ? this.alcancados.length : 0
+    });
+  };
+
+  /* -------------------------------- BFS -------------------------------- */
+  function passosBfs(pr) {
+    var m = new Maquina(pr.grafo), g = m.g, origem = pr.origem, vis = [], paiDe = {}, k, ultimo = null, graus = [];
+    m.fila = []; m.ordem = [];
+    m.chamar("bfs", "bfs(" + origem + ")", { origem: origem, atual: null, vizinho: null, visitados: null });
+    var fr = m.topo();
+
+    m.foto({ linha: 0, destaque: "origem", texto: pr.abertura });
+    fr.vars.visitados = txtConj(vis);
+    m.foto({ linha: [1, 3], destaque: "visitados",
+      texto: "Cria o que a BFS usa: a lista <b>ordem</b> (o resultado), o conjunto <b>visitados</b> e a <b>fila</b>. Os três começam vazios." });
+    vis.push(origem); m.est[origem] = "fila"; fr.vars.visitados = txtConj(vis);
+    m.foto({ linha: 4, destaque: "visitados",
+      texto: "Marca o " + q(origem) + " como visitado <b>antes</b> de pôr na fila: é a regra de <b>marcar ao entrar</b>." });
+    m.fila.push(origem);
+    m.foto({ linha: 5, marca: ["fila", origem], texto: "O " + q(origem) + " entra na fila: " + lista(m.fila) + "." });
+
+    while (true) {
+      var vazia = m.fila.length === 0;
+      fr.vars.vizinho = null; m.viz = null;
+      m.foto({ linha: 6, expr: cond("!fila.isEmpty()", "!" + txtLista(m.fila) + ".isEmpty()", !vazia),
+        texto: (ultimo ? "Acabaram os vizinhos do " + q(ultimo) + ". " : "") +
+               (vazia ? "A fila está <b>vazia</b>: o laço termina."
+                      : "A fila tem " + q(m.fila.length) + (m.fila.length === 1 ? " vértice" : " vértices") + ": o laço " + (ultimo ? "continua." : "começa.")) });
+      if (vazia) { break; }
+
+      var atual = m.fila.shift();
+      m.atual = atual; m.est[atual] = "feito"; fr.vars.atual = atual;
+      m.foto({ linha: 7, destaque: "atual",
+        texto: "Tira da <b>frente</b> da fila: atual = " + q(atual) + ". A fila fica " + lista(m.fila) + "." });
+      m.ordem.push(atual); m.selo[atual] = m.ordem.length;
+      m.foto({ linha: 8, marca: ["ordem", atual],
+        texto: "O " + q(atual) + " entra na ordem: é o " + ordinal(m.ordem.length) + " a sair da fila." });
+
+      var viz = g.adj[atual];
+      graus.push(viz.length);
+      for (k = 0; k < viz.length; k++) {
+        var w = viz[k], ch = g.chave(atual, w), novo, onde;
+        fr.vars.vizinho = w; m.viz = w; m.ex++;
+        m.foto({ linha: 9, destaque: "vizinho", exam: [atual, w],
+          texto: k === 0
+            ? "Os vizinhos do " + q(atual) + ", na ordem da lista: " + lista(viz) + ". " + (viz.length === 1 ? "Só um: o " : "Primeiro: o ") + q(w) + "."
+            : "Próximo vizinho do " + q(atual) + ": o " + q(w) + "." });
+        novo = vis.indexOf(w) < 0;
+        if (!novo) {
+          if (paiDe[atual] === w) { onde = "foi ele quem descobriu o " + q(atual); }
+          else if (m.fila.indexOf(w) >= 0) { onde = "está na fila, descoberto pelo " + q(paiDe[w]); }
+          else { onde = "já saiu da fila"; }
+          if (m.ar[ch] !== "arv") { m.ar[ch] = "vista"; }
+        }
+        m.foto({ linha: 10, exam: [atual, w], expr: cond("!visitados.contains(vizinho)", "!" + txtConj(vis) + ".contains(" + w + ")", novo),
+          texto: novo ? "O " + q(w) + " ainda não foi visto: é <b>novo</b>."
+                      : "O " + q(w) + " já foi visto (" + onde + "). <b>Não entra de novo</b> na fila." });
+        if (novo) {
+          vis.push(w); paiDe[w] = atual; m.est[w] = "fila"; m.ar[ch] = "arv"; m.seta[ch] = [atual, w];
+          fr.vars.visitados = txtConj(vis);
+          m.foto({ linha: 11, destaque: "visitados",
+            texto: "Marca o " + q(w) + " como visitado. Quem descobriu o " + q(w) + " foi o " + q(atual) + ": é a seta laranja." });
+          m.fila.push(w);
+          m.foto({ linha: 12, marca: ["fila", w], texto: "O " + q(w) + " vai para o <b>fim</b> da fila: " + lista(m.fila) + "." });
+        }
+      }
+      ultimo = atual;
+    }
+
+    m.atual = null; m.viz = null; fr.vars.vizinho = null;
+    var fora = [], soma = 0;
+    for (k = 0; k < g.nomes.length; k++) { if (m.est[g.nomes[k]] === "branco") { fora.push(g.nomes[k]); } }
+    for (k = 0; k < graus.length; k++) { soma += graus[k]; }
+    m.foto({ linha: 16,
+      texto: "Devolve " + lista(m.ordem) + ". Vizinhos examinados: " + q(graus.join(" + ") + " = " + soma) +
+             ", o dobro das " + q(soma / 2) + " arestas alcançadas: é o <b>O(V + E)</b>." +
+             (fora.length ? " " + listaE(fora) + " nunca " + (fora.length === 1 ? "entrou" : "entraram") + " na fila." : "") });
+    return m.passos;
+  }
+
+  /* BFS sem passos, para os componentes: devolve a ordem e quem descobriu quem. */
+  function bfsDireta(g, origem) {
+    var vis = [origem], fila = [origem], ordem = [], seta = {}, atual, k, w;
+    while (fila.length) {
+      atual = fila.shift(); ordem.push(atual);
+      for (k = 0; k < g.adj[atual].length; k++) {
+        w = g.adj[atual][k];
+        if (vis.indexOf(w) < 0) { vis.push(w); fila.push(w); seta[g.chave(atual, w)] = [atual, w]; }
+      }
+    }
+    return { ordem: ordem, seta: seta };
+  }
+
+  /* ---------------------------- Componentes ---------------------------- */
+  function passosComponentes(pr) {
+    var m = new Maquina(pr.grafo), g = m.g, k, j, ch;
+    m.partes = []; m.alcancados = []; m.chaves = { lista: g.nomes.slice(), pos: -1 };
+    m.chamar("componentes", "componentes()", { v: null, parte: null, alcancados: null });
+    var fr = m.topo();
+    m.foto({ linha: 0,
+      texto: "Quais partes da rede estão ligadas por dentro? A ideia: uma BFS a partir de cada vértice que <b>ninguém alcançou ainda</b>." });
+    fr.vars.alcancados = txtConj(m.alcancados);
+    m.foto({ linha: [1, 2], destaque: "alcancados", texto: "A lista <b>partes</b> e o conjunto <b>alcancados</b> começam vazios." });
+
+    for (k = 0; k < g.nomes.length; k++) {
+      var v = g.nomes[k], ja = m.alcancados.indexOf(v) >= 0;
+      m.chaves.pos = k; fr.vars.v = v; m.atual = v; m.rotAtual = "v";
+      if (ja) {
+        m.foto({ linha: 4, destaque: "v", expr: cond("!alcancados.contains(v)", "!" + txtConj(m.alcancados) + ".contains(" + v + ")", false),
+          texto: "v = " + q(v) + ". Já foi alcançado pela BFS que começou no " + q(m.partes[m.partes.length - 1][0]) + ": <b>pula</b>." });
+        continue;
+      }
+      m.foto({ linha: 3, destaque: "v",
+        texto: k === 0 ? "Percorre os vértices na ordem em que foram criados. Primeiro: v = " + q(v) + "." : "Próximo vértice: v = " + q(v) + "." });
+      m.foto({ linha: 4, expr: cond("!alcancados.contains(v)", "!" + txtConj(m.alcancados) + ".contains(" + v + ")", true),
+        texto: "Ninguém alcançou o " + q(v) + " ainda: ele começa uma parte nova." });
+      var r = bfsDireta(g, v), cor = "c" + (m.partes.length + 1);
+      for (j = 0; j < r.ordem.length; j++) { m.est[r.ordem[j]] = cor; }
+      for (ch in r.seta) { if (Object.prototype.hasOwnProperty.call(r.seta, ch)) { m.ar[ch] = "arv"; m.seta[ch] = r.seta[ch]; } }
+      fr.vars.parte = txtLista(r.ordem);
+      m.foto({ linha: 5, destaque: "parte",
+        texto: "<b>bfs(" + v + ")</b> roda inteira (é a da aba anterior) e devolve tudo o que alcança a partir do " + q(v) + ": " + lista(r.ordem) + "." });
+      for (j = 0; j < r.ordem.length; j++) { m.alcancados.push(r.ordem[j]); }
+      fr.vars.alcancados = txtConj(m.alcancados);
+      m.foto({ linha: 6, destaque: "alcancados", texto: "Todos eles passam para o conjunto <b>alcancados</b>: nenhum vai começar outra BFS." });
+      m.partes.push(r.ordem.slice());
+      m.foto({ linha: 7, texto: "A parte entra na lista: é o <b>componente " + m.partes.length + "</b>." });
+    }
+
+    m.chaves.pos = g.nomes.length; m.atual = null; m.rotAtual = "atual";
+    m.foto({ linha: 10,
+      texto: "Devolve " + q(m.partes.length) + " partes: " + m.partes.map(lista).join(" e ") +
+             ". Cada vértice foi alcançado por uma BFS só, e o total continua <b>O(V + E)</b>." });
+    return m.passos;
+  }
+
+  /* ------------------------------- Caminho ------------------------------- */
+  function passosCaminho(pr) {
+    var m = new Maquina(pr.grafo), g = m.g, origem = pr.origem, destino = pr.destino, k, ultimo = null;
+    m.dist = {}; m.pai = {};
+    m.chamar("caminhoMaisCurto", "caminhoMaisCurto(" + origem + ", " + destino + ")", { origem: origem, destino: destino, v: null });
+    var fc = m.topo();
+    m.foto({ linha: 0, destaque: "destino",
+      texto: "Qual é o caminho com <b>menos saltos</b> do " + q(origem) + " até o " + q(destino) + "? A resposta é uma BFS que anota, para cada vértice, <b>quem o descobriu</b>: o pai." });
+    m.foto({ linha: 1, texto: "O mapa <b>distancia</b> começa vazio. A BFS vai preenchê-lo." });
+    m.foto({ linha: 2,
+      texto: "Chama a <b>bfsComPais</b>. O mapa distancia vai junto e volta preenchido; o que a chamada devolve é o mapa <b>pai</b>." });
+
+    m.chamar("bfsComPais", "bfsComPais(" + origem + ", distancia)", { origem: origem, atual: null, vizinho: null });
+    var fr = m.topo();
+    m.fila = [];
+    m.foto({ linha: 0, destaque: "origem", texto: "Entrou na BFS que anota os pais. É a BFS da primeira aba, com duas anotações a mais." });
+    m.foto({ linha: [1, 2], texto: "Cria o mapa <b>pai</b> e a <b>fila</b>, vazios." });
+    m.dist[origem] = 0; m.selo[origem] = 0; m.sub[origem] = "origem"; m.est[origem] = "fila";
+    m.foto({ linha: 3, mudou: origem,
+      texto: "O " + q(origem) + " está a " + q(0) + " saltos de si mesmo. Aqui, ter distância faz o papel de <b>visitado</b>: quem tem distância já foi descoberto." });
+    m.fila.push(origem);
+    m.foto({ linha: 4, marca: ["fila", origem], texto: "O " + q(origem) + " entra na fila: " + lista(m.fila) + "." });
+
+    while (true) {
+      var vazia = m.fila.length === 0;
+      fr.vars.vizinho = null; m.viz = null;
+      m.foto({ linha: 5, expr: cond("!fila.isEmpty()", "!" + txtLista(m.fila) + ".isEmpty()", !vazia),
+        texto: (ultimo ? "Acabaram os vizinhos do " + q(ultimo) + ". " : "") +
+               (vazia ? "A fila está <b>vazia</b>: o laço termina."
+                      : "A fila tem " + q(m.fila.length) + (m.fila.length === 1 ? " vértice" : " vértices") + ": o laço " + (ultimo ? "continua." : "começa.")) });
+      if (vazia) { break; }
+      var atual = m.fila.shift();
+      m.atual = atual; m.est[atual] = "feito"; fr.vars.atual = atual;
+      m.foto({ linha: 6, destaque: "atual",
+        texto: "Tira da frente da fila: atual = " + q(atual) + ", a " + q(m.dist[atual]) + (m.dist[atual] === 1 ? " salto" : " saltos") + " da origem." });
+      var viz = g.adj[atual];
+      for (k = 0; k < viz.length; k++) {
+        var w = viz[k], ch = g.chave(atual, w), novo;
+        fr.vars.vizinho = w; m.viz = w; m.ex++;
+        m.foto({ linha: 7, destaque: "vizinho", exam: [atual, w],
+          texto: k === 0
+            ? "Os vizinhos do " + q(atual) + ": " + lista(viz) + ". " + (viz.length === 1 ? "Só um: o " : "Primeiro: o ") + q(w) + "."
+            : "Próximo vizinho do " + q(atual) + ": o " + q(w) + "." });
+        novo = !(w in m.dist);
+        if (!novo && m.ar[ch] !== "arv") { m.ar[ch] = "vista"; }
+        m.foto({ linha: 8, exam: [atual, w], expr: cond("!distancia.containsKey(vizinho)", "!" + txtMapa(m.dist) + ".containsKey(" + w + ")", novo),
+          texto: novo ? "O " + q(w) + " ainda não tem distância: foi descoberto agora."
+                      : "O " + q(w) + " já tem distância (" + q(m.dist[w]) + "): já foi descoberto, nada muda." });
+        if (novo) {
+          m.dist[w] = m.dist[atual] + 1; m.selo[w] = m.dist[w]; m.est[w] = "fila";
+          m.foto({ linha: 9, exam: [atual, w], mudou: w,
+            texto: "Distância do " + q(w) + " = distância do " + q(atual) + " + 1 = " + q(m.dist[atual] + " + 1 = " + m.dist[w]) + "." });
+          m.pai[w] = atual; m.sub[w] = "pai: " + atual; m.ar[ch] = "arv"; m.seta[ch] = [atual, w];
+          m.foto({ linha: 10, mudou: w, texto: "O pai do " + q(w) + " é o " + q(atual) + ": foi ele quem descobriu o " + q(w) + "." });
+          m.fila.push(w);
+          m.foto({ linha: 11, marca: ["fila", w], texto: "O " + q(w) + " vai para o fim da fila: " + lista(m.fila) + "." });
+        }
+      }
+      ultimo = atual;
+    }
+
+    m.atual = null; m.viz = null;
+    var semDist = [];
+    for (k = 0; k < g.nomes.length; k++) { if (!(g.nomes[k] in m.dist)) { semDist.push(g.nomes[k]); } }
+    m.foto({ linha: 15,
+      texto: "Devolve o mapa <b>pai</b>." + (semDist.length ? " " + listaE(semDist) + " ficaram sem distância: a BFS não chega lá." : " Todos os vértices ganharam distância.") });
+    m.voltar();
+    m.fila = null;
+
+    var pares = [];
+    for (k = 0; k < g.nomes.length; k++) { if (m.pai[g.nomes[k]]) { pares.push(g.nomes[k] + " ← " + m.pai[g.nomes[k]]); } }
+    m.foto({ linha: 2, texto: "De volta ao caminhoMaisCurto. O mapa pai: " + q(pares.join(", ")) + "." });
+    m.caminho = [];
+    m.foto({ linha: 3, texto: "A lista <b>caminho</b> começa vazia." });
+    var tem = destino in m.dist;
+    m.foto({ linha: 4, expr: cond("!distancia.containsKey(destino)", "!" + txtMapa(m.dist) + ".containsKey(" + destino + ")", !tem),
+      texto: tem ? "O " + q(destino) + " tem distância (" + q(m.dist[destino]) + "): a BFS chegou lá, há caminho."
+                 : "O " + q(destino) + " não tem distância: a BFS a partir do " + q(origem) + " nunca chegou lá. Devolve a lista <b>vazia</b>, " + q("[]") + "." });
+    if (!tem) {
+      m.foto({ linha: 4, texto: "<b>caminhoMaisCurto(" + origem + ", " + destino + ")</b> devolve " + q("[]") + ". " + pr.fim });
+      return m.passos;
+    }
+
+    var v = destino, anterior = null;
+    m.rotAtual = "v";
+    while (true) {
+      fc.vars.v = v === null ? "null" : v; m.atual = v;
+      if (v === null) {
+        m.foto({ linha: 5, destaque: "v", atual: null, expr: cond("v != null", "null != null", false),
+          texto: "O " + q(origem) + " é a origem e não tem pai: pai.get(" + origem + ") devolve <b>null</b>, e o laço para." });
+        break;
+      }
+      m.foto({ linha: 5, destaque: "v", expr: cond("v != null", v + " != null", true),
+        texto: anterior === null ? "Começa pelo <b>destino</b>: v = " + q(v) + "."
+                                 : "Sobe para o pai: v = pai.get(" + anterior + ") = " + q(v) + "." });
+      m.caminho.unshift(v); m.verde[v] = true;
+      if (anterior !== null) { m.ar[g.chave(v, anterior)] = "caminho"; }
+      m.foto({ linha: 6, marca: ["caminho", v], texto: "Põe o " + q(v) + " na <b>frente</b> do caminho: " + lista(m.caminho) + "." });
+      anterior = v;
+      v = m.pai[v] || null;
+    }
+    m.atual = null; m.rotAtual = "atual";
+    m.foto({ linha: 8,
+      texto: "Devolve " + lista(m.caminho) + ": " + q(m.caminho.length - 1) + " saltos. Lido de trás para frente e posto sempre na frente, o caminho sai na ordem certa. " + pr.fim });
+    return m.passos;
+  }
+
+  /* ---------------------------- DFS recursiva ---------------------------- */
+  function passosDfs(pr) {
+    var m = new Maquina(pr.grafo), g = m.g, origem = pr.origem, vis = [], paiDfs = {}, k;
+    m.ordem = [];
+    m.chamar("dfs", "dfs(" + origem + ")", { origem: origem }, true, false);
+    m.foto({ linha: 0, destaque: "origem", texto: pr.abertura });
+    m.foto({ linha: 1, texto: "A lista <b>ordem</b>, o resultado, começa vazia." });
+    m.foto({ linha: 2,
+      texto: "Cria o conjunto <b>visitados</b> e chama dfsVisitar(" + origem + "). O <b>mesmo</b> conjunto vai passar de chamada em chamada." });
+    visitar(origem, null);
+    m.atual = null; m.viz = null;
+    m.foto({ linha: 2, texto: "dfsVisitar(" + origem + ") terminou: tudo o que o " + q(origem) + " alcança já foi visitado." });
+
+    if (pr.destacar) {
+      var cam = [], x = pr.destacar;
+      while (x) { cam.unshift(x); x = paiDfs[x] || null; }
+      for (k = 0; k < cam.length; k++) {
+        m.verde[cam[k]] = true;
+        if (k > 0) { m.ar[g.chave(cam[k - 1], cam[k])] = "caminho"; }
+      }
+    }
+    m.foto({ linha: 3, texto: "Devolve a ordem " + lista(m.ordem) + ". " + pr.fim });
+    return m.passos;
+
+    function caminhoNaPilha() {
+      var r = [], i;
+      for (i = 0; i < m.frames.length; i++) { if (m.frames[i].metodo === "dfsVisitar") { r.push(m.frames[i].vars.atual); } }
+      return r;
+    }
+
+    function visitar(x, de) {
+      var i, w, ch, novo, resto;
+      m.chamar("dfsVisitar", "dfsVisitar(" + x + ")", { atual: x, vizinho: null, visitados: txtConj(vis) }, false, true);
+      var fr = m.topo();
+      m.atual = x; m.viz = null;
+      m.foto({ linha: 0, destaque: "atual",
+        texto: de === null
+          ? "Entra no " + q(x) + ": é a primeira chamada."
+          : "Entra no " + q(x) + ". A chamada do " + q(de) + " fica <b>esperando</b>; a pilha guarda o caminho " + q(caminhoNaPilha().join(", ")) + "." });
+      vis.push(x); m.est[x] = "fila"; fr.vars.visitados = txtConj(vis);
+      m.foto({ linha: 1, destaque: "visitados", texto: "Marca o " + q(x) + " como visitado." });
+      m.ordem.push(x); m.selo[x] = m.ordem.length;
+      m.foto({ linha: 2, marca: ["ordem", x], texto: "O " + q(x) + " é o " + ordinal(m.ordem.length) + " visitado: ordem " + lista(m.ordem) + "." });
+
+      var viz = g.adj[x];
+      for (i = 0; i < viz.length; i++) {
+        w = viz[i]; ch = g.chave(x, w);
+        fr.vars.vizinho = w; m.viz = w; m.ex++;
+        m.foto({ linha: 3, destaque: "vizinho", exam: [x, w],
+          texto: i === 0
+            ? "Os vizinhos do " + q(x) + ": " + lista(viz) + ". " + (viz.length === 1 ? "Só um: o " : "Primeiro: o ") + q(w) + "."
+            : "Próximo vizinho do " + q(x) + ": o " + q(w) + "." });
+        novo = vis.indexOf(w) < 0;
+        if (!novo && m.ar[ch] !== "arv") { m.ar[ch] = "vista"; }
+        m.foto({ linha: 4, exam: [x, w], expr: cond("!visitados.contains(vizinho)", "!" + txtConj(vis) + ".contains(" + w + ")", novo),
+          texto: novo ? "O " + q(w) + " ainda não foi visitado: a busca <b>desce</b> para ele."
+                      : "O " + q(w) + " já foi visitado" + (w === de ? ": é de onde a busca acabou de vir" : "") + ". Não desce." });
+        if (novo) {
+          m.ar[ch] = "arv"; m.seta[ch] = [x, w]; paiDfs[w] = x;
+          m.foto({ linha: 5, exam: [x, w],
+            texto: "Chama dfsVisitar(" + w + "). A chamada do " + q(x) + " fica parada nesta linha, esperando a volta." });
+          visitar(w, x);
+          m.atual = x; m.viz = w; fr.vars.visitados = txtConj(vis);
+          resto = viz.slice(i + 1);
+          m.foto({ linha: 5, destaque: "visitados",
+            texto: "Voltou do " + q(w) + " para o " + q(x) + ", que continua de onde parou" +
+                   (resto.length ? ": ainda falta examinar " + q(listaE(resto)) + "." : ": não falta nenhum vizinho.") });
+        }
+      }
+      m.viz = null; m.est[x] = "feito";
+      m.foto({ linha: 8,
+        texto: (viz.length ? "Acabaram os vizinhos do " + q(x) + ": a chamada termina." : "O " + q(x) + " não tem vizinhos: a chamada termina.") +
+               (de === null ? " Era a primeira: a busca acabou." : " É a <b>volta</b> para o " + q(de) + ".") });
+      m.voltar();
+    }
+  }
+
+  /* -------------------------- DFS com pilha explícita -------------------------- */
+  function passosDfsPilha(pr) {
+    var m = new Maquina(pr.grafo), g = m.g, origem = pr.origem, vis = [], i, ultimo = null;
+    m.ordem = []; m.pilhaExp = [];
+    m.chamar("dfsComPilha", "dfsComPilha(" + origem + ")", { atual: null, viz: null, i: null, visitados: null });
+    var fr = m.topo();
+    function topoTxt() { var r = [], k; for (k = m.pilhaExp.length - 1; k >= 0; k--) { r.push(m.pilhaExp[k].v); } return txtLista(r); }
+
+    m.foto({ linha: 0, texto: pr.abertura });
+    fr.vars.visitados = txtConj(vis);
+    m.foto({ linha: [1, 3], destaque: "visitados",
+      texto: "Cria a lista <b>ordem</b>, o conjunto <b>visitados</b> e a <b>pilha</b>: um ArrayDeque usado como pilha, em que push põe no topo e pop tira do topo." });
+    m.pilhaExp.push({ v: origem, de: null }); m.est[origem] = "fila";
+    m.foto({ linha: 4, texto: "Empilha o " + q(origem) + ". Pilha: " + q(topoTxt()) + "." });
+
+    while (true) {
+      var vazia = m.pilhaExp.length === 0;
+      fr.vars.i = null; m.viz = null;
+      m.foto({ linha: 5, expr: cond("!pilha.isEmpty()", "!" + topoTxt() + ".isEmpty()", !vazia),
+        texto: (ultimo ? ultimo + " " : "") +
+               (vazia ? "A pilha está <b>vazia</b>: o laço termina."
+                      : "A pilha tem " + q(m.pilhaExp.length) + ": o laço " + (ultimo ? "continua" : "começa") + ". No topo está o " + q(m.pilhaExp[m.pilhaExp.length - 1].v) + ".") });
+      if (vazia) { break; }
+
+      var e = m.pilhaExp.pop(), x = e.v, ja = vis.indexOf(x) >= 0;
+      m.atual = x; fr.vars.atual = x; fr.vars.viz = null;
+      m.foto({ linha: 6, destaque: "atual", texto: "Tira do <b>topo</b>: atual = " + q(x) + ". Pilha: " + q(topoTxt()) + "." });
+      m.foto({ linha: 7, expr: cond("visitados.contains(atual)", txtConj(vis) + ".contains(" + x + ")", ja),
+        texto: ja ? "O " + q(x) + " <b>já foi visitado</b> por outro caminho: é uma cópia que tinha sobrado na pilha."
+                  : "O " + q(x) + " ainda não foi visitado: segue." });
+      if (ja) {
+        if (e.de && m.ar[g.chave(e.de, x)] !== "arv") { m.ar[g.chave(e.de, x)] = "vista"; }
+        m.foto({ linha: 8, texto: "<b>continue</b>: ignora a cópia e volta para o while." });
+        ultimo = "A cópia foi ignorada.";
+        continue;
+      }
+      vis.push(x); m.est[x] = "feito"; fr.vars.visitados = txtConj(vis);
+      if (e.de) { m.ar[g.chave(e.de, x)] = "arv"; m.seta[g.chave(e.de, x)] = [e.de, x]; }
+      m.foto({ linha: 10, destaque: "visitados",
+        texto: "Marca o " + q(x) + " como visitado." + (e.de ? " Quem o empilhou foi o " + q(e.de) + ": é por ali que a busca chegou." : "") });
+      m.ordem.push(x); m.selo[x] = m.ordem.length;
+      m.foto({ linha: 11, marca: ["ordem", x], texto: "O " + q(x) + " é o " + ordinal(m.ordem.length) + " visitado: ordem " + lista(m.ordem) + "." });
+      var viz = g.adj[x];
+      fr.vars.viz = txtLista(viz);
+      m.foto({ linha: 12, destaque: "viz", texto: "Os vizinhos do " + q(x) + ": " + lista(viz) + "." });
+
+      for (i = viz.length - 1; i >= 0; i--) {
+        var w = viz[i], ch = g.chave(x, w), novo, naPilha = false, k;
+        for (k = 0; k < m.pilhaExp.length; k++) { if (m.pilhaExp[k].v === w) { naPilha = true; } }
+        fr.vars.i = i; m.viz = w; m.ex++;
+        m.foto({ linha: 13, destaque: "i", exam: [x, w],
+          texto: i === viz.length - 1
+            ? (viz.length > 1 ? "Empilha <b>de trás para frente</b>: começa pelo último vizinho, i = " + q(i) + ", o " + q(w) + "."
+                              : "Um vizinho só: i = " + q(i) + ", o " + q(w) + ".")
+            : "i = " + q(i) + ": o " + q(w) + "." });
+        novo = vis.indexOf(w) < 0;
+        if (!novo && m.ar[ch] !== "arv") { m.ar[ch] = "vista"; }
+        m.foto({ linha: 14, exam: [x, w], expr: cond("!visitados.contains(viz.get(i))", "!" + txtConj(vis) + ".contains(" + w + ")", novo),
+          texto: novo ? "O " + q(w) + " não foi visitado." + (naPilha ? " Ele já está na pilha, mas entra <b>de novo</b>: quem confere é o teste depois do pop." : "")
+                      : "O " + q(w) + " já foi visitado: não empilha." });
+        if (novo) {
+          m.pilhaExp.push({ v: w, de: x }); if (m.est[w] === "branco") { m.est[w] = "fila"; }
+          m.foto({ linha: 15, exam: [x, w], marca: ["pilha", w], texto: "Empilha o " + q(w) + ". Pilha: " + q(topoTxt()) + ", com o topo à esquerda." });
+        }
+      }
+      m.viz = null;
+      ultimo = "Acabaram os vizinhos do " + q(x) + ".";
+    }
+    m.atual = null; fr.vars.i = null;
+    m.foto({ linha: 19, texto: "Devolve a ordem " + lista(m.ordem) + ". " + pr.fim });
+    return m.passos;
+  }
+
+  /* --------------------------- Detector de ciclos --------------------------- */
+  function passosCiclo(pr) {
+    var m = new Maquina(pr.grafo), g = m.g, est = m.est, raizDe = {}, k, achou = false;
+    m.chaves = { lista: g.chaves.slice(), pos: -1 };
+    m.chamar("possuiCiclo", "possuiCiclo()", { modulo: null }, true, false);
+    var fp = m.topo();
+
+    m.foto({ linha: 0, texto: pr.abertura });
+    m.foto({ linha: 1, texto: "O mapa <b>estados</b> guarda o estado de cada módulo." });
+    m.foto({ linha: [2, 4], texto: "Todos os módulos começam <b>NAO_VISITADO</b>: brancos." });
+
+    for (k = 0; k < g.chaves.length; k++) {
+      var mod = g.chaves[k], branco = est[mod] === "branco";
+      m.chaves.pos = k; fp.vars.modulo = mod; m.atual = mod; m.viz = null; m.rotAtual = "modulo";
+      m.foto({ linha: 5, destaque: "modulo",
+        texto: k === 0
+          ? "Percorre as chaves do mapa. O HashMap devolve " + q(g.chaves.join(", ")) + (pr.ordemDiferente ? ": não é a ordem em que foram criadas." : ".") + " Primeiro: " + q(mod) + "."
+          : "Próximo módulo: " + q(mod) + "." });
+      m.foto({ linha: 6, expr: cond("estados.get(modulo) == Estado.NAO_VISITADO", NOME_ESTADO[est[mod]] + " == NAO_VISITADO", branco),
+        texto: branco ? q(mod) + " está branco: começa uma DFS a partir dele."
+                      : q(mod) + " já está preto: a DFS que começou em " + q(raizDe[mod]) + " já passou por ele. <b>Pula</b>." });
+      if (!branco) { continue; }
+      m.foto({ linha: 7, texto: "Chama detectarCicloDFS(" + mod + ")." });
+      var r = detectar(mod, null, mod);
+      m.atual = mod; m.viz = null; m.rotAtual = "modulo";
+      if (r) {
+        m.foto({ linha: 7, texto: "detectarCicloDFS(" + mod + ") devolveu <b>true</b>: o && é verdadeiro." });
+        m.foto({ linha: 8, texto: "possuiCiclo() devolve <b>true</b>. " + pr.fim });
+        achou = true;
+        break;
+      }
+      m.foto({ linha: 7, texto: "detectarCicloDFS(" + mod + ") devolveu <b>false</b>: a partir de " + q(mod) + ", nenhuma seta volta ao caminho." });
+    }
+    if (!achou) {
+      m.chaves.pos = g.chaves.length; m.atual = null; m.rotAtual = "atual";
+      m.foto({ linha: 11, texto: "Acabaram os módulos, e nenhuma DFS achou uma seta de volta: possuiCiclo() devolve <b>false</b>. " + pr.fim });
+    }
+    return m.passos;
+
+    function caminhoCinza() {
+      var r = [], i;
+      for (i = 0; i < m.frames.length; i++) { if (m.frames[i].metodo === "detectarCicloDFS") { r.push(m.frames[i].vars.atual); } }
+      return r;
+    }
+
+    function detectar(x, de, raiz) {
+      var i, w, ch, ev, deps = g.adj[x], r;
+      m.chamar("detectarCicloDFS", "detectarCicloDFS(" + x + ")", { atual: x, vizinho: null, estadoVizinho: null }, false, true);
+      var fr = m.topo();
+      m.atual = x; m.viz = null; m.rotAtual = "atual";
+      m.foto({ linha: 0, destaque: "atual",
+        texto: de === null ? "Entra em " + q(x) + "." : "Entra em " + q(x) + ". A chamada de " + q(de) + " fica esperando na pilha." });
+      est[x] = "cinza"; raizDe[x] = raiz;
+      m.foto({ linha: 1, texto: q(x) + " fica <b>cinza</b> (VISITANDO): está no caminho atual, " + q(caminhoCinza().join(" → ")) + "." });
+      if (!deps.length) {
+        m.foto({ linha: 2, texto: q(x) + " não depende de ninguém: a lista está vazia e o for nem roda." });
+      }
+      for (i = 0; i < deps.length; i++) {
+        w = deps[i]; ch = g.chave(x, w);
+        fr.vars.vizinho = w; fr.vars.estadoVizinho = null; m.viz = w; m.ex++;
+        m.foto({ linha: 2, destaque: "vizinho", exam: [x, w],
+          texto: i === 0
+            ? q(x) + " depende de " + q(listaE(deps)) + ". " + (deps.length === 1 ? "A seta: " : "Primeira seta: ") + q(x + " → " + w) + "."
+            : "Próxima seta: " + q(x + " → " + w) + "." });
+        ev = est[w]; fr.vars.estadoVizinho = NOME_ESTADO[ev];
+        m.foto({ linha: 3, destaque: "estadoVizinho", exam: [x, w], texto: q(w) + " está " + NOME_ESTADO[ev] + ": " + ev + "." });
+        if (ev === "cinza") {
+          m.foto({ linha: 4, exam: [x, w], expr: cond("estadoVizinho == Estado.VISITANDO", "VISITANDO == VISITANDO", true),
+            texto: q(w) + " está <b>cinza</b>: a seta " + q(x + " → " + w) + " volta para alguém do caminho em andamento." });
+          var cam = caminhoCinza(), ini = cam.indexOf(w);
+          m.ar[ch] = "ciclo";
+          m.foto({ linha: 5, exam: null,
+            texto: "<b>Ciclo!</b> " + q(cam.slice(ini).concat([w]).join(" → ")) + ". Devolve true. O programa do laboratório imprime: " + q(x + " -> " + w) + "." });
+          m.voltar();
+          return true;
+        }
+        m.foto({ linha: 4, exam: [x, w], expr: cond("estadoVizinho == Estado.VISITANDO", NOME_ESTADO[ev] + " == VISITANDO", false),
+          texto: q(w) + " não está cinza: esta seta não volta ao caminho." });
+        if (ev === "preto" && m.ar[ch] !== "arv") { m.ar[ch] = "vista"; }
+        m.foto({ linha: 7, exam: [x, w], expr: cond("estadoVizinho == Estado.NAO_VISITADO", NOME_ESTADO[ev] + " == NAO_VISITADO", ev === "branco"),
+          texto: ev === "branco" ? q(w) + " está branco: a busca <b>desce</b> para ele."
+                                 : q(w) + " está <b>preto</b>: já foi fechado por outro ramo, e dele não se volta. <b>Não é ciclo</b>; o && para aqui." });
+        if (ev === "branco") {
+          m.ar[ch] = "arv";
+          m.foto({ linha: 8, exam: [x, w], texto: "Chama detectarCicloDFS(" + w + "). A chamada de " + q(x) + " espera a resposta." });
+          r = detectar(w, x, raiz);
+          m.atual = x; m.viz = w; m.rotAtual = "atual";
+          if (r) {
+            m.foto({ linha: 9, texto: "Voltou <b>true</b>: " + q(x) + " repassa a resposta para quem o chamou." });
+            m.voltar();
+            return true;
+          }
+          m.foto({ linha: 8, texto: "Voltou <b>false</b>: a partir de " + q(w) + " não há ciclo. " + q(x) + " segue para a próxima seta." });
+        }
+      }
+      m.viz = null; est[x] = "preto";
+      m.foto({ linha: 12, texto: "Acabaram as setas de " + q(x) + ": ele fica <b>preto</b> (VISITADO) e sai do caminho." });
+      m.foto({ linha: 13, texto: "Devolve <b>false</b>: a partir de " + q(x) + ", nenhuma seta volta ao caminho." });
+      m.voltar();
+      return false;
+    }
+  }
+
+  /* ------------------------------ os casos ------------------------------ */
+  var PRESETS = {
+    bfs: [
+      { id: "aula", rotulo: "Rede da aula, de A", tipo: "bfs", grafo: "rede", origem: "A",
+        abertura: "A rede da aula: 8 equipamentos e 7 cabos. A BFS parte do " + q("A") + " e anda em <b>camadas</b>: primeiro os vizinhos, depois os vizinhos dos vizinhos.",
+        dica: "A rede dos slides, a partir de A. A ordem de saída da fila é A, B, C, D, E, F. Repare no C: o D já estava na fila e não entra de novo. G e H nunca entram." },
+      { id: "cabo", rotulo: "Com o cabo C-E", tipo: "bfs", grafo: "redeCE", origem: "A",
+        abertura: "A mesma rede com um cabo novo entre " + q("C") + " e " + q("E") + ". O vizinho novo entra no fim das listas: o C passa a ter A, D, E.",
+        dica: "O cabo novo do Passo 4 do laboratório. A ordem continua A, B, C, D, E, F, mas agora é o C quem descobre o E." },
+      { id: "d", rotulo: "A partir de D", tipo: "bfs", grafo: "rede", origem: "D",
+        abertura: "A rede da aula, agora a partir do " + q("D") + ", o vértice de maior grau.",
+        dica: "O “Pare e tente” do texto-base: o D tem três vizinhos, que entram juntos na fila, [B, C, E]. Ordem: D, B, C, E, A, F." },
+      { id: "comp", rotulo: "Componentes", tipo: "componentes", grafo: "rede",
+        dica: "Uma BFS a partir de cada vértice que ninguém alcançou ainda. A que começa no A alcança A a F; a que começa no G alcança G e H. Duas partes." }
+    ],
+    caminho: [
+      { id: "af", rotulo: "De A até F", grafo: "rede", origem: "A", destino: "F",
+        fim: "É a resposta à pergunta da Aula 13.",
+        dica: "A resposta à pergunta da Aula 13: BFS anotando os pais e o caminho lido do destino para trás. De A até F: A, B, D, E, F, com 4 saltos." },
+      { id: "cabo", rotulo: "A até F com o cabo C-E", grafo: "redeCE", origem: "A", destino: "F",
+        fim: "O cabo C-E encurtou o caminho em um salto, e a BFS percebeu sozinha.",
+        dica: "Com o cabo C-E, o E é descoberto pelo C, a 2 saltos, e o caminho até F encurta para A, C, E, F: 3 saltos." },
+      { id: "ag", rotulo: "De A até G", grafo: "rede", origem: "A", destino: "G",
+        fim: "G está no prédio novo, sem cabo até o resto da rede.",
+        dica: "G está no prédio novo, sem ligação: a BFS a partir de A nunca chega lá, e o caminho volta vazio, []." }
+    ],
+    dfs: [
+      { id: "aula", rotulo: "Recursiva, de A", tipo: "dfs", grafo: "rede", origem: "A",
+        abertura: "A DFS desce por um caminho <b>até não ter mais para onde ir</b> e só então volta. Quem guarda o caminho de volta é a <b>pilha de chamadas</b> da recursão.",
+        fim: "A BFS deu A, B, C, D, E, F: a DFS só chegou ao C depois de mergulhar pelo B e pelo D.",
+        dica: "A DFS recursiva da aula. Ordem A, B, D, C, E, F. Ao chegar ao C, a pilha de chamadas tem A, B, D, C; o C não tem vizinho novo, e a busca volta para o D." },
+      { id: "pilha", rotulo: "Com pilha explícita", tipo: "dfsPilha", grafo: "rede", origem: "A",
+        abertura: "A mesma DFS, agora <b>sem recursão</b>: no lugar da pilha de chamadas do Java, uma pilha explícita, a da Aula 06.",
+        fim: "É a mesma ordem da DFS recursiva: empilhar de trás para frente faz o primeiro vizinho sair primeiro.",
+        dica: "A mesma DFS sem recursão, com a pilha da Aula 06. Empilhando de trás para frente, a ordem é a mesma: A, B, D, C, E, F. O C entra na pilha duas vezes." },
+      { id: "cabo", rotulo: "Com o cabo C-E", tipo: "dfs", grafo: "redeCE", origem: "A", destacar: "F",
+        abertura: "A DFS na rede com o cabo novo " + q("C-E") + ". Repare por onde ela chega ao " + q("F") + ".",
+        fim: "Em verde, o caminho que a DFS percorreu até o F: A, B, D, C, E, F, com 5 saltos. A BFS acha A, C, E, F, com 3: a DFS <b>não garante</b> o caminho mais curto.",
+        dica: "Com o cabo C-E, a DFS desce A, B, D, C, E e só então chega a F: 5 saltos. A BFS acha A, C, E, F, com 3." },
+      { id: "d", rotulo: "A partir de D", tipo: "dfs", grafo: "rede", origem: "D",
+        abertura: "A DFS a partir do " + q("D") + ". O primeiro vizinho do D é o B, e o primeiro vizinho do B é o A.",
+        fim: "É a resolução do “Pare e tente” do texto-base.",
+        dica: "O “Pare e tente” do texto-base: do D, a DFS desce para o B, do B para o A, do A para o C; volta até o D e desce para o E e o F. Ordem: D, B, A, C, E, F." }
+    ],
+    ciclo: [
+      { id: "t1", rotulo: "Teste 1: sem ciclo", grafo: "teste1",
+        abertura: "O Teste 1 do detector. A seta " + q("App → Services") + " quer dizer “App depende de Services”. Há ciclo de dependências?",
+        fim: "Há dois caminhos de App até Utils, mas nenhum volta.",
+        dica: "O Teste 1 do DetectorDependencias.java: há dois caminhos de App até Utils, mas nenhum volta. Quando a DFS chega a Utils pela segunda vez, ele já está preto. Resultado: false." },
+      { id: "t2", rotulo: "Teste 2: com ciclo", grafo: "teste2", ordemDiferente: true,
+        abertura: "O Teste 2 do detector: " + q("ModuloA → ModuloB → ModuloC → ModuloA") + ". Nenhum dos três pode ser compilado antes dos outros.",
+        fim: "Cada módulo espera o seguinte: nenhum pode ser compilado primeiro.",
+        dica: "O Teste 2: ModuloA → ModuloB → ModuloC → ModuloA. O vizinho do ModuloC é o ModuloA, ainda cinza: ciclo. O programa aponta ModuloC -> ModuloA." },
+      { id: "t3", rotulo: "Teste 1 + Utils → App", grafo: "teste3",
+        abertura: "O Teste 1 com uma dependência a mais, " + q("Utils → App") + ": é o Passo 5 do laboratório.",
+        fim: "Uma seta a mais bastou para fechar um ciclo de quatro módulos.",
+        dica: "O Passo 5 do laboratório: com a dependência Utils → App, o vizinho do Utils é o App, ainda cinza. O programa aponta Utils -> App." }
+    ]
+  };
+
+  var GERADORES = {
+    bfs: function (pr) { return pr.tipo === "componentes" ? passosComponentes(pr) : passosBfs(pr); },
+    caminho: passosCaminho,
+    dfs: function (pr) { return pr.tipo === "dfsPilha" ? passosDfsPilha(pr) : passosDfs(pr); },
+    ciclo: passosCiclo
+  };
+  function tipoDe(pr) { return pr.tipo || alg; }
+
+  /* contadores: [rótulo, valor] para cada um dos três */
+  function contar(p, tipo) {
+    var vist = 0, pretos = 0, k;
+    for (k in p.est) {
+      if (Object.prototype.hasOwnProperty.call(p.est, k)) {
+        if (p.est[k] !== "branco") { vist++; }
+        if (p.est[k] === "preto") { pretos++; }
+      }
+    }
+    switch (tipo) {
+      case "bfs": return [["Vizinhos examinados", p.ex], ["Na fila", p.fila.length], ["Visitados", vist]];
+      case "componentes": return [["Vértices", Object.keys(p.est).length], ["Alcançados", p.alcancados], ["Partes", p.partes.length]];
+      case "caminho": return [["Vizinhos examinados", p.ex], ["Na fila", p.fila ? p.fila.length : 0], ["No caminho", p.caminho ? p.caminho.length : 0]];
+      case "dfs": return [["Vizinhos examinados", p.ex], ["Na pilha", p.chamadas], ["Visitados", p.ordem.length]];
+      case "dfsPilha": return [["Vizinhos examinados", p.ex], ["Na pilha", p.pilhaExp.length], ["Visitados", p.ordem.length]];
+      default: return [["Setas examinadas", p.ex], ["Na pilha", p.chamadas], ["Pretos", pretos]];
+    }
+  }
+
+  var ANEL = "transparent;box-shadow:inset 0 0 0 3px var(--tinta)";
+  var ANEL_AZUL = "transparent;box-shadow:inset 0 0 0 3px var(--azul)";
+  var LEGENDAS = {
+    bfs: [
+      ["c", "var(--papel);box-shadow:inset 0 0 0 2px var(--tinta)", "ainda não descoberto"],
+      ["c", "var(--no-fila);box-shadow:inset 0 0 0 2px var(--laranja)", "na fila: descoberto, esperando a vez"],
+      ["c", "var(--no-feito)", "já saiu da fila"],
+      ["c", ANEL, "atual"], ["c", ANEL_AZUL, "vizinho examinado agora"],
+      ["l", "var(--laranja-f)", "quem descobriu quem"], ["t", "var(--tinta-fraca)", "examinada sem descobrir ninguém"],
+      ["s", "1", "ordem de saída da fila"]
+    ],
+    componentes: [
+      ["c", "var(--papel);box-shadow:inset 0 0 0 2px var(--tinta)", "ainda não alcançado"],
+      ["c", "var(--no-feito)", "componente 1"], ["c", "var(--no-c2)", "componente 2"],
+      ["c", ANEL, "v: o vértice da vez"], ["l", "var(--laranja-f)", "quem a BFS descobriu a partir de quem"]
+    ],
+    caminho: [
+      ["c", "var(--papel);box-shadow:inset 0 0 0 2px var(--tinta)", "sem distância ainda"],
+      ["c", "var(--no-fila);box-shadow:inset 0 0 0 2px var(--laranja)", "na fila"],
+      ["c", "var(--no-feito)", "já saiu da fila"],
+      ["c", ANEL, "atual (ou v, no caminho)"], ["c", ANEL_AZUL, "vizinho examinado agora"],
+      ["l", "var(--laranja-f)", "do pai para o filho"], ["s", "2", "distância em saltos"], ["l", "var(--verde)", "o caminho"]
+    ],
+    dfs: [
+      ["c", "var(--papel);box-shadow:inset 0 0 0 2px var(--tinta)", "não visitado"],
+      ["c", "var(--no-fila);box-shadow:inset 0 0 0 2px var(--laranja)", "visitado, chamada ainda na pilha"],
+      ["c", "var(--no-feito)", "visitado, chamada já voltou"],
+      ["c", ANEL, "atual"], ["c", ANEL_AZUL, "vizinho examinado agora"],
+      ["l", "var(--laranja-f)", "por onde a busca desceu"], ["t", "var(--tinta-fraca)", "vizinho já visitado"],
+      ["s", "1", "ordem de visita"]
+    ],
+    dfsPilha: [
+      ["c", "var(--papel);box-shadow:inset 0 0 0 2px var(--tinta)", "nunca empilhado"],
+      ["c", "var(--no-fila);box-shadow:inset 0 0 0 2px var(--laranja)", "na pilha, ainda não visitado"],
+      ["c", "var(--no-feito)", "visitado"],
+      ["c", ANEL, "atual"], ["c", ANEL_AZUL, "vizinho examinado agora"],
+      ["l", "var(--laranja-f)", "por onde a busca chegou"], ["t", "var(--tinta-fraca)", "vizinho já visitado"],
+      ["s", "1", "ordem de visita"]
+    ],
+    ciclo: [
+      ["q", "var(--papel);box-shadow:inset 0 0 0 2px var(--tinta)", "NAO_VISITADO (branco)"],
+      ["q", "var(--est-cinza)", "VISITANDO (cinza): no caminho atual"],
+      ["q", "var(--est-preto);box-shadow:0 0 0 1px var(--est-preto-borda)", "VISITADO (preto): fechado"],
+      ["q", ANEL, "atual"], ["l", "var(--azul)", "seta examinada agora"],
+      ["l", "var(--laranja-f)", "por onde a DFS desceu"], ["t", "var(--tinta-fraca)", "seta para um preto: não é ciclo"],
+      ["l", "var(--tijolo)", "seta para um cinza: ciclo"]
+    ]
+  };
+
+  /* --------------------------- estado da página --------------------------- */
+  var alg = "bfs", presetId = "aula", passos = [], indice = 0, tocando = null;
+
+  var elGrafo    = document.getElementById("grafo");
+  var elAux      = document.getElementById("aux");
+  var elNarracao = document.getElementById("narracao");
+  var elCodigo   = document.getElementById("codigo");
+  var elMetodos  = document.getElementById("metodos");
+  var elConta    = document.getElementById("passo-conta");
+  var elProg     = document.getElementById("barra-progresso");
+  var elDica     = document.getElementById("dica-preset");
+  var elNota     = document.getElementById("nota-codigo");
+  var elVars     = document.getElementById("vars-lista");
+  var elExpr     = document.getElementById("expr");
+  var elPilha    = document.getElementById("pilha");
+  var elLegenda  = document.getElementById("legenda");
+  var elEntradas = document.getElementById("entradas");
+  var btProximo  = document.getElementById("proximo");
+  var btAnterior = document.getElementById("anterior");
+  var btTocar    = document.getElementById("tocar");
+
+  function presetAtual() {
+    var l = PRESETS[alg], k;
+    for (k = 0; k < l.length; k++) { if (l[k].id === presetId) { return l[k]; } }
+    return l[0];
+  }
+  function escapar(t) {
+    return String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  /* --------------------------- desenho do grafo (SVG) --------------------------- */
+  var SVGNS = "http://www.w3.org/2000/svg";
+  function elSvg(tag, attrs, pai, texto) {
+    var e = document.createElementNS(SVGNS, tag), k;
+    for (k in attrs) { if (Object.prototype.hasOwnProperty.call(attrs, k)) { e.setAttribute(k, attrs[k]); } }
+    if (texto !== undefined) { e.textContent = texto; }
+    if (pai) { pai.appendChild(e); }
+    return e;
+  }
+  function unit(dx, dy) { var L = Math.sqrt(dx * dx + dy * dy) || 1; return [dx / L, dy / L]; }
+  function fx(x) { return Math.round(x * 10) / 10; }
+  /* distância do centro até a borda do vértice, na direção u */
+  function raio(g, nome, u) {
+    if (!g.dir) { return R; }
+    var hw = g.larg[nome] / 2, hh = ALT / 2;
+    var tx = Math.abs(u[0]) > 1e-6 ? hw / Math.abs(u[0]) : Infinity;
+    var ty = Math.abs(u[1]) > 1e-6 ? hh / Math.abs(u[1]) : Infinity;
+    return Math.min(tx, ty);
+  }
+  function aresta(g, de, para, curva, st, comSeta, camada) {
+    var pa = g.pos[de], pb = g.pos[para];
+    var u1 = unit((curva || pb)[0] - pa[0], (curva || pb)[1] - pa[1]);
+    var u2 = unit(pb[0] - (curva || pa)[0], pb[1] - (curva || pa)[1]);
+    var r1 = raio(g, de, u1) + 2, r2 = raio(g, para, u2) + (comSeta ? SETA + 3 : 2);
+    var s = [pa[0] + u1[0] * r1, pa[1] + u1[1] * r1], e = [pb[0] - u2[0] * r2, pb[1] - u2[1] * r2];
+    var d = "M" + fx(s[0]) + " " + fx(s[1]) + (curva ? " Q" + fx(curva[0]) + " " + fx(curva[1]) + " " : " L") + fx(e[0]) + " " + fx(e[1]);
+    var at = { d: d, "class": "ar " + st };
+    if (comSeta) { at["marker-end"] = "url(#seta-" + st + ")"; }
+    elSvg("path", at, camada);
+  }
+
+  function desenharGrafo(p) {
+    var g = grafoDe(p.gid), k, defs, cA, cN, cC;
+    while (elGrafo.firstChild) { elGrafo.removeChild(elGrafo.firstChild); }
+    elGrafo.setAttribute("viewBox", "0 0 " + W + " " + H);
+    defs = elSvg("defs", {}, elGrafo);
+    ["base", "arv", "vista", "exam", "caminho", "ciclo"].forEach(function (c) {
+      var mk = elSvg("marker", { id: "seta-" + c, viewBox: "0 0 10 10", refX: 0, refY: 5, markerWidth: SETA, markerHeight: SETA,
+                                 markerUnits: "userSpaceOnUse", orient: "auto" }, defs);
+      elSvg("path", { d: "M0 0 L10 5 L0 10 z", "class": "mk " + c }, mk);
+    });
+    cC = elSvg("g", {}, elGrafo); cA = elSvg("g", {}, elGrafo); cN = elSvg("g", {}, elGrafo);
+
+    /* as partes já encontradas, como na figura da rede: laranja e azul tracejados */
+    if (p.partes) {
+      for (k = 0; k < p.partes.length; k++) {
+        var x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity, j, ps, cls = "c" + (k + 1);
+        for (j = 0; j < p.partes[k].length; j++) {
+          ps = g.pos[p.partes[k][j]];
+          x0 = Math.min(x0, ps[0]); y0 = Math.min(y0, ps[1]); x1 = Math.max(x1, ps[0]); y1 = Math.max(y1, ps[1]);
+        }
+        elSvg("rect", { x: x0 - R - 20, y: y0 - R - 20, width: x1 - x0 + 2 * R + 40, height: y1 - y0 + 2 * R + 40, rx: 26, "class": "comp " + cls }, cC);
+        elSvg("text", { x: k === 0 ? x0 - R - 12 : x1 + R + 18, y: H - 8, "class": "comp-rot " + cls }, cC, "componente " + (k + 1));
+      }
+    }
+
+    for (k = 0; k < g.arestas.length; k++) {
+      var a = g.arestas[k], st = p.ar[a.key] || "base", de = a.a, para = a.b, comSeta = g.dir;
+      if (!g.dir && (st === "arv" || st === "caminho") && p.seta[a.key]) { de = p.seta[a.key][0]; para = p.seta[a.key][1]; comSeta = true; }
+      if (p.exam && g.chave(p.exam[0], p.exam[1]) === a.key) { st = "exam"; de = p.exam[0]; para = p.exam[1]; comSeta = true; }
+      aresta(g, de, para, a.curva, st, comSeta, cA);
+    }
+
+    for (k = 0; k < g.nomes.length; k++) {
+      var nome = g.nomes[k], ps2 = g.pos[nome], cx = ps2[0], cy = ps2[1];
+      var gr = elSvg("g", { "class": "v " + (p.est[nome] || "branco") + (g.dir ? " caixa" : "") }, cN);
+      var meiaL = g.dir ? g.larg[nome] / 2 : R, meiaA = g.dir ? ALT / 2 : R, off = 9, rotulo = "", clsRot = "tag";
+      var aneis = [];
+      if (p.atual === nome) { aneis.push("anel"); rotulo = p.rotAtual; }
+      if (p.viz === nome) { aneis.push("anel viz"); if (!rotulo) { rotulo = "vizinho"; clsRot = "tag viz"; } }
+      if (p.verde[nome]) { aneis.push("anel caminho"); }
+      if (g.dir) {
+        elSvg("rect", { x: cx - meiaL, y: cy - meiaA, width: 2 * meiaL, height: 2 * meiaA, rx: 16, "class": "corpo" }, gr);
+      } else {
+        elSvg("circle", { cx: cx, cy: cy, r: R, "class": "corpo" }, gr);
+      }
+      elSvg("text", { x: cx, y: cy, dy: "0.36em", "class": "nome" }, gr, nome);
+      for (var i = 0; i < aneis.length; i++) {
+        if (g.dir) {
+          elSvg("rect", { x: cx - meiaL - off, y: cy - meiaA - off, width: 2 * (meiaL + off), height: 2 * (meiaA + off), rx: 16 + off, "class": aneis[i] }, gr);
+        } else {
+          elSvg("circle", { cx: cx, cy: cy, r: R + off, "class": aneis[i] }, gr);
+        }
+        off += 10;
+      }
+      if (rotulo) { elSvg("text", { x: cx, y: cy - meiaA - 26 - (aneis.length > 1 ? 10 : 0), "class": clsRot }, gr, rotulo); }
+      if (p.selo[nome] !== undefined) {
+        var sl = elSvg("g", { "class": "selo" }, gr);
+        elSvg("circle", { cx: cx + R * 0.8, cy: cy - R * 0.8, r: 20 }, sl);
+        elSvg("text", { x: cx + R * 0.8, y: cy - R * 0.8, dy: "0.36em" }, sl, String(p.selo[nome]));
+      }
+      if (p.sub[nome]) { elSvg("text", { x: cx, y: cy + R + 34, "class": "sub" }, gr, p.sub[nome]); }
+    }
+  }
+
+  /* ------------------- fila, pilha, ordem, caminho e tabela ------------------- */
+  function caixas(arr, marcado, extra) {
+    var h = "", k, est;
+    if (!arr.length) { return '<span class="aux-vazio">[ ] vazia</span>'; }
+    for (k = 0; k < arr.length; k++) {
+      est = extra ? extra(arr[k], k) : "";
+      if (!est && marcado !== null && arr[k] === marcado) { est = "atual"; }
+      h += '<span class="caixa" data-estado="' + est + '">' + escapar(arr[k]) + "</span>";
+    }
+    return h;
+  }
+  function linha(rot, nota, conteudo) {
+    return '<div class="aux-linha"><b>' + rot + "</b>" + (nota ? "<small>" + nota + "</small>" : "") + conteudo + "</div>";
+  }
+  function desenharAux(p) {
+    var h = "", tab = "", k, marca = p.marca || [null, null], nomes;
+    function m(l) { return marca[0] === l ? marca[1] : null; }
+    if (p.fila) { h += linha("fila", "frente →", caixas(p.fila, m("fila"))); }
+    if (p.pilhaExp) {
+      var topo = p.pilhaExp.slice().reverse(), vis = p.ordem || [];
+      h += linha("pilha", "topo →", caixas(topo.map(function (e) { return e.v; }), null, function (v, i) {
+        if (i === 0 && marca[0] === "pilha") { return "atual"; }
+        return vis.indexOf(v) >= 0 ? "usado" : "";
+      }));
+    }
+    if (p.ordem) { h += linha("ordem", "", caixas(p.ordem, m("ordem"))); }
+    if (p.caminho) { h += linha("caminho", "", caixas(p.caminho, null, function (v) { return v === marca[1] && marca[0] === "caminho" ? "atual" : "caminho"; })); }
+    if (p.chaves) {
+      h += linha("keySet()", "", caixas(p.chaves.lista, null, function (v, i) {
+        return i < p.chaves.pos ? "feito" : (i === p.chaves.pos ? "atual" : "");
+      }));
+    }
+    if (p.partes) {
+      var gp = "";
+      for (k = 0; k < p.partes.length; k++) { gp += '<span class="grupo c' + (k + 1) + '">' + caixas(p.partes[k], null) + "</span>"; }
+      h += linha("partes", "", p.partes.length ? gp : '<span class="aux-vazio">[ ] vazia</span>');
+    }
+    if (p.dist) {
+      nomes = grafoDe(p.gid).nomes;
+      tab = '<table class="tab-dist"><thead><tr><th></th>';
+      for (k = 0; k < nomes.length; k++) { tab += "<th>" + nomes[k] + "</th>"; }
+      tab += "</tr></thead><tbody><tr><th>distancia</th>";
+      for (k = 0; k < nomes.length; k++) {
+        tab += '<td class="' + (nomes[k] in p.dist ? "" : "vazio") + (p.mudou === nomes[k] ? " mudou" : "") + '">' + (nomes[k] in p.dist ? p.dist[nomes[k]] : "—") + "</td>";
+      }
+      tab += "</tr><tr><th>pai</th>";
+      for (k = 0; k < nomes.length; k++) {
+        tab += '<td class="' + (p.pai[nomes[k]] ? "" : "vazio") + (p.mudou === nomes[k] ? " mudou" : "") + '">' + (p.pai[nomes[k]] || "—") + "</td>";
+      }
+      tab += "</tr></tbody></table>";
+      h = tab + (h ? '<div class="aux-col">' + h + "</div>" : "");
+    }
+    elAux.innerHTML = h;
+  }
+
+  function desenharVars(p) {
+    var nomes = VARIAVEIS[p.metodo] || [], html = "", k, valor, existe, i;
+    for (i = 0; i < nomes.length; i++) {
+      k = nomes[i];
+      valor = p.vars[k];
+      existe = valor !== null && valor !== undefined;
+      html += '<span class="var" data-mudou="' + (p.destaque === k) + '" data-indef="' + (!existe) + '">' +
+              "<b>" + k + "</b><i>" + (existe ? escapar(valor) : "—") + "</i></span>";
+    }
+    elVars.innerHTML = html;
+
+    if (p.expr) {
+      elExpr.hidden = false;
+      elExpr.innerHTML = "<code>" + escapar(p.expr.texto) + "</code>" +
+        "<s>→</s><code>" + escapar(p.expr.valores) + "</code>" +
+        '<s>→</s><em class="' + (p.expr.ok ? "sim" : "nao") + '">' + (p.expr.ok ? "verdadeiro" : "falso") + "</em>";
+    } else {
+      elExpr.hidden = true;
+      elExpr.innerHTML = "";
+    }
+
+    html = "";
+    for (i = 0; i < p.pilha.length; i++) {
+      html += "<li" + (p.pilha[i].publico ? ' class="publico"' : "") + ">" + escapar(p.pilha[i].rot) + "</li>";
+    }
+    elPilha.innerHTML = html || '<li class="vazia-pilha">vazia: nenhum método executando</li>';
+  }
+
+  var metodoDesenhado = null;
+  function desenharCodigo(metodo, linhaAtiva) {
+    var i, t, c, corte, html = "", ini, fim, nova;
+    if (metodo !== metodoDesenhado) {
+      var linhas = CODIGO[metodo];
+      for (i = 0; i < linhas.length; i++) {
+        t = linhas[i];
+        corte = t.indexOf("//");
+        c = corte < 0 ? escapar(t) : escapar(t.slice(0, corte)) + '<span class="cm">' + escapar(t.slice(corte)) + "</span>";
+        html += '<span class="ln" data-ln="' + i + '">' + (c || " ") + "</span>";
+      }
+      elCodigo.innerHTML = html;
+      metodoDesenhado = metodo;
+    }
+    Array.prototype.forEach.call(elCodigo.querySelectorAll(".ativa"), function (e) { e.classList.remove("ativa"); });
+    ini = typeof linhaAtiva === "number" ? linhaAtiva : linhaAtiva[0];
+    fim = typeof linhaAtiva === "number" ? linhaAtiva : linhaAtiva[1];
+    for (i = ini; i <= fim; i++) {
+      nova = elCodigo.querySelector('[data-ln="' + i + '"]');
+      if (nova) { nova.classList.add("ativa"); }
+    }
+  }
+
+  function desenharMetodos(p) {
+    var l = METODOS[tipoDe(presetAtual())], html = "", k;
+    for (k = 0; k < l.length; k++) { html += '<span data-ativo="' + (l[k] === p.metodo) + '">' + l[k] + "</span>"; }
+    elMetodos.innerHTML = html;
+  }
+
+  function desenharLegenda() {
+    var html = "", l = LEGENDAS[tipoDe(presetAtual())], i, it;
+    for (i = 0; i < l.length; i++) {
+      it = l[i];
+      if (it[0] === "l") { html += '<span><i class="chave-linha" style="border-top-color:' + it[1] + '"></i> ' + it[2] + "</span>"; }
+      else if (it[0] === "t") { html += '<span><i class="chave-linha trac" style="border-top-color:' + it[1] + '"></i> ' + it[2] + "</span>"; }
+      else if (it[0] === "s") { html += '<span><i class="chave-selo">' + it[1] + "</i> " + it[2] + "</span>"; }
+      else { html += '<span><i class="chave' + (it[0] === "q" ? " quadrada" : "") + '" style="background:' + it[1] + '"></i> ' + it[2] + "</span>"; }
+    }
+    elLegenda.innerHTML = html;
+  }
+
+  function desenharEntradas() {
+    var l = PRESETS[alg], html = "", k;
+    for (k = 0; k < l.length; k++) {
+      html += '<button type="button" data-preset="' + l[k].id + '" aria-pressed="' + (l[k].id === presetId) + '">' + l[k].rotulo + "</button>";
+    }
+    elEntradas.innerHTML = html;
+    elDica.textContent = presetAtual().dica;
+  }
+
+  function desenhar() {
+    var p = passos[indice], c = contar(p, tipoDe(presetAtual())), k;
+    desenharGrafo(p);
+    desenharAux(p);
+    elNarracao.innerHTML = p.texto;
+    desenharVars(p);
+    desenharMetodos(p);
+    desenharCodigo(p.metodo, p.linha);
+    for (k = 0; k < 3; k++) {
+      document.getElementById("rotulo-" + (k + 1)).textContent = c[k][0];
+      document.getElementById("c-" + (k + 1)).textContent = c[k][1];
+    }
+    elConta.textContent = "passo " + (indice + 1) + " de " + passos.length;
+    elProg.style.width = (passos.length < 2 ? 100 : (indice / (passos.length - 1)) * 100) + "%";
+    btAnterior.disabled = indice === 0;
+    btProximo.disabled = indice === passos.length - 1;
+    if (indice === passos.length - 1) { parar(); }
+  }
+
+  function recomecar() {
+    passos = GERADORES[alg](presetAtual());
+    indice = 0;
+    metodoDesenhado = null;
+    document.querySelector(".palco").classList.toggle("compacto", alg === "caminho" || presetAtual().tipo === "componentes");
+    elNota.innerHTML = NOTAS[tipoDe(presetAtual())];
+    desenharLegenda();
+    desenhar();
+  }
+
+  function parar() {
+    if (tocando) { clearInterval(tocando); tocando = null; }
+    btTocar.textContent = "▶ Tocar";
+  }
+
+  /* --------------------------- eventos --------------------------- */
+  btProximo.addEventListener("click", function () {
+    if (indice < passos.length - 1) { indice++; desenhar(); }
+  });
+  btAnterior.addEventListener("click", function () {
+    parar();
+    if (indice > 0) { indice--; desenhar(); }
+  });
+  document.getElementById("reiniciar").addEventListener("click", function () {
+    parar(); indice = 0; desenhar();
+  });
+  btTocar.addEventListener("click", function () {
+    if (tocando) { parar(); return; }
+    if (indice === passos.length - 1) { indice = 0; desenhar(); }
+    btTocar.textContent = "⏸ Pausar";
+    tocando = setInterval(function () {
+      if (indice < passos.length - 1) { indice++; desenhar(); } else { parar(); }
+    }, 900);
+  });
+  document.addEventListener("keydown", function (ev) {
+    if (ev.target && /^(INPUT|TEXTAREA|SELECT)$/.test(ev.target.tagName)) { return; }
+    if (ev.key === "ArrowRight") { btProximo.click(); }
+    else if (ev.key === "ArrowLeft") { btAnterior.click(); }
+  });
+
+  function escolherAlg(novo) {
+    alg = novo;
+    presetId = PRESETS[alg][0].id;
+    Array.prototype.forEach.call(document.querySelectorAll(".abas button"), function (o) {
+      o.setAttribute("aria-selected", String(o.getAttribute("data-alg") === alg));
+    });
+    desenharEntradas();
+    recomecar();
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll(".abas button"), function (b) {
+    b.addEventListener("click", function () {
+      parar();
+      try { localStorage.setItem("ed-aula14-alg", b.getAttribute("data-alg")); } catch (e) { /* sem armazenamento */ }
+      escolherAlg(b.getAttribute("data-alg"));
+    });
+  });
+
+  elEntradas.addEventListener("click", function (ev) {
+    var b = ev.target.closest ? ev.target.closest("button[data-preset]") : null;
+    if (!b) { return; }
+    parar();
+    presetId = b.getAttribute("data-preset");
+    desenharEntradas();
+    recomecar();
+  });
+
+  var inicial = "bfs";
+  try {
+    var salvo = localStorage.getItem("ed-aula14-alg");
+    if (salvo && GERADORES[salvo]) { inicial = salvo; }
+  } catch (e) { /* sem armazenamento */ }
+  escolherAlg(inicial);
+
+  /* Para a conferência automática: gera os passos de um caso sem desenhar,
+     ou vai direto a um caso e a um passo. */
+  window.__grafos = {
+    casos: function () { var r = {}, a; for (a in PRESETS) { if (Object.prototype.hasOwnProperty.call(PRESETS, a)) { r[a] = PRESETS[a].map(function (x) { return x.id; }); } } return r; },
+    gerar: function (a, id) { var al = alg, pr = presetId, r; alg = a; presetId = id; r = GERADORES[a](presetAtual()); alg = al; presetId = pr; return r; },
+    ir: function (a, id, passo) { parar(); escolherAlg(a); presetId = id; desenharEntradas(); recomecar(); indice = Math.max(0, Math.min(passo, passos.length - 1)); desenhar(); return passos.length; }
+  };
+})();
+</script>
+
+<script>
+(function () {
+  "use strict";
+  /* Botão de tema: alterna claro/escuro e lembra a escolha neste navegador.
+     Sem escolha salva, a página segue o tema do sistema (celular ou computador). */
+  var raiz = document.documentElement;
+  var bt = document.getElementById("tema");
+  var midia = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+
+  function atual() {
+    var t = raiz.getAttribute("data-theme");
+    if (t === "dark" || t === "light") { return t; }
+    return midia && midia.matches ? "dark" : "light";
+  }
+  function rotular() {
+    var escuro = atual() === "dark";
+    bt.querySelector(".ic").textContent = escuro ? "☀" : "☾";
+    bt.querySelector(".rt").textContent = escuro ? "Claro" : "Escuro";
+    bt.setAttribute("aria-label", escuro ? "Mudar para o modo claro" : "Mudar para o modo escuro");
+    bt.setAttribute("aria-pressed", String(escuro));
+  }
+  bt.addEventListener("click", function () {
+    var novo = atual() === "dark" ? "light" : "dark";
+    raiz.setAttribute("data-theme", novo);
+    try { localStorage.setItem("ed-visualizador-tema", novo); } catch (e) { /* sem armazenamento */ }
+    rotular();
+  });
+  if (midia) {
+    if (midia.addEventListener) { midia.addEventListener("change", rotular); }
+    else if (midia.addListener) { midia.addListener(rotular); }
+  }
+  rotular();
+})();
+</script>
+</body>
+</html>
